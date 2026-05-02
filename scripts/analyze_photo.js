@@ -45,19 +45,62 @@ Ensure your response is valid JSON.` }
     else if (ext === '.heic') mimeType = 'image/heic';
 
     parts.push({ inlineData: { mimeType, data: base64Image } });
+  } catch (err) {
+    console.error(`Error reading image ${imgPath}:`, err);
+    process.exit(1);
+  }
 
-    const filename = path.basename(imgPath);
+  const filename = path.basename(imgPath);
+  const nameParts = filename.replace(/\.[^.]+$/, '').split('_');
+
+  let matchedShelfId = 'unknown';
+  let bookDay = new Date().toISOString().split('T')[0];
+  let parsedMeta = null;
+
+  if (nameParts.length >= 3) {
+    // formats: <id>_<day>_<lat>_<long> OR <id>_<day>_<bookshelf_id>
+    const [id, day, part3, part4] = nameParts;
+    bookDay = day;
+
+    if (part4 !== undefined) {
+      parsedMeta = {
+        lat: parseFloat(part3),
+        lon: parseFloat(part4)
+      };
+    } else {
+      matchedShelfId = part3;
+    }
+  } else {
+    // Old format fallback: YYYYMMDD_HHMMSS_lat_lon
     const match = filename.match(/(\d{8}_\d{6})_([-\d.]+)_([-\d.]+)\.[a-zA-Z0-9]+$/);
     if (match) {
-      photoMeta = {
+      parsedMeta = {
         timestamp: match[1],
         lat: parseFloat(match[2]),
         lon: parseFloat(match[3])
       };
+      bookDay = `${match[1].substring(0, 4)}-${match[1].substring(4, 6)}-${match[1].substring(6, 8)}`;
     }
-  } catch (err) {
-    console.error(`Error reading image ${imgPath}:`, err);
-    process.exit(1);
+  }
+  photoMeta = parsedMeta;
+
+  // Distance-based shelf matching (only if shelf ID wasn't in filename)
+  if (photoMeta && matchedShelfId === 'unknown') {
+    try {
+      const bookshelves = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'public', 'data', 'bookshelves.json'), 'utf8'));
+      let minDistance = Infinity;
+      let closestShelfId = null;
+      for (const shelf of bookshelves) {
+        const dist = getDistanceFromLatLonInM(photoMeta.lat, photoMeta.lon, shelf.lat, shelf.lon);
+        if (dist < minDistance) {
+          minDistance = dist;
+          closestShelfId = shelf.id;
+        }
+      }
+      if (minDistance <= 500) {
+        matchedShelfId = closestShelfId;
+      }
+    } catch (e) { }
   }
 
   console.log("Image loaded. Calling Gemini API...");
@@ -88,6 +131,10 @@ Ensure your response is valid JSON.` }
     const textResponse = jsonRes.candidates[0].content.parts[0].text;
     geminiOutput = JSON.parse(textResponse);
   } catch (err) {
+    if (err.message.includes('429')) {
+      console.error("Quota exceeded (429). Exiting with code 42.");
+      process.exit(42);
+    }
     console.error("Error from Gemini API:", err);
     process.exit(1);
   }
@@ -99,34 +146,6 @@ Ensure your response is valid JSON.` }
   try {
     data = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
   } catch (e) { }
-
-  let matchedShelfId = 'unknown';
-  let bookDay = new Date().toISOString().split('T')[0];
-
-  if (photoMeta) {
-    // Match Shelf
-    try {
-      const bookshelves = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'public', 'data', 'bookshelves.json'), 'utf8'));
-      let minDistance = Infinity;
-      let closestShelfId = null;
-      for (const shelf of bookshelves) {
-        const dist = getDistanceFromLatLonInM(photoMeta.lat, photoMeta.lon, shelf.lat, shelf.lon);
-        if (dist < minDistance) {
-          minDistance = dist;
-          closestShelfId = shelf.id;
-        }
-      }
-      if (minDistance <= 500) {
-        matchedShelfId = closestShelfId;
-      }
-    } catch (e) { }
-
-    // Format Day
-    const yyyy = photoMeta.timestamp.substring(0, 4);
-    const mm = photoMeta.timestamp.substring(4, 6);
-    const dd = photoMeta.timestamp.substring(6, 8);
-    bookDay = `${yyyy}-${mm}-${dd}`;
-  }
 
   const unknownBooks = [];
   for (const book of geminiOutput) {
@@ -151,20 +170,32 @@ Ensure your response is valid JSON.` }
 
   fs.writeFileSync(dataPath, JSON.stringify(data, null, 2));
 
-  if (unknownBooks.length > 0 && photoMeta) {
-    const unknownFileName = `${photoMeta.timestamp}_${photoMeta.lat}_${photoMeta.lon}.json`;
+  if (unknownBooks.length > 0) {
+    const id = nameParts[0] || 'unknown';
+    let suffix = 'unknown';
+
+    if (photoMeta && photoMeta.lat && photoMeta.lon) {
+      suffix = `${photoMeta.lat}_${photoMeta.lon}`;
+    } else if (nameParts.length >= 3 && nameParts[2]) {
+      suffix = nameParts[2];
+    }
+
+    const dateStr = bookDay.replace(/-/g, '');
+    const unknownFileName = `${id}_${dateStr}_${suffix}.json`;
     const remediateDir = path.join(__dirname, '..', 'public', 'data', 'remediate');
-    
+
     if (!fs.existsSync(remediateDir)) {
       fs.mkdirSync(remediateDir, { recursive: true });
     }
-    
+
     const unknownPath = path.join(remediateDir, unknownFileName);
     fs.writeFileSync(unknownPath, JSON.stringify(unknownBooks, null, 2));
     console.log(`Saved ${unknownBooks.length} unknown books to remediate/${unknownFileName}`);
   }
 
-  console.log("Processing complete.");
+  console.log("Analysis complete.");
+  fs.unlinkSync(imgPath);
+  console.log(`Deleted analyzed photo: ${imgPath}`);
 }
 
 main();
