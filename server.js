@@ -14,9 +14,9 @@ const MIME_TYPES = {
 };
 
 const server = http.createServer((req, res) => {
-  let filePath = '.' + req.url;
-  if (filePath === './') {
-    filePath = './index.html';
+  let filePath = './public' + req.url;
+  if (req.url === '/') {
+    filePath = './public/index.html';
   }
 
   const extname = String(path.extname(filePath)).toLowerCase();

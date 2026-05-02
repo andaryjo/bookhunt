@@ -94,7 +94,7 @@ Ensure your response is valid JSON.` }
 
   console.log(`Successfully extracted ${geminiOutput.length} books.`);
 
-  const dataPath = path.join(__dirname, '..', 'data', 'books.json');
+  const dataPath = path.join(__dirname, '..', 'public', 'data', 'books.json');
   let data = [];
   try {
     data = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
@@ -106,7 +106,7 @@ Ensure your response is valid JSON.` }
   if (photoMeta) {
     // Match Shelf
     try {
-      const bookshelves = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'data', 'bookshelves.json'), 'utf8'));
+      const bookshelves = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'public', 'data', 'bookshelves.json'), 'utf8'));
       let minDistance = Infinity;
       let closestShelfId = null;
       for (const shelf of bookshelves) {
@@ -153,7 +153,7 @@ Ensure your response is valid JSON.` }
 
   if (unknownBooks.length > 0 && photoMeta) {
     const unknownFileName = `${photoMeta.timestamp}_${photoMeta.lat}_${photoMeta.lon}.json`;
-    const remediateDir = path.join(__dirname, '..', 'data', 'remediate');
+    const remediateDir = path.join(__dirname, '..', 'public', 'data', 'remediate');
     
     if (!fs.existsSync(remediateDir)) {
       fs.mkdirSync(remediateDir, { recursive: true });
