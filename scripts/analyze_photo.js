@@ -54,13 +54,19 @@ Ensure your response is valid JSON.` }
   const nameParts = filename.replace(/\.[^.]+$/, '').split('_');
 
   let matchedShelfId = 'unknown';
-  let bookDay = new Date().toISOString().split('T')[0];
+  let bookDate = new Date().toISOString().split('T')[0];
   let parsedMeta = null;
 
   if (nameParts.length >= 3) {
     // formats: <id>_<day>_<lat>_<long> OR <id>_<day>_<bookshelf_id>
     const [id, day, part3, part4] = nameParts;
-    bookDay = day;
+    
+    // Normalize day to YYYY-MM-DD if it comes as YYYYMMDD
+    if (day.length === 8 && !day.includes('-')) {
+      bookDate = `${day.substring(0, 4)}-${day.substring(4, 6)}-${day.substring(6, 8)}`;
+    } else {
+      bookDate = day;
+    }
 
     if (part4 !== undefined) {
       parsedMeta = {
@@ -79,7 +85,7 @@ Ensure your response is valid JSON.` }
         lat: parseFloat(match[2]),
         lon: parseFloat(match[3])
       };
-      bookDay = `${match[1].substring(0, 4)}-${match[1].substring(4, 6)}-${match[1].substring(6, 8)}`;
+      bookDate = `${match[1].substring(0, 4)}-${match[1].substring(4, 6)}-${match[1].substring(6, 8)}`;
     }
   }
   photoMeta = parsedMeta;
@@ -157,7 +163,7 @@ Ensure your response is valid JSON.` }
     const bookEntry = {
       title: title,
       author: author,
-      day: bookDay,
+      date: bookDate,
       bookshelfId: matchedShelfId
     };
 
@@ -180,7 +186,7 @@ Ensure your response is valid JSON.` }
       suffix = nameParts[2];
     }
 
-    const dateStr = bookDay.replace(/-/g, '');
+    const dateStr = bookDate.replace(/-/g, '');
     const unknownFileName = `${id}_${dateStr}_${suffix}.json`;
     const remediateDir = path.join(__dirname, '..', 'public', 'data', 'remediate');
 

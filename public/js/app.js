@@ -159,7 +159,7 @@ function showRecentBooks() {
     if (!aNearby && bNearby) return 1;
 
     // Both nearby or both far, sort by date
-    return new Date(b.day) - new Date(a.day);
+    return new Date(b.date) - new Date(a.date);
   });
 
   const recentBooks = allBooksWithMeta.slice(0, 50);
@@ -229,7 +229,7 @@ function showBookshelfDetails(shelf, updateUrl = true) {
   );
 
   // Sort by newest first
-  allBooks.sort((a, b) => new Date(b.day) - new Date(a.day));
+  allBooks.sort((a, b) => new Date(b.date) - new Date(a.date));
 
   renderBooks(allBooks, bookList, false);
 }
@@ -278,7 +278,7 @@ function renderBooks(
 
   books.forEach((book) => {
     // Extract date directly
-    const date = book.day || "Unknown";
+    const date = book.date || "Unknown";
     let shelfLinkHtml = "";
 
     if (showShelfLink) {
@@ -363,7 +363,7 @@ async function handleSearch(query, updateUrl = true) {
     }
   });
 
-  results.sort((a, b) => new Date(b.day) - new Date(a.day));
+  results.sort((a, b) => new Date(b.date) - new Date(a.date));
 
   searchList.innerHTML = "";
 
