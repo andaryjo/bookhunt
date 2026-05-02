@@ -3,6 +3,9 @@ name: Deploy GitHub Pages
 on:
   push:
     branches: ["main"]
+    paths:
+      - 'public/**'
+      - '.github/workflows/deploy.yml'
   workflow_dispatch:
 
 # Sets permissions of the GITHUB_TOKEN
