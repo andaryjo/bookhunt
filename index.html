@@ -1,112 +1,101 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" data-theme="dark">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ghost Bookshelf App</title>
-  
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  
-  <!-- PicoCSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
-  
-  <!-- Leaflet CSS -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin=""/>
-  <!-- Leaflet MarkerCluster CSS -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
-  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
-  
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-  <!-- Header -->
-  <header class="app-header">
-    <div class="brand">
-      <span style="font-size: 1.5rem;">📚</span>
-      <h1>Ghost Bookshelves</h1>
-    </div>
-    <div class="search-container">
-      <i data-lucide="search" class="search-icon"></i>
-      <input type="search" id="searchInput" placeholder="Search title, author, or ISBN..." />
-    </div>
-    <button class="upload-btn outline" id="openUploadBtn">
-      <i data-lucide="camera"></i> Submit Photo
-    </button>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ghost Bookshelf App</title>
 
-  <!-- Main Content Layout -->
-  <main class="app-main">
-    <div class="map-container" id="map"></div>
-    
-    <aside class="sidebar">
-      <div id="bookshelfInfo" class="bookshelf-info hidden">
-        <div class="info-header">
-          <h2 id="shelfName">Select a bookshelf</h2>
-          <p id="shelfDesc" class="text-muted"></p>
-        </div>
-        <div id="bookList" class="book-list">
-          <!-- Books will be rendered here -->
-          <div class="empty-state">
-            <span style="font-size: 3rem;">📍</span>
-            <p>Click a marker on the map to view books.</p>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- PicoCSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"
+    />
+
+    <!-- Leaflet CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      crossorigin=""
+    />
+    <!-- Leaflet MarkerCluster CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="app-header">
+      <div class="brand">
+        <span style="font-size: 1.5rem">📚</span>
+        <h1>bookhunt.eu</h1>
+      </div>
+      <div class="search-container">
+        <input
+          type="search"
+          id="searchInput"
+          placeholder="Search title, author or shelf"
+        />
+      </div>
+    </header>
+
+    <!-- Main Content Layout -->
+    <main class="app-main">
+      <div class="map-container" id="map"></div>
+
+      <aside class="sidebar">
+        <div id="bookshelfInfo" class="bookshelf-info hidden">
+          <div class="info-header">
+            <h2 id="shelfName">Select a bookshelf</h2>
+            <p id="shelfDesc" class="text-muted"></p>
+          </div>
+          <div id="bookList" class="book-list">
+            <!-- Books will be rendered here -->
+            <div class="empty-state">
+              <span style="font-size: 3rem">📍</span>
+              <p>Click a marker on the map to view books.</p>
+            </div>
           </div>
         </div>
-      </div>
-      
-      <div id="searchResults" class="search-results hidden">
-        <div class="info-header">
-          <h2>Search Results</h2>
+
+        <div id="searchResults" class="search-results hidden">
+          <div class="info-header">
+            <h2>Search Results</h2>
+          </div>
+          <div id="searchList" class="book-list">
+            <!-- Search results will be rendered here -->
+          </div>
         </div>
-        <div id="searchList" class="book-list">
-          <!-- Search results will be rendered here -->
-        </div>
-      </div>
-    </aside>
-  </main>
+      </aside>
+    </main>
 
-  <!-- Upload Modal -->
-  <dialog id="uploadModal">
-    <article class="upload-article">
-      <header>
-        <button aria-label="Close" class="close" id="closeUploadBtn"></button>
-        <h3>Submit Bookshelf Photo</h3>
-      </header>
-      <p>Take a picture of a public bookcase. We'll identify the books using AI and add them to our Ghost Database.</p>
-      
-      <div class="form-group">
-        <label for="bookshelfSelect">Select Bookshelf Location:</label>
-        <select id="bookshelfSelect" required>
-          <option value="" disabled selected>Select a location...</option>
-        </select>
-      </div>
-
-      <div class="upload-area" id="dropZone">
-        <i data-lucide="image-plus"></i>
-        <p>Click to browse or drag image here</p>
-        <input type="file" id="imageInput" accept="image/*" class="hidden-input">
-      </div>
-      
-      <div id="previewArea" class="hidden preview-area">
-        <img id="imagePreview" src="" alt="Preview">
-        <div class="compression-stats text-muted" id="compressionStats"></div>
-      </div>
-
-      <footer>
-        <button id="submitBtn" class="primary" disabled>Process & Submit</button>
-      </footer>
-    </article>
-  </dialog>
-
-  <!-- Scripts -->
-  <script src="https://unpkg.com/lucide@latest"></script>
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
-  <!-- Leaflet MarkerCluster JS -->
-  <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/browser-image-compression@2.0.1/dist/browser-image-compression.js"></script>
-  <script src="js/app.js"></script>
-</body>
+    <!-- Scripts -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      crossorigin=""
+    ></script>
+    <!-- Leaflet MarkerCluster JS -->
+    <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/browser-image-compression@2.0.1/dist/browser-image-compression.js"
+    ></script>
+    <script src="js/app.js"></script>
+  </body>
 </html>

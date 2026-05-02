@@ -4,37 +4,56 @@ let booksData = [];
 let map = null;
 let markers = {};
 let currentFile = null;
-let userLocation = { lat: 52.5200, lon: 13.4050 }; // Default Berlin
+let userLocation = { lat: 52.52, lon: 13.405 }; // Default Berlin
 
 // DOM Elements
-const mapEl = document.getElementById('map');
-const bookshelfInfo = document.getElementById('bookshelfInfo');
-const shelfName = document.getElementById('shelfName');
-const shelfDesc = document.getElementById('shelfDesc');
-const bookList = document.getElementById('bookList');
+const mapEl = document.getElementById("map");
+const bookshelfInfo = document.getElementById("bookshelfInfo");
+const shelfName = document.getElementById("shelfName");
+const shelfDesc = document.getElementById("shelfDesc");
+const bookList = document.getElementById("bookList");
 
-const searchResults = document.getElementById('searchResults');
-const searchList = document.getElementById('searchList');
-const searchInput = document.getElementById('searchInput');
+const searchResults = document.getElementById("searchResults");
+const searchList = document.getElementById("searchList");
+const searchInput = document.getElementById("searchInput");
 
-const uploadModal = document.getElementById('uploadModal');
-const openUploadBtn = document.getElementById('openUploadBtn');
-const closeUploadBtn = document.getElementById('closeUploadBtn');
-const bookshelfSelect = document.getElementById('bookshelfSelect');
-const imageInput = document.getElementById('imageInput');
-const dropZone = document.getElementById('dropZone');
-const previewArea = document.getElementById('previewArea');
-const imagePreview = document.getElementById('imagePreview');
-const compressionStats = document.getElementById('compressionStats');
-const submitBtn = document.getElementById('submitBtn');
+const uploadModal = document.getElementById("uploadModal");
+const openUploadBtn = document.getElementById("openUploadBtn");
+const closeUploadBtn = document.getElementById("closeUploadBtn");
+const bookshelfSelect = document.getElementById("bookshelfSelect");
+const imageInput = document.getElementById("imageInput");
+const dropZone = document.getElementById("dropZone");
+const previewArea = document.getElementById("previewArea");
+const imagePreview = document.getElementById("imagePreview");
+const compressionStats = document.getElementById("compressionStats");
+const submitBtn = document.getElementById("submitBtn");
 
 // Initialize App
 async function init() {
+  console.log("Initializing app...");
+
+  // 1. Load Data FIRST
+  try {
+    await loadData();
+    console.log(
+      "Data loaded:",
+      bookshelves.length,
+      "shelves,",
+      booksData.length,
+      "books.",
+    );
+  } catch (e) {
+    console.error("Critical error: Failed to load data", e);
+    document.body.innerHTML = `<h1>Failed to load data. Please refresh.</h1><p>${e.message}</p>`;
+    return;
+  }
+
+  // 2. Setup UI
   lucide.createIcons();
 
   // Try to get user location via IP
   try {
-    const geoRes = await fetch('https://ipapi.co/json/');
+    const geoRes = await fetch("https://ipapi.co/json/");
     if (geoRes.ok) {
       const geoData = await geoRes.json();
       if (geoData.latitude && geoData.longitude) {
@@ -43,55 +62,60 @@ async function init() {
       }
     }
   } catch (e) {
-    console.error("Geolocation failed:", e);
+    console.warn("Geolocation failed, using default:", e.message);
   }
 
-  // Initialize Map
-  map = L.map('map').setView([userLocation.lat, userLocation.lon], 12);
-
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 19,
-    attribution: '© OpenStreetMap'
-  }).addTo(map);
-
-  // Load Data
-  await loadData();
-
-  // Setup Event Listeners
-  setupEventListeners();
-}
-
-// Load static JSON data
-async function loadData() {
+  // 3. Initialize Map
   try {
-    const [shelvesRes, booksRes] = await Promise.all([
-      fetch('data/bookshelves.json'),
-      fetch('data/books.json')
-    ]);
-
-    bookshelves = await shelvesRes.json();
-    booksData = await booksRes.json();
-
+    map = L.map("map").setView([userLocation.lat, userLocation.lon], 12);
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      maxZoom: 19,
+      attribution: "© OpenStreetMap",
+    }).addTo(map);
     populateMap();
-    populateSelect();
-    
-    // Show recent books initially
-    showRecentBooks();
-  } catch (error) {
-    console.error("Error loading data:", error);
+  } catch (e) {
+    console.error("Map initialization failed", e);
   }
+
+  // 4. Setup Event Listeners
+  setupEventListeners();
+
+  // 5. Initial routing
+  console.log("Triggering initial routing...");
+  handleRouting();
+
+  // Handle browser navigation
+  window.addEventListener("hashchange", () => {
+    console.log("Hash changed, routing...");
+    handleRouting();
+  });
 }
 
-// Distance helper (Haversine formula)
+async function loadData() {
+  const [shelvesRes, booksRes] = await Promise.all([
+    fetch("data/bookshelves.json"),
+    fetch("data/books.json"),
+  ]);
+
+  if (!shelvesRes.ok || !booksRes.ok) {
+    throw new Error(`HTTP Error: ${shelvesRes.status} / ${booksRes.status}`);
+  }
+
+  bookshelves = await shelvesRes.json();
+  booksData = await booksRes.json();
+}
+
 function getDistance(lat1, lon1, lat2, lon2) {
-  const R = 6371; // km
-  const dLat = (lat2 - lat1) * Math.PI / 180;
-  const dLon = (lon2 - lon1) * Math.PI / 180;
-  const a = 
-    Math.sin(dLat/2) * Math.sin(dLat/2) +
-    Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) * 
-    Math.sin(dLon/2) * Math.sin(dLon/2);
-  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+  const R = 6371;
+  const dLat = ((lat2 - lat1) * Math.PI) / 180;
+  const dLon = ((lon2 - lon1) * Math.PI) / 180;
+  const a =
+    Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+    Math.cos((lat1 * Math.PI) / 180) *
+      Math.cos((lat2 * Math.PI) / 180) *
+      Math.sin(dLon / 2) *
+      Math.sin(dLon / 2);
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
   return R * c;
 }
 
@@ -99,28 +123,33 @@ function getDistance(lat1, lon1, lat2, lon2) {
 function showRecentBooks() {
   if (searchInput.value.trim()) return;
 
-  bookshelfInfo.classList.add('hidden');
-  searchResults.classList.remove('hidden');
-  
-  const resultsHeader = searchResults.querySelector('h2');
-  if (resultsHeader) resultsHeader.textContent = "Recent Nearby Books";
+  bookshelfInfo.classList.add("hidden");
+  searchResults.classList.remove("hidden");
+
+  const resultsHeader = searchResults.querySelector("h2");
+  if (resultsHeader) resultsHeader.textContent = "Recently seen books";
 
   // 1. Calculate distances for all bookshelves
   const shelfDistances = {};
-  bookshelves.forEach(s => {
-    shelfDistances[s.id] = getDistance(userLocation.lat, userLocation.lon, s.lat, s.lon);
+  bookshelves.forEach((s) => {
+    shelfDistances[s.id] = getDistance(
+      userLocation.lat,
+      userLocation.lon,
+      s.lat,
+      s.lon,
+    );
   });
 
   // 2. Sort all books by a combination of recency and distance
   // We'll prioritize books within 100km, then sort by date.
   // If we don't have enough, we'll take the next ones.
-  const allBooksWithMeta = booksData.map(book => ({
+  const allBooksWithMeta = booksData.map((book) => ({
     ...book,
-    distance: shelfDistances[book.bookshelfId] || Infinity
+    distance: shelfDistances[book.bookshelfId] || Infinity,
   }));
 
-  // Sort logic: 
-  // Primary: Is it "nearby" (e.g. < 100km)? 
+  // Sort logic:
+  // Primary: Is it "nearby" (e.g. < 100km)?
   // Secondary: Timestamp
   allBooksWithMeta.sort((a, b) => {
     const aNearby = a.distance < 100;
@@ -135,7 +164,6 @@ function showRecentBooks() {
 
   const recentBooks = allBooksWithMeta.slice(0, 50);
   renderBooks(recentBooks, searchList, true, true);
-  lucide.createIcons();
 }
 
 // Populate map with markers
@@ -143,21 +171,21 @@ function populateMap() {
   const iconHtml = `<div class="custom-marker">📚</div>`;
   const customIcon = L.divIcon({
     html: iconHtml,
-    className: '',
+    className: "",
     iconSize: [30, 30],
-    iconAnchor: [15, 15]
+    iconAnchor: [15, 15],
   });
 
   const markersCluster = L.markerClusterGroup({
-    chunkedLoading: true
+    chunkedLoading: true,
   });
 
   const markerList = [];
-  bookshelves.forEach(shelf => {
+  bookshelves.forEach((shelf) => {
     const marker = L.marker([shelf.lat, shelf.lon], { icon: customIcon });
 
     // Bind click event
-    marker.on('click', () => {
+    marker.on("click", () => {
       showBookshelfDetails(shelf);
       setTimeout(() => lucide.createIcons(), 10);
     });
@@ -170,34 +198,35 @@ function populateMap() {
   map.addLayer(markersCluster);
 
   // Re-render icons when cluster expands/collapses or map moves
-  map.on('moveend', () => {
+  map.on("moveend", () => {
     lucide.createIcons();
   });
 
   lucide.createIcons();
 }
 
-// Populate the select dropdown in the upload modal
-function populateSelect() {
-  bookshelves.forEach(shelf => {
-    const option = document.createElement('option');
-    option.value = shelf.id;
-    option.textContent = shelf.name;
-    bookshelfSelect.appendChild(option);
-  });
-}
-
 // Render Bookshelf details on the sidebar
-function showBookshelfDetails(shelf) {
+function showBookshelfDetails(shelf, updateUrl = true) {
+  if (updateUrl) {
+    window.location.hash = `/shelf/${shelf.id}`;
+  }
+
   // Hide search results
-  searchResults.classList.add('hidden');
-  bookshelfInfo.classList.remove('hidden');
+  searchResults.classList.add("hidden");
+  bookshelfInfo.classList.remove("hidden");
 
   shelfName.textContent = shelf.name;
-  shelfDesc.textContent = shelf.address || shelf.description || '';
+  shelfDesc.textContent = shelf.address || shelf.description || "";
 
   // Find books for this shelf
-  const allBooks = booksData.filter(book => String(book.bookshelfId) === String(shelf.id));
+  const targetId = String(shelf.id).toLowerCase().trim();
+  const allBooks = booksData.filter(
+    (book) => String(book.bookshelfId).toLowerCase().trim() === targetId,
+  );
+
+  console.log(
+    `Filtering for shelf ${targetId}: found ${allBooks.length} books.`,
+  );
 
   // Sort by newest first
   allBooks.sort((a, b) => new Date(b.day) - new Date(a.day));
@@ -206,16 +235,16 @@ function showBookshelfDetails(shelf) {
 }
 
 function renderShelves(shelves, container) {
-  shelves.forEach(shelf => {
-    const card = document.createElement('div');
-    card.className = 'shelf-card';
+  shelves.forEach((shelf) => {
+    const card = document.createElement("div");
+    card.className = "shelf-card";
     card.innerHTML = `
       <div class="shelf-title-row">
         <h4>📚 ${shelf.name}</h4>
       </div>
-      <p class="text-muted small" style="margin: 0; margin-top: 4px;">${shelf.address || shelf.description || 'Public bookshelf'}</p>
+      <p class="text-muted small" style="margin: 0; margin-top: 4px;">${shelf.address || shelf.description || "Public bookshelf"}</p>
     `;
-    card.addEventListener('click', () => {
+    card.addEventListener("click", () => {
       map.setView([shelf.lat, shelf.lon], 16);
       showBookshelfDetails(shelf);
       lucide.createIcons();
@@ -224,9 +253,14 @@ function renderShelves(shelves, container) {
   });
 }
 
-function renderBooks(books, container, showShelfLink = false, clearContainer = true) {
+function renderBooks(
+  books,
+  container,
+  showShelfLink = false,
+  clearContainer = true,
+) {
   if (clearContainer) {
-    container.innerHTML = '';
+    container.innerHTML = "";
   }
 
   if (books.length === 0) {
@@ -242,23 +276,25 @@ function renderBooks(books, container, showShelfLink = false, clearContainer = t
     return;
   }
 
-  books.forEach(book => {
+  books.forEach((book) => {
     // Extract date directly
-    const date = book.day || 'Unknown';
-    let shelfLinkHtml = '';
+    const date = book.day || "Unknown";
+    let shelfLinkHtml = "";
 
     if (showShelfLink) {
-      const shelf = bookshelves.find(s => String(s.id) === String(book.bookshelfId));
+      const shelf = bookshelves.find(
+        (s) => String(s.id) === String(book.bookshelfId),
+      );
       if (shelf) {
         shelfLinkHtml = `<span class="book-shelf-link" data-shelf-id="${shelf.id}">${shelf.name}</span> • `;
       }
     }
 
-    const card = document.createElement('div');
-    card.className = 'book-card';
+    const card = document.createElement("div");
+    card.className = "book-card";
     card.innerHTML = `
       <div class="book-title-row">
-        <h4>${book.title || 'Unknown Title'}</h4> <span class="author-text">by ${book.author || 'Unknown Author'}</span>
+        <h4>${book.title || "Unknown Title"}</h4> <span class="author-text">by ${book.author || "Unknown Author"}</span>
       </div>
       <div class="book-meta">
         <span>${shelfLinkHtml}Last seen: ${date}</span>
@@ -267,12 +303,13 @@ function renderBooks(books, container, showShelfLink = false, clearContainer = t
     container.appendChild(card);
   });
 
+  lucide.createIcons();
   // Add event listeners for shelf links in search results
   if (showShelfLink) {
-    container.querySelectorAll('.book-shelf-link').forEach(link => {
-      link.addEventListener('click', (e) => {
-        const shelfId = e.target.getAttribute('data-shelf-id');
-        const shelf = bookshelves.find(s => String(s.id) === String(shelfId));
+    container.querySelectorAll(".book-shelf-link").forEach((link) => {
+      link.addEventListener("click", (e) => {
+        const shelfId = e.target.getAttribute("data-shelf-id");
+        const shelf = bookshelves.find((s) => String(s.id) === String(shelfId));
         if (shelf) {
           map.setView([shelf.lat, shelf.lon], 16);
           showBookshelfDetails(shelf);
@@ -283,56 +320,44 @@ function renderBooks(books, container, showShelfLink = false, clearContainer = t
 }
 
 // Search Logic
-async function handleSearch(query) {
+async function handleSearch(query, updateUrl = true) {
   if (!query) {
+    if (updateUrl) window.location.hash = "";
     showRecentBooks();
     return;
   }
 
+  if (updateUrl) {
+    window.location.hash = `/search/${encodeURIComponent(query)}`;
+  }
+
   query = query.toLowerCase().trim();
-  bookshelfInfo.classList.add('hidden');
-  searchResults.classList.remove('hidden');
-  
-  const resultsHeader = searchResults.querySelector('h2');
+  bookshelfInfo.classList.add("hidden");
+  searchResults.classList.remove("hidden");
+
+  const resultsHeader = searchResults.querySelector("h2");
   if (resultsHeader) resultsHeader.textContent = "Search Results";
 
-  const cleanQuery = query.replace(/-/g, '');
-  const isIsbn = (cleanQuery.length === 10 || cleanQuery.length === 13) && /^\d+$/.test(cleanQuery);
   let searchTitle = query;
 
-  if (isIsbn) {
-    try {
-      const res = await fetch(`https://openlibrary.org/isbn/${cleanQuery}.json`);
-      if (res.ok) {
-        const data = await res.json();
-        if (data.title) {
-          searchTitle = data.title.toLowerCase();
-        }
-      }
-    } catch (e) {
-      console.error("Failed to resolve ISBN from OpenLibrary", e);
-    }
-  }
-
   let shelfResults = [];
-  if (!isIsbn) {
-    bookshelves.forEach(shelf => {
-      if (
-        (shelf.name && shelf.name.toLowerCase().includes(query)) ||
-        (shelf.description && shelf.description.toLowerCase().includes(query)) ||
-        (shelf.address && shelf.address.toLowerCase().includes(query))
-      ) {
-        shelfResults.push(shelf);
-      }
-    });
-  }
+
+  bookshelves.forEach((shelf) => {
+    if (
+      (shelf.name && shelf.name.toLowerCase().includes(query)) ||
+      (shelf.description && shelf.description.toLowerCase().includes(query)) ||
+      (shelf.address && shelf.address.toLowerCase().includes(query))
+    ) {
+      shelfResults.push(shelf);
+    }
+  });
 
   let results = [];
 
-  booksData.forEach(book => {
+  booksData.forEach((book) => {
     if (
       (book.title && book.title.toLowerCase().includes(searchTitle)) ||
-      (!isIsbn && book.author && book.author.toLowerCase().includes(query))
+      (book.author && book.author.toLowerCase().includes(query))
     ) {
       results.push(book);
     }
@@ -340,7 +365,7 @@ async function handleSearch(query) {
 
   results.sort((a, b) => new Date(b.day) - new Date(a.day));
 
-  searchList.innerHTML = '';
+  searchList.innerHTML = "";
 
   if (shelfResults.length === 0 && results.length === 0) {
     searchList.innerHTML = `
@@ -354,17 +379,17 @@ async function handleSearch(query) {
   }
 
   if (shelfResults.length > 0) {
-    const shelfContainer = document.createElement('div');
-    shelfContainer.className = 'shelf-results-container';
+    const shelfContainer = document.createElement("div");
+    shelfContainer.className = "shelf-results-container";
     searchList.appendChild(shelfContainer);
 
     renderShelves(shelfResults.slice(0, 5), shelfContainer);
 
     if (shelfResults.length > 5) {
-      const moreBtn = document.createElement('button');
-      moreBtn.className = 'outline secondary small';
-      moreBtn.style.width = '100%';
-      moreBtn.style.marginBottom = '1rem';
+      const moreBtn = document.createElement("button");
+      moreBtn.className = "outline secondary small";
+      moreBtn.style.width = "100%";
+      moreBtn.style.marginBottom = "1rem";
       moreBtn.innerText = `Show ${Math.min(shelfResults.length - 5, 20)} more shelves...`;
       moreBtn.onclick = () => {
         moreBtn.remove();
@@ -382,88 +407,57 @@ async function handleSearch(query) {
   lucide.createIcons();
 }
 
-// Event Listeners Setup
 function setupEventListeners() {
-  // Search
+  document.querySelector(".brand").addEventListener("click", () => {
+    window.location.hash = "";
+  });
+
   let searchTimeout;
-  searchInput.addEventListener('input', (e) => {
+  searchInput.addEventListener("input", (e) => {
     clearTimeout(searchTimeout);
     searchTimeout = setTimeout(() => {
       handleSearch(e.target.value);
     }, 300);
   });
-
-  // Upload Modal
-  openUploadBtn.addEventListener('click', () => uploadModal.showModal());
-  closeUploadBtn.addEventListener('click', () => uploadModal.close());
-
-  // Drag and Drop
-  dropZone.addEventListener('dragover', (e) => {
-    e.preventDefault();
-    dropZone.classList.add('dragover');
-  });
-  dropZone.addEventListener('dragleave', () => dropZone.classList.remove('dragover'));
-  dropZone.addEventListener('drop', (e) => {
-    e.preventDefault();
-    dropZone.classList.remove('dragover');
-    if (e.dataTransfer.files.length) {
-      handleFile(e.dataTransfer.files[0]);
-    }
-  });
-
-  imageInput.addEventListener('change', (e) => {
-    if (e.target.files.length) {
-      handleFile(e.target.files[0]);
-    }
-  });
-
-  submitBtn.addEventListener('click', processAndSubmit);
 }
 
-async function handleFile(file) {
-  if (!file.type.startsWith('image/')) {
-    alert('Please select an image file.');
-    return;
-  }
+async function handleRouting() {
+  const hash = window.location.hash;
+  console.log("Routing to hash:", hash);
 
-  currentFile = file;
-  submitBtn.disabled = true;
-  submitBtn.textContent = 'Compressing...';
+  if (hash.startsWith("#/shelf/")) {
+    const parts = hash.split("/");
+    const shelfId = parts[2];
 
-  try {
-    const options = {
-      maxSizeMB: 0.8, // 800KB goal
-      maxWidthOrHeight: 1920,
-      useWebWorker: true
-    };
-
-    const compressedFile = await imageCompression(file, options);
-
-    // Show preview
-    const reader = new FileReader();
-    reader.onload = (e) => {
-      imagePreview.src = e.target.result;
-      dropZone.classList.add('hidden');
-      previewArea.classList.remove('hidden');
-
-      const originalSize = (file.size / 1024 / 1024).toFixed(2);
-      const newSize = (compressedFile.size / 1024 / 1024).toFixed(2);
-      compressionStats.textContent = `Original: ${originalSize}MB | Compressed: ${newSize}MB`;
-
-      submitBtn.disabled = false;
-      submitBtn.textContent = 'Process & Submit';
-    };
-    reader.readAsDataURL(compressedFile);
-
-  } catch (error) {
-    console.error("Compression error:", error);
-    alert('Error compressing image.');
-    submitBtn.disabled = false;
-    submitBtn.textContent = 'Process & Submit';
+    if (shelfId) {
+      const shelf = bookshelves.find(
+        (s) => String(s.id).toLowerCase() === String(shelfId).toLowerCase(),
+      );
+      if (shelf) {
+        console.log("Found shelf:", shelf.name);
+        map.setView([shelf.lat, shelf.lon], 16);
+        showBookshelfDetails(shelf, false);
+        setTimeout(() => lucide.createIcons(), 50);
+      } else {
+        console.warn("Shelf not found for ID:", shelfId);
+        showRecentBooks();
+      }
+    }
+  } else if (hash.startsWith("#/search/")) {
+    const parts = hash.split("/");
+    const query = parts[2] ? decodeURIComponent(parts[2]) : "";
+    if (query) {
+      searchInput.value = query;
+      handleSearch(query, false);
+    } else {
+      showRecentBooks();
+    }
+  } else {
+    // Clear search and show recent
+    searchInput.value = "";
+    showRecentBooks();
   }
 }
-
-
 
 // Start app
-document.addEventListener('DOMContentLoaded', init);
+document.addEventListener("DOMContentLoaded", init);
