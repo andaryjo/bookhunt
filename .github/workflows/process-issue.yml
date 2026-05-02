@@ -1,0 +1,37 @@
+name: Process Bookshelf Photo
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  process-image:
+    runs-on: ubuntu-latest
+    
+    # Only run if issue has a specific label or keyword (optional, assuming we use a label)
+    if: contains(github.event.issue.labels.*.name, 'photo-submission')
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Make script executable
+        run: chmod +x scripts/process-issue.sh
+
+      - name: Run Process Script
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          CI: "true"
+        run: |
+          ./scripts/process-issue.sh "${{ github.event.issue.number }}" "${{ github.event.issue.body }}"
+
+      - name: Close Issue
+        uses: peter-evans/close-issue@v3
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          comment: "Photo processed successfully! The database has been updated."
