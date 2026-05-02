@@ -102,7 +102,7 @@ async function loadData() {
   }
 
   bookshelves = await shelvesRes.json();
-  booksData = await booksRes.json();
+  booksData = (await booksRes.json()).reverse();
 }
 
 function getDistance(lat1, lon1, lat2, lon2) {
