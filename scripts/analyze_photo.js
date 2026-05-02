@@ -15,18 +15,18 @@ function getDistanceFromLatLonInM(lat1, lon1, lat2, lon2) {
 
 async function main() {
   const apiKey = process.env.GEMINI_API_KEY;
-  const imagePaths = process.argv.slice(2);
+  const imgPath = process.argv[2];
 
-  if (imagePaths.length === 0 || !apiKey) {
-    console.error("Usage: GEMINI_API_KEY=... node scripts/process_image.js <image_path_1> [image_path_2] ...");
+  if (!imgPath || !apiKey) {
+    console.error("Usage: GEMINI_API_KEY=... node scripts/analyze_photo.js <image_path>");
     process.exit(1);
   }
 
-  console.log(`Processing ${imagePaths.length} images...`);
+  console.log(`Processing image: ${imgPath}`);
 
   const parts = [
     {
-      text: `Look at these pictures of a public bookcase. Identify all the books you can clearly see across all images. 
+      text: `Look at this picture of a public bookcase. Identify all the books you can clearly see. 
 For each book, determine the 'title' and 'author'.
 If you cannot identify a property, return "unknown" for that field (do not use null or strings like "not visible").
 If both 'title' and 'author' are "unknown" for a book, do not include it in the results.
@@ -34,38 +34,33 @@ Return a JSON array of objects with keys 'title' and 'author'.
 Ensure your response is valid JSON.` }
   ];
 
-  let firstPhotoMeta = null;
+  let photoMeta = null;
+  try {
+    const fileData = fs.readFileSync(imgPath);
+    const base64Image = fileData.toString('base64');
+    let mimeType = 'image/jpeg';
+    const ext = path.extname(imgPath).toLowerCase();
+    if (ext === '.png') mimeType = 'image/png';
+    else if (ext === '.webp') mimeType = 'image/webp';
+    else if (ext === '.heic') mimeType = 'image/heic';
 
-  for (const imgPath of imagePaths) {
-    try {
-      const fileData = fs.readFileSync(imgPath);
-      const base64Image = fileData.toString('base64');
-      let mimeType = 'image/jpeg';
-      const ext = path.extname(imgPath).toLowerCase();
-      if (ext === '.png') mimeType = 'image/png';
-      else if (ext === '.webp') mimeType = 'image/webp';
-      else if (ext === '.heic') mimeType = 'image/heic';
+    parts.push({ inlineData: { mimeType, data: base64Image } });
 
-      parts.push({ inlineData: { mimeType, data: base64Image } });
-
-      // Extract meta from first image to represent the group
-      if (!firstPhotoMeta) {
-        const filename = path.basename(imgPath);
-        const match = filename.match(/(\d{8}_\d{6})_([-\d.]+)_([-\d.]+)\.[a-zA-Z0-9]+$/);
-        if (match) {
-          firstPhotoMeta = {
-            timestamp: match[1],
-            lat: parseFloat(match[2]),
-            lon: parseFloat(match[3])
-          };
-        }
-      }
-    } catch (err) {
-      console.error(`Error reading image ${imgPath}:`, err);
+    const filename = path.basename(imgPath);
+    const match = filename.match(/(\d{8}_\d{6})_([-\d.]+)_([-\d.]+)\.[a-zA-Z0-9]+$/);
+    if (match) {
+      photoMeta = {
+        timestamp: match[1],
+        lat: parseFloat(match[2]),
+        lon: parseFloat(match[3])
+      };
     }
+  } catch (err) {
+    console.error(`Error reading image ${imgPath}:`, err);
+    process.exit(1);
   }
 
-  console.log("Images loaded. Calling Gemini API...");
+  console.log("Image loaded. Calling Gemini API...");
 
   const requestBody = {
     contents: [{ parts }],
@@ -108,14 +103,14 @@ Ensure your response is valid JSON.` }
   let matchedShelfId = 'unknown';
   let bookDay = new Date().toISOString().split('T')[0];
 
-  if (firstPhotoMeta) {
+  if (photoMeta) {
     // Match Shelf
     try {
       const bookshelves = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'data', 'bookshelves.json'), 'utf8'));
       let minDistance = Infinity;
       let closestShelfId = null;
       for (const shelf of bookshelves) {
-        const dist = getDistanceFromLatLonInM(firstPhotoMeta.lat, firstPhotoMeta.lon, shelf.lat, shelf.lon);
+        const dist = getDistanceFromLatLonInM(photoMeta.lat, photoMeta.lon, shelf.lat, shelf.lon);
         if (dist < minDistance) {
           minDistance = dist;
           closestShelfId = shelf.id;
@@ -127,9 +122,9 @@ Ensure your response is valid JSON.` }
     } catch (e) { }
 
     // Format Day
-    const yyyy = firstPhotoMeta.timestamp.substring(0, 4);
-    const mm = firstPhotoMeta.timestamp.substring(4, 6);
-    const dd = firstPhotoMeta.timestamp.substring(6, 8);
+    const yyyy = photoMeta.timestamp.substring(0, 4);
+    const mm = photoMeta.timestamp.substring(4, 6);
+    const dd = photoMeta.timestamp.substring(6, 8);
     bookDay = `${yyyy}-${mm}-${dd}`;
   }
 
@@ -156,8 +151,8 @@ Ensure your response is valid JSON.` }
 
   fs.writeFileSync(dataPath, JSON.stringify(data, null, 2));
 
-  if (unknownBooks.length > 0 && firstPhotoMeta) {
-    const unknownFileName = `${firstPhotoMeta.timestamp}_${firstPhotoMeta.lat}_${firstPhotoMeta.lon}.json`;
+  if (unknownBooks.length > 0 && photoMeta) {
+    const unknownFileName = `${photoMeta.timestamp}_${photoMeta.lat}_${photoMeta.lon}.json`;
     const remediateDir = path.join(__dirname, '..', 'data', 'remediate');
     
     if (!fs.existsSync(remediateDir)) {
