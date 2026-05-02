@@ -21483,7 +21483,7 @@
     "lon": 8.637373
   },
   {
-    "id": "503f2ed9-2c1e-4208-bfd1-134c55ed64de",
+    "id": "62e99d58-63b1-4375-95eb-0f50b81ce005",
     "name": "Bücherschrank Bockenheim - Kuhwaldsiedlung",
     "address": "Funckstraße 14, 60486 Frankfurt am Main",
     "lat": 50.113158,
@@ -34090,13 +34090,6 @@
     "lon": 10.498432964087
   },
   {
-    "id": "62e99d58-63b1-4375-95eb-0f50b81ce005",
-    "name": "Frankfurt-Kuhwaldsiedlung",
-    "address": "Friedrich-Naumann-Straße 80, 60486 Frankfurt am Main",
-    "lat": 50.113228342307,
-    "lon": 8.6319516040385
-  },
-  {
     "id": "f9ddfd6a-8199-4544-ba76-25c412b3b346",
     "name": "Bücherbörse im Scout",
     "address": "Bürgermeister-Prechtl-Straße 48, 92637 Weiden in der Oberpfalz",
@@ -38467,9 +38460,16 @@
   {
     "id": "7a926357-327f-4d59-93ef-c4a466476573",
     "name": "Bücherschrank am Bahnhof HD Schlierbach-Ziegelhausen",
-    "address": "In der Aue , 69118 Heidelberg",
+    "address": "In der Aue, 69118 Heidelberg",
     "lat": 49.415211700889,
     "lon": 8.7608201801777
+  },
+  {
+    "id": "f3cc968e-ff18-44eb-b918-63ee51303162",
+    "name": "Offener Bücherschrank Gallus",
+    "address": "Golub-Lebedenko-Platz, 60326, Frankfurt am Main",
+    "lat": 50.1015137,
+    "lon": 8.6345512
   },
   {
     "id": "779bf107-ff97-4df2-a7c8-e6bab8a25990",

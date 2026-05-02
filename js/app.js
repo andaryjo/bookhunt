@@ -130,7 +130,7 @@ function showRecentBooks() {
     if (!aNearby && bNearby) return 1;
 
     // Both nearby or both far, sort by date
-    return new Date(b.timestamp) - new Date(a.timestamp);
+    return new Date(b.day) - new Date(a.day);
   });
 
   const recentBooks = allBooksWithMeta.slice(0, 50);
@@ -140,7 +140,7 @@ function showRecentBooks() {
 
 // Populate map with markers
 function populateMap() {
-  const iconHtml = `<div class="custom-marker"><i data-lucide="book"></i></div>`;
+  const iconHtml = `<div class="custom-marker">📚</div>`;
   const customIcon = L.divIcon({
     html: iconHtml,
     className: '',
@@ -200,7 +200,7 @@ function showBookshelfDetails(shelf) {
   const allBooks = booksData.filter(book => String(book.bookshelfId) === String(shelf.id));
 
   // Sort by newest first
-  allBooks.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
+  allBooks.sort((a, b) => new Date(b.day) - new Date(a.day));
 
   renderBooks(allBooks, bookList, false);
 }
@@ -211,7 +211,7 @@ function renderShelves(shelves, container) {
     card.className = 'shelf-card';
     card.innerHTML = `
       <div class="shelf-title-row">
-        <h4><i data-lucide="library" class="small-icon"></i> ${shelf.name}</h4>
+        <h4>📚 ${shelf.name}</h4>
       </div>
       <p class="text-muted small" style="margin: 0; margin-top: 4px;">${shelf.address || shelf.description || 'Public bookshelf'}</p>
     `;
@@ -233,7 +233,7 @@ function renderBooks(books, container, showShelfLink = false, clearContainer = t
     if (clearContainer) {
       container.innerHTML = `
         <div class="empty-state">
-          <i data-lucide="ghost"></i>
+          <span style="font-size: 3rem;">👻</span>
           <p>No books found here recently.</p>
         </div>
       `;
@@ -243,8 +243,8 @@ function renderBooks(books, container, showShelfLink = false, clearContainer = t
   }
 
   books.forEach(book => {
-    // Extract date from ISO string directly to avoid timezone shifts
-    const date = book.timestamp ? book.timestamp.split('T')[0] : 'Unknown';
+    // Extract date directly
+    const date = book.day || 'Unknown';
     let shelfLinkHtml = '';
 
     if (showShelfLink) {
@@ -338,14 +338,14 @@ async function handleSearch(query) {
     }
   });
 
-  results.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
+  results.sort((a, b) => new Date(b.day) - new Date(a.day));
 
   searchList.innerHTML = '';
 
   if (shelfResults.length === 0 && results.length === 0) {
     searchList.innerHTML = `
       <div class="empty-state">
-        <i data-lucide="ghost"></i>
+        <span style="font-size: 3rem;">👻</span>
         <p>No results found.</p>
       </div>
     `;
