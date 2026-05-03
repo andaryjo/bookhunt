@@ -76,7 +76,7 @@ async function createContributionPR(photos, token) {
   const filenames = [];
 
   for (const photo of photos) {
-    const id = randomUUID();
+    const id = randomId(6);
     const shelfPart = photo.shelfId
       ? photo.shelfId
       : (photo.lat != null && photo.lon != null)
@@ -107,10 +107,24 @@ async function createContributionPR(photos, token) {
 
   const newCommit = await gh('/git/commits', {
     method: 'POST',
-    body: { message: commitMsg, tree: newTree.sha, parents: [baseSha] },
+    body: {
+      message: commitMsg,
+      tree: newTree.sha,
+      parents: [baseSha],
+      author: {
+        name: 'Brutor',
+        email: 'brutor@bookhunt.eu',
+        date: new Date().toISOString()
+      },
+      committer: {
+        name: 'Brutor',
+        email: 'brutor@bookhunt.eu',
+        date: new Date().toISOString()
+      }
+    },
   });
 
-  const branchName = `contribute/${randomUUID().slice(0, 8)}`;
+  const branchName = `contribute/${randomId(8)}`;
   await gh('/git/refs', {
     method: 'POST',
     body: { ref: `refs/heads/${branchName}`, sha: newCommit.sha },
@@ -174,6 +188,11 @@ function utcDateString() {
   return new Date().toISOString().slice(0, 10).replace(/-/g, '');
 }
 
-function randomUUID() {
-  return crypto.randomUUID();
+function randomId(length) {
+  const chars = 'abcdefghijklmnopqrstuvwxyz';
+  let result = '';
+  for (let i = 0; i < length; i++) {
+    result += chars.charAt(Math.floor(Math.random() * chars.length));
+  }
+  return result;
 }
