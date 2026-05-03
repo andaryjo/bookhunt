@@ -31,9 +31,9 @@ exports.contribute = async (req, res) => {
   }
 
   const token = process.env.GH_TOKEN;
-  if (!token) {
-    console.error('GH_TOKEN secret not configured');
-    res.status(500).json({ error: 'Server misconfiguration' });
+  if (!token || token.length < 10) {
+    console.error('GH_TOKEN is missing or too short');
+    res.status(500).json({ error: 'Server misconfiguration: GH_TOKEN' });
     return;
   }
 
@@ -69,13 +69,14 @@ async function processContribution(photos, token) {
   }
 
   // 2. Commit photos directly to PHOTO_REPO/main
-  const photoRef = await ghPhoto(`/git/ref/heads/${BASE_BRANCH}`);
-  const photoBaseSha = photoRef.object.sha;
-  const photoCommit = await ghPhoto(`/git/commits/${photoBaseSha}`);
-  
+  // Using /commits/ instead of /git/ref/ for better robustness
+  const photoCommitData = await ghPhoto(`/commits/${BASE_BRANCH}`);
+  const photoBaseSha = photoCommitData.sha;
+  const photoTreeSha = photoCommitData.commit.tree.sha;
+
   const photoTree = await ghPhoto('/git/trees', {
     method: 'POST',
-    body: { base_tree: photoCommit.tree.sha, tree: photoTreeItems },
+    body: { base_tree: photoTreeSha, tree: photoTreeItems },
   });
 
   const photoNewCommit = await ghPhoto('/git/commits', {
@@ -87,16 +88,16 @@ async function processContribution(photos, token) {
     },
   });
 
-  await ghPhoto(`/git/ref/heads/${BASE_BRANCH}`, {
+  await ghPhoto(`/git/refs/heads/${BASE_BRANCH}`, {
     method: 'PATCH',
     body: { sha: photoNewCommit.sha },
   });
 
   // 3. Update queue.json on MAIN_REPO (in a new branch)
-  const mainRef = await ghMain(`/git/ref/heads/${BASE_BRANCH}`);
-  const mainBaseSha = mainRef.object.sha;
-  const mainCommit = await ghMain(`/git/commits/${mainBaseSha}`);
-  
+  const mainCommitData = await ghMain(`/commits/${BASE_BRANCH}`);
+  const mainBaseSha = mainCommitData.sha;
+  const mainTreeSha = mainCommitData.commit.tree.sha;
+
   // Read existing queue.json
   let currentQueue = [];
   try {
@@ -118,7 +119,7 @@ async function processContribution(photos, token) {
   const mainTree = await ghMain('/git/trees', {
     method: 'POST',
     body: {
-      base_tree: mainCommit.tree.sha,
+      base_tree: mainTreeSha,
       tree: [{ path: 'queue.json', mode: '100644', type: 'blob', sha: queueBlob.sha }]
     },
   });
@@ -140,18 +141,14 @@ async function processContribution(photos, token) {
 
   // 4. Open PR
   const prBody = [
-    `📚 **Bookshelf photo contribution via Bookhunt**`,
-    '',
-    `**Photos submitted:** ${filenames.length}`,
-    ...filenames.map(f => `- [Photo Link](https://github.com/${PHOTO_REPO}/blob/${BASE_BRANCH}/photos/${f})`),
-    '',
-    '_Photos have been uploaded to the private repository. Merging this PR will add them to the processing queue._',
+    `**Photos submitted:**`,
+    ...filenames.map(f => `- https://github.com/${PHOTO_REPO}/blob/${BASE_BRANCH}/photos/${f}`),
   ].join('\n');
 
   const pr = await ghMain('/pulls', {
     method: 'POST',
     body: {
-      title: `📸 Photo contribution (${filenames.length} photo${filenames.length > 1 ? 's' : ''})`,
+      title: `Bookshelf photo contribution (${filenames.length} photo${filenames.length > 1 ? 's' : ''})`,
       head: branchName,
       base: BASE_BRANCH,
       body: prBody,
@@ -181,7 +178,7 @@ function makeGhClient(repo, token) {
 
     if (!res.ok) {
       let msg = `HTTP ${res.status}`;
-      try { 
+      try {
         const data = await res.json();
         msg = data.message || msg;
         console.error(`GitHub API Error details for ${url}:`, JSON.stringify(data));
