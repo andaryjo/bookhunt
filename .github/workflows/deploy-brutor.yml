@@ -1,0 +1,45 @@
+name: Deploy Contribute Function
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'functions/brutor/**'
+      - '.github/workflows/deploy-brutor.yml'
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Authenticate to Google Cloud
+        uses: google-github-actions/auth@v2
+        with:
+          credentials_json: ${{ secrets.GCP_CREDENTIALS }}
+
+      - name: Set up gcloud CLI
+        uses: google-github-actions/setup-gcloud@v2
+
+      - name: Deploy Cloud Function
+        run: |
+          gcloud functions deploy bookhunt-contribute \
+            --gen2 \
+            --project=goo-bookhunt \
+            --runtime=nodejs20 \
+            --region=europe-west1 \
+            --source=functions/contribute \
+            --entry-point=contribute \
+            --trigger-http \
+            --allow-unauthenticated \
+            --cpu-throttling \
+            --min-instances=0 \
+            --max-instances=10 \
+            --memory=256Mi \
+            --timeout=60s \
+            --set-env-vars="GH_TOKEN=${{ secrets.BRUTOR_GH_PAT }}"
+

@@ -1,0 +1,16 @@
+{
+  "name": "bookhunt-contribute",
+  "version": "1.0.0",
+  "description": "Google Cloud Function — opens GitHub PRs for bookshelf photo contributions",
+  "main": "index.js",
+  "engines": {
+    "node": "20"
+  },
+  "scripts": {
+    "start": "functions-framework --target=contribute",
+    "test": "curl -X POST http://localhost:8080 -H 'Content-Type: application/json' -d '{\"photos\":[]}'"
+  },
+  "devDependencies": {
+    "@google-cloud/functions-framework": "^3.0.0"
+  }
+}
