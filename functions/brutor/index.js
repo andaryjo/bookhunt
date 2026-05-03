@@ -1,10 +1,10 @@
-const REPO_OWNER = 'andaryjo';
-const REPO_NAME = 'bookhunt';
+const MAIN_REPO = 'andaryjo/bookhunt';
+const PHOTO_REPO = 'bookhuntbrutor/bookhunt-photos';
 const BASE_BRANCH = 'main';
 const MAX_PHOTOS = 10;
 
 exports.contribute = async (req, res) => {
-  // CORS — allow any origin (tighten later if auth is added)
+  // CORS
   res.set('Access-Control-Allow-Origin', '*');
   res.set('Access-Control-Allow-Methods', 'POST, OPTIONS');
   res.set('Access-Control-Allow-Headers', 'Content-Type');
@@ -29,17 +29,6 @@ exports.contribute = async (req, res) => {
     res.status(400).json({ error: `Maximum ${MAX_PHOTOS} photos per request` });
     return;
   }
-  for (const p of photos) {
-    if (!p.data || typeof p.data !== 'string') {
-      res.status(400).json({ error: 'Each photo must have a base64 "data" field' });
-      return;
-    }
-    // base64 of 2 MB ≈ 2.7 M chars
-    if (p.data.length > 3_000_000) {
-      res.status(400).json({ error: 'Photo too large — client must compress below 2 MB' });
-      return;
-    }
-  }
 
   const token = process.env.GH_TOKEN;
   if (!token) {
@@ -49,118 +38,133 @@ exports.contribute = async (req, res) => {
   }
 
   try {
-    const result = await createContributionPR(photos, token);
+    const result = await processContribution(photos, token);
     res.status(200).json(result);
   } catch (err) {
-    console.error('PR creation failed:', err.message);
+    console.error('Contribution failed:', err.message);
     res.status(500).json({ error: err.message || 'Internal error' });
   }
 };
 
-// ---------------------------------------------------------------------------
-// GitHub Git Data API
-// Creates all photo blobs in one atomic commit, then opens a PR.
-// ---------------------------------------------------------------------------
-async function createContributionPR(photos, token) {
-  const gh = makeGhClient(token);
+async function processContribution(photos, token) {
+  const ghMain = makeGhClient(MAIN_REPO, token);
+  const ghPhoto = makeGhClient(PHOTO_REPO, token);
 
-  // 1. Resolve base branch → latest commit SHA → base tree SHA
-  const refData = await gh(`/git/ref/heads/${BASE_BRANCH}`);
-  const baseSha = refData.object.sha;
-  const commitData = await gh(`/git/commits/${baseSha}`);
-  const baseTreeSha = commitData.tree.sha;
-
-  // 2. Create a blob for every photo
-  const today = utcDateString(); // YYYYMMDD
-  const treeItems = [];
+  const today = utcDateString();
   const filenames = [];
+  const photoTreeItems = [];
 
+  // 1. Prepare blobs for photos repo
   for (const photo of photos) {
     const id = randomId(6);
-    const shelfPart = photo.shelfId
-      ? photo.shelfId
-      : (photo.lat != null && photo.lon != null)
-        ? `${photo.lat}_${photo.lon}`
-        : 'unknown';
-
+    const shelfPart = photo.shelfId || (photo.lat != null && photo.lon != null ? `${photo.lat}_${photo.lon}` : 'unknown');
     const filename = `${id}_${today}_${shelfPart}.jpg`;
     filenames.push(filename);
 
-    const blob = await gh('/git/blobs', {
+    const blob = await ghPhoto('/git/blobs', {
       method: 'POST',
       body: { content: photo.data, encoding: 'base64' },
     });
-
-    treeItems.push({ path: `photos/${filename}`, mode: '100644', type: 'blob', sha: blob.sha });
+    photoTreeItems.push({ path: `photos/${filename}`, mode: '100644', type: 'blob', sha: blob.sha });
   }
 
-  // 3. New tree → commit → branch (all atomic)
-  const newTree = await gh('/git/trees', {
+  // 2. Commit photos directly to PHOTO_REPO/main
+  const photoRef = await ghPhoto(`/git/ref/heads/${BASE_BRANCH}`);
+  const photoBaseSha = photoRef.object.sha;
+  const photoCommit = await ghPhoto(`/git/commits/${photoBaseSha}`);
+  
+  const photoTree = await ghPhoto('/git/trees', {
     method: 'POST',
-    body: { base_tree: baseTreeSha, tree: treeItems },
+    body: { base_tree: photoCommit.tree.sha, tree: photoTreeItems },
   });
 
-  const count = filenames.length;
-  const commitMsg = count === 1
-    ? `Add bookshelf photo ${filenames[0]}`
-    : `Add ${count} bookshelf photos`;
-
-  const newCommit = await gh('/git/commits', {
+  const photoNewCommit = await ghPhoto('/git/commits', {
     method: 'POST',
     body: {
-      message: commitMsg,
-      tree: newTree.sha,
-      parents: [baseSha],
-      author: {
-        name: 'Brutor',
-        email: 'brutor@bookhunt.eu',
-        date: new Date().toISOString()
-      },
-      committer: {
-        name: 'Brutor',
-        email: 'brutor@bookhunt.eu',
-        date: new Date().toISOString()
-      }
+      message: `Add ${filenames.length} contribution photos`,
+      tree: photoTree.sha,
+      parents: [photoBaseSha]
+    },
+  });
+
+  await ghPhoto(`/git/ref/heads/${BASE_BRANCH}`, {
+    method: 'PATCH',
+    body: { sha: photoNewCommit.sha },
+  });
+
+  // 3. Update queue.json on MAIN_REPO (in a new branch)
+  const mainRef = await ghMain(`/git/ref/heads/${BASE_BRANCH}`);
+  const mainBaseSha = mainRef.object.sha;
+  const mainCommit = await ghMain(`/git/commits/${mainBaseSha}`);
+  
+  // Read existing queue.json
+  let currentQueue = [];
+  try {
+    const queueFile = await ghMain('/contents/queue.json');
+    const content = Buffer.from(queueFile.content, 'base64').toString('utf-8');
+    currentQueue = JSON.parse(content);
+  } catch (e) {
+    console.log('No existing queue.json found, starting fresh');
+  }
+
+  const newPhotoUrls = filenames.map(f => `https://raw.githubusercontent.com/${PHOTO_REPO}/${BASE_BRANCH}/photos/${f}`);
+  const updatedQueue = [...currentQueue, ...newPhotoUrls];
+
+  const queueBlob = await ghMain('/git/blobs', {
+    method: 'POST',
+    body: { content: JSON.stringify(updatedQueue, null, 2), encoding: 'utf-8' },
+  });
+
+  const mainTree = await ghMain('/git/trees', {
+    method: 'POST',
+    body: {
+      base_tree: mainCommit.tree.sha,
+      tree: [{ path: 'queue.json', mode: '100644', type: 'blob', sha: queueBlob.sha }]
+    },
+  });
+
+  const mainNewCommit = await ghMain('/git/commits', {
+    method: 'POST',
+    body: {
+      message: `Queue ${filenames.length} photos for processing`,
+      tree: mainTree.sha,
+      parents: [mainBaseSha]
     },
   });
 
   const branchName = `contribute/${randomId(8)}`;
-  await gh('/git/refs', {
+  await ghMain('/git/refs', {
     method: 'POST',
-    body: { ref: `refs/heads/${branchName}`, sha: newCommit.sha },
+    body: { ref: `refs/heads/${branchName}`, sha: mainNewCommit.sha },
   });
 
-  // 4. Open pull request
+  // 4. Open PR
   const prBody = [
     `📚 **Bookshelf photo contribution via Bookhunt**`,
     '',
-    `**Photos submitted:** ${count}`,
-    ...filenames.map(f => `- \`${f}\``),
+    `**Photos submitted:** ${filenames.length}`,
+    ...filenames.map(f => `- [Photo Link](https://github.com/${PHOTO_REPO}/blob/${BASE_BRANCH}/photos/${f})`),
     '',
-    '_Submitted via the Bookhunt website photo contribution feature._',
+    '_Photos have been uploaded to the private repository. Merging this PR will add them to the processing queue._',
   ].join('\n');
 
-  const pr = await gh('/pulls', {
+  const pr = await ghMain('/pulls', {
     method: 'POST',
     body: {
-      title: `📸 Photo contribution (${count} photo${count > 1 ? 's' : ''})`,
+      title: `📸 Photo contribution (${filenames.length} photo${filenames.length > 1 ? 's' : ''})`,
       head: branchName,
       base: BASE_BRANCH,
       body: prBody,
-      maintainer_can_modify: true,
     },
   });
 
-  return { prUrl: pr.html_url, prNumber: pr.number, photos: count };
+  return { prUrl: pr.html_url, prNumber: pr.number, photos: filenames.length };
 }
 
-// ---------------------------------------------------------------------------
-// Helpers
-// ---------------------------------------------------------------------------
-function makeGhClient(token) {
+function makeGhClient(repo, token) {
   return async function gh(path, opts = {}) {
     const res = await fetch(
-      `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}${path}`,
+      `https://api.github.com/repos/${repo}${path}`,
       {
         method: opts.method || 'GET',
         headers: {
@@ -177,7 +181,7 @@ function makeGhClient(token) {
     if (!res.ok) {
       let msg = `HTTP ${res.status}`;
       try { msg = (await res.json()).message || msg; } catch { }
-      throw new Error(`GitHub API ${path}: ${msg}`);
+      throw new Error(`GitHub API ${repo}${path}: ${msg}`);
     }
 
     return res.json();

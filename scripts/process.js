@@ -46,6 +46,12 @@ async function main() {
   }
 
   console.log('\nProcessing complete.');
+  
+  const queuePath = path.join(__dirname, '..', 'queue.json');
+  if (fs.existsSync(queuePath)) {
+    fs.unlinkSync(queuePath);
+    console.log('Cleared queue.json');
+  }
 }
 
 main();
