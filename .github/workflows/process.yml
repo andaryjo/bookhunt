@@ -37,6 +37,11 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: npm run process
 
+      - name: Cleanup processed photos
+        env:
+          GH_TOKEN: ${{ secrets.BRUTOR_GH_PAT }}
+        run: node scripts/cleanup_photos.js
+
       - name: Commit and push changes
         env:
           GH_TOKEN: ${{ secrets.BRUTOR_GH_PAT }}
