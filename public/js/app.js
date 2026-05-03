@@ -89,6 +89,11 @@ async function init() {
     console.log("Hash changed, routing...");
     handleRouting();
   });
+
+  // 6. Initialize contribute flow (needs bookshelves + getDistance to be available)
+  if (typeof window.initContribute === 'function') {
+    window.initContribute();
+  }
 }
 
 async function loadData() {

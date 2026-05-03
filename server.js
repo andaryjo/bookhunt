@@ -14,27 +14,31 @@ const MIME_TYPES = {
 };
 
 const server = http.createServer((req, res) => {
-  let filePath = './public' + req.url;
-  if (req.url === '/') {
-    filePath = './public/index.html';
-  }
+  const urlPath = req.url.split('?')[0];
+  let filePath = path.join(__dirname, 'public', urlPath);
 
-  const extname = String(path.extname(filePath)).toLowerCase();
-  const contentType = MIME_TYPES[extname] || 'application/octet-stream';
-
-  fs.readFile(filePath, (error, content) => {
-    if (error) {
-      if (error.code === 'ENOENT') {
-        res.writeHead(404);
-        res.end('File not found');
-      } else {
-        res.writeHead(500);
-        res.end('Server error: ' + error.code);
-      }
-    } else {
-      res.writeHead(200, { 'Content-Type': contentType });
-      res.end(content, 'utf-8');
+  fs.stat(filePath, (err, stats) => {
+    if (!err && stats.isDirectory()) {
+      filePath = path.join(filePath, 'index.html');
     }
+
+    const extname = String(path.extname(filePath)).toLowerCase();
+    const contentType = MIME_TYPES[extname] || 'application/octet-stream';
+
+    fs.readFile(filePath, (error, content) => {
+      if (error) {
+        if (error.code === 'ENOENT') {
+          res.writeHead(404);
+          res.end('File not found');
+        } else {
+          res.writeHead(500);
+          res.end('Server error: ' + error.code);
+        }
+      } else {
+        res.writeHead(200, { 'Content-Type': contentType });
+        res.end(content, 'utf-8');
+      }
+    });
   });
 });
 
