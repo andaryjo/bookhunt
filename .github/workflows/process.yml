@@ -50,7 +50,8 @@ jobs:
           git config --local user.name "Brutor"
           git add public/data/
           git add photos/
-          git add queue.json
+          git add queue/
+          git add queue.json || true
           if ! git diff --quiet || ! git diff --staged --quiet; then
             git commit -m "update book data from automated analysis"
             git push

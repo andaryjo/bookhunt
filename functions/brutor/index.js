@@ -93,47 +93,37 @@ async function processContribution(photos, token) {
     body: { sha: photoNewCommit.sha },
   });
 
-  // 3. Update queue.json on MAIN_REPO (in a new branch)
+  // 3. Update queue (individual file per contribution to avoid merge conflicts)
   const mainCommitData = await ghMain(`/commits/${BASE_BRANCH}`);
   const mainBaseSha = mainCommitData.sha;
   const mainTreeSha = mainCommitData.commit.tree.sha;
 
-  // Read existing queue.json
-  let currentQueue = [];
-  try {
-    const queueFile = await ghMain('/contents/queue.json');
-    const content = Buffer.from(queueFile.content, 'base64').toString('utf-8');
-    currentQueue = JSON.parse(content);
-  } catch (e) {
-    console.log('No existing queue.json found, starting fresh');
-  }
-
+  const contributionId = randomId(8);
   const newPhotoUrls = filenames.map(f => `https://raw.githubusercontent.com/${PHOTO_REPO}/${BASE_BRANCH}/photos/${f}`);
-  const updatedQueue = [...currentQueue, ...newPhotoUrls];
 
   const queueBlob = await ghMain('/git/blobs', {
     method: 'POST',
-    body: { content: JSON.stringify(updatedQueue, null, 2), encoding: 'utf-8' },
+    body: { content: JSON.stringify(newPhotoUrls, null, 2), encoding: 'utf-8' },
   });
 
   const mainTree = await ghMain('/git/trees', {
     method: 'POST',
     body: {
       base_tree: mainTreeSha,
-      tree: [{ path: 'queue.json', mode: '100644', type: 'blob', sha: queueBlob.sha }]
+      tree: [{ path: `queue/${contributionId}.json`, mode: '100644', type: 'blob', sha: queueBlob.sha }]
     },
   });
 
   const mainNewCommit = await ghMain('/git/commits', {
     method: 'POST',
     body: {
-      message: `Queue ${filenames.length} photos for processing`,
+      message: `Queue contribution ${contributionId} (${filenames.length} photos)`,
       tree: mainTree.sha,
       parents: [mainBaseSha]
     },
   });
 
-  const branchName = `contribute/${randomId(8)}`;
+  const branchName = `contribute/${contributionId}`;
   await ghMain('/git/refs', {
     method: 'POST',
     body: { ref: `refs/heads/${branchName}`, sha: mainNewCommit.sha },

@@ -4,24 +4,46 @@ const path = require('path');
 const PHOTO_REPO = 'bookhuntbrutor/bookhunt-photos';
 const BASE_BRANCH = 'main';
 const queuePath = path.join(__dirname, '..', 'queue.json');
+const queueDir = path.join(__dirname, '..', 'queue');
 const token = process.env.GH_TOKEN;
 
 async function main() {
-  if (!fs.existsSync(queuePath)) {
-    console.log("No queue.json found. Nothing to cleanup.");
-    return;
-  }
-
   let queue = [];
-  try {
-    queue = JSON.parse(fs.readFileSync(queuePath, 'utf-8'));
-  } catch (e) {
-    console.error("Failed to parse queue.json", e);
-    return;
+  const processedFiles = [];
+
+  // 1. Collect from legacy queue.json
+  if (fs.existsSync(queuePath)) {
+    try {
+      const data = JSON.parse(fs.readFileSync(queuePath, 'utf-8'));
+      if (Array.isArray(data)) {
+        queue = queue.concat(data);
+        processedFiles.push(queuePath);
+      }
+    } catch (e) {
+      console.error("Failed to parse queue.json", e);
+    }
   }
 
-  if (!Array.isArray(queue) || queue.length === 0) {
-    console.log("Queue is empty.");
+  // 2. Collect from new queue/ directory
+  if (fs.existsSync(queueDir)) {
+    const files = fs.readdirSync(queueDir).filter(f => f.endsWith('.json'));
+    for (const file of files) {
+      try {
+        const filePath = path.join(queueDir, file);
+        const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+        const url = typeof data === 'string' ? data : data.url;
+        if (url) {
+          queue.push(url);
+          processedFiles.push(filePath);
+        }
+      } catch (e) {
+        console.error(`Failed to parse queue/${file}`, e);
+      }
+    }
+  }
+
+  if (queue.length === 0) {
+    console.log("Queue is empty. Nothing to cleanup.");
     return;
   }
 
@@ -116,9 +138,11 @@ async function main() {
 
     console.log("GitHub cleanup complete.");
     
-    // 6. Delete local queue.json
-    fs.unlinkSync(queuePath);
-    console.log("Cleared local queue.json");
+    // 6. Delete processed queue files
+    for (const filePath of processedFiles) {
+      fs.unlinkSync(filePath);
+      console.log(`Deleted ${path.basename(filePath)}`);
+    }
 
   } catch (err) {
     console.error("Cleanup failed:", err.message);
