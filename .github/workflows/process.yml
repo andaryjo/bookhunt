@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   process:
@@ -30,9 +31,18 @@ jobs:
         run: npm run process
 
       - name: Commit and push changes
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add public/data/
           git add photos/
-          git diff --quiet && git diff --staged --quiet || (git commit -m "update book data from automated analysis" && git push)
+          if ! git diff --quiet || ! git diff --staged --quiet; then
+            git commit -m "update book data from automated analysis"
+            git push
+            echo "Changes pushed, triggering deployment..."
+            gh workflow run deploy-pages.yml
+          else
+            echo "No changes to commit."
+          fi
