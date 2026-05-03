@@ -30,7 +30,7 @@ async function readExifGps(file) {
     const gps = await exifr.gps(file);
     if (gps?.latitude && gps?.longitude)
       return { lat: gps.latitude, lon: gps.longitude };
-  } catch (_) {}
+  } catch (_) { }
   return null;
 }
 
@@ -127,7 +127,7 @@ async function processEntry(entry) {
     if (!entry.exifGps) {
       throw new Error("No GPS EXIF data found. Please upload photos with location data.");
     }
-    
+
     entry.compressedBlob = await compressAndStrip(entry.file);
 
     let suggestion = null;
@@ -190,24 +190,24 @@ function updateEntryReady(entry, suggestion) {
   if (bookshelves?.length) {
     const nearbyOptions = entry.exifGps
       ? bookshelves
-          .map((s) => ({
-            ...s,
-            dist: getDistance(
-              entry.exifGps.lat,
-              entry.exifGps.lon,
-              s.lat,
-              s.lon,
-            ),
-          }))
-          .filter((s) => s.dist <= 0.5) // Only within 500m
-          .sort((a, b) => a.dist - b.dist)
-          .map((s) => {
-            const d =
-              s.dist < 1
-                ? `${Math.round(s.dist * 1000)}m`
-                : `${s.dist.toFixed(1)}km`;
-            return `<option value="${s.id}" ${s.id === entry.selectedShelfId ? "selected" : ""}>${s.name} (${d})</option>`;
-          })
+        .map((s) => ({
+          ...s,
+          dist: getDistance(
+            entry.exifGps.lat,
+            entry.exifGps.lon,
+            s.lat,
+            s.lon,
+          ),
+        }))
+        .filter((s) => s.dist <= 0.5) // Only within 500m
+        .sort((a, b) => a.dist - b.dist)
+        .map((s) => {
+          const d =
+            s.dist < 1
+              ? `${Math.round(s.dist * 1000)}m`
+              : `${s.dist.toFixed(1)}km`;
+          return `<option value="${s.id}" ${s.id === entry.selectedShelfId ? "selected" : ""}>${s.name} (${d})</option>`;
+        })
       : [];
 
     shelfPickerHtml = `
@@ -275,7 +275,7 @@ async function submitPhotos() {
     if (!res.ok) throw new Error(data.error || `Server error ${res.status}`);
 
     setPrStatus(
-      `🎉 Your contribution has been submitted and is pending review. You can view its progress <a href="${data.prUrl}" target="_blank" rel="noopener">here</a> — thank you!`,
+      `🎉 Your contribution has been submitted and is pending review. You can view its status <a href="${data.prUrl}" target="_blank" rel="noopener">here</a> — thank you!`,
       "success",
     );
 
