@@ -93,24 +93,37 @@ async function processContribution(photos, token) {
     body: { sha: photoNewCommit.sha },
   });
 
-  // 3. Update queue (individual file per contribution to avoid merge conflicts)
+  // 3. Update queue (individual file per photo to avoid merge conflicts)
   const mainCommitData = await ghMain(`/commits/${BASE_BRANCH}`);
   const mainBaseSha = mainCommitData.sha;
   const mainTreeSha = mainCommitData.commit.tree.sha;
 
   const contributionId = randomId(8);
-  const newPhotoUrls = filenames.map(f => `https://raw.githubusercontent.com/${PHOTO_REPO}/${BASE_BRANCH}/photos/${f}`);
+  const queueTreeItems = [];
 
-  const queueBlob = await ghMain('/git/blobs', {
-    method: 'POST',
-    body: { content: JSON.stringify(newPhotoUrls, null, 2), encoding: 'utf-8' },
-  });
+  for (let i = 0; i < filenames.length; i++) {
+    const filename = filenames[i];
+    const photoId = filename.split('_')[0]; // The 6-letter random ID
+    const url = `https://raw.githubusercontent.com/${PHOTO_REPO}/${BASE_BRANCH}/photos/${filename}`;
+    
+    const queueBlob = await ghMain('/git/blobs', {
+      method: 'POST',
+      body: { content: url, encoding: 'utf-8' },
+    });
+
+    queueTreeItems.push({
+      path: `queue/${photoId}`,
+      mode: '100644',
+      type: 'blob',
+      sha: queueBlob.sha
+    });
+  }
 
   const mainTree = await ghMain('/git/trees', {
     method: 'POST',
     body: {
       base_tree: mainTreeSha,
-      tree: [{ path: `queue/${contributionId}.json`, mode: '100644', type: 'blob', sha: queueBlob.sha }]
+      tree: queueTreeItems
     },
   });
 

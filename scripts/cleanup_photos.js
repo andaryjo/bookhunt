@@ -26,18 +26,28 @@ async function main() {
 
   // 2. Collect from new queue/ directory
   if (fs.existsSync(queueDir)) {
-    const files = fs.readdirSync(queueDir).filter(f => f.endsWith('.json'));
+    const files = fs.readdirSync(queueDir).filter(f => f !== '.gitkeep');
     for (const file of files) {
       try {
         const filePath = path.join(queueDir, file);
-        const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
-        const url = typeof data === 'string' ? data : data.url;
-        if (url) {
-          queue.push(url);
-          processedFiles.push(filePath);
+        const content = fs.readFileSync(filePath, 'utf-8').trim();
+        if (!content) continue;
+
+        try {
+          const data = JSON.parse(content);
+          if (Array.isArray(data)) {
+            queue = queue.concat(data);
+          } else {
+            const url = typeof data === 'string' ? data : data.url;
+            if (url) queue.push(url);
+          }
+        } catch (e) {
+          // Not JSON, treat as raw URL
+          queue.push(content);
         }
+        processedFiles.push(filePath);
       } catch (e) {
-        console.error(`Failed to parse queue/${file}`, e);
+        console.error(`Failed to read queue/${file}`, e);
       }
     }
   }
