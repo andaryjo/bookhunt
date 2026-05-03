@@ -26,20 +26,4 @@ jobs:
         uses: google-github-actions/setup-gcloud@v2
 
       - name: Deploy Cloud Function
-        run: |
-          gcloud functions deploy bookhunt-contribute \
-            --gen2 \
-            --project=goo-bookhunt \
-            --runtime=nodejs20 \
-            --region=europe-west1 \
-            --source=functions/contribute \
-            --entry-point=contribute \
-            --trigger-http \
-            --allow-unauthenticated \
-            --cpu-throttling \
-            --min-instances=0 \
-            --max-instances=10 \
-            --memory=256Mi \
-            --timeout=60s \
-            --set-env-vars="GH_TOKEN=${{ secrets.BRUTOR_GH_PAT }}"
-
+        run: gcloud functions deploy brutor --project=goo-bookhunt --gen2 --runtime=nodejs20 --region=europe-west1 --source=functions/brutor --entry-point=contribute --trigger-http --allow-unauthenticated --min-instances=0 --max-instances=1 --memory=256Mi --timeout=60 --set-env-vars="GH_TOKEN=${{ secrets.BRUTOR_GH_PAT }}"
