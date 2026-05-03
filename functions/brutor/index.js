@@ -163,8 +163,9 @@ async function processContribution(photos, token) {
 
 function makeGhClient(repo, token) {
   return async function gh(path, opts = {}) {
+    const url = `https://api.github.com/repos/${repo}${path}`;
     const res = await fetch(
-      `https://api.github.com/repos/${repo}${path}`,
+      url,
       {
         method: opts.method || 'GET',
         headers: {
@@ -180,7 +181,11 @@ function makeGhClient(repo, token) {
 
     if (!res.ok) {
       let msg = `HTTP ${res.status}`;
-      try { msg = (await res.json()).message || msg; } catch { }
+      try { 
+        const data = await res.json();
+        msg = data.message || msg;
+        console.error(`GitHub API Error details for ${url}:`, JSON.stringify(data));
+      } catch { }
       throw new Error(`GitHub API ${repo}${path}: ${msg}`);
     }
 
