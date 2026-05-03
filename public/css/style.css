@@ -434,8 +434,13 @@ body {
   }
 
   .map-container {
-    height: 25vh;
+    display: none;
+    height: 35vh;
     flex: none;
+  }
+
+  body.is-shelf-view .map-container {
+    display: block;
   }
 
   .sidebar {

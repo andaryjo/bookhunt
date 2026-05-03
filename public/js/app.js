@@ -440,15 +440,24 @@ async function handleRouting() {
       );
       if (shelf) {
         console.log("Found shelf:", shelf.name);
-        map.setView([shelf.lat, shelf.lon], 16);
+        document.body.classList.add("is-shelf-view");
+        // Small delay to allow CSS display: block to take effect before invalidating
+        setTimeout(() => {
+          if (map) {
+            map.invalidateSize();
+            map.setView([shelf.lat, shelf.lon], 16);
+          }
+        }, 50);
         showBookshelfDetails(shelf, false);
         setTimeout(() => lucide.createIcons(), 50);
       } else {
         console.warn("Shelf not found for ID:", shelfId);
+        document.body.classList.remove("is-shelf-view");
         showRecentBooks();
       }
     }
   } else if (hash.startsWith("#/search/")) {
+    document.body.classList.remove("is-shelf-view");
     const parts = hash.split("/");
     const query = parts[2] ? decodeURIComponent(parts[2]) : "";
     if (query) {
@@ -459,8 +468,14 @@ async function handleRouting() {
     }
   } else {
     // Clear search and show recent
+    document.body.classList.remove("is-shelf-view");
     searchInput.value = "";
     showRecentBooks();
+  }
+  
+  // Ensure map size is correct if view changed
+  if (map) {
+    setTimeout(() => map.invalidateSize(), 100);
   }
 }
 
