@@ -1,26 +1,29 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" data-theme="dark">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Contribute | Bookhunt</title>
-  <meta name="description" content="Add a new public bookshelf to the Bookhunt map.">
+  <meta name="description" content="Add a new public bookshelf to the Bookhunt map." />
 
   <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
 
   <!-- PicoCSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" />
 
-  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/style.css" />
   <style>
     body {
       background: var(--bg-main);
-      background-image: 
+      background-image:
         radial-gradient(at 0% 0%, rgba(0, 77, 64, 0.15) 0px, transparent 50%),
-        radial-gradient(at 100% 100%, rgba(38, 166, 154, 0.1) 0px, transparent 50%);
+        radial-gradient(at 100% 100%,
+          rgba(38, 166, 154, 0.1) 0px,
+          transparent 50%);
       display: flex;
       justify-content: center;
       align-items: center;
@@ -30,6 +33,7 @@
       overflow-y: auto;
       font-family: var(--font-family);
     }
+
     .contribute-container {
       max-width: 600px;
       width: 100%;
@@ -41,6 +45,7 @@
       border: 1px solid var(--border-color);
       box-shadow: var(--glass-shadow);
     }
+
     .back-link {
       display: inline-flex;
       align-items: center;
@@ -51,9 +56,11 @@
       font-size: 0.9rem;
       transition: color 0.2s;
     }
+
     .back-link:hover {
       color: var(--primary);
     }
+
     h1 {
       margin: 0 0 1rem;
       font-size: 1.75rem;
@@ -61,11 +68,13 @@
       font-weight: 700;
       letter-spacing: -0.5px;
     }
+
     .intro {
       color: var(--text-muted);
       margin-bottom: 2rem;
       line-height: 1.6;
     }
+
     /* Override modal-box styles for standalone use */
     .file-queue {
       max-height: none;
@@ -73,24 +82,43 @@
     }
   </style>
 </head>
-<body>
 
+<body>
   <div class="contribute-container">
     <a href="../" class="back-link">
       <i data-lucide="arrow-left"></i> Back to Map
     </a>
 
-    <h1>📷 Contribute a Photo</h1>
+    <h1>Contribute a bookshelf photo</h1>
     <p class="intro">
-      Spotted a public bookshelf? Drop a photo here — we'll compress it, strip location data, and open a pull request to add it to the map.
+      You can contribute by uploading photos of a public bookshelf. Our
+      system will automatically analyze the photos and add all the books to
+      the site.
+    </p>
+    <p class="intro">
+      We derive date and location from the photo EXIF data. The EXIF data
+      will be removed before uploading the photo and never leaves your device.
     </p>
 
     <div id="contributeDropZone" class="upload-area">
-      <input type="file" id="contributeImageInput" accept="image/*" multiple class="hidden-input" />
+      <input type="file" id="contributeImageInput" accept="image/jpeg" multiple class="hidden-input" />
       <div class="upload-area-content">
-        <i data-lucide="upload" style="color: var(--primary); margin-bottom: 0.75rem; width: 40px; height: 40px;"></i>
-        <p style="margin:0; font-weight:500">Drop photos here or click to browse</p>
-        <p style="margin:0.25rem 0 0; font-size:0.8rem; color:var(--text-muted)">JPEG/PNG · EXIF stripped · compressed to ~900 KB</p>
+        <i data-lucide="upload" style="
+              color: var(--primary);
+              margin-bottom: 0.75rem;
+              width: 40px;
+              height: 40px;
+            "></i>
+        <p style="margin: 0; font-weight: 500">
+          Drop photos here or click to browse
+        </p>
+        <p style="
+              margin: 0.25rem 0 0;
+              font-size: 0.8rem;
+              color: var(--text-muted);
+            ">
+          JPEG only · GPS EXIF required · compressed to ~900 KB
+        </p>
       </div>
     </div>
 
@@ -105,7 +133,8 @@
   <!-- Scripts -->
   <script src="https://unpkg.com/lucide@latest"></script>
   <!-- Image compression -->
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/browser-image-compression@2.0.1/dist/browser-image-compression.js"></script>
+  <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/browser-image-compression@2.0.1/dist/browser-image-compression.js"></script>
   <!-- EXIF reader -->
   <script src="https://cdn.jsdelivr.net/npm/exifr/dist/lite.umd.js"></script>
 
@@ -113,14 +142,19 @@
     // Mock getDistance and load bookshelves
     let bookshelves = [];
 
-    function deg2rad(deg) { return deg * (Math.PI / 180); }
+    function deg2rad(deg) {
+      return deg * (Math.PI / 180);
+    }
     function getDistance(lat1, lon1, lat2, lon2) {
       const R = 6371;
       const dLat = deg2rad(lat2 - lat1);
       const dLon = deg2rad(lon2 - lon1);
-      const a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
-                Math.cos(deg2rad(lat1)) * Math.cos(deg2rad(lat2)) *
-                Math.sin(dLon / 2) * Math.sin(dLon / 2);
+      const a =
+        Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+        Math.cos(deg2rad(lat1)) *
+        Math.cos(deg2rad(lat2)) *
+        Math.sin(dLon / 2) *
+        Math.sin(dLon / 2);
       const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
       return R * c;
     }
@@ -133,8 +167,8 @@
       } catch (e) {
         console.warn("Failed to load bookshelves for suggestions", e);
       }
-      
-      if (typeof window.initContribute === 'function') {
+
+      if (typeof window.initContribute === "function") {
         window.initContribute();
       }
     }
@@ -145,4 +179,5 @@
   <!-- Contribute flow -->
   <script src="../js/contribute.js"></script>
 </body>
+
 </html>
