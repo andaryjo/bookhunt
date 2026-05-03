@@ -141,8 +141,10 @@ async function processContribution(photos, token) {
 
   // 4. Open PR
   const prBody = [
-    `**Photos submitted:**`,
-    ...filenames.map(f => `- https://github.com/${PHOTO_REPO}/blob/${BASE_BRANCH}/photos/${f}`),
+    `Thank you for your contribution. The pictures will now get reviewed by a human and automatically processed after approval. This process may take a few hours.`,
+    ``,
+    `Photos submitted for review:`,
+    ...filenames.map(f => `- [${f}](https://github.com/${PHOTO_REPO}/blob/${BASE_BRANCH}/photos/${f})`),
   ].join('\n');
 
   const pr = await ghMain('/pulls', {
