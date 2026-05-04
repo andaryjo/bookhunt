@@ -421,6 +421,54 @@ body {
   color: var(--text-muted);
 }
 
+.location-prompt-card {
+  background: rgba(38, 166, 154, 0.1);
+  border: 1px solid rgba(38, 166, 154, 0.4);
+  border-radius: var(--border-radius);
+  padding: 1rem 1.25rem;
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  text-align: left;
+}
+
+.location-prompt-card:hover {
+  background: rgba(38, 166, 154, 0.15);
+  transform: translateY(-2px);
+  border-color: var(--secondary);
+  box-shadow: 0 4px 12px rgba(38, 166, 154, 0.15);
+}
+
+.location-prompt-card i {
+  color: var(--secondary);
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.location-prompt-card .text-content {
+  flex: 1;
+}
+
+.location-prompt-card h4 {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--text-main);
+  font-weight: 600;
+}
+
+.location-prompt-card p {
+  margin: 0.15rem 0 0 0;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
 .shelf-card {
   background: rgba(0, 77, 64, 0.1);
   border: 1px solid var(--primary);

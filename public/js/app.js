@@ -5,6 +5,7 @@ let map = null;
 let markers = {};
 let currentFile = null;
 let userLocation = { lat: 52.52, lon: 13.405 }; // Default Berlin
+let isLocationShared = false;
 
 // DOM Elements
 const startPage = document.getElementById("startPage");
@@ -118,9 +119,9 @@ function getDistance(lat1, lon1, lat2, lon2) {
   const a =
     Math.sin(dLat / 2) * Math.sin(dLat / 2) +
     Math.cos((lat1 * Math.PI) / 180) *
-      Math.cos((lat2 * Math.PI) / 180) *
-      Math.sin(dLon / 2) *
-      Math.sin(dLon / 2);
+    Math.cos((lat2 * Math.PI) / 180) *
+    Math.sin(dLon / 2) *
+    Math.sin(dLon / 2);
   const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
   return R * c;
 }
@@ -174,6 +175,65 @@ function showRecentBooks() {
 
   const recentBooks = allBooksWithMeta.slice(0, 50);
   renderBooks(recentBooks, searchList, true, true);
+  renderLocationPrompt(searchList);
+}
+
+function renderLocationPrompt(container) {
+  if (isLocationShared) return;
+
+  const card = document.createElement("div");
+  card.className = "location-prompt-card";
+  card.innerHTML = `
+    <i data-lucide="map-pin"></i>
+    <div class="text-content">
+      <h4>Find books near you</h4>
+      <p>Use your location for accurate results. Your location only gets used for search.</p>
+    </div>
+    <button class="nav-btn small" style="background: var(--secondary); margin: 0; padding: 0.4rem 0.8rem;">Use location</button>
+  `;
+  card.addEventListener("click", requestUserLocation);
+  container.appendChild(card);
+  if (window.lucide) lucide.createIcons();
+}
+
+async function requestUserLocation() {
+  if (!navigator.geolocation) {
+    alert("Geolocation is not supported by your browser");
+    return;
+  }
+
+  navigator.geolocation.getCurrentPosition(
+    (position) => {
+      userLocation = {
+        lat: position.coords.latitude,
+        lon: position.coords.longitude,
+      };
+      isLocationShared = true;
+      console.log("User location shared:", userLocation);
+
+      // Update map if it exists
+      if (map) {
+        map.setView([userLocation.lat, userLocation.lon], 13);
+      }
+
+      // Re-render current view to show better results
+      const hash = window.location.hash;
+      if (hash.startsWith("#/search/")) {
+        const query = decodeURIComponent(hash.split("/")[2]);
+        handleSearch(query, false);
+      } else {
+        showRecentBooks();
+      }
+    },
+    (error) => {
+      console.error("Error getting location:", error);
+      let msg = "Could not get your location.";
+      if (error.code === error.PERMISSION_DENIED) {
+        msg = "Location permission denied. Please enable it in your browser settings.";
+      }
+      alert(msg);
+    },
+  );
 }
 
 // Populate map with markers
@@ -366,7 +426,31 @@ async function handleSearch(query, updateUrl = true) {
     }
   });
 
-  results.sort((a, b) => new Date(b.date) - new Date(a.date));
+  // Calculate distances for all bookshelves to sort books by proximity
+  const shelfDistances = {};
+  bookshelves.forEach((s) => {
+    shelfDistances[s.id] = getDistance(
+      userLocation.lat,
+      userLocation.lon,
+      s.lat,
+      s.lon,
+    );
+  });
+
+  // Sort results by proximity and recency
+  results.sort((a, b) => {
+    const distA = shelfDistances[a.bookshelfId] || Infinity;
+    const distB = shelfDistances[b.bookshelfId] || Infinity;
+
+    const aNearby = distA < 25;
+    const bNearby = distB < 25;
+
+    if (aNearby && !bNearby) return -1;
+    if (!aNearby && bNearby) return 1;
+
+    // Both nearby or both far, sort by date
+    return new Date(b.date) - new Date(a.date);
+  });
 
   searchList.innerHTML = "";
   if (shelfList) shelfList.innerHTML = "";
@@ -380,6 +464,7 @@ async function handleSearch(query, updateUrl = true) {
         <p>No results found.</p>
       </div>
     `;
+    renderLocationPrompt(searchList);
     lucide.createIcons();
     return;
   }
@@ -409,9 +494,18 @@ async function handleSearch(query, updateUrl = true) {
     if (bookResultsCol) bookResultsCol.classList.remove("hidden");
     if (booksTitle) booksTitle.classList.remove("hidden");
     renderBooks(results.slice(0, 50), searchList, true, false);
+    renderLocationPrompt(searchList);
   } else {
-    if (results.length === 0 && shelfResults.length > 0) {
-      if (bookResultsCol) bookResultsCol.classList.add("hidden");
+    if (shelfResults.length > 0) {
+      // Show the column even if no books, to display the location prompt
+      if (!isLocationShared) {
+        if (bookResultsCol) bookResultsCol.classList.remove("hidden");
+        if (booksTitle) booksTitle.classList.add("hidden");
+        searchList.innerHTML = "";
+        renderLocationPrompt(searchList);
+      } else {
+        if (bookResultsCol) bookResultsCol.classList.add("hidden");
+      }
     }
   }
 
