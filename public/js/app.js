@@ -66,20 +66,6 @@ async function init() {
   // 2. Setup UI
   lucide.createIcons();
 
-  // Try to get user location via IP
-  try {
-    const geoRes = await fetch("https://ipapi.co/json/");
-    if (geoRes.ok) {
-      const geoData = await geoRes.json();
-      if (geoData.latitude && geoData.longitude) {
-        userLocation = { lat: geoData.latitude, lon: geoData.longitude };
-        console.log("Detected location:", geoData.city, userLocation);
-      }
-    }
-  } catch (e) {
-    console.warn("Geolocation failed, using default:", e.message);
-  }
-
   // 3. Initialize Map
   try {
     map = L.map("map").setView([userLocation.lat, userLocation.lon], 12);
