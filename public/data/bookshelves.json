@@ -106951,5 +106951,12 @@
     "address": "Gemünden am Main",
     "lat": 50.0565,
     "lon": 9.689467
+  },
+  {
+    "id": "6384621a-a84f-4c5d-a27d-32f11ef27bb8",
+    "name": "Minibieb Mijdrechtstraat",
+    "address": "Kromme Mijdrechtstraat 32, 1079 KX Amsterdam",
+    "lat": 52.3451897,
+    "lon": 4.9088423
   }
 ]
