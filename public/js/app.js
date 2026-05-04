@@ -96,6 +96,9 @@ async function init() {
   if (typeof window.initContribute === "function") {
     window.initContribute();
   }
+
+  // 7. Check if location permission is already granted
+  checkLocationPermission();
 }
 
 async function loadData() {
@@ -239,6 +242,20 @@ async function requestUserLocation() {
       alert(msg);
     },
   );
+}
+
+async function checkLocationPermission() {
+  if (!navigator.permissions || !navigator.permissions.query) return;
+
+  try {
+    const result = await navigator.permissions.query({ name: "geolocation" });
+    if (result.state === "granted") {
+      console.log("Location permission already granted, fetching...");
+      requestUserLocation();
+    }
+  } catch (e) {
+    console.warn("Permissions API check failed for geolocation:", e);
+  }
 }
 
 // Populate map with markers
