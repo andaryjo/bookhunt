@@ -48,6 +48,9 @@ const submitBtn = document.getElementById("submitBtn");
 async function init() {
   console.log("Initializing app...");
 
+  // 7. Check if location permission is already granted
+  checkLocationPermission();
+
   // 1. Load Data FIRST
   try {
     await loadData();
@@ -91,14 +94,6 @@ async function init() {
     console.log("Hash changed, routing...");
     handleRouting();
   });
-
-  // 6. Initialize contribute flow (needs bookshelves + getDistance to be available)
-  if (typeof window.initContribute === "function") {
-    window.initContribute();
-  }
-
-  // 7. Check if location permission is already granted
-  checkLocationPermission();
 }
 
 async function loadData() {
@@ -122,9 +117,9 @@ function getDistance(lat1, lon1, lat2, lon2) {
   const a =
     Math.sin(dLat / 2) * Math.sin(dLat / 2) +
     Math.cos((lat1 * Math.PI) / 180) *
-    Math.cos((lat2 * Math.PI) / 180) *
-    Math.sin(dLon / 2) *
-    Math.sin(dLon / 2);
+      Math.cos((lat2 * Math.PI) / 180) *
+      Math.sin(dLon / 2) *
+      Math.sin(dLon / 2);
   const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
   return R * c;
 }
@@ -237,7 +232,8 @@ async function requestUserLocation() {
       console.error("Error getting location:", error);
       let msg = "Could not get your location.";
       if (error.code === error.PERMISSION_DENIED) {
-        msg = "Location permission denied. Please enable it in your browser settings.";
+        msg =
+          "Location permission denied. Please enable it in your browser settings.";
       }
       alert(msg);
     },
