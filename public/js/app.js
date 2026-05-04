@@ -124,7 +124,7 @@ function getDistance(lat1, lon1, lat2, lon2) {
   return R * c;
 }
 
-// Show 50 most recent books with geographical relevance
+// Show 10 most recent books with geographical relevance
 function showRecentBooks() {
   if (searchInput.value.trim()) return;
 
@@ -170,12 +170,12 @@ function showRecentBooks() {
   nearbyBooks.sort((a, b) => new Date(b.date) - new Date(a.date));
   otherBooks.sort((a, b) => new Date(b.date) - new Date(a.date));
 
-  // 4. Combine: prioritize nearby, fill with other if needed to reach 50
+  // 4. Combine: prioritize nearby, fill with other if needed to reach 100
   let combined = [...nearbyBooks];
-  if (combined.length < 50) {
-    combined = combined.concat(otherBooks.slice(0, 50 - combined.length));
+  if (combined.length < 100) {
+    combined = combined.concat(otherBooks.slice(0, 100 - combined.length));
   } else {
-    combined = combined.slice(0, 50);
+    combined = combined.slice(0, 100);
   }
 
   renderBooks(combined, searchList, true, true);
@@ -518,7 +518,7 @@ async function handleSearch(query, updateUrl = true) {
   if (results.length > 0) {
     if (bookResultsCol) bookResultsCol.classList.remove("hidden");
     if (booksTitle) booksTitle.classList.remove("hidden");
-    renderBooks(results.slice(0, 50), searchList, true, false);
+    renderBooks(results.slice(0, 100), searchList, true, false);
     renderLocationPrompt(searchList);
   } else {
     if (shelfResults.length > 0) {
