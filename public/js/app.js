@@ -138,7 +138,11 @@ function showRecentBooks() {
   if (booksTitle) booksTitle.classList.add("hidden");
   if (shelfList) shelfList.innerHTML = "";
 
-  if (resultsTitle) resultsTitle.textContent = "Recently seen books";
+  if (resultsTitle) {
+    resultsTitle.textContent = isLocationShared
+      ? "Books near you"
+      : "Recently seen books";
+  }
 
   // 1. Calculate distances for all bookshelves
   const shelfDistances = {};
@@ -151,30 +155,32 @@ function showRecentBooks() {
     );
   });
 
-  // 2. Sort all books by a combination of recency and distance
-  // We'll prioritize books within 100km, then sort by date.
-  // If we don't have enough, we'll take the next ones.
-  const allBooksWithMeta = booksData.map((book) => ({
-    ...book,
-    distance: shelfDistances[book.bookshelfId] || Infinity,
-  }));
+  // 2. Separate books into "Nearby" and "Other"
+  const nearbyBooks = [];
+  const otherBooks = [];
 
-  // Sort logic:
-  // Primary: Is it "nearby" (e.g. < 100km)?
-  // Secondary: Timestamp
-  allBooksWithMeta.sort((a, b) => {
-    const aNearby = a.distance < 100;
-    const bNearby = b.distance < 100;
-
-    if (aNearby && !bNearby) return -1;
-    if (!aNearby && bNearby) return 1;
-
-    // Both nearby or both far, sort by date
-    return new Date(b.date) - new Date(a.date);
+  booksData.forEach((book) => {
+    const distance = shelfDistances[book.bookshelfId] || Infinity;
+    if (distance < 25) {
+      nearbyBooks.push({ ...book, distance });
+    } else {
+      otherBooks.push({ ...book, distance });
+    }
   });
 
-  const recentBooks = allBooksWithMeta.slice(0, 50);
-  renderBooks(recentBooks, searchList, true, true);
+  // 3. Sort both groups by date (newest first)
+  nearbyBooks.sort((a, b) => new Date(b.date) - new Date(a.date));
+  otherBooks.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+  // 4. Combine: prioritize nearby, fill with other if needed to reach 50
+  let combined = [...nearbyBooks];
+  if (combined.length < 50) {
+    combined = combined.concat(otherBooks.slice(0, 50 - combined.length));
+  } else {
+    combined = combined.slice(0, 50);
+  }
+
+  renderBooks(combined, searchList, true, true);
   renderLocationPrompt(searchList);
 }
 
@@ -184,7 +190,6 @@ function renderLocationPrompt(container) {
   const card = document.createElement("div");
   card.className = "location-prompt-card";
   card.innerHTML = `
-    <i data-lucide="map-pin"></i>
     <div class="text-content">
       <h4>Find books near you</h4>
       <p>Use your location for accurate results. Your location only gets used for search.</p>
@@ -413,6 +418,13 @@ async function handleSearch(query, updateUrl = true) {
     ) {
       shelfResults.push(shelf);
     }
+  });
+
+  // Sort shelf results by proximity
+  shelfResults.sort((a, b) => {
+    const distA = getDistance(userLocation.lat, userLocation.lon, a.lat, a.lon);
+    const distB = getDistance(userLocation.lat, userLocation.lon, b.lat, b.lon);
+    return distA - distB;
   });
 
   let results = [];
