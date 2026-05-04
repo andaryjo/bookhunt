@@ -7,6 +7,13 @@ let currentFile = null;
 let userLocation = { lat: 52.52, lon: 13.405 }; // Default Berlin
 
 // DOM Elements
+const startPage = document.getElementById("startPage");
+const mapSection = document.getElementById("mapSection");
+const shelfSidebar = document.getElementById("shelfSidebar");
+const mapViewBtn = document.getElementById("mapViewBtn");
+const brandBtn = document.getElementById("brandBtn");
+const closeShelfBtn = document.getElementById("closeShelfBtn");
+
 const mapEl = document.getElementById("map");
 const bookshelfInfo = document.getElementById("bookshelfInfo");
 const shelfName = document.getElementById("shelfName");
@@ -15,7 +22,15 @@ const bookList = document.getElementById("bookList");
 
 const searchResults = document.getElementById("searchResults");
 const searchList = document.getElementById("searchList");
+const shelfList = document.getElementById("shelfList");
 const searchInput = document.getElementById("searchInput");
+const resultsTitle = document.getElementById("resultsTitle");
+const shelfResultsCol = document.getElementById("shelfResultsCol");
+const bookResultsCol = document.getElementById("bookResultsCol");
+const booksTitle = document.getElementById("booksTitle");
+const resultsGrid = document.getElementById("resultsGrid");
+
+const mapSearchInput = document.getElementById("mapSearchInput");
 
 const uploadModal = document.getElementById("uploadModal");
 const openUploadBtn = document.getElementById("openUploadBtn");
@@ -91,7 +106,7 @@ async function init() {
   });
 
   // 6. Initialize contribute flow (needs bookshelves + getDistance to be available)
-  if (typeof window.initContribute === 'function') {
+  if (typeof window.initContribute === "function") {
     window.initContribute();
   }
 }
@@ -128,11 +143,15 @@ function getDistance(lat1, lon1, lat2, lon2) {
 function showRecentBooks() {
   if (searchInput.value.trim()) return;
 
-  bookshelfInfo.classList.add("hidden");
-  searchResults.classList.remove("hidden");
+  if (searchResults) searchResults.classList.remove("hide-title");
+  if (resultsGrid) resultsGrid.classList.add("is-recent");
 
-  const resultsHeader = searchResults.querySelector("h2");
-  if (resultsHeader) resultsHeader.textContent = "Recently seen books";
+  if (shelfResultsCol) shelfResultsCol.classList.add("hidden");
+  if (bookResultsCol) bookResultsCol.classList.remove("hidden");
+  if (booksTitle) booksTitle.classList.add("hidden");
+  if (shelfList) shelfList.innerHTML = "";
+
+  if (resultsTitle) resultsTitle.textContent = "Recently seen books";
 
   // 1. Calculate distances for all bookshelves
   const shelfDistances = {};
@@ -172,7 +191,8 @@ function showRecentBooks() {
 }
 
 // Populate map with markers
-function populateMap() {
+let markersLayer = null;
+function populateMap(shelvesToUse = bookshelves) {
   const iconHtml = `<div class="custom-marker">📚</div>`;
   const customIcon = L.divIcon({
     html: iconHtml,
@@ -181,26 +201,29 @@ function populateMap() {
     iconAnchor: [15, 15],
   });
 
-  const markersCluster = L.markerClusterGroup({
+  if (markersLayer) {
+    map.removeLayer(markersLayer);
+  }
+
+  markersLayer = L.markerClusterGroup({
     chunkedLoading: true,
   });
 
   const markerList = [];
-  bookshelves.forEach((shelf) => {
+  shelvesToUse.forEach((shelf) => {
     const marker = L.marker([shelf.lat, shelf.lon], { icon: customIcon });
 
     // Bind click event
     marker.on("click", () => {
-      showBookshelfDetails(shelf);
-      setTimeout(() => lucide.createIcons(), 10);
+      window.location.hash = `/map/shelf/${shelf.id}`;
     });
 
     markerList.push(marker);
     markers[shelf.id] = marker;
   });
 
-  markersCluster.addLayers(markerList);
-  map.addLayer(markersCluster);
+  markersLayer.addLayers(markerList);
+  map.addLayer(markersLayer);
 
   // Re-render icons when cluster expands/collapses or map moves
   map.on("moveend", () => {
@@ -213,12 +236,8 @@ function populateMap() {
 // Render Bookshelf details on the sidebar
 function showBookshelfDetails(shelf, updateUrl = true) {
   if (updateUrl) {
-    window.location.hash = `/shelf/${shelf.id}`;
+    window.location.hash = `/map/shelf/${shelf.id}`;
   }
-
-  // Hide search results
-  searchResults.classList.add("hidden");
-  bookshelfInfo.classList.remove("hidden");
 
   shelfName.textContent = shelf.name;
   shelfDesc.textContent = shelf.address || shelf.description || "";
@@ -239,7 +258,8 @@ function showBookshelfDetails(shelf, updateUrl = true) {
   renderBooks(allBooks, bookList, false);
 }
 
-function renderShelves(shelves, container) {
+function renderShelves(shelves, container, clearContainer = true) {
+  if (clearContainer) container.innerHTML = "";
   shelves.forEach((shelf) => {
     const card = document.createElement("div");
     card.className = "shelf-card";
@@ -250,9 +270,7 @@ function renderShelves(shelves, container) {
       <p class="text-muted small" style="margin: 0; margin-top: 4px;">${shelf.address || shelf.description || "Public bookshelf"}</p>
     `;
     card.addEventListener("click", () => {
-      map.setView([shelf.lat, shelf.lon], 16);
-      showBookshelfDetails(shelf);
-      lucide.createIcons();
+      window.location.hash = `/map/shelf/${shelf.id}`;
     });
     container.appendChild(card);
   });
@@ -314,11 +332,7 @@ function renderBooks(
     container.querySelectorAll(".book-shelf-link").forEach((link) => {
       link.addEventListener("click", (e) => {
         const shelfId = e.target.getAttribute("data-shelf-id");
-        const shelf = bookshelves.find((s) => String(s.id) === String(shelfId));
-        if (shelf) {
-          map.setView([shelf.lat, shelf.lon], 16);
-          showBookshelfDetails(shelf);
-        }
+        window.location.hash = `/map/shelf/${shelfId}`;
       });
     });
   }
@@ -337,11 +351,9 @@ async function handleSearch(query, updateUrl = true) {
   }
 
   query = query.toLowerCase().trim();
-  bookshelfInfo.classList.add("hidden");
-  searchResults.classList.remove("hidden");
 
-  const resultsHeader = searchResults.querySelector("h2");
-  if (resultsHeader) resultsHeader.textContent = "Search Results";
+  if (searchResults) searchResults.classList.add("hide-title");
+  if (resultsGrid) resultsGrid.classList.remove("is-recent");
 
   let searchTitle = query;
 
@@ -371,8 +383,11 @@ async function handleSearch(query, updateUrl = true) {
   results.sort((a, b) => new Date(b.date) - new Date(a.date));
 
   searchList.innerHTML = "";
+  if (shelfList) shelfList.innerHTML = "";
 
   if (shelfResults.length === 0 && results.length === 0) {
+    if (shelfResultsCol) shelfResultsCol.classList.add("hidden");
+    if (bookResultsCol) bookResultsCol.classList.remove("hidden");
     searchList.innerHTML = `
       <div class="empty-state">
         <span style="font-size: 3rem;">👻</span>
@@ -384,37 +399,75 @@ async function handleSearch(query, updateUrl = true) {
   }
 
   if (shelfResults.length > 0) {
-    const shelfContainer = document.createElement("div");
-    shelfContainer.className = "shelf-results-container";
-    searchList.appendChild(shelfContainer);
+    if (shelfResultsCol) shelfResultsCol.classList.remove("hidden");
+    renderShelves(shelfResults.slice(0, 3), shelfList);
 
-    renderShelves(shelfResults.slice(0, 5), shelfContainer);
-
-    if (shelfResults.length > 5) {
+    if (shelfResults.length > 3) {
       const moreBtn = document.createElement("button");
       moreBtn.className = "outline secondary small";
       moreBtn.style.width = "100%";
-      moreBtn.style.marginBottom = "1rem";
-      moreBtn.innerText = `Show ${Math.min(shelfResults.length - 5, 20)} more shelves...`;
+      moreBtn.style.marginTop = "0.5rem";
+      moreBtn.innerText = `Show ${shelfResults.length - 3} more shelves...`;
       moreBtn.onclick = () => {
         moreBtn.remove();
-        renderShelves(shelfResults.slice(5, 25), shelfContainer);
+        renderShelves(shelfResults.slice(3), shelfList, false); // false to not clear
         lucide.createIcons();
       };
-      shelfContainer.appendChild(moreBtn);
+      shelfList.appendChild(moreBtn);
     }
+  } else {
+    if (shelfResultsCol) shelfResultsCol.classList.add("hidden");
   }
 
   if (results.length > 0) {
+    if (bookResultsCol) bookResultsCol.classList.remove("hidden");
+    if (booksTitle) booksTitle.classList.remove("hidden");
     renderBooks(results.slice(0, 50), searchList, true, false);
+  } else {
+    if (results.length === 0 && shelfResults.length > 0) {
+      if (bookResultsCol) bookResultsCol.classList.add("hidden");
+    }
   }
 
   lucide.createIcons();
 }
 
+// Map-specific location search (cities, places)
+async function handleMapSearch(query) {
+  if (!query || query.length < 3) return;
+
+  try {
+    const res = await fetch(
+      `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(query)}`,
+    );
+    if (res.ok) {
+      const data = await res.json();
+      if (data && data.length > 0) {
+        const place = data[0];
+        const lat = parseFloat(place.lat);
+        const lon = parseFloat(place.lon);
+
+        if (map) {
+          map.setView([lat, lon], 12);
+        }
+      }
+    }
+  } catch (e) {
+    console.error("Location search failed", e);
+  }
+}
+
 function setupEventListeners() {
-  document.querySelector(".brand").addEventListener("click", () => {
+  brandBtn.addEventListener("click", () => {
     window.location.hash = "";
+  });
+
+  mapViewBtn.addEventListener("click", () => {
+    window.location.hash = "/map";
+  });
+
+  closeShelfBtn.addEventListener("click", () => {
+    window.location.hash = "/map";
   });
 
   let searchTimeout;
@@ -424,15 +477,29 @@ function setupEventListeners() {
       handleSearch(e.target.value);
     }, 300);
   });
+
+  let mapSearchTimeout;
+  mapSearchInput.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") {
+      handleMapSearch(e.target.value);
+    }
+  });
 }
 
 async function handleRouting() {
   const hash = window.location.hash;
   console.log("Routing to hash:", hash);
 
-  if (hash.startsWith("#/shelf/")) {
+  // Reset body classes and visibility
+  document.body.classList.remove("is-map-view", "is-shelf-view");
+  mapSection.classList.add("hidden");
+  mapViewBtn.classList.remove("hidden");
+  shelfSidebar.classList.add("hidden");
+  startPage.classList.add("hidden");
+
+  if (hash.startsWith("#/map/shelf/")) {
     const parts = hash.split("/");
-    const shelfId = parts[2];
+    const shelfId = parts[3];
 
     if (shelfId) {
       const shelf = bookshelves.find(
@@ -441,6 +508,10 @@ async function handleRouting() {
       if (shelf) {
         console.log("Found shelf:", shelf.name);
         document.body.classList.add("is-shelf-view");
+        mapSection.classList.remove("hidden");
+        mapViewBtn.classList.add("hidden");
+        shelfSidebar.classList.remove("hidden");
+
         // Small delay to allow CSS display: block to take effect before invalidating
         setTimeout(() => {
           if (map) {
@@ -450,14 +521,21 @@ async function handleRouting() {
         }, 50);
         showBookshelfDetails(shelf, false);
         setTimeout(() => lucide.createIcons(), 50);
-      } else {
-        console.warn("Shelf not found for ID:", shelfId);
-        document.body.classList.remove("is-shelf-view");
-        showRecentBooks();
+        return;
       }
     }
+    // Fallback if shelf not found
+    window.location.hash = "/map";
+  } else if (hash === "#/map") {
+    document.body.classList.add("is-map-view");
+    mapSection.classList.remove("hidden");
+    mapViewBtn.classList.add("hidden");
+
+    if (map) {
+      setTimeout(() => map.invalidateSize(), 100);
+    }
   } else if (hash.startsWith("#/search/")) {
-    document.body.classList.remove("is-shelf-view");
+    startPage.classList.remove("hidden");
     const parts = hash.split("/");
     const query = parts[2] ? decodeURIComponent(parts[2]) : "";
     if (query) {
@@ -467,14 +545,14 @@ async function handleRouting() {
       showRecentBooks();
     }
   } else {
-    // Clear search and show recent
-    document.body.classList.remove("is-shelf-view");
+    // Start Page (default)
+    startPage.classList.remove("hidden");
     searchInput.value = "";
     showRecentBooks();
   }
-  
-  // Ensure map size is correct if view changed
-  if (map) {
+
+  // Ensure map size is correct if map is visible
+  if (map && !mapSection.classList.contains("hidden")) {
     setTimeout(() => map.invalidateSize(), 100);
   }
 }

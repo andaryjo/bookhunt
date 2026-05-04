@@ -1,92 +1,158 @@
 <!doctype html>
 <html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookhunt — Discover Public Bookshelves Near You</title>
+    <meta
+      name="description"
+      content="Explore and contribute to public bookshelves (Bücherschränke) on an interactive map. Discover books spotted around the world."
+    />
+    <link rel="icon" href="favicon.ico" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Bookhunt — Discover Public Bookshelves Near You</title>
-  <meta name="description"
-    content="Explore and contribute to public bookshelves (Bücherschränke) on an interactive map. Discover books spotted around the world." />
-  <link rel="icon" href="favicon.ico" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <!-- PicoCSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"
+    />
 
-  <!-- PicoCSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" />
+    <!-- Leaflet CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      crossorigin=""
+    />
+    <!-- Leaflet MarkerCluster CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css"
+    />
 
-  <!-- Leaflet CSS -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
-  <!-- Leaflet MarkerCluster CSS -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
-  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="css/style.css" />
-</head>
+  <body>
+    <!-- Header -->
+    <header class="app-header">
+      <div class="brand" id="brandBtn">
+        <h1>Bookhunt</h1>
+      </div>
+      <div class="nav-controls">
+        <button class="nav-btn" id="mapViewBtn">Map</button>
+        <a href="contribute/" class="nav-btn">Contribute</a>
+      </div>
+    </header>
 
-<body>
-  <!-- Header -->
-  <header class="app-header">
-    <div class="brand">
-      <span style="font-size: 1.5rem">📚</span>
-      <h1>Bookhunt</h1>
-    </div>
-    <div class="search-container">
-      <input type="search" id="searchInput" placeholder="Search title, author or shelf" />
-    </div>
-    <a href="contribute/" class="contribute-btn" title="Contribute a photo">
-      <span class="contribute-btn-icon">📷</span>
-      <span class="contribute-btn-label">Contribute</span>
-    </a>
-  </header>
-
-  <!-- Main Content Layout -->
-  <main class="app-main">
-    <div class="map-container" id="map"></div>
-
-    <aside class="sidebar">
-      <div id="bookshelfInfo" class="bookshelf-info hidden">
-        <div class="info-header">
-          <h2 id="shelfName">Select a bookshelf</h2>
-          <p id="shelfDesc" class="text-muted"></p>
-        </div>
-        <div id="bookList" class="book-list">
-          <!-- Books will be rendered here -->
-          <div class="empty-state">
-            <span style="font-size: 3rem">📍</span>
-            <p>Click a marker on the map to view books.</p>
+    <!-- Main Content Layout -->
+    <main class="app-main">
+      <!-- Start Page View -->
+      <section id="startPage" class="start-page">
+        <div class="sticky-search">
+          <div class="hero-search">
+            <div class="search-box">
+              <i data-lucide="search" class="search-icon-large"></i>
+              <input
+                type="search"
+                id="searchInput"
+                placeholder="Search book title, author or shelf"
+              />
+            </div>
           </div>
         </div>
-      </div>
 
-      <div id="searchResults" class="search-results hidden">
-        <div class="info-header">
-          <h2>Search Results</h2>
+        <div class="scrollable-results">
+          <div id="searchResults" class="search-results">
+            <div class="info-header">
+              <h2 id="resultsTitle">Recently seen books</h2>
+            </div>
+            <div id="resultsGrid" class="results-grid">
+              <div
+                id="shelfResultsCol"
+                class="results-column shelf-results hidden"
+              >
+                <h3>Bookshelves</h3>
+                <div id="shelfList" class="book-list"></div>
+              </div>
+              <div id="bookResultsCol" class="results-column book-results">
+                <h3 class="hidden" id="booksTitle">Books</h3>
+                <div id="searchList" class="book-list">
+                  <!-- Results will be rendered here -->
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div id="searchList" class="book-list">
-          <!-- Search results will be rendered here -->
+      </section>
+
+      <!-- Map View -->
+      <section id="mapSection" class="map-section hidden">
+        <div class="map-controls">
+          <div class="map-search-box">
+            <i data-lucide="search" class="search-icon-small"></i>
+            <input
+              type="search"
+              id="mapSearchInput"
+              placeholder="Search for a city or place"
+            />
+          </div>
         </div>
-      </div>
-    </aside>
-  </main>
+        <div class="map-container" id="map"></div>
+      </section>
 
-  <!-- Scripts -->
-  <script src="https://unpkg.com/lucide@latest"></script>
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
-  <!-- Leaflet MarkerCluster JS -->
-  <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
-  <!-- Image compression -->
-  <script type="text/javascript"
-    src="https://cdn.jsdelivr.net/npm/browser-image-compression@2.0.1/dist/browser-image-compression.js"></script>
-  <!-- EXIF reader -->
-  <script src="https://cdn.jsdelivr.net/npm/exifr/dist/lite.umd.js"></script>
-  <!-- App -->
-  <script src="js/app.js"></script>
-  <!-- Contribute flow -->
-  <script src="js/contribute.js"></script>
-</body>
+      <!-- Shelf Side-by-Side View -->
+      <aside id="shelfSidebar" class="sidebar hidden">
+        <div id="bookshelfInfo" class="bookshelf-info">
+          <div class="info-header">
+            <div>
+              <h2 id="shelfName">Select a bookshelf</h2>
+              <p id="shelfDesc" class="text-muted"></p>
+            </div>
+            <button id="closeShelfBtn" class="close-btn" title="Back to map">
+              <i data-lucide="x"></i>
+            </button>
+          </div>
+          <div id="bookList" class="book-list">
+            <!-- Books will be rendered here -->
+            <div class="empty-state">
+              <span style="font-size: 3rem">📍</span>
+              <p>Click a marker on the map to view books.</p>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </main>
 
+    <!-- Scripts -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      crossorigin=""
+    ></script>
+    <!-- Leaflet MarkerCluster JS -->
+    <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+    <!-- Image compression -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/browser-image-compression@2.0.1/dist/browser-image-compression.js"
+    ></script>
+    <!-- EXIF reader -->
+    <script src="https://cdn.jsdelivr.net/npm/exifr/dist/lite.umd.js"></script>
+    <!-- App -->
+    <script src="js/app.js"></script>
+    <!-- Contribute flow -->
+    <script src="js/contribute.js"></script>
+  </body>
 </html>
