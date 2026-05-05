@@ -106965,5 +106965,12 @@
     "address": "Sarphatipark 58, 1073 CZ Amsterdam",
     "lat": 52.353322,
     "lon": 4.895503
+  },
+  {
+    "id": "cb047dfd-2c18-435f-9253-aad65342aa70",
+    "name": "Minibieb Schagerlaan",
+    "address": "Schagerlaan 55, 1097 HN Amsterdam",
+    "lat": 52.347514,
+    "lon": 4.923495
   }
 ]
