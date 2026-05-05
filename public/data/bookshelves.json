@@ -106958,5 +106958,12 @@
     "address": "Kromme Mijdrechtstraat 32, 1079 KX Amsterdam",
     "lat": 52.3451897,
     "lon": 4.9088423
+  },
+  {
+    "id": "50da93b2-d88f-4cea-92ba-fa481ae47053",
+    "name": "Book Exchange Onefam Amstel",
+    "address": "Sarphatipark 58, 1073 CZ Amsterdam",
+    "lat": 52.353322,
+    "lon": 4.895503
   }
 ]
