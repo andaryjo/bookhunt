@@ -306,6 +306,17 @@ function showBookshelfDetails(shelf, updateUrl = true) {
   shelfName.textContent = shelf.name;
   shelfDesc.textContent = shelf.address || shelf.description || "";
 
+  // Google Maps link
+  const mapsLink = document.getElementById("shelfMapsLink");
+  if (mapsLink) {
+    if (shelf.lat && shelf.lon) {
+      mapsLink.href = `https://www.google.com/maps?q=${shelf.lat},${shelf.lon}`;
+      mapsLink.style.display = "flex";
+    } else {
+      mapsLink.style.display = "none";
+    }
+  }
+
   // Find books for this shelf
   const targetId = String(shelf.id).toLowerCase().trim();
   const allBooks = booksData.filter(

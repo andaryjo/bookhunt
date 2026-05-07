@@ -514,6 +514,17 @@ body {
   text-decoration: underline;
 }
 
+.maps-link:hover i {
+  color: var(--secondary);
+}
+
+.sidebar-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  flex-shrink: 0;
+}
+
 .empty-state {
   display: flex;
   flex-direction: column;

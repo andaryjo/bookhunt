@@ -120,9 +120,14 @@
               <h2 id="shelfName">Select a bookshelf</h2>
               <p id="shelfDesc" class="text-muted"></p>
             </div>
-            <button id="closeShelfBtn" class="close-btn" title="Back to map">
-              <i data-lucide="x"></i>
-            </button>
+            <div class="sidebar-actions">
+              <a id="shelfMapsLink" class="close-btn" href="#" target="_blank" rel="noopener noreferrer" title="Open in Google Maps" style="display:none">
+                <i data-lucide="map-pin"></i>
+              </a>
+              <button id="closeShelfBtn" class="close-btn" title="Back to map">
+                <i data-lucide="x"></i>
+              </button>
+            </div>
           </div>
           <div id="bookList" class="book-list">
             <!-- Books will be rendered here -->
