@@ -75,27 +75,16 @@
 
         <div class="scrollable-results">
           <div id="searchResults" class="search-results">
-            <div id="resultsGrid" class="results-grid is-recent">
-              <div
-                id="shelfResultsCol"
-                class="results-column shelf-results hidden"
-              >
-                <h3>Bookshelves</h3>
-                <div id="shelfList" class="book-list"></div>
+            <!-- Loading Indicator -->
+            <div id="loadingOverlay" class="loading-overlay hidden">
+              <div class="loader-content">
+                <div class="loader-spinner"></div>
+                <p>Loading books...</p>
               </div>
-              <div id="bookResultsCol" class="results-column book-results">
-                <h3 class="hidden" id="booksTitle">Books</h3>
-                <div id="searchList" class="book-list">
-                  <!-- Loading Indicator -->
-                  <div id="loadingOverlay" class="loading-overlay">
-                    <div class="loader-content">
-                      <div class="loader-spinner"></div>
-                      <p>Loading books...</p>
-                    </div>
-                  </div>
-                  <!-- Results will be rendered here -->
-                </div>
-              </div>
+            </div>
+            
+            <div id="searchList" class="results-grid">
+              <!-- Results (shelves, books, buttons) will be rendered here -->
             </div>
           </div>
         </div>

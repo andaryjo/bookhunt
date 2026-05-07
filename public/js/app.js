@@ -23,14 +23,7 @@ const bookList = document.getElementById("bookList");
 
 const searchResults = document.getElementById("searchResults");
 const searchList = document.getElementById("searchList");
-const shelfList = document.getElementById("shelfList");
 const searchInput = document.getElementById("searchInput");
-const resultsTitle = document.getElementById("resultsTitle");
-const shelfResultsCol = document.getElementById("shelfResultsCol");
-const bookResultsCol = document.getElementById("bookResultsCol");
-const booksTitle = document.getElementById("booksTitle");
-const resultsGrid = document.getElementById("resultsGrid");
-
 const mapSearchInput = document.getElementById("mapSearchInput");
 
 const uploadModal = document.getElementById("uploadModal");
@@ -129,18 +122,7 @@ function showRecentBooks() {
   if (searchInput.value.trim()) return;
 
   if (searchResults) searchResults.classList.remove("hide-title");
-  if (resultsGrid) resultsGrid.classList.add("is-recent");
-
-  if (shelfResultsCol) shelfResultsCol.classList.add("hidden");
-  if (bookResultsCol) bookResultsCol.classList.remove("hidden");
-  if (booksTitle) booksTitle.classList.add("hidden");
-  if (shelfList) shelfList.innerHTML = "";
-
-  if (resultsTitle) {
-    resultsTitle.textContent = isLocationShared
-      ? "Books near you"
-      : "Recently seen books";
-  }
+  if (searchList) searchList.innerHTML = "";
 
   // 1. Calculate distances for all bookshelves
   const shelfDistances = {};
@@ -428,7 +410,6 @@ async function handleSearch(query, updateUrl = true) {
   query = query.toLowerCase().trim();
 
   if (searchResults) searchResults.classList.add("hide-title");
-  if (resultsGrid) resultsGrid.classList.remove("is-recent");
 
   let searchTitle = query;
 
@@ -489,11 +470,8 @@ async function handleSearch(query, updateUrl = true) {
   });
 
   searchList.innerHTML = "";
-  if (shelfList) shelfList.innerHTML = "";
 
   if (shelfResults.length === 0 && results.length === 0) {
-    if (shelfResultsCol) shelfResultsCol.classList.add("hidden");
-    if (bookResultsCol) bookResultsCol.classList.remove("hidden");
     searchList.innerHTML = `
       <div class="empty-state">
         <span style="font-size: 3rem;">👻</span>
@@ -505,45 +483,44 @@ async function handleSearch(query, updateUrl = true) {
     return;
   }
 
+  // Unified Rendering Logic
+  // 1. Render first bookshelf
   if (shelfResults.length > 0) {
-    if (shelfResultsCol) shelfResultsCol.classList.remove("hidden");
-    renderShelves(shelfResults.slice(0, 3), shelfList);
+    renderShelves([shelfResults[0]], searchList, false);
 
-    if (shelfResults.length > 3) {
-      const moreBtn = document.createElement("button");
-      moreBtn.className = "outline secondary small";
-      moreBtn.style.width = "100%";
-      moreBtn.style.marginTop = "0.5rem";
-      moreBtn.innerText = `Show ${shelfResults.length - 3} more shelves...`;
-      moreBtn.onclick = () => {
-        moreBtn.remove();
-        renderShelves(shelfResults.slice(3), shelfList, false); // false to not clear
+    // 2. Render 'Show all' button if more bookshelves exist
+    if (shelfResults.length > 1) {
+      const showAllCard = document.createElement("div");
+      showAllCard.className = "show-all-card";
+      showAllCard.innerHTML = `
+        <span>Show ${shelfResults.length - 1} more bookshelves</span>
+      `;
+      showAllCard.onclick = () => {
+        showAllCard.remove();
+        // Insert the rest of the shelves at the beginning (but after the first one)
+        const firstShelf = searchList.firstChild;
+        const restOfShelves = shelfResults.slice(1);
+        
+        // We want them to appear before books. 
+        // A simple way is to clear and re-render everything or just insert before books.
+        // Let's just re-render everything for simplicity and to keep the order.
+        searchList.innerHTML = "";
+        renderShelves(shelfResults, searchList, false);
+        renderBooks(results.slice(0, 100), searchList, true, false);
+        renderLocationPrompt(searchList);
         lucide.createIcons();
       };
-      shelfList.appendChild(moreBtn);
+      searchList.appendChild(showAllCard);
     }
-  } else {
-    if (shelfResultsCol) shelfResultsCol.classList.add("hidden");
   }
 
+  // 3. Render Books
   if (results.length > 0) {
-    if (bookResultsCol) bookResultsCol.classList.remove("hidden");
-    if (booksTitle) booksTitle.classList.remove("hidden");
     renderBooks(results.slice(0, 100), searchList, true, false);
-    renderLocationPrompt(searchList);
-  } else {
-    if (shelfResults.length > 0) {
-      // Show the column even if no books, to display the location prompt
-      if (!isLocationShared) {
-        if (bookResultsCol) bookResultsCol.classList.remove("hidden");
-        if (booksTitle) booksTitle.classList.add("hidden");
-        searchList.innerHTML = "";
-        renderLocationPrompt(searchList);
-      } else {
-        if (bookResultsCol) bookResultsCol.classList.add("hidden");
-      }
-    }
   }
+
+  // 4. Location prompt always at the end
+  renderLocationPrompt(searchList);
 
   lucide.createIcons();
 }
