@@ -45,7 +45,42 @@ async function main() {
     }
   }
 
-  console.log('\nProcessing complete.');
+  console.log('\nProcessing complete. Starting deduplication...');
+  deduplicateBooks();
+}
+
+function deduplicateBooks() {
+  const dataPath = path.join(__dirname, '..', 'public', 'data', 'books.json');
+  if (!fs.existsSync(dataPath)) return;
+
+  try {
+    const rawData = fs.readFileSync(dataPath, 'utf8');
+    const books = JSON.parse(rawData);
+    const initialCount = books.length;
+
+    // Use a Map to store unique books. Key is "title|author|bookshelfId"
+    const uniqueBooks = new Map();
+
+    books.forEach(book => {
+      const key = `${(book.title || '').toLowerCase()}|${(book.author || '').toLowerCase()}|${book.bookshelfId}`;
+      const existing = uniqueBooks.get(key);
+
+      if (!existing || new Date(book.date) > new Date(existing.date)) {
+        uniqueBooks.set(key, book);
+      }
+    });
+
+    const deduplicated = Array.from(uniqueBooks.values());
+    
+    // Sort by date ascending (oldest first, latest at the bottom)
+    deduplicated.sort((a, b) => new Date(a.date) - new Date(b.date));
+
+    fs.writeFileSync(dataPath, JSON.stringify(deduplicated, null, 2));
+    console.log(`Deduplication complete: ${initialCount} -> ${deduplicated.length} books.`);
+  } catch (e) {
+    console.error('Error during deduplication:', e);
+  }
 }
 
 main();
+
