@@ -117,12 +117,21 @@ function getDistance(lat1, lon1, lat2, lon2) {
   return R * c;
 }
 
-// Show 10 most recent books with geographical relevance
+function getBookWeight(book, shelfDistances, now) {
+  const bookDate = new Date(book.date || "2000-01-01");
+  const diffDays = (now - bookDate) / (1000 * 60 * 60 * 24);
+  const distance = isLocationShared ? (shelfDistances[book.bookshelfId] || 1000) : 0;
+  return diffDays + distance;
+}
+
+// Show books sorted by weighted relevance (recency + distance)
 function showRecentBooks() {
   if (searchInput.value.trim()) return;
 
   if (searchResults) searchResults.classList.remove("hide-title");
   if (searchList) searchList.innerHTML = "";
+
+  const now = new Date();
 
   // 1. Calculate distances for all bookshelves
   const shelfDistances = {};
@@ -135,32 +144,16 @@ function showRecentBooks() {
     );
   });
 
-  // 2. Separate books into "Nearby" and "Other"
-  const nearbyBooks = [];
-  const otherBooks = [];
-
-  booksData.forEach((book) => {
-    const distance = shelfDistances[book.bookshelfId] || Infinity;
-    if (distance < 25) {
-      nearbyBooks.push({ ...book, distance });
-    } else {
-      otherBooks.push({ ...book, distance });
-    }
+  // 2. Sort all books by weight
+  const sortedBooks = [...booksData].sort((a, b) => {
+    return (
+      getBookWeight(a, shelfDistances, now) -
+      getBookWeight(b, shelfDistances, now)
+    );
   });
 
-  // 3. Sort both groups by date (newest first)
-  nearbyBooks.sort((a, b) => new Date(b.date) - new Date(a.date));
-  otherBooks.sort((a, b) => new Date(b.date) - new Date(a.date));
-
-  // 4. Combine: prioritize nearby, fill with other if needed to reach 100
-  let combined = [...nearbyBooks];
-  if (combined.length < 100) {
-    combined = combined.concat(otherBooks.slice(0, 100 - combined.length));
-  } else {
-    combined = combined.slice(0, 100);
-  }
-
-  renderBooks(combined, searchList, true, true);
+  // 3. Show top 100
+  renderBooks(sortedBooks.slice(0, 100), searchList, true, true);
   renderLocationPrompt(searchList);
 }
 
@@ -461,19 +454,13 @@ async function handleSearch(query, updateUrl = true) {
     );
   });
 
-  // Sort results by proximity and recency
+  // Sort results by weighted relevance (recency + distance)
+  const now = new Date();
   results.sort((a, b) => {
-    const distA = shelfDistances[a.bookshelfId] || Infinity;
-    const distB = shelfDistances[b.bookshelfId] || Infinity;
-
-    const aNearby = distA < 25;
-    const bNearby = distB < 25;
-
-    if (aNearby && !bNearby) return -1;
-    if (!aNearby && bNearby) return 1;
-
-    // Both nearby or both far, sort by date
-    return new Date(b.date) - new Date(a.date);
+    return (
+      getBookWeight(a, shelfDistances, now) -
+      getBookWeight(b, shelfDistances, now)
+    );
   });
 
   searchList.innerHTML = "";
