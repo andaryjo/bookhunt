@@ -445,7 +445,6 @@ body {
   border: 1px solid rgba(38, 166, 154, 0.4);
   border-radius: var(--border-radius);
   padding: 0.75rem 1rem;
-  margin-top: 1rem;
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -455,6 +454,7 @@ body {
   overflow: hidden;
   width: 100%;
   text-align: left;
+  min-height: 64px;
 }
 
 .location-prompt-card:hover {

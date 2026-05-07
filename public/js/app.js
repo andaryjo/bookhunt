@@ -110,9 +110,9 @@ function getDistance(lat1, lon1, lat2, lon2) {
   const a =
     Math.sin(dLat / 2) * Math.sin(dLat / 2) +
     Math.cos((lat1 * Math.PI) / 180) *
-      Math.cos((lat2 * Math.PI) / 180) *
-      Math.sin(dLon / 2) *
-      Math.sin(dLon / 2);
+    Math.cos((lat2 * Math.PI) / 180) *
+    Math.sin(dLon / 2) *
+    Math.sin(dLon / 2);
   const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
   return R * c;
 }
@@ -171,13 +171,20 @@ function renderLocationPrompt(container) {
   card.className = "location-prompt-card";
   card.innerHTML = `
     <div class="text-content">
-      <h4>Find books near you</h4>
-      <p>Use your location for accurate results. Your location only gets used for search.</p>
+      <h4 style="font-size: 0.95rem; margin-bottom: 0.1rem;">📍 Find books near you</h4>
+      <p style="font-size: 0.8rem; margin: 0; color: var(--text-muted);">Use your location for more relevant results.</p>
     </div>
-    <button class="nav-btn small" style="background: var(--secondary); margin: 0; padding: 0.4rem 0.8rem;">Use location</button>
+    <button class="nav-btn small" style="background: var(--secondary); margin: 0; padding: 0.4rem 0.8rem; pointer-events: none;">Use location</button>
   `;
   card.addEventListener("click", requestUserLocation);
-  container.appendChild(card);
+
+  // Insert at the 20th position (index 19) if enough items exist, else append at end
+  if (container.children.length >= 18) {
+    container.insertBefore(card, container.children[18]);
+  } else {
+    container.appendChild(card);
+  }
+
   if (window.lucide) lucide.createIcons();
 }
 
@@ -500,7 +507,7 @@ async function handleSearch(query, updateUrl = true) {
         // Insert the rest of the shelves at the beginning (but after the first one)
         const firstShelf = searchList.firstChild;
         const restOfShelves = shelfResults.slice(1);
-        
+
         // We want them to appear before books. 
         // A simple way is to clear and re-render everything or just insert before books.
         // Let's just re-render everything for simplicity and to keep the order.
