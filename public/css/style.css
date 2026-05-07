@@ -230,6 +230,18 @@ body {
     grid-template-columns: 1fr 1fr;
   }
 
+  .book-results {
+    grid-column: 1 / -1; /* Default to full width to center loading/empty states */
+  }
+
+  /* If bookshelves are visible, they take the first column and books take the second */
+  .results-grid:not(.is-recent) .shelf-results:not(.hidden) {
+    grid-column: 1;
+  }
+  .results-grid:not(.is-recent) .shelf-results:not(.hidden) + .book-results {
+    grid-column: 2;
+  }
+
   /* When only showing recent books (is-recent class), distribute books over all columns */
   .results-grid.is-recent .book-results {
     grid-column: span 2;
@@ -242,6 +254,7 @@ body {
     display: contents;
   }
 }
+
 
 .search-results.hide-title .info-header {
   display: none !important;
@@ -532,8 +545,10 @@ body {
   justify-content: center;
   text-align: center;
   color: var(--text-muted);
-  padding: 3rem 1rem;
+  padding: 4rem 1rem;
   gap: 1rem;
+  grid-column: 1 / -1; /* Span all columns in grid layout */
+  width: 100%;
 }
 
 .empty-state i {
@@ -541,6 +556,7 @@ body {
   height: 48px;
   opacity: 0.5;
 }
+
 
 /* Upload Modal */
 .upload-article {
@@ -1147,3 +1163,46 @@ body:not(.is-map-view):not(.is-shelf-view) .sidebar {
   background: rgba(0, 77, 64, 0.15);
   border-color: var(--primary);
 }
+
+/* Loading Overlay */
+.loading-overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+  width: 100%;
+  grid-column: 1 / -1; /* Span all columns */
+}
+
+.loader-content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.loader-spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid rgba(38, 166, 154, 0.1);
+  border-top-color: var(--secondary);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+.loader-content p {
+  margin: 0;
+  font-weight: 500;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
