@@ -110,9 +110,9 @@ function getDistance(lat1, lon1, lat2, lon2) {
   const a =
     Math.sin(dLat / 2) * Math.sin(dLat / 2) +
     Math.cos((lat1 * Math.PI) / 180) *
-    Math.cos((lat2 * Math.PI) / 180) *
-    Math.sin(dLon / 2) *
-    Math.sin(dLon / 2);
+      Math.cos((lat2 * Math.PI) / 180) *
+      Math.sin(dLon / 2) *
+      Math.sin(dLon / 2);
   const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
   return R * c;
 }
@@ -120,7 +120,9 @@ function getDistance(lat1, lon1, lat2, lon2) {
 function getBookWeight(book, shelfDistances, now) {
   const bookDate = new Date(book.date || "2000-01-01");
   const diffDays = (now - bookDate) / (1000 * 60 * 60 * 24);
-  const distance = isLocationShared ? (shelfDistances[book.bookshelfId] || 1000) : 0;
+  const distance = isLocationShared
+    ? shelfDistances[book.bookshelfId] || 1000
+    : 0;
   return diffDays + distance;
 }
 
@@ -374,7 +376,7 @@ function renderBooks(
     card.className = "book-card";
     card.innerHTML = `
       <div class="book-title-row">
-        <h4>${book.title || "Unknown Title"}</h4> <span class="author-text">by ${book.author || "Unknown Author"}</span>
+        <h4>${book.title || "Unknown Title"}</h4> <span class="author-text">${book.author || "Unknown Author"}</span>
       </div>
       <div class="book-meta">
         <span>${shelfLinkHtml}Last seen: ${date}</span>
@@ -495,7 +497,7 @@ async function handleSearch(query, updateUrl = true) {
         const firstShelf = searchList.firstChild;
         const restOfShelves = shelfResults.slice(1);
 
-        // We want them to appear before books. 
+        // We want them to appear before books.
         // A simple way is to clear and re-render everything or just insert before books.
         // Let's just re-render everything for simplicity and to keep the order.
         searchList.innerHTML = "";
