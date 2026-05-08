@@ -106972,5 +106972,12 @@
     "address": "Schagerlaan 55, 1097 HN Amsterdam",
     "lat": 52.347514,
     "lon": 4.923495
+  },
+  {
+    "id": "13eea85a-fb9b-439d-80c0-d591859f6ba5",
+    "name": "Free Library The Ash Hostel Antwerp",
+    "address": "Italiëlei 237, 2000 Antwerpen, Belgien",
+    "lat": 51.22055,
+    "lon": 4.416789
   }
 ]
