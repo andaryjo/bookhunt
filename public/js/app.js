@@ -6,6 +6,7 @@ let markers = {};
 let currentFile = null;
 let userLocation = { lat: 52.52, lon: 13.405 }; // Default Berlin
 let isLocationShared = false;
+let isDataLoaded = false;
 
 // DOM Elements
 const startPage = document.getElementById("startPage");
@@ -25,6 +26,7 @@ const searchResults = document.getElementById("searchResults");
 const searchList = document.getElementById("searchList");
 const searchInput = document.getElementById("searchInput");
 const mapSearchInput = document.getElementById("mapSearchInput");
+const loadingOverlay = document.getElementById("loadingOverlay");
 
 const uploadModal = document.getElementById("uploadModal");
 const openUploadBtn = document.getElementById("openUploadBtn");
@@ -45,8 +47,10 @@ async function init() {
   checkLocationPermission();
 
   // 1. Load Data FIRST
+  if (loadingOverlay) loadingOverlay.classList.remove("hidden");
   try {
     await loadData();
+    if (loadingOverlay) loadingOverlay.classList.add("hidden");
     console.log(
       "Data loaded:",
       bookshelves.length,
@@ -113,6 +117,8 @@ async function loadData() {
   booksData = allBooks
     .reverse()
     .filter((b) => !removedShelfIds.has(String(b.bookshelfId)));
+
+  isDataLoaded = true;
 }
 
 function getDistance(lat1, lon1, lat2, lon2) {
@@ -140,6 +146,7 @@ function getBookWeight(book, shelfDistances, now) {
 
 // Show books sorted by weighted relevance (recency + distance)
 function showRecentBooks() {
+  if (!isDataLoaded) return;
   if (searchInput.value.trim()) return;
 
   if (searchResults) searchResults.classList.remove("hide-title");
@@ -411,6 +418,7 @@ function renderBooks(
 
 // Search Logic
 async function handleSearch(query, updateUrl = true) {
+  if (!isDataLoaded) return;
   if (!query) {
     if (updateUrl) window.location.hash = "";
     showRecentBooks();
