@@ -67,14 +67,19 @@ async function init() {
   // 2. Setup UI
   lucide.createIcons();
 
-  // 3. Initialize Map
+    // 3. Initialize Map
   try {
     map = L.map("map").setView([userLocation.lat, userLocation.lon], 12);
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
       maxZoom: 19,
       attribution: "© OpenStreetMap © openbookcase.de © boite-a-lire.com",
     }).addTo(map);
-    populateMap();
+    
+    // Defer populating map markers to keep startup fast
+    setTimeout(() => {
+      console.log("Populating map markers in background...");
+      populateMap();
+    }, 100);
   } catch (e) {
     console.error("Map initialization failed", e);
   }
@@ -94,43 +99,81 @@ async function init() {
 }
 
 async function loadData() {
-  const [manifestRes, booksRes] = await Promise.all([
-    fetch("data/bookshelves/manifest.json"),
-    fetch("data/books.json"),
-  ]);
+  const CACHE_NAME = "bookhunt-data-v1";
+  const LAST_UPDATE_KEY = "last-data-update";
+  const now = Date.now();
+  const oneDay = 24 * 60 * 60 * 1000;
+  const lastUpdate = localStorage.getItem(LAST_UPDATE_KEY);
+  const isCacheValid = lastUpdate && (now - parseInt(lastUpdate) < oneDay);
 
-  if (!manifestRes.ok || !booksRes.ok) {
-    throw new Error(`HTTP Error: ${manifestRes.status} / ${booksRes.status}`);
+  async function fetchWithCache(url) {
+    if (window.caches && isCacheValid) {
+      try {
+        const cache = await caches.open(CACHE_NAME);
+        const cachedResponse = await cache.match(url);
+        if (cachedResponse) {
+          console.log(`[Cache] Loading ${url}`);
+          return cachedResponse.json();
+        }
+      } catch (e) {
+        console.warn("Cache access failed", e);
+      }
+    }
+
+    console.log(`[Network] Fetching ${url}`);
+    const res = await fetch(url);
+    if (!res.ok) throw new Error(`HTTP Error: ${res.status} for ${url}`);
+    const data = await res.json();
+
+    if (window.caches) {
+      try {
+        const cache = await caches.open(CACHE_NAME);
+        await cache.put(url, new Response(JSON.stringify(data)));
+      } catch (e) {
+        console.warn("Failed to update cache", e);
+      }
+    }
+    return data;
   }
 
-  const manifest = await manifestRes.json();
-  const allBooks = await booksRes.json();
+  const [manifest, allBooks] = await Promise.all([
+    fetchWithCache("data/bookshelves/manifest.json"),
+    fetchWithCache("data/books.json"),
+  ]);
 
   // Load all bookshelf files dynamically from the manifest
   const shelfPromises = manifest.map((file) =>
-    fetch(`data/bookshelves/${file}`).then((res) => {
-      if (!res.ok) throw new Error(`Failed to load ${file}`);
-      return res.json();
-    }),
+    fetchWithCache(`data/bookshelves/${file}`),
   );
 
   const shelfArrays = await Promise.all(shelfPromises);
   const allShelves = shelfArrays.flat();
 
-  // Filter removed bookshelves
-  bookshelves = allShelves.filter((s) => s.removed !== true);
+  // Filter removed bookshelves in one pass
+  const activeShelves = [];
+  const removedShelfIds = new Set();
+  allShelves.forEach((s) => {
+    if (s.removed === true) {
+      removedShelfIds.add(String(s.id));
+    } else {
+      activeShelves.push(s);
+    }
+  });
 
-  const removedShelfIds = new Set(
-    allShelves.filter((s) => s.removed === true).map((s) => String(s.id)),
-  );
+  bookshelves = activeShelves;
 
   // Filter books from removed bookshelves
   booksData = allBooks
     .reverse()
     .filter((b) => !removedShelfIds.has(String(b.bookshelfId)));
 
+  if (!isCacheValid) {
+    localStorage.setItem(LAST_UPDATE_KEY, now.toString());
+  }
+
   isDataLoaded = true;
 }
+
 
 function getDistance(lat1, lon1, lat2, lon2) {
   const R = 6371;
@@ -165,16 +208,21 @@ function showRecentBooks() {
 
   const now = new Date();
 
-  // 1. Calculate distances for all bookshelves
+  // 1. Calculate distances ONLY if location is shared AND only for shelves with books
   const shelfDistances = {};
-  bookshelves.forEach((s) => {
-    shelfDistances[s.id] = getDistance(
-      userLocation.lat,
-      userLocation.lon,
-      s.lat,
-      s.lon,
-    );
-  });
+  if (isLocationShared) {
+    const relevantShelfIds = new Set(booksData.map((b) => String(b.bookshelfId)));
+    bookshelves.forEach((s) => {
+      if (relevantShelfIds.has(String(s.id))) {
+        shelfDistances[s.id] = getDistance(
+          userLocation.lat,
+          userLocation.lon,
+          s.lat,
+          s.lon,
+        );
+      }
+    });
+  }
 
   // 2. Sort all books by weight
   const sortedBooks = [...booksData].sort((a, b) => {
@@ -476,16 +524,21 @@ async function handleSearch(query, updateUrl = true) {
     }
   });
 
-  // Calculate distances for all bookshelves to sort books by proximity
+  // 2. Calculate distances ONLY if location is shared AND only for shelves referenced by result books
   const shelfDistances = {};
-  bookshelves.forEach((s) => {
-    shelfDistances[s.id] = getDistance(
-      userLocation.lat,
-      userLocation.lon,
-      s.lat,
-      s.lon,
-    );
-  });
+  if (isLocationShared) {
+    const resultShelfIds = new Set(results.map((b) => String(b.bookshelfId)));
+    bookshelves.forEach((s) => {
+      if (resultShelfIds.has(String(s.id))) {
+        shelfDistances[s.id] = getDistance(
+          userLocation.lat,
+          userLocation.lon,
+          s.lat,
+          s.lon,
+        );
+      }
+    });
+  }
 
   // Sort results by weighted relevance (recency + distance)
   const now = new Date();
