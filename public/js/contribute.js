@@ -107,7 +107,7 @@ async function addFilesToQueue(files) {
       continue;
     }
     const entry = {
-      id: crypto.randomUUID(),
+      id: Math.random().toString(36).substring(2, 8),
       file,
       exifGps: null,
       compressedBlob: null,
