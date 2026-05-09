@@ -93,8 +93,22 @@ Ensure your response is valid JSON.` }
   // Distance-based shelf matching (only if shelf ID wasn't in filename)
   if (photoMeta && matchedShelfId === 'unknown') {
     try {
-      const bookshelves = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'public', 'data', 'bookshelves.json'), 'utf8'))
-        .filter(s => s.removed !== true);
+      const shelvesDir = path.join(__dirname, '..', 'public', 'data', 'bookshelves');
+      const manifestPath = path.join(shelvesDir, 'manifest.json');
+      let manifest = [];
+      try {
+        manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
+      } catch (e) {
+        // Fallback to reading directory if manifest missing
+        manifest = fs.readdirSync(shelvesDir).filter(f => f.endsWith('.json') && f !== 'manifest.json');
+      }
+
+      let allShelves = [];
+      for (const file of manifest) {
+        const content = JSON.parse(fs.readFileSync(path.join(shelvesDir, file), 'utf8'));
+        allShelves = allShelves.concat(content);
+      }
+      const bookshelves = allShelves.filter(s => s.removed !== true);
       let minDistance = Infinity;
       let closestShelfId = null;
       for (const shelf of bookshelves) {

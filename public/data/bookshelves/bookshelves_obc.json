@@ -106955,33 +106955,5 @@
     "address": "Gemünden am Main",
     "lat": 50.0565,
     "lon": 9.689467
-  },
-  {
-    "id": "mwgjry",
-    "name": "Minibieb Mijdrechtstraat",
-    "address": "Kromme Mijdrechtstraat 32, 1079 KX Amsterdam",
-    "lat": 52.3451897,
-    "lon": 4.9088423
-  },
-  {
-    "id": "mqytbk",
-    "name": "Book Exchange Onefam Amstel",
-    "address": "Sarphatipark 58, 1073 CZ Amsterdam",
-    "lat": 52.353322,
-    "lon": 4.895503
-  },
-  {
-    "id": "dqvonr",
-    "name": "Minibieb Schagerlaan",
-    "address": "Schagerlaan 55, 1097 HN Amsterdam",
-    "lat": 52.347514,
-    "lon": 4.923495
-  },
-  {
-    "id": "rctqou",
-    "name": "Free Library The Ash Hostel Antwerp",
-    "address": "Italiëlei 237, 2000 Antwerpen, Belgien",
-    "lat": 51.22055,
-    "lon": 4.416789
   }
 ]

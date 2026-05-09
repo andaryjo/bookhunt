@@ -162,9 +162,14 @@
     async function initPage() {
       lucide.createIcons();
       try {
-        const res = await fetch("../data/bookshelves.json");
-        if (res.ok) {
-          const allShelves = await res.json();
+        const manifestRes = await fetch("../data/bookshelves/manifest.json");
+        if (manifestRes.ok) {
+          const manifest = await manifestRes.json();
+          const shelfPromises = manifest.map(file =>
+            fetch(`../data/bookshelves/${file}`).then(res => res.json())
+          );
+          const shelfArrays = await Promise.all(shelfPromises);
+          const allShelves = shelfArrays.flat();
           bookshelves = allShelves.filter((s) => s.removed !== true);
         }
       } catch (e) {

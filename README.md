@@ -9,7 +9,18 @@ You can also simply browse recently seen books in bookshelves nearby.
 
 It is just as easy to contribute.
 Simply snap a photo of a bookshelf, upload it and Bookhunt will extract the visible books and add them to the database.
-  
+
+## Data
+
+All data is located in `public/data`.
+Proprietary books and bookshelves data is being made available under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en) license.
+
+Additionally, third-party data gets sourced for bookshelves.
+The data gets transformed into a unified data structure.
+The data has been made available under following licenses:
+
+- `public/data/bookshelves/bookshelves_bal.json`: Source from [www.boite-a-lire.com](https://www.boite-a-lire.com/). Provided by [github.com/Binnette/bookcases-boite-a-lire](https://github.com/Binnette/bookcases-boite-a-lire) under [CC BY-NC-SA 2.0](https://creativecommons.org/licenses/by-nc-sa/2.0/) license.
+- `public/data/bookshelves/bookshelves_obc.json`: Sourced from [OpenBookCase](https://openbookcase.de/). Provided under [ODbL v1.0](https://opendatacommons.org/licenses/odbl/summary/) license.
 
 ## Vibecoding
 

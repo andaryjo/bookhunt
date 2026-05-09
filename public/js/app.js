@@ -72,7 +72,7 @@ async function init() {
     map = L.map("map").setView([userLocation.lat, userLocation.lon], 12);
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
       maxZoom: 19,
-      attribution: "© OpenStreetMap",
+      attribution: "© OpenStreetMap © openbookcase.de © boite-a-lire.com",
     }).addTo(map);
     populateMap();
   } catch (e) {
@@ -94,17 +94,28 @@ async function init() {
 }
 
 async function loadData() {
-  const [shelvesRes, booksRes] = await Promise.all([
-    fetch("data/bookshelves.json"),
+  const [manifestRes, booksRes] = await Promise.all([
+    fetch("data/bookshelves/manifest.json"),
     fetch("data/books.json"),
   ]);
 
-  if (!shelvesRes.ok || !booksRes.ok) {
-    throw new Error(`HTTP Error: ${shelvesRes.status} / ${booksRes.status}`);
+  if (!manifestRes.ok || !booksRes.ok) {
+    throw new Error(`HTTP Error: ${manifestRes.status} / ${booksRes.status}`);
   }
 
-  const allShelves = await shelvesRes.json();
+  const manifest = await manifestRes.json();
   const allBooks = await booksRes.json();
+
+  // Load all bookshelf files dynamically from the manifest
+  const shelfPromises = manifest.map((file) =>
+    fetch(`data/bookshelves/${file}`).then((res) => {
+      if (!res.ok) throw new Error(`Failed to load ${file}`);
+      return res.json();
+    }),
+  );
+
+  const shelfArrays = await Promise.all(shelfPromises);
+  const allShelves = shelfArrays.flat();
 
   // Filter removed bookshelves
   bookshelves = allShelves.filter((s) => s.removed !== true);
@@ -128,9 +139,9 @@ function getDistance(lat1, lon1, lat2, lon2) {
   const a =
     Math.sin(dLat / 2) * Math.sin(dLat / 2) +
     Math.cos((lat1 * Math.PI) / 180) *
-    Math.cos((lat2 * Math.PI) / 180) *
-    Math.sin(dLon / 2) *
-    Math.sin(dLon / 2);
+      Math.cos((lat2 * Math.PI) / 180) *
+      Math.sin(dLon / 2) *
+      Math.sin(dLon / 2);
   const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
   return R * c;
 }
