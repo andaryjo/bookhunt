@@ -99,8 +99,20 @@ async function loadData() {
     throw new Error(`HTTP Error: ${shelvesRes.status} / ${booksRes.status}`);
   }
 
-  bookshelves = await shelvesRes.json();
-  booksData = (await booksRes.json()).reverse();
+  const allShelves = await shelvesRes.json();
+  const allBooks = await booksRes.json();
+
+  // Filter removed bookshelves
+  bookshelves = allShelves.filter((s) => s.removed !== true);
+
+  const removedShelfIds = new Set(
+    allShelves.filter((s) => s.removed === true).map((s) => String(s.id)),
+  );
+
+  // Filter books from removed bookshelves
+  booksData = allBooks
+    .reverse()
+    .filter((b) => !removedShelfIds.has(String(b.bookshelfId)));
 }
 
 function getDistance(lat1, lon1, lat2, lon2) {
@@ -110,9 +122,9 @@ function getDistance(lat1, lon1, lat2, lon2) {
   const a =
     Math.sin(dLat / 2) * Math.sin(dLat / 2) +
     Math.cos((lat1 * Math.PI) / 180) *
-      Math.cos((lat2 * Math.PI) / 180) *
-      Math.sin(dLon / 2) *
-      Math.sin(dLon / 2);
+    Math.cos((lat2 * Math.PI) / 180) *
+    Math.sin(dLon / 2) *
+    Math.sin(dLon / 2);
   const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
   return R * c;
 }
@@ -173,9 +185,9 @@ function renderLocationPrompt(container) {
   `;
   card.addEventListener("click", requestUserLocation);
 
-  // Insert at the 20th position (index 19) if enough items exist, else append at end
-  if (container.children.length >= 18) {
-    container.insertBefore(card, container.children[18]);
+  // Insert at the 5th if enough items exist, else append at end
+  if (container.children.length >= 4) {
+    container.insertBefore(card, container.children[4]);
   } else {
     container.appendChild(card);
   }

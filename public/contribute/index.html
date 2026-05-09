@@ -1,205 +1,186 @@
 <!doctype html>
 <html lang="en" data-theme="dark">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contribute | Bookhunt</title>
-    <meta
-      name="description"
-      content="Add a new public bookshelf to the Bookhunt map."
-    />
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contribute | Bookhunt</title>
+  <meta name="description" content="Add a new public bookshelf to the Bookhunt map." />
 
-    <!-- PicoCSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"
-    />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
 
-    <link rel="stylesheet" href="../css/style.css" />
-    <style>
-      body {
-        background: var(--bg-main);
-        background-image:
-          radial-gradient(at 0% 0%, rgba(0, 77, 64, 0.15) 0px, transparent 50%),
-          radial-gradient(
-            at 100% 100%,
-            rgba(38, 166, 154, 0.1) 0px,
-            transparent 50%
-          );
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 100vh;
-        margin: 0;
-        padding: 20px;
-        overflow-y: auto;
-        font-family: var(--font-family);
-      }
+  <!-- PicoCSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" />
 
-      .contribute-container {
-        max-width: 600px;
-        width: 100%;
-        background: var(--bg-surface);
-        backdrop-filter: blur(16px);
-        -webkit-backdrop-filter: blur(16px);
-        border-radius: 1.25rem;
-        padding: 2.5rem;
-        border: 1px solid var(--border-color);
-        box-shadow: var(--glass-shadow);
-      }
+  <link rel="stylesheet" href="../css/style.css" />
+  <style>
+    body {
+      background: var(--bg-main);
+      background-image:
+        radial-gradient(at 0% 0%, rgba(0, 77, 64, 0.15) 0px, transparent 50%),
+        radial-gradient(at 100% 100%,
+          rgba(38, 166, 154, 0.1) 0px,
+          transparent 50%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      padding: 20px;
+      overflow-y: auto;
+      font-family: var(--font-family);
+    }
 
-      .back-link {
-        display: inline-flex;
-        align-items: center;
-        gap: 0.5rem;
-        color: var(--text-muted);
-        text-decoration: none;
-        margin-bottom: 2rem;
-        font-size: 0.9rem;
-        transition: color 0.2s;
-      }
+    .contribute-container {
+      max-width: 600px;
+      width: 100%;
+      background: var(--bg-surface);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-radius: 1.25rem;
+      padding: 2.5rem;
+      border: 1px solid var(--border-color);
+      box-shadow: var(--glass-shadow);
+    }
 
-      .back-link:hover {
-        color: var(--primary);
-      }
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: var(--text-muted);
+      text-decoration: none;
+      margin-bottom: 2rem;
+      font-size: 0.9rem;
+      transition: color 0.2s;
+    }
 
-      h1 {
-        margin: 0 0 1rem;
-        font-size: 1.75rem;
-        color: var(--text-main);
-        font-weight: 700;
-        letter-spacing: -0.5px;
-      }
+    .back-link:hover {
+      color: var(--primary);
+    }
 
-      .intro {
-        color: var(--text-muted);
-        margin-bottom: 2rem;
-        line-height: 1.6;
-      }
+    h1 {
+      margin: 0 0 1rem;
+      font-size: 1.75rem;
+      color: var(--text-main);
+      font-weight: 700;
+      letter-spacing: -0.5px;
+    }
 
-      /* Override modal-box styles for standalone use */
-      .file-queue {
-        max-height: none;
-        margin-bottom: 2rem;
-      }
-    </style>
-  </head>
+    .intro {
+      color: var(--text-muted);
+      margin-bottom: 2rem;
+      line-height: 1.6;
+    }
 
-  <body>
-    <div>
-      <a href="../" class="back-link">
-        <i data-lucide="arrow-left"></i> Back to the books
-      </a>
+    /* Override modal-box styles for standalone use */
+    .file-queue {
+      max-height: none;
+      margin-bottom: 2rem;
+    }
+  </style>
+</head>
 
-      <h1>Contribute a bookshelf photo</h1>
-      <p class="intro">
-        You can contribute by uploading photos of a public bookshelf. Our system
-        will automatically analyze the photos and add all the books to the site.
-        For best results, take close-ups of single shelves.
-      </p>
-      <p class="intro">
-        We derive the location from the photo metada. The EXIF metadata will be
-        removed before uploading the photo and never leaves your device.
-      </p>
+<body>
+  <div>
+    <a href="../" class="back-link">
+      <i data-lucide="arrow-left"></i> Back to the books
+    </a>
 
-      <div id="contributeDropZone" class="upload-area">
-        <input
-          type="file"
-          id="contributeImageInput"
-          accept="image/jpeg"
-          multiple
-          class="hidden-input"
-        />
-        <div class="upload-area-content">
-          <i
-            data-lucide="upload"
-            style="
+    <h1>Contribute a bookshelf photo</h1>
+    <p class="intro">
+      You can contribute by uploading photos of a public bookshelf. Our system
+      will automatically analyze the photos and add all the books to the site.
+      For best results, take close-ups of single shelves.
+    </p>
+    <p class="intro">
+      We derive the location from the photo metada. The EXIF metadata will be
+      removed before uploading the photo and never leaves your device.
+    </p>
+
+    <div id="contributeDropZone" class="upload-area">
+      <input type="file" id="contributeImageInput" accept="image/jpeg" multiple class="hidden-input" />
+      <div class="upload-area-content">
+        <i data-lucide="upload" style="
               color: var(--primary);
               margin-bottom: 0.75rem;
               width: 40px;
               height: 40px;
-            "
-          ></i>
-          <p style="margin: 0; font-weight: 500">
-            Drop photos here or click to browse
-          </p>
-          <p
-            style="
+            "></i>
+        <p style="margin: 0; font-weight: 500">
+          Drop photos here or click to browse
+        </p>
+        <p style="
               margin: 0.25rem 0 0;
               font-size: 0.8rem;
               color: var(--text-muted);
-            "
-          >
-            JPEG only · GPS EXIF required · compressed to ~900 KB
-          </p>
-        </div>
+            ">
+          JPEG only · GPS EXIF required · compressed to ~900 KB
+        </p>
       </div>
-
-      <div id="fileQueue" class="file-queue"></div>
-
-      <button id="submitPrBtn" class="contribute-action-btn" disabled>
-        Submit Photos
-      </button>
-      <div id="prStatus" class="pr-status"></div>
     </div>
 
-    <!-- Scripts -->
-    <script src="https://unpkg.com/lucide@latest"></script>
-    <!-- Image compression -->
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/browser-image-compression@2.0.1/dist/browser-image-compression.js"
-    ></script>
-    <!-- EXIF reader -->
-    <script src="https://cdn.jsdelivr.net/npm/exifr/dist/lite.umd.js"></script>
+    <div id="fileQueue" class="file-queue"></div>
 
-    <script>
-      // Mock getDistance and load bookshelves
-      let bookshelves = [];
+    <button id="submitPrBtn" class="contribute-action-btn" disabled>
+      Submit Photos
+    </button>
+    <div id="prStatus" class="pr-status"></div>
+  </div>
 
-      function deg2rad(deg) {
-        return deg * (Math.PI / 180);
-      }
-      function getDistance(lat1, lon1, lat2, lon2) {
-        const R = 6371;
-        const dLat = deg2rad(lat2 - lat1);
-        const dLon = deg2rad(lon2 - lon1);
-        const a =
-          Math.sin(dLat / 2) * Math.sin(dLat / 2) +
-          Math.cos(deg2rad(lat1)) *
-            Math.cos(deg2rad(lat2)) *
-            Math.sin(dLon / 2) *
-            Math.sin(dLon / 2);
-        const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-        return R * c;
-      }
+  <!-- Scripts -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- Image compression -->
+  <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/browser-image-compression@2.0.1/dist/browser-image-compression.js"></script>
+  <!-- EXIF reader -->
+  <script src="https://cdn.jsdelivr.net/npm/exifr/dist/lite.umd.js"></script>
 
-      async function initPage() {
-        lucide.createIcons();
-        try {
-          const res = await fetch("../data/bookshelves.json");
-          if (res.ok) bookshelves = await res.json();
-        } catch (e) {
-          console.warn("Failed to load bookshelves for suggestions", e);
+  <script>
+    // Mock getDistance and load bookshelves
+    let bookshelves = [];
+
+    function deg2rad(deg) {
+      return deg * (Math.PI / 180);
+    }
+    function getDistance(lat1, lon1, lat2, lon2) {
+      const R = 6371;
+      const dLat = deg2rad(lat2 - lat1);
+      const dLon = deg2rad(lon2 - lon1);
+      const a =
+        Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+        Math.cos(deg2rad(lat1)) *
+        Math.cos(deg2rad(lat2)) *
+        Math.sin(dLon / 2) *
+        Math.sin(dLon / 2);
+      const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+      return R * c;
+    }
+
+    async function initPage() {
+      lucide.createIcons();
+      try {
+        const res = await fetch("../data/bookshelves.json");
+        if (res.ok) {
+          const allShelves = await res.json();
+          bookshelves = allShelves.filter((s) => s.removed !== true);
         }
-
-        if (typeof window.initContribute === "function") {
-          window.initContribute();
-        }
+      } catch (e) {
+        console.warn("Failed to load bookshelves for suggestions", e);
       }
 
-      document.addEventListener("DOMContentLoaded", initPage);
-    </script>
+      if (typeof window.initContribute === "function") {
+        window.initContribute();
+      }
+    }
 
-    <!-- Contribute flow -->
-    <script src="../js/contribute.js"></script>
-  </body>
+    document.addEventListener("DOMContentLoaded", initPage);
+  </script>
+
+  <!-- Contribute flow -->
+  <script src="../js/contribute.js"></script>
+</body>
+
 </html>

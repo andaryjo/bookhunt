@@ -60,7 +60,7 @@ Ensure your response is valid JSON.` }
   if (nameParts.length >= 3) {
     // formats: <id>_<day>_<lat>_<long> OR <id>_<day>_<bookshelf_id>
     const [id, day, part3, part4] = nameParts;
-    
+
     // Normalize day to YYYY-MM-DD if it comes as YYYYMMDD
     if (day.length === 8 && !day.includes('-')) {
       bookDate = `${day.substring(0, 4)}-${day.substring(4, 6)}-${day.substring(6, 8)}`;
@@ -93,7 +93,8 @@ Ensure your response is valid JSON.` }
   // Distance-based shelf matching (only if shelf ID wasn't in filename)
   if (photoMeta && matchedShelfId === 'unknown') {
     try {
-      const bookshelves = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'public', 'data', 'bookshelves.json'), 'utf8'));
+      const bookshelves = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'public', 'data', 'bookshelves.json'), 'utf8'))
+        .filter(s => s.removed !== true);
       let minDistance = Infinity;
       let closestShelfId = null;
       for (const shelf of bookshelves) {
