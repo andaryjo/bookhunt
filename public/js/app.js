@@ -67,14 +67,14 @@ async function init() {
   // 2. Setup UI
   lucide.createIcons();
 
-    // 3. Initialize Map
+  // 3. Initialize Map
   try {
     map = L.map("map").setView([userLocation.lat, userLocation.lon], 12);
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
       maxZoom: 19,
       attribution: "© OpenStreetMap © openbookcase.de © boite-a-lire.com",
     }).addTo(map);
-    
+
     // Defer populating map markers to keep startup fast
     setTimeout(() => {
       console.log("Populating map markers in background...");
@@ -104,7 +104,7 @@ async function loadData() {
   const now = Date.now();
   const oneDay = 24 * 60 * 60 * 1000;
   const lastUpdate = localStorage.getItem(LAST_UPDATE_KEY);
-  const isCacheValid = lastUpdate && (now - parseInt(lastUpdate) < oneDay);
+  const isCacheValid = lastUpdate && now - parseInt(lastUpdate) < oneDay;
 
   async function fetchWithCache(url) {
     if (window.caches && isCacheValid) {
@@ -174,7 +174,6 @@ async function loadData() {
   isDataLoaded = true;
 }
 
-
 function getDistance(lat1, lon1, lat2, lon2) {
   const R = 6371;
   const dLat = ((lat2 - lat1) * Math.PI) / 180;
@@ -211,7 +210,9 @@ function showRecentBooks() {
   // 1. Calculate distances ONLY if location is shared AND only for shelves with books
   const shelfDistances = {};
   if (isLocationShared) {
-    const relevantShelfIds = new Set(booksData.map((b) => String(b.bookshelfId)));
+    const relevantShelfIds = new Set(
+      booksData.map((b) => String(b.bookshelfId)),
+    );
     bookshelves.forEach((s) => {
       if (relevantShelfIds.has(String(s.id))) {
         shelfDistances[s.id] = getDistance(
@@ -251,9 +252,9 @@ function renderLocationPrompt(container) {
   `;
   card.addEventListener("click", requestUserLocation);
 
-  // Insert at the 5th if enough items exist, else append at end
-  if (container.children.length >= 4) {
-    container.insertBefore(card, container.children[4]);
+  // Insert at the 6th if enough items exist, else append at end
+  if (container.children.length >= 5) {
+    container.insertBefore(card, container.children[5]);
   } else {
     container.appendChild(card);
   }
