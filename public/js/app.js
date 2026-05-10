@@ -502,25 +502,6 @@ async function handleSearch(query, updateUrl = true) {
 
   let searchTitle = query;
 
-  let shelfResults = [];
-
-  bookshelves.forEach((shelf) => {
-    if (
-      (shelf.name && shelf.name.toLowerCase().includes(query)) ||
-      (shelf.description && shelf.description.toLowerCase().includes(query)) ||
-      (shelf.address && shelf.address.toLowerCase().includes(query))
-    ) {
-      shelfResults.push(shelf);
-    }
-  });
-
-  // Sort shelf results by proximity
-  shelfResults.sort((a, b) => {
-    const distA = getDistance(userLocation.lat, userLocation.lon, a.lat, a.lon);
-    const distB = getDistance(userLocation.lat, userLocation.lon, b.lat, b.lon);
-    return distA - distB;
-  });
-
   let results = [];
 
   booksData.forEach((book) => {
@@ -559,53 +540,19 @@ async function handleSearch(query, updateUrl = true) {
 
   searchList.innerHTML = "";
 
-  if (shelfResults.length === 0 && results.length === 0) {
+  if (results.length === 0) {
     searchList.innerHTML = `
       <div class="empty-state">
         <span style="font-size: 3rem;">👻</span>
         <p>No results found.</p>
       </div>
     `;
-    renderLocationPrompt(searchList);
     lucide.createIcons();
     return;
   }
 
-  // Unified Rendering Logic
-  // 1. Render first bookshelf
-  if (shelfResults.length > 0) {
-    renderShelves([shelfResults[0]], searchList, false);
-
-    // 2. Render 'Show all' button if more bookshelves exist
-    if (shelfResults.length > 1) {
-      const showAllCard = document.createElement("div");
-      showAllCard.className = "show-all-card";
-      showAllCard.innerHTML = `
-        <span>Show ${shelfResults.length - 1} more bookshelves</span>
-      `;
-      showAllCard.onclick = () => {
-        showAllCard.remove();
-        // Insert the rest of the shelves at the beginning (but after the first one)
-        const firstShelf = searchList.firstChild;
-        const restOfShelves = shelfResults.slice(1);
-
-        // We want them to appear before books.
-        // A simple way is to clear and re-render everything or just insert before books.
-        // Let's just re-render everything for simplicity and to keep the order.
-        searchList.innerHTML = "";
-        renderShelves(shelfResults, searchList, false);
-        renderBooks(results.slice(0, 100), searchList, true, false);
-        renderLocationPrompt(searchList);
-        lucide.createIcons();
-      };
-      searchList.appendChild(showAllCard);
-    }
-  }
-
   // 3. Render Books
-  if (results.length > 0) {
-    renderBooks(results.slice(0, 100), searchList, true, false);
-  }
+  renderBooks(results.slice(0, 100), searchList, true, false);
 
   // 4. Location prompt always at the end
   renderLocationPrompt(searchList);
