@@ -218,6 +218,22 @@ body {
   margin: 0 auto;
 }
 
+.start-page-summary {
+  width: 100%;
+  text-align: center;
+  margin-top: 0.5rem;
+  margin-bottom: 2.5rem;
+  font-size: 1.15rem;
+  color: var(--text-muted);
+  font-weight: 500;
+  letter-spacing: 0.2px;
+}
+
+.start-page-summary strong {
+  color: var(--secondary);
+  font-weight: 700;
+}
+
 .results-grid {
   display: grid;
   grid-template-columns: 1fr;
