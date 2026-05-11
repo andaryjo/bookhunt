@@ -340,6 +340,15 @@ function populateMap(shelvesToUse = bookshelves) {
 
   markersLayer = L.markerClusterGroup({
     chunkedLoading: true,
+    iconCreateFunction: function (cluster) {
+      const count = cluster.getChildCount();
+      return L.divIcon({
+        html: `<div class="custom-cluster-icon"><span>${count}</span></div>`,
+        className: "",
+        iconSize: [40, 40],
+        iconAnchor: [20, 20],
+      });
+    },
   });
 
   const markerList = [];
