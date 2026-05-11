@@ -73,7 +73,8 @@ async function init() {
     map = L.map("map").setView([userLocation.lat, userLocation.lon], 12);
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
       maxZoom: 19,
-      attribution: "© OpenStreetMap © openbookcase.de © boite-a-lire.com",
+      attribution:
+        '© OpenStreetMap | <a href="https://github.com/andaryjo/bookhunt#data" target="_blank">Bookshelf data licenses</a>',
     }).addTo(map);
 
     // Defer populating map markers to keep startup fast
@@ -182,9 +183,9 @@ function getDistance(lat1, lon1, lat2, lon2) {
   const a =
     Math.sin(dLat / 2) * Math.sin(dLat / 2) +
     Math.cos((lat1 * Math.PI) / 180) *
-    Math.cos((lat2 * Math.PI) / 180) *
-    Math.sin(dLon / 2) *
-    Math.sin(dLon / 2);
+      Math.cos((lat2 * Math.PI) / 180) *
+      Math.sin(dLon / 2) *
+      Math.sin(dLon / 2);
   const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
   return R * c;
 }
