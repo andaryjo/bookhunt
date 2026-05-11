@@ -182,9 +182,9 @@ function getDistance(lat1, lon1, lat2, lon2) {
   const a =
     Math.sin(dLat / 2) * Math.sin(dLat / 2) +
     Math.cos((lat1 * Math.PI) / 180) *
-      Math.cos((lat2 * Math.PI) / 180) *
-      Math.sin(dLon / 2) *
-      Math.sin(dLon / 2);
+    Math.cos((lat2 * Math.PI) / 180) *
+    Math.sin(dLon / 2) *
+    Math.sin(dLon / 2);
   const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
   return R * c;
 }
@@ -357,7 +357,7 @@ function populateMap(shelvesToUse = bookshelves) {
 
     // Bind click event
     marker.on("click", () => {
-      window.location.hash = `/map/shelf/${shelf.id}`;
+      window.location.hash = `/shelf/${shelf.id}`;
     });
 
     markerList.push(marker);
@@ -378,7 +378,7 @@ function populateMap(shelvesToUse = bookshelves) {
 // Render Bookshelf details on the sidebar
 function showBookshelfDetails(shelf, updateUrl = true) {
   if (updateUrl) {
-    window.location.hash = `/map/shelf/${shelf.id}`;
+    window.location.hash = `/shelf/${shelf.id}`;
   }
 
   shelfName.textContent = shelf.name;
@@ -423,7 +423,7 @@ function renderShelves(shelves, container, clearContainer = true) {
       <p class="text-muted small" style="margin: 0; margin-top: 4px;">${shelf.address || shelf.description || "Public bookshelf"}</p>
     `;
     card.addEventListener("click", () => {
-      window.location.hash = `/map/shelf/${shelf.id}`;
+      window.location.hash = `/shelf/${shelf.id}`;
     });
     container.appendChild(card);
   });
@@ -443,8 +443,7 @@ function renderBooks(
     if (clearContainer) {
       container.innerHTML = `
         <div class="empty-state">
-          <span style="font-size: 3rem;">👻</span>
-          <p>No books found here recently.</p>
+          <p>No books have been seen here recently.</p>
         </div>
       `;
       lucide.createIcons();
@@ -485,7 +484,7 @@ function renderBooks(
     container.querySelectorAll(".book-shelf-link").forEach((link) => {
       link.addEventListener("click", (e) => {
         const shelfId = e.target.getAttribute("data-shelf-id");
-        window.location.hash = `/map/shelf/${shelfId}`;
+        window.location.hash = `/shelf/${shelfId}`;
       });
     });
   }
@@ -552,7 +551,6 @@ async function handleSearch(query, updateUrl = true) {
   if (results.length === 0) {
     searchList.innerHTML = `
       <div class="empty-state">
-        <span style="font-size: 3rem;">👻</span>
         <p>No results found.</p>
       </div>
     `;
@@ -634,9 +632,9 @@ async function handleRouting() {
   shelfSidebar.classList.add("hidden");
   startPage.classList.add("hidden");
 
-  if (hash.startsWith("#/map/shelf/")) {
+  if (hash.startsWith("#/shelf/") || hash.startsWith("#/map/shelf/")) {
     const parts = hash.split("/");
-    const shelfId = parts[3];
+    const shelfId = hash.startsWith("#/shelf/") ? parts[2] : parts[3];
 
     if (shelfId) {
       const shelf = bookshelves.find(
