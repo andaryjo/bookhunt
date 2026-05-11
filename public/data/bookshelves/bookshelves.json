@@ -33,5 +33,12 @@
     "address": "Assenheimer Str. 26, 60489 Frankfurt am Main",
     "lat": 50.126129,
     "lon": 8.614173
+  },
+  {
+    "id": "bcuusr",
+    "name": "Bücherschrank am Wiesenbad Eschborn",
+    "address": "Hauptstraße 258, 65760 Eschborn, Germany",
+    "lat": 50.148944,
+    "lon": 8.556477
   }
 ]
