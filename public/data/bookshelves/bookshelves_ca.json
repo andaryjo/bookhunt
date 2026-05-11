@@ -1,0 +1,569 @@
+[
+  {
+    "id": "skcdcg",
+    "name": "Action famille Lavaltrie",
+    "address": "1725, Rue Notre Dame, Lavaltrie, QC J5T 1S2",
+    "lat": 45.8895066,
+    "lon": -73.27350209999997
+  },
+  {
+    "id": "okuhfc",
+    "name": "Alfred Prevost",
+    "address": "7355, Avenue Christophe-Colomb, Montréal, Québec H2R 2S5",
+    "lat": 45.5438869,
+    "lon": -73.61457680000001
+  },
+  {
+    "id": "gzzxub",
+    "name": "Minimousses",
+    "address": "1880, Avenue Dumouchel, Laval, QC H7S 1J8",
+    "lat": 48.4173153,
+    "lon": -71.0537175
+  },
+  {
+    "id": "hnjkrf",
+    "name": "Alpha-Bette",
+    "address": "9, 1ère Avenue, L'Épiphanie, QC J5X 3P7",
+    "lat": 45.852744,
+    "lon": -73.47729859999998
+  },
+  {
+    "id": "qajmbl",
+    "name": "Amalou",
+    "address": "896, 3e Avenue, Québec, QC G1L 2W9",
+    "lat": 46.825844,
+    "lon": -71.229234
+  },
+  {
+    "id": "nlzogi",
+    "name": "Aqua-Livre",
+    "address": "1, rue, St-Francois-xavier, Sainte-Anne-du-Lac, QC J0W 1V0",
+    "lat": 46.8774364,
+    "lon": -75.32388249999997
+  },
+  {
+    "id": "rewlvg",
+    "name": "Beaux Papillons",
+    "address": "299, Chemin Saint Édouard, Saint-Mathieu, QC J0L 2H0",
+    "lat": 45.3122114,
+    "lon": -73.5192174
+  },
+  {
+    "id": "mucpnb",
+    "name": "Belle Dent",
+    "address": "147, Boulevard Louis-Philippe-Picard, Repentigny, QC J5Y 0A8",
+    "lat": 45.78729999999999,
+    "lon": -73.40550000000002
+  },
+  {
+    "id": "rcmbcz",
+    "name": "Boîte à LiLi",
+    "address": "0, Rue Sophie, Les Cèdres, QC J7T 1A1",
+    "lat": 45.3115089,
+    "lon": -74.06501879999996
+  },
+  {
+    "id": "lwonrl",
+    "name": "CPE Bobino Inc.",
+    "address": "868, Boulevard Cadieux, Beauharnois, QC J6N 2G2",
+    "lat": 45.3009394,
+    "lon": -73.8750018
+  },
+  {
+    "id": "togjqp",
+    "name": "CPE Bouton de rose - Sagala",
+    "address": "880, Rue Sagala, Berthierville, QC J0K 1A0",
+    "lat": 46.08483339999999,
+    "lon": -73.19121039999999
+  },
+  {
+    "id": "rychma",
+    "name": "CPE La Flûte enchantée",
+    "address": "12890, Rue Forsyth, Montréal, Québec H1A 4X6",
+    "lat": 45.6550159,
+    "lon": -73.50755979999997
+  },
+  {
+    "id": "ayjcdj",
+    "name": "CPE La Grosse Maison, suite 150",
+    "address": "14115, Rue Prince Arthur, Montréal, Québec H1A 1A8",
+    "lat": 45.67157,
+    "lon": -73.5094
+  },
+  {
+    "id": "wxwkuu",
+    "name": "CPE La Grosse Maison, suite 250",
+    "address": "14115, Rue Prince Arthur, Montréal, Québec H1A 1A8",
+    "lat": 45.6715436,
+    "lon": -73.50932190000003
+  },
+  {
+    "id": "oqewgv",
+    "name": "CPE Palou la coccinelle",
+    "address": "15990, Rue Notre Dame Est, Montréal, Québec H1A 1X6",
+    "lat": 45.6950631,
+    "lon": -73.48727500000001
+  },
+  {
+    "id": "bmwtga",
+    "name": "Cric-Crac-Croc",
+    "address": "1564, Boulevard Jacques - Cartier, Mont-Joli, QC G5H 2V8",
+    "lat": 48.5868237,
+    "lon": -68.18967700000002
+  },
+  {
+    "id": "czffhv",
+    "name": "Cro-K’amour",
+    "address": "580, Rue Côte, Saint-Pascal, QC G0L 3Y0",
+    "lat": 47.5296806,
+    "lon": -69.80208959999999
+  },
+  {
+    "id": "vjsvor",
+    "name": "Croque Des premiers pas",
+    "address": "165, Rue de l'Atmosphère, Gatineau, QC J9A 3K2",
+    "lat": 45.4388169,
+    "lon": -75.78398579999998
+  },
+  {
+    "id": "abhljh",
+    "name": "Croque-Eastman",
+    "address": "395, Rue Principale, Eastman, QC J0E 1P0",
+    "lat": 45.301589,
+    "lon": -72.316106
+  },
+  {
+    "id": "kpweia",
+    "name": "Croque-Farfelue",
+    "address": "511, Rue Massicotte, Saint-Narcisse, QC G0X 2Y0",
+    "lat": 46.562686,
+    "lon": -72.470778
+  },
+  {
+    "id": "kpamxt",
+    "name": "Croque-Gryphon",
+    "address": "95, Chemin de la Côte-Saint-Antoine, Westmount, QC H3Y 2H8",
+    "lat": 45.486043,
+    "lon": -73.597163
+  },
+  {
+    "id": "kmvmxx",
+    "name": "Croque-Hochelaga",
+    "address": "1611, avenue d’Orléans, Montréal, Québec H1W 3R4",
+    "lat": 45.547862,
+    "lon": -73.538762
+  },
+  {
+    "id": "pozyjq",
+    "name": "Croque-Imaginaire",
+    "address": "16, Rue Saint-Alphonse, Sainte-Luce, QC G0K 1P0",
+    "lat": 48.5306228,
+    "lon": -68.34957380000003
+  },
+  {
+    "id": "hqihgy",
+    "name": "Croque-Instant",
+    "address": "854, Rang Saint-Jean Baptiste, Henryville, QC J0J 1E0",
+    "lat": 45.1362333,
+    "lon": -73.19131629999998
+  },
+  {
+    "id": "fwgrmh",
+    "name": "Croque-Ami-Joie",
+    "address": "45, Rue Dorval, Trois-Rivières, QC G8T 5X6",
+    "lat": 45.437541,
+    "lon": -72.88067209999997
+  },
+  {
+    "id": "xqfnvj",
+    "name": "Croque-livres",
+    "address": "5905, Rue Saint-Georges, Lévis, QC G6V 4K9",
+    "lat": 46.804261,
+    "lon": -71.18005110000001
+  },
+  {
+    "id": "tyjcku",
+    "name": "Croque-livres",
+    "address": "438, Brassard, Saint-Michel-des-Saints, QC J0K3B0",
+    "lat": 46.6765492,
+    "lon": -73.91717369999998
+  },
+  {
+    "id": "ofsgff",
+    "name": "Croque-Livres",
+    "address": "500, Avenue Jolliet, Sept-Îles, QC G4R 2B4",
+    "lat": 50.2122766,
+    "lon": -66.37807809999998
+  },
+  {
+    "id": "favdkk",
+    "name": "CROQUE-LIVRES",
+    "address": "5545, Rue Snowdon, Montréal, Québec H3X 1Y8",
+    "lat": 45.4796229,
+    "lon": -73.629413
+  },
+  {
+    "id": "vzedjw",
+    "name": "croque-livres",
+    "address": "1016, Rue Charcot, Boucherville, QC J4B 8R5",
+    "lat": 45.593763,
+    "lon": -73.43122299999999
+  },
+  {
+    "id": "rerdqc",
+    "name": "Croque-livres",
+    "address": "19, Montée Sainte-Victoire, Sainte-Victoire-de-Sorel, QC J0G 1T0",
+    "lat": 45.9766281,
+    "lon": -73.1370981
+  },
+  {
+    "id": "vsrzeo",
+    "name": "Croque-livres",
+    "address": "4980, Rue des Peupliers, La Doré, QC G8J 1E6",
+    "lat": 48.71204969999999,
+    "lon": -72.6475049
+  },
+  {
+    "id": "qvmxjl",
+    "name": "CROQUE-LIVRES",
+    "address": "39-d, St-François Xavier Est, Grande-Vallée, QC G0E 1K0",
+    "lat": 49.2270784,
+    "lon": -65.11523929999998
+  },
+  {
+    "id": "sujqra",
+    "name": "Croque-Livres MDJ",
+    "address": "375, Avenue Bessette, Saint-Jean-sur-Richelieu, QC J2X 2N8",
+    "lat": 45.297458,
+    "lon": -73.233308
+  },
+  {
+    "id": "lnovzu",
+    "name": "Croque-livres Toussaint-Lachapelle",
+    "address": "(coin bellerive), Rue du Pont, Mont-Laurier, QC J9L 1X5",
+    "lat": 46.5528187,
+    "lon": -75.50001070000002
+  },
+  {
+    "id": "gqgwir",
+    "name": "Croque-mouton",
+    "address": "2160, Rue Beaubien Est, Montréal, Québec H2G 1M6",
+    "lat": 45.54609139999999,
+    "lon": -73.59403259999999
+  },
+  {
+    "id": "bzsece",
+    "name": "Croque-Palou",
+    "address": "15 990, Rue Notre Dame Est, Montréal, Québec H1A 1X6",
+    "lat": 45.5065569,
+    "lon": -73.55541289999996
+  },
+  {
+    "id": "mdimel",
+    "name": "Croque-PB",
+    "address": "1825, Rue Notre Dame Ouest, Montréal, Québec H3J 1M5",
+    "lat": 45.4883719,
+    "lon": -73.5685631
+  },
+  {
+    "id": "yhegvk",
+    "name": "Croque-Repentigny",
+    "address": "500-22, boul. Iberville, Repentigny, QC J6A 6H9",
+    "lat": 45.745572,
+    "lon": -73.44731
+  },
+  {
+    "id": "bouufc",
+    "name": "Croque-Royale",
+    "address": "866, Rue Royale, Malartic, QC J0Y 1Z0",
+    "lat": 48.13627109999999,
+    "lon": -78.12667770000002
+  },
+  {
+    "id": "sdhmby",
+    "name": "Croque-Ami-Joie",
+    "address": "550, Rue de la Sorbonne, Saint-Nicolas, QC G7A 1Y1",
+    "lat": 45.437541,
+    "lon": -72.88067209999997
+  },
+  {
+    "id": "dzfvpz",
+    "name": "Croque-Souris",
+    "address": "25, Chemin Haendel, Candiac, QC J5R 1R7",
+    "lat": 45.39028140000001,
+    "lon": -73.51759319999996
+  },
+  {
+    "id": "xqojys",
+    "name": "Croque Uni-vert",
+    "address": "2081, Rue Lupien, Plessisville, QC G6L 5S8",
+    "lat": 46.2255399,
+    "lon": -71.77159389999997
+  },
+  {
+    "id": "hktqas",
+    "name": "Croque-Zacharie",
+    "address": "713, 15e Rue, Saint-Zacharie, QC G0M 2C0",
+    "lat": 46.1261449,
+    "lon": -70.36429909999998
+  },
+  {
+    "id": "cgsmli",
+    "name": "croquemitaine",
+    "address": "15 140, Rue Sherbrooke Est, Montréal, Québec H2X 3V8",
+    "lat": 45.5127366,
+    "lon": -73.56935320000002
+  },
+  {
+    "id": "mwkkxs",
+    "name": "Croques livres Green ",
+    "address": "504, Rue Green, Saint-Lambert, QC J4P 1V3",
+    "lat": 45.5079754,
+    "lon": -73.50665229999998
+  },
+  {
+    "id": "okgxfd",
+    "name": "Croquinox",
+    "address": "1, Rue Tomifobia, Sherbrooke, QC J1L 2K5",
+    "lat": 45.39146239999999,
+    "lon": -71.9829312
+  },
+  {
+    "id": "okuwic",
+    "name": "Crounche",
+    "address": "8100, Rue de Marseille, Montréal, Québec H1L 1P3",
+    "lat": 45.59684,
+    "lon": -73.52933
+  },
+  {
+    "id": "eynsql",
+    "name": "Découverte",
+    "address": "1000, Rue Saint-Georges, Drummondville, QC J2C 4H9",
+    "lat": 45.8739627,
+    "lon": -72.50743139999997
+  },
+  {
+    "id": "wrgfbv",
+    "name": "Donat",
+    "address": "102, Rue des Loisirs, Rimouski, QC G0K 1L0",
+    "lat": 48.4968712,
+    "lon": -68.24519250000003
+  },
+  {
+    "id": "terftg",
+    "name": "Dragon cracheur de livres",
+    "address": "3746, Rue Principale, Dunham, QC J0E 1M0",
+    "lat": 45.13211769999999,
+    "lon": -72.80062459999999
+  },
+  {
+    "id": "dtxijc",
+    "name": "École Lévis-Sauvé",
+    "address": "655, Rue Willibrord, Montréal, Québec H4G 2T8",
+    "lat": 45.459461,
+    "lon": -73.57172889999998
+  },
+  {
+    "id": "wlhzha",
+    "name": "Ervil",
+    "address": "60, Avenue Daniel-Morin, Saint-Placide, QC J0V 2B0",
+    "lat": 45.5266724,
+    "lon": -74.2081655
+  },
+  {
+    "id": "vkwrgo",
+    "name": "Familles Centre-ville",
+    "address": "1410, Rue Pierce, Montréal, Québec H3H 2K2",
+    "lat": 45.4945421,
+    "lon": -73.578757
+  },
+  {
+    "id": "yzciyo",
+    "name": "Félix",
+    "address": "186, Chemin de l'Anse, Vaudreuil-Dorion, QC J7V 8P3",
+    "lat": 45.42072,
+    "lon": -74.054947
+  },
+  {
+    "id": "kzexgf",
+    "name": "GLOUTON",
+    "address": "250, Colbert, Saguenay, QC G7G 1L7",
+    "lat": 48.4426019,
+    "lon": -71.05622419999997
+  },
+  {
+    "id": "dypgsx",
+    "name": "Gobe-Livres!",
+    "address": "1775, Rue Rochefort, Laval, QC H7G 2P8",
+    "lat": 45.5846863,
+    "lon": -73.68296500000002
+  },
+  {
+    "id": "hygsvo",
+    "name": "Grand Gousier",
+    "address": "2825, Rue Dollard, Laval, QC H7E 1S8",
+    "lat": 45.59491000000001,
+    "lon": -73.67322260000003
+  },
+  {
+    "id": "pozwlm",
+    "name": "Le Trios des animaux",
+    "address": "225, Chemin de la Plage, West Brome, QC J0E 2P0",
+    "lat": 45.2028864,
+    "lon": -72.72232380000003
+  },
+  {
+    "id": "qprtnc",
+    "name": "Lecto-Croc",
+    "address": "135, Rue Notre Dame, Oka, QC J0N 1E0",
+    "lat": 45.4616504,
+    "lon": -74.08696650000002
+  },
+  {
+    "id": "ivttux",
+    "name": "Les petits monstres",
+    "address": "205, Rue Jarry Est, Montréal, Québec H2P 1T6",
+    "lat": 45.540944,
+    "lon": -73.630281
+  },
+  {
+    "id": "dluoze",
+    "name": "Lilian monterrosa",
+    "address": "176, Rue des Colibris, Notre-Dame-de-l'Île-Perrot, QC J7V 7M4",
+    "lat": 45.3763817,
+    "lon": -73.9462863
+  },
+  {
+    "id": "snwxnj",
+    "name": "Limoitou",
+    "address": "388, rue Lamarre, Longueuil, QC J4J 1T2",
+    "lat": 45.535236,
+    "lon": -73.484638
+  },
+  {
+    "id": "rtcuuf",
+    "name": "Limoitou",
+    "address": "830, Boulevard Basile-Routhier, Repentigny, QC J6A 7W9",
+    "lat": 45.76324400000001,
+    "lon": -73.447383
+  },
+  {
+    "id": "lpghoc",
+    "name": "Lutoucru",
+    "address": "4899, Rue Saint Joseph, Laval, QC H7C 1H6",
+    "lat": 45.6112903,
+    "lon": -73.64886790000003
+  },
+  {
+    "id": "bcstis",
+    "name": "M. Louis-Jo",
+    "address": "2901, Rue de Louvain Est, Montréal, Québec H1Z 1J7",
+    "lat": 45.570714,
+    "lon": -73.632793
+  },
+  {
+    "id": "wvfyzp",
+    "name": "Main dans la main vers la lecture",
+    "address": "957, Rue de la Berge, Havre-Saint-Pierre, QC G0G1P0",
+    "lat": 50.2376793,
+    "lon": -63.609189300000025
+  },
+  {
+    "id": "nnwspx",
+    "name": "Maison de la famille ST Paul ",
+    "address": "946, Rue Saint Paul, Trois-Rivières, QC G9A 1J3",
+    "lat": 46.3514516,
+    "lon": -72.54175729999997
+  },
+  {
+    "id": "wpzvuq",
+    "name": "Croque-Ami-Joie",
+    "address": "995, Avenue Duchesneau, Québec, QC G1W 4B1",
+    "lat": 45.437541,
+    "lon": -72.88067209999997
+  },
+  {
+    "id": "esxdyu",
+    "name": "Mange-mots",
+    "address": "185, Rue du Curé Longpré, Repentigny, QC J6A 1V5",
+    "lat": 45.721677,
+    "lon": -73.471037
+  },
+  {
+    "id": "martsp",
+    "name": "Matulu",
+    "address": "1449, avenue Aird, Montréal, Québec H1V 2V2",
+    "lat": 45.555214,
+    "lon": -73.534321
+  },
+  {
+    "id": "pmdslj",
+    "name": "Mister Croc-o-dile / Monsieur Croc-o-dile",
+    "address": "666, Rue Woodland, Montréal, Québec H4H 1V8",
+    "lat": 45.4524471,
+    "lon": -73.5738581
+  },
+  {
+    "id": "nzmmnt",
+    "name": "Mlle Mange-mots",
+    "address": "540, chemin du Lac st-Louis, Léry, QC J6N 1A3",
+    "lat": 45.359932,
+    "lon": -73.78438299999999
+  },
+  {
+    "id": "lneodk",
+    "name": "Monstre de lecture",
+    "address": "454, Rue Binette, Asbestos, QC J1T 3Z1",
+    "lat": 45.779412,
+    "lon": -71.92707899999999
+  },
+  {
+    "id": "umyfhl",
+    "name": "Nom à venir",
+    "address": "1950, Rue Chanterel, Saint-Lazare, QC J7T 3C2",
+    "lat": 45.413232,
+    "lon": -74.149362
+  },
+  {
+    "id": "vcnguc",
+    "name": "Parc Rose",
+    "address": "372, rue Rose, Otterburn Park, QC J3H 1M7",
+    "lat": 45.540217,
+    "lon": -73.199065
+  },
+  {
+    "id": "oftvvj",
+    "name": "Poussi-croque",
+    "address": "1045, Rue Provencal, Saint-Jean-sur-Richelieu, QC J3B 8P6",
+    "lat": 45.3074156,
+    "lon": -73.29365260000003
+  },
+  {
+    "id": "yoknqu",
+    "name": "Rivièromo",
+    "address": "600, Rue Léger, Rivière-Beaudette, QC J0P 1R0",
+    "lat": 45.2292224,
+    "lon": -74.33285969999997
+  },
+  {
+    "id": "qapyci",
+    "name": "Trésors du Pélican",
+    "address": "976, Rue Honore Mercier, Saint-Jean-sur-Richelieu, QC J2X 5A5",
+    "lat": 45.29881299999999,
+    "lon": -73.23621630000002
+  },
+  {
+    "id": "bujgpv",
+    "name": "Ville St-Gabriel-de-Brandon",
+    "address": "155, Rue Saint Gabriel, Saint-Gabriel, QC J0K 2N0",
+    "lat": 46.2907229,
+    "lon": -73.38082750000001
+  },
+  {
+    "id": "fgfukp",
+    "name": "WendyLit",
+    "address": "22, rue Vaudreuil, Lévis, QC G6V 1S7",
+    "lat": 46.820614,
+    "lon": -71.17151
+  }
+]
