@@ -6,6 +6,7 @@ const FUNCTION_URL =
   "https://europe-west1-goo-bookhunt.cloudfunctions.net/brutor";
 const GITHUB_REPO_OWNER = "andaryjo";
 const GITHUB_REPO_NAME = "bookhunt";
+const MAX_SHELF_DISTANCE_KM = 0.5; // Only suggest/allow bookshelves within 500m
 
 // ---------------------------------------------------------------------------
 // State & DOM refs
@@ -81,7 +82,7 @@ function stripExifViaCanvas(file) {
 // ---------------------------------------------------------------------------
 // Nearest bookshelf suggestion from GPS
 // ---------------------------------------------------------------------------
-function suggestNearestShelf(lat, lon, radiusKm = 5) {
+function suggestNearestShelf(lat, lon, radiusKm = MAX_SHELF_DISTANCE_KM) {
   if (!bookshelves?.length) return null;
   let min = Infinity,
     nearest = null;
@@ -199,7 +200,7 @@ function updateEntryReady(entry, suggestion) {
             s.lon,
           ),
         }))
-        .filter((s) => s.dist <= 0.5) // Only within 500m
+        .filter((s) => s.dist <= MAX_SHELF_DISTANCE_KM) // Only within valid range
         .sort((a, b) => a.dist - b.dist)
         .map((s) => {
           const d =
@@ -242,9 +243,6 @@ function updateSubmitBtn() {
 
 // Search functionality removed per optimization request.
 
-// ---------------------------------------------------------------------------
-// Submit to Cloudflare Worker
-// ---------------------------------------------------------------------------
 async function submitPhotos() {
   const readyEntries = selectedFiles.filter(
     (e) => e.status === "ready" && e.compressedBlob,
