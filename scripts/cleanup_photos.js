@@ -36,7 +36,10 @@ async function main() {
         try {
           const data = JSON.parse(content);
           if (Array.isArray(data)) {
-            queue = queue.concat(data);
+            data.forEach(item => {
+              const url = typeof item === 'string' ? item : item.url;
+              if (url) queue.push(url);
+            });
           } else {
             const url = typeof data === 'string' ? data : data.url;
             if (url) queue.push(url);

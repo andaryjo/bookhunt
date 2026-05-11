@@ -108,7 +108,7 @@ async function addFilesToQueue(files) {
       continue;
     }
     const entry = {
-      id: Math.random().toString(36).substring(2, 8),
+      id: randomId(6),
       file,
       exifGps: null,
       compressedBlob: null,
@@ -259,6 +259,7 @@ async function submitPhotos() {
         shelfId: entry.selectedShelfId || null,
         lat: entry.exifGps?.lat ?? null,
         lon: entry.exifGps?.lon ?? null,
+        id: entry.id,
       })),
     );
 
@@ -306,6 +307,15 @@ function blobToBase64(blob) {
 
 function sleep(ms) {
   return new Promise((r) => setTimeout(r, ms));
+}
+
+function randomId(length) {
+  const chars = "abcdefghijklmnopqrstuvwxyz";
+  let result = "";
+  for (let i = 0; i < length; i++) {
+    result += chars.charAt(Math.floor(Math.random() * chars.length));
+  }
+  return result;
 }
 
 // ---------------------------------------------------------------------------

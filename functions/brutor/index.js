@@ -50,16 +50,21 @@ async function processContribution(photos, token) {
   const ghMain = makeGhClient(MAIN_REPO, token);
   const ghPhoto = makeGhClient(PHOTO_REPO, token);
 
-  const today = utcDateString();
-  const filenames = [];
   const photoTreeItems = [];
+  const photosMetadata = [];
 
   // 1. Prepare blobs for photos repo
   for (const photo of photos) {
-    const id = randomId(6);
-    const shelfPart = photo.shelfId || (photo.lat != null && photo.lon != null ? `${photo.lat}_${photo.lon}` : 'unknown');
-    const filename = `${id}_${today}_${shelfPart}.jpg`;
-    filenames.push(filename);
+    const id = photo.id || randomId(6);
+    const filename = `${id}.jpg`;
+    
+    photosMetadata.push({ 
+      id, 
+      filename, 
+      lat: photo.lat, 
+      lon: photo.lon, 
+      suggestedShelfId: photo.shelfId 
+    });
 
     const blob = await ghPhoto('/git/blobs', {
       method: 'POST',
@@ -82,7 +87,7 @@ async function processContribution(photos, token) {
   const photoNewCommit = await ghPhoto('/git/commits', {
     method: 'POST',
     body: {
-      message: `Add ${filenames.length} contribution photos`,
+      message: `Add ${photosMetadata.length} contribution photos`,
       tree: photoTree.sha,
       parents: [photoBaseSha]
     },
@@ -101,18 +106,24 @@ async function processContribution(photos, token) {
   const contributionId = randomId(8);
   const queueTreeItems = [];
 
-  for (let i = 0; i < filenames.length; i++) {
-    const filename = filenames[i];
-    const photoId = filename.split('_')[0]; // The 6-letter random ID
-    const url = `https://raw.githubusercontent.com/${PHOTO_REPO}/${BASE_BRANCH}/photos/${filename}`;
+  for (let i = 0; i < photosMetadata.length; i++) {
+    const meta = photosMetadata[i];
+    const url = `https://raw.githubusercontent.com/${PHOTO_REPO}/${BASE_BRANCH}/photos/${meta.filename}`;
     
+    const queueData = {
+      url,
+      lat: meta.lat,
+      lon: meta.lon,
+      suggestedShelfId: meta.suggestedShelfId
+    };
+
     const queueBlob = await ghMain('/git/blobs', {
       method: 'POST',
-      body: { content: url, encoding: 'utf-8' },
+      body: { content: JSON.stringify(queueData, null, 2), encoding: 'utf-8' },
     });
 
     queueTreeItems.push({
-      path: `queue/${photoId}`,
+      path: `queue/${meta.id}.json`,
       mode: '100644',
       type: 'blob',
       sha: queueBlob.sha
@@ -130,7 +141,7 @@ async function processContribution(photos, token) {
   const mainNewCommit = await ghMain('/git/commits', {
     method: 'POST',
     body: {
-      message: `Queue contribution ${contributionId} (${filenames.length} photos)`,
+      message: `Queue contribution ${contributionId} (${photosMetadata.length} photos)`,
       tree: mainTree.sha,
       parents: [mainBaseSha]
     },
@@ -147,20 +158,20 @@ async function processContribution(photos, token) {
     `Thank you for your contribution. The pictures will now get reviewed by a human and automatically processed after approval. This process may take a few hours.`,
     ``,
     `Photos submitted for review:`,
-    ...filenames.map(f => `- [${f}](https://github.com/${PHOTO_REPO}/blob/${BASE_BRANCH}/photos/${f})`),
+    ...photosMetadata.map(m => `- [${m.filename}](https://github.com/${PHOTO_REPO}/blob/${BASE_BRANCH}/photos/${m.filename})`),
   ].join('\n');
 
   const pr = await ghMain('/pulls', {
     method: 'POST',
     body: {
-      title: `Bookshelf photo contribution (${filenames.length} photo${filenames.length > 1 ? 's' : ''})`,
+      title: `Bookshelf photo contribution (${photosMetadata.length} photo${photosMetadata.length > 1 ? 's' : ''})`,
       head: branchName,
       base: BASE_BRANCH,
       body: prBody,
     },
   });
 
-  return { prUrl: pr.html_url, prNumber: pr.number, photos: filenames.length };
+  return { prUrl: pr.html_url, prNumber: pr.number, photos: photosMetadata.length };
 }
 
 function makeGhClient(repo, token) {
@@ -195,9 +206,6 @@ function makeGhClient(repo, token) {
   };
 }
 
-function utcDateString() {
-  return new Date().toISOString().slice(0, 10).replace(/-/g, '');
-}
 
 function randomId(length) {
   const chars = 'abcdefghijklmnopqrstuvwxyz';

@@ -51,41 +51,62 @@ Ensure your response is valid JSON.` }
   }
 
   const filename = path.basename(imgPath);
-  const nameParts = filename.replace(/\.[^.]+$/, '').split('_');
+  const baseName = filename.replace(/\.[^.]+$/, '');
+  const queueDir = path.join(__dirname, '..', 'queue');
+  const jsonPath = path.join(queueDir, `${baseName}.json`);
 
   let matchedShelfId = 'unknown';
   let bookDate = new Date().toISOString().split('T')[0];
   let parsedMeta = null;
 
-  if (nameParts.length >= 3) {
-    // formats: <id>_<day>_<lat>_<long> OR <id>_<day>_<bookshelf_id>
-    const [id, day, part3, part4] = nameParts;
-
-    // Normalize day to YYYY-MM-DD if it comes as YYYYMMDD
-    if (day.length === 8 && !day.includes('-')) {
-      bookDate = `${day.substring(0, 4)}-${day.substring(4, 6)}-${day.substring(6, 8)}`;
-    } else {
-      bookDate = day;
+  if (fs.existsSync(jsonPath)) {
+    try {
+      const meta = JSON.parse(fs.readFileSync(jsonPath, 'utf-8'));
+      if (meta.lat != null && meta.lon != null) {
+        parsedMeta = { lat: meta.lat, lon: meta.lon };
+      }
+      if (meta.suggestedShelfId) {
+        matchedShelfId = meta.suggestedShelfId;
+      }
+      console.log(`Loaded metadata from JSON: ${JSON.stringify(meta)}`);
+    } catch (e) {
+      console.warn(`Failed to parse JSON metadata at ${jsonPath}:`, e.message);
     }
+  }
 
-    if (part4 !== undefined) {
-      parsedMeta = {
-        lat: parseFloat(part3),
-        lon: parseFloat(part4)
-      };
+  // Fallback to filename parsing if metadata is still missing
+  if (matchedShelfId === 'unknown' && !parsedMeta) {
+    const nameParts = baseName.split('_');
+    if (nameParts.length >= 3) {
+      // formats: <id>_<day>_<lat>_<long> OR <id>_<day>_<bookshelf_id>
+      const [id, day, part3, part4] = nameParts;
+
+      // Normalize day to YYYY-MM-DD if it comes as YYYYMMDD
+      if (day.length === 8 && !day.includes('-')) {
+        bookDate = `${day.substring(0, 4)}-${day.substring(4, 6)}-${day.substring(6, 8)}`;
+      } else {
+        bookDate = day;
+      }
+
+      if (part4 !== undefined) {
+        parsedMeta = {
+          lat: parseFloat(part3),
+          lon: parseFloat(part4)
+        };
+      } else {
+        matchedShelfId = part3;
+      }
     } else {
-      matchedShelfId = part3;
-    }
-  } else {
-    // Old format fallback: YYYYMMDD_HHMMSS_lat_lon
-    const match = filename.match(/(\d{8}_\d{6})_([-\d.]+)_([-\d.]+)\.[a-zA-Z0-9]+$/);
-    if (match) {
-      parsedMeta = {
-        timestamp: match[1],
-        lat: parseFloat(match[2]),
-        lon: parseFloat(match[3])
-      };
-      bookDate = `${match[1].substring(0, 4)}-${match[1].substring(4, 6)}-${match[1].substring(6, 8)}`;
+      // Old format fallback: YYYYMMDD_HHMMSS_lat_lon
+      const match = filename.match(/(\d{8}_\d{6})_([-\d.]+)_([-\d.]+)\.[a-zA-Z0-9]+$/);
+      if (match) {
+        parsedMeta = {
+          timestamp: match[1],
+          lat: parseFloat(match[2]),
+          lon: parseFloat(match[3])
+        };
+        bookDate = `${match[1].substring(0, 4)}-${match[1].substring(4, 6)}-${match[1].substring(6, 8)}`;
+      }
     }
   }
   photoMeta = parsedMeta;
@@ -192,7 +213,7 @@ Ensure your response is valid JSON.` }
   fs.writeFileSync(dataPath, JSON.stringify(data, null, 2));
 
   if (unknownBooks.length > 0) {
-    const id = nameParts[0] || 'unknown';
+    const id = baseName.split('_')[0] || 'unknown';
     let suffix = 'unknown';
 
     if (photoMeta && photoMeta.lat && photoMeta.lon) {

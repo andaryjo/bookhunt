@@ -33,14 +33,17 @@ async function main() {
         try {
           const data = JSON.parse(content);
           if (Array.isArray(data)) {
-            queue = queue.concat(data);
+            // Legacy format or bulk
+            queue = queue.concat(data.map(item => typeof item === 'string' ? { url: item } : item));
           } else {
             const url = typeof data === 'string' ? data : data.url;
-            if (url) queue.push(url);
+            if (url) {
+              queue.push(typeof data === 'string' ? { url: data } : data);
+            }
           }
         } catch (e) {
           // Not JSON, treat as raw URL
-          queue.push(content);
+          queue.push({ url: content });
         }
       } catch (e) {
         console.error(`Failed to read queue/${file}`, e);
@@ -64,7 +67,10 @@ async function main() {
 
   console.log(`Downloading ${queue.length} photos from queue...`);
 
-  for (const url of queue) {
+  for (const item of queue) {
+    const url = item.url;
+    if (!url) continue;
+
     const filename = path.basename(url);
     const dest = path.join(photosDir, filename);
 
