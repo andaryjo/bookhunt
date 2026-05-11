@@ -19,8 +19,13 @@ Additionally, third-party data gets sourced for bookshelves.
 The data gets transformed into a unified data structure.
 The data has been made available under following licenses:
 
-- `public/data/bookshelves/bookshelves_bal.json`: Sourced from [www.boite-a-lire.com](https://www.boite-a-lire.com/). Provided by [github.com/Binnette/bookcases-boite-a-lire](https://github.com/Binnette/bookcases-boite-a-lire) under [CC BY-NC-SA 2.0](https://creativecommons.org/licenses/by-nc-sa/2.0/) license.
-- `public/data/bookshelves/bookshelves_obc.json`: Sourced from [OpenBookCase](https://openbookcase.de/). Provided under [ODbL v1.0](https://opendatacommons.org/licenses/odbl/summary/) license.
+- `public/data/bookshelves/bookshelves_bal.json`: Sourced from [www.boite-a-lire.com](https://www.boite-a-lire.com/).
+  Provided by [github.com/Binnette/bookcases-boite-a-lire](https://github.com/Binnette/bookcases-boite-a-lire) under [CC BY-NC-SA 2.0](https://creativecommons.org/licenses/by-nc-sa/2.0/) license.
+- `public/data/bookshelves/bookshelves_clc.json`: Sourced from croquelivres.ca (no longer available).
+  They originally maintained a list of more than 3000 public bookshelves in Canada.
+  Using the Internet Archive the data for a few hundred of those have been recovered.
+- `public/data/bookshelves/bookshelves_obc.json`: Sourced from [OpenBookCase](https://openbookcase.de/).
+  Provided under [ODbL v1.0](https://opendatacommons.org/licenses/odbl/summary/) license.
 
 ## Vibecoding
 
