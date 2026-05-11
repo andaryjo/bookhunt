@@ -6,6 +6,18 @@ let markers = {};
 let currentFile = null;
 let userLocation = { lat: 52.52, lon: 13.405 }; // Default Berlin
 let isLocationShared = false;
+
+// Load cached location if available
+try {
+  const cached = localStorage.getItem("user-location");
+  if (cached) {
+    userLocation = JSON.parse(cached);
+    isLocationShared = true;
+    console.log("Loaded cached location:", userLocation);
+  }
+} catch (e) {
+  console.warn("Failed to load cached location", e);
+}
 let isDataLoaded = false;
 
 // DOM Elements
@@ -257,7 +269,7 @@ function renderLocationPrompt(container) {
     </div>
     <button class="nav-btn small" style="background: var(--secondary); margin: 0; padding: 0.4rem 0.8rem; pointer-events: none;">Use location</button>
   `;
-  card.addEventListener("click", requestUserLocation);
+  card.addEventListener("click", () => requestUserLocation());
 
   // Insert at the 6th if enough items exist, else append at end
   if (container.children.length >= 5) {
@@ -269,9 +281,9 @@ function renderLocationPrompt(container) {
   if (window.lucide) lucide.createIcons();
 }
 
-async function requestUserLocation() {
+async function requestUserLocation(silent = false) {
   if (!navigator.geolocation) {
-    alert("Geolocation is not supported by your browser");
+    if (silent !== true) alert("Geolocation is not supported by your browser");
     return;
   }
 
@@ -282,7 +294,8 @@ async function requestUserLocation() {
         lon: position.coords.longitude,
       };
       isLocationShared = true;
-      console.log("User location shared:", userLocation);
+      localStorage.setItem("user-location", JSON.stringify(userLocation));
+      console.log("User location shared and cached:", userLocation);
 
       // Update map if it exists
       if (map) {
@@ -300,6 +313,8 @@ async function requestUserLocation() {
     },
     (error) => {
       console.error("Error getting location:", error);
+      if (silent === true) return;
+
       let msg = "Could not get your location.";
       if (error.code === error.PERMISSION_DENIED) {
         msg =
@@ -316,8 +331,12 @@ async function checkLocationPermission() {
   try {
     const result = await navigator.permissions.query({ name: "geolocation" });
     if (result.state === "granted") {
-      console.log("Location permission already granted, fetching...");
-      requestUserLocation();
+      console.log("Location permission already granted, fetching in background...");
+      requestUserLocation(true);
+    } else if (result.state === "denied") {
+      // If denied, we should probably not pretend it's shared even if we have a cache?
+      // Actually, let's keep the cache if it's already there, but maybe the prompt should reappear?
+      // For now, let's just stay silent.
     }
   } catch (e) {
     console.warn("Permissions API check failed for geolocation:", e);
