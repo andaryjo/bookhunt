@@ -47,5 +47,12 @@
     "address": "Alt-Nied 1, 65934 Frankfurt am Main, Germany",
     "lat": 50.100243,
     "lon": 8.563998
+  },
+  {
+    "id": "nztmvd",
+    "name": "Bücherschrank Frankfurt-Höchst Sieringstraße",
+    "address": "Sieringstraße 44, 65929 Frankfurt am Main",
+    "lat": 50.111127,
+    "lon": 8.544542
   }
 ]
