@@ -29,8 +29,11 @@ async function readExifGps(file) {
   try {
     if (typeof exifr === "undefined") return null;
     const gps = await exifr.gps(file);
+    const meta = await exifr.parse(file, { pick: ['DateTimeOriginal', 'CreateDate', 'ModifyDate'] });
+    const date = meta?.DateTimeOriginal || meta?.CreateDate || meta?.ModifyDate || (file.lastModified ? new Date(file.lastModified) : new Date());
+    
     if (gps?.latitude && gps?.longitude)
-      return { lat: gps.latitude, lon: gps.longitude };
+      return { lat: gps.latitude, lon: gps.longitude, date: date };
   } catch (_) { }
   return null;
 }
@@ -259,6 +262,7 @@ async function submitPhotos() {
         shelfId: entry.selectedShelfId || null,
         lat: entry.exifGps?.lat ?? null,
         lon: entry.exifGps?.lon ?? null,
+        date: entry.exifGps?.date ?? new Date().toISOString(),
         id: entry.id,
       })),
     );

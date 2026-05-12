@@ -58,11 +58,28 @@ async function processContribution(photos, token) {
     const id = photo.id || randomId(6);
     const filename = `${id}.jpg`;
     
+    // Date validation
+    const photoDate = new Date(photo.date);
+    const now = new Date();
+    const sevenDaysAgo = new Date();
+    sevenDaysAgo.setDate(now.getDate() - 7);
+
+    if (isNaN(photoDate.getTime())) {
+      throw new Error(`Invalid date provided for photo ${id}`);
+    }
+    if (photoDate > now) {
+      throw new Error(`Photo date cannot be in the future (photo ${id})`);
+    }
+    if (photoDate < sevenDaysAgo) {
+      throw new Error(`Photo date cannot be more than 7 days in the past (photo ${id})`);
+    }
+
     photosMetadata.push({ 
       id, 
       filename, 
       lat: photo.lat, 
       lon: photo.lon, 
+      date: photoDate.toISOString().split('T')[0],
       suggestedShelfId: photo.shelfId 
     });
 
@@ -114,6 +131,7 @@ async function processContribution(photos, token) {
       url,
       lat: meta.lat,
       lon: meta.lon,
+      date: meta.date,
       suggestedShelfId: meta.suggestedShelfId
     };
 

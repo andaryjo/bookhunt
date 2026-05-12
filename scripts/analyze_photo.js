@@ -68,6 +68,12 @@ Ensure your response is valid JSON.` }
       if (meta.suggestedShelfId) {
         matchedShelfId = meta.suggestedShelfId;
       }
+      if (meta.date) {
+        const d = new Date(meta.date);
+        if (!isNaN(d.getTime())) {
+          bookDate = d.toISOString().split('T')[0];
+        }
+      }
       console.log(`Loaded metadata from JSON: ${JSON.stringify(meta)}`);
     } catch (e) {
       console.warn(`Failed to parse JSON metadata at ${jsonPath}:`, e.message);
