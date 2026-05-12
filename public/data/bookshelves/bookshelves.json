@@ -40,5 +40,12 @@
     "address": "Hauptstraße 258, 65760 Eschborn, Germany",
     "lat": 50.148944,
     "lon": 8.556477
+  },
+  {
+    "id": "oolalx",
+    "name": "Bücherschrank am alten Rathaus",
+    "address": "Alt-Nied 1, 65934 Frankfurt am Main, Germany",
+    "lat": 50.100243,
+    "lon": 8.563998
   }
 ]
