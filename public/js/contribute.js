@@ -28,13 +28,31 @@ const prStatus = document.getElementById("prStatus");
 async function readExifGps(file) {
   try {
     if (typeof exifr === "undefined") return null;
-    const gps = await exifr.gps(file);
-    const meta = await exifr.parse(file, { pick: ['DateTimeOriginal', 'CreateDate', 'ModifyDate'] });
-    const date = meta?.DateTimeOriginal || meta?.CreateDate || meta?.ModifyDate || (file.lastModified ? new Date(file.lastModified) : new Date());
     
-    if (gps?.latitude && gps?.longitude)
+    // 1. Get GPS (most critical)
+    const gps = await exifr.gps(file);
+    
+    // 2. Try to get date separately
+    let date = null;
+    try {
+      const meta = await exifr.parse(file);
+      date = meta?.DateTimeOriginal || meta?.CreateDate || meta?.ModifyDate;
+    } catch (e) {
+      console.warn("Could not parse date EXIF", e);
+    }
+    
+    if (!date) {
+      date = (file.lastModified ? new Date(file.lastModified) : new Date());
+    }
+
+    if (gps?.latitude && gps?.longitude) {
       return { lat: gps.latitude, lon: gps.longitude, date: date };
-  } catch (_) { }
+    } else {
+      console.warn("No GPS data found in EXIF", gps);
+    }
+  } catch (err) {
+    console.error("Error reading EXIF:", err);
+  }
   return null;
 }
 
@@ -262,7 +280,7 @@ async function submitPhotos() {
         shelfId: entry.selectedShelfId || null,
         lat: entry.exifGps?.lat ?? null,
         lon: entry.exifGps?.lon ?? null,
-        date: entry.exifGps?.date ?? new Date().toISOString(),
+        date: formatDate(entry.exifGps?.date),
         id: entry.id,
       })),
     );
@@ -307,6 +325,16 @@ function blobToBase64(blob) {
     reader.onerror = reject;
     reader.readAsDataURL(blob);
   });
+}
+
+function formatDate(d) {
+  try {
+    const date = new Date(d || Date.now());
+    if (isNaN(date.getTime())) return new Date().toISOString().split('T')[0];
+    return date.toISOString().split('T')[0];
+  } catch (e) {
+    return new Date().toISOString().split('T')[0];
+  }
 }
 
 function sleep(ms) {

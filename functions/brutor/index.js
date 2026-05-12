@@ -59,6 +59,10 @@ async function processContribution(photos, token) {
     const filename = `${id}.jpg`;
     
     // Date validation
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(photo.date)) {
+      throw new Error(`Invalid date format for photo ${id}. Expected yyyy-mm-dd.`);
+    }
+
     const photoDate = new Date(photo.date);
     const now = new Date();
     const sevenDaysAgo = new Date();
