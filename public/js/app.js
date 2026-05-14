@@ -6,6 +6,7 @@ let markers = {};
 let currentFile = null;
 let userLocation = { lat: 52.52, lon: 13.405 }; // Default Berlin
 let isLocationShared = false;
+let shelfIdToGroup = {}; // Map for fast lookup
 
 // Load cached location if available
 try {
@@ -174,7 +175,16 @@ async function loadData() {
     }
   });
 
-  bookshelves = activeShelves;
+  // Cluster bookshelves within 50m
+  bookshelves = clusterBookshelves(activeShelves);
+
+  // Build lookup map for fast access
+  shelfIdToGroup = {};
+  bookshelves.forEach((group) => {
+    group.memberIds.forEach((id) => {
+      shelfIdToGroup[id] = group;
+    });
+  });
 
   // Filter books from removed bookshelves
   booksData = allBooks
@@ -186,6 +196,59 @@ async function loadData() {
   }
 
   isDataLoaded = true;
+}
+
+function clusterBookshelves(shelves) {
+  if (shelves.length === 0) return [];
+
+  // Sort by latitude to allow early exit in the search loop
+  const sorted = [...shelves].sort((a, b) => a.lat - b.lat);
+  const groups = [];
+  const processed = new Set();
+  const latThreshold = 0.0006; // Roughly 65m, slightly more than 50m to be safe
+
+  for (let i = 0; i < sorted.length; i++) {
+    const s1 = sorted[i];
+    if (processed.has(s1.id)) continue;
+
+    const group = {
+      id: s1.id,
+      name: s1.name || "",
+      address: s1.address || s1.description || "",
+      lat: s1.lat,
+      lon: s1.lon,
+      memberIds: [String(s1.id)],
+      members: [s1],
+    };
+    processed.add(s1.id);
+
+    // Search only nearby bookshelves in the sorted list
+    for (let j = i + 1; j < sorted.length; j++) {
+      const s2 = sorted[j];
+
+      // Since the list is sorted by lat, we can stop as soon as lat difference > threshold
+      if (s2.lat - s1.lat > latThreshold) break;
+
+      if (processed.has(s2.id)) continue;
+
+      // Now check the actual spherical distance
+      const dist = getDistance(s1.lat, s1.lon, s2.lat, s2.lon);
+      if (dist <= 0.05) {
+        // 50 meters
+        group.memberIds.push(String(s2.id));
+        group.members.push(s2);
+        processed.add(s2.id);
+
+        // Update name and address with longest ones
+        const s2Name = s2.name || "";
+        const s2Address = s2.address || s2.description || "";
+        if (s2Name.length > group.name.length) group.name = s2Name;
+        if (s2Address.length > group.address.length) group.address = s2Address;
+      }
+    }
+    groups.push(group);
+  }
+  return groups;
 }
 
 function getDistance(lat1, lon1, lat2, lon2) {
@@ -205,9 +268,15 @@ function getDistance(lat1, lon1, lat2, lon2) {
 function getBookWeight(book, shelfDistances, now) {
   const bookDate = new Date(book.date || "2000-01-01");
   const diffDays = (now - bookDate) / (1000 * 60 * 60 * 24);
-  const distance = isLocationShared
-    ? shelfDistances[book.bookshelfId] || 1000
-    : 0;
+
+  // Find the group distance for this book's shelfId
+  let distance = 0;
+  if (isLocationShared) {
+    const shelfId = String(book.bookshelfId);
+    const group = shelfIdToGroup[shelfId];
+    distance = group ? shelfDistances[group.id] || 1000 : 1000;
+  }
+
   return diffDays + distance;
 }
 
@@ -232,13 +301,15 @@ function showRecentBooks() {
     const relevantShelfIds = new Set(
       booksData.map((b) => String(b.bookshelfId)),
     );
-    bookshelves.forEach((s) => {
-      if (relevantShelfIds.has(String(s.id))) {
-        shelfDistances[s.id] = getDistance(
+    bookshelves.forEach((group) => {
+      // Check if any member of this group has books
+      const hasBooks = group.memberIds.some((id) => relevantShelfIds.has(id));
+      if (hasBooks) {
+        shelfDistances[group.id] = getDistance(
           userLocation.lat,
           userLocation.lon,
-          s.lat,
-          s.lon,
+          group.lat,
+          group.lon,
         );
       }
     });
@@ -396,9 +467,9 @@ function populateMap(shelvesToUse = bookshelves) {
 }
 
 // Render Bookshelf details on the sidebar
-function showBookshelfDetails(shelf, updateUrl = true) {
+function showBookshelfDetails(shelf, updateUrl = true, requestedId = null) {
   if (updateUrl) {
-    window.location.hash = `/shelf/${shelf.id}`;
+    window.location.hash = `/shelf/${requestedId || shelf.id}`;
   }
 
   shelfName.textContent = shelf.name;
@@ -415,14 +486,16 @@ function showBookshelfDetails(shelf, updateUrl = true) {
     }
   }
 
-  // Find books for this shelf
-  const targetId = String(shelf.id).toLowerCase().trim();
-  const allBooks = booksData.filter(
-    (book) => String(book.bookshelfId).toLowerCase().trim() === targetId,
+  // Find books for all shelves in this group
+  const memberIds = new Set(
+    shelf.memberIds.map((id) => String(id).toLowerCase().trim()),
+  );
+  const allBooks = booksData.filter((book) =>
+    memberIds.has(String(book.bookshelfId).toLowerCase().trim()),
   );
 
   console.log(
-    `Filtering for shelf ${targetId}: found ${allBooks.length} books.`,
+    `Filtering for shelf group ${shelf.id}: found ${allBooks.length} books.`,
   );
 
   // Sort by newest first
@@ -477,11 +550,9 @@ function renderBooks(
     let shelfLinkHtml = "";
 
     if (showShelfLink) {
-      const shelf = bookshelves.find(
-        (s) => String(s.id) === String(book.bookshelfId),
-      );
+      const shelf = shelfIdToGroup[String(book.bookshelfId)];
       if (shelf) {
-        shelfLinkHtml = `<span class="book-shelf-link" data-shelf-id="${shelf.id}">${shelf.name}</span> • `;
+        shelfLinkHtml = `<span class="book-shelf-link" data-shelf-id="${book.bookshelfId}">${shelf.name}</span> • `;
       }
     }
 
@@ -545,13 +616,14 @@ async function handleSearch(query, updateUrl = true) {
   const shelfDistances = {};
   if (isLocationShared) {
     const resultShelfIds = new Set(results.map((b) => String(b.bookshelfId)));
-    bookshelves.forEach((s) => {
-      if (resultShelfIds.has(String(s.id))) {
-        shelfDistances[s.id] = getDistance(
+    bookshelves.forEach((group) => {
+      const hasResults = group.memberIds.some((id) => resultShelfIds.has(id));
+      if (hasResults) {
+        shelfDistances[group.id] = getDistance(
           userLocation.lat,
           userLocation.lon,
-          s.lat,
-          s.lon,
+          group.lat,
+          group.lon,
         );
       }
     });
@@ -657,11 +729,13 @@ async function handleRouting() {
     const shelfId = hash.startsWith("#/shelf/") ? parts[2] : parts[3];
 
     if (shelfId) {
-      const shelf = bookshelves.find(
-        (s) => String(s.id).toLowerCase() === String(shelfId).toLowerCase(),
+      const shelf = bookshelves.find((g) =>
+        g.memberIds.some(
+          (id) => String(id).toLowerCase() === String(shelfId).toLowerCase(),
+        ),
       );
       if (shelf) {
-        console.log("Found shelf:", shelf.name);
+        console.log("Found shelf group:", shelf.name);
         document.body.classList.add("is-shelf-view");
         mapSection.classList.remove("hidden");
         mapViewBtn.classList.add("hidden");
@@ -674,7 +748,7 @@ async function handleRouting() {
             map.setView([shelf.lat, shelf.lon], 16);
           }
         }, 50);
-        showBookshelfDetails(shelf, false);
+        showBookshelfDetails(shelf, false, shelfId);
         setTimeout(() => lucide.createIcons(), 50);
         return;
       }
