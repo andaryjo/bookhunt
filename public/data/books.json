@@ -888,12 +888,6 @@
     "date": "2026-04-21"
   },
   {
-    "title": "Shanna",
-    "author": "Kathleen E. Woodiwiss",
-    "bookshelfId": "vpksrf",
-    "date": "2026-04-21"
-  },
-  {
     "title": "Bis der Tag erwacht",
     "author": "unknown",
     "bookshelfId": "vpksrf",
@@ -902,12 +896,6 @@
   {
     "title": "Alhambra",
     "author": "Kirsten Boie",
-    "bookshelfId": "vpksrf",
-    "date": "2026-04-21"
-  },
-  {
-    "title": "Die Clique",
-    "author": "Mary McCarthy",
     "bookshelfId": "vpksrf",
     "date": "2026-04-21"
   },
@@ -938,12 +926,6 @@
   {
     "title": "Die Draisne",
     "author": "Carl-Henning Wijkmark",
-    "bookshelfId": "vpksrf",
-    "date": "2026-04-21"
-  },
-  {
-    "title": "Hundejahre",
-    "author": "Günter Grass",
     "bookshelfId": "vpksrf",
     "date": "2026-04-21"
   },
@@ -984,32 +966,14 @@
     "date": "2026-04-21"
   },
   {
-    "title": "Hans Siebe",
-    "author": "unknown",
-    "bookshelfId": "vpksrf",
-    "date": "2026-04-21"
-  },
-  {
     "title": "Easy und Scheer",
     "author": "Gerd Fuchs",
     "bookshelfId": "vpksrf",
     "date": "2026-04-21"
   },
   {
-    "title": "Rico muss sich verstecken",
-    "author": "unknown",
-    "bookshelfId": "vpksrf",
-    "date": "2026-04-21"
-  },
-  {
     "title": "Fette Fische",
     "author": "unknown",
-    "bookshelfId": "vpksrf",
-    "date": "2026-04-21"
-  },
-  {
-    "title": "Das Beste von allem",
-    "author": "Rona Jaffe",
     "bookshelfId": "vpksrf",
     "date": "2026-04-21"
   },
@@ -48730,5 +48694,2267 @@
     "author": "Alice Munro",
     "date": "2026-05-13",
     "bookshelfId": "ahpzal"
+  },
+  {
+    "title": "Shanna",
+    "author": "Kathleen E. Woodiwiss",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Die Clique",
+    "author": "Mary McCarthy",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Hundejahre",
+    "author": "Günter Grass",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Hans Siebe",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Rico muss sich verstecken",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Das Beste von allem",
+    "author": "Rona Jaffe",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Gutenacht Geschichte",
+    "author": "Sabine Skudlik",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Toasts und Snacks für Gäste",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Leben heißt langsam geboren werden",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Kettenberger An Gottes Barmherzigkeit niemals verzweifeln",
+    "author": "Hans Jürgen Rau",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "The South African Illustrated Cookbook",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Gehirnjogging für kluge Köpfe 8",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Dichter über Dichter Literarische Porträts",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Am Kongo herrschen die Toten",
+    "author": "Arthur-Heinz Lehmann",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Ansichten eines Clowns",
+    "author": "Heinrich Böll",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Volle Deckung",
+    "author": "Michael Moore",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "BDW",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Der Schrei aus der Kälte",
+    "author": "Jack Higgins",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Madame Bovary",
+    "author": "Gustave Flaubert",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Schwarze Messen",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Komm mit zu den Pferden",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Quo Vadis",
+    "author": "Henryk Sienkiewicz",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Affaire Nina B.",
+    "author": "Johannes Mario Simmel",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Een mooie jonge vrouw",
+    "author": "Tommy Wieringa",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Keine Kinder sind auch keine Lösung",
+    "author": "Nina Katrin Strabner",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Jimmy Hoffa",
+    "author": "Ken Englade",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Jimmy Carter",
+    "author": "Howard Norton & Bob Slosser",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Der Kardinal des Satans",
+    "author": "Hannes Wernheim",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "A Moveable Feast",
+    "author": "Ernest Hemingway",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Von Richard Wagner zu Bertolt Brecht",
+    "author": "Claude David",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Die Glut",
+    "author": "Sándor Márai",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Mein Pferd läuft mit dem Wind",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Nacht über der Prärie",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Merci Frankreich",
+    "author": "G. Kaposi",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Der Unfallort hat sich bereits entfernt",
+    "author": "Wilfried Ahrens",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Wer schreibt auf den Kater?",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Vegetarische Weihnachten",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Spiel mit dem Phantom",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Verfassung des Freistaats Thüringen",
+    "author": "Nikolai Liessov",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Der Strick um den Hals",
+    "author": "Michael Carter",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Das Elixier des Lebens",
+    "author": "Leo Buscaglia",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Was protestantisch ist",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Das Ruhekissen",
+    "author": "Christiane Rochefort",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Das göttliche Leben der Vanilla Bean",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Das Echo der Erinnerung",
+    "author": "Richard Powers",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Gott ist auch zwischen den Töpfen",
+    "author": "Teresa von Avila",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "unknown",
+    "author": "Alfred Andersch",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Lebendiger Bambus",
+    "author": "Pearl S. Buck",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Die dunkle Arena",
+    "author": "Mario Puzo",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Churchill",
+    "author": "Roy Jenkins",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Die deutsche Rechtschreibung",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Grammatik",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Werke 4",
+    "author": "Goethe",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Werke 5",
+    "author": "Goethe",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Leuchtendes Land",
+    "author": "Patricia Shaw",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Matabele",
+    "author": "Thomas Marriott",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Kassandra",
+    "author": "Christa Wolf",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Sekt am Vormittag",
+    "author": "Othmar Franz Lang",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Im Zeichen Kains",
+    "author": "John Saul",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Noreas Geschichte",
+    "author": "Marianne Fredriksson",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Billy",
+    "author": "Whitley Strieber",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Die schönste Frau der Welt",
+    "author": "Tony Parsons",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Starke Gäste",
+    "author": "Ramsey Campbell",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Von Morgen bis Mitternacht",
+    "author": "Pearl S. Buck",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Die Geisterhunde",
+    "author": "Stewart",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Toskana Blues",
+    "author": "Petra Gahabka",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Moewig",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Wer gruselt sich?",
+    "author": "Westhoff",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Das Tribunal",
+    "author": "Burk",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Die Meister des Bösen",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Nur Verrückte",
+    "author": "G. Guareschi",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Die Korrekturen",
+    "author": "Jonathan Franzen",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Schweres Beben",
+    "author": "Jonathan Franzen",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Die 27ste Stadt",
+    "author": "Jonathan Franzen",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Fast im Jenseits",
+    "author": "David Eagleman",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Mikrowellenküche",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Vom Himmel hoch",
+    "author": "Maeve Binchy",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Die Bibel",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Eine Kindheit",
+    "author": "Carossa",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Pearl",
+    "author": "Pearl S. Buck",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Reader's Digest Auswahlbücher",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Die Mücke im Bernstein",
+    "author": "E.G. Stahl",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Wo die Berge jung sind",
+    "author": "Suyin",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Mit der Liebe spielt man nicht",
+    "author": "Marie Louise Fischer",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Bis zur bitteren Neige",
+    "author": "J.M. Simmel",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Das Wunschhüten",
+    "author": "Horst Wolfram Geissler",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Jugend ohne Gott",
+    "author": "Ödön von Horváth",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Tiefer Süden",
+    "author": "Bristow",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Klarer Kurs in wirrer Zeit",
+    "author": "Karl Weber",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Die toten Augen von London",
+    "author": "Edgar Wallace",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Brain Building",
+    "author": "Marilyn vos Savant",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Ein grüner Stein am Meeresgrund",
+    "author": "E.G. Stahl",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Das große Mikrowellen-Kochbuch",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Bürgerliches Gesetzbuch",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Handelsgesetzbuch",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Basiswissen Arbeitsrecht",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Wie Götter werden",
+    "author": "Pearl S. Buck",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Die Schlingen des Bösen",
+    "author": "Peter Clement",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Ritter der Gerechtigkeit",
+    "author": "Stefan Andres",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Der Mergendahl",
+    "author": "Charles",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Das herrliche Leben",
+    "author": "Zsolt Harsanyi",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Srilanka: Armut im Paradies?",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Interpol",
+    "author": "Fenton Bresler",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Die Zeit Welt- und Kulturgeschichte",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Paperweight",
+    "author": "Stephen Fry",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Stein und Flöte",
+    "author": "Hans Bemmann",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Die Affaire",
+    "author": "Anna Dillon",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Die Kastellanin",
+    "author": "Iny Lorentz",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Die Meisterdiebe",
+    "author": "Elvin Post",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Veruschka",
+    "author": "Igor von Percha",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Catherine",
+    "author": "Juliette Benzoni",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Fängt ja gut an das Leben",
+    "author": "Daniel Picouly",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Sag mir auf Wiedersehen",
+    "author": "Alexandra Cordes",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Das Erbe von Björndal",
+    "author": "Trygve Gulbranssen",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Zelte in der Wildnis",
+    "author": "Julius E. Lips",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Zur Ehe gezwungen",
+    "author": "Leila",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Ein Stall voller Pferde",
+    "author": "Melrose",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Der Schlüssel zu Rebecca",
+    "author": "Ken Follett",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Die Draisine",
+    "author": "Carl-Henning Wijkmark",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Welt Lexikon 1",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Das Brot der frühen Jahre",
+    "author": "Heinrich Böll",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Harald schwört auf sein Pferd",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Kleines Glück für Carolina",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Von Supereltern kannst du träumen",
+    "author": "Ingrid Kötter",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Die Dschungel Bücher",
+    "author": "Rudyard Kipling",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Die Taler von der Brunnenburg",
+    "author": "Max Hansch",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Tom Swift startet den Silbervogel",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Scherlocks erster Fall",
+    "author": "Reinhard",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Urmels toller Traum",
+    "author": "Max Kruse",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Robinson Crusoe",
+    "author": "Daniel Defoe",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Basiswissen Grundschule - Englisch",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Backen mit Kindern",
+    "author": "Dr. Oetker",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Harald schwört auf sein Pferd",
+    "author": "Werner Siebold",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Von Supertern kannst du träumen",
+    "author": "Ingrid Kötter",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Die Dschungelbücher",
+    "author": "Rudyard Kipling",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Die Taler von der Brunnenburg",
+    "author": "Max Hamsch",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Tom Swift startet den Silbervogel",
+    "author": "Max Hamsch",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Sherlocks erster Fall",
+    "author": "Reinhard",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Englisch",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Back to Paradise",
+    "author": "Simone Elkeles",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Eine Hand voller Sterne",
+    "author": "Rafik Schami",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Mexico",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Teneriffa",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Der schwarze Orden",
+    "author": "Colin Forbes",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Lebensqualität in der Bundesrepublik",
+    "author": "W. Zapf",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Der Schatz der McDougals",
+    "author": "Seymour",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Strafrechtsfälle",
+    "author": "Diethelm Klenapfel",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Peter Mayle",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Mænd der hader kvinder",
+    "author": "Stieg Larsson",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Vejen til Jerusalem",
+    "author": "Jan Guillou",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Das Geheimnis von Bahnsteig 13",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Lord Sherry",
+    "author": "Georgette Heyer",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Nennt mich nicht Ismael!",
+    "author": "Michael Gerard Bauer",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Ein alter Traum von Liebe",
+    "author": "Nuala O'Faolain",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Elisabeth",
+    "author": "Avril",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Der Start",
+    "author": "Joshua Daniel",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "A Widow for One Year",
+    "author": "John Irving",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Ein allzu schönes Mädchen",
+    "author": "Jan Seghers",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Mehta",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Eislicht",
+    "author": "Gunnar Herrmann",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Feuer und Asche",
+    "author": "Elizabeth Gage",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Mose Sohn der Verheissung",
+    "author": "Wolfram zu Mondfeld",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Das Geständnis des Mönchs",
+    "author": "Jan van Aken",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Die Nebel von Avalon",
+    "author": "Marion Zimmer Bradley",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Schattenspiel",
+    "author": "Charlotte Link",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Gott ist immer größer",
+    "author": "Norbert Scholl",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Schnell ein Essen für uns zwei",
+    "author": "Rotraud Degner",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Pflücke der",
+    "author": "Margot Bickel",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Der Experte",
+    "author": "Trevanian",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Désirée",
+    "author": "Annemarie Selinko",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Super Tornado",
+    "author": "Julian Jay Savarin",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Königsjagd",
+    "author": "Jack Higgins",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Sommer des Lebens",
+    "author": "J.M. Coetzee",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Be Your Own F*cking Hero",
+    "author": "Tien Onaran",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Von Quotenfrauen und alten weißen Männern",
+    "author": "Esmailzadeh",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Als die Hühner weggeweht wurden",
+    "author": "Peterson",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Einer fehlt am Start",
+    "author": "Totteler",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Das Ponyquartett",
+    "author": "Lese Riese",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Die Kinder aus Bullerbü",
+    "author": "Astrid Lindgren",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Die Teilacher",
+    "author": "Michel Bergmann",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Ich weiß nie, woran ich mit dir bin",
+    "author": "Scott Wetzler",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Der Weg der Kaiserin",
+    "author": "Christine Li",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Was für immer bleibt",
+    "author": "Vanessa Carnevale",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Aufschrei",
+    "author": "Trudi Chase",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Die Miko",
+    "author": "Eric Van Lustbader",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Australia",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Sommertage im Quartier Latin",
+    "author": "Lily Martin",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Weihnachten mit Johann Wolfgang Goethe",
+    "author": "Johann Wolfgang Goethe",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Die wunderbare Welt des Francis Pinkham",
+    "author": "Stephanie Doyon",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Operation Delta",
+    "author": "Dieter Winkler",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Die South Beach Diät das Kochbuch",
+    "author": "Arthur Agatston",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Klymko",
+    "author": "Hryhir Tjutjunnyk",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Der stille Amerikaner",
+    "author": "Graham Greene",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Kristin und die Stute Jo",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Schloss Gripsholm",
+    "author": "Kurt Tucholsky",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Noch einmal meine Mutter sehen",
+    "author": "Zana Muhsen",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Weihnachtsbuch für Kinder",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Virginia und die Puppe",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Kein Kind wie alle anderen",
+    "author": "Torey Hayden",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "July's Leute",
+    "author": "Nadine Gordimer",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Caius ist ein Dummkopf",
+    "author": "Henry Winterfeld",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "All Quiet on the Western Front",
+    "author": "Erich Maria Remarque",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Eine Badewanne voll Glück",
+    "author": "Gertraud Schöpflin",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Die Prophezeiungen von Celestine",
+    "author": "James Redfield",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Mma",
+    "author": "Alexander Gorkow",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Rauch von zwei-acht-drei",
+    "author": "Divine",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Alles easy, oder was",
+    "author": "Christian Bieniek",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Australia & New Zealand",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Jenseits von Mitternacht",
+    "author": "Sidney Sheldon",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Bis ich dich wiedersehe",
+    "author": "Marc Levy",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Kathie",
+    "author": "Romberg",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Tanz, Puppchen, tanz",
+    "author": "Joy Fielding",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Bevor ich sterbe",
+    "author": "Jenny Downham",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Wir sind nur Menschen",
+    "author": "Konsalik",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Das Kopernikus-Syndrom",
+    "author": "Henri Loevenbruck",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Geographie Fischer Kolleg",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Die Sonnenrevolution",
+    "author": "Michel Klostermann",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Kalte Pfoten",
+    "author": "Anna Ringberg",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Jasper sucht Margot",
+    "author": "Gerda van Erkel",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Verschlungene Wege",
+    "author": "Nora Roberts",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "unknown",
+    "author": "Jonathan Kellerman",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Sternschnuppennächte",
+    "author": "Eileen Ramsay",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Die Stunde der Erben",
+    "author": "Charlotte Link",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Feuer und Stein",
+    "author": "Diana Gabaldon",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Roten Tycoon",
+    "author": "Oliver August",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Im Namen der Anklage",
+    "author": "Carla Del Ponte",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Das moderne Tierlexikon",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Nowele",
+    "author": "Henryk Sienkiewicz",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Ole und Okan",
+    "author": "Herbert Günther",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Kerstin muss ins Internat",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Gerd Fuchs - Easy und Scheer",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Feindliche Übernahme",
+    "author": "Michael Ridpath",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Ein Pony im Obstgarten",
+    "author": "Furminger",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Bille und Zottel... der Pferdekoppel Mädchen",
+    "author": "Caspari",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Spione auf Burg Schreckenstein",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Sommer in Lesmona",
+    "author": "Marga Berck",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Unterentwicklung 2",
+    "author": "Rosamunde Pilcher",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Gaby auf der Fohlenweide",
+    "author": "Hormann",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Dicke Luft auf Schreckenstein",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Der Gehilfe des Mumienmachers",
+    "author": "Rosa Naumann",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "unknown",
+    "author": "Barbara Gowdy",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "unknown",
+    "author": "John Grisham",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "unknown",
+    "author": "Ellen G. White",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "In einem Netz aus Lotusblumen",
+    "author": "Lisa See",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Hausmann",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Mission Erde",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Die Tochter der Madame Liang",
+    "author": "Pearl S. Buck",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Drachensaat",
+    "author": "Pearl S. Buck",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Inschallah",
+    "author": "Oriana Fallaci",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Großer Tiger und Christian",
+    "author": "Mühlenweg",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Wesire und Konsuln",
+    "author": "Ivo Andric",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Clochemerle",
+    "author": "Gabriel Chevallier",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Das Mädchen an der Orga Privat",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Alexander oder die Verwandlung der Welt",
+    "author": "Peter Bamm",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Fräulein Smillas Gespür für Schnee",
+    "author": "Peter Hoeg",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Das große Buch der Handarbeiten",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Leopardenjagd",
+    "author": "Siegfried Stander",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Traveler",
+    "author": "John Twelve Hawks",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Weihnachten",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Der Schandfleck von Perchta",
+    "author": "Hans Ernst",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Glück in den Bergen",
+    "author": "Hans Ernst",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Schlaf wohl, mein süßes Kind",
+    "author": "Mary Higgins Clark",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Jenseits von Afrika",
+    "author": "Tania Blixen",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Das Urteil",
+    "author": "John Grisham",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Und ewig singen die Wälder",
+    "author": "Trygve Gulbranssen",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Das Ende einer Affäre",
+    "author": "Graham Greene",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Unter dem Halbmond",
+    "author": "Minai",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Fort nad Athabaska",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Atomgewicht 500",
+    "author": "Hans Dominik",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Die Stumme von Salern",
+    "author": "Ernst",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "G.F. Unger",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Fünf Romane",
+    "author": "Manfred Hausmann",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Erbarmungslose See",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Die Tote von Beverly Hills",
+    "author": "Curt Goetz",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Don Quijote",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "unknown",
+    "author": "Leonid Filatov",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Bekenntnisse eines möblierten Herrn",
+    "author": "Hassenkamp",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Fünfzig des Bergendas",
+    "author": "A.E. Johann",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Der schwarze Jaguar",
+    "author": "Quindt",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Bis der Tag erwacht",
+    "author": "Han Suyin",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Die Grausamkeit der Raben",
+    "author": "Rudolf Hagelstange",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Die Mücke im Bernstein",
+    "author": "E.C. Stahl",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Das Schweibuch der Veronika",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Fremd in fernem Land",
+    "author": "Pearl S. Buck",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Mroskos Talente",
+    "author": "Ronald Reng",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Frau im Zorn",
+    "author": "Pearl S. Buck",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Eine Liebeshe",
+    "author": "Pearl S. Buck",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Der Wind ist mein Kleid",
+    "author": "Han Suyin",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Carneval in Paris",
+    "author": "Goetz",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Mission Eureka",
+    "author": "Gordon McGill",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Wir wandern, wir wandern...",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Der Memoiren dritter Teil",
+    "author": "Curt Goetz",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Die einfache grosse Küche der Brüder Troisgros",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Nadine Vinet",
+    "author": "Barbara Oberst",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Blutspur",
+    "author": "Sidney Sheldon",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Felix und das liebe Geld",
+    "author": "Nikolaus Piper",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Der Einzelgänger",
+    "author": "Sean O Faolain",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Wo die Sonne aufgeht",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Heldere hemel",
+    "author": "Tom Lanoye",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Ätherensommer",
+    "author": "Rudolf Hagelstange",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Zeit für ein Lächeln",
+    "author": "Rudolf Hagelstange",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Die Rosen von Malmaison",
+    "author": "Gaby von Schönthan",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Yoshiwara",
+    "author": "Kirsch",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Meine Zeit der Trauer",
+    "author": "Joyce Carol Oates",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Die Praxis des 01-Minuten-Managers",
+    "author": "Blanchard/Lorber",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Das große Frühlingslesebuch",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Die Gehilfin des Bienenzüchters",
+    "author": "Laurie R. King",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Focus",
+    "author": "Colin Forbes",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Die hohe Schule der Einsamkeit",
+    "author": "Mariela Sartorius",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Bon Appétit",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Morgen ist die Ewigkeit",
+    "author": "Bristow",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "The Star",
+    "author": "Robin Haas",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Die noble Straße",
+    "author": "Bristow",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Der kleine Prinz",
+    "author": "Saint-Exupéry",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Heinrich",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Liebe und was sonst noch zählt",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Elfenbein aus Peking",
+    "author": "Ekert-Rotholz",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Moewig",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Am Ufer des Ruhmes",
+    "author": "Bristow",
+    "date": "2026-05-14",
+    "bookshelfId": "gniuug"
+  },
+  {
+    "title": "Indianer",
+    "author": "H. J. Stammel",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Rauchen",
+    "author": "David Krogh",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Neue Pferde Geschichten",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Beschäftigungs-Buch",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Die Schatzinsel",
+    "author": "Robert Louis Stevenson",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Das große Buch der Hausmittel",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Nefertiti",
+    "author": "Maggie McCune",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Timeline",
+    "author": "Michael Crichton",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Die Schatten von La Rochelle",
+    "author": "Tanja Kinkel",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Im Bruchteil der Sekunde",
+    "author": "David Baldacci",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Die Wanderhure",
+    "author": "Iny Lorentz",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Der Rosie-Effekt",
+    "author": "Graeme Simsion",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Blendende Bilder",
+    "author": "Susan Howatch",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Die Bürde der Wahrheit",
+    "author": "Scott Turow",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Wälder jenseits der Wälder",
+    "author": "A.E. Johann",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Der Salamander",
+    "author": "Morris L. West",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Wer dreimal lügt",
+    "author": "Ulrike Sommer",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Land der Dornen",
+    "author": "Colleen McCullough",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Mein bis in den Tod",
+    "author": "Peter James",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Das Krähenweib",
+    "author": "Corina Bomann",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Saidaklage",
+    "author": "Out El Kouloub",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Onkel Oswald und der Sudan-Käfer",
+    "author": "Roald Dahl",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Hampels Fluchten",
+    "author": "Michael Kumpfmüller",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Frauenstation",
+    "author": "Marie Louise Fischer",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Gottes zweite Garnitur",
+    "author": "Willi Heinrich",
+    "date": "2026-05-14",
+    "bookshelfId": "vpksrf"
+  },
+  {
+    "title": "Verliehene Erde",
+    "author": "James A. Michener",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Königslage",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Mein großes Beschäftigungsbuch",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Finale in der Wüste",
+    "author": "Alfred Coppel",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Mich wundert, dass ich so fröhlich bin",
+    "author": "Johannes Mario Simmel",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Der Diamant des Salomon",
+    "author": "Noah Gordon",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Schwarzer Sonntag",
+    "author": "Thomas Harris",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Das Geheimnis der Pineta",
+    "author": "Fruttero & Lucentini",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Eva Luna",
+    "author": "Isabel Allende",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Von Liebe und Schatten",
+    "author": "Isabel Allende",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Verheißene Erde",
+    "author": "James A. Michener",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Schlangen im Paradies",
+    "author": "Mary Higgins-Clark",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Hawaii",
+    "author": "James A. Michener",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Hurra, wir leben noch",
+    "author": "Johannes Mario Simmel",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Roadtrip mit Guru",
+    "author": "unknown",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Einmal Himmel und retour",
+    "author": "Claudia Keller",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Gott AIDS Afrika",
+    "author": "Bartholomäus Grill",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Jeder Kuss ein Treffer",
+    "author": "Janet Evanovich",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "In Sonoralüft der Mohn",
+    "author": "Robert Wilder",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Die Frau, die sich wandelt",
+    "author": "Pearl S. Buck",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Lockruf der Vergangenheit",
+    "author": "Barbara Wood",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Der Mann, der lächelte",
+    "author": "Henning Mankell",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Ein Sommernachts-Verwirrspiel",
+    "author": "Kate Fenton",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Madame kommt heute später",
+    "author": "Susanna Kubelka",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Giganten",
+    "author": "Edna Ferber",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Solange es Wunder gibt",
+    "author": "Ben Bennett",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Gucci, Glamour, große Liebe",
+    "author": "Carmen Reid",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Die letzte Nacht",
+    "author": "Andrea Fazioli",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Ich hab dir nie einen Rosengarten versprochen",
+    "author": "H. Green",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Reiche Männer küssen besser",
+    "author": "Leonie Bach",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Küss weiter, Liebling",
+    "author": "Rachel Gibson",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Supergute Tage oder Die sonderbare Welt des Christopher Boone",
+    "author": "Mark Haddon",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
+  },
+  {
+    "title": "Der Geist der Liebe",
+    "author": "Cindy Miles",
+    "date": "2026-05-14",
+    "bookshelfId": "zdbzrq"
   }
 ]
