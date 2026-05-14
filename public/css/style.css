@@ -682,10 +682,17 @@ body {
 .leaflet-div-icon {
   background: transparent !important;
   border: none !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: 50% !important;
 }
 
-.leaflet-marker-icon:focus {
+.leaflet-marker-icon:focus,
+.leaflet-marker-icon:active,
+.leaflet-marker-icon:focus-visible {
   outline: none !important;
+  box-shadow: none !important;
 }
 
 .custom-marker {

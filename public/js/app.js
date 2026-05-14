@@ -421,8 +421,8 @@ function populateMap(shelvesToUse = bookshelves) {
   const customIcon = L.divIcon({
     html: iconHtml,
     className: "",
-    iconSize: [30, 30],
-    iconAnchor: [15, 15],
+    iconSize: [32, 32],
+    iconAnchor: [16, 16],
   });
 
   if (markersLayer) {
