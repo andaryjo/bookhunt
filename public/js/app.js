@@ -7,6 +7,14 @@ let currentFile = null;
 let userLocation = { lat: 52.52, lon: 13.405 }; // Default Berlin
 let isLocationShared = false;
 let shelfIdToGroup = {}; // Map for fast lookup
+const BOOKS_PER_PAGE = 200;
+let currentStartPageLimit = BOOKS_PER_PAGE;
+let currentSearchResultsLimit = BOOKS_PER_PAGE;
+let currentShelfDetailsLimit = BOOKS_PER_PAGE;
+let startPageBooks = [];
+let searchResultsBooks = [];
+let shelfDetailsBooks = [];
+let currentShelf = null;
 
 // Load cached location if available
 try {
@@ -41,6 +49,10 @@ const searchInput = document.getElementById("searchInput");
 const mapSearchInput = document.getElementById("mapSearchInput");
 const loadingOverlay = document.getElementById("loadingOverlay");
 const startPageSummary = document.getElementById("startPageSummary");
+const searchLoadMoreContainer = document.getElementById("searchLoadMoreContainer");
+const searchLoadMoreBtn = document.getElementById("searchLoadMoreBtn");
+const shelfLoadMoreContainer = document.getElementById("shelfLoadMoreContainer");
+const shelfLoadMoreBtn = document.getElementById("shelfLoadMoreBtn");
 
 const uploadModal = document.getElementById("uploadModal");
 const openUploadBtn = document.getElementById("openUploadBtn");
@@ -316,16 +328,29 @@ function showRecentBooks() {
   }
 
   // 2. Sort all books by weight
-  const sortedBooks = [...booksData].sort((a, b) => {
+  startPageBooks = [...booksData].sort((a, b) => {
     return (
       getBookWeight(a, shelfDistances, now) -
       getBookWeight(b, shelfDistances, now)
     );
   });
 
-  // 3. Show top 100
-  renderBooks(sortedBooks.slice(0, 100), searchList, true, true);
+  currentStartPageLimit = BOOKS_PER_PAGE;
+  renderStartPage();
+}
+
+function renderStartPage() {
+  if (searchResults) searchResults.classList.remove("hide-title");
+  
+  const booksToShow = startPageBooks.slice(0, currentStartPageLimit);
+  renderBooks(booksToShow, searchList, true, true);
   renderLocationPrompt(searchList);
+
+  if (currentStartPageLimit < startPageBooks.length) {
+    searchLoadMoreContainer.classList.remove("hidden");
+  } else {
+    searchLoadMoreContainer.classList.add("hidden");
+  }
 }
 
 function renderLocationPrompt(container) {
@@ -490,18 +515,31 @@ function showBookshelfDetails(shelf, updateUrl = true, requestedId = null) {
   const memberIds = new Set(
     shelf.memberIds.map((id) => String(id).toLowerCase().trim()),
   );
-  const allBooks = booksData.filter((book) =>
+  shelfDetailsBooks = booksData.filter((book) =>
     memberIds.has(String(book.bookshelfId).toLowerCase().trim()),
   );
 
   console.log(
-    `Filtering for shelf group ${shelf.id}: found ${allBooks.length} books.`,
+    `Filtering for shelf group ${shelf.id}: found ${shelfDetailsBooks.length} books.`,
   );
 
   // Sort by newest first
-  allBooks.sort((a, b) => new Date(b.date) - new Date(a.date));
+  shelfDetailsBooks.sort((a, b) => new Date(b.date) - new Date(a.date));
 
-  renderBooks(allBooks, bookList, false);
+  currentShelf = shelf;
+  currentShelfDetailsLimit = BOOKS_PER_PAGE;
+  renderShelfDetails();
+}
+
+function renderShelfDetails() {
+  const booksToShow = shelfDetailsBooks.slice(0, currentShelfDetailsLimit);
+  renderBooks(booksToShow, bookList, false);
+
+  if (currentShelfDetailsLimit < shelfDetailsBooks.length) {
+    shelfLoadMoreContainer.classList.remove("hidden");
+  } else {
+    shelfLoadMoreContainer.classList.add("hidden");
+  }
 }
 
 function renderShelves(shelves, container, clearContainer = true) {
@@ -638,23 +676,37 @@ async function handleSearch(query, updateUrl = true) {
     );
   });
 
+  searchResultsBooks = results;
+  currentSearchResultsLimit = BOOKS_PER_PAGE;
+  renderSearchResults();
+}
+
+function renderSearchResults() {
   searchList.innerHTML = "";
 
-  if (results.length === 0) {
+  if (searchResultsBooks.length === 0) {
     searchList.innerHTML = `
       <div class="empty-state">
         <p>No results found.</p>
       </div>
     `;
     lucide.createIcons();
+    searchLoadMoreContainer.classList.add("hidden");
     return;
   }
 
   // 3. Render Books
-  renderBooks(results.slice(0, 100), searchList, true, false);
+  const booksToShow = searchResultsBooks.slice(0, currentSearchResultsLimit);
+  renderBooks(booksToShow, searchList, true, false);
 
   // 4. Location prompt always at the end
   renderLocationPrompt(searchList);
+
+  if (currentSearchResultsLimit < searchResultsBooks.length) {
+    searchLoadMoreContainer.classList.remove("hidden");
+  } else {
+    searchLoadMoreContainer.classList.add("hidden");
+  }
 
   lucide.createIcons();
 }
@@ -710,6 +762,22 @@ function setupEventListeners() {
     if (e.key === "Enter") {
       handleMapSearch(e.target.value);
     }
+  });
+
+  searchLoadMoreBtn.addEventListener("click", () => {
+    const hash = window.location.hash;
+    if (hash.startsWith("#/search/")) {
+      currentSearchResultsLimit += BOOKS_PER_PAGE;
+      renderSearchResults();
+    } else {
+      currentStartPageLimit += BOOKS_PER_PAGE;
+      renderStartPage();
+    }
+  });
+
+  shelfLoadMoreBtn.addEventListener("click", () => {
+    currentShelfDetailsLimit += BOOKS_PER_PAGE;
+    renderShelfDetails();
   });
 }
 
