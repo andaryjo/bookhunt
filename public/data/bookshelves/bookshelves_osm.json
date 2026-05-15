@@ -5,8 +5,7 @@
     "address": "Main Road, S42 7JW, North East Derbyshire, United Kingdom",
     "lat": 53.2432021,
     "lon": -1.4992986,
-    "sourceId": "osm_8079995",
-    "city": "North East Derbyshire"
+    "sourceId": "osm_8079995"
   },
   {
     "id": "unfgyg",
@@ -14,8 +13,7 @@
     "address": "Lambs Green, RH12 4RG, Horsham, United Kingdom",
     "lat": 51.1166375,
     "lon": -0.2608024,
-    "sourceId": "osm_21096730",
-    "city": "Horsham"
+    "sourceId": "osm_21096730"
   },
   {
     "id": "vspeop",
@@ -23,8 +21,7 @@
     "address": "CM3 1HG, Chelmsford, United Kingdom",
     "lat": 51.8049242,
     "lon": 0.4140101,
-    "sourceId": "osm_24797253",
-    "city": "Chelmsford"
+    "sourceId": "osm_24797253"
   },
   {
     "id": "logjro",
@@ -32,8 +29,7 @@
     "address": "Hill Road, GL13 9EB, Hill, United Kingdom",
     "lat": 51.653049,
     "lon": -2.5142654,
-    "sourceId": "osm_25345248",
-    "city": "Hill"
+    "sourceId": "osm_25345248"
   },
   {
     "id": "zeoybx",
@@ -41,8 +37,7 @@
     "address": "Hamfield Lane, GL13 9QP, Stroud, United Kingdom",
     "lat": 51.682878,
     "lon": -2.464721,
-    "sourceId": "osm_25345259",
-    "city": "Stroud"
+    "sourceId": "osm_25345259"
   },
   {
     "id": "orzker",
@@ -50,8 +45,7 @@
     "address": "Tibberton Lane, GL2 8EB, Forest of Dean, United Kingdom",
     "lat": 51.8949979,
     "lon": -2.3464945,
-    "sourceId": "osm_25725056",
-    "city": "Forest of Dean"
+    "sourceId": "osm_25725056"
   },
   {
     "id": "npgxqn",
@@ -59,8 +53,7 @@
     "address": "Church Road, WA13 0QQ, Lymm, United Kingdom",
     "lat": 53.3794002,
     "lon": -2.485625,
-    "sourceId": "osm_26166057",
-    "city": "Lymm"
+    "sourceId": "osm_26166057"
   },
   {
     "id": "vmtjzx",
@@ -68,8 +61,7 @@
     "address": "West Street 18, NN7 4QU, Northampton, United Kingdom",
     "lat": 52.2284266,
     "lon": -1.0799432,
-    "sourceId": "osm_26533681",
-    "city": "Northampton"
+    "sourceId": "osm_26533681"
   },
   {
     "id": "inlqqs",
@@ -77,8 +69,7 @@
     "address": "Burnett Road, B74 3EL, Lichfield, United Kingdom",
     "lat": 52.5859431,
     "lon": -1.8720088,
-    "sourceId": "osm_26609758",
-    "city": "Lichfield"
+    "sourceId": "osm_26609758"
   },
   {
     "id": "sxbjwr",
@@ -86,8 +77,7 @@
     "address": "NN12 7NE, Paulerspury, United Kingdom",
     "lat": 52.1026871,
     "lon": -0.954803,
-    "sourceId": "osm_26729870",
-    "city": "Paulerspury"
+    "sourceId": "osm_26729870"
   },
   {
     "id": "dvmjqc",
@@ -95,8 +85,7 @@
     "address": "Charterhouse Square, EC1M 6EQ, London, United Kingdom",
     "lat": 51.5204541,
     "lon": -0.0991614,
-    "sourceId": "osm_26816003",
-    "city": "London"
+    "sourceId": "osm_26816003"
   },
   {
     "id": "jzvvkm",
@@ -104,8 +93,7 @@
     "address": "Gallogate Lane, LS17 0AX, Weeton, United Kingdom",
     "lat": 53.9174511,
     "lon": -1.5657405,
-    "sourceId": "osm_27471708",
-    "city": "Weeton"
+    "sourceId": "osm_27471708"
   },
   {
     "id": "zqacyb",
@@ -113,8 +101,7 @@
     "address": "Alrewas Road, DE13 7HE, Lichfield, United Kingdom",
     "lat": 52.7488196,
     "lon": -1.820812,
-    "sourceId": "osm_27603871",
-    "city": "Lichfield"
+    "sourceId": "osm_27603871"
   },
   {
     "id": "lxkmbw",
@@ -122,8 +109,7 @@
     "address": "The Green, CT4 7JN, Canterbury, United Kingdom",
     "lat": 51.2561602,
     "lon": 1.0157748,
-    "sourceId": "osm_28802646",
-    "city": "Canterbury"
+    "sourceId": "osm_28802646"
   },
   {
     "id": "cdepsx",
@@ -131,8 +117,7 @@
     "address": "Folkestone and Hythe, United Kingdom",
     "lat": 51.1800651,
     "lon": 1.0649334,
-    "sourceId": "osm_29517725",
-    "city": "Folkestone and Hythe"
+    "sourceId": "osm_29517725"
   },
   {
     "id": "hgncvz",
@@ -140,8 +125,7 @@
     "address": "Greenhill Road, BS35 3LZ, Alveston, United Kingdom",
     "lat": 51.5897707,
     "lon": -2.5319253,
-    "sourceId": "osm_29588058",
-    "city": "Alveston"
+    "sourceId": "osm_29588058"
   },
   {
     "id": "nijrfc",
@@ -149,8 +133,7 @@
     "address": "Dover, United Kingdom",
     "lat": 51.2986116,
     "lon": 1.2373471,
-    "sourceId": "osm_29940483",
-    "city": "Dover"
+    "sourceId": "osm_29940483"
   },
   {
     "id": "oracak",
@@ -158,8 +141,7 @@
     "address": "High Street, BS37 9UH, Iron Acton, United Kingdom",
     "lat": 51.5496182,
     "lon": -2.4634418,
-    "sourceId": "osm_30050735",
-    "city": "Iron Acton"
+    "sourceId": "osm_30050735"
   },
   {
     "id": "eberzu",
@@ -167,8 +149,7 @@
     "address": "Pool Lane, BS40 8BP, Bristol, United Kingdom",
     "lat": 51.3598821,
     "lon": -2.6630473,
-    "sourceId": "osm_30948669",
-    "city": "Bristol"
+    "sourceId": "osm_30948669"
   },
   {
     "id": "nzeamv",
@@ -176,8 +157,7 @@
     "address": "Hartfoot Lane, DT2 7PG, Melcombe Bingham, United Kingdom",
     "lat": 50.8200469,
     "lon": -2.341453,
-    "sourceId": "osm_31764105",
-    "city": "Melcombe Bingham"
+    "sourceId": "osm_31764105"
   },
   {
     "id": "vzfefh",
@@ -185,8 +165,7 @@
     "address": "The Green (West) 4, ME14 4DN, Bearsted, United Kingdom",
     "lat": 51.2747866,
     "lon": 0.5795282,
-    "sourceId": "osm_32857505",
-    "city": "Bearsted"
+    "sourceId": "osm_32857505"
   },
   {
     "id": "hmeioq",
@@ -194,8 +173,7 @@
     "address": "Beacon Road, BA1 5QF, Bath, United Kingdom",
     "lat": 51.3945814,
     "lon": -2.359987,
-    "sourceId": "osm_33758122",
-    "city": "Bath"
+    "sourceId": "osm_33758122"
   },
   {
     "id": "getjyn",
@@ -203,8 +181,7 @@
     "address": "GU24 9AG, Surrey Heath, United Kingdom",
     "lat": 51.3231734,
     "lon": -0.6336849,
-    "sourceId": "osm_41816107",
-    "city": "Surrey Heath"
+    "sourceId": "osm_41816107"
   },
   {
     "id": "oxepch",
@@ -212,8 +189,7 @@
     "address": "Nynehead, United Kingdom",
     "lat": 51.0005778,
     "lon": -3.2184505,
-    "sourceId": "osm_49516639",
-    "city": "Nynehead"
+    "sourceId": "osm_49516639"
   },
   {
     "id": "cntmmt",
@@ -221,8 +197,7 @@
     "address": "Uplowman Road, EX16 7DH, Mid Devon, United Kingdom",
     "lat": 50.9273989,
     "lon": -3.4013525,
-    "sourceId": "osm_54847569",
-    "city": "Mid Devon"
+    "sourceId": "osm_54847569"
   },
   {
     "id": "vnimfr",
@@ -230,8 +205,7 @@
     "address": "GU32 3NN, East Hampshire, United Kingdom",
     "lat": 50.9911122,
     "lon": -0.9611921,
-    "sourceId": "osm_59597577",
-    "city": "East Hampshire"
+    "sourceId": "osm_59597577"
   },
   {
     "id": "jbzjwx",
@@ -239,8 +213,7 @@
     "address": "North Road, BS34 8PE, Stoke Gifford, United Kingdom",
     "lat": 51.516021,
     "lon": -2.54489,
-    "sourceId": "osm_60703130",
-    "city": "Stoke Gifford"
+    "sourceId": "osm_60703130"
   },
   {
     "id": "yhxkrw",
@@ -248,8 +221,7 @@
     "address": "SG8 9SE, North Hertfordshire, United Kingdom",
     "lat": 52.0105257,
     "lon": -0.0645166,
-    "sourceId": "osm_81514265",
-    "city": "North Hertfordshire"
+    "sourceId": "osm_81514265"
   },
   {
     "id": "fmkksc",
@@ -257,8 +229,7 @@
     "address": "Ings Lane, DN14 7NJ, Goole, United Kingdom",
     "lat": 53.7931565,
     "lon": -0.8438689,
-    "sourceId": "osm_88544535",
-    "city": "Goole"
+    "sourceId": "osm_88544535"
   },
   {
     "id": "gddkdt",
@@ -266,8 +237,7 @@
     "address": "Station Road, YO25 9NX, Middleton on the Wolds, United Kingdom",
     "lat": 53.9336223,
     "lon": -0.5608903,
-    "sourceId": "osm_88586053",
-    "city": "Middleton on the Wolds"
+    "sourceId": "osm_88586053"
   },
   {
     "id": "avueax",
@@ -275,8 +245,7 @@
     "address": "Watling Street, WS14 0AW, Lichfield, United Kingdom",
     "lat": 52.6564649,
     "lon": -1.8582687,
-    "sourceId": "osm_99133235",
-    "city": "Lichfield"
+    "sourceId": "osm_99133235"
   },
   {
     "id": "srsiax",
@@ -284,8 +253,7 @@
     "address": "WS14 0JT, Lichfield, United Kingdom",
     "lat": 52.6374523,
     "lon": -1.8348262,
-    "sourceId": "osm_99391483",
-    "city": "Lichfield"
+    "sourceId": "osm_99391483"
   },
   {
     "id": "niitim",
@@ -293,8 +261,7 @@
     "address": "High Street 4, SG8 5QN, South Cambridgeshire, United Kingdom",
     "lat": 52.1353169,
     "lon": -0.0098364,
-    "sourceId": "osm_101537209",
-    "city": "South Cambridgeshire"
+    "sourceId": "osm_101537209"
   },
   {
     "id": "sjgkuu",
@@ -302,8 +269,7 @@
     "address": "Basingstoke and Deane, United Kingdom",
     "lat": 51.2381239,
     "lon": -1.0973442,
-    "sourceId": "osm_114408126",
-    "city": "Basingstoke and Deane"
+    "sourceId": "osm_114408126"
   },
   {
     "id": "wykzvm",
@@ -311,8 +277,7 @@
     "address": "Hill Road, NN11 6YB, Daventry, United Kingdom",
     "lat": 52.1655,
     "lon": -1.2990595,
-    "sourceId": "osm_122955947",
-    "city": "Daventry"
+    "sourceId": "osm_122955947"
   },
   {
     "id": "yzktjd",
@@ -320,8 +285,7 @@
     "address": "Downton Road, GL10 2AX, Stroud, United Kingdom",
     "lat": 51.7410615,
     "lon": -2.2842972,
-    "sourceId": "osm_129742682",
-    "city": "Stroud"
+    "sourceId": "osm_129742682"
   },
   {
     "id": "yhifrs",
@@ -329,8 +293,7 @@
     "address": "The Street, GL11 5EE, Stroud, United Kingdom",
     "lat": 51.7128579,
     "lon": -2.3317055,
-    "sourceId": "osm_129772161",
-    "city": "Stroud"
+    "sourceId": "osm_129772161"
   },
   {
     "id": "gowznq",
@@ -338,8 +301,7 @@
     "address": "Alderton Road, SN14 7ND, Littleton Drew, United Kingdom",
     "lat": 51.5209239,
     "lon": -2.2448521,
-    "sourceId": "osm_153401248",
-    "city": "Littleton Drew"
+    "sourceId": "osm_153401248"
   },
   {
     "id": "whaqcs",
@@ -347,8 +309,7 @@
     "address": "Main Street, DT6 4BJ, Bridport, United Kingdom",
     "lat": 50.7240416,
     "lon": -2.7506301,
-    "sourceId": "osm_185553177",
-    "city": "Bridport"
+    "sourceId": "osm_185553177"
   },
   {
     "id": "pgjqgm",
@@ -372,8 +333,7 @@
     "address": "Horton Hill, BS37 6QN, Horton, United Kingdom",
     "lat": 51.5578834,
     "lon": -2.3476576,
-    "sourceId": "osm_246445021",
-    "city": "Horton"
+    "sourceId": "osm_246445021"
   },
   {
     "id": "npwyzn",
@@ -381,8 +341,7 @@
     "address": "Hauptstraße, 68794, Oberhausen-Rheinhausen, Deutschland",
     "lat": 49.2816504,
     "lon": 8.4732945,
-    "sourceId": "osm_246838150",
-    "city": "Oberhausen-Rheinhausen"
+    "sourceId": "osm_246838150"
   },
   {
     "id": "rxahcz",
@@ -390,8 +349,7 @@
     "address": "Höbelweg, 37139, Adelebsen, Deutschland",
     "lat": 51.5831137,
     "lon": 9.8056558,
-    "sourceId": "osm_248350992",
-    "city": "Adelebsen"
+    "sourceId": "osm_248350992"
   },
   {
     "id": "sgtffw",
@@ -399,8 +357,7 @@
     "address": "Oxford, United Kingdom",
     "lat": 51.7636801,
     "lon": -1.2110396,
-    "sourceId": "osm_250872187",
-    "city": "Oxford"
+    "sourceId": "osm_250872187"
   },
   {
     "id": "wiodnb",
@@ -408,8 +365,7 @@
     "address": "South Side, NE20 0RL, Matfen, United Kingdom",
     "lat": 55.0408677,
     "lon": -1.9541998,
-    "sourceId": "osm_250991959",
-    "city": "Matfen"
+    "sourceId": "osm_250991959"
   },
   {
     "id": "oswcib",
@@ -417,8 +373,7 @@
     "address": "YO61 3UY, Raskelf, United Kingdom",
     "lat": 54.1323297,
     "lon": -1.248176,
-    "sourceId": "osm_251001447",
-    "city": "Raskelf"
+    "sourceId": "osm_251001447"
   },
   {
     "id": "wskdks",
@@ -426,8 +381,7 @@
     "address": "Chapel Road, CO5 7BG, Colchester, United Kingdom",
     "lat": 51.8445321,
     "lon": 0.943841,
-    "sourceId": "osm_251227505",
-    "city": "Colchester"
+    "sourceId": "osm_251227505"
   },
   {
     "id": "ugrecg",
@@ -435,8 +389,7 @@
     "address": "Stroud, United Kingdom",
     "lat": 51.7880839,
     "lon": -2.2723072,
-    "sourceId": "osm_252654504",
-    "city": "Stroud"
+    "sourceId": "osm_252654504"
   },
   {
     "id": "ixriqc",
@@ -444,8 +397,7 @@
     "address": "Malvern Hills, United Kingdom",
     "lat": 52.0248392,
     "lon": -2.2389364,
-    "sourceId": "osm_252937922",
-    "city": "Malvern Hills"
+    "sourceId": "osm_252937922"
   },
   {
     "id": "tqhmsm",
@@ -453,8 +405,7 @@
     "address": "Tewkesbury Road, GL18 1EE, Forest of Dean, United Kingdom",
     "lat": 51.9412354,
     "lon": -2.3626367,
-    "sourceId": "osm_252954578",
-    "city": "Forest of Dean"
+    "sourceId": "osm_252954578"
   },
   {
     "id": "caksvn",
@@ -462,8 +413,7 @@
     "address": "Beach's Crescent, RG26 5ER, Basingstoke and Deane, United Kingdom",
     "lat": 51.3314148,
     "lon": -1.1080879,
-    "sourceId": "osm_253250307",
-    "city": "Basingstoke and Deane"
+    "sourceId": "osm_253250307"
   },
   {
     "id": "tbveqc",
@@ -471,8 +421,7 @@
     "address": "Main Road, SN16 0HD, Corston, United Kingdom",
     "lat": 51.5550773,
     "lon": -2.1102505,
-    "sourceId": "osm_253705280",
-    "city": "Corston"
+    "sourceId": "osm_253705280"
   },
   {
     "id": "fxaenk",
@@ -480,8 +429,7 @@
     "address": "Low Thorpe, DL8 4SP, East Witton, United Kingdom",
     "lat": 54.2691679,
     "lon": -1.7795892,
-    "sourceId": "osm_254087409",
-    "city": "East Witton"
+    "sourceId": "osm_254087409"
   },
   {
     "id": "vidttu",
@@ -489,8 +437,7 @@
     "address": "Cotswold, United Kingdom",
     "lat": 51.6033411,
     "lon": -2.1583062,
-    "sourceId": "osm_255006802",
-    "city": "Cotswold"
+    "sourceId": "osm_255006802"
   },
   {
     "id": "yhoxtk",
@@ -498,8 +445,7 @@
     "address": "Rue de la Mairie, 61100, La Chapelle-au-Moine, France",
     "lat": 48.7071876,
     "lon": -0.5829143,
-    "sourceId": "osm_258127539",
-    "city": "La Chapelle-au-Moine"
+    "sourceId": "osm_258127539"
   },
   {
     "id": "beryvl",
@@ -507,8 +453,7 @@
     "address": "Station Road, CT18 8HQ, Folkestone and Hythe, United Kingdom",
     "lat": 51.1276078,
     "lon": 1.0916257,
-    "sourceId": "osm_258566821",
-    "city": "Folkestone and Hythe"
+    "sourceId": "osm_258566821"
   },
   {
     "id": "yezavp",
@@ -516,8 +461,7 @@
     "address": "Waverley, United Kingdom",
     "lat": 51.1468652,
     "lon": -0.6466736,
-    "sourceId": "osm_259019829",
-    "city": "Waverley"
+    "sourceId": "osm_259019829"
   },
   {
     "id": "qqrjez",
@@ -525,8 +469,7 @@
     "address": "Haffkamp, 23730, Schashagen, Deutschland",
     "lat": 54.1082895,
     "lon": 10.89938,
-    "sourceId": "osm_260658480",
-    "city": "Schashagen"
+    "sourceId": "osm_260658480"
   },
   {
     "id": "omowii",
@@ -534,8 +477,7 @@
     "address": "High Street, LN6 9EP, North Kesteven, United Kingdom",
     "lat": 53.1925008,
     "lon": -0.7296642,
-    "sourceId": "osm_262254871",
-    "city": "North Kesteven"
+    "sourceId": "osm_262254871"
   },
   {
     "id": "htjnwi",
@@ -543,8 +485,7 @@
     "address": "Thame Road, OX10 7DA, South Oxfordshire, United Kingdom",
     "lat": 51.6375559,
     "lon": -1.1366883,
-    "sourceId": "osm_262887708",
-    "city": "South Oxfordshire"
+    "sourceId": "osm_262887708"
   },
   {
     "id": "foyqxf",
@@ -560,8 +501,7 @@
     "address": "SN13 8AQ, Ashley, United Kingdom",
     "lat": 51.4154621,
     "lon": -2.2649403,
-    "sourceId": "osm_266670914",
-    "city": "Ashley"
+    "sourceId": "osm_266670914"
   },
   {
     "id": "dtegmf",
@@ -569,8 +509,7 @@
     "address": "Cambridge Road, SG8 5QD, South Cambridgeshire, United Kingdom",
     "lat": 52.1312766,
     "lon": -0.030865,
-    "sourceId": "osm_269236933",
-    "city": "South Cambridgeshire"
+    "sourceId": "osm_269236933"
   },
   {
     "id": "njnhdt",
@@ -578,8 +517,7 @@
     "address": "Avenue de Montchoisi, 1006, Lausanne, Schweiz/Suisse/Svizzera/Svizra",
     "lat": 46.5124603,
     "lon": 6.6339961,
-    "sourceId": "osm_269563033",
-    "city": "Lausanne"
+    "sourceId": "osm_269563033"
   },
   {
     "id": "izjehg",
@@ -587,8 +525,7 @@
     "address": "Aldermaston, United Kingdom",
     "lat": 51.3840194,
     "lon": -1.1530127,
-    "sourceId": "osm_269754620",
-    "city": "Aldermaston"
+    "sourceId": "osm_269754620"
   },
   {
     "id": "rxskcw",
@@ -596,8 +533,7 @@
     "address": "Furzley Lane, SO43 7JJ, Lyndhurst, United Kingdom",
     "lat": 50.9464426,
     "lon": -1.5938652,
-    "sourceId": "osm_269950102",
-    "city": "Lyndhurst"
+    "sourceId": "osm_269950102"
   },
   {
     "id": "mkafql",
@@ -605,8 +541,7 @@
     "address": "35580, Goven, France",
     "lat": 48.0056615,
     "lon": -1.8493607,
-    "sourceId": "osm_270547809",
-    "city": "Goven"
+    "sourceId": "osm_270547809"
   },
   {
     "id": "cfhpfm",
@@ -614,8 +549,7 @@
     "address": "BH20 5QQ, East Lulworth, United Kingdom",
     "lat": 50.639429,
     "lon": -2.1990389,
-    "sourceId": "osm_271536487",
-    "city": "East Lulworth"
+    "sourceId": "osm_271536487"
   },
   {
     "id": "nwnwqs",
@@ -623,8 +557,7 @@
     "address": "Tregynon, United Kingdom",
     "lat": 52.5777892,
     "lon": -3.3331995,
-    "sourceId": "osm_271771295",
-    "city": "Tregynon"
+    "sourceId": "osm_271771295"
   },
   {
     "id": "ikuzrc",
@@ -632,8 +565,7 @@
     "address": "Test Valley, United Kingdom",
     "lat": 51.0243741,
     "lon": -1.466541,
-    "sourceId": "osm_271858175",
-    "city": "Test Valley"
+    "sourceId": "osm_271858175"
   },
   {
     "id": "yxulsq",
@@ -641,8 +573,7 @@
     "address": "54523, Hetzerath, Deutschland",
     "lat": 49.878287,
     "lon": 6.8141391,
-    "sourceId": "osm_280088938",
-    "city": "Hetzerath"
+    "sourceId": "osm_280088938"
   },
   {
     "id": "garfkw",
@@ -650,8 +581,7 @@
     "address": "SE4 1XT, London, United Kingdom",
     "lat": 51.4696987,
     "lon": -0.0283541,
-    "sourceId": "osm_280606829",
-    "city": "London"
+    "sourceId": "osm_280606829"
   },
   {
     "id": "rweovp",
@@ -659,8 +589,7 @@
     "address": "Liddington Hall Drive 4, GU3 3AE, Guildford, United Kingdom",
     "lat": 51.2563561,
     "lon": -0.6076527,
-    "sourceId": "osm_281185624",
-    "city": "Guildford"
+    "sourceId": "osm_281185624"
   },
   {
     "id": "fraeet",
@@ -668,8 +597,7 @@
     "address": "Queens Road, IM9 5EP, Port St Mary, Isle of Man",
     "lat": 54.0713195,
     "lon": -4.7372905,
-    "sourceId": "osm_283514433",
-    "city": "Port St Mary"
+    "sourceId": "osm_283514433"
   },
   {
     "id": "lsmewf",
@@ -677,8 +605,7 @@
     "address": "High Street, IP14 6QL, Mid Suffolk, United Kingdom",
     "lat": 52.2251496,
     "lon": 1.1810998,
-    "sourceId": "osm_286573227",
-    "city": "Mid Suffolk"
+    "sourceId": "osm_286573227"
   },
   {
     "id": "wgurqb",
@@ -686,8 +613,7 @@
     "address": "Ferry Road, NR13 3HA, Broadland, United Kingdom",
     "lat": 52.55831,
     "lon": 1.5503016,
-    "sourceId": "osm_289033996",
-    "city": "Broadland"
+    "sourceId": "osm_289033996"
   },
   {
     "id": "mgvmhz",
@@ -695,8 +621,7 @@
     "address": "Dorfstrasse 59, 8192, Glattfelden, Schweiz/Suisse/Svizzera/Svizra",
     "lat": 47.5591292,
     "lon": 8.5015594,
-    "sourceId": "osm_289958397",
-    "city": "Glattfelden"
+    "sourceId": "osm_289958397"
   },
   {
     "id": "shdmlu",
@@ -704,8 +629,7 @@
     "address": "Hillview Road, CH61 4XH, Irby, United Kingdom",
     "lat": 53.3574354,
     "lon": -3.1233783,
-    "sourceId": "osm_290471852",
-    "city": "Irby"
+    "sourceId": "osm_290471852"
   },
   {
     "id": "kqmqxr",
@@ -713,29 +637,28 @@
     "address": "Main Road, KY11 1HA, North Queensferry, United Kingdom",
     "lat": 56.0100889,
     "lon": -3.3952602,
-    "sourceId": "osm_290854991",
-    "city": "North Queensferry"
+    "sourceId": "osm_290854991"
   },
   {
     "id": "tjhhud",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Winchester",
+    "address": "Kilmeston Road, SO24 0NR, Winchester, United Kingdom",
     "lat": 51.0334112,
     "lon": -1.159688,
     "sourceId": "osm_292413449"
   },
   {
     "id": "umrimk",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Mid Devon",
+    "address": "EX16 7HX, Mid Devon, United Kingdom",
     "lat": 50.9448572,
     "lon": -3.3376562,
     "sourceId": "osm_293535858"
   },
   {
     "id": "bzkadj",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf South Cambridgeshire",
+    "address": "Hauxton Road, CB22 5HH, South Cambridgeshire, United Kingdom",
     "lat": 52.1425742,
     "lon": 0.1192107,
     "sourceId": "osm_294630128"
@@ -743,23 +666,23 @@
   {
     "id": "ktwnmw",
     "name": "Tetbury Book Exchange",
-    "address": null,
+    "address": "Charlton Road, GL8 8DX, Cotswold, United Kingdom",
     "lat": 51.6371345,
     "lon": -2.1644166,
     "sourceId": "osm_294956183"
   },
   {
     "id": "cjzjdj",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Wellington",
+    "address": "West View, TA21 0LE, Wellington, United Kingdom",
     "lat": 50.9842844,
     "lon": -3.3516003,
     "sourceId": "osm_296166501"
   },
   {
     "id": "mvtxic",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Rushcliffe",
+    "address": "NG13 9ES, Rushcliffe, United Kingdom",
     "lat": 52.9469594,
     "lon": -0.8916574,
     "sourceId": "osm_297348016"
@@ -767,15 +690,15 @@
   {
     "id": "qvgmqa",
     "name": "Kings Stanley Library",
-    "address": null,
+    "address": "High Street, GL10 3JF, Stroud, United Kingdom",
     "lat": 51.7286313,
     "lon": -2.2747184,
     "sourceId": "osm_297976959"
   },
   {
     "id": "phctux",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Bristol",
+    "address": "Wood Lane, BS20 7RQ, Bristol, United Kingdom",
     "lat": 51.4615093,
     "lon": -2.7597113,
     "sourceId": "osm_298419125"
@@ -783,7 +706,7 @@
   {
     "id": "jlipws",
     "name": "Book Swap",
-    "address": null,
+    "address": "Castle Field, GU9 7WL, Waverley, United Kingdom",
     "lat": 51.2170146,
     "lon": -0.8036696,
     "sourceId": "osm_298543187"
@@ -791,23 +714,23 @@
   {
     "id": "jyxeep",
     "name": "Worth Book Exchange",
-    "address": null,
+    "address": "The Street, CT14 0DF, Dover, United Kingdom",
     "lat": 51.2566363,
     "lon": 1.3489807,
     "sourceId": "osm_298693471"
   },
   {
     "id": "rwilpn",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Wychavon",
+    "address": "Beckford Road, WR11 7SZ, Wychavon, United Kingdom",
     "lat": 52.0332683,
     "lon": -2.0210277,
     "sourceId": "osm_300923851"
   },
   {
     "id": "ypcvgl",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Llandrindod",
+    "address": "Wellington Road, LD1 5NH, Llandrindod, United Kingdom",
     "lat": 52.2343853,
     "lon": -3.3806651,
     "sourceId": "osm_301034276"
@@ -815,7 +738,7 @@
   {
     "id": "jgalfl",
     "name": "Book Swap",
-    "address": null,
+    "address": "The Street, TN25 5LW, Ashford, United Kingdom",
     "lat": 51.138404,
     "lon": 1.0007884,
     "sourceId": "osm_304964879"
@@ -823,7 +746,7 @@
   {
     "id": "jkoyid",
     "name": "Heddington Book Swap",
-    "address": null,
+    "address": "Church Road, SN11 0QB, Heddington, United Kingdom",
     "lat": 51.3956664,
     "lon": -2.0036398,
     "sourceId": "osm_305160642"
@@ -831,63 +754,63 @@
   {
     "id": "vzhzkt",
     "name": "Book Exchange",
-    "address": null,
+    "address": "The Green, CB24 8QB, South Cambridgeshire, United Kingdom",
     "lat": 52.2916629,
     "lon": 0.0905025,
     "sourceId": "osm_305549765"
   },
   {
     "id": "yyhygm",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Braintree",
+    "address": "Braintree, United Kingdom",
     "lat": 52.0203671,
     "lon": 0.6045692,
     "sourceId": "osm_308928120"
   },
   {
     "id": "jgdhtn",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Compton Bassett",
+    "address": "Briar Leaze, SN11 8RQ, Compton Bassett, United Kingdom",
     "lat": 51.4495153,
     "lon": -1.9478856,
     "sourceId": "osm_309359240"
   },
   {
     "id": "sxnpia",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Bradford Abbas",
+    "address": "Church Road, DT9 6RF, Bradford Abbas, United Kingdom",
     "lat": 50.9266852,
     "lon": -2.5873101,
     "sourceId": "osm_309979118"
   },
   {
     "id": "dwthwr",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Ashfield",
+    "address": "NG17 3JN, Ashfield, United Kingdom",
     "lat": 53.1517054,
     "lon": -1.2812671,
     "sourceId": "osm_310671417"
   },
   {
     "id": "cphzhf",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Guichen",
+    "address": "Rue de Redon 7, 35580, Guichen, France",
     "lat": 47.999041,
     "lon": -1.7757642,
     "sourceId": "osm_310966736"
   },
   {
     "id": "rjaozx",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Neukirchen an der Vöckla",
+    "address": "Kirchenplatz 4, 4872, Neukirchen an der Vöckla, Österreich",
     "lat": 48.0410286,
     "lon": 13.5377727,
     "sourceId": "osm_311147281"
   },
   {
     "id": "uklblu",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Nidderau",
+    "address": "61130, Nidderau, Deutschland",
     "lat": 50.2245733,
     "lon": 8.8771996,
     "sourceId": "osm_313363565"
@@ -895,7 +818,7 @@
   {
     "id": "krfhwe",
     "name": "Bücherbar",
-    "address": null,
+    "address": "Ware Platz, 42489, Wülfrath, Deutschland",
     "lat": 51.282566,
     "lon": 7.0305423,
     "sourceId": "osm_313972654"
@@ -903,7 +826,7 @@
   {
     "id": "irukrv",
     "name": "Earls Colne Telephone Box Book Exchange",
-    "address": null,
+    "address": "Halstead Road, CO6 2LP, Braintree, United Kingdom",
     "lat": 51.9284543,
     "lon": 0.6961082,
     "sourceId": "osm_316984130"
@@ -911,31 +834,31 @@
   {
     "id": "kowxni",
     "name": "Bücherbox",
-    "address": null,
+    "address": "Kirchstraße, 97209, Veitshöchheim, Deutschland",
     "lat": 49.832395,
     "lon": 9.8725482,
     "sourceId": "osm_317950695"
   },
   {
     "id": "apseut",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Eichstätt",
+    "address": "Bahnhofplatz 17, 85072, Eichstätt, Deutschland",
     "lat": 48.8930481,
     "lon": 11.1801056,
     "sourceId": "osm_320126234"
   },
   {
     "id": "skvear",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Bridport",
+    "address": "Bridport, United Kingdom",
     "lat": 50.7309752,
     "lon": -2.7350419,
     "sourceId": "osm_321323227"
   },
   {
     "id": "pyuvhe",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Holmfirth",
+    "address": "The Village, HD9 2QG, Holmfirth, United Kingdom",
     "lat": 53.5492236,
     "lon": -1.8386292,
     "sourceId": "osm_322031494"
@@ -943,23 +866,23 @@
   {
     "id": "lxyqbi",
     "name": "Bücherbox, Malsch am Rathaus",
-    "address": null,
+    "address": "Hauptstraße, 76316, Malsch, Deutschland",
     "lat": 48.8791923,
     "lon": 8.3366901,
     "sourceId": "osm_322585357"
   },
   {
     "id": "embxsw",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Guildford",
+    "address": "GU8 6AH, Guildford, United Kingdom",
     "lat": 51.199696,
     "lon": -0.6629587,
     "sourceId": "osm_325184753"
   },
   {
     "id": "ydliox",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Němčovice",
+    "address": "Němčovice 22, 33824, Němčovice, Česko",
     "lat": 49.8764622,
     "lon": 13.5752535,
     "sourceId": "osm_325200485"
@@ -967,71 +890,71 @@
   {
     "id": "rhlyfv",
     "name": "Public Bookshelf",
-    "address": null,
+    "address": "United Kingdom",
     "lat": 54.1058409,
     "lon": -0.8464858,
     "sourceId": "osm_325621153"
   },
   {
     "id": "xktecc",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Tewkesbury",
+    "address": "Queensmead 26, GL20 7NG, Tewkesbury, United Kingdom",
     "lat": 52.0309571,
     "lon": -2.1004704,
     "sourceId": "osm_325673910"
   },
   {
     "id": "hugmgk",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Wylam",
+    "address": "Laburnum Terrace, NE41 8AH, Wylam, United Kingdom",
     "lat": 54.9763075,
     "lon": -1.8227716,
     "sourceId": "osm_327183395"
   },
   {
     "id": "qjhqho",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Canterbury",
+    "address": "Canterbury, United Kingdom",
     "lat": 51.3062691,
     "lon": 1.1469891,
     "sourceId": "osm_329398805"
   },
   {
     "id": "khqcqc",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Hünxe",
+    "address": "46569, Hünxe, Deutschland",
     "lat": 51.6422896,
     "lon": 6.7657559,
     "sourceId": "osm_330456415"
   },
   {
     "id": "imuuqn",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Wernau (Neckar)",
+    "address": "73249, Wernau (Neckar), Deutschland",
     "lat": 48.6894154,
     "lon": 9.4213992,
     "sourceId": "osm_330560233"
   },
   {
     "id": "zmpvtu",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Stroud",
+    "address": "Pike Lane, GL6 0SB, Stroud, United Kingdom",
     "lat": 51.6926704,
     "lon": -2.233643,
     "sourceId": "osm_332589202"
   },
   {
     "id": "kbsjbx",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Langley",
+    "address": "Cock Hall Lane, SK11 0BY, Langley, United Kingdom",
     "lat": 53.2405502,
     "lon": -2.0902468,
     "sourceId": "osm_336636517"
   },
   {
     "id": "ztosqs",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Stroud",
+    "address": "Stroud, United Kingdom",
     "lat": 51.7256616,
     "lon": -2.1521616,
     "sourceId": "osm_339361373"

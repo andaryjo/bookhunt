@@ -50,7 +50,6 @@ function importOsm() {
       id: generateId(),
       name: name,
       address: null, // Address quality is too bad, skipping
-      city: null,
       lat: lat,
       lon: lon,
       sourceId: sourceId
