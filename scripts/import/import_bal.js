@@ -41,7 +41,7 @@ async function importBal() {
   }
 
   const existingNames = new Set(existingBookshelves.map(b => b.name));
-  
+
   console.log(`Fetching remote data from ${REMOTE_URL}...`);
   try {
     const geojson = await fetchRemoteData(REMOTE_URL);
@@ -73,7 +73,7 @@ async function importBal() {
         address: addressParts.join(', '),
         lat: coords[1],
         lon: coords[0],
-        sourceId: props.id
+        sourceId: "bal_" + props.id
       };
 
       existingBookshelves.push(newItem);

@@ -225,8 +225,6 @@ function clusterBookshelves(shelves) {
 
     const group = {
       id: s1.id,
-      name: s1.name || "",
-      address: s1.address || s1.description || "",
       lat: s1.lat,
       lon: s1.lon,
       memberIds: [String(s1.id)],
@@ -250,14 +248,29 @@ function clusterBookshelves(shelves) {
         group.memberIds.push(String(s2.id));
         group.members.push(s2);
         processed.add(s2.id);
-
-        // Update name and address with longest ones
-        const s2Name = s2.name || "";
-        const s2Address = s2.address || s2.description || "";
-        if (s2Name.length > group.name.length) group.name = s2Name;
-        if (s2Address.length > group.address.length) group.address = s2Address;
       }
     }
+
+    // Pick the best name and address (deprioritize OSM)
+    const nonOsmMembers = group.members.filter(
+      (m) =>
+        !m.sourceId ||
+        typeof m.sourceId !== "string" ||
+        !m.sourceId.startsWith("osm_"),
+    );
+    const preferredMembers =
+      nonOsmMembers.length > 0 ? nonOsmMembers : group.members;
+
+    group.name = "";
+    group.address = "";
+
+    preferredMembers.forEach((m) => {
+      const mName = m.name || "";
+      const mAddress = m.address || m.description || "";
+      if (mName.length > group.name.length) group.name = mName;
+      if (mAddress.length > group.address.length) group.address = mAddress;
+    });
+
     groups.push(group);
   }
   return groups;
