@@ -26,6 +26,8 @@ The data has been made available under following licenses:
   Using the Internet Archive the data for a few hundred of those have been recovered.
 - `public/data/bookshelves/bookshelves_obc.json`: Sourced from [OpenBookCase](https://openbookcase.de/).
   Provided under [ODbL v1.0](https://opendatacommons.org/licenses/odbl/summary/) license.
+- `public/data/bookshelves/bookshelves_osm.json`: Sourced from [OpenStreetMap](https://www.openstreetmap.org) using [overpass turbo](https://overpass-turbo.eu/) (Europe only).
+  Provided under [ODbL v1.0](https://opendatacommons.org/licenses/odbl/summary/) license.
 
 ## Vibecoding
 

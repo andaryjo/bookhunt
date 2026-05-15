@@ -270,9 +270,9 @@ function getDistance(lat1, lon1, lat2, lon2) {
   const a =
     Math.sin(dLat / 2) * Math.sin(dLat / 2) +
     Math.cos((lat1 * Math.PI) / 180) *
-      Math.cos((lat2 * Math.PI) / 180) *
-      Math.sin(dLon / 2) *
-      Math.sin(dLon / 2);
+    Math.cos((lat2 * Math.PI) / 180) *
+    Math.sin(dLon / 2) *
+    Math.sin(dLon / 2);
   const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
   return R * c;
 }
@@ -341,7 +341,7 @@ function showRecentBooks() {
 
 function renderStartPage() {
   if (searchResults) searchResults.classList.remove("hide-title");
-  
+
   const booksToShow = startPageBooks.slice(0, currentStartPageLimit);
   renderBooks(booksToShow, searchList, true, true);
   renderLocationPrompt(searchList);
@@ -493,6 +493,13 @@ function populateMap(shelvesToUse = bookshelves) {
 
 // Render Bookshelf details on the sidebar
 function showBookshelfDetails(shelf, updateUrl = true, requestedId = null) {
+  if (shelf.memberIds && shelf.memberIds.length > 1) {
+    console.log(
+      `Duplicate shelf IDs for "${shelf.name}":`,
+      shelf.memberIds,
+    );
+  }
+
   if (updateUrl) {
     window.location.hash = `/shelf/${requestedId || shelf.id}`;
   }
