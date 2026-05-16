@@ -49,9 +49,13 @@ const searchInput = document.getElementById("searchInput");
 const mapSearchInput = document.getElementById("mapSearchInput");
 const loadingOverlay = document.getElementById("loadingOverlay");
 const startPageSummary = document.getElementById("startPageSummary");
-const searchLoadMoreContainer = document.getElementById("searchLoadMoreContainer");
+const searchLoadMoreContainer = document.getElementById(
+  "searchLoadMoreContainer",
+);
 const searchLoadMoreBtn = document.getElementById("searchLoadMoreBtn");
-const shelfLoadMoreContainer = document.getElementById("shelfLoadMoreContainer");
+const shelfLoadMoreContainer = document.getElementById(
+  "shelfLoadMoreContainer",
+);
 const shelfLoadMoreBtn = document.getElementById("shelfLoadMoreBtn");
 
 const uploadModal = document.getElementById("uploadModal");
@@ -99,7 +103,7 @@ async function init() {
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
       maxZoom: 19,
       attribution:
-        '© OpenStreetMap | <a href="https://github.com/andaryjo/bookhunt#data" target="_blank">Bookshelf data licenses</a>',
+        '© OpenStreetMap | <a href="https://github.com/andaryjo/bookhunt#data" target="_blank">Bookshelf data sources</a>',
     }).addTo(map);
 
     // Defer populating map markers to keep startup fast
@@ -209,8 +213,6 @@ async function loadData() {
 
   isDataLoaded = true;
 }
-
-
 
 function getBookWeight(book, shelfDistances, now) {
   const bookDate = new Date(book.date || "2000-01-01");
@@ -362,7 +364,9 @@ async function checkLocationPermission() {
   try {
     const result = await navigator.permissions.query({ name: "geolocation" });
     if (result.state === "granted") {
-      console.log("Location permission already granted, fetching in background...");
+      console.log(
+        "Location permission already granted, fetching in background...",
+      );
       requestUserLocation(true);
     } else if (result.state === "denied") {
       // If denied, we should probably not pretend it's shared even if we have a cache?
@@ -429,10 +433,7 @@ function populateMap(shelvesToUse = bookshelves) {
 // Render Bookshelf details on the sidebar
 function showBookshelfDetails(shelf, updateUrl = true, requestedId = null) {
   if (shelf.memberIds && shelf.memberIds.length > 1) {
-    console.log(
-      `Duplicate shelf IDs for "${shelf.name}":`,
-      shelf.memberIds,
-    );
+    console.log(`Duplicate shelf IDs for "${shelf.name}":`, shelf.memberIds);
   }
 
   if (updateUrl) {
