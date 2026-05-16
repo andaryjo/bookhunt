@@ -25,6 +25,11 @@ function getDistance(lat1, lon1, lat2, lon2) {
 function clusterBookshelves(shelves) {
   if (shelves.length === 0) return [];
 
+  // Assign original manifest index to maintain priority order
+  shelves.forEach((s, index) => {
+    s._manifestIndex = index;
+  });
+
   // Sort by latitude to allow early exit in the search loop
   const sorted = [...shelves].sort((a, b) => a.lat - b.lat);
   const groups = [];
@@ -60,22 +65,25 @@ function clusterBookshelves(shelves) {
       }
     }
 
-    // Pick the best name and address (deprioritize OSM)
-    const nonOsmMembers = group.members.filter(
-      (m) => !m.sourceId || (typeof m.sourceId === "string" && !m.sourceId.startsWith("osm_")),
-    );
-    const preferredMembers =
-      nonOsmMembers.length > 0 ? nonOsmMembers : group.members;
+    // Sort members back to manifest priority order
+    group.members.sort((a, b) => a._manifestIndex - b._manifestIndex);
 
     group.name = "";
-    group.address = "";
+    for (const m of group.members) {
+      if (m.name && m.name.trim().length > 0) {
+        group.name = m.name;
+        break;
+      }
+    }
 
-    preferredMembers.forEach((m) => {
-      const mName = m.name || "";
+    group.address = "";
+    for (const m of group.members) {
       const mAddress = m.address || m.description || "";
-      if (mName.length > group.name.length) group.name = mName;
-      if (mAddress.length > group.address.length) group.address = mAddress;
-    });
+      if (mAddress.trim().length > 0) {
+        group.address = mAddress;
+        break;
+      }
+    }
 
     groups.push(group);
   }

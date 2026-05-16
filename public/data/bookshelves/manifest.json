@@ -1,8 +1,8 @@
 [
   "bookshelves.json",
+  "bookshelves_obc.json",
   "bookshelves_bal.json",
-  "bookshelves_box.json",
   "bookshelves_clc.json",
-  "bookshelves_osm.json",
-  "bookshelves_obc.json"
+  "bookshelves_box.json",
+  "bookshelves_osm.json"
 ]
