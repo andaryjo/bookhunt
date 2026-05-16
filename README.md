@@ -21,6 +21,8 @@ The data has been made available under following licenses:
 
 - `public/data/bookshelves/bookshelves_bal.json`: Sourced from [www.boite-a-lire.com](https://www.boite-a-lire.com/).
   Provided by [github.com/Binnette/bookcases-boite-a-lire](https://github.com/Binnette/bookcases-boite-a-lire) under [CC BY-NC-SA 2.0](https://creativecommons.org/licenses/by-nc-sa/2.0/) license.
+- `public/data/bookshelves/bookshelves_box.json`: Sourced from [BOKX / urbanlife](https://urbanlife-eg.de/). Provided as [Google My Maps](https://www.google.com/maps/d/viewer?mid=1Dewi_Pu6edOipM_UzJ6fxrmH54g).
+  Provided by [github.com/Binnette/bookcases-boite-a-lire](https://github.com/Binnette/bookcases-boite-a-lire) under [CC BY-NC-SA 2.0](https://creativecommons.org/licenses/by-nc-sa/2.0/) license.
 - `public/data/bookshelves/bookshelves_clc.json`: Sourced from croquelivres.ca (no longer available).
   They originally maintained a list of more than 3000 public bookshelves in Canada.
   Using the Internet Archive the data for a few hundred of those have been recovered.
