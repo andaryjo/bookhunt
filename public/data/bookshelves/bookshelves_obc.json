@@ -21767,8 +21767,7 @@
     "name": "Boekenruilkast",
     "address": "Passendaleplein, Berchem",
     "lat": 51.1918493,
-    "lon": 4.431702638788382,
-    "removed": true
+    "lon": 4.431702638788382
   },
   {
     "id": "ppbrkc",
@@ -21803,8 +21802,7 @@
     "name": "Boekenruilkast Lammekensstraat",
     "address": "Lammekensstraat, Borgerhout",
     "lat": 51.2178587,
-    "lon": 4.4320875,
-    "removed": true
+    "lon": 4.4320875
   },
   {
     "id": "lsmiqt",
@@ -21909,8 +21907,7 @@
     "name": "Wasgelezen boekenkast",
     "address": "Carnotstraat 144, 2060 Antwerpen",
     "lat": 51.21727655,
-    "lon": 4.428275436265508,
-    "removed": true
+    "lon": 4.428275436265508
   },
   {
     "id": "njungn",
@@ -26684,8 +26681,7 @@
     "name": "Ruilboekenkast Kroonstraat",
     "address": "Kroonstraat, Borgerhout",
     "lat": 51.2108096,
-    "lon": 4.4289832,
-    "removed": true
+    "lon": 4.4289832
   },
   {
     "id": "fvfzmg",
