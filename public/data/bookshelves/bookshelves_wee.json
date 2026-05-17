@@ -1,0 +1,2704 @@
+[
+  {
+    "id": "mpflnd",
+    "name": "Bücherschrank Adenau",
+    "address": "Am Markt, 53518 Adenau",
+    "lat": 50.3828569,
+    "lon": 6.9289811
+  },
+  {
+    "id": "kilstj",
+    "name": "Bücherschrank Aldenhoven",
+    "address": "Alte Turmstraße, 52457 Aldenhoven",
+    "lat": 50.8951367,
+    "lon": 6.28486820000001
+  },
+  {
+    "id": "pimyeb",
+    "name": "Bücherschrank Aldenhoven-Siersdorf",
+    "address": "MarktstraßeNähe Gedenkstein52457 Aldenhoven-Siersdorf",
+    "lat": 50.898053,
+    "lon": 6.2246807
+  },
+  {
+    "id": "drwkny",
+    "name": "Bücherschrank Alfhausen",
+    "address": "Hauptstraße 949594 Alfhausen",
+    "lat": 52.4998053,
+    "lon": 7.9521833
+  },
+  {
+    "id": "uvkwzy",
+    "name": "Bücherschrank Alfter-Witterschlick",
+    "address": "Hauptstraße 21053347 Alfter-Witterschlick",
+    "lat": 50.6930538,
+    "lon": 7.0239861
+  },
+  {
+    "id": "qgteym",
+    "name": "Bücherschrank Alpen - Menzelen",
+    "address": "Marktstraße, Ecke Ringstraße, 46519",
+    "lat": 51.6174945,
+    "lon": 6.5293396
+  },
+  {
+    "id": "jupftl",
+    "name": "Bücherschrank Alpen-Veen",
+    "address": "Kirschstraße Höhe Haus Nr. 1446519 Alpen",
+    "lat": 51.6145526,
+    "lon": 6.4560499
+  },
+  {
+    "id": "rqaxky",
+    "name": "Bücherschrank Alsdorf",
+    "address": "Henningsdorfer Platz / Otto Wels Straße, 52477 Alsdorf",
+    "lat": 50.8759132,
+    "lon": 6.1661118
+  },
+  {
+    "id": "aygglx",
+    "name": "Bücherschrank Altenberge",
+    "address": "Kirchstraße 1748341 Altenberge",
+    "lat": 52.0466112,
+    "lon": 7.4672132
+  },
+  {
+    "id": "jtpync",
+    "name": "Bücherschrank Andernach",
+    "address": "Am Stadtgraben, 56626 Andernach",
+    "lat": 50.4389428,
+    "lon": 7.4059036
+  },
+  {
+    "id": "ruwxvk",
+    "name": "Bücherschrank Ankum",
+    "address": "An der Kirchenburg 149577 Ankum",
+    "lat": 52.5425,
+    "lon": 7.86968
+  },
+  {
+    "id": "topwwg",
+    "name": "Bücherschrank Anröchte",
+    "address": "Hauptstr. 94Gemeindezentrum Auferstehungskirche59609 Anröchte",
+    "lat": 51.5573374,
+    "lon": 8.3279972
+  },
+  {
+    "id": "xubwis",
+    "name": "Bücherschrank Argenthal",
+    "address": "Thiergartenstraße Ecke Waldseestraße55469 Argenthal",
+    "lat": 49.9723067,
+    "lon": 7.5966173
+  },
+  {
+    "id": "xgtxhx",
+    "name": "Bücherschrank Arnsberg",
+    "address": "Alter Markt 10, 59821 Arnsberg",
+    "lat": 51.3962312,
+    "lon": 8.06452609999997
+  },
+  {
+    "id": "vpeawa",
+    "name": "Bücherschrank Arzfeld",
+    "address": "Luxemburger Straße 454687 Arzfeld",
+    "lat": 50.08905,
+    "lon": 6.27434
+  },
+  {
+    "id": "fprgdd",
+    "name": "Bücherschrank Bacharach-Henschhausen",
+    "address": "Lindenstraße 255422 Bacharach-Henschhausen",
+    "lat": 50.076745,
+    "lon": 7.7518887
+  },
+  {
+    "id": "xzeaoc",
+    "name": "Bücherschrank Bad Bentheim",
+    "address": "Gildehauser Str. 13A, 48455 Bad Bentheim",
+    "lat": 52.30228,
+    "lon": 7.15008999999998
+  },
+  {
+    "id": "cfmtvs",
+    "name": "Bücherschrank Bad Bentheim - Gildehaus",
+    "address": "Dorfstraße 648455 Bad Bentheim",
+    "lat": 52.2928235,
+    "lon": 7.106529
+  },
+  {
+    "id": "kxniij",
+    "name": "Bücherschrank Bad Berleburg",
+    "address": "Poststraße 51, 57319 Bad Berleburg",
+    "lat": 51.05352,
+    "lon": 8.39363000000003
+  },
+  {
+    "id": "xmvorc",
+    "name": "Bücherschrank Bad Breisig",
+    "address": "Koblenzer Str. 39, 53498 Bad Breisig",
+    "lat": 50.5073121,
+    "lon": 7.30151839999996
+  },
+  {
+    "id": "bzwmot",
+    "name": "Bücherschrank Bad Driburg",
+    "address": "Lange Str., 33014 Bad Driburg",
+    "lat": 51.7365584,
+    "lon": 9.01271270000007
+  },
+  {
+    "id": "zphfkq",
+    "name": "Bücherschrank Bad Essen",
+    "address": "Lindenstraße, 49152 Bad Essen",
+    "lat": 52.3182708,
+    "lon": 8.35473720000005
+  },
+  {
+    "id": "pkgagj",
+    "name": "Bücherschrank Bad Essen – Wittlage",
+    "address": "Lindenstraße 193, 49152 Bad Essen – Wittlage",
+    "lat": 52.3216593,
+    "lon": 8.36814890000005
+  },
+  {
+    "id": "ihjjln",
+    "name": "Bücherschrank Bad Iburg",
+    "address": "Schloßstraße/Ecke große Straße,49186 Bad Iburg",
+    "lat": 52.1578408,
+    "lon": 8.0454203
+  },
+  {
+    "id": "carbjv",
+    "name": "Bücherschrank Bad Münstereifel Arloff/Kirspenich",
+    "address": "Bachstraße 8153902 Bad MünstereifelArloff / Kirspenich",
+    "lat": 50.59517,
+    "lon": 6.79218
+  },
+  {
+    "id": "jtgysf",
+    "name": "Bücherschrank Bad Münstereifel",
+    "address": "Entenmarkt 22, 53902 Bad Münstereifel",
+    "lat": 50.5554649,
+    "lon": 6.7651007
+  },
+  {
+    "id": "vevtte",
+    "name": "Bücherschrank Bad Sobernheim",
+    "address": "Saarplatz, 55566 Bad Sobernheim",
+    "lat": 49.7857614,
+    "lon": 7.6515499
+  },
+  {
+    "id": "tpcjpq",
+    "name": "Bücherschrank Bad Wünnenberg - Fürstenberg",
+    "address": "Pickelstraße / Ecke Forstenburgstraße33181 Bad WünnenbergFürstenberg",
+    "lat": 51.5158304,
+    "lon": 8.7419901
+  },
+  {
+    "id": "crmxtr",
+    "name": "Bücherschrank Badem",
+    "address": "Hubertus Lux Straße 1054657 Badem",
+    "lat": 50.003935,
+    "lon": 6.607792
+  },
+  {
+    "id": "esfvjz",
+    "name": "Bücherschrank Baesweiler",
+    "address": "Begegnungstätte Haus Setterich Emil-Mayrisch-Straße 20, 52499 Baesweiler",
+    "lat": 50.9254277,
+    "lon": 6.2054066
+  },
+  {
+    "id": "xvbgjd",
+    "name": "Bücherschrank Balve",
+    "address": "Hauptstraße 33, 58802 Balve",
+    "lat": 51.3297903,
+    "lon": 7.86503659999994
+  },
+  {
+    "id": "kbnmww",
+    "name": "Bücherschrank Balve-Volkringhausen",
+    "address": "Mendener Straße (Ecke Glashüttenweg)58802 Balve-VolkringhausenSponsoren: Stadt Balve und Westenergie",
+    "lat": 51.3607817,
+    "lon": 7.8733344
+  },
+  {
+    "id": "smggxb",
+    "name": "Bücherschrank Barenburg",
+    "address": "Im Flecken 4, 27245 Barenburg",
+    "lat": 52.616459,
+    "lon": 8.7996453
+  },
+  {
+    "id": "azmkjl",
+    "name": "Bücherschrank Bedburg",
+    "address": "Marktplatz, 50181 Bedburg",
+    "lat": 50.9974576,
+    "lon": 6.57639140000003
+  },
+  {
+    "id": "euihnh",
+    "name": "Bücherschrank Bedburg-Hau",
+    "address": "Klosterplatz 30, 47551 Bedburg-Hau",
+    "lat": 51.76382,
+    "lon": 6.18597620000003
+  },
+  {
+    "id": "wsswwi",
+    "name": "Bücherschrank Bedburg-Kaster",
+    "address": "St. Rochus Straße, 50181 Bedburg - Kaster",
+    "lat": 51.0060316,
+    "lon": 6.550919
+  },
+  {
+    "id": "jwfgyb",
+    "name": "Bücherschrank Bedburg-Kirchtroisdorf",
+    "address": "Heinsberger Str. 5, 50181 Bedburg",
+    "lat": 50.9837151,
+    "lon": 6.5145088
+  },
+  {
+    "id": "npycvp",
+    "name": "Bücherschrank Beelen",
+    "address": "Villers-Escalles-Platz, 48361 Beelen",
+    "lat": 51.9297943,
+    "lon": 8.11794209999994
+  },
+  {
+    "id": "hlqawl",
+    "name": "Bücherschrank Bell",
+    "address": "Hauptstraße 3356745 Bell",
+    "lat": 50.3874,
+    "lon": 7.2343
+  },
+  {
+    "id": "wlurqf",
+    "name": "Bücherschrank Belm",
+    "address": "Marktring, 49191 Belm",
+    "lat": 52.3026709,
+    "lon": 8.12657760000002
+  },
+  {
+    "id": "rrxyrz",
+    "name": "Bücherschrank Belm-Icker",
+    "address": "Lechtinger Str. 84, 49191 Belm-Icker",
+    "lat": 52.3391744,
+    "lon": 8.1140634
+  },
+  {
+    "id": "ftqbfk",
+    "name": "Bücherschrank Beltheim",
+    "address": "Hauptstraße 2856290 Beltheim",
+    "lat": 50.10642,
+    "lon": 7.46136
+  },
+  {
+    "id": "fjmogm",
+    "name": "Bücherschrank Bergheim",
+    "address": "Hauptstraße 55vor dem Citybüro50126 Bergheim",
+    "lat": 50.9535095,
+    "lon": 6.6385618
+  },
+  {
+    "id": "mbpsfo",
+    "name": "Bücherschrank Bergheim",
+    "address": "Zum Gut Neuhof 9, 50129 Bergheim",
+    "lat": 50.9660062,
+    "lon": 6.7500867
+  },
+  {
+    "id": "psqpft",
+    "name": "Bücherschrank Bergheim",
+    "address": "Heppendorfer Straße 1A50127 Bergheim",
+    "lat": 50.92665,
+    "lon": 6.65816
+  },
+  {
+    "id": "uwzjpj",
+    "name": "Bücherschrank Bergheim-Fliesteden",
+    "address": "Jennerstraße 250129 Bergheim-Fliesteden",
+    "lat": 50.9922009,
+    "lon": 6.74143
+  },
+  {
+    "id": "qmqykz",
+    "name": "Bücherschrank Bergheim-Kenten",
+    "address": "Hubertusplatz 7",
+    "lat": 50.949669,
+    "lon": 6.6528818
+  },
+  {
+    "id": "ozjvob",
+    "name": "Bücherschrank Bergheim-Niederaußem",
+    "address": "Paulusstraße 450129 Bergheim-Niederaußem",
+    "lat": 50.9814211,
+    "lon": 6.6760006
+  },
+  {
+    "id": "vwhjao",
+    "name": "Bücherschrank Bergheim-Rheidt",
+    "address": "Düsseldorfer Straße 41a50129 Bergheim-Rheidt",
+    "lat": 51.0084975,
+    "lon": 6.6861195
+  },
+  {
+    "id": "bsoefe",
+    "name": "Bücherschrank Bergheim Oberaußem",
+    "address": "Am Bürgerhaus, Zur Ville 2, 50129 Bergheim Oberaußem",
+    "lat": 50.97395,
+    "lon": 6.6769
+  },
+  {
+    "id": "oqqdvs",
+    "name": "Bücherschrank Bergheim (Quadrath Ichendorf)",
+    "address": "vor dem KulturbahnhofFrenser Straße 1150197 Bergheim",
+    "lat": 50.9381927,
+    "lon": 6.6861379
+  },
+  {
+    "id": "zaanni",
+    "name": "Bücherschrank Bernkastel-Kues",
+    "address": "Friedrichstraßevor der Güterhalle „Alter Bahnhof“54470 Bernkastel-Kues",
+    "lat": 49.9153905,
+    "lon": 7.0691386
+  },
+  {
+    "id": "ybxeot",
+    "name": "Bücherschrank Bernkastel-Kues",
+    "address": "Gestade Höhe Haus Nr. 1254470 Bernkastel-Kues",
+    "lat": 49.9148732,
+    "lon": 7.0745517
+  },
+  {
+    "id": "hoxpwt",
+    "name": "Bücherschrank Bersenbrück",
+    "address": "Markt, 49593 Bersenbrück",
+    "lat": 52.5554279,
+    "lon": 7.94813479999993
+  },
+  {
+    "id": "infcbh",
+    "name": "Bücherschrank Beverungen",
+    "address": "Kellerplatz, 37688 Beverungen",
+    "lat": 51.6640003,
+    "lon": 9.3745724
+  },
+  {
+    "id": "wfyvhd",
+    "name": "Bücherschrank Bissendorf",
+    "address": "Am Thie 9, 49143 Bissendorf",
+    "lat": 52.2351388,
+    "lon": 8.16942870000003
+  },
+  {
+    "id": "nzhpks",
+    "name": "Bücherschrank Bissendorf-Schledehausen",
+    "address": "Am Bredberg 2, 49143 Bissendorf-Schledehausen",
+    "lat": 52.28049,
+    "lon": 8.23897
+  },
+  {
+    "id": "fjpbaq",
+    "name": "Bücherschrank Bitburg-Erdorf",
+    "address": "Schulstraße 854634 Bitburg-Erdorf",
+    "lat": 50.0010649,
+    "lon": 6.5697303
+  },
+  {
+    "id": "jwxuth",
+    "name": "Bücherschrank Blankenrath",
+    "address": "Wallhausener Straße 206865 Blankenrath",
+    "lat": 50.0365821,
+    "lon": 7.2989584
+  },
+  {
+    "id": "mrsrgv",
+    "name": "Bücherschrank Bockenau",
+    "address": "DorfmitteMainzer Straße Ecke Waldböckelheimer Straße55595 Bockenau",
+    "lat": 49.8373634,
+    "lon": 7.68061729999999
+  },
+  {
+    "id": "fkxruk",
+    "name": "Bücherschrank Bohmte",
+    "address": "Bremer Str. 1, 49163 Bohmte",
+    "lat": 52.36116,
+    "lon": 8.30771000000004
+  },
+  {
+    "id": "quubzk",
+    "name": "Bücherschrank Bohmte-Hunteburg",
+    "address": "Dorfplatz an der HauptstraßeHöhe Haus Nr. 4949163 Bohmte-Hunteburg",
+    "lat": 52.4343156,
+    "lon": 8.2697038
+  },
+  {
+    "id": "ftpgwq",
+    "name": "Bücherschrank Boppard",
+    "address": "Karmeliterstr. 2, 56154 Boppard",
+    "lat": 50.232266,
+    "lon": 7.5884284
+  },
+  {
+    "id": "xqgynk",
+    "name": "Bücherschrank Boppard - Am Heidepark",
+    "address": "am Heidepark 656154 Boppard",
+    "lat": 50.213975,
+    "lon": 7.539683
+  },
+  {
+    "id": "ntrjeo",
+    "name": "Bücherschrank Boppard-Weiler",
+    "address": "Unterm Klopp 256154 Boppard-Weiler",
+    "lat": 50.1933182,
+    "lon": 7.6307423
+  },
+  {
+    "id": "wapsrz",
+    "name": "Bücherschrank Borgholzhausen",
+    "address": "Am Uphof 4, 33829 Borgholzhausen",
+    "lat": 52.1022648,
+    "lon": 8.29943800000001
+  },
+  {
+    "id": "oecjtz",
+    "name": "Bücherschrank Brakel",
+    "address": "Am Thy, 33034 Brakel",
+    "lat": 51.7173011,
+    "lon": 9.18130059999999
+  },
+  {
+    "id": "dowgvc",
+    "name": "Bücherschrank Bramsche-Achmer",
+    "address": "Schulstraße 2, 49565 Bramsche - Achmer",
+    "lat": 52.39407,
+    "lon": 7.93056
+  },
+  {
+    "id": "ptrurv",
+    "name": "Bücherschrank Bramsche-Engter",
+    "address": "Im Alten Dorf 21, 49565 Bramsche",
+    "lat": 52.3887249,
+    "lon": 8.06204449999996
+  },
+  {
+    "id": "smffzq",
+    "name": "Bücherschrank Bramsche-Lappenstuhl",
+    "address": "Ernst-Bettermann-Platz, 49565 Bramsche - Lappenstuhl",
+    "lat": 52.4181225,
+    "lon": 8.0601952
+  },
+  {
+    "id": "ykxaun",
+    "name": "Bücherschrank Bretzenheim",
+    "address": "Kirchstraße Ecke Kreuznacher Straße55559 Bretzenheim",
+    "lat": 49.878864,
+    "lon": 7.90093780000007
+  },
+  {
+    "id": "zgqbpi",
+    "name": "Bücherschrank Brüggen",
+    "address": "Klosterstraße, 41379 Brüggen",
+    "lat": 51.2392148,
+    "lon": 6.18626530000006
+  },
+  {
+    "id": "ecejly",
+    "name": "Bücherschrank Brüggen-Bracht",
+    "address": "Marktstraße, 41379 Brüggen",
+    "lat": 51.282728,
+    "lon": 6.19467929999996
+  },
+  {
+    "id": "xvhtub",
+    "name": "Bücherschrank Büchel",
+    "address": "Georgsweiler Straße 456823 Büchel",
+    "lat": 50.172,
+    "lon": 7.0793
+  },
+  {
+    "id": "wmoixm",
+    "name": "Bücherschrank Buchholz",
+    "address": "Zur alten Schule 1,53567 Buchholz im Westerwald",
+    "lat": 50.6896992,
+    "lon": 7.3970677
+  },
+  {
+    "id": "hfrguc",
+    "name": "Bücherschrank Büren",
+    "address": "Burgstraße 47, 33142 Büren",
+    "lat": 51.5510432,
+    "lon": 8.5590535
+  },
+  {
+    "id": "jcfhlo",
+    "name": "Bücherschrank Büren",
+    "address": "Schafsberg Ecke Lange Straße33142 Büren",
+    "lat": 51.6060855,
+    "lon": 8.6558005
+  },
+  {
+    "id": "qdbnbi",
+    "name": "Bücherschrank Dalberg",
+    "address": "Gräfenbachstraße 29, 55595 Dalberg",
+    "lat": 49.8960648,
+    "lon": 7.73296989999994
+  },
+  {
+    "id": "ycxisc",
+    "name": "Bücherschrank Damme",
+    "address": "Große Straße / Steinfelder Straße, 49401 Damme",
+    "lat": 52.5212062,
+    "lon": 8.1964065
+  },
+  {
+    "id": "nnnqie",
+    "name": "Bücherschrank Datteln",
+    "address": "Castroper Str. 33, 45711 Datteln",
+    "lat": 51.6499603,
+    "lon": 7.33906819999993
+  },
+  {
+    "id": "eyfdjo",
+    "name": "Bücherschrank Daun",
+    "address": "Leopoldstraße 5, 54550 Daun",
+    "lat": 50.19818,
+    "lon": 6.82995000000005
+  },
+  {
+    "id": "wjvwld",
+    "name": "Bücherschrank Dissen am Teutoburger Wald",
+    "address": "Am Karlsplatz 1, 49201 Dissen am Teutoburger Wald",
+    "lat": 52.11454,
+    "lon": 8.20448999999996
+  },
+  {
+    "id": "cgxyum",
+    "name": "Bücherschrank Dorsten",
+    "address": "Recklinghäuser Str. 20, 46282 Dorsten",
+    "lat": 51.6601851,
+    "lon": 6.96685869999999
+  },
+  {
+    "id": "psrzlf",
+    "name": "Bücherschrank Dorsten-Lembeck",
+    "address": "Schulstraße 2346268 Dorsten",
+    "lat": 51.7614642,
+    "lon": 7.0010119
+  },
+  {
+    "id": "fjluef",
+    "name": "Bücherschrank Dreis",
+    "address": "Freie Reichsstraße 7654518 Dreis",
+    "lat": 49.94074,
+    "lon": 6.81557
+  },
+  {
+    "id": "ukveiv",
+    "name": "Bücherschrank Drolshagen",
+    "address": "Marktplatz 257489 Drolshagen",
+    "lat": 51.0237299,
+    "lon": 7.7774289
+  },
+  {
+    "id": "bsvfjg",
+    "name": "Bücherschrank Düngenheim",
+    "address": "Hauptstraße 2856761 Düngenheim",
+    "lat": 50.2587449,
+    "lon": 7.1701737
+  },
+  {
+    "id": "pzvqze",
+    "name": "Bücherschrank Düren",
+    "address": "Markt 2, 52349 Düren",
+    "lat": 50.8026204,
+    "lon": 6.48348950000002
+  },
+  {
+    "id": "kmbkzd",
+    "name": "Bücherschrank Eggermühlen",
+    "address": "Bippener Straße 249577 Eggermühlen",
+    "lat": 52.5669387,
+    "lon": 7.815024
+  },
+  {
+    "id": "razvpz",
+    "name": "Bücherschrank Elsdorf-Berrendorf",
+    "address": "Dorfplatz 1950189 Elsdorf",
+    "lat": 50.926182,
+    "lon": 6.587303
+  },
+  {
+    "id": "qmrxwl",
+    "name": "Bücherschrank Elsdorf",
+    "address": "Köln-Aachener Str. 106, 50189 Elsdorf",
+    "lat": 50.9342211,
+    "lon": 6.56752389999997
+  },
+  {
+    "id": "kimhgs",
+    "name": "Bücherschrank Emmelshausen",
+    "address": "am ZAPZentrum am ParkRhein-Mosel-Straße 4556281 Emmelshausen",
+    "lat": 50.1555251,
+    "lon": 7.556562
+  },
+  {
+    "id": "fqsphg",
+    "name": "Bücherschrank Ensch",
+    "address": "Kirchstraße 8, 54340 Ensch",
+    "lat": 49.8262988,
+    "lon": 6.8335913
+  },
+  {
+    "id": "mwcdyu",
+    "name": "Bücherschrank Erftstadt - Bliesheim",
+    "address": "Merowingerstraße 3350374 Erftstadt - Bliesheim",
+    "lat": 50.7816,
+    "lon": 6.8212
+  },
+  {
+    "id": "pvwdkn",
+    "name": "Bücherschrank Erftstadt Erp",
+    "address": "Luxemburger Str. 1450374 Erftstadt",
+    "lat": 50.7685643,
+    "lon": 6.7251402
+  },
+  {
+    "id": "kapetw",
+    "name": "Bücherschrank Erftstadt-Friesheim",
+    "address": "Bruder-Edelfried-Straße 3150374 Erftstadt-Friesheim",
+    "lat": 50.75451,
+    "lon": 6.77807
+  },
+  {
+    "id": "hqwjps",
+    "name": "Bücherschrank Erftstadt Gymnich",
+    "address": "Kunibertusplatz 150374 Erftstadt",
+    "lat": 50.8362576,
+    "lon": 6.74358
+  },
+  {
+    "id": "zhxvsp",
+    "name": "Bücherschrank Erftstadt Lechenich",
+    "address": "Bonner Straße , gegenüber dem Wokingham-Platz, 50374 Erftstadt Lechenich",
+    "lat": 50.799881,
+    "lon": 6.769454
+  },
+  {
+    "id": "ocxrqz",
+    "name": "Bücherschrank Erftstadt-Liblar",
+    "address": "Carl-Schurz-Straße 23, 50374 Erftstadt - Liblar",
+    "lat": 50.81559,
+    "lon": 6.817
+  },
+  {
+    "id": "jrswif",
+    "name": "Bücherschrank Erndtebrück",
+    "address": "Mühlenweg / Siegener Straße, 57399 Erndtebrück",
+    "lat": 50.9889524,
+    "lon": 8.2551956
+  },
+  {
+    "id": "hlfpud",
+    "name": "Bücherschrank Erndtebrück-Ederfeld",
+    "address": "Ederfeldstraße 3A57339 Erndtebrück-Ederfeld",
+    "lat": 50.9880872,
+    "lon": 8.2482437
+  },
+  {
+    "id": "uqqwar",
+    "name": "Bücherschrank Eslohe-Wenholthausen",
+    "address": "Südstrasse 9, 59889 Eslohe-Wenholthausen",
+    "lat": 51.28821,
+    "lon": 8.17927
+  },
+  {
+    "id": "kvirbs",
+    "name": "Bücherschrank Essen-Altendorf",
+    "address": "Surstraße Höhe Haus Nr. 4 auf dem Ehrenzeller Platz, 45143 Essen – Altendorf",
+    "lat": 51.4628931,
+    "lon": 6.97982930000001
+  },
+  {
+    "id": "qczppx",
+    "name": "Bücherschrank Essen-Bergerhausen",
+    "address": "Werrastraße 245136 Essen - Bergerhausen",
+    "lat": 51.4367973,
+    "lon": 7.0330955
+  },
+  {
+    "id": "zslpko",
+    "name": "Bücherschrank Essen-Frintrop",
+    "address": "Frintroper Marktgegenüber Höhenweg Haus Nr. 7545359 Essen-Frintrop",
+    "lat": 51.4815268,
+    "lon": 6.9082085
+  },
+  {
+    "id": "kdlruq",
+    "name": "Bücherschrank Essen-Grugapark",
+    "address": "Grugapark KranichwieseVirchowstraße 167, 45147 Essen",
+    "lat": 51.4317,
+    "lon": 6.99055
+  },
+  {
+    "id": "twaawo",
+    "name": "Bücherschrank Essen-Holsterhausen",
+    "address": "Gemarkenstraße, 45147 Essen - Holsterhausen",
+    "lat": 51.4414673,
+    "lon": 6.9936757
+  },
+  {
+    "id": "tlisnj",
+    "name": "Bücherschrank Essen-Innenstadt",
+    "address": "Viehofer Str. 31, 45127 Essen",
+    "lat": 51.4592513,
+    "lon": 7.01322949999997
+  },
+  {
+    "id": "qqkumr",
+    "name": "Bücherschrank Essen-Karnap",
+    "address": "Karnaper Markt, 45329 Essen - Karnap",
+    "lat": 51.5225057,
+    "lon": 7.0092568
+  },
+  {
+    "id": "wsierv",
+    "name": "Bücherschrank Essen-Kupferdreher Markt",
+    "address": "Kupferdreher Markt45257 Essen",
+    "lat": 51.390914,
+    "lon": 7.08166140000003
+  },
+  {
+    "id": "gnajzp",
+    "name": "Bücherschrank Essen - Kray",
+    "address": "Krayer Straße 21345307 Essen - Kray",
+    "lat": 51.465567,
+    "lon": 7.080197
+  },
+  {
+    "id": "xlpnyo",
+    "name": "Bücherschrank Essen-Leithe",
+    "address": "Hochfeldstraße 15645307 Essen-Leithe",
+    "lat": 51.45719,
+    "lon": 7.0872017
+  },
+  {
+    "id": "lzwfnm",
+    "name": "Bücherschrank Essen-Rüttenscheid",
+    "address": "Rüttenscheider Straße 62, 45130 Essen - Rüttenscheid",
+    "lat": 51.4382226,
+    "lon": 7.0052811
+  },
+  {
+    "id": "zjzgwq",
+    "name": "Bücherschrank Everswinkel",
+    "address": "Hovestraße 5, 48351 Everswinkel",
+    "lat": 51.9270929,
+    "lon": 7.8449884
+  },
+  {
+    "id": "ecruzf",
+    "name": "Bücherschrank Freudenberg-Oberfischbach",
+    "address": "Heuslingstraße 2, 57258 Freudenberg - Oberfischbach",
+    "lat": 50.8716601,
+    "lon": 7.9134898
+  },
+  {
+    "id": "wqcnsb",
+    "name": "Bücherschrank Freren",
+    "address": "Hauptstraße 7949832 Freren",
+    "lat": 52.4781356,
+    "lon": 7.5501477
+  },
+  {
+    "id": "seedwn",
+    "name": "Bücherschrank Fürstenau",
+    "address": "Marktplatz 2, 49584 Fürstenau",
+    "lat": 52.5176137,
+    "lon": 7.6761988
+  },
+  {
+    "id": "ciidxh",
+    "name": "Bücherschrank Geeste-Dalum",
+    "address": "Wietmarscher Damm, 49744 Geeste",
+    "lat": 52.5697398,
+    "lon": 7.20976440000004
+  },
+  {
+    "id": "cniiqv",
+    "name": "Bücherschrank Geldern",
+    "address": "Markt 17, 47608 Geldern",
+    "lat": 51.51666,
+    "lon": 6.32415000000003
+  },
+  {
+    "id": "jffzip",
+    "name": "Bücherschrank Geldern – Hartefeld",
+    "address": "Hartefelder Markt 247608 Geldern – Hartefeld",
+    "lat": 51.49696,
+    "lon": 6.37532
+  },
+  {
+    "id": "setttw",
+    "name": "Bücherschrank Geldern-Lüllingen",
+    "address": "Lüllinger MarktTwistedener Straße EckeAn de Klus47608 Geldern-Lüllingen",
+    "lat": 51.536287,
+    "lon": 6.243223
+  },
+  {
+    "id": "hkcpph",
+    "name": "Bücherschrank Geldern – Pont",
+    "address": "Ponter Dorfstraßeauf der DorfwieseNähe Haus Nr. 2647608 Geldern – Pont",
+    "lat": 51.4913054,
+    "lon": 6.2948776
+  },
+  {
+    "id": "okktnv",
+    "name": "Bücherschrank Gerolstein",
+    "address": "Hauptstraße Ecke Raderstraße54568 Gerolstein",
+    "lat": 50.2222687,
+    "lon": 6.6599003
+  },
+  {
+    "id": "txzzdt",
+    "name": "Bücherschrank Gescher",
+    "address": "Marktplatz 248712 Gescher",
+    "lat": 51.95569,
+    "lon": 7.008649
+  },
+  {
+    "id": "nqkaay",
+    "name": "Bücherschrank Grevenbroich-Hülchrath",
+    "address": "Sebastianusplatz 9, 41516 Grevenbroich - Hülchrath",
+    "lat": 51.1248983,
+    "lon": 6.6605856
+  },
+  {
+    "id": "eattdp",
+    "name": "Bücherschrank Haan",
+    "address": "Neuer Markt, 42781 Haan",
+    "lat": 51.1932798,
+    "lon": 7.01013910000006
+  },
+  {
+    "id": "jrnftn",
+    "name": "Bücherschrank Haan",
+    "address": "Ecke Friedrichstraße/Mittelstraße, 42781 Haan",
+    "lat": 51.1939095,
+    "lon": 7.01282979999996
+  },
+  {
+    "id": "bmxmtj",
+    "name": "Bücherschrank Haan Bahnstraße",
+    "address": "Bahnstraße 13, 42781 Haan",
+    "lat": 51.2167225,
+    "lon": 7.01284110000006
+  },
+  {
+    "id": "zlpskl",
+    "name": "Bücherschrank Hahnenbach",
+    "address": "Hahnenbach Straße 32-4055606 Hahnenbach",
+    "lat": 49.8098135,
+    "lon": 7.4190919
+  },
+  {
+    "id": "ryhuqt",
+    "name": "Bücherschrank Hamminkeln",
+    "address": "Begegnungsstätte MehrhoogZum Schellenhof 2a46499 Hamminkeln",
+    "lat": 51.7386665,
+    "lon": 6.5151265
+  },
+  {
+    "id": "ichqjg",
+    "name": "Bücherschrank Heek",
+    "address": "Marktplatz, 48619 Heek",
+    "lat": 52.1159385,
+    "lon": 7.1114966
+  },
+  {
+    "id": "hirpvr",
+    "name": "Bücherschrank Heiden",
+    "address": "Rathausplatz 1946359 Heiden",
+    "lat": 51.82708,
+    "lon": 6.93448999999998
+  },
+  {
+    "id": "xxdamk",
+    "name": "Bücherschrank Heiligenhaus",
+    "address": "Friedhofstraße / Am Basildonplatz, 42579 Heiligenhaus",
+    "lat": 51.327637,
+    "lon": 6.9690335
+  },
+  {
+    "id": "jvnvbw",
+    "name": "Bücherschrank Heiligenhaus-Unterilp",
+    "address": "Moselstraße / Ilpweg, 42579 Heiligenhaus - Unterilp",
+    "lat": 51.3323824,
+    "lon": 6.9411761
+  },
+  {
+    "id": "uvhxas",
+    "name": "Bücherschrank Heimweiler",
+    "address": "Hauptstraße 39",
+    "lat": 49.756427,
+    "lon": 7.495141
+  },
+  {
+    "id": "uglypv",
+    "name": "Bücherschrank Herdorf",
+    "address": "Hauptstraße 1557562 Herdorf",
+    "lat": 50.7781872,
+    "lon": 7.9488709
+  },
+  {
+    "id": "uclrgb",
+    "name": "Bücherschrank Hermeskeil",
+    "address": "Langer Markt 17Rathaus54411 Hermeskeil",
+    "lat": 49.65533,
+    "lon": 6.94613000000004
+  },
+  {
+    "id": "qkngtj",
+    "name": "Bücherschrank Herscheid",
+    "address": "Am Markt 558849 Herscheid",
+    "lat": 51.17886,
+    "lon": 7.7434
+  },
+  {
+    "id": "vmrdqu",
+    "name": "Bücherschrank Herzebrock Clarholz",
+    "address": "gesponsert von Netzgesellschaft Herzebrock-Clarholz und WestenergieKleikamp 433442 Herzebrock-Clarholz",
+    "lat": 51.8908387,
+    "lon": 8.2341167
+  },
+  {
+    "id": "tybllv",
+    "name": "Bücherschrank Hillesheim",
+    "address": "Graf-Mirbach-Platz54576 Hillesheim",
+    "lat": 50.2902922,
+    "lon": 6.6709754
+  },
+  {
+    "id": "yvlwoy",
+    "name": "Bücherschrank Hochstetten-Dhaun",
+    "address": "Hauptstraße 7, 55606 Hochstetten-Dhaun",
+    "lat": 49.7991669,
+    "lon": 7.51809589999993
+  },
+  {
+    "id": "czjkji",
+    "name": "Bücherschrank Hollnich",
+    "address": "Dorfstraße 28, 56288 Hollnich",
+    "lat": 50.0730421,
+    "lon": 7.4876609
+  },
+  {
+    "id": "yhhygc",
+    "name": "Bücherschrank Holzwickede",
+    "address": "Kirchstraße 2, 59439 Holzwickede",
+    "lat": 51.499228,
+    "lon": 7.61936760000003
+  },
+  {
+    "id": "yzqiie",
+    "name": "Bücherschrank Hopsten",
+    "address": "Hauptstraße 148496 Hopsten",
+    "lat": 52.4176481,
+    "lon": 7.6678694
+  },
+  {
+    "id": "fxsgxd",
+    "name": "Bücherschrank Hopsten-Halverde",
+    "address": "Am Kindergarten 4, 48496 Hopsten-Halverde",
+    "lat": 52.4180153,
+    "lon": 7.6671875
+  },
+  {
+    "id": "gotinx",
+    "name": "Bücherschrank Hopsten-Schale",
+    "address": "Kirchstraße / Poststraße, 48496 Hopsten - Schale",
+    "lat": 52.4459606,
+    "lon": 7.6261576
+  },
+  {
+    "id": "gbpsgj",
+    "name": "Bücherschrank Horn Bad Meinberg",
+    "address": "Heestener Straße, 32805 Horn-Bad MeinbergLeopoldstal",
+    "lat": 51.850267,
+    "lon": 8.9780709
+  },
+  {
+    "id": "gvcimw",
+    "name": "Bücherschrank Hörstel",
+    "address": "Laugestraße 1748477 Hörstel",
+    "lat": 52.297399,
+    "lon": 7.5889
+  },
+  {
+    "id": "efpztr",
+    "name": "Bücherschrank Hörstel-Bevergern",
+    "address": "Im Hagen, 48739 Hörstel-Bevergern",
+    "lat": 52.2738052,
+    "lon": 7.5820555
+  },
+  {
+    "id": "qbhpyn",
+    "name": "Bücherschrank Horstmar",
+    "address": "Bischofsweg 6, 48612 Horstmar",
+    "lat": 52.08212,
+    "lon": 7.30546000000004
+  },
+  {
+    "id": "rukqne",
+    "name": "Bücherschrank Hüde",
+    "address": "Twassweg 449448 Hüde",
+    "lat": 52.4949775,
+    "lon": 8.3561534
+  },
+  {
+    "id": "tparva",
+    "name": "Bücherschrank Hüllhorst",
+    "address": "Löhner Str. 30, 32609 Hüllhorst",
+    "lat": 52.2680881,
+    "lon": 8.67649370000004
+  },
+  {
+    "id": "fcvpte",
+    "name": "Bücherschrank Hürtgenwald-Gey",
+    "address": "Dürener Straße 44, 52393 Hürtgenwald-Gey",
+    "lat": 50.7492575,
+    "lon": 6.4203733
+  },
+  {
+    "id": "dhxnmb",
+    "name": "Bücherschrank Hürth",
+    "address": "Hermülheimer Straße 21750354 Hürth",
+    "lat": 50.8824722222222,
+    "lon": 6.85833333333333
+  },
+  {
+    "id": "bymtge",
+    "name": "Bücherschrank Hürth",
+    "address": "Lindenstr. 150354 Hürth",
+    "lat": 50.870637,
+    "lon": 6.868219
+  },
+  {
+    "id": "ccbmxy",
+    "name": "Bücherschrank Hürth - Efferen",
+    "address": "Kaulardstr. 20-2250354 Hürth - Efferen",
+    "lat": 50.89496,
+    "lon": 6.90206000000001
+  },
+  {
+    "id": "tzmlac",
+    "name": "Bücherschrank Hürth-Fischenich",
+    "address": "Druvendriesch 1450354 Hürth",
+    "lat": 50.855695,
+    "lon": 6.8912988
+  },
+  {
+    "id": "okgkjf",
+    "name": "Bücherschrank Hürth - Kalscheuren",
+    "address": "GronerstraßeHöhe Haus Nr. 6450354 Hürth - Kalscheuren",
+    "lat": 50.8752355,
+    "lon": 6.90612839999994
+  },
+  {
+    "id": "jfoyju",
+    "name": "Bücherschrank Ibbenbüren",
+    "address": "Am Alten Posthof 27, 49477 Ibbenbüren",
+    "lat": 52.27418,
+    "lon": 7.71311000000003
+  },
+  {
+    "id": "hdoapi",
+    "name": "Bücherschrank Inden",
+    "address": "Rathausstraße 1, 52459 Inden",
+    "lat": 50.8462129,
+    "lon": 6.35836770000003
+  },
+  {
+    "id": "pdtrnv",
+    "name": "Bücherschrank Inden-Frenz",
+    "address": "Am Hohen Ufer 252459 Inden-Frenz",
+    "lat": 50.8389479,
+    "lon": 6.3443389
+  },
+  {
+    "id": "zwyylv",
+    "name": "Bücherschrank Isselburg",
+    "address": "Minervastraße 12, 46419 Isselburg",
+    "lat": 51.8345573,
+    "lon": 6.46107230000007
+  },
+  {
+    "id": "yirwxu",
+    "name": "Bücherschrank Issum",
+    "address": "Gelderner Straße 947661 Issum",
+    "lat": 51.5338,
+    "lon": 6.4253
+  },
+  {
+    "id": "dwbizl",
+    "name": "Bücherschrank Issum - Sevelen",
+    "address": "Kirchplatz zwischen Bank und Bäckerei, 47661 Issum - Sevelen",
+    "lat": 51.4933625,
+    "lon": 6.4294848
+  },
+  {
+    "id": "fmlfeb",
+    "name": "Bücherschrank Jüchen",
+    "address": "Adenauerplatz 2041363 Jüchen",
+    "lat": 51.101,
+    "lon": 6.4577
+  },
+  {
+    "id": "pfedum",
+    "name": "Bücherschrank Jüchen (Markt)",
+    "address": "gesponsert von NEW und WestenergieMarkt, 41363 Jüchen",
+    "lat": 51.1002849,
+    "lon": 6.503231
+  },
+  {
+    "id": "qhokgp",
+    "name": "Bücherschrank Kaarst-Vorst",
+    "address": "Sankt-Eustachius-Platz, 41564 Kaarst",
+    "lat": 51.2146522,
+    "lon": 6.57977359999995
+  },
+  {
+    "id": "rxtzvo",
+    "name": "Bücherschrank Kalkar",
+    "address": "Griether Mart 30, 47546 Kalkar, Deutschland",
+    "lat": 51.7868274,
+    "lon": 6.3165896
+  },
+  {
+    "id": "dfhhbx",
+    "name": "Bücherschrank Kalkar (Markt)",
+    "address": "Markt 947546 Kalkar",
+    "lat": 51.7387663,
+    "lon": 6.2919289
+  },
+  {
+    "id": "gmzyow",
+    "name": "Bücherschrank Kalkar-Appeldorn",
+    "address": "Oyweg 33447546 Kalkar-Appeldorn",
+    "lat": 51.72005,
+    "lon": 6.34379
+  },
+  {
+    "id": "hnwjmn",
+    "name": "Bücherschrank Kalkar-Hönnepel",
+    "address": "Rotes Häuschen 4447546 Kalkar-Hönnepel",
+    "lat": 51.7511614,
+    "lon": 6.3530278
+  },
+  {
+    "id": "cnxcbr",
+    "name": "Bücherschrank Kastellaun",
+    "address": "Allee 1, 56288 Kastellaun",
+    "lat": 50.0716732,
+    "lon": 7.44264550000003
+  },
+  {
+    "id": "gpxhah",
+    "name": "Bücherschrank Kehrig",
+    "address": "Polcher Str. 1vor dem Bürgerhaus56729 Kehrig",
+    "lat": 50.2799577,
+    "lon": 7.2227142
+  },
+  {
+    "id": "pldfub",
+    "name": "Bücherschrank Kerken-Aldekerk",
+    "address": "Marktstraße 23, 47647 Kerken",
+    "lat": 51.4384477,
+    "lon": 6.4166449
+  },
+  {
+    "id": "xudfhr",
+    "name": "Bücherschrank Kerken-Nieukerk",
+    "address": "Friedensstr. 147647 Kerken-Nieukerk",
+    "lat": 51.4572026,
+    "lon": 6.3735693
+  },
+  {
+    "id": "gsbzog",
+    "name": "Bücherschrank Kerpen-Sindorf",
+    "address": "Kerpener Straße 36, 50170 Kerpen - Sindorf",
+    "lat": 50.9058722,
+    "lon": 6.674207
+  },
+  {
+    "id": "ptmxug",
+    "name": "Bücherschrank Kettenkamp",
+    "address": "Hauptstraße 11, 49577 Kettenkamp",
+    "lat": 52.5861731,
+    "lon": 7.8298341
+  },
+  {
+    "id": "evngga",
+    "name": "Bücherschrank Kirchberg im Hunsrück",
+    "address": "Hauptstraße 7055481 Kirchberg im Hunsrück",
+    "lat": 49.9418826,
+    "lon": 7.4030622
+  },
+  {
+    "id": "jriune",
+    "name": "Bücherschrank Kirchdorf",
+    "address": "MarktstraßeHöhe Haus Nr. 927245 Kirchdorf",
+    "lat": 52.5968724,
+    "lon": 8.8335721
+  },
+  {
+    "id": "vzdigm",
+    "name": "Bücherschrank Kirchhundem",
+    "address": "Hundemstraße 4957399 Kirchhundem",
+    "lat": 51.0868549,
+    "lon": 8.0912106
+  },
+  {
+    "id": "vdnant",
+    "name": "Bücherschrank Kirchhundem-Brachthausen",
+    "address": "Zum Ellenborn 357399 Kirchhundem-Brachthausen",
+    "lat": 51.0323625,
+    "lon": 8.0872
+  },
+  {
+    "id": "wpleah",
+    "name": "Bücherschrank Kobern-Gondorf",
+    "address": "vor der SchlossberghalleLenningstraße 12-1456330 Kobern-Gondorf",
+    "lat": 50.31057,
+    "lon": 7.45780000000002
+  },
+  {
+    "id": "otkber",
+    "name": "Bücherschrank Königswinter",
+    "address": "Berghausener Straße 107–10956639 Königswinter",
+    "lat": 50.7013106,
+    "lon": 7.3022611
+  },
+  {
+    "id": "lgmkkc",
+    "name": "Bücherschrank Königswinter - Heisterbacherrott",
+    "address": "Oelbergstraße 2953639 Königswinter",
+    "lat": 50.6947539,
+    "lon": 7.2338429
+  },
+  {
+    "id": "xwplqs",
+    "name": "Bücherschrank Königswinter-Niederdollendorf",
+    "address": "Heisterbacher Str. 38, 53639 Königswinter-Niederdollendorf",
+    "lat": 50.6948236,
+    "lon": 7.1819728
+  },
+  {
+    "id": "hpbfny",
+    "name": "Bücherschrank Konz",
+    "address": "Brückenstr. Höhe Hausnummer 31, 54329 Konz",
+    "lat": 49.6973989,
+    "lon": 6.57148899999993
+  },
+  {
+    "id": "ohimwo",
+    "name": "Bücherschrank Kordel",
+    "address": "Bahnhofstr. (im Park am Altbach), 54306 Kordel",
+    "lat": 49.838938,
+    "lon": 6.63403300000004
+  },
+  {
+    "id": "ndkoho",
+    "name": "Bücherschrank Korschenbroich",
+    "address": "Kirchplatz 6, 41352 Korschenbroich",
+    "lat": 51.19022,
+    "lon": 6.51306999999997
+  },
+  {
+    "id": "doiwxa",
+    "name": "Bücherschrank Korschenbroich",
+    "address": "Pankratiusplatz 3, 41352 Korschenbroich(Bücherschrank der NEW und Westenergie)",
+    "lat": 51.1658339,
+    "lon": 6.5754353
+  },
+  {
+    "id": "swvzbs",
+    "name": "Bücherschrank Korschenbroich-Kleinenbroich",
+    "address": "Hochstraße 26, 41352 Korschenbroich",
+    "lat": 51.1929689,
+    "lon": 6.5597454
+  },
+  {
+    "id": "ahvjha",
+    "name": "Bücherschrank Kreuzau",
+    "address": "Hauptstraße 66A52372 Kreuzau",
+    "lat": 50.7466939,
+    "lon": 6.4889719
+  },
+  {
+    "id": "lxzkgu",
+    "name": "Bücherschrank Kreuzau-Stockheim",
+    "address": "An der Tränke 6, 52372 Kreuzau - Stockheim",
+    "lat": 50.7561828,
+    "lon": 6.5273826
+  },
+  {
+    "id": "dfccra",
+    "name": "Bücherschrank Kyllburg",
+    "address": "Malberger Straße 254566 Kyllburg",
+    "lat": 50.0414,
+    "lon": 6.59018
+  },
+  {
+    "id": "zvwytp",
+    "name": "Bücherschrank Laer",
+    "address": "vor dem altem SpeicherMühlenhoek 148366 Laer",
+    "lat": 52.0554423,
+    "lon": 7.3602755
+  },
+  {
+    "id": "ykgldj",
+    "name": "Bücherschrank Langenberg",
+    "address": "Am Schützenplatz33449 Langenberg",
+    "lat": 51.7769713,
+    "lon": 8.31705160000001
+  },
+  {
+    "id": "zqzbgb",
+    "name": "Bücherschrank Langenberg-Benteler",
+    "address": "Liesborner Straße 1033449 Langenberg",
+    "lat": 51.7491762,
+    "lon": 8.327124
+  },
+  {
+    "id": "lbzdjo",
+    "name": "Bücherschrank Langerwehe",
+    "address": "Hauptstraße / Am Töpferbrunnen52379 Langerwehe",
+    "lat": 50.8166019,
+    "lon": 6.3670221
+  },
+  {
+    "id": "jmumfp",
+    "name": "Bücherschrank Grafschaft-Lantershofen",
+    "address": "Graf Blankard Straße 2353501 Grafschaft-Lantershofen",
+    "lat": 50.5552374,
+    "lon": 7.1030603
+  },
+  {
+    "id": "qmkxqw",
+    "name": "Bücherschrank Laudert",
+    "address": "Am Kroppenberg 956291 Laudert",
+    "lat": 50.0776321,
+    "lon": 7.604701
+  },
+  {
+    "id": "oirouu",
+    "name": "Bücherschrank Legden",
+    "address": "Zentrum / Dahliengarten, 48477 Legden",
+    "lat": 52.0419745,
+    "lon": 7.0885151
+  },
+  {
+    "id": "tqxlyp",
+    "name": "Bücherschrank Leiwen",
+    "address": "Klostergartenstraße 48, 54340 Leiwen",
+    "lat": 49.8191834,
+    "lon": 6.8795317
+  },
+  {
+    "id": "zhlsie",
+    "name": "Bücherschrank Lembruch",
+    "address": "Große Str. 76, 49459 Lembruch",
+    "lat": 52.5256416,
+    "lon": 8.36786180000001
+  },
+  {
+    "id": "twfnnn",
+    "name": "Bücherschrank Linnich",
+    "address": "Glasmuseum / Rurstraße 9-11, 52441 Linnich",
+    "lat": 50.9796349,
+    "lon": 6.26891
+  },
+  {
+    "id": "pdbcid",
+    "name": "Bücherschrank Linnich – Boslar",
+    "address": "Gereonstraße Ecke Vikariestraße52441 Linnich – Boslar",
+    "lat": 50.9726697,
+    "lon": 6.3306319
+  },
+  {
+    "id": "lktpso",
+    "name": "Bücherschrank Linnich – Ederen",
+    "address": "Dorfplatz Ecke Aachener End52441 Linnich – Ederen",
+    "lat": 50.9465544,
+    "lon": 6.2463521
+  },
+  {
+    "id": "dmbqna",
+    "name": "Bücherschrank Lippetal",
+    "address": "Bahnhofstraße 7, 59510 Lippetal",
+    "lat": 51.65739,
+    "lon": 8.14184999999998
+  },
+  {
+    "id": "tmrxkk",
+    "name": "Bücherschrank Lippetal-Lippborg",
+    "address": "Ilmenweg 359510 Lippetal-Lippborg",
+    "lat": 51.6654903,
+    "lon": 8.03792279999993
+  },
+  {
+    "id": "kuubva",
+    "name": "Bücherschrank Lippetal-Oestinghausen",
+    "address": "Soester Straße 259510 Lippetal-OestinghausenSponsoren: Gemeinde Lippetal und Westenergie",
+    "lat": 51.6341748,
+    "lon": 8.0984311
+  },
+  {
+    "id": "sytfkr",
+    "name": "Bücherschrank Lotte",
+    "address": "Lys-lez-Lannoy-Platzam Haus Hehwerthan der Bahnhofstraße49504 Lotte",
+    "lat": 52.27554,
+    "lon": 7.91635
+  },
+  {
+    "id": "jkylqv",
+    "name": "Bücherschrank Luckenbach",
+    "address": "Hauptstraße 857629 Luckenbach",
+    "lat": 50.7007912,
+    "lon": 7.8334986
+  },
+  {
+    "id": "wfifio",
+    "name": "Bücherschrank Lünne",
+    "address": "Auf dem Damm 148480 Lünne",
+    "lat": 52.4316388888889,
+    "lon": 7.42619444444444
+  },
+  {
+    "id": "vchwgv",
+    "name": "Bücherschrank Manderscheid",
+    "address": "Kurfürstenstraße 15vor dem Rathaus54531 Manderscheid",
+    "lat": 50.0929278,
+    "lon": 6.8125513
+  },
+  {
+    "id": "bzwilm",
+    "name": "Bücherschrank Marienmünster",
+    "address": "Schulstraße, 37696 Marienmünster",
+    "lat": 51.8183605,
+    "lon": 9.2350179
+  },
+  {
+    "id": "feiztg",
+    "name": "Bücherschrank Maring-Noviand",
+    "address": "Trierer Straße (Einmündung Römerstraße)54484 Maring-Noviand",
+    "lat": 49.9271423,
+    "lon": 7.0000329
+  },
+  {
+    "id": "otbjjh",
+    "name": "Bücherschrank Marl",
+    "address": "Altmarkt / Loestraße, 45768 Marl",
+    "lat": 51.6477487,
+    "lon": 7.082449
+  },
+  {
+    "id": "ujlosn",
+    "name": "Bücherschrank Marl - Polsum",
+    "address": "Brüggenpoth 545768 Marl - Polsum",
+    "lat": 51.62693,
+    "lon": 7.05221
+  },
+  {
+    "id": "ipqceg",
+    "name": "Bücherschrank Masburg",
+    "address": "Pfarrstraße 156761 Masburg",
+    "lat": 50.2415465,
+    "lon": 7.1174741
+  },
+  {
+    "id": "wuvbpd",
+    "name": "Bücherschrank Mayen",
+    "address": "Rosengasse, 56727 Mayen",
+    "lat": 50.3293066,
+    "lon": 7.22092810000004
+  },
+  {
+    "id": "heuisc",
+    "name": "Bücherschrank Mayschoß",
+    "address": "Dorfstraße 5153508 Mayschoß",
+    "lat": 50.5248,
+    "lon": 7.0212
+  },
+  {
+    "id": "vgkfwg",
+    "name": "Bücherschrank Mechernich Kommern",
+    "address": "Ackergasse 2, 53894 Mechernich",
+    "lat": 50.6123552,
+    "lon": 6.6477662
+  },
+  {
+    "id": "zoyrqt",
+    "name": "Bücherschrank Meckenheim",
+    "address": "Markeeweg / Neuer Markt, 53340 Meckenheim",
+    "lat": 50.6258929,
+    "lon": 7.0399362
+  },
+  {
+    "id": "soxgvs",
+    "name": "Bücherschrank Meckenheim - Lüftelberg",
+    "address": "Kottenforststraße 1353340 Meckenheim - Lüftelberg",
+    "lat": 50.65077,
+    "lon": 7.003445
+  },
+  {
+    "id": "sfbami",
+    "name": "Bücherschrank Meddersheim",
+    "address": "Naheweinstraße 155556 Meddersheim",
+    "lat": 49.7779738,
+    "lon": 7.6206138
+  },
+  {
+    "id": "bzvyof",
+    "name": "Bücherschrank Medebach-Oberschledorn",
+    "address": "Grafschafter Str. 3759964 Medebach – Oberschledorn",
+    "lat": 51.2495127,
+    "lon": 8.70972900000004
+  },
+  {
+    "id": "zllkez",
+    "name": "Bücherschrank Mehren",
+    "address": "Hauptstraße 1654552 Mehren",
+    "lat": 50.1774036,
+    "lon": 6.8803455
+  },
+  {
+    "id": "zgpfcw",
+    "name": "Bücherschrank Melle-Gesmold",
+    "address": "Femlinde Platz, 49326 Melle - Gesmold",
+    "lat": 52.2153825,
+    "lon": 8.2719941
+  },
+  {
+    "id": "cwpxfh",
+    "name": "Bücherschrank Menslage",
+    "address": "direkt an der KircheHaupstraße 1149637 Menslage",
+    "lat": 52.675722,
+    "lon": 7.8175711
+  },
+  {
+    "id": "onnpcx",
+    "name": "Bücherschrank Merzenich",
+    "address": "Lindenstraße / Bergstraße, 52399 Merzenich",
+    "lat": 50.8275293,
+    "lon": 6.5257031
+  },
+  {
+    "id": "slxmgt",
+    "name": "Bücherschrank Merxheim",
+    "address": "GroßstraßeNähe Ecke Unter Rothell55627 Merxheim",
+    "lat": 49.7927156,
+    "lon": 7.5606783
+  },
+  {
+    "id": "zaepua",
+    "name": "Bücherschrank Merzen",
+    "address": "Hauptstraße 25, 49586 Merzen",
+    "lat": 52.4768256,
+    "lon": 7.8303337
+  },
+  {
+    "id": "ykqgdl",
+    "name": "Bücherschrank Merzenich-Girbelsrath",
+    "address": "Dechant Fabry Straße 3652399 Merzenich-Girbelsrath",
+    "lat": 50.8113608,
+    "lon": 6.5512446
+  },
+  {
+    "id": "nkhtve",
+    "name": "Bücherschrank Metelen",
+    "address": "Sendplatz 1, 48629 Metelen",
+    "lat": 52.1443558,
+    "lon": 7.21318410000003
+  },
+  {
+    "id": "pnbbrr",
+    "name": "Bücherschrank Mettingen",
+    "address": "Rathausplatz 2-4, 49497 Mettingen",
+    "lat": 52.31643,
+    "lon": 7.78077
+  },
+  {
+    "id": "rpvnrc",
+    "name": "Bücherschrank Mettmann",
+    "address": "Steinesweg 2, 40822 Mettmann",
+    "lat": 51.25773,
+    "lon": 6.9510477
+  },
+  {
+    "id": "cwqzkz",
+    "name": "Bücherschrank Mettmann - Goldberger Teich",
+    "address": "Parkplatz Goldberger TeichAm Wiesengrund 2940822 Mettmann",
+    "lat": 51.2536957,
+    "lon": 6.9887033
+  },
+  {
+    "id": "ljxfde",
+    "name": "Bücherschrank Mettmann-Innenstadt",
+    "address": "Mühlenstraße 11, 40822 Mettmann",
+    "lat": 51.2512636,
+    "lon": 6.977871
+  },
+  {
+    "id": "pygdoy",
+    "name": "Bücherschrank Möhnesee",
+    "address": "",
+    "lat": 51.4823224,
+    "lon": 8.2006836
+  },
+  {
+    "id": "xfawkz",
+    "name": "Bücherschrank Monschau",
+    "address": "Laufenstraße 42, 52156 Monschau",
+    "lat": 50.556562,
+    "lon": 6.24044129999993
+  },
+  {
+    "id": "soymsj",
+    "name": "Bücherschrank Mülheim an der Ruhr",
+    "address": "Bülowstraße 8845479 Mülheim an der Ruhr",
+    "lat": 51.42481,
+    "lon": 6.86282
+  },
+  {
+    "id": "gopqsg",
+    "name": "Bücherschrank Mülheim an der Ruhr",
+    "address": "Siegfried-Reda-Platz, 45468 Mülheim an der Ruhr",
+    "lat": 51.4264896,
+    "lon": 6.88258070000006
+  },
+  {
+    "id": "oebxjz",
+    "name": "Bücherschrank Mülheim an der Ruhr - Dümpten",
+    "address": "Aktienstraße 27945473 Mülheim an der Ruhr – Dümpten",
+    "lat": 51.447381,
+    "lon": 6.910017
+  },
+  {
+    "id": "ubsbdy",
+    "name": "Bücherschrank Mülheim an der Ruhr - Eppinghofen",
+    "address": "Goetheplatz, Ecke Schillerstraße45468 Mülheim an der Ruhr",
+    "lat": 51.4344408,
+    "lon": 6.8936171
+  },
+  {
+    "id": "xtzgdn",
+    "name": "Bücherschrank Mülheim an der Ruhr - Holthausen",
+    "address": "Zeppelinstraße 445470 Mülheim an der Ruhr",
+    "lat": 51.4184814,
+    "lon": 6.8990705
+  },
+  {
+    "id": "amazhq",
+    "name": "Bücherschrank Mülheim an der Ruhr - Saarn",
+    "address": "Düsseldorfer Straße 118a, 45481 Mülheim an der Ruhr - Saarn",
+    "lat": 51.40735,
+    "lon": 6.87047
+  },
+  {
+    "id": "pnzojj",
+    "name": "Bücherschrank Mülheim an der Ruhr - Selbeck",
+    "address": "Karl-Forst-Straße 12, 45481 Mülheim an der Ruhr",
+    "lat": 51.3675635,
+    "lon": 6.8614134
+  },
+  {
+    "id": "zvgobm",
+    "name": "Bücherschrank Mülheim an der Ruhr - Styrum",
+    "address": "Oberhausener Straße 17645476 Mülheim an der Ruhr",
+    "lat": 51.4511822,
+    "lon": 6.859516
+  },
+  {
+    "id": "nufubn",
+    "name": "Bücherschrank Mülheim an der Ruhr - Synagogenplatz",
+    "address": "im Park neben dem KunstmuseumSynagogenplatz 145468 Mülheim an der Ruhr",
+    "lat": 51.4295861,
+    "lon": 6.8820698
+  },
+  {
+    "id": "mptdfn",
+    "name": "Bücherschrank Neuenkirchen bei Rheine",
+    "address": "Heyeröder Platz, 48485 Neuenkirchen bei Rheine",
+    "lat": 52.2272619,
+    "lon": 7.3707786
+  },
+  {
+    "id": "hgwtno",
+    "name": "Bücherschrank Neuenkirchen - St. Arnold",
+    "address": "Kirchstraße 1348485 Neuenkirchen - St. Arnold",
+    "lat": 52.2125105,
+    "lon": 7.4010355
+  },
+  {
+    "id": "jrtxug",
+    "name": "Bücherschrank Neuenkirchen-Vörden",
+    "address": "Kleine Hinterstraße, 49434 Neuenkirchen-Vörden",
+    "lat": 52.4778879,
+    "lon": 8.09371950000002
+  },
+  {
+    "id": "sevmkd",
+    "name": "Bücherschrank Neuenrade-Altenaffeln",
+    "address": "Schulstraße, gegenüber von Haus Nr. 58809, Neuenrade-Altenaffeln",
+    "lat": 51.2727437,
+    "lon": 7.8769674
+  },
+  {
+    "id": "pvrftm",
+    "name": "Bücherschrank Neuerburg",
+    "address": "Marktplatz54673 Neuerburg",
+    "lat": 50.0107362,
+    "lon": 6.2947148
+  },
+  {
+    "id": "bdkdcu",
+    "name": "Bücherschrank Neumagen-Drohn",
+    "address": "Kirchgasse 5 Vor dem Kindergarten 54347 Neumagen-Drohn",
+    "lat": 49.86286,
+    "lon": 6.90815999999995
+  },
+  {
+    "id": "gzjuhx",
+    "name": "Bücherschrank Neunkirchen",
+    "address": "Kölner Straße 16657290 Neunkirchen im Siegerland",
+    "lat": 50.789444,
+    "lon": 7.999221
+  },
+  {
+    "id": "axwyvx",
+    "name": "Bücherschrank Neunkirchen-Seelscheid",
+    "address": "Zeithstraße 140, 53819 Neunkirchen-Seelscheid",
+    "lat": 50.8714398,
+    "lon": 7.32445380000001
+  },
+  {
+    "id": "jgzyzv",
+    "name": "Bücherschrank Neunkirchen-Seelscheid",
+    "address": "Hauptstraße 78, 53819 Neunkirchen-Seelscheid",
+    "lat": 50.8441369,
+    "lon": 7.33690390000004
+  },
+  {
+    "id": "zesgse",
+    "name": "Bücherschrank Neuss",
+    "address": "Oberstraße 128, 41460 Neuss",
+    "lat": 51.1976,
+    "lon": 6.69299999999998
+  },
+  {
+    "id": "qpnlqw",
+    "name": "Bücherschrank Nickenich",
+    "address": "Kirchstraße 2, 56645 Nickenich",
+    "lat": 50.4135842,
+    "lon": 7.32577579999997
+  },
+  {
+    "id": "zngwfh",
+    "name": "Bücherschrank Nideggen",
+    "address": "Zülpicher Str. 15, 52385 Nideggen",
+    "lat": 50.6888018,
+    "lon": 6.48303710000005
+  },
+  {
+    "id": "grcaud",
+    "name": "Bücherschrank Niederheimbach",
+    "address": "Heimbachtal 32, 55413 Niederheimbach",
+    "lat": 50.0330428,
+    "lon": 7.80374080000001
+  },
+  {
+    "id": "zmrqeb",
+    "name": "Bücherschrank Niedermennig",
+    "address": "Am Herrnberg 354329 Niedermennig",
+    "lat": 49.6946915,
+    "lon": 6.6274397
+  },
+  {
+    "id": "hgqdsx",
+    "name": "Bücherschrank Niederzier",
+    "address": "Mühlenstraße EckeVictor-Schroeder-Straße52382 Niederzier",
+    "lat": 50.8779515,
+    "lon": 6.4691879
+  },
+  {
+    "id": "kxfuei",
+    "name": "Bücherschrank Nieheim-Merlsheim",
+    "address": "Dorfplatz / Driburger Straße, 33039 Nieheim - Merlsheim",
+    "lat": 51.7916172,
+    "lon": 9.0272532
+  },
+  {
+    "id": "bvdvfr",
+    "name": "Bücherschrank Nittel",
+    "address": "Wiesenstaße 954453 Nittel",
+    "lat": 49.651554,
+    "lon": 6.442448
+  },
+  {
+    "id": "aavxsg",
+    "name": "Bücherschrank Nörvenich",
+    "address": "Bahnhofstraße 25, 52388 Nörvenich",
+    "lat": 50.8091534,
+    "lon": 6.64214719999995
+  },
+  {
+    "id": "qhlaww",
+    "name": "Bücherschrank Nörvenich (Eschweiler über Feld)",
+    "address": "Heribertstraße 3752388 NörvenichEschweiler über Feld",
+    "lat": 50.8113707,
+    "lon": 6.583073
+  },
+  {
+    "id": "cplvuz",
+    "name": "Bücherschrank Norheim",
+    "address": "Sankt-Martin-Straße 2155585 NorheimDeutschland",
+    "lat": 49.8083495,
+    "lon": 7.8147867
+  },
+  {
+    "id": "dzfcgc",
+    "name": "Bücherschrank Nortrup",
+    "address": "Platz vor RathausPostweg 149638 Nortrup",
+    "lat": 52.6101044,
+    "lon": 7.8596813
+  },
+  {
+    "id": "wzvooe",
+    "name": "Bücherschrank Nottuln",
+    "address": "Von der Reck Straße 148301 Nottuln",
+    "lat": 51.9290465,
+    "lon": 7.3532468
+  },
+  {
+    "id": "ikfhrk",
+    "name": "Bücherschrank Nottuln-Darup",
+    "address": "Alter Hof SchoppmannAm Hagenbach 1148301 Nottuln-Darup",
+    "lat": 51.9313813,
+    "lon": 7.3011029
+  },
+  {
+    "id": "btzzqp",
+    "name": "Bücherschrank Oberbillig",
+    "address": "Moselstraße 1054331 Oberbillig",
+    "lat": 49.71229,
+    "lon": 6.50379
+  },
+  {
+    "id": "oaynhe",
+    "name": "Bücherschrank Oberwesel",
+    "address": "Loreley KlinikHospitalgasse, 55430 Oberwesel",
+    "lat": 50.1096489,
+    "lon": 7.723403
+  },
+  {
+    "id": "ospqxk",
+    "name": "Bücherschrank Ochtendung",
+    "address": "Kanalweg 656299 Ochtendung",
+    "lat": 50.3487347,
+    "lon": 7.3860545
+  },
+  {
+    "id": "tdicnk",
+    "name": "Bücherschrank Odernheim am Glan",
+    "address": "Hintergasse 37, 55571 Odernheim am Glan",
+    "lat": 49.7653626,
+    "lon": 7.70532009999999
+  },
+  {
+    "id": "mqnzba",
+    "name": "Bücherschrank Oer Erkenschwick",
+    "address": "Berliner Pl., 45739 Oer-Erkenschwick",
+    "lat": 51.6399738,
+    "lon": 7.26060310000003
+  },
+  {
+    "id": "qcxizd",
+    "name": "Bücherschrank Ostercappeln",
+    "address": "Kirchplatz 6, 49179 Ostercappeln",
+    "lat": 52.3441809,
+    "lon": 8.22478260000003
+  },
+  {
+    "id": "ossjur",
+    "name": "Bücherschrank Pfalzfeld",
+    "address": "Hauptstraße 9Höhe Hausnummer 956291 Pfalzfeld",
+    "lat": 50.1139686,
+    "lon": 7.5780595
+  },
+  {
+    "id": "wdebpi",
+    "name": "Bücherschrank Plaidt",
+    "address": "Rathausstr. 2-4, 56637 Plaidt",
+    "lat": 50.3942298,
+    "lon": 7.38551000000007
+  },
+  {
+    "id": "tdvibp",
+    "name": "Bücherschrank Pölich",
+    "address": "Dorfplatz an der Hauptstraße54340 Pölich",
+    "lat": 49.7973412,
+    "lon": 6.8485166
+  },
+  {
+    "id": "cfbfuq",
+    "name": "Bücherschrank Polch",
+    "address": "Marktplatz 1, 56751 Polch",
+    "lat": 50.2988372,
+    "lon": 7.31389939999997
+  },
+  {
+    "id": "apaecr",
+    "name": "Bücherschrank Preußisch Oldendorf-Bad Holzhausen",
+    "address": "Bahnhofstraße 16, 32361 Preußisch Oldendorf - Bad Holzhausen",
+    "lat": 52.3000863,
+    "lon": 8.5103036
+  },
+  {
+    "id": "auabhk",
+    "name": "Bücherschrank Prüm",
+    "address": "Tiergartenplatz54595 Prüm",
+    "lat": 50.207941,
+    "lon": 6.421573
+  },
+  {
+    "id": "xxocdk",
+    "name": "Bücherschrank Raesfeld",
+    "address": "Rathausplatz, 46348 Raesfeld",
+    "lat": 51.7696309,
+    "lon": 6.843366
+  },
+  {
+    "id": "esazqo",
+    "name": "Bücherschrank Raesfeld",
+    "address": "Kirchplatz 1046348 Raesfeld-Erle",
+    "lat": 51.7472452,
+    "lon": 6.8643429
+  },
+  {
+    "id": "daqgaw",
+    "name": "Bücherschrank Rahden",
+    "address": "Gerichtsstr. 9, 32369 Rahden",
+    "lat": 52.4327,
+    "lon": 8.61542989999998
+  },
+  {
+    "id": "myvunw",
+    "name": "Bücherschrank Rahden-Preußisch Ströhen",
+    "address": "Johann-Christoph-Klasing-Straße, 32369 Rahden - Preußisch Ströhen",
+    "lat": 52.5006454,
+    "lon": 8.6501966
+  },
+  {
+    "id": "iyjbuf",
+    "name": "Bücherschrank Rees",
+    "address": "WohnmobilstellplatzEbentalstraße, 46459 Rees",
+    "lat": 51.7650884,
+    "lon": 6.3904041
+  },
+  {
+    "id": "jyrlfa",
+    "name": "Bücherschrank Rees",
+    "address": "Heresbachstraße 2146459 Rees - Mehr",
+    "lat": 51.73037,
+    "lon": 6.47582
+  },
+  {
+    "id": "gearxn",
+    "name": "Bücherschrank Reken",
+    "address": "Frankenstraße 248734 Reken",
+    "lat": 51.8059,
+    "lon": 7.04371
+  },
+  {
+    "id": "fwmhox",
+    "name": "Bücherschrank Reken",
+    "address": "Overbergstraße 1148734 Reken",
+    "lat": 51.829239,
+    "lon": 7.044057
+  },
+  {
+    "id": "yxbflt",
+    "name": "Bücherschrank Reken",
+    "address": "Ellering-SchuleDille 148734 RekenMarie Veen",
+    "lat": 51.83881,
+    "lon": 7.09423
+  },
+  {
+    "id": "ezpuai",
+    "name": "Bücherschrank Rheinberg",
+    "address": "Entenmarkt, 47495 Rheinberg",
+    "lat": 51.5473319,
+    "lon": 6.6015969
+  },
+  {
+    "id": "vgipsq",
+    "name": "Bücherschrank Rheinböllen",
+    "address": "Marktstraße 11, 55494 Rheinböllen",
+    "lat": 50.00819,
+    "lon": 7.67290360000004
+  },
+  {
+    "id": "nakxej",
+    "name": "Bücherschrank Rheurdt",
+    "address": "Rathausstraße 5747509 Rheurdt",
+    "lat": 51.4688765,
+    "lon": 6.4691934
+  },
+  {
+    "id": "mbxggy",
+    "name": "Bücherschrank Rheurdt-Schaephuysen",
+    "address": "Pastoratsstraße, 47509 Rheurdt - Schaephuysen",
+    "lat": 51.4415459,
+    "lon": 6.4857506
+  },
+  {
+    "id": "ftoixl",
+    "name": "Bücherschrank Rieden",
+    "address": "Kirchstraße 4456745 Rieden",
+    "lat": 50.3935953,
+    "lon": 7.1768004
+  },
+  {
+    "id": "oiskav",
+    "name": "Bücherschrank Rieste",
+    "address": "Bahnhofstraße 31, 49597 Rieste",
+    "lat": 52.4860205,
+    "lon": 8.011259
+  },
+  {
+    "id": "wdkahc",
+    "name": "Bücherschrank Riol",
+    "address": "Martinstraße 5, 54340 Riol",
+    "lat": 49.7944979,
+    "lon": 6.7896133
+  },
+  {
+    "id": "hhpjik",
+    "name": "Bücherschrank Rittersdorf",
+    "address": "Schulstraße 854636 Rittersdorf",
+    "lat": 49.99803,
+    "lon": 6.49274
+  },
+  {
+    "id": "oftnpq",
+    "name": "Bücherschrank Roetgen",
+    "address": "Hauptstraße 55, 52159 Roetgen",
+    "lat": 50.6477306,
+    "lon": 6.19523879999997
+  },
+  {
+    "id": "zzotwt",
+    "name": "Bücherschrank Roetgen-Rott",
+    "address": "Quirinusstraße, 52159 Roetgen - Rott",
+    "lat": 50.685688,
+    "lon": 6.2112926
+  },
+  {
+    "id": "ltdhcb",
+    "name": "Bücherschrank Rommerskirchen",
+    "address": "Bahnstraße 51, 41569 Rommerskirchen",
+    "lat": 51.03598,
+    "lon": 6.69580999999994
+  },
+  {
+    "id": "oestxy",
+    "name": "Bücherschrank Rommerskirchen-Evinghoven",
+    "address": "Antoniterstraße 1241569 Rommerskirchen-Evinghoven",
+    "lat": 51.07314,
+    "lon": 6.69171
+  },
+  {
+    "id": "kufwni",
+    "name": "Bücherschrank Rüthen",
+    "address": "Antoniusstraße 859602 Rüthen",
+    "lat": 51.5666687,
+    "lon": 8.4252695
+  },
+  {
+    "id": "ostyyz",
+    "name": "Bücherschrank Salzbergen",
+    "address": "Emsstraße, 48499 Salzbergen",
+    "lat": 52.3254719,
+    "lon": 7.35148720000007
+  },
+  {
+    "id": "krgjan",
+    "name": "Bücherschrank Salzkotten",
+    "address": "Marktstraße 8(am Rathaus)33154 Salzkotten",
+    "lat": 51.6708538,
+    "lon": 8.60409890000005
+  },
+  {
+    "id": "chyuqz",
+    "name": "Bücherschrank Mayen (Sankt Johann)",
+    "address": "Mayener Straße 32-4056727 Sankt Johann",
+    "lat": 50.34751,
+    "lon": 7.19666
+  },
+  {
+    "id": "bfpsqj",
+    "name": "Bücherschrank Sassenberg",
+    "address": "von Galen Straße / Lappenbrink, 48366 Sassenberg",
+    "lat": 51.9883688,
+    "lon": 8.0416274
+  },
+  {
+    "id": "mrqckw",
+    "name": "Bücherschrank Schermbeck",
+    "address": "Naturpark Hohe MarkWeseler Straße 2, 46514 Schermbeck",
+    "lat": 51.6915,
+    "lon": 6.8682
+  },
+  {
+    "id": "apyuft",
+    "name": "Bücherschrank Schermbeck - Gahlen",
+    "address": "Kirchstraße 7246514 Schermbeck - Gahlen",
+    "lat": 51.667014,
+    "lon": 6.871962
+  },
+  {
+    "id": "dtqkqq",
+    "name": "Bücherschrank Schloß Holte-Stukenbrock",
+    "address": "Holter Kirchpl. 13, 33758 Schloß Holte-Stukenbrock",
+    "lat": 51.90218,
+    "lon": 8.61464000000001
+  },
+  {
+    "id": "nuyaqe",
+    "name": "Bücherschrank Schöppingen",
+    "address": "Hauptstraße 6548624 Schöppingen",
+    "lat": 52.0932226,
+    "lon": 7.2343013
+  },
+  {
+    "id": "otsjht",
+    "name": "Bücherschrank Schwaförden",
+    "address": "BirkenstraßeEcke Poststraße27252 Schwaförden",
+    "lat": 52.7353272,
+    "lon": 8.8217593
+  },
+  {
+    "id": "ebican",
+    "name": "Bücherschrank Schmallenberg-Fleckenberg",
+    "address": "Laptroper Straße 657392 Schmallenberg-Fleckenberg",
+    "lat": 51.1345244,
+    "lon": 8.2610742
+  },
+  {
+    "id": "itsbda",
+    "name": "Bücherschrank Schmallenberg-Nordenau",
+    "address": "Astenstraße / Talweg, 57392 Schmallenberg-Nordenau",
+    "lat": 51.176249,
+    "lon": 8.4252906
+  },
+  {
+    "id": "mpoabl",
+    "name": "Bücherschrank Schwalmtal-Amern",
+    "address": "Hauptstraße / Bahnstraße, 41366 Schwalmtal-Amern",
+    "lat": 51.2331948,
+    "lon": 6.2423587
+  },
+  {
+    "id": "bsqbhz",
+    "name": "Bücherschrank Schwalmtal-Waldniel",
+    "address": "Waldnieler Markt, 41366 Schwalmtal - Waldniel",
+    "lat": 51.2130018,
+    "lon": 6.2727243
+  },
+  {
+    "id": "hobyrv",
+    "name": "Bücherschrank Schweich",
+    "address": "Richtstraße 42, 54338 Schweich",
+    "lat": 49.8233271,
+    "lon": 6.75315580000006
+  },
+  {
+    "id": "yxmsae",
+    "name": "Bücherschrank Siegen",
+    "address": "EnergieparkFriedrichstraße Ecke Emilienstraße57072 Siegen",
+    "lat": 50.8781264,
+    "lon": 8.0260339
+  },
+  {
+    "id": "ycuvtw",
+    "name": "Bücherschrank Siegen - Fischbacherberg",
+    "address": "Schweringer Straße 2157072 SiegenFischbacherberg",
+    "lat": 50.877566,
+    "lon": 8.0030556
+  },
+  {
+    "id": "jziaxx",
+    "name": "Bücherschrank Sohren",
+    "address": "Bahnhofstraße, 55487 Sohren",
+    "lat": 49.9291639,
+    "lon": 7.30426690000002
+  },
+  {
+    "id": "ncsvmv",
+    "name": "Bücherschrank Sonsbeck",
+    "address": "Hochstraße 8747665 Sonsbeck",
+    "lat": 51.60729,
+    "lon": 6.3768
+  },
+  {
+    "id": "eqtscz",
+    "name": "Bücherschrank Speicher",
+    "address": "Am Markt 16, 54662 Speicher",
+    "lat": 49.9346545,
+    "lon": 6.6384183
+  },
+  {
+    "id": "enyksw",
+    "name": "Bücherschrank Spelle",
+    "address": "Wöhlehof, Pastor Batsche Weg 1, 48480 Spelle",
+    "lat": 52.37075,
+    "lon": 7.47199
+  },
+  {
+    "id": "xkdxfv",
+    "name": "Bücherschrank Spelle-Schapen",
+    "address": "Kolpingstraße 5, 48480 Spelle - Schapen",
+    "lat": 52.3996953,
+    "lon": 7.5618457
+  },
+  {
+    "id": "ynbepe",
+    "name": "Bücherschrank Stadtkyll",
+    "address": "Hauptstraße1454589 Stadtkyll",
+    "lat": 50.3501203,
+    "lon": 6.5296562
+  },
+  {
+    "id": "qqrfqq",
+    "name": "Bücherschrank Steinfeld",
+    "address": "Marktplatz, 49439 Steinfeld",
+    "lat": 52.5874039,
+    "lon": 8.2171494
+  },
+  {
+    "id": "ghvjay",
+    "name": "Bücherschrank Stemwede-Oppendorf",
+    "address": "Am Hunneort 8 32351 Stemwede-Oppendorf auf dem Seitenstreifen bei der Sitzbank; hinter dem DRK-Kindergarten",
+    "lat": 52.454814,
+    "lon": 8.484088
+  },
+  {
+    "id": "jfdjjl",
+    "name": "Bücherschrank Stemwede-Oppenwehe",
+    "address": "Wagenfelder Straße 1732351 Stemwede-Oppenwehevor der Gemeinschaftsgrundschule Oppenwehe; neben der Bushaltestelle",
+    "lat": 52.4708041,
+    "lon": 8.5255378
+  },
+  {
+    "id": "gwxzjj",
+    "name": "Bücherschrank Stemwede",
+    "address": "Haldemer Straße 4632351 Stemwede",
+    "lat": 52.4386742,
+    "lon": 8.3882647
+  },
+  {
+    "id": "ixtzkr",
+    "name": "Bücherschrank Sulingen",
+    "address": "Stadt27232 Sulingen",
+    "lat": 52.698631,
+    "lon": 8.769931
+  },
+  {
+    "id": "smingc",
+    "name": "Bücherschrank Sundern-Endorf",
+    "address": "Sebastianstraße 1, 59846 Sundern (Sauerland)",
+    "lat": 51.2904524,
+    "lon": 8.03538809999998
+  },
+  {
+    "id": "rdfxmz",
+    "name": "Bücherschrank Sundern-Westenfeld",
+    "address": "Westenfelder Straße neben Haus Nr. 66 (Bäckerei)59846 Sundern-Westenfeld",
+    "lat": 51.3229428,
+    "lon": 8.0496512
+  },
+  {
+    "id": "kycupt",
+    "name": "Bücherschrank Swisttal-Buschhoven",
+    "address": "Toniusplatz 253913 Swisttal-Buschhoven",
+    "lat": 50.6819345,
+    "lon": 6.9774413
+  },
+  {
+    "id": "nymwqg",
+    "name": "Bücherschrank Swistal-Heimerzheim",
+    "address": "Am Fronhof, 53913 Swisttal",
+    "lat": 50.7177826,
+    "lon": 6.91226499999993
+  },
+  {
+    "id": "zqihua",
+    "name": "Bücherschrank Swisttal Odendorf",
+    "address": "Am Zehnthof, 53913 Swisttal - Odendorf",
+    "lat": 50.6471732,
+    "lon": 6.8809429
+  },
+  {
+    "id": "mbgggw",
+    "name": "Bücherschrank Tawern",
+    "address": "Römerstraße 3, 54456 Tawern",
+    "lat": 49.6721865,
+    "lon": 6.5218901
+  },
+  {
+    "id": "jwpeiw",
+    "name": "Bücherschrank Thür",
+    "address": "Segbachstraße 2956743 Thür",
+    "lat": 50.3591678,
+    "lon": 7.2728449
+  },
+  {
+    "id": "mornwe",
+    "name": "Bücherschrank Titz-Hasselweiler",
+    "address": "von Leerodt StraßeEcke Marienstraßevor dem Bürgerhaus52445 Titz – Hasselweiler",
+    "lat": 50.9906893,
+    "lon": 6.3936293
+  },
+  {
+    "id": "qglxgv",
+    "name": "Bücherschrank Titz-Rödingen",
+    "address": "Hohe Straße 12vor der alten Schule52445 Titz - Rödingen",
+    "lat": 50.9617019,
+    "lon": 6.4645546
+  },
+  {
+    "id": "vudywt",
+    "name": "Bücherschrank Tönisvorst",
+    "address": "Hochstraße 2647918 Tönisvorst",
+    "lat": 51.32149,
+    "lon": 6.49276
+  },
+  {
+    "id": "oefyut",
+    "name": "Bücherschrank Tönisvorst-Vorst",
+    "address": "gesponsert vonNEW und WestenergieMarkt 3, 47918 Tönisvorst",
+    "lat": 51.304447,
+    "lon": 6.428246
+  },
+  {
+    "id": "snzucf",
+    "name": "Bücherschrank Treis-Karden",
+    "address": "Marktplatz 856253 Treis-Karden",
+    "lat": 50.173354,
+    "lon": 7.3005637
+  },
+  {
+    "id": "ggzgrb",
+    "name": "Bücherschrank Trierweiler-Sirzenich",
+    "address": "Hauptstraße 2054311 Trierweiler-Sirzenich",
+    "lat": 49.76387,
+    "lon": 6.59508
+  },
+  {
+    "id": "hshfvo",
+    "name": "Bücherschrank Twist",
+    "address": "Flensbergstraße 3-5, 49767 Twist",
+    "lat": 52.64641,
+    "lon": 7.09499
+  },
+  {
+    "id": "addzlu",
+    "name": "Bücherschrank Uedem-Keppeln",
+    "address": "Rosenstraße 847589 Uedem-Keppeln",
+    "lat": 51.69,
+    "lon": 6.26864
+  },
+  {
+    "id": "cncrxq",
+    "name": "Bücherschrank Ulmen",
+    "address": "Alter Postplatz, 56766 Ulmen",
+    "lat": 50.2098081,
+    "lon": 6.97927140000002
+  },
+  {
+    "id": "utsywd",
+    "name": "Bücherschrank Unna",
+    "address": "Dorfstraße 1a59427 Unna-Kessebüren",
+    "lat": 51.5201477,
+    "lon": 7.7257118
+  },
+  {
+    "id": "tfzzdj",
+    "name": "Bücherschrank Velen-Ramsdorf",
+    "address": "Burgplatz 6, 46342 Velen-Ramsdorf",
+    "lat": 51.8868289,
+    "lon": 6.919571
+  },
+  {
+    "id": "subzrf",
+    "name": "Bücherschrank Vettweiß",
+    "address": "Gereonstraße 14, 52391 Vettweiß",
+    "lat": 50.74231,
+    "lon": 6.60130000000004
+  },
+  {
+    "id": "mvvntf",
+    "name": "Bücherschrank Voerde",
+    "address": "Rathausplatz 20 (vor dem Rathaus)46562 Voerde",
+    "lat": 51.5973751,
+    "lon": 6.6807567
+  },
+  {
+    "id": "qmbqaf",
+    "name": "Bücherschrank Voerde - Götterswickerhamm",
+    "address": "DammstraßeGegenüber Kirche46562 Voerde - Götterswickerhamm",
+    "lat": 51.5803237,
+    "lon": 6.661426
+  },
+  {
+    "id": "qxabvu",
+    "name": "Bücherschrank Voltlage",
+    "address": "DorfplatzHauptstraße 2149599 Voltlage",
+    "lat": 52.4309036,
+    "lon": 7.745335
+  },
+  {
+    "id": "cxwkpy",
+    "name": "Bücherschrank Vossenack",
+    "address": "Baptist-Palm-Platz52393 Vossenack",
+    "lat": 50.6856449,
+    "lon": 6.3741229
+  },
+  {
+    "id": "pcbtwc",
+    "name": "Bücherschrank Wallenhorst-Hollage",
+    "address": "Hollager Straße 125, 49134 Wallenhorst - Hollage",
+    "lat": 52.3454868,
+    "lon": 7.9728636
+  },
+  {
+    "id": "jocyqq",
+    "name": "Bücherschrank Waldrach",
+    "address": "Untere Kirchstraße 254320 Waldrach",
+    "lat": 49.74995,
+    "lon": 6.74236
+  },
+  {
+    "id": "pscemx",
+    "name": "Bücherschrank Waltrop",
+    "address": "Händelweg 145731 Waltrop",
+    "lat": 51.6280339,
+    "lon": 7.3789454
+  },
+  {
+    "id": "htygrx",
+    "name": "Bücherschrank Warburg",
+    "address": "neben der Touristinfo Hauptstraße 55, 34414 Warburg",
+    "lat": 51.4887634,
+    "lon": 9.1481743
+  },
+  {
+    "id": "tyaivh",
+    "name": "Bücherschrank Warstein",
+    "address": "Hauptstraße 8759581 Warstein",
+    "lat": 51.4429247,
+    "lon": 8.3538064
+  },
+  {
+    "id": "glyhbv",
+    "name": "Bücherschrank Wassenach",
+    "address": "Zehntgasse 1356653 Wassenach",
+    "lat": 50.4340907,
+    "lon": 7.2804748
+  },
+  {
+    "id": "linbyw",
+    "name": "Bücherschrank Wasserliesch",
+    "address": "PartnerschaftsmodellOrtsgemeinde Wasserliesch und WestenergieMarktplatzHöhe Haus Nr. 1254332 Wasserliesch",
+    "lat": 49.7093897,
+    "lon": 6.5373719
+  },
+  {
+    "id": "hnwmtj",
+    "name": "Bücherschrank Weeze",
+    "address": "Kirchplatz, 47652 Weeze",
+    "lat": 51.6278579,
+    "lon": 6.20037139999999
+  },
+  {
+    "id": "bmreca",
+    "name": "Bücherschrank Weilerswist",
+    "address": "Bonner Str. 29, 53919 Weilerswist",
+    "lat": 50.7523214,
+    "lon": 6.84501120000004
+  },
+  {
+    "id": "jezxyc",
+    "name": "Bücherschrank Welver",
+    "address": "Am Markt 33, 59514 Welver",
+    "lat": 51.6182617,
+    "lon": 7.95759180000005
+  },
+  {
+    "id": "irfkfu",
+    "name": "Bücherschrank Wenden-Hünsborn",
+    "address": "Siegener Str. 5557482 Wenden",
+    "lat": 50.9395461,
+    "lon": 7.8911084
+  },
+  {
+    "id": "tppdub",
+    "name": "Bücherschrank Wenden",
+    "address": "vor dem RathausHauptstraße 75 57482 Wenden",
+    "lat": 50.96963,
+    "lon": 7.87225999999998
+  },
+  {
+    "id": "dpwwzs",
+    "name": "Bücherschrank Wesel",
+    "address": "Leyensplatz, 46483 Wesel",
+    "lat": 51.6643079,
+    "lon": 6.62956789999998
+  },
+  {
+    "id": "fbrdiw",
+    "name": "Bücherschrank Wesseling",
+    "address": "Flach-Fengler Str.Höhe Einkaufspassage Forum50389 Wesseling",
+    "lat": 50.8229463,
+    "lon": 6.9777894
+  },
+  {
+    "id": "mgbxvj",
+    "name": "Bücherschrank Wesseling (Berzdorf)",
+    "address": "Brühler Straße 25150389 Wesseling",
+    "lat": 50.8328212,
+    "lon": 6.9454554
+  },
+  {
+    "id": "ubrlpq",
+    "name": "Bücherschrank Wesseling-Keldenich",
+    "address": "Unterdorfstraße 2350389 Wesseling-Keldenich",
+    "lat": 50.81253,
+    "lon": 6.97172
+  },
+  {
+    "id": "ynjkej",
+    "name": "Bücherschrank Westerkappeln",
+    "address": "Große Str. 13, 49492 Westerkappeln",
+    "lat": 52.3140728,
+    "lon": 7.87806720000003
+  },
+  {
+    "id": "wuhsne",
+    "name": "Bücherschrank Wettringen",
+    "address": "Dorfplatz an der Femlinde, 48493 Wettringen",
+    "lat": 52.2323411,
+    "lon": 7.2892253
+  },
+  {
+    "id": "xpfbge",
+    "name": "Bücherschrank Willebadessen",
+    "address": "Klosterhof, 34439 Willebadessen",
+    "lat": 51.6242275,
+    "lon": 9.03277990000004
+  },
+  {
+    "id": "minxhe",
+    "name": "Bücherschrank Wilnsdorf - Gernsdorf",
+    "address": "Gernsdorfer Straße 1857234 Wilnsdorf - Gernsdorf",
+    "lat": 50.84614,
+    "lon": 8.17257
+  },
+  {
+    "id": "bxgoqq",
+    "name": "Bücherschrank Wittlich-Lüxem",
+    "address": "Bombogener Straße 854516 Wittlich-Lüxem",
+    "lat": 50.0012381,
+    "lon": 6.9050309
+  },
+  {
+    "id": "tpvrwu",
+    "name": "Bücherschrank Wittlich-Wengerohr",
+    "address": "Bornweg 1, 54516 Wittlich",
+    "lat": 49.9699542,
+    "lon": 6.93462739999995
+  },
+  {
+    "id": "ljuhne",
+    "name": "Bücherschrank Wonsheim",
+    "address": "Untergasse, 55599 Wonsheim",
+    "lat": 49.7828623,
+    "lon": 7.9626657
+  },
+  {
+    "id": "iwnixs",
+    "name": "Bücherschrank Worms",
+    "address": "Mainzer Str. 7667547 Worms",
+    "lat": 49.6421714,
+    "lon": 8.3637464
+  },
+  {
+    "id": "tmejyk",
+    "name": "Bücherschrank Wülfrath",
+    "address": "Tiegenhöfer Straße 18„roter Platz“42489 Wülfrath",
+    "lat": 51.2846532,
+    "lon": 7.050126
+  },
+  {
+    "id": "nmrusu",
+    "name": "Bücherschrank Wülfrath-Düssel",
+    "address": "Haus Düssel 1642489 Wülfrath-Düssel",
+    "lat": 51.26175,
+    "lon": 7.05664
+  },
+  {
+    "id": "gizwsa",
+    "name": "Bücherschrank Wülfrath-Flandersbach",
+    "address": "Zwingenberger Weg 4342489 Wülfrath-Flandersbach",
+    "lat": 51.3052505,
+    "lon": 6.9886181
+  },
+  {
+    "id": "brdjgx",
+    "name": "Bücherschrank Xanten",
+    "address": "Markt, 46509 Xanten",
+    "lat": 51.6615187,
+    "lon": 6.45436730000006
+  },
+  {
+    "id": "szktud",
+    "name": "Bücherschrank Zeltingen-Rachtig",
+    "address": "MarienstraßeHöhe Haus Nr. 1054492 Zeltingen-Rachtig",
+    "lat": 49.9610957,
+    "lon": 7.0033878
+  },
+  {
+    "id": "uslxcp",
+    "name": "Bücherschrank Zerf",
+    "address": "Am Marktplatz54314 Zerf",
+    "lat": 49.6009078,
+    "lon": 6.6871195
+  },
+  {
+    "id": "wclkwc",
+    "name": "Bücherschrank Zülpich",
+    "address": "Markt, 53909 Zülpich",
+    "lat": 50.6925535,
+    "lon": 6.64747520000003
+  },
+  {
+    "id": "kqnkwh",
+    "name": "Bücherschrank Zülpich - Sinzenich",
+    "address": "Kommener Str. 36, 53909 Zülpich - Sinzenich",
+    "lat": 50.6613581,
+    "lon": 6.64904339999998
+  }
+]
