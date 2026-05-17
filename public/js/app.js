@@ -191,7 +191,6 @@ async function loadData() {
     }
   });
 
-  // Cluster bookshelves within 50m
   bookshelves = clusterBookshelves(activeShelves);
 
   // Build lookup map for fast access

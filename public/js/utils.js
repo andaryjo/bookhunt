@@ -12,15 +12,15 @@ function getDistance(lat1, lon1, lat2, lon2) {
   const a =
     Math.sin(dLat / 2) * Math.sin(dLat / 2) +
     Math.cos((lat1 * Math.PI) / 180) *
-    Math.cos((lat2 * Math.PI) / 180) *
-    Math.sin(dLon / 2) *
-    Math.sin(dLon / 2);
+      Math.cos((lat2 * Math.PI) / 180) *
+      Math.sin(dLon / 2) *
+      Math.sin(dLon / 2);
   const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
   return R * c;
 }
 
 /**
- * Clusters bookshelves within 50m and prioritizes metadata
+ * Clusters bookshelves within 100m and prioritizes metadata
  */
 function clusterBookshelves(shelves) {
   if (shelves.length === 0) return [];
@@ -57,8 +57,7 @@ function clusterBookshelves(shelves) {
       if (processed.has(s2.id)) continue;
 
       const dist = getDistance(s1.lat, s1.lon, s2.lat, s2.lon);
-      if (dist <= 0.05) {
-        // 50 meters
+      if (dist <= 0.1) {
         group.memberIds.push(String(s2.id));
         group.members.push(s2);
         processed.add(s2.id);
@@ -90,7 +89,7 @@ function clusterBookshelves(shelves) {
   return groups;
 }
 
-if (typeof window !== 'undefined') {
+if (typeof window !== "undefined") {
   window.getDistance = getDistance;
   window.clusterBookshelves = clusterBookshelves;
 }
