@@ -525,8 +525,8 @@ function renderBooks(
   }
 
   books.forEach((book) => {
-    // Extract date directly
-    const date = book.date || "Unknown";
+    // Format relative last seen text
+    const lastSeenText = formatDaysAgo(book.date);
     let shelfLinkHtml = "";
 
     if (showShelfLink) {
@@ -543,7 +543,7 @@ function renderBooks(
         <h4>${book.title || "Unknown Title"}</h4> <span class="author-text">${book.author || "Unknown Author"}</span>
       </div>
       <div class="book-meta">
-        <span>${shelfLinkHtml}Last seen: ${date}</span>
+        <span>${shelfLinkHtml}Last seen ${lastSeenText}</span>
       </div>
     `;
     container.appendChild(card);

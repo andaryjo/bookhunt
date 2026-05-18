@@ -88,8 +88,52 @@ function clusterBookshelves(shelves) {
   }
   return groups;
 }
+/**
+ * Formats a date string into a relative "days ago" text
+ */
+function formatDaysAgo(dateString) {
+  if (!dateString || dateString === "Unknown") {
+    return "unknown";
+  }
+
+  let bookDate;
+  // If dateString matches YYYY-MM-DD
+  if (/^\d{4}-\d{2}-\d{2}$/.test(dateString)) {
+    const parts = dateString.split("-");
+    bookDate = new Date(
+      parseInt(parts[0], 10),
+      parseInt(parts[1], 10) - 1,
+      parseInt(parts[2], 10)
+    );
+  } else {
+    bookDate = new Date(dateString);
+  }
+
+  if (isNaN(bookDate.getTime())) {
+    return "unknown";
+  }
+
+  const today = new Date();
+  const todayMidnight = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+  const bookMidnight = new Date(bookDate.getFullYear(), bookDate.getMonth(), bookDate.getDate());
+
+  const diffTime = todayMidnight - bookMidnight;
+  const diffDays = Math.round(diffTime / (1000 * 60 * 60 * 24));
+
+  if (diffDays < 0) {
+    return "today";
+  }
+  if (diffDays === 0) {
+    return "today";
+  }
+  if (diffDays === 1) {
+    return "yesterday";
+  }
+  return `${diffDays} days ago`;
+}
 
 if (typeof window !== "undefined") {
   window.getDistance = getDistance;
   window.clusterBookshelves = clusterBookshelves;
+  window.formatDaysAgo = formatDaysAgo;
 }
