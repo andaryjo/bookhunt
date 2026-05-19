@@ -569,8 +569,8 @@
   },
   {
     "id": "ikdmyj",
-    "name": "Düsseldorf / Uferpromenade",
-    "address": "",
+    "name": "Bücherschrank Mannesmannufer",
+    "address": "Mannesmannufer 1b, 40213 Düsseldorf",
     "lat": 51.2203450422,
     "lon": 6.76691293716,
     "sourceId": "obc_82"
@@ -102792,14 +102792,6 @@
     "sourceId": "obc_14616"
   },
   {
-    "id": "qrismv",
-    "name": "Bücherzelle Niederschönhausen",
-    "address": "Pankower Straße 11/12, 13156 Berlin-Niederschönhausen",
-    "lat": 52.585135,
-    "lon": 13.427299,
-    "sourceId": "obc_14617"
-  },
-  {
     "id": "rpbvmp",
     "name": "Bücherschrank Streckfußstraße",
     "address": "Streckfußstraße 83, 13125 Berlin-Karow",
@@ -122826,14 +122818,14 @@
   {
     "id": "jgldpr",
     "name": "Bücherzelle Buchholz/Zauche",
-    "address": "Buchholzer Kietzstr 74, 14547 Beelitz",
+    "address": "Buchholzer Kietzstr 74, 14547 Beelitz-Buchholz",
     "lat": 52.1608628,
     "lon": 12.9232398,
     "sourceId": "obc_17183"
   },
   {
     "id": "blkbdw",
-    "name": "Bücherschrank Amtsverwaltung Langballig",
+    "name": "Bücherkiste Langballig",
     "address": "Süderende 1, 24977 Langballig",
     "lat": 54.7984254,
     "lon": 9.6355,
@@ -122842,9 +122834,121 @@
   {
     "id": "uqxtnf",
     "name": "Bücherschrank Prenzlauer Platz",
-    "address": "Prenzlauer Platz",
+    "address": "Prenzlauer Platz, 17034 Neubrandenburg",
     "lat": 53.566637,
     "lon": 13.275926,
     "sourceId": "obc_17185"
+  },
+  {
+    "id": "zdkzhc",
+    "name": "Bücherzelle Koserow Hauptstraße",
+    "address": "Hauptstraße / Woenigstraße, 17459 Koserow",
+    "lat": 54.056258,
+    "lon": 13.997483,
+    "sourceId": "obc_17186"
+  },
+  {
+    "id": "eiqafp",
+    "name": "Bücherzelle Koserow Kurplatz",
+    "address": "Vinetastraße / Lindenstraße, 17459 Koserow",
+    "lat": 54.055889,
+    "lon": 14.002199,
+    "sourceId": "obc_17187"
+  },
+  {
+    "id": "hoiufn",
+    "name": "Book Exchange Ah Mouy Place",
+    "address": "8 Ah Mouy Pl, Kambah ACT 2902",
+    "lat": -35.387476,
+    "lon": 149.048207,
+    "sourceId": "obc_17188"
+  },
+  {
+    "id": "kyjdtd",
+    "name": "Book Exchange Four Seasons",
+    "address": "4 Boustead Cct, Kambah, ACT, 2902",
+    "lat": -35.390032,
+    "lon": 149.05094,
+    "sourceId": "obc_17189"
+  },
+  {
+    "id": "ctnock",
+    "name": "Book Exchange Myers Place",
+    "address": "2 Myers Pl, Kambah ACT 2902",
+    "lat": -35.391674,
+    "lon": 149.056782,
+    "sourceId": "obc_17190"
+  },
+  {
+    "id": "sflwit",
+    "name": "Book Exchange Moni’s Street Library",
+    "address": "50 O&#39;Halloran Cct, Kambah ACT 2902",
+    "lat": -35.39282,
+    "lon": 149.058015,
+    "sourceId": "obc_17191"
+  },
+  {
+    "id": "dopswv",
+    "name": "Book Exchange Adventure",
+    "address": "9 Gleeson Pl, Kambah ACT 2902",
+    "lat": -35.391691,
+    "lon": 149.060483,
+    "sourceId": "obc_17192"
+  },
+  {
+    "id": "tzbgcr",
+    "name": "Book Exchange The Book Stop",
+    "address": "126 Marconi Cres, Kambah ACT 2902",
+    "lat": -35.381326,
+    "lon": 149.065429,
+    "sourceId": "obc_17193"
+  },
+  {
+    "id": "jeejds",
+    "name": "Book Exchange Bissenberger Cres",
+    "address": "51 Bissenberger Cres, Kambah ACT 2902",
+    "lat": -35.381493,
+    "lon": 149.070815,
+    "sourceId": "obc_17194"
+  },
+  {
+    "id": "skemvb",
+    "name": "Book Exchange The Rustic Brownsmith",
+    "address": "21 Brownsmith Cres, Kambah ACT 2902",
+    "lat": -35.379752,
+    "lon": 149.072446,
+    "sourceId": "obc_17195"
+  },
+  {
+    "id": "ibixbw",
+    "name": "Book Exchange Back to Basics",
+    "address": "23 Jamieson Cres, Kambah ACT 2902",
+    "lat": -35.377915,
+    "lon": 149.06706,
+    "sourceId": "obc_17196"
+  },
+  {
+    "id": "okhgtd",
+    "name": "Book Exchange on Boddington",
+    "address": "39 Boddington Cres, Kambah ACT 2902",
+    "lat": -35.380513,
+    "lon": 149.052941,
+    "sourceId": "obc_17197"
+  },
+  {
+    "id": "xnqirg",
+    "name": "Book Exchange Barritt Street",
+    "address": "1 Barritt St, Kambah ACT 2902",
+    "lat": -35.37788,
+    "lon": 149.04822,
+    "sourceId": "obc_17198"
+  },
+  {
+    "id": "ogmpyy",
+    "name": "Balingen Eyach",
+    "address": "",
+    "lat": 48.278403,
+    "lon": 8.854321,
+    "sourceId": "obc_17199"
   }
 ]
