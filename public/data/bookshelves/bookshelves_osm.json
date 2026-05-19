@@ -962,15 +962,15 @@
   {
     "id": "vfqklu",
     "name": "Bradfield Book Exchange",
-    "address": null,
+    "address": "The Street, CO11 2US, Tendring, United Kingdom",
     "lat": 51.934205,
     "lon": 1.1172501,
     "sourceId": "osm_339699698"
   },
   {
     "id": "qtrady",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Acklam",
+    "address": "Ainsty View, YO17 9RG, Acklam, United Kingdom",
     "lat": 54.0453556,
     "lon": -0.8051139,
     "sourceId": "osm_340958675"
@@ -978,31 +978,31 @@
   {
     "id": "svcgxz",
     "name": "Swap Box",
-    "address": null,
+    "address": "West Street, GL12 8UQ, Tytherington, United Kingdom",
     "lat": 51.5924677,
     "lon": -2.48039,
     "sourceId": "osm_341195204"
   },
   {
     "id": "euimze",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Praha",
+    "address": "Libušská 200, 14200, Praha, Česko",
     "lat": 50.0092232,
     "lon": 14.4622708,
     "sourceId": "osm_344528941"
   },
   {
     "id": "nupmzz",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Huntingdonshire",
+    "address": "The Avenue, PE28 5AW, Huntingdonshire, United Kingdom",
     "lat": 52.3659793,
     "lon": -0.3671538,
     "sourceId": "osm_344751760"
   },
   {
     "id": "fvxlko",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Huntingdonshire",
+    "address": "PE28 0TN, Huntingdonshire, United Kingdom",
     "lat": 52.3255256,
     "lon": -0.3748433,
     "sourceId": "osm_344766437"
@@ -1010,23 +1010,23 @@
   {
     "id": "kfhvwz",
     "name": "Alvechurch Community Book Exchange",
-    "address": null,
+    "address": "Bear Hill, B48 7RG, Bromsgrove, United Kingdom",
     "lat": 52.3515822,
     "lon": -1.960053,
     "sourceId": "osm_346345269"
   },
   {
     "id": "tjmifh",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Huntingdon",
+    "address": "Brookside, PE28 0QF, Huntingdon, United Kingdom",
     "lat": 52.3703815,
     "lon": -0.4234835,
     "sourceId": "osm_346426302"
   },
   {
     "id": "tfsgwq",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Treffiagat",
+    "address": "29730, Treffiagat, France",
     "lat": 47.7925135,
     "lon": -4.2721844,
     "sourceId": "osm_347500001"
@@ -1034,23 +1034,23 @@
   {
     "id": "vaxjtm",
     "name": "Sandy Lane Book Swap",
-    "address": null,
+    "address": "Hopefield Road, WA13 9HU, Lymm, United Kingdom",
     "lat": 53.3852143,
     "lon": -2.4553357,
     "sourceId": "osm_348777755"
   },
   {
     "id": "wshqnz",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Treffiagat",
+    "address": "29730, Treffiagat, France",
     "lat": 47.8079159,
     "lon": -4.2626921,
     "sourceId": "osm_351542954"
   },
   {
     "id": "spjymf",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Tendring",
+    "address": "Rectory Road, CO7 8SL, Tendring, United Kingdom",
     "lat": 51.8903777,
     "lon": 1.0748543,
     "sourceId": "osm_353365641"
@@ -1058,55 +1058,55 @@
   {
     "id": "xorfwm",
     "name": "Defibrillator/Bookswap",
-    "address": null,
+    "address": "Denham Lane, PR6 8PR, Chorley, United Kingdom",
     "lat": 53.7041483,
     "lon": -2.6139706,
     "sourceId": "osm_354693647"
   },
   {
     "id": "whayjg",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Thornhaugh",
+    "address": "PE8 6HN, Thornhaugh, United Kingdom",
     "lat": 52.5918101,
     "lon": -0.4259534,
     "sourceId": "osm_354906141"
   },
   {
     "id": "ehauxj",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Feigères",
+    "address": "Route de Présilly, 74160, Feigères, France",
     "lat": 46.110909,
     "lon": 6.0798083,
     "sourceId": "osm_356892908"
   },
   {
     "id": "yuclbq",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Whitstable",
+    "address": "Island Wall 92, CT5 1EL, Whitstable, United Kingdom",
     "lat": 51.3576027,
     "lon": 1.0201905,
     "sourceId": "osm_357875253"
   },
   {
     "id": "sfkuhs",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Plésidy",
+    "address": "22720, Plésidy, France",
     "lat": 48.4476647,
     "lon": -3.1203927,
     "sourceId": "osm_357950921"
   },
   {
     "id": "pjlxko",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Whitstable",
+    "address": "CT5 2FB, Whitstable, United Kingdom",
     "lat": 51.3637302,
     "lon": 1.0329643,
     "sourceId": "osm_358024254"
   },
   {
     "id": "mzirgu",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Stockcross",
+    "address": "Ermin Street, RG20 8LJ, Stockcross, United Kingdom",
     "lat": 51.4146692,
     "lon": -1.3756158,
     "sourceId": "osm_358549603"
@@ -1114,23 +1114,23 @@
   {
     "id": "mgnvcv",
     "name": "Butterow Book Exchange",
-    "address": null,
+    "address": "Rodborough Lane, GL5 2LN, Stroud, United Kingdom",
     "lat": 51.7351142,
     "lon": -2.209904,
     "sourceId": "osm_360347535"
   },
   {
     "id": "ghdvcg",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Wilmslow",
+    "address": "Altrincham Road, SK9 4JE, Wilmslow, United Kingdom",
     "lat": 53.3481541,
     "lon": -2.2436194,
     "sourceId": "osm_360683580"
   },
   {
     "id": "iapnag",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Folkestone and Hythe",
+    "address": "Swan Lane, TN25 6HB, Folkestone and Hythe, United Kingdom",
     "lat": 51.1077376,
     "lon": 1.0159843,
     "sourceId": "osm_362442988"
@@ -1138,39 +1138,39 @@
   {
     "id": "dmekmr",
     "name": "Schmökerbude",
-    "address": null,
+    "address": "Nansenstraße, 47906, Kempen, Deutschland",
     "lat": 51.3702317,
     "lon": 6.4113836,
     "sourceId": "osm_364382846"
   },
   {
     "id": "qqkshf",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Malvern Hills",
+    "address": "WR2 4TE, Malvern Hills, United Kingdom",
     "lat": 52.1433006,
     "lon": -2.2426774,
     "sourceId": "osm_365159848"
   },
   {
     "id": "novqzq",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Praha",
+    "address": "Dolnoměcholupská 168/37, 11101, Praha, Česko",
     "lat": 50.0587183,
     "lon": 14.5575493,
     "sourceId": "osm_366964632"
   },
   {
     "id": "bgeprj",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Montreux",
+    "address": "1822, Montreux, Schweiz/Suisse/Svizzera/Svizra",
     "lat": 46.4331835,
     "lon": 6.9155068,
     "sourceId": "osm_367660337"
   },
   {
     "id": "zgaebx",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Basingstoke and Deane",
+    "address": "Basingstoke and Deane, United Kingdom",
     "lat": 51.2761216,
     "lon": -1.1526038,
     "sourceId": "osm_368339059"
@@ -1178,15 +1178,15 @@
   {
     "id": "wfqglk",
     "name": "Public Bookshelf",
-    "address": null,
+    "address": "United Kingdom",
     "lat": 54.5137983,
     "lon": -1.2793403,
     "sourceId": "osm_368375138"
   },
   {
     "id": "tolgsh",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Unterhaching",
+    "address": "Rathausplatz 5, 82008, Unterhaching, Deutschland",
     "lat": 48.0658775,
     "lon": 11.610183,
     "sourceId": "osm_369818916"
@@ -1194,7 +1194,7 @@
   {
     "id": "ziixbs",
     "name": "K6 Book Exchange",
-    "address": null,
+    "address": "Oakhill Road, S18 2EF, North East Derbyshire, United Kingdom",
     "lat": 53.3087208,
     "lon": -1.4512555,
     "sourceId": "osm_370136564"
@@ -1202,79 +1202,79 @@
   {
     "id": "aseslu",
     "name": "Public Bookshelf",
-    "address": null,
+    "address": "United Kingdom",
     "lat": 51.153768,
     "lon": -3.3041234,
     "sourceId": "osm_370530439"
   },
   {
     "id": "crdpsw",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Bradford",
+    "address": "Long Lane, BD16 1BZ, Bradford, United Kingdom",
     "lat": 53.841265,
     "lon": -1.8712956,
     "sourceId": "osm_371394994"
   },
   {
     "id": "fjebwi",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Wychavon",
+    "address": "Cheltenham Road, GL20 8GF, Wychavon, United Kingdom",
     "lat": 52.0193763,
     "lon": -2.0957775,
     "sourceId": "osm_371551662"
   },
   {
     "id": "ohxfra",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Barrow",
+    "address": "Brittons Road, IP29 5AF, Barrow, United Kingdom",
     "lat": 52.2408801,
     "lon": 0.5830977,
     "sourceId": "osm_371659237"
   },
   {
     "id": "dqznig",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Wychavon",
+    "address": "Elmley Road, WR11 7SN, Wychavon, United Kingdom",
     "lat": 52.0388511,
     "lon": -2.004984,
     "sourceId": "osm_372597555"
   },
   {
     "id": "hdukyi",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf West Oxfordshire",
+    "address": "OX29 8NG, West Oxfordshire, United Kingdom",
     "lat": 51.8405084,
     "lon": -1.401306,
     "sourceId": "osm_373103345"
   },
   {
     "id": "pigpjr",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Montreux",
+    "address": "Chemin de Rossillon, 1822, Montreux, Schweiz/Suisse/Svizzera/Svizra",
     "lat": 46.4398667,
     "lon": 6.9127913,
     "sourceId": "osm_374340544"
   },
   {
     "id": "vglcmf",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf York",
+    "address": "Skelton Road, YO51 9BZ, York, United Kingdom",
     "lat": 54.0995821,
     "lon": -1.406386,
     "sourceId": "osm_375931358"
   },
   {
     "id": "fpovhu",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Berlin",
+    "address": "Berlin, Deutschland",
     "lat": 52.4480154,
     "lon": 13.305755,
     "sourceId": "osm_379523274"
   },
   {
     "id": "ssohea",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Basingstoke and Deane",
+    "address": "Basingstoke and Deane, United Kingdom",
     "lat": 51.2233862,
     "lon": -1.1141059,
     "sourceId": "osm_381657787"
