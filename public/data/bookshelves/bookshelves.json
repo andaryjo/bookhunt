@@ -54,5 +54,12 @@
     "address": "Sieringstraße 44, 65929 Frankfurt am Main",
     "lat": 50.111127,
     "lon": 8.544542
+  },
+  {
+    "id": "ewjhgw",
+    "name": "Bibliothek inovex Karlsruhe Park-Plaza",
+    "address": "inovex GmbH, Ludwig-Erhard-Allee 6, 76131 Karlsruhe",
+    "lat": 49.004835,
+    "lon": 8.41626
   }
 ]
