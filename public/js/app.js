@@ -73,9 +73,6 @@ const submitBtn = document.getElementById("submitBtn");
 async function init() {
   console.log("Initializing app...");
 
-  // 7. Check if location permission is already granted
-  checkLocationPermission();
-
   // 1. Load Data FIRST
   if (loadingOverlay) loadingOverlay.classList.remove("hidden");
   try {
@@ -127,6 +124,9 @@ async function init() {
     console.log("Hash changed, routing...");
     handleRouting();
   });
+
+  // 6. Check/refresh location in background after initial setup has finished
+  checkLocationPermission();
 }
 
 async function loadData(forceNetwork = false) {
@@ -376,22 +376,39 @@ async function requestUserLocation(silent = false) {
 }
 
 async function checkLocationPermission() {
-  if (!navigator.permissions || !navigator.permissions.query) return;
+  let shouldRefresh = false;
 
-  try {
-    const result = await navigator.permissions.query({ name: "geolocation" });
-    if (result.state === "granted") {
-      console.log(
-        "Location permission already granted, fetching in background...",
-      );
-      requestUserLocation(true);
-    } else if (result.state === "denied") {
-      // If denied, we should probably not pretend it's shared even if we have a cache?
-      // Actually, let's keep the cache if it's already there, but maybe the prompt should reappear?
-      // For now, let's just stay silent.
+  if (navigator.permissions && navigator.permissions.query) {
+    try {
+      const result = await navigator.permissions.query({ name: "geolocation" });
+      if (result.state === "granted") {
+        shouldRefresh = true;
+      } else if (result.state === "prompt") {
+        // If state is prompt, but we already have a cached location, we can try to refresh.
+        // On some browsers, the silent update will succeed if the permission was actually
+        // remembered, or fail silently without prompt if blocked/unsupported on page load.
+        if (isLocationShared) {
+          shouldRefresh = true;
+        }
+      }
+    } catch (e) {
+      console.warn("Permissions API check failed for geolocation:", e);
+      // Fallback: If permissions.query failed/threw (common on Firefox for Android), 
+      // but we already have a cached location, we should attempt to refresh.
+      if (isLocationShared) {
+        shouldRefresh = true;
+      }
     }
-  } catch (e) {
-    console.warn("Permissions API check failed for geolocation:", e);
+  } else if (isLocationShared) {
+    // Fallback: No Permissions API at all, but we have a cached location
+    shouldRefresh = true;
+  }
+
+  if (shouldRefresh) {
+    console.log(
+      "Location permission is granted or cached location exists, updating in background...",
+    );
+    requestUserLocation(true);
   }
 }
 
