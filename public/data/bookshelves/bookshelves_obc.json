@@ -122945,10 +122945,218 @@
   },
   {
     "id": "ogmpyy",
-    "name": "Balingen Eyach",
-    "address": "",
+    "name": "Bücherschrank Stadtpark Balingen",
+    "address": "Hindenburgstraße 40, 72336 Balingen",
     "lat": 48.278403,
     "lon": 8.854321,
     "sourceId": "obc_17199"
+  },
+  {
+    "id": "zpibza",
+    "name": "Bücherzelle Ostdorf",
+    "address": "Rathausstraße 4, 72336 Balingen-Ostdorf",
+    "lat": 48.301295,
+    "lon": 8.84246,
+    "sourceId": "obc_17200"
+  },
+  {
+    "id": "krmqfp",
+    "name": "Bücherschrank Starzeln",
+    "address": "Beim Spielgarten 3, 72393 Burladingen-Starzeln",
+    "lat": 48.306606,
+    "lon": 9.062847,
+    "sourceId": "obc_17201"
+  },
+  {
+    "id": "lwaycl",
+    "name": "Book Exchange Love on King",
+    "address": "5 King St, Crestwood NSW 2620",
+    "lat": -35.343686,
+    "lon": 149.219205,
+    "sourceId": "obc_17202"
+  },
+  {
+    "id": "dnschn",
+    "name": "Book Exchange Hutchinson Collective",
+    "address": "4 Hutchison Cct, Crestwood NSW 2620",
+    "lat": -35.345594,
+    "lon": 149.213938,
+    "sourceId": "obc_17203"
+  },
+  {
+    "id": "isptgy",
+    "name": "Book Exchange Gold Stars at The Mill Cafe",
+    "address": "57 Collett St, Queanbeyan NSW 2620",
+    "lat": -35.350827,
+    "lon": 149.235342,
+    "sourceId": "obc_17204"
+  },
+  {
+    "id": "hltivo",
+    "name": "Book Exchange Campbell Street",
+    "address": "51 Campbell St, Queanbeyan NSW 2620",
+    "lat": -35.351081,
+    "lon": 149.229398,
+    "sourceId": "obc_17205"
+  },
+  {
+    "id": "urybfg",
+    "name": "Book Exchange Harlequin House",
+    "address": "28 Park St, Queanbeyan NSW 2620",
+    "lat": -35.353907,
+    "lon": 149.22648,
+    "sourceId": "obc_17206"
+  },
+  {
+    "id": "ehybgq",
+    "name": "Book Exchange St Gregory’s Parish",
+    "address": "47 Lowe St, Queanbeyan NSW 2620",
+    "lat": -35.355159,
+    "lon": 149.232477,
+    "sourceId": "obc_17207"
+  },
+  {
+    "id": "fdkgms",
+    "name": "Book Exchange Opal Street",
+    "address": "2 Opal St, Banks ACT 2906",
+    "lat": -35.471444,
+    "lon": 149.094118,
+    "sourceId": "obc_17208"
+  },
+  {
+    "id": "ffefob",
+    "name": "Book Exchange Wiburd Street",
+    "address": "6 Wiburd St, Banks ACT 2906",
+    "lat": -35.467046,
+    "lon": 149.100587,
+    "sourceId": "obc_17209"
+  },
+  {
+    "id": "fuinex",
+    "name": "Book Exchange Stace Place",
+    "address": "1 Stace Pl, Gordon ACT 2906",
+    "lat": -35.464873,
+    "lon": 149.086168,
+    "sourceId": "obc_17210"
+  },
+  {
+    "id": "ncsjvd",
+    "name": "Book Exchange Sherwood Circuit",
+    "address": "12 Sherwood Cct, Gordon ACT 2906",
+    "lat": -35.461404,
+    "lon": 149.089129,
+    "sourceId": "obc_17211"
+  },
+  {
+    "id": "xxgydc",
+    "name": "Book Exchange Richardson Circuit",
+    "address": "4 Richardson Cct, Conder ACT 2906",
+    "lat": -35.455706,
+    "lon": 149.094279,
+    "sourceId": "obc_17212"
+  },
+  {
+    "id": "fkhwmu",
+    "name": "Book Exchange We Love Lanyon",
+    "address": "110 Lewis Luxton Ave, Gordon ACT 2906",
+    "lat": -35.450078,
+    "lon": 149.084044,
+    "sourceId": "obc_17213"
+  },
+  {
+    "id": "adudua",
+    "name": "Book Exchange Akhurst Grove",
+    "address": "12 Akhurst Grove, Gordon ACT 2906, Australien",
+    "lat": -35.441136,
+    "lon": 149.081657,
+    "sourceId": "obc_17214"
+  },
+  {
+    "id": "cybgig",
+    "name": "Book Exchange Calwell Reserve",
+    "address": "31 O&#39;Connor Cct, Calwell ACT 2905",
+    "lat": -35.443767,
+    "lon": 149.112389,
+    "sourceId": "obc_17215"
+  },
+  {
+    "id": "tencus",
+    "name": "Book Exchange Hadleigh Circuit",
+    "address": "61 Hadleigh Cct, Isabella Plains ACT 2905",
+    "lat": -35.431442,
+    "lon": 149.103087,
+    "sourceId": "obc_17216"
+  },
+  {
+    "id": "csgqrx",
+    "name": "Book Exchange Little Yellow Cupboard",
+    "address": "9 Benjee Pl, Isabella Plains ACT 2905",
+    "lat": -35.429877,
+    "lon": 149.090931,
+    "sourceId": "obc_17217"
+  },
+  {
+    "id": "gnjvcy",
+    "name": "Book Exchange Bonython Primary",
+    "address": "64 Hurtle Ave, Bonython ACT 2905",
+    "lat": -35.430612,
+    "lon": 149.081951,
+    "sourceId": "obc_17218"
+  },
+  {
+    "id": "bitcdu",
+    "name": "Book Exchange The Isabella Book Tank",
+    "address": "1/89 Werriwa Cres, Isabella Plains ACT 2905",
+    "lat": -35.423224,
+    "lon": 149.100523,
+    "sourceId": "obc_17219"
+  },
+  {
+    "id": "feksjl",
+    "name": "Book Exchange Alexandria",
+    "address": "7 Armfield Pl, Chisholm ACT 2905",
+    "lat": -35.425751,
+    "lon": 149.129148,
+    "sourceId": "obc_17220"
+  },
+  {
+    "id": "fnghwv",
+    "name": "Book Exchange Lakeside Leisure",
+    "address": "Athllon Dr &, Anketell St, Greenway ACT 2900",
+    "lat": -35.411274,
+    "lon": 149.063823,
+    "sourceId": "obc_17221"
+  },
+  {
+    "id": "pzxujg",
+    "name": "Lesetelefon Petershagen/Eggersdorf",
+    "address": "Dorfstraße 66, 15370 Petershagen/Eggersdorf",
+    "lat": 52.523998,
+    "lon": 13.769917,
+    "sourceId": "obc_17222"
+  },
+  {
+    "id": "fxurdk",
+    "name": "Bücherzelle Freibad Pfaffenhofen",
+    "address": "Ingolstädter Str. 72, 85276 Pfaffenhofen an der Ilm",
+    "lat": 48.537878,
+    "lon": 11.510657,
+    "sourceId": "obc_17223"
+  },
+  {
+    "id": "vaffvi",
+    "name": "Bücherzelle Reinsdorf",
+    "address": "Gabelsbergerstraße 8, 08141 Reinsdorf",
+    "lat": 50.693427,
+    "lon": 12.572951,
+    "sourceId": "obc_17224"
+  },
+  {
+    "id": "rqoavs",
+    "name": "Öffentlicher Bücherschrank Ennigerloh",
+    "address": "Liebfrauenstr. 6, 59320 Ennigerloh",
+    "lat": 8.0186341,
+    "lon": 51.8365599,
+    "sourceId": "obc_17225"
   }
 ]
