@@ -9,6 +9,15 @@
     content="Explore and contribute to public bookshelves (Bücherschränke) on an interactive map. Discover books spotted around the world." />
   <link rel="icon" href="favicon.ico" />
 
+  <!-- PWA & Mobile Optimization -->
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#37746e" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Bookhunt" />
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -134,6 +143,29 @@
   <!-- App -->
   <script src="js/utils.js"></script>
   <script src="js/app.js"></script>
+
+  <!-- Floating Offline Indicator -->
+  <div id="offlineIndicator" class="offline-indicator hidden">
+    <i data-lucide="wifi-off"></i>
+    <span>Offline Mode — Using Cached Data</span>
+  </div>
+
+  <!-- Service Worker Registration -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('sw.js')
+          .then(reg => {
+            console.log('[PWA] Service Worker registered with scope:', reg.scope);
+            // Check network status initially to sync indicator
+            if (typeof triggerOfflineIndicator === 'function') {
+              triggerOfflineIndicator(!navigator.onLine);
+            }
+          })
+          .catch(err => console.error('[PWA] Service Worker registration failed:', err));
+      });
+    }
+  </script>
 </body>
 
 </html>

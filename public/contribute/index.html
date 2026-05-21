@@ -7,6 +7,15 @@
   <title>Contribute | Bookhunt</title>
   <meta name="description" content="Add a new public bookshelf to the Bookhunt map." />
 
+  <!-- PWA & Mobile Optimization -->
+  <link rel="manifest" href="../manifest.json" />
+  <meta name="theme-color" content="#37746e" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Bookhunt" />
+  <link class="pwa-icon" rel="apple-touch-icon" href="../images/apple-touch-icon.png" />
+
+
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -171,6 +180,87 @@
 
   <!-- Contribute flow -->
   <script src="../js/contribute.js"></script>
+
+  <!-- Floating Offline Indicator -->
+  <div id="offlineIndicator" class="offline-indicator hidden">
+    <i data-lucide="wifi-off"></i>
+    <span>Offline Mode — Using Cached Data</span>
+  </div>
+
+  <!-- Service Worker & Offline UI Logic -->
+  <script>
+    function triggerOfflineIndicator(isOffline) {
+      const indicator = document.getElementById("offlineIndicator");
+      if (!indicator) return;
+
+      if (isOffline || !navigator.onLine) {
+        indicator.classList.remove("hidden");
+        indicator.classList.add("visible");
+        
+        // Disable contribution UI
+        const submitBtn = document.getElementById("submitPrBtn");
+        if (submitBtn) {
+          submitBtn.disabled = true;
+          submitBtn.innerText = "Offline Mode";
+        }
+        const prStatus = document.getElementById("prStatus");
+        if (prStatus && !prStatus.innerHTML.includes("success")) {
+          prStatus.innerHTML = "<div class='offline-warning' style='color: #fbbf24; font-weight: 500;'>Offline Mode — Photo uploads are disabled until your connection is restored.</div>";
+          prStatus.className = "pr-status info";
+        }
+        const dropZone = document.getElementById("contributeDropZone");
+        if (dropZone) {
+          dropZone.style.opacity = "0.5";
+          dropZone.style.pointerEvents = "none";
+        }
+      } else {
+        indicator.classList.remove("visible");
+        indicator.classList.add("hidden");
+        
+        // Enable contribution UI back
+        const submitBtn = document.getElementById("submitPrBtn");
+        if (submitBtn) {
+          submitBtn.innerText = "Submit Photos";
+          if (typeof updateSubmitBtn === 'function') {
+            updateSubmitBtn();
+          } else {
+            submitBtn.disabled = true;
+          }
+        }
+        const prStatus = document.getElementById("prStatus");
+        if (prStatus && prStatus.querySelector(".offline-warning")) {
+          prStatus.innerHTML = "";
+          prStatus.className = "pr-status";
+        }
+        const dropZone = document.getElementById("contributeDropZone");
+        if (dropZone) {
+          dropZone.style.opacity = "1";
+          dropZone.style.pointerEvents = "auto";
+        }
+      }
+    }
+
+    // Watch network status changes
+    window.addEventListener("online", () => triggerOfflineIndicator(false));
+    window.addEventListener("offline", () => triggerOfflineIndicator(true));
+
+    // Register Service Worker
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('../sw.js')
+          .then(reg => {
+            console.log('[PWA] Service Worker registered from contribute scope:', reg.scope);
+            triggerOfflineIndicator(!navigator.onLine);
+          })
+          .catch(err => console.error('[PWA] Service Worker registration failed:', err));
+      });
+    } else {
+      // Fallback check on load
+      document.addEventListener("DOMContentLoaded", () => {
+        triggerOfflineIndicator(!navigator.onLine);
+      });
+    }
+  </script>
 </body>
 
 </html>

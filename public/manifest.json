@@ -1,0 +1,30 @@
+{
+  "name": "Bookhunt",
+  "short_name": "Bookhunt",
+  "description": "Discover and search public bookshelves near you",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#0f111a",
+  "theme_color": "#37746e",
+  "orientation": "portrait-primary",
+  "scope": "./",
+  "categories": ["books", "reference", "utilities"],
+  "icons": [
+    {
+      "src": "images/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icon-192-maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

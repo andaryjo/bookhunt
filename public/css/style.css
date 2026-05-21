@@ -1268,3 +1268,62 @@ body:not(.is-map-view):not(.is-shelf-view) .sidebar {
 .load-more-btn:active {
   transform: translateY(0);
 }
+
+/* ============================================================
+   Offline Mode Indicator (PWA)
+============================================================ */
+.offline-indicator {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%) translateY(100px);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1.25rem;
+  background: rgba(245, 158, 11, 0.12); /* soft amber background */
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(245, 158, 11, 0.25);
+  border-radius: 50px;
+  color: #fbbf24; /* soft amber text */
+  font-size: 0.85rem;
+  font-weight: 600;
+  box-shadow: 
+    0 10px 30px -10px rgba(0, 0, 0, 0.7),
+    0 0 15px rgba(245, 158, 11, 0.1);
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.4s ease;
+  pointer-events: none;
+  opacity: 0;
+  letter-spacing: -0.2px;
+}
+
+.offline-indicator.visible {
+  transform: translateX(-50%) translateY(0);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.offline-indicator.hidden {
+  display: none !important;
+}
+
+.offline-indicator svg {
+  color: #fbbf24;
+  animation: pulseWifi 2s infinite ease-in-out;
+  width: 16px;
+  height: 16px;
+}
+
+@keyframes pulseWifi {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.5;
+    transform: scale(0.9);
+  }
+}
+

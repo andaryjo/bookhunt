@@ -152,19 +152,39 @@ async function loadData(forceNetwork = false) {
     }
 
     console.log(`[Network] Fetching ${url}`);
-    const res = await fetch(url);
-    if (!res.ok) throw new Error(`HTTP Error: ${res.status} for ${url}`);
-    const data = await res.json();
+    try {
+      const res = await fetch(url);
+      if (!res.ok) throw new Error(`HTTP Error: ${res.status} for ${url}`);
+      const data = await res.json();
 
-    if (window.caches) {
-      try {
-        const cache = await caches.open(CACHE_NAME);
-        await cache.put(url, new Response(JSON.stringify(data)));
-      } catch (e) {
-        console.warn("Failed to update cache", e);
+      if (window.caches) {
+        try {
+          const cache = await caches.open(CACHE_NAME);
+          await cache.put(url, new Response(JSON.stringify(data)));
+        } catch (e) {
+          console.warn("Failed to update cache", e);
+        }
       }
+      return data;
+    } catch (fetchError) {
+      console.warn(`[Network] Fetch failed for ${url}. Trying cache fallback...`, fetchError);
+      
+      if (window.caches) {
+        try {
+          const cache = await caches.open(CACHE_NAME);
+          const cachedResponse = await cache.match(url);
+          if (cachedResponse) {
+            console.log(`[Cache Fallback] Loaded cached copy of ${url} due to offline state`);
+            // Trigger offline visual status update
+            triggerOfflineIndicator(true);
+            return cachedResponse.json();
+          }
+        } catch (cacheError) {
+          console.error("Cache access failed during offline fallback", cacheError);
+        }
+      }
+      throw fetchError;
     }
-    return data;
   }
 
   const [manifest, allBooks] = await Promise.all([
@@ -798,3 +818,29 @@ async function handleRouting() {
 
 // Start app
 document.addEventListener("DOMContentLoaded", init);
+
+// Dynamic Offline Status Management
+function triggerOfflineIndicator(isOffline) {
+  const indicator = document.getElementById("offlineIndicator");
+  if (!indicator) return;
+
+  if (isOffline || !navigator.onLine) {
+    indicator.classList.remove("hidden");
+    indicator.classList.add("visible");
+  } else {
+    indicator.classList.remove("visible");
+    indicator.classList.add("hidden");
+  }
+}
+
+// Watch network status changes
+window.addEventListener("online", () => triggerOfflineIndicator(false));
+window.addEventListener("offline", () => triggerOfflineIndicator(true));
+
+// Check on initial load
+document.addEventListener("DOMContentLoaded", () => {
+  if (!navigator.onLine) {
+    triggerOfflineIndicator(true);
+  }
+});
+
