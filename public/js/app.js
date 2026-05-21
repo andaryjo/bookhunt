@@ -129,13 +129,13 @@ async function init() {
   });
 }
 
-async function loadData() {
+async function loadData(forceNetwork = false) {
   const CACHE_NAME = "bookhunt-data-v1";
   const LAST_UPDATE_KEY = "last-data-update";
   const now = Date.now();
-  const oneDay = 24 * 60 * 60 * 1000;
+  const sixHours = 6 * 60 * 60 * 1000;
   const lastUpdate = localStorage.getItem(LAST_UPDATE_KEY);
-  const isCacheValid = lastUpdate && now - parseInt(lastUpdate) < oneDay;
+  const isCacheValid = !forceNetwork && lastUpdate && now - parseInt(lastUpdate) < sixHours;
 
   async function fetchWithCache(url) {
     if (window.caches && isCacheValid) {
