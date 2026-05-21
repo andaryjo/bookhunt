@@ -181,22 +181,10 @@
   <!-- Contribute flow -->
   <script src="../js/contribute.js"></script>
 
-  <!-- Floating Offline Indicator -->
-  <div id="offlineIndicator" class="offline-indicator hidden">
-    <i data-lucide="wifi-off"></i>
-    <span>Offline Mode — Using Cached Data</span>
-  </div>
-
   <!-- Service Worker & Offline UI Logic -->
   <script>
     function triggerOfflineIndicator(isOffline) {
-      const indicator = document.getElementById("offlineIndicator");
-      if (!indicator) return;
-
       if (isOffline || !navigator.onLine) {
-        indicator.classList.remove("hidden");
-        indicator.classList.add("visible");
-        
         // Disable contribution UI
         const submitBtn = document.getElementById("submitPrBtn");
         if (submitBtn) {
@@ -214,9 +202,6 @@
           dropZone.style.pointerEvents = "none";
         }
       } else {
-        indicator.classList.remove("visible");
-        indicator.classList.add("hidden");
-        
         // Enable contribution UI back
         const submitBtn = document.getElementById("submitPrBtn");
         if (submitBtn) {

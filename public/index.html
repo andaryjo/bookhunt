@@ -144,12 +144,6 @@
   <script src="js/utils.js"></script>
   <script src="js/app.js"></script>
 
-  <!-- Floating Offline Indicator -->
-  <div id="offlineIndicator" class="offline-indicator hidden">
-    <i data-lucide="wifi-off"></i>
-    <span>Offline Mode — Using Cached Data</span>
-  </div>
-
   <!-- Service Worker Registration -->
   <script>
     if ('serviceWorker' in navigator) {
@@ -157,10 +151,6 @@
         navigator.serviceWorker.register('sw.js')
           .then(reg => {
             console.log('[PWA] Service Worker registered with scope:', reg.scope);
-            // Check network status initially to sync indicator
-            if (typeof triggerOfflineIndicator === 'function') {
-              triggerOfflineIndicator(!navigator.onLine);
-            }
           })
           .catch(err => console.error('[PWA] Service Worker registration failed:', err));
       });

@@ -175,8 +175,6 @@ async function loadData(forceNetwork = false) {
           const cachedResponse = await cache.match(url);
           if (cachedResponse) {
             console.log(`[Cache Fallback] Loaded cached copy of ${url} due to offline state`);
-            // Trigger offline visual status update
-            triggerOfflineIndicator(true);
             return cachedResponse.json();
           }
         } catch (cacheError) {
@@ -819,28 +817,4 @@ async function handleRouting() {
 // Start app
 document.addEventListener("DOMContentLoaded", init);
 
-// Dynamic Offline Status Management
-function triggerOfflineIndicator(isOffline) {
-  const indicator = document.getElementById("offlineIndicator");
-  if (!indicator) return;
-
-  if (isOffline || !navigator.onLine) {
-    indicator.classList.remove("hidden");
-    indicator.classList.add("visible");
-  } else {
-    indicator.classList.remove("visible");
-    indicator.classList.add("hidden");
-  }
-}
-
-// Watch network status changes
-window.addEventListener("online", () => triggerOfflineIndicator(false));
-window.addEventListener("offline", () => triggerOfflineIndicator(true));
-
-// Check on initial load
-document.addEventListener("DOMContentLoaded", () => {
-  if (!navigator.onLine) {
-    triggerOfflineIndicator(true);
-  }
-});
 
