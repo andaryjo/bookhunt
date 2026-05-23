@@ -54,5 +54,12 @@
     "address": "Sieringstraße 44, 65929 Frankfurt am Main",
     "lat": 50.111127,
     "lon": 8.544542
+  },
+  {
+    "id": "lmcgkt",
+    "name": "Bookshelves Cocktailbar L'Épicier Paris",
+    "address": "L'Épicier, 24 Rue Notre Dame de Nazareth, 75003 Paris, Frankreich",
+    "lat": 48.867235,
+    "lon": 2.359945
   }
 ]
