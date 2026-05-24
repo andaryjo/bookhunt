@@ -50,7 +50,8 @@
             transparent 50%
           );
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+        justify-content: flex-start;
         align-items: center;
         min-height: 100vh;
         margin: 0;
@@ -60,15 +61,15 @@
       }
 
       .contribute-container {
-        max-width: 600px;
         width: 100%;
-        background: var(--bg-surface);
-        backdrop-filter: blur(16px);
-        -webkit-backdrop-filter: blur(16px);
-        border-radius: 1.25rem;
-        padding: 2.5rem;
-        border: 1px solid var(--border-color);
-        box-shadow: var(--glass-shadow);
+        margin: auto;
+        padding: 1rem 0;
+      }
+
+      @media (min-width: 768px) {
+        .contribute-container {
+          width: 70%;
+        }
       }
 
       .back-link {
@@ -378,7 +379,7 @@
   </head>
 
   <body>
-    <div>
+    <div class="contribute-container">
       <a href="../" class="back-link">
         <i data-lucide="arrow-left"></i> Back to the books
       </a>
