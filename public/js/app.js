@@ -477,6 +477,11 @@ function showBookshelfDetails(shelf, updateUrl = true, requestedId = null) {
   shelfName.textContent = shelf.name;
   shelfDesc.textContent = shelf.address || shelf.description || "";
 
+  const contributeNavBtn = document.getElementById("contributeNavBtn");
+  if (contributeNavBtn) {
+    contributeNavBtn.href = `contribute/?shelfId=${encodeURIComponent(requestedId || shelf.id)}`;
+  }
+
   // Google Maps link
   const mapsLink = document.getElementById("shelfMapsLink");
   if (mapsLink) {
@@ -768,6 +773,11 @@ async function handleRouting() {
   mapViewBtn.classList.remove("hidden");
   shelfSidebar.classList.add("hidden");
   startPage.classList.add("hidden");
+
+  const contributeNavBtn = document.getElementById("contributeNavBtn");
+  if (contributeNavBtn) {
+    contributeNavBtn.href = "contribute/";
+  }
 
   if (hash.startsWith("#/shelf/") || hash.startsWith("#/map/shelf/")) {
     const parts = hash.split("/");

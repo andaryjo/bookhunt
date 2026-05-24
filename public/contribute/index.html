@@ -1,300 +1,610 @@
 <!doctype html>
 <html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contribute | Bookhunt</title>
+    <meta
+      name="description"
+      content="Add a new public bookshelf to the Bookhunt map."
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contribute | Bookhunt</title>
-  <meta name="description" content="Add a new public bookshelf to the Bookhunt map." />
+    <!-- PWA & Mobile Optimization -->
+    <link rel="manifest" href="../manifest.json" />
+    <meta name="theme-color" content="#37746e" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta name="apple-mobile-web-app-title" content="Bookhunt" />
+    <link
+      class="pwa-icon"
+      rel="apple-touch-icon"
+      href="../images/apple-touch-icon.png"
+    />
 
-  <!-- PWA & Mobile Optimization -->
-  <link rel="manifest" href="../manifest.json" />
-  <meta name="theme-color" content="#37746e" />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <meta name="apple-mobile-web-app-title" content="Bookhunt" />
-  <link class="pwa-icon" rel="apple-touch-icon" href="../images/apple-touch-icon.png" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
+    <!-- PicoCSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"
+    />
 
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <style>
+      body {
+        background: var(--bg-main);
+        background-image:
+          radial-gradient(at 0% 0%, rgba(0, 77, 64, 0.15) 0px, transparent 50%),
+          radial-gradient(
+            at 100% 100%,
+            rgba(38, 166, 154, 0.1) 0px,
+            transparent 50%
+          );
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+        padding: 20px;
+        overflow-y: auto;
+        font-family: var(--font-family);
+      }
 
-  <!-- PicoCSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" />
+      .contribute-container {
+        max-width: 600px;
+        width: 100%;
+        background: var(--bg-surface);
+        backdrop-filter: blur(16px);
+        -webkit-backdrop-filter: blur(16px);
+        border-radius: 1.25rem;
+        padding: 2.5rem;
+        border: 1px solid var(--border-color);
+        box-shadow: var(--glass-shadow);
+      }
 
-  <link rel="stylesheet" href="../css/style.css" />
-  <style>
-    body {
-      background: var(--bg-main);
-      background-image:
-        radial-gradient(at 0% 0%, rgba(0, 77, 64, 0.15) 0px, transparent 50%),
-        radial-gradient(at 100% 100%,
-          rgba(38, 166, 154, 0.1) 0px,
-          transparent 50%);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      margin: 0;
-      padding: 20px;
-      overflow-y: auto;
-      font-family: var(--font-family);
-    }
+      .back-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        color: var(--text-muted);
+        text-decoration: none;
+        margin-bottom: 2rem;
+        font-size: 0.9rem;
+        transition: color 0.2s;
+      }
 
-    .contribute-container {
-      max-width: 600px;
-      width: 100%;
-      background: var(--bg-surface);
-      backdrop-filter: blur(16px);
-      -webkit-backdrop-filter: blur(16px);
-      border-radius: 1.25rem;
-      padding: 2.5rem;
-      border: 1px solid var(--border-color);
-      box-shadow: var(--glass-shadow);
-    }
+      .back-link:hover {
+        color: var(--primary);
+      }
 
-    .back-link {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.5rem;
-      color: var(--text-muted);
-      text-decoration: none;
-      margin-bottom: 2rem;
-      font-size: 0.9rem;
-      transition: color 0.2s;
-    }
+      h1 {
+        margin: 0 0 1rem;
+        font-size: 1.75rem;
+        color: var(--text-main);
+        font-weight: 700;
+        letter-spacing: -0.5px;
+      }
 
-    .back-link:hover {
-      color: var(--primary);
-    }
+      .intro {
+        color: var(--text-muted);
+        margin-bottom: 2rem;
+        line-height: 1.6;
+      }
 
-    h1 {
-      margin: 0 0 1rem;
-      font-size: 1.75rem;
-      color: var(--text-main);
-      font-weight: 700;
-      letter-spacing: -0.5px;
-    }
+      /* Override modal-box styles for standalone use */
+      .file-queue {
+        max-height: none;
+        margin-bottom: 2rem;
+      }
 
-    .intro {
-      color: var(--text-muted);
-      margin-bottom: 2rem;
-      line-height: 1.6;
-    }
+      .android-notice {
+        background: rgba(38, 166, 154, 0.08);
+        border: 1px solid rgba(38, 166, 154, 0.25);
+        border-radius: 12px;
+        padding: 1rem 1.25rem;
+        margin-bottom: 2rem;
+        animation: fadeIn 0.3s ease;
+      }
 
-    /* Override modal-box styles for standalone use */
-    .file-queue {
-      max-height: none;
-      margin-bottom: 2rem;
-    }
+      .android-notice-header {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        color: var(--secondary);
+        font-weight: 600;
+        font-size: 0.95rem;
+        margin-bottom: 0.5rem;
+      }
 
-    .android-notice {
-      background: rgba(38, 166, 154, 0.08);
-      border: 1px solid rgba(38, 166, 154, 0.25);
-      border-radius: 12px;
-      padding: 1rem 1.25rem;
-      margin-bottom: 2rem;
-      animation: fadeIn 0.3s ease;
-    }
+      .android-notice-icon {
+        width: 18px;
+        height: 18px;
+        stroke-width: 2.5;
+      }
 
-    .android-notice-header {
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-      color: var(--secondary);
-      font-weight: 600;
-      font-size: 0.95rem;
-      margin-bottom: 0.5rem;
-    }
+      .android-notice p {
+        margin: 0;
+        font-size: 0.85rem;
+        color: var(--text-muted);
+        line-height: 1.5;
+      }
 
-    .android-notice-icon {
-      width: 18px;
-      height: 18px;
-      stroke-width: 2.5;
-    }
+      .android-notice p strong {
+        color: var(--text-main);
+      }
 
-    .android-notice p {
-      margin: 0;
-      font-size: 0.85rem;
-      color: var(--text-muted);
-      line-height: 1.5;
-    }
+      .gps-btn {
+        width: 100%;
+        padding: 0.5rem 0.75rem;
+        background: rgba(38, 166, 154, 0.12);
+        border: 1px solid rgba(38, 166, 154, 0.4);
+        color: var(--secondary);
+        border-radius: 8px;
+        font-size: 0.78rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        margin: 0.4rem 0 0 0;
+        text-align: center;
+      }
 
-    .android-notice p strong {
-      color: var(--text-main);
-    }
-  </style>
-</head>
+      .gps-btn:hover:not(:disabled) {
+        background: rgba(38, 166, 154, 0.22);
+        border-color: var(--secondary);
+      }
 
-<body>
-  <div>
-    <a href="../" class="back-link">
-      <i data-lucide="arrow-left"></i> Back to the books
-    </a>
+      .gps-btn:disabled {
+        opacity: 0.6;
+        cursor: not-allowed;
+      }
 
-    <h1>Contribute a bookshelf photo</h1>
-    <p class="intro">
-      You can contribute by uploading photos of a public bookshelf. Our system
-      will automatically analyze the photos and add all the books to the site.
-      For best results, take close-ups of single shelves.
-    </p>
-    <p class="intro">
-      The location gets derived from the photo metada. The EXIF metadata will be
-      removed before uploading and never leaves your device.
-      By uploading you agree to the data being made public under the <a
-        href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" target="_blank">CC BY-NC-SA 4.0</a> license.
-    </p>
+      .shelf-link-assigned {
+        color: var(--primary) !important;
+        font-weight: 600;
+        transition: opacity 0.2s;
+      }
 
-    <div id="androidExifNotice" class="android-notice hidden">
-      <div class="android-notice-header">
-        <i data-lucide="info" class="android-notice-icon"></i>
-        <span>Android Upload Tip</span>
-      </div>
-      <p>
-        Android's system Photo Picker often strips location/GPS data from photos. 
-        We have enabled <strong>File Explorer mode</strong> to help bypass this. If the picker still opens, 
-        please select <strong>"Browse"</strong> or choose the image from <strong>"Files" / "System Picker"</strong> 
-        instead of your gallery's recent list to ensure location metadata is preserved.
+      .shelf-link-assigned:hover {
+        opacity: 0.8;
+      }
+
+      .shelf-link-missing {
+        color: #f87171 !important;
+        font-weight: 600;
+        transition: opacity 0.2s;
+      }
+
+      .shelf-link-missing:hover {
+        opacity: 0.8;
+      }
+
+      .shelf-selection-trigger {
+        border-bottom: 1px dashed currentColor;
+        padding-bottom: 1px;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        display: inline-block;
+      }
+
+      .shelf-selection-trigger:hover {
+        border-bottom-style: solid;
+        filter: brightness(1.2);
+      }
+
+      .warning-yellow {
+        color: #fbbf24 !important;
+        font-weight: 600;
+      }
+
+      /* Search Popup Modal */
+      .modal-overlay {
+        position: fixed;
+        inset: 0;
+        z-index: 10000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba(0, 0, 0, 0.75);
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+        padding: 1rem;
+        animation: fadeIn 0.15s ease;
+      }
+
+      .modal-overlay.hidden {
+        display: none !important;
+      }
+
+      .modal-box {
+        background: #161924;
+        border: 1px solid var(--border-color);
+        border-radius: 18px;
+        box-shadow:
+          0 24px 64px rgba(0, 0, 0, 0.6),
+          var(--glow);
+        width: 100%;
+        max-width: 500px;
+        max-height: 85vh;
+        overflow-y: auto;
+        padding: 1.75rem;
+        animation: slideUp 0.2s ease;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .modal-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1rem;
+      }
+
+      .modal-header h2 {
+        margin: 0;
+        font-size: 1.25rem;
+        font-weight: 700;
+        background: linear-gradient(135deg, #26a69a, #004d40);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      .modal-close {
+        background: none;
+        border: none;
+        color: var(--text-muted);
+        font-size: 1.25rem;
+        cursor: pointer;
+        padding: 0.25rem 0.5rem;
+        margin: 0;
+        line-height: 1;
+        border-radius: 8px;
+        transition: background 0.2s;
+        width: auto;
+        min-width: auto;
+      }
+
+      .modal-close:hover {
+        background: rgba(255, 255, 255, 0.08);
+        color: #f87171;
+      }
+
+      .modal-intro {
+        font-size: 0.85rem;
+        color: var(--text-muted);
+        margin-bottom: 1rem;
+        line-height: 1.5;
+      }
+
+      .shelf-search-list {
+        max-height: 350px;
+        overflow-y: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        margin-top: 0.5rem;
+      }
+
+      .shelf-search-row {
+        display: flex;
+        flex-direction: column;
+        padding: 0.75rem 1rem;
+        border-radius: 10px;
+        border: 1px solid var(--border-color);
+        background: rgba(255, 255, 255, 0.02);
+        transition: all 0.15s ease;
+      }
+
+      .shelf-search-row:hover {
+        border-color: var(--secondary);
+        background: rgba(38, 166, 154, 0.05);
+      }
+
+      .shelf-search-row-title {
+        font-weight: 600;
+        font-size: 0.9rem;
+        color: var(--text-main);
+        margin-bottom: 0.15rem;
+        text-align: left;
+      }
+
+      .shelf-search-row-address {
+        font-size: 0.75rem;
+        color: var(--text-muted);
+        margin-bottom: 0.6rem;
+        text-align: left;
+      }
+
+      .shelf-search-row-actions {
+        display: flex;
+        gap: 0.5rem;
+      }
+
+      .shelf-search-btn {
+        flex: 1;
+        padding: 0.4rem 0.6rem;
+        font-size: 0.75rem;
+        font-weight: 600;
+        border-radius: 6px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        background: rgba(255, 255, 255, 0.05);
+        color: var(--text-main);
+        cursor: pointer;
+        transition: all 0.2s ease;
+        margin: 0;
+        text-align: center;
+      }
+
+      .shelf-search-btn:hover {
+        background: var(--primary);
+        border-color: var(--primary);
+        color: #fff;
+      }
+
+      .shelf-search-btn.all-btn:hover {
+        background: var(--secondary);
+        border-color: var(--secondary);
+        color: #fff;
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+
+      @keyframes slideUp {
+        from {
+          transform: translateY(16px);
+          opacity: 0;
+        }
+        to {
+          transform: translateY(0);
+          opacity: 1;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <a href="../" class="back-link">
+        <i data-lucide="arrow-left"></i> Back to the books
+      </a>
+
+      <h1>Contribute a bookshelf photo</h1>
+      <p class="intro">
+        You can contribute by uploading photos of a public bookshelf. Our system
+        will automatically analyze the photos and add all the books to the site.
+        For best results, take close-ups of single shelves. By uploading you
+        agree to the data being made public under the
+        <a
+          href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+          target="_blank"
+          >CC BY-NC-SA 4.0</a
+        >
+        license.
       </p>
-    </div>
 
-    <div id="contributeDropZone" class="upload-area">
-      <input type="file" id="contributeImageInput" accept="image/jpeg" multiple class="hidden-input" />
-      <div class="upload-area-content">
-        <i data-lucide="upload" style="
+      <div id="androidLocationPrompt" class="android-notice hidden">
+        <div class="android-notice-header">
+          <i data-lucide="info" class="android-notice-icon"></i>
+          <span>Android Photo Upload</span>
+        </div>
+        <p style="margin-bottom: 0.75rem">
+          This site tries to use photo metadata to suggest bookshelves for your
+          photos. On Android, this metadata gets automatically removed before
+          uploading photos. You can instead use your current location or
+          manually search for a bookshelf.
+        </p>
+        <button
+          type="button"
+          class="gps-btn"
+          id="enableAndroidGpsBtn"
+          style="margin: 0; padding: 0.6rem 1rem"
+        >
+          Use location
+        </button>
+      </div>
+
+      <div id="contributeDropZone" class="upload-area">
+        <input
+          type="file"
+          id="contributeImageInput"
+          accept="image/jpeg"
+          multiple
+          class="hidden-input"
+        />
+        <div class="upload-area-content">
+          <i
+            data-lucide="upload"
+            style="
               color: var(--primary);
               margin-bottom: 0.75rem;
               width: 40px;
               height: 40px;
-            "></i>
-        <p style="margin: 0; font-weight: 500">
-          Drop photos here or click to browse
-        </p>
-        <p style="
+            "
+          ></i>
+          <p style="margin: 0; font-weight: 500">
+            Drop photos here or click to browse
+          </p>
+          <p
+            style="
               margin: 0.25rem 0 0;
               font-size: 0.8rem;
               color: var(--text-muted);
-            ">
-          JPEG only · GPS EXIF required
-        </p>
+            "
+          >
+            JPEG only
+          </p>
+        </div>
+      </div>
+
+      <div id="fileQueue" class="file-queue"></div>
+
+      <button id="submitPrBtn" class="contribute-action-btn" disabled>
+        Submit Photos
+      </button>
+      <div id="prStatus" class="pr-status"></div>
+    </div>
+
+    <!-- Search Modal -->
+    <div id="shelfSearchModal" class="modal-overlay hidden">
+      <div class="modal-box">
+        <div class="modal-header">
+          <h2>Search Bookshelves</h2>
+          <button type="button" class="modal-close" id="closeSearchModalBtn">
+            ✕
+          </button>
+        </div>
+        <div class="modal-intro">
+          Search by name or address to link your photo to a bookshelf.
+        </div>
+        <input
+          type="search"
+          id="modalSearchInput"
+          placeholder="Type name or address…"
+          style="
+            width: 100%;
+            margin-bottom: 0.5rem;
+            padding: 0.65rem 1rem;
+            border-radius: 10px;
+            background: rgba(0, 0, 0, 0.3);
+            border: 1px solid var(--border-color);
+            color: var(--text-main);
+            font-size: 0.9rem;
+          "
+        />
+        <div id="modalSearchList" class="shelf-search-list"></div>
       </div>
     </div>
 
-    <div id="fileQueue" class="file-queue"></div>
+    <!-- Scripts -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Image compression -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/browser-image-compression@2.0.1/dist/browser-image-compression.js"
+    ></script>
+    <!-- EXIF reader -->
+    <script src="https://cdn.jsdelivr.net/npm/exifr/dist/lite.umd.js"></script>
+    <script src="../js/utils.js"></script>
 
-    <button id="submitPrBtn" class="contribute-action-btn" disabled>
-      Submit Photos
-    </button>
-    <div id="prStatus" class="pr-status"></div>
-  </div>
+    <script>
+      let bookshelves = [];
 
-  <!-- Scripts -->
-  <script src="https://unpkg.com/lucide@latest"></script>
-  <!-- Image compression -->
-  <script type="text/javascript"
-    src="https://cdn.jsdelivr.net/npm/browser-image-compression@2.0.1/dist/browser-image-compression.js"></script>
-  <!-- EXIF reader -->
-  <script src="https://cdn.jsdelivr.net/npm/exifr/dist/lite.umd.js"></script>
-  <script src="../js/utils.js"></script>
-
-  <script>
-    let bookshelves = [];
-
-    async function initPage() {
-      lucide.createIcons();
-      try {
-        const manifestRes = await fetch("../data/bookshelves/manifest.json");
-        if (manifestRes.ok) {
-          const manifest = await manifestRes.json();
-          const shelfPromises = manifest.map(file =>
-            fetch(`../data/bookshelves/${file}`).then(res => res.json())
-          );
-          const shelfArrays = await Promise.all(shelfPromises);
-          const allShelves = shelfArrays.flat();
-          bookshelves = clusterBookshelves(allShelves.filter((s) => s.removed !== true));
+      async function initPage() {
+        lucide.createIcons();
+        try {
+          const manifestRes = await fetch("../data/bookshelves/manifest.json");
+          if (manifestRes.ok) {
+            const manifest = await manifestRes.json();
+            const shelfPromises = manifest.map((file) =>
+              fetch(`../data/bookshelves/${file}`).then((res) => res.json()),
+            );
+            const shelfArrays = await Promise.all(shelfPromises);
+            const allShelves = shelfArrays.flat();
+            bookshelves = clusterBookshelves(
+              allShelves.filter((s) => s.removed !== true),
+            );
+          }
+        } catch (e) {
+          console.warn("Failed to load bookshelves for suggestions", e);
         }
-      } catch (e) {
-        console.warn("Failed to load bookshelves for suggestions", e);
+
+        if (typeof window.initContribute === "function") {
+          window.initContribute();
+        }
       }
 
-      if (typeof window.initContribute === "function") {
-        window.initContribute();
-      }
-    }
+      document.addEventListener("DOMContentLoaded", initPage);
+    </script>
 
-    document.addEventListener("DOMContentLoaded", initPage);
-  </script>
+    <!-- Contribute flow -->
+    <script src="../js/contribute.js"></script>
 
-  <!-- Contribute flow -->
-  <script src="../js/contribute.js"></script>
-
-  <!-- Service Worker & Offline UI Logic -->
-  <script>
-    function triggerOfflineIndicator(isOffline) {
-      if (isOffline || !navigator.onLine) {
-        // Disable contribution UI
-        const submitBtn = document.getElementById("submitPrBtn");
-        if (submitBtn) {
-          submitBtn.disabled = true;
-          submitBtn.innerText = "Offline Mode";
-        }
-        const prStatus = document.getElementById("prStatus");
-        if (prStatus && !prStatus.innerHTML.includes("success")) {
-          prStatus.innerHTML = "<div class='offline-warning' style='color: #fbbf24; font-weight: 500;'>Offline Mode — Photo uploads are disabled until your connection is restored.</div>";
-          prStatus.className = "pr-status info";
-        }
-        const dropZone = document.getElementById("contributeDropZone");
-        if (dropZone) {
-          dropZone.style.opacity = "0.5";
-          dropZone.style.pointerEvents = "none";
-        }
-      } else {
-        // Enable contribution UI back
-        const submitBtn = document.getElementById("submitPrBtn");
-        if (submitBtn) {
-          submitBtn.innerText = "Submit Photos";
-          if (typeof updateSubmitBtn === 'function') {
-            updateSubmitBtn();
-          } else {
+    <!-- Service Worker & Offline UI Logic -->
+    <script>
+      function triggerOfflineIndicator(isOffline) {
+        if (isOffline || !navigator.onLine) {
+          // Disable contribution UI
+          const submitBtn = document.getElementById("submitPrBtn");
+          if (submitBtn) {
             submitBtn.disabled = true;
+            submitBtn.innerText = "Offline Mode";
+          }
+          const prStatus = document.getElementById("prStatus");
+          if (prStatus && !prStatus.innerHTML.includes("success")) {
+            prStatus.innerHTML =
+              "<div class='offline-warning' style='color: #fbbf24; font-weight: 500;'>Offline Mode — Photo uploads are disabled until your connection is restored.</div>";
+            prStatus.className = "pr-status info";
+          }
+          const dropZone = document.getElementById("contributeDropZone");
+          if (dropZone) {
+            dropZone.style.opacity = "0.5";
+            dropZone.style.pointerEvents = "none";
+          }
+        } else {
+          // Enable contribution UI back
+          const submitBtn = document.getElementById("submitPrBtn");
+          if (submitBtn) {
+            submitBtn.innerText = "Submit Photos";
+            if (typeof updateSubmitBtn === "function") {
+              updateSubmitBtn();
+            } else {
+              submitBtn.disabled = true;
+            }
+          }
+          const prStatus = document.getElementById("prStatus");
+          if (prStatus && prStatus.querySelector(".offline-warning")) {
+            prStatus.innerHTML = "";
+            prStatus.className = "pr-status";
+          }
+          const dropZone = document.getElementById("contributeDropZone");
+          if (dropZone) {
+            dropZone.style.opacity = "1";
+            dropZone.style.pointerEvents = "auto";
           }
         }
-        const prStatus = document.getElementById("prStatus");
-        if (prStatus && prStatus.querySelector(".offline-warning")) {
-          prStatus.innerHTML = "";
-          prStatus.className = "pr-status";
-        }
-        const dropZone = document.getElementById("contributeDropZone");
-        if (dropZone) {
-          dropZone.style.opacity = "1";
-          dropZone.style.pointerEvents = "auto";
-        }
       }
-    }
 
-    // Watch network status changes
-    window.addEventListener("online", () => triggerOfflineIndicator(false));
-    window.addEventListener("offline", () => triggerOfflineIndicator(true));
+      // Watch network status changes
+      window.addEventListener("online", () => triggerOfflineIndicator(false));
+      window.addEventListener("offline", () => triggerOfflineIndicator(true));
 
-    // Register Service Worker
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', () => {
-        navigator.serviceWorker.register('../sw.js')
-          .then(reg => {
-            console.log('[PWA] Service Worker registered from contribute scope:', reg.scope);
-            triggerOfflineIndicator(!navigator.onLine);
-          })
-          .catch(err => console.error('[PWA] Service Worker registration failed:', err));
-      });
-    } else {
-      // Fallback check on load
-      document.addEventListener("DOMContentLoaded", () => {
-        triggerOfflineIndicator(!navigator.onLine);
-      });
-    }
-  </script>
-</body>
-
+      // Register Service Worker
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+          navigator.serviceWorker
+            .register("../sw.js")
+            .then((reg) => {
+              console.log(
+                "[PWA] Service Worker registered from contribute scope:",
+                reg.scope,
+              );
+              triggerOfflineIndicator(!navigator.onLine);
+            })
+            .catch((err) =>
+              console.error("[PWA] Service Worker registration failed:", err),
+            );
+        });
+      } else {
+        // Fallback check on load
+        document.addEventListener("DOMContentLoaded", () => {
+          triggerOfflineIndicator(!navigator.onLine);
+        });
+      }
+    </script>
+  </body>
 </html>
