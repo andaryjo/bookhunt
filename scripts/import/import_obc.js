@@ -134,6 +134,7 @@ async function importObc() {
         existing.name = name;
         existing.address = address;
         existing.sourceId = sourceId; // Ensure it has the obc_ prefix sourceId
+        delete existing.removed; // Ensure it is active again if it was previously marked as removed
         
         // Keep it in the new list
         newBookshelvesList.push(existing);
@@ -151,11 +152,21 @@ async function importObc() {
       }
     });
 
+    // Mark bookshelves not in source as removed instead of deleting them
+    let removedCount = 0;
+    existingBookshelves.forEach(existing => {
+      if (!matchedExistingIds.has(existing.id)) {
+        existing.removed = true;
+        newBookshelvesList.push(existing);
+        removedCount++;
+      }
+    });
+
     console.log(`Summary:`);
     console.log(`- Total from source: ${sourceData.length}`);
     console.log(`- Kept/Updated: ${matchedExistingIds.size}`);
-    console.log(`- New added: ${newBookshelvesList.length - matchedExistingIds.size}`);
-    console.log(`- Removed (not in source): ${existingBookshelves.length - matchedExistingIds.size}`);
+    console.log(`- New added: ${newBookshelvesList.length - matchedExistingIds.size - removedCount}`);
+    console.log(`- Marked as removed (not in source): ${removedCount}`);
 
     // Ensure directory exists
     const dir = path.dirname(OUTPUT_PATH);
