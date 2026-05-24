@@ -54697,8 +54697,8 @@
   },
   {
     "id": "wgakas",
-    "name": "Alte englische Telefonzelle (rot)",
-    "address": "Wilhelmstraße 25, 58840",
+    "name": "Bücherzelle Plettenberg",
+    "address": "Wilhelmstraße 25, 58840 Plettenberg",
     "lat": 51.214495119331,
     "lon": 7.8736329451203,
     "sourceId": "obc_8132"
@@ -64658,7 +64658,7 @@
   {
     "id": "kntmwc",
     "name": "Bücherschrank Mengede Markt",
-    "address": "Rigwinstraße 34, 44359 Dortmund, Mengede Busbahnhof / Am Aldi-Parkplatz",
+    "address": "Rigwinstraße 34, 44359 Dortmund-Mengede",
     "lat": 51.570542,
     "lon": 7.383499,
     "sourceId": "obc_9551"
@@ -73694,14 +73694,6 @@
     "lat": 52.242567,
     "lon": 10.562679,
     "sourceId": "obc_10787"
-  },
-  {
-    "id": "bwxftx",
-    "name": "Bücherschrank Niederoderwitz",
-    "address": "Ecke August-Bebel-Str./Heideberg, 02791 Niederoderwitz",
-    "lat": 50.955281,
-    "lon": 14.725537,
-    "sourceId": "obc_10788"
   },
   {
     "id": "bbykiu",
@@ -123158,5 +123150,198 @@
     "lat": 8.0186341,
     "lon": 51.8365599,
     "sourceId": "obc_17225"
+  },
+  {
+    "id": "fzwuis",
+    "name": "Schmökerhöker Bücherbox",
+    "address": "Hauptstraße 40, 14778 Beetzsee, OT Brielow",
+    "lat": 52.460978,
+    "lon": 12.542004,
+    "sourceId": "obc_17226"
+  },
+  {
+    "id": "ibhtuh",
+    "name": "Bücherzelle Bamme",
+    "address": "Bergstraße 2, 14715 Nennhausen-Bamme",
+    "lat": 52.581807,
+    "lon": 12.433541,
+    "sourceId": "obc_17227"
+  },
+  {
+    "id": "ojnlzk",
+    "name": "Bücherzelle Nennhausen",
+    "address": "Hauptstraße 7a, 14715 Nennhausen",
+    "lat": 52.601259,
+    "lon": 12.501878,
+    "sourceId": "obc_17228"
+  },
+  {
+    "id": "pdrxow",
+    "name": "Bücherzelle Börln",
+    "address": "Ernst-Thälmann-Platz 21, 04774 Dahlen-Börln",
+    "lat": 51.379582,
+    "lon": 12.92769,
+    "sourceId": "obc_17229"
+  },
+  {
+    "id": "mcohee",
+    "name": "Bücherschrank Clausthal-Zellerfeld",
+    "address": "Kronenplatz, 38678 Clausthal-Zellerfeld",
+    "lat": 51.80694,
+    "lon": 10.336396,
+    "sourceId": "obc_17230"
+  },
+  {
+    "id": "ldinoj",
+    "name": "Bücherzelle Barnstorf",
+    "address": "Bistorfer Str. 22, 38170 Uehrde-Barnstorf",
+    "lat": 52.097598,
+    "lon": 10.807081,
+    "sourceId": "obc_17231"
+  },
+  {
+    "id": "rotavd",
+    "name": "Bücherschrank Ückerath",
+    "address": "Forsthausstraße 1, 41542 Dormagen-Ückerath",
+    "lat": 51.110225,
+    "lon": 6.752365,
+    "sourceId": "obc_17232"
+  },
+  {
+    "id": "tsexim",
+    "name": "Bücherschrank Dorfzentrum Eisingen",
+    "address": "Hauptstraße 50, 97249 Eisingen",
+    "lat": 49.759818,
+    "lon": 9.830543,
+    "sourceId": "obc_17233"
+  },
+  {
+    "id": "qnmhws",
+    "name": "Bücherzelle Campingplatz Am Freesenbruch",
+    "address": "Am Bahndamm 1, 18374 Zingst",
+    "lat": 54.440499,
+    "lon": 12.660359,
+    "sourceId": "obc_17234"
+  },
+  {
+    "id": "ltklrt",
+    "name": "Bücherzelle Zarrentin am Schaalsee",
+    "address": "Markt 4, 19246 Zarrentin am Schaalsee",
+    "lat": 53.552649,
+    "lon": 10.917674,
+    "sourceId": "obc_17235"
+  },
+  {
+    "id": "csbocn",
+    "name": "Book Exchange Hanworth Street",
+    "address": "4 Hanworth St, Amaroo ACT 2914",
+    "lat": -35.166538,
+    "lon": 149.13553,
+    "sourceId": "obc_17236"
+  },
+  {
+    "id": "rksxoo",
+    "name": "Book Exchange Harold Blair Cresent",
+    "address": "18 Harold Blair Cres, Moncrieff ACT 2914",
+    "lat": -35.158635,
+    "lon": 149.108226,
+    "sourceId": "obc_17237"
+  },
+  {
+    "id": "znqzpq",
+    "name": "Book Exchange Plimsoll Drive",
+    "address": "27 Plimsoll Dr, Casey ACT 2913",
+    "lat": -35.169315,
+    "lon": 149.095806,
+    "sourceId": "obc_17238"
+  },
+  {
+    "id": "twlbff",
+    "name": "Book Exchange Ashton Calvert Street",
+    "address": "26 Ashton Calvert St, Casey ACT 2913",
+    "lat": -35.174773,
+    "lon": 149.089097,
+    "sourceId": "obc_17239"
+  },
+  {
+    "id": "axbecg",
+    "name": "Book Exchange Arabanoo Crescent",
+    "address": "Arabanoo Crescent / 2 Walga Pl, Ngunnawal ACT 2913",
+    "lat": -35.173949,
+    "lon": 149.110748,
+    "sourceId": "obc_17240"
+  },
+  {
+    "id": "cggiqv",
+    "name": "Book Exchange Burdekin Avenue",
+    "address": "21 Burdekin Ave, Amaroo ACT 2914",
+    "lat": -35.171052,
+    "lon": 149.121073,
+    "sourceId": "obc_17241"
+  },
+  {
+    "id": "zrfesf",
+    "name": "Book Exchange Leven Street",
+    "address": "2 Leven St, Amaroo ACT 2914",
+    "lat": -35.168327,
+    "lon": 149.126455,
+    "sourceId": "obc_17242"
+  },
+  {
+    "id": "vnbmzl",
+    "name": "Book Exchange Ashbrook Street",
+    "address": "10 Ashbrook St, Amaroo ACT 2914",
+    "lat": -35.172958,
+    "lon": 149.131798,
+    "sourceId": "obc_17243"
+  },
+  {
+    "id": "dqbfsf",
+    "name": "Book Exchange Pitcairn Street",
+    "address": "47 Pitcairn St, Evatt ACT 2617",
+    "lat": -35.208468,
+    "lon": 149.070793,
+    "sourceId": "obc_17244"
+  },
+  {
+    "id": "ygfzjh",
+    "name": "Book Exchange Collins Place",
+    "address": "11 Collins Pl, Evatt ACT 2617",
+    "lat": -35.203156,
+    "lon": 149.071931,
+    "sourceId": "obc_17245"
+  },
+  {
+    "id": "hztwap",
+    "name": "Book Exchange The Hulk",
+    "address": "34 Fuhrman St, Spence ACT 2615",
+    "lat": -35.202725,
+    "lon": 149.070919,
+    "sourceId": "obc_17246"
+  },
+  {
+    "id": "avmeag",
+    "name": "Pfarrhof Elxleben",
+    "address": "Klostergasse 109 99334 Elxleben",
+    "lat": 50.866821,
+    "lon": 11.057181,
+    "sourceId": "obc_17247"
+  },
+  {
+    "id": "luwkhg",
+    "name": "BücherboXX Ostritz",
+    "address": "Markt, 02899 Ostritz",
+    "lat": 51.014956,
+    "lon": 14.933199,
+    "sourceId": "obc_17248"
+  },
+  {
+    "id": "bwxftx",
+    "name": "Bücherschrank Niederoderwitz",
+    "address": "Ecke August-Bebel-Str./Heideberg, 02791 Niederoderwitz",
+    "lat": 50.955281,
+    "lon": 14.725537,
+    "sourceId": "obc_10788",
+    "removed": true
   }
 ]
