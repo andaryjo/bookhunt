@@ -89,6 +89,42 @@
       max-height: none;
       margin-bottom: 2rem;
     }
+
+    .android-notice {
+      background: rgba(38, 166, 154, 0.08);
+      border: 1px solid rgba(38, 166, 154, 0.25);
+      border-radius: 12px;
+      padding: 1rem 1.25rem;
+      margin-bottom: 2rem;
+      animation: fadeIn 0.3s ease;
+    }
+
+    .android-notice-header {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: var(--secondary);
+      font-weight: 600;
+      font-size: 0.95rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .android-notice-icon {
+      width: 18px;
+      height: 18px;
+      stroke-width: 2.5;
+    }
+
+    .android-notice p {
+      margin: 0;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+
+    .android-notice p strong {
+      color: var(--text-main);
+    }
   </style>
 </head>
 
@@ -110,6 +146,19 @@
       By uploading you agree to the data being made public under the <a
         href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" target="_blank">CC BY-NC-SA 4.0</a> license.
     </p>
+
+    <div id="androidExifNotice" class="android-notice hidden">
+      <div class="android-notice-header">
+        <i data-lucide="info" class="android-notice-icon"></i>
+        <span>Android Upload Tip</span>
+      </div>
+      <p>
+        Android's system Photo Picker often strips location/GPS data from photos. 
+        We have enabled <strong>File Explorer mode</strong> to help bypass this. If the picker still opens, 
+        please select <strong>"Browse"</strong> or choose the image from <strong>"Files" / "System Picker"</strong> 
+        instead of your gallery's recent list to ensure location metadata is preserved.
+      </p>
+    </div>
 
     <div id="contributeDropZone" class="upload-area">
       <input type="file" id="contributeImageInput" accept="image/jpeg" multiple class="hidden-input" />

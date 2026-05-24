@@ -28,10 +28,10 @@ const prStatus = document.getElementById("prStatus");
 async function readExifGps(file) {
   try {
     if (typeof exifr === "undefined") return null;
-    
+
     // 1. Get GPS (most critical)
     const gps = await exifr.gps(file);
-    
+
     // 2. Try to get date separately
     let date = null;
     try {
@@ -40,9 +40,9 @@ async function readExifGps(file) {
     } catch (e) {
       console.warn("Could not parse date EXIF", e);
     }
-    
+
     if (!date) {
-      date = (file.lastModified ? new Date(file.lastModified) : new Date());
+      date = file.lastModified ? new Date(file.lastModified) : new Date();
     }
 
     if (gps?.latitude && gps?.longitude) {
@@ -125,7 +125,9 @@ function suggestNearestShelf(lat, lon, radiusKm = MAX_SHELF_DISTANCE_KM) {
 async function addFilesToQueue(files) {
   for (const file of files) {
     if (file.type !== "image/jpeg") {
-      alert(`File "${file.name}" is not a JPEG. Only JPEG images are accepted.`);
+      alert(
+        `File "${file.name}" is not a JPEG. Only JPEG images are accepted.`,
+      );
       continue;
     }
     const entry = {
@@ -147,7 +149,9 @@ async function processEntry(entry) {
   try {
     entry.exifGps = await readExifGps(entry.file);
     if (!entry.exifGps) {
-      throw new Error("No GPS EXIF data found. Please upload photos with location data.");
+      throw new Error(
+        "No GPS EXIF data found. Please upload photos with location data.",
+      );
     }
 
     entry.compressedBlob = await compressAndStrip(entry.file);
@@ -212,24 +216,24 @@ function updateEntryReady(entry, suggestion) {
   if (bookshelves?.length) {
     const nearbyOptions = entry.exifGps
       ? bookshelves
-        .map((s) => ({
-          ...s,
-          dist: getDistance(
-            entry.exifGps.lat,
-            entry.exifGps.lon,
-            s.lat,
-            s.lon,
-          ),
-        }))
-        .filter((s) => s.dist <= MAX_SHELF_DISTANCE_KM) // Only within valid range
-        .sort((a, b) => a.dist - b.dist)
-        .map((s) => {
-          const d =
-            s.dist < 1
-              ? `${Math.round(s.dist * 1000)}m`
-              : `${s.dist.toFixed(1)}km`;
-          return `<option value="${s.id}" ${s.id === entry.selectedShelfId ? "selected" : ""}>${s.name} (${d})</option>`;
-        })
+          .map((s) => ({
+            ...s,
+            dist: getDistance(
+              entry.exifGps.lat,
+              entry.exifGps.lon,
+              s.lat,
+              s.lon,
+            ),
+          }))
+          .filter((s) => s.dist <= MAX_SHELF_DISTANCE_KM) // Only within valid range
+          .sort((a, b) => a.dist - b.dist)
+          .map((s) => {
+            const d =
+              s.dist < 1
+                ? `${Math.round(s.dist * 1000)}m`
+                : `${s.dist.toFixed(1)}km`;
+            return `<option value="${s.id}" ${s.id === entry.selectedShelfId ? "selected" : ""}>${s.name} (${d})</option>`;
+          })
       : [];
 
     shelfPickerHtml = `
@@ -330,10 +334,10 @@ function blobToBase64(blob) {
 function formatDate(d) {
   try {
     const date = new Date(d || Date.now());
-    if (isNaN(date.getTime())) return new Date().toISOString().split('T')[0];
-    return date.toISOString().split('T')[0];
+    if (isNaN(date.getTime())) return new Date().toISOString().split("T")[0];
+    return date.toISOString().split("T")[0];
   } catch (e) {
-    return new Date().toISOString().split('T')[0];
+    return new Date().toISOString().split("T")[0];
   }
 }
 
@@ -350,10 +354,19 @@ function randomId(length) {
   return result;
 }
 
-// ---------------------------------------------------------------------------
-// Init
-// ---------------------------------------------------------------------------
 function initContribute() {
+  // Detect Android to bypass the system Photo Picker (which sometimes strips location EXIF data)
+  const isAndroid = /Android/i.test(navigator.userAgent);
+  if (isAndroid) {
+    if (contributeImageInput) {
+      contributeImageInput.removeAttribute("accept");
+    }
+    const androidExifNotice = document.getElementById("androidExifNotice");
+    if (androidExifNotice) {
+      androidExifNotice.classList.remove("hidden");
+    }
+  }
+
   // Modal open/close
   openContributeBtn?.addEventListener("click", () => {
     contributeModal?.classList.remove("hidden");
