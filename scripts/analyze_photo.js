@@ -1,14 +1,16 @@
-const fs = require('fs');
-const path = require('path');
+const fs = require("fs");
+const path = require("path");
 
 function getDistanceFromLatLonInM(lat1, lon1, lat2, lon2) {
   const R = 6371e3;
-  const dLat = (lat2 - lat1) * Math.PI / 180;
-  const dLon = (lon2 - lon1) * Math.PI / 180;
+  const dLat = ((lat2 - lat1) * Math.PI) / 180;
+  const dLon = ((lon2 - lon1) * Math.PI) / 180;
   const a =
     Math.sin(dLat / 2) * Math.sin(dLat / 2) +
-    Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
-    Math.sin(dLon / 2) * Math.sin(dLon / 2);
+    Math.cos((lat1 * Math.PI) / 180) *
+      Math.cos((lat2 * Math.PI) / 180) *
+      Math.sin(dLon / 2) *
+      Math.sin(dLon / 2);
   const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
   return R * c;
 }
@@ -18,7 +20,9 @@ async function main() {
   const imgPath = process.argv[2];
 
   if (!imgPath || !apiKey) {
-    console.error("Usage: GEMINI_API_KEY=... node scripts/analyze_photo.js <image_path>");
+    console.error(
+      "Usage: GEMINI_API_KEY=... node scripts/analyze_photo.js <image_path>",
+    );
     process.exit(1);
   }
 
@@ -26,23 +30,24 @@ async function main() {
 
   const parts = [
     {
-      text: `Look at this picture of a public bookcase. Identify all the books you can clearly see. 
+      text: `Look at this picture of a public bookcase. Identify all the books you can clearly see.
 For each book, determine the 'title' and 'author'.
 If you cannot identify a property, return "unknown" for that field (do not use null or strings like "not visible").
 If both 'title' and 'author' are "unknown" for a book, do not include it in the results.
 Return a JSON array of objects with keys 'title' and 'author'.
-Ensure your response is valid JSON.` }
+Ensure your response is valid JSON.`,
+    },
   ];
 
   let photoMeta = null;
   try {
     const fileData = fs.readFileSync(imgPath);
-    const base64Image = fileData.toString('base64');
-    let mimeType = 'image/jpeg';
+    const base64Image = fileData.toString("base64");
+    let mimeType = "image/jpeg";
     const ext = path.extname(imgPath).toLowerCase();
-    if (ext === '.png') mimeType = 'image/png';
-    else if (ext === '.webp') mimeType = 'image/webp';
-    else if (ext === '.heic') mimeType = 'image/heic';
+    if (ext === ".png") mimeType = "image/png";
+    else if (ext === ".webp") mimeType = "image/webp";
+    else if (ext === ".heic") mimeType = "image/heic";
 
     parts.push({ inlineData: { mimeType, data: base64Image } });
   } catch (err) {
@@ -51,17 +56,17 @@ Ensure your response is valid JSON.` }
   }
 
   const filename = path.basename(imgPath);
-  const baseName = filename.replace(/\.[^.]+$/, '');
-  const queueDir = path.join(__dirname, '..', 'queue');
+  const baseName = filename.replace(/\.[^.]+$/, "");
+  const queueDir = path.join(__dirname, "..", "queue");
   const jsonPath = path.join(queueDir, `${baseName}.json`);
 
-  let matchedShelfId = 'unknown';
-  let bookDate = new Date().toISOString().split('T')[0];
+  let matchedShelfId = "unknown";
+  let bookDate = new Date().toISOString().split("T")[0];
   let parsedMeta = null;
 
   if (fs.existsSync(jsonPath)) {
     try {
-      const meta = JSON.parse(fs.readFileSync(jsonPath, 'utf-8'));
+      const meta = JSON.parse(fs.readFileSync(jsonPath, "utf-8"));
       if (meta.lat != null && meta.lon != null) {
         parsedMeta = { lat: meta.lat, lon: meta.lon };
       }
@@ -71,7 +76,7 @@ Ensure your response is valid JSON.` }
       if (meta.date) {
         const d = new Date(meta.date);
         if (!isNaN(d.getTime())) {
-          bookDate = d.toISOString().split('T')[0];
+          bookDate = d.toISOString().split("T")[0];
         }
       }
       console.log(`Loaded metadata from JSON: ${JSON.stringify(meta)}`);
@@ -81,14 +86,14 @@ Ensure your response is valid JSON.` }
   }
 
   // Fallback to filename parsing if metadata is still missing
-  if (matchedShelfId === 'unknown' && !parsedMeta) {
-    const nameParts = baseName.split('_');
+  if (matchedShelfId === "unknown" && !parsedMeta) {
+    const nameParts = baseName.split("_");
     if (nameParts.length >= 3) {
       // formats: <id>_<day>_<lat>_<long> OR <id>_<day>_<bookshelf_id>
       const [id, day, part3, part4] = nameParts;
 
       // Normalize day to YYYY-MM-DD if it comes as YYYYMMDD
-      if (day.length === 8 && !day.includes('-')) {
+      if (day.length === 8 && !day.includes("-")) {
         bookDate = `${day.substring(0, 4)}-${day.substring(4, 6)}-${day.substring(6, 8)}`;
       } else {
         bookDate = day;
@@ -97,19 +102,21 @@ Ensure your response is valid JSON.` }
       if (part4 !== undefined) {
         parsedMeta = {
           lat: parseFloat(part3),
-          lon: parseFloat(part4)
+          lon: parseFloat(part4),
         };
       } else {
         matchedShelfId = part3;
       }
     } else {
       // Old format fallback: YYYYMMDD_HHMMSS_lat_lon
-      const match = filename.match(/(\d{8}_\d{6})_([-\d.]+)_([-\d.]+)\.[a-zA-Z0-9]+$/);
+      const match = filename.match(
+        /(\d{8}_\d{6})_([-\d.]+)_([-\d.]+)\.[a-zA-Z0-9]+$/,
+      );
       if (match) {
         parsedMeta = {
           timestamp: match[1],
           lat: parseFloat(match[2]),
-          lon: parseFloat(match[3])
+          lon: parseFloat(match[3]),
         };
         bookDate = `${match[1].substring(0, 4)}-${match[1].substring(4, 6)}-${match[1].substring(6, 8)}`;
       }
@@ -118,28 +125,43 @@ Ensure your response is valid JSON.` }
   photoMeta = parsedMeta;
 
   // Distance-based shelf matching (only if shelf ID wasn't in filename)
-  if (photoMeta && matchedShelfId === 'unknown') {
+  if (photoMeta && matchedShelfId === "unknown") {
     try {
-      const shelvesDir = path.join(__dirname, '..', 'public', 'data', 'bookshelves');
-      const manifestPath = path.join(shelvesDir, 'manifest.json');
+      const shelvesDir = path.join(
+        __dirname,
+        "..",
+        "public",
+        "data",
+        "bookshelves",
+      );
+      const manifestPath = path.join(shelvesDir, "manifest.json");
       let manifest = [];
       try {
-        manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
+        manifest = JSON.parse(fs.readFileSync(manifestPath, "utf8"));
       } catch (e) {
         // Fallback to reading directory if manifest missing
-        manifest = fs.readdirSync(shelvesDir).filter(f => f.endsWith('.json') && f !== 'manifest.json');
+        manifest = fs
+          .readdirSync(shelvesDir)
+          .filter((f) => f.endsWith(".json") && f !== "manifest.json");
       }
 
       let allShelves = [];
       for (const file of manifest) {
-        const content = JSON.parse(fs.readFileSync(path.join(shelvesDir, file), 'utf8'));
+        const content = JSON.parse(
+          fs.readFileSync(path.join(shelvesDir, file), "utf8"),
+        );
         allShelves = allShelves.concat(content);
       }
-      const bookshelves = allShelves.filter(s => s.removed !== true);
+      const bookshelves = allShelves.filter((s) => s.removed !== true);
       let minDistance = Infinity;
       let closestShelfId = null;
       for (const shelf of bookshelves) {
-        const dist = getDistanceFromLatLonInM(photoMeta.lat, photoMeta.lon, shelf.lat, shelf.lon);
+        const dist = getDistanceFromLatLonInM(
+          photoMeta.lat,
+          photoMeta.lon,
+          shelf.lat,
+          shelf.lon,
+        );
         if (dist < minDistance) {
           minDistance = dist;
           closestShelfId = shelf.id;
@@ -148,7 +170,7 @@ Ensure your response is valid JSON.` }
       if (minDistance <= 500) {
         matchedShelfId = closestShelfId;
       }
-    } catch (e) { }
+    } catch (e) {}
   }
 
   console.log("Image loaded. Calling Gemini API...");
@@ -157,17 +179,17 @@ Ensure your response is valid JSON.` }
     contents: [{ parts }],
     generationConfig: {
       temperature: 0.2,
-      responseMimeType: "application/json"
-    }
+      responseMimeType: "application/json",
+    },
   };
 
   let geminiOutput = [];
   try {
-    const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite-preview:generateContent?key=${apiKey}`;
+    const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite:generateContent?key=${apiKey}`;
     const apiRes = await fetch(url, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(requestBody)
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(requestBody),
     });
 
     if (!apiRes.ok) {
@@ -179,7 +201,7 @@ Ensure your response is valid JSON.` }
     const textResponse = jsonRes.candidates[0].content.parts[0].text;
     geminiOutput = JSON.parse(textResponse);
   } catch (err) {
-    if (err.message.includes('429')) {
+    if (err.message.includes("429")) {
       console.error("Quota exceeded (429). Exiting with code 42.");
       process.exit(42);
     }
@@ -189,27 +211,33 @@ Ensure your response is valid JSON.` }
 
   console.log(`Successfully extracted ${geminiOutput.length} books.`);
 
-  const dataPath = path.join(__dirname, '..', 'public', 'data', 'books.json');
+  const dataPath = path.join(__dirname, "..", "public", "data", "books.json");
   let data = [];
   try {
-    data = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
-  } catch (e) { }
+    data = JSON.parse(fs.readFileSync(dataPath, "utf8"));
+  } catch (e) {}
 
   const unknownBooks = [];
   for (const book of geminiOutput) {
-    const title = (book.title || 'unknown').toLowerCase() === 'unknown' ? 'unknown' : book.title;
-    const author = (book.author || 'unknown').toLowerCase() === 'unknown' ? 'unknown' : book.author;
+    const title =
+      (book.title || "unknown").toLowerCase() === "unknown"
+        ? "unknown"
+        : book.title;
+    const author =
+      (book.author || "unknown").toLowerCase() === "unknown"
+        ? "unknown"
+        : book.author;
 
-    if (title === 'unknown' && author === 'unknown') continue;
+    if (title === "unknown" && author === "unknown") continue;
 
     const bookEntry = {
       title: title,
       author: author,
       date: bookDate,
-      bookshelfId: matchedShelfId
+      bookshelfId: matchedShelfId,
     };
 
-    if (matchedShelfId === 'unknown') {
+    if (matchedShelfId === "unknown") {
       unknownBooks.push(bookEntry);
     } else {
       data.push(bookEntry);
@@ -219,8 +247,8 @@ Ensure your response is valid JSON.` }
   fs.writeFileSync(dataPath, JSON.stringify(data, null, 2));
 
   if (unknownBooks.length > 0) {
-    const id = baseName.split('_')[0] || 'unknown';
-    let suffix = 'unknown';
+    const id = baseName.split("_")[0] || "unknown";
+    let suffix = "unknown";
 
     if (photoMeta && photoMeta.lat && photoMeta.lon) {
       suffix = `${photoMeta.lat}_${photoMeta.lon}`;
@@ -228,9 +256,15 @@ Ensure your response is valid JSON.` }
       suffix = nameParts[2];
     }
 
-    const dateStr = bookDate.replace(/-/g, '');
+    const dateStr = bookDate.replace(/-/g, "");
     const unknownFileName = `${id}_${dateStr}_${suffix}.json`;
-    const remediateDir = path.join(__dirname, '..', 'public', 'data', 'remediate');
+    const remediateDir = path.join(
+      __dirname,
+      "..",
+      "public",
+      "data",
+      "remediate",
+    );
 
     if (!fs.existsSync(remediateDir)) {
       fs.mkdirSync(remediateDir, { recursive: true });
@@ -238,7 +272,9 @@ Ensure your response is valid JSON.` }
 
     const unknownPath = path.join(remediateDir, unknownFileName);
     fs.writeFileSync(unknownPath, JSON.stringify(unknownBooks, null, 2));
-    console.log(`Saved ${unknownBooks.length} unknown books to remediate/${unknownFileName}`);
+    console.log(
+      `Saved ${unknownBooks.length} unknown books to remediate/${unknownFileName}`,
+    );
   }
 
   console.log("Analysis complete.");
