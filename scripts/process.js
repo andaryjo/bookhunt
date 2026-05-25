@@ -1,6 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 const { spawnSync } = require('child_process');
+const { areBooksSimilar } = require('./similarity');
+
 
 const photosDir = path.join(__dirname, '..', 'photos');
 const scriptPath = path.join(__dirname, 'analyze_photo.js');
@@ -53,20 +55,21 @@ function deduplicateBooks() {
     const books = JSON.parse(rawData);
     const initialCount = books.length;
 
-    // Use a Map to store unique books. Key is "title|author|bookshelfId"
-    const uniqueBooks = new Map();
+    const deduplicated = [];
 
     books.forEach(book => {
-      const key = `${(book.title || '').toLowerCase()}|${(book.author || '').toLowerCase()}|${book.bookshelfId}`;
-      const existing = uniqueBooks.get(key);
+      const existingIndex = deduplicated.findIndex(existing => areBooksSimilar(book, existing));
 
-      if (!existing || new Date(book.date) > new Date(existing.date)) {
-        uniqueBooks.set(key, book);
+      if (existingIndex === -1) {
+        deduplicated.push(book);
+      } else {
+        const existing = deduplicated[existingIndex];
+        if (new Date(book.date) > new Date(existing.date)) {
+          deduplicated[existingIndex] = book;
+        }
       }
     });
 
-    const deduplicated = Array.from(uniqueBooks.values());
-    
     // Sort by date ascending (oldest first, latest at the bottom)
     deduplicated.sort((a, b) => new Date(a.date) - new Date(b.date));
 
