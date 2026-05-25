@@ -34,14 +34,9 @@ async function main() {
       env: process.env
     });
 
-    if (result.status === 42) {
-      console.error('\n--- ABORTING: Gemini Quota Exceeded (429) ---');
-      process.exit(42);
-    }
-
     if (result.status !== 0) {
-      console.warn(`Warning: Analysis failed for ${file} with exit code ${result.status}.`);
-      // We continue on other errors, but the user specifically asked to abort on quota (42).
+      console.error(`\n--- ABORTING: Analysis failed for ${file} with exit code ${result.status}. ---`);
+      process.exit(result.status || 1);
     }
   }
 
