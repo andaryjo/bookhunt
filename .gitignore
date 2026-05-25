@@ -1,6 +1,7 @@
 .envrc
 node_modules/
 .jpg
+photos/*
 
 # mac shit
 .DS_Store
