@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const { spawnSync } = require('child_process');
-const { areBooksSimilar } = require('./similarity');
+const { areBooksSimilar, chooseBetterField } = require('./similarity');
 
 
 const photosDir = path.join(__dirname, '..', 'photos');
@@ -64,9 +64,14 @@ function deduplicateBooks() {
         deduplicated.push(book);
       } else {
         const existing = deduplicated[existingIndex];
-        if (new Date(book.date) > new Date(existing.date)) {
-          deduplicated[existingIndex] = book;
-        }
+        const bookIsNewer = new Date(book.date) > new Date(existing.date);
+
+        deduplicated[existingIndex] = {
+          title: chooseBetterField(book.title, existing.title, bookIsNewer),
+          author: chooseBetterField(book.author, existing.author, bookIsNewer),
+          date: bookIsNewer ? book.date : existing.date,
+          bookshelfId: bookIsNewer ? book.bookshelfId : existing.bookshelfId
+        };
       }
     });
 

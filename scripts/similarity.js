@@ -80,9 +80,30 @@ function areBooksSimilar(book1, book2, threshold = 0.8) {
   return titleSim >= threshold && authorSim >= threshold;
 }
 
+/**
+ * Decides which field value is better to keep between two similar books.
+ * Prefers the non-empty, non-unknown value, and falls back to preferVal1 if both are known/unknown.
+ */
+function chooseBetterField(val1, val2, preferVal1) {
+  const clean1 = (val1 || '').trim().toLowerCase();
+  const clean2 = (val2 || '').trim().toLowerCase();
+
+  const isVal1Unknown = !clean1 || clean1 === 'unknown';
+  const isVal2Unknown = !clean2 || clean2 === 'unknown';
+
+  if (isVal1Unknown && !isVal2Unknown) {
+    return val2;
+  }
+  if (!isVal1Unknown && isVal2Unknown) {
+    return val1;
+  }
+  return preferVal1 ? val1 : val2;
+}
+
 module.exports = {
   cleanString,
   levenshteinDistance,
   getStringSimilarity,
-  areBooksSimilar
+  areBooksSimilar,
+  chooseBetterField
 };

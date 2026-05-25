@@ -1,4 +1,4 @@
-const { cleanString, levenshteinDistance, getStringSimilarity, areBooksSimilar } = require('./similarity');
+const { cleanString, levenshteinDistance, getStringSimilarity, areBooksSimilar, chooseBetterField } = require('./similarity');
 
 let totalTests = 0;
 let passedTests = 0;
@@ -85,6 +85,21 @@ test('areBooksSimilar - unknown author matching', () => {
 
   const book4 = { title: 'Go Set a Watchman', author: 'unknown', bookshelfId: 'shelf-1' };
   assert(areBooksSimilar(book1, book4) === false, 'Unknown author with different title should not be similar');
+});
+
+test('chooseBetterField - preserves known values', () => {
+  // If one value is unknown, prefer the known value
+  assert(chooseBetterField('unknown', 'Harper Lee', true) === 'Harper Lee', 'Should choose Harper Lee over unknown (preferNew = true)');
+  assert(chooseBetterField('Harper Lee', 'unknown', false) === 'Harper Lee', 'Should choose Harper Lee over unknown (preferNew = false)');
+  assert(chooseBetterField('', 'Harper Lee', true) === 'Harper Lee', 'Should choose Harper Lee over empty string');
+
+  // If both values are known, follow the preference (preferNew)
+  assert(chooseBetterField('Harper Lee', 'H. Lee', true) === 'Harper Lee', 'Should choose first value if preferNew is true');
+  assert(chooseBetterField('Harper Lee', 'H. Lee', false) === 'H. Lee', 'Should choose second value if preferNew is false');
+
+  // If both values are unknown, follow the preference (preferNew)
+  assert(chooseBetterField('unknown', '', true) === 'unknown', 'Should fallback to val1');
+  assert(chooseBetterField('unknown', '', false) === '', 'Should fallback to val2');
 });
 
 // Summary
