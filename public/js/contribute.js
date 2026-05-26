@@ -515,27 +515,9 @@ async function submitPhotos() {
   try {
     const photos = await Promise.all(
       readyEntries.map(async (entry) => {
-        let lat = null;
-        let lon = null;
-
-        if (entry.selectedShelfId) {
-          const shelf = bookshelves.find((s) => s.id === entry.selectedShelfId);
-          if (shelf) {
-            lat = shelf.lat;
-            lon = shelf.lon;
-          }
-        }
-
-        if (lat === null || lon === null) {
-          lat = entry.exifGps?.lat ?? null;
-          lon = entry.exifGps?.lon ?? null;
-        }
-
         return {
           data: await blobToBase64(entry.compressedBlob),
           shelfId: entry.selectedShelfId || null,
-          lat: lat,
-          lon: lon,
           date: formatDate(entry.exifGps?.date),
           id: entry.id,
         };

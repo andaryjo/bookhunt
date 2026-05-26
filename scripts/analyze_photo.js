@@ -1,19 +1,6 @@
 const fs = require("fs");
 const path = require("path");
 
-function getDistanceFromLatLonInM(lat1, lon1, lat2, lon2) {
-  const R = 6371e3;
-  const dLat = ((lat2 - lat1) * Math.PI) / 180;
-  const dLon = ((lon2 - lon1) * Math.PI) / 180;
-  const a =
-    Math.sin(dLat / 2) * Math.sin(dLat / 2) +
-    Math.cos((lat1 * Math.PI) / 180) *
-      Math.cos((lat2 * Math.PI) / 180) *
-      Math.sin(dLon / 2) *
-      Math.sin(dLon / 2);
-  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-  return R * c;
-}
 
 async function main() {
   const apiKey = process.env.GEMINI_API_KEY;
@@ -62,14 +49,10 @@ Ensure your response is valid JSON.`,
 
   let matchedShelfId = "unknown";
   let bookDate = new Date().toISOString().split("T")[0];
-  let parsedMeta = null;
 
   if (fs.existsSync(jsonPath)) {
     try {
       const meta = JSON.parse(fs.readFileSync(jsonPath, "utf-8"));
-      if (meta.lat != null && meta.lon != null) {
-        parsedMeta = { lat: meta.lat, lon: meta.lon };
-      }
       if (meta.suggestedShelfId) {
         matchedShelfId = meta.suggestedShelfId;
       }
@@ -86,11 +69,11 @@ Ensure your response is valid JSON.`,
   }
 
   // Fallback to filename parsing if metadata is still missing
-  if (matchedShelfId === "unknown" && !parsedMeta) {
+  if (matchedShelfId === "unknown") {
     const nameParts = baseName.split("_");
     if (nameParts.length >= 3) {
-      // formats: <id>_<day>_<lat>_<long> OR <id>_<day>_<bookshelf_id>
-      const [id, day, part3, part4] = nameParts;
+      // formats: <id>_<day>_<bookshelf_id>
+      const [id, day, part3] = nameParts;
 
       // Normalize day to YYYY-MM-DD if it comes as YYYYMMDD
       if (day.length === 8 && !day.includes("-")) {
@@ -99,78 +82,8 @@ Ensure your response is valid JSON.`,
         bookDate = day;
       }
 
-      if (part4 !== undefined) {
-        parsedMeta = {
-          lat: parseFloat(part3),
-          lon: parseFloat(part4),
-        };
-      } else {
-        matchedShelfId = part3;
-      }
-    } else {
-      // Old format fallback: YYYYMMDD_HHMMSS_lat_lon
-      const match = filename.match(
-        /(\d{8}_\d{6})_([-\d.]+)_([-\d.]+)\.[a-zA-Z0-9]+$/,
-      );
-      if (match) {
-        parsedMeta = {
-          timestamp: match[1],
-          lat: parseFloat(match[2]),
-          lon: parseFloat(match[3]),
-        };
-        bookDate = `${match[1].substring(0, 4)}-${match[1].substring(4, 6)}-${match[1].substring(6, 8)}`;
-      }
+      matchedShelfId = part3;
     }
-  }
-  photoMeta = parsedMeta;
-
-  // Distance-based shelf matching (only if shelf ID wasn't in filename)
-  if (photoMeta && matchedShelfId === "unknown") {
-    try {
-      const shelvesDir = path.join(
-        __dirname,
-        "..",
-        "public",
-        "data",
-        "bookshelves",
-      );
-      const manifestPath = path.join(shelvesDir, "manifest.json");
-      let manifest = [];
-      try {
-        manifest = JSON.parse(fs.readFileSync(manifestPath, "utf8"));
-      } catch (e) {
-        // Fallback to reading directory if manifest missing
-        manifest = fs
-          .readdirSync(shelvesDir)
-          .filter((f) => f.endsWith(".json") && f !== "manifest.json");
-      }
-
-      let allShelves = [];
-      for (const file of manifest) {
-        const content = JSON.parse(
-          fs.readFileSync(path.join(shelvesDir, file), "utf8"),
-        );
-        allShelves = allShelves.concat(content);
-      }
-      const bookshelves = allShelves.filter((s) => s.removed !== true);
-      let minDistance = Infinity;
-      let closestShelfId = null;
-      for (const shelf of bookshelves) {
-        const dist = getDistanceFromLatLonInM(
-          photoMeta.lat,
-          photoMeta.lon,
-          shelf.lat,
-          shelf.lon,
-        );
-        if (dist < minDistance) {
-          minDistance = dist;
-          closestShelfId = shelf.id;
-        }
-      }
-      if (minDistance <= 500) {
-        matchedShelfId = closestShelfId;
-      }
-    } catch (e) {}
   }
 
   console.log("Image loaded. Calling Gemini API...");
@@ -248,13 +161,7 @@ Ensure your response is valid JSON.`,
 
   if (unknownBooks.length > 0) {
     const id = baseName.split("_")[0] || "unknown";
-    let suffix = "unknown";
-
-    if (photoMeta && photoMeta.lat && photoMeta.lon) {
-      suffix = `${photoMeta.lat}_${photoMeta.lon}`;
-    } else if (nameParts.length >= 3 && nameParts[2]) {
-      suffix = nameParts[2];
-    }
+    const suffix = matchedShelfId;
 
     const dateStr = bookDate.replace(/-/g, "");
     const unknownFileName = `${id}_${dateStr}_${suffix}.json`;

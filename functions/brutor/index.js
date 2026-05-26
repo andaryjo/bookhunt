@@ -81,8 +81,6 @@ async function processContribution(photos, token) {
     photosMetadata.push({ 
       id, 
       filename, 
-      lat: photo.lat, 
-      lon: photo.lon, 
       date: photoDate.toISOString().split('T')[0],
       suggestedShelfId: photo.shelfId 
     });
@@ -133,8 +131,6 @@ async function processContribution(photos, token) {
     
     const queueData = {
       url,
-      lat: meta.lat,
-      lon: meta.lon,
       date: meta.date,
       suggestedShelfId: meta.suggestedShelfId
     };
