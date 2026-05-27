@@ -69108,12 +69108,6 @@
     "bookshelfId": "chgyky"
   },
   {
-    "title": "Fischer Film Almanach 1983",
-    "author": "unknown",
-    "date": "2026-05-24",
-    "bookshelfId": "gnwxgp"
-  },
-  {
     "title": "Bugünkü Dünyamiz Atlas Ansiklopedi",
     "author": "Bertelsmann",
     "date": "2026-05-24",
@@ -69180,26 +69174,8 @@
     "bookshelfId": "nroorn"
   },
   {
-    "title": "Schöne Dinge selbstgemacht",
-    "author": "Stedtfeld",
-    "date": "2026-05-24",
-    "bookshelfId": "gnwxgp"
-  },
-  {
     "title": "Helena, Helena, amore mio",
     "author": "Luciano De Crescenzo",
-    "date": "2026-05-24",
-    "bookshelfId": "gnwxgp"
-  },
-  {
-    "title": "Handbuch der Deutschen Literaturgeschichte",
-    "author": "Karl Petry",
-    "date": "2026-05-24",
-    "bookshelfId": "gnwxgp"
-  },
-  {
-    "title": "Die Himmelsstürmer",
-    "author": "Bjarne Reuter",
     "date": "2026-05-24",
     "bookshelfId": "gnwxgp"
   },
@@ -69228,62 +69204,14 @@
     "bookshelfId": "gnwxgp"
   },
   {
-    "title": "Roter Drache",
-    "author": "Thomas Harris",
-    "date": "2026-05-24",
-    "bookshelfId": "gnwxgp"
-  },
-  {
-    "title": "Ein Land, das Himmel heißt",
-    "author": "Stefanie Gercke",
-    "date": "2026-05-24",
-    "bookshelfId": "gnwxgp"
-  },
-  {
-    "title": "Die noble Straße",
-    "author": "Gwen Bristow",
-    "date": "2026-05-24",
-    "bookshelfId": "gnwxgp"
-  },
-  {
-    "title": "Kalte Küche",
-    "author": "unknown",
-    "date": "2026-05-24",
-    "bookshelfId": "gnwxgp"
-  },
-  {
-    "title": "Das Halsband",
-    "author": "Hedwig Courths-Mahler",
-    "date": "2026-05-24",
-    "bookshelfId": "gnwxgp"
-  },
-  {
     "title": "Die Verführten",
     "author": "Harold Robbins",
     "date": "2026-05-24",
     "bookshelfId": "gnwxgp"
   },
   {
-    "title": "Erwin Berghaus: Nehru",
-    "author": "unknown",
-    "date": "2026-05-24",
-    "bookshelfId": "gnwxgp"
-  },
-  {
     "title": "Der Mann, der lächelte",
     "author": "Henning Mankell",
-    "date": "2026-05-24",
-    "bookshelfId": "gnwxgp"
-  },
-  {
-    "title": "Traumzeit",
-    "author": "Barbara Wood",
-    "date": "2026-05-24",
-    "bookshelfId": "gnwxgp"
-  },
-  {
-    "title": "Drachenläufer",
-    "author": "Khaled Hosseini",
     "date": "2026-05-24",
     "bookshelfId": "gnwxgp"
   },
@@ -69296,12 +69224,6 @@
   {
     "title": "The Canterville Ghost",
     "author": "Oscar Wilde",
-    "date": "2026-05-24",
-    "bookshelfId": "gnwxgp"
-  },
-  {
-    "title": "Adam ist jetzt mit Eva befreundet",
-    "author": "Wylie Overstreet",
     "date": "2026-05-24",
     "bookshelfId": "gnwxgp"
   },
@@ -69320,12 +69242,6 @@
   {
     "title": "La Sacra Bibbia",
     "author": "Cei",
-    "date": "2026-05-24",
-    "bookshelfId": "gnwxgp"
-  },
-  {
-    "title": "Dear John",
-    "author": "Nicholas Sparks",
     "date": "2026-05-24",
     "bookshelfId": "gnwxgp"
   },
@@ -69386,18 +69302,6 @@
   {
     "title": "Skeleton Key",
     "author": "Anthony Horowitz",
-    "date": "2026-05-24",
-    "bookshelfId": "gnwxgp"
-  },
-  {
-    "title": "Mein Name ist Ascher Lev",
-    "author": "Chaim Potok",
-    "date": "2026-05-24",
-    "bookshelfId": "gnwxgp"
-  },
-  {
-    "title": "Zusammen ist man weniger allein",
-    "author": "Anna Gavalda",
     "date": "2026-05-24",
     "bookshelfId": "gnwxgp"
   },
@@ -69474,20 +69378,8 @@
     "bookshelfId": "gnwxgp"
   },
   {
-    "title": "Das Geheimnis von Bahnsteig 13",
-    "author": "Eva Ibbotson",
-    "date": "2026-05-24",
-    "bookshelfId": "gnwxgp"
-  },
-  {
     "title": "Schöne Seelen",
     "author": "Philipp Tingler",
-    "date": "2026-05-24",
-    "bookshelfId": "gnwxgp"
-  },
-  {
-    "title": "Empire of the Moghul: The Tainted Throne",
-    "author": "Alex Rutherford",
     "date": "2026-05-24",
     "bookshelfId": "gnwxgp"
   },
@@ -73132,5 +73024,185 @@
     "author": "Choga Regina Egbeme",
     "date": "2026-05-26",
     "bookshelfId": "ikuyju"
+  },
+  {
+    "title": "Fischer Film Almanach 1987",
+    "author": "unknown",
+    "date": "2026-05-27",
+    "bookshelfId": "gnwxgp"
+  },
+  {
+    "title": "Schöne Dinge selbstgemacht",
+    "author": "Stedtfeld",
+    "date": "2026-05-27",
+    "bookshelfId": "gnwxgp"
+  },
+  {
+    "title": "Handbuch der Deutschen Literaturgeschichte",
+    "author": "Karl Petry",
+    "date": "2026-05-27",
+    "bookshelfId": "gnwxgp"
+  },
+  {
+    "title": "Die Himmelsstürmer",
+    "author": "Bjarne Reuter",
+    "date": "2026-05-27",
+    "bookshelfId": "gnwxgp"
+  },
+  {
+    "title": "Roter Drache",
+    "author": "Thomas Harris",
+    "date": "2026-05-27",
+    "bookshelfId": "gnwxgp"
+  },
+  {
+    "title": "Ein Land, das Himmel heißt",
+    "author": "Stefanie Gercke",
+    "date": "2026-05-27",
+    "bookshelfId": "gnwxgp"
+  },
+  {
+    "title": "Die noble Straße",
+    "author": "Gwen Bristow",
+    "date": "2026-05-27",
+    "bookshelfId": "gnwxgp"
+  },
+  {
+    "title": "Kalte Küche",
+    "author": "unknown",
+    "date": "2026-05-27",
+    "bookshelfId": "gnwxgp"
+  },
+  {
+    "title": "Das Halsband",
+    "author": "Hedwig Courths-Mahler",
+    "date": "2026-05-27",
+    "bookshelfId": "gnwxgp"
+  },
+  {
+    "title": "Erwin Berghaus: Nehru",
+    "author": "unknown",
+    "date": "2026-05-27",
+    "bookshelfId": "gnwxgp"
+  },
+  {
+    "title": "Traumzeit",
+    "author": "Barbara Wood",
+    "date": "2026-05-27",
+    "bookshelfId": "gnwxgp"
+  },
+  {
+    "title": "Drachenläufer",
+    "author": "Khaled Hosseini",
+    "date": "2026-05-27",
+    "bookshelfId": "gnwxgp"
+  },
+  {
+    "title": "Adam ist jetzt mit Eva befreundet",
+    "author": "Wylie Overstreet",
+    "date": "2026-05-27",
+    "bookshelfId": "gnwxgp"
+  },
+  {
+    "title": "Dear John",
+    "author": "Nicholas Sparks",
+    "date": "2026-05-27",
+    "bookshelfId": "gnwxgp"
+  },
+  {
+    "title": "Mein Name ist Ascher Lev",
+    "author": "Chaim Potok",
+    "date": "2026-05-27",
+    "bookshelfId": "gnwxgp"
+  },
+  {
+    "title": "Zusammen ist man weniger allein",
+    "author": "Anna Gavalda",
+    "date": "2026-05-27",
+    "bookshelfId": "gnwxgp"
+  },
+  {
+    "title": "Das Geheimnis von Bahnsteig 13",
+    "author": "Eva Ibbotson",
+    "date": "2026-05-27",
+    "bookshelfId": "gnwxgp"
+  },
+  {
+    "title": "Empire of the Moghul: The Tainted Throne",
+    "author": "Alex Rutherford",
+    "date": "2026-05-27",
+    "bookshelfId": "gnwxgp"
+  },
+  {
+    "title": "Biss zum Morgengrauen",
+    "author": "Stephenie Meyer",
+    "date": "2026-05-27",
+    "bookshelfId": "gnwxgp"
+  },
+  {
+    "title": "Lambacher-Schweizer Algebra",
+    "author": "unknown",
+    "date": "2026-05-27",
+    "bookshelfId": "gnwxgp"
+  },
+  {
+    "title": "Ferienkarussell 2024",
+    "author": "unknown",
+    "date": "2026-05-27",
+    "bookshelfId": "gnwxgp"
+  },
+  {
+    "title": "Morality Play",
+    "author": "unknown",
+    "date": "2026-05-27",
+    "bookshelfId": "gnwxgp"
+  },
+  {
+    "title": "Duett statt Duell",
+    "author": "Reinhold Ruthe",
+    "date": "2026-05-27",
+    "bookshelfId": "gnwxgp"
+  },
+  {
+    "title": "The Day They Came to Arrest the Book",
+    "author": "unknown",
+    "date": "2026-05-27",
+    "bookshelfId": "gnwxgp"
+  },
+  {
+    "title": "Piper",
+    "author": "unknown",
+    "date": "2026-05-27",
+    "bookshelfId": "gnwxgp"
+  },
+  {
+    "title": "Die Tür",
+    "author": "Captain Orange",
+    "date": "2026-05-27",
+    "bookshelfId": "gnwxgp"
+  },
+  {
+    "title": "Jakob streitet sich mit Conni",
+    "author": "unknown",
+    "date": "2026-05-27",
+    "bookshelfId": "gnwxgp"
+  },
+  {
+    "title": "Der Campus",
+    "author": "Dietrich Schwanitz",
+    "date": "2026-05-27",
+    "bookshelfId": "gnwxgp"
+  },
+  {
+    "title": "The Master Key System",
+    "author": "Charles F. Haanel",
+    "date": "2026-05-27",
+    "bookshelfId": "gnwxgp"
+  },
+  {
+    "title": "Frau & Geld",
+    "author": "Helma Sick",
+    "date": "2026-05-27",
+    "bookshelfId": "gnwxgp"
   }
 ]
