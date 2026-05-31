@@ -3881,8 +3881,8 @@
   },
   {
     "id": "hnbdhv",
-    "name": "Carolinensiel / Cliner Quelle",
-    "address": "Nordseestr. 1, Carolinensiel",
+    "name": "Bücherschrank Carolinensiel / Cliner Quelle",
+    "address": "Nordseestraße 1, 26409 Wittmund-Carolinensiel",
     "lat": 53.696062,
     "lon": 7.805354,
     "sourceId": "obc_594"
@@ -5170,7 +5170,7 @@
   {
     "id": "mcczlh",
     "name": "Bücherregal Pill",
-    "address": "Auweg 2, 6136 Pill",
+    "address": "Auweg 2 / Dorf 10, 6136 Pill",
     "lat": 47.320876,
     "lon": 11.681584,
     "sourceId": "obc_810"
@@ -15250,7 +15250,7 @@
   {
     "id": "ogyzju",
     "name": "Tauschregal HAAR in VHS",
-    "address": "Sankt-Konrad-Straße 7, 85540",
+    "address": "Sankt-Konrad-Straße 7, 85540 Haar",
     "lat": 48.1095543,
     "lon": 11.7307698,
     "sourceId": "obc_2186"
@@ -18418,7 +18418,7 @@
   {
     "id": "dxyvvl",
     "name": "Bücherschrank Norderney",
-    "address": "Knyphausenstraße , 26548",
+    "address": "Knyphausenstraße 7, 26548 Norderney",
     "lat": 53.709656,
     "lon": 7.147089,
     "sourceId": "obc_2661"
@@ -19906,7 +19906,7 @@
   {
     "id": "beswnm",
     "name": "Bücher-Tauschbox Godenswege",
-    "address": "Godensweger Str. 10, 17094 Cammin-Godenswege",
+    "address": "Godensweger Str. 2c, 17094 Cammin-Godenswege",
     "lat": 53.45585,
     "lon": 13.286767,
     "sourceId": "obc_2936"
@@ -25970,7 +25970,7 @@
   {
     "id": "nuyxvn",
     "name": "Bücherregal HAAR in VHS.eV",
-    "address": "Münchenerstr. 3  85540 Haar",
+    "address": "Münchener Str. 3  85540 Haar",
     "lat": 48.1084871,
     "lon": 11.7249654,
     "sourceId": "obc_3900"
@@ -37265,8 +37265,8 @@
   },
   {
     "id": "efhlrm",
-    "name": "Schrank im Edeka",
-    "address": "Adolf-Ahlers-Straße 12, 26441 Jever",
+    "name": "Bücherregal Edeka Jever",
+    "address": "Adolf-Ahlers-Straße 3, 26441 Jever",
     "lat": 53.570385958943,
     "lon": 7.8904611244798,
     "sourceId": "obc_5635"
@@ -39361,8 +39361,8 @@
   },
   {
     "id": "xccmsk",
-    "name": "Bücherzelle Groß-Zimmern",
-    "address": "Schulstraße 2, 64846",
+    "name": "Bücherzelle Klein-Zimmern",
+    "address": "Schulstraße 2, 64846 Groß Zimmern- Klein Zimmern",
     "lat": 49.86755804947,
     "lon": 8.8479560986161,
     "sourceId": "obc_5950"
@@ -41497,7 +41497,7 @@
   },
   {
     "id": "krtcxn",
-    "name": "Bücherzelle Sparkasse Reinheim",
+    "name": "Bücherzelle Spachbrücken",
     "address": "Seestraße 1, 64354 Reinheim-Spachbrücken",
     "lat": 49.84241377713,
     "lon": 8.8270533084869,
@@ -42409,8 +42409,8 @@
   },
   {
     "id": "hylbac",
-    "name": "Bücherschrank Reinheim",
-    "address": "Darmstädter Straße 62, 64354",
+    "name": "Bücherzelle Reinheim",
+    "address": "Darmstädter Str. 62, 64354 Reinheim",
     "lat": 49.832160793279,
     "lon": 8.8336206972599,
     "sourceId": "obc_6388"
@@ -44722,7 +44722,7 @@
   {
     "id": "zwwtaq",
     "name": "Bücherzelle am Eigener Markt",
-    "address": "Gladbecker Straße , 46240 Bottrop",
+    "address": "Gladbecker Straße , 46240 Bottrop-Eigen",
     "lat": 51.547592492477,
     "lon": 6.9369730353355,
     "sourceId": "obc_6729"
@@ -45993,8 +45993,8 @@
   },
   {
     "id": "fecteu",
-    "name": "Volksbank westenholz",
-    "address": "Zum Kolpinghaus 1, 33129",
+    "name": "Bücherregal Volksbank Westenholz",
+    "address": "Zum Kolpinghaus 1, 33129 Delbrück-Westenholz",
     "lat": 51.757271209912,
     "lon": 8.4714125096798,
     "sourceId": "obc_6904"
@@ -48442,7 +48442,7 @@
   {
     "id": "dzrjqr",
     "name": "Vertrauensbücherei der ev. Gemeinde",
-    "address": ", 26474 Spiekeroog",
+    "address": "An d&#39;nee Kark 7, 26474 Spiekeroog",
     "lat": 53.771406405094,
     "lon": 7.7005506679416,
     "sourceId": "obc_7235"
@@ -50953,8 +50953,8 @@
   },
   {
     "id": "qhzgzy",
-    "name": "Montessoriweg 3",
-    "address": "Fröbelstraße 13, 33415",
+    "name": "Bücherschrank Kaunitz",
+    "address": "Montessoriweg 3, 33415 Verl-Kaunitz",
     "lat": 51.854867992415,
     "lon": 8.5688858608985,
     "sourceId": "obc_7593"
@@ -51897,8 +51897,8 @@
   },
   {
     "id": "nvxsqo",
-    "name": "Bücherhaus",
-    "address": "K 78 , 17217",
+    "name": "Bücherhaus Alt Rehse",
+    "address": "Alt Rehse, 17217 Penzlin-Alt Rehse",
     "lat": 53.497590696649,
     "lon": 13.161858290478,
     "sourceId": "obc_7721"
@@ -52185,8 +52185,8 @@
   },
   {
     "id": "fsihhy",
-    "name": "Bücherschrank Ueberau",
-    "address": "Wilhelm-Leuschner-Straße 22A, 64354",
+    "name": "Bücherzelle Ueberau",
+    "address": "Wilhelm-Leuschner-Straße 22A, 64354 Reinheim-Ueberau",
     "lat": 49.824512925389,
     "lon": 8.8462803193203,
     "sourceId": "obc_7762"
@@ -74722,7 +74722,7 @@
   {
     "id": "jxfsoe",
     "name": "Bücherzelle Weer",
-    "address": "Dorfstraße 17, 6116 Weer",
+    "address": "Dorfstraße 18, 6116 Weer",
     "lat": 47.30312,
     "lon": 11.643491,
     "sourceId": "obc_10949"
@@ -76758,14 +76758,6 @@
     "lat": 48.299515,
     "lon": 13.143559,
     "sourceId": "obc_11230"
-  },
-  {
-    "id": "mcgnlh",
-    "name": "Bücherregal Innsbruck Universitäts- und Landesbibliothek",
-    "address": "Innrain 50, 6020 Innsbruck",
-    "lat": 47.264131,
-    "lon": 11.38587,
-    "sourceId": "obc_11232"
   },
   {
     "id": "zzcrti",
@@ -87593,7 +87585,7 @@
   },
   {
     "id": "xgbfof",
-    "name": "Bücherschrank Siegburg-Kaldauen",
+    "name": "Bücherschrank Kaldauen",
     "address": "Hauptstraße 95, 53721 Siegburg-Kaldauen",
     "lat": 50.800524,
     "lon": 7.263465,
@@ -92858,7 +92850,7 @@
   {
     "id": "bdraod",
     "name": "Bücherzelle Blumenstraße",
-    "address": "Blumenstraße 1, 39288 Burg",
+    "address": "Blumenstraße 1, 39288 Burg-Nord",
     "lat": 52.276383,
     "lon": 11.855648,
     "sourceId": "obc_13325"
@@ -103734,14 +103726,6 @@
     "lat": 47.212667,
     "lon": 7.62007,
     "sourceId": "obc_14740"
-  },
-  {
-    "id": "lbwvwl",
-    "name": "Bücherschrank Bad Schussenried",
-    "address": "Zellerseeweg 15, 88427 Bad Schussenried",
-    "lat": 48.00128,
-    "lon": 9.647584,
-    "sourceId": "obc_14741"
   },
   {
     "id": "jzlqtr",
@@ -123334,6 +123318,792 @@
     "lat": 51.014956,
     "lon": 14.933199,
     "sourceId": "obc_17248"
+  },
+  {
+    "id": "gfmbtw",
+    "name": "Bücherregal Robert-Siewert-Straße",
+    "address": "Robert-Siewert-Straße 94, 10318 Berlin-Karlshorst",
+    "lat": 52.49288351564536,
+    "lon": 13.537276165685375,
+    "sourceId": "obc_17249"
+  },
+  {
+    "id": "cpadmn",
+    "name": "Bücherzelle Mintrachting",
+    "address": "Aukofener Str. 4, 93098 Mintraching",
+    "lat": 48.9516954,
+    "lon": 12.2394012,
+    "sourceId": "obc_17250"
+  },
+  {
+    "id": "oypgwc",
+    "name": "Bücherregal EDEKA Götze",
+    "address": "Königstraße 49, 14109 Berlin-Wannsee",
+    "lat": 52.418401,
+    "lon": 13.153113,
+    "sourceId": "obc_17251"
+  },
+  {
+    "id": "aqhqak",
+    "name": "Bücherschrank Rachelshausen",
+    "address": "Im Bornstück 1, 35075 Gladenbach-Rachelshausen",
+    "lat": 50.789232,
+    "lon": 8.530793,
+    "sourceId": "obc_17252"
+  },
+  {
+    "id": "uxyybs",
+    "name": "St.-Martin Gemeindebüchereischrank",
+    "address": "Geniusbankstraße 41, 26388 Wilhelmshaven",
+    "lat": 53.583493,
+    "lon": 8.10438,
+    "sourceId": "obc_17253"
+  },
+  {
+    "id": "pznich",
+    "name": "Book Exchange Dumblane Avenue",
+    "address": "11 Dumblane Ave, Ascot Vale VIC 3032",
+    "lat": -37.783317,
+    "lon": 144.905523,
+    "sourceId": "obc_17254"
+  },
+  {
+    "id": "aknwho",
+    "name": "Book Exchange Magazine Way",
+    "address": "7 Magazine Way, Maribyrnong VIC 3032",
+    "lat": -37.783927,
+    "lon": 144.896285,
+    "sourceId": "obc_17255"
+  },
+  {
+    "id": "drfjaj",
+    "name": "Book Exchange Adori Place",
+    "address": "37 Adori Pl, Maribyrnong VIC 3032",
+    "lat": -37.784944,
+    "lon": 144.884509,
+    "sourceId": "obc_17256"
+  },
+  {
+    "id": "otngvb",
+    "name": "Book Exchange Soudan Road",
+    "address": "12 Soudan Rd, West Footscray VIC 3012",
+    "lat": -37.791329,
+    "lon": 144.880861,
+    "sourceId": "obc_17257"
+  },
+  {
+    "id": "rpkksw",
+    "name": "Book Exchange Arthur Street",
+    "address": "14 Arthur St, Footscray VIC 3011",
+    "lat": -37.791871,
+    "lon": 144.888146,
+    "sourceId": "obc_17258"
+  },
+  {
+    "id": "bcizkz",
+    "name": "Book Exchange Lynch Street",
+    "address": "41 Lynch St, Footscray VIC 3011",
+    "lat": -37.796458,
+    "lon": 144.902426,
+    "sourceId": "obc_17259"
+  },
+  {
+    "id": "gaxzbs",
+    "name": "Book Exchange Footscray Mechanics’ Institute",
+    "address": "209 Nicholson St, Footscray VIC 3011",
+    "lat": -37.803494,
+    "lon": 144.899293,
+    "sourceId": "obc_17260"
+  },
+  {
+    "id": "kmnuei",
+    "name": "Book Exchange Macpherson Street",
+    "address": "118 Macpherson St, Footscray VIC 3011",
+    "lat": -37.797424,
+    "lon": 144.889508,
+    "sourceId": "obc_17261"
+  },
+  {
+    "id": "meqqnp",
+    "name": "Book Exchange Southampton Street",
+    "address": "34 Southampton St, Footscray VIC 3011",
+    "lat": -37.795873,
+    "lon": 144.886054,
+    "sourceId": "obc_17262"
+  },
+  {
+    "id": "ayyrkm",
+    "name": "Book Exchange St John’s Catholic Primary",
+    "address": "34 Essex St, Footscray VIC 3011",
+    "lat": -37.795703,
+    "lon": 144.885131,
+    "sourceId": "obc_17263"
+  },
+  {
+    "id": "uogoex",
+    "name": "Book Exchange Bayswater Road",
+    "address": "33 Bayswater Rd, Kensington VIC 3031",
+    "lat": -37.793245,
+    "lon": 144.924206,
+    "sourceId": "obc_17264"
+  },
+  {
+    "id": "shqzbo",
+    "name": "Book Exchange Kensington Road",
+    "address": "44 Kensington Rd, Kensington VIC 3031",
+    "lat": -37.795017,
+    "lon": 144.925858,
+    "sourceId": "obc_17265"
+  },
+  {
+    "id": "dqqnht",
+    "name": "Book Exchange Bradfield Lane",
+    "address": "4 Bradfield Ln, Kensington VIC 3031",
+    "lat": -37.788491,
+    "lon": 144.925649,
+    "sourceId": "obc_17266"
+  },
+  {
+    "id": "czkhqo",
+    "name": "Book Exchange Little Lending",
+    "address": "Newmarket Train Station, Pin Oak Crescent, Flemington VIC 3031",
+    "lat": -37.787983,
+    "lon": 144.929308,
+    "sourceId": "obc_17267"
+  },
+  {
+    "id": "qemauv",
+    "name": "Book Exchange The Kindred Community",
+    "address": "9 Gruyere St, Eynesbury VIC 3338",
+    "lat": -37.78201,
+    "lon": 144.546379,
+    "sourceId": "obc_17268"
+  },
+  {
+    "id": "gwvyfp",
+    "name": "Book Exchange Aspire Early Education",
+    "address": "1 Ladbroke St, Melton South VIC 3338",
+    "lat": -37.716538,
+    "lon": 144.595665,
+    "sourceId": "obc_17269"
+  },
+  {
+    "id": "frapbx",
+    "name": "Bücherschrank Guntersdorf",
+    "address": "Am Schulrain 1, 35745 Herborn-Guntersdorf",
+    "lat": 50.650202,
+    "lon": 8.243791,
+    "sourceId": "obc_17270"
+  },
+  {
+    "id": "xkgdio",
+    "name": "Bücherschrank Hörbach",
+    "address": "Herborner Str. 19, 35745 Herborn-Hörbach",
+    "lat": 50.667468,
+    "lon": 8.271902,
+    "sourceId": "obc_17271"
+  },
+  {
+    "id": "eyoutj",
+    "name": "Bücherschrank Merkenbach",
+    "address": "Berkenhoffstraße 8, 35745 Herborn-Merkenbach",
+    "lat": 50.658031,
+    "lon": 8.29707,
+    "sourceId": "obc_17272"
+  },
+  {
+    "id": "bmntsf",
+    "name": "Bücherschrank Uckersdorf",
+    "address": "Uckersdorfer Hauptstraße 32, 35745 Herborn-Uckersdorf",
+    "lat": 50.69764,
+    "lon": 8.261558,
+    "sourceId": "obc_17273"
+  },
+  {
+    "id": "gxgmif",
+    "name": "Bücherregal Bürgertreff Hochzoll",
+    "address": "Neuschwansteinstraße 23, 86163 Augsburg",
+    "lat": 48.357482,
+    "lon": 10.946234,
+    "sourceId": "obc_17274"
+  },
+  {
+    "id": "gwhjuj",
+    "name": "Bücherschrank Haunstetten",
+    "address": "Tattenbachstraße 15, 86179 Augsburg-Haunstetten",
+    "lat": 48.307982,
+    "lon": 10.907042,
+    "sourceId": "obc_17275"
+  },
+  {
+    "id": "eiwafw",
+    "name": "Bücherschrank Siedlergemeinschaft Firnhaberau",
+    "address": "Schillstraße 208, 86169 Augsburg",
+    "lat": 48.398478,
+    "lon": 10.896101,
+    "sourceId": "obc_17276"
+  },
+  {
+    "id": "vqjapg",
+    "name": "Bücherzelle im Botanischen Garten",
+    "address": "Dr.-Ziegenspeck-Weg 10, 86161 Augsburg",
+    "lat": 48.349426,
+    "lon": 10.913211,
+    "sourceId": "obc_17277"
+  },
+  {
+    "id": "fmfyid",
+    "name": "Bücherregal im alten Stadtbad",
+    "address": "Leonhardsberg 15, 86150 Augsburg",
+    "lat": 48.370862,
+    "lon": 10.900047,
+    "sourceId": "obc_17278"
+  },
+  {
+    "id": "rdqfob",
+    "name": "Bücherschrank Göggingen",
+    "address": "Wittelsbacherstraße 20, 86199 Augsburg",
+    "lat": 48.351216,
+    "lon": 10.8761,
+    "sourceId": "obc_17279"
+  },
+  {
+    "id": "uiekgo",
+    "name": "Bücherregal Thalia Kaffeehaus",
+    "address": "Obstmarkt 5, 86152 Augsburg",
+    "lat": 48.370776,
+    "lon": 10.896914,
+    "sourceId": "obc_17280"
+  },
+  {
+    "id": "uitdgn",
+    "name": "Bücherschrank Herz Jesu Pfersee",
+    "address": "Augsburger Str. 23A, 86157 Augsburg",
+    "lat": 48.362936,
+    "lon": 10.87168,
+    "sourceId": "obc_17281"
+  },
+  {
+    "id": "feqwun",
+    "name": "Bücherschrank am Rot-Kreuz-Lädle",
+    "address": "Donauwörther Str. 18, 86154 Augsburg",
+    "lat": 48.380989,
+    "lon": 10.880982,
+    "sourceId": "obc_17282"
+  },
+  {
+    "id": "yvpesg",
+    "name": "Bücherzelle Hochzoll",
+    "address": "Hochzoller Str. 5, 86163 Augsburg-Hochzoll",
+    "lat": 48.353889,
+    "lon": 10.944711,
+    "sourceId": "obc_17283"
+  },
+  {
+    "id": "nadbyl",
+    "name": "Bücherschrank Inningen",
+    "address": "Inninger Dorfplatz, 86199 Augsburg-Inningen",
+    "lat": 48.314554,
+    "lon": 10.859513,
+    "sourceId": "obc_17284"
+  },
+  {
+    "id": "fnqrsg",
+    "name": "Bücherregal MGT Herrenbach",
+    "address": "Herrenbachstraße 5, 86161 Augsburg",
+    "lat": 48.362202,
+    "lon": 10.92851,
+    "sourceId": "obc_17285"
+  },
+  {
+    "id": "yrjldh",
+    "name": "Bücherschrank vor der Floßlände",
+    "address": "Radetzkystraße 16, 86165 Augsburg",
+    "lat": 48.375886,
+    "lon": 10.915958,
+    "sourceId": "obc_17286"
+  },
+  {
+    "id": "eowqce",
+    "name": "Bücherzelle Römerberg",
+    "address": "Heiligensteiner Str. 28, 67354 Römerberg",
+    "lat": 49.284884,
+    "lon": 8.396741,
+    "sourceId": "obc_17287"
+  },
+  {
+    "id": "lufkch",
+    "name": "Bücherzelle Rust",
+    "address": "Kirchengasse, 7071 Rust",
+    "lat": 47.800933,
+    "lon": 16.676184,
+    "sourceId": "obc_17288"
+  },
+  {
+    "id": "bhszsd",
+    "name": "Bücherzelle Wintersdorf",
+    "address": "Zirndorfer Str. 15A, 04610 Meuselwitz-Wintersdorf",
+    "lat": 51.055051,
+    "lon": 12.351629,
+    "sourceId": "obc_17289"
+  },
+  {
+    "id": "heiyki",
+    "name": "Bücherschrank Hartmannsdorf",
+    "address": "Dorfstraße, 08058 Zwickau-Hartmannsdorf",
+    "lat": 50.75807,
+    "lon": 12.42837,
+    "sourceId": "obc_17290"
+  },
+  {
+    "id": "uafpdy",
+    "name": "Book Exchange The Shire",
+    "address": "85 McKenzie Cres, Roxburgh Park VIC 3064",
+    "lat": -37.625221,
+    "lon": 144.931926,
+    "sourceId": "obc_17291"
+  },
+  {
+    "id": "pciffv",
+    "name": "Book Exchange Eucalypt",
+    "address": "35 Birchmore Rd, Wollert VIC 3750",
+    "lat": -37.619373,
+    "lon": 145.038618,
+    "sourceId": "obc_17292"
+  },
+  {
+    "id": "gohely",
+    "name": "Book Exchange Mount Eccles Way",
+    "address": "28 Mount Eccles Way, South Morang VIC 3752",
+    "lat": -37.620087,
+    "lon": 145.098292,
+    "sourceId": "obc_17293"
+  },
+  {
+    "id": "rpdokg",
+    "name": "Book Exchange The Lakes South Morang P-9 School",
+    "address": "275 Gordons Rd, South Morang VIC 3752",
+    "lat": -37.629043,
+    "lon": 145.076662,
+    "sourceId": "obc_17294"
+  },
+  {
+    "id": "wrebia",
+    "name": "Book Exchange Derby Drive",
+    "address": "55 Derby Dr, Epping VIC 3076",
+    "lat": -37.642544,
+    "lon": 145.044808,
+    "sourceId": "obc_17295"
+  },
+  {
+    "id": "lxwzzy",
+    "name": "Book Exchange Allan Avenue",
+    "address": "25 Allan Ave, South Morang VIC 3752",
+    "lat": -37.655311,
+    "lon": 145.085739,
+    "sourceId": "obc_17296"
+  },
+  {
+    "id": "zfojam",
+    "name": "Book Exchange University Drive",
+    "address": "3 University Dr, Mill Park VIC 3082",
+    "lat": -37.659023,
+    "lon": 145.077649,
+    "sourceId": "obc_17297"
+  },
+  {
+    "id": "iabdsc",
+    "name": "Book Exchange Sonia’s little library",
+    "address": "49 Golf Links Dr, Mill Park VIC 3082",
+    "lat": -37.659923,
+    "lon": 145.049486,
+    "sourceId": "obc_17298"
+  },
+  {
+    "id": "oaebuo",
+    "name": "Book Exchange Crazies library",
+    "address": "18 Konrads Cres, Mill Park VIC 3082",
+    "lat": -37.669053,
+    "lon": 145.051578,
+    "sourceId": "obc_17299"
+  },
+  {
+    "id": "uuqjjp",
+    "name": "Book Exchange The Tony Abbott Book Suppository",
+    "address": "25 Bruce St, Lalor VIC 3075",
+    "lat": -37.673249,
+    "lon": 145.035195,
+    "sourceId": "obc_17300"
+  },
+  {
+    "id": "jyhoyf",
+    "name": "Book Exchange Fisher Avenue",
+    "address": "10 Fisher Ave, Lalor VIC 3075",
+    "lat": -37.670837,
+    "lon": 145.033543,
+    "sourceId": "obc_17301"
+  },
+  {
+    "id": "pnmbyb",
+    "name": "Bücherschrank Pfarrkirchen",
+    "address": "Marienplatz 1, 84347 Pfarrkirchen",
+    "lat": 48.430646,
+    "lon": 12.938204,
+    "sourceId": "obc_17302"
+  },
+  {
+    "id": "lgvnww",
+    "name": "Bücherschrank Röttenbach",
+    "address": "Schulstraße 14a, 91341 Röttenbach",
+    "lat": 49.671738,
+    "lon": 10.925689,
+    "sourceId": "obc_17303"
+  },
+  {
+    "id": "pqwezs",
+    "name": "Bücherzelle Georgenhausen-Zeilhard",
+    "address": "Zeilharder Str. 14C, 64354 Reinheim-Georgenhausen",
+    "lat": 49.843612,
+    "lon": 8.798928,
+    "sourceId": "obc_17304"
+  },
+  {
+    "id": "enjbrm",
+    "name": "Bücherschrank Ceciliengärten",
+    "address": "Cecilienstraße, 53721 Siegburg",
+    "lat": 50.800076,
+    "lon": 7.210604,
+    "sourceId": "obc_17305"
+  },
+  {
+    "id": "wsamer",
+    "name": "Bücherschrank Lambertstraße",
+    "address": "Lambertstraße 39, 53721 Siegburg",
+    "lat": 50.79933,
+    "lon": 7.223961,
+    "sourceId": "obc_17306"
+  },
+  {
+    "id": "usrwdd",
+    "name": "Bücherschrank Steinhausen an der Rottum",
+    "address": "Ehrensberger Str. 13, 88416 Steinhausen an der Rottum",
+    "lat": 48.023981,
+    "lon": 9.953227,
+    "sourceId": "obc_17307"
+  },
+  {
+    "id": "kbxdtx",
+    "name": "Bücherschrank Schloss Glatt",
+    "address": "Schloß 3, 72172 Sulz am Neckar-Glatt",
+    "lat": 48.387052,
+    "lon": 8.624547,
+    "sourceId": "obc_17308"
+  },
+  {
+    "id": "dtcikm",
+    "name": "Bücherschrank Rathaus Hopfau",
+    "address": "Glattalstraße 30, 72172 Sulz am Neckar-Hopfau",
+    "lat": 48.371511,
+    "lon": 8.577855,
+    "sourceId": "obc_17309"
+  },
+  {
+    "id": "nqaoxa",
+    "name": "Bücherschrank Obernburg am Main",
+    "address": "An der Mainbrücke / Mainstraße 6, 63785 Obernburg am Main",
+    "lat": 49.84165,
+    "lon": 9.148843,
+    "sourceId": "obc_17310"
+  },
+  {
+    "id": "nclsry",
+    "name": "Bücherschrank Biberach",
+    "address": "Am Kamin 2, 77781 Biberach",
+    "lat": 48.339557,
+    "lon": 8.026575,
+    "sourceId": "obc_17311"
+  },
+  {
+    "id": "djgggc",
+    "name": "Bücherregal Rathaus Glatten",
+    "address": "Lombacher Str. 27, 72293 Glatten",
+    "lat": 48.441408,
+    "lon": 8.513889,
+    "sourceId": "obc_17312"
+  },
+  {
+    "id": "udecqa",
+    "name": "Bücherzelle Userin",
+    "address": "Strelitzer Str. 17A, 17237 Userin",
+    "lat": 53.339541,
+    "lon": 12.980947,
+    "sourceId": "obc_17313"
+  },
+  {
+    "id": "hhponb",
+    "name": "Bücherzelle Zwenzow",
+    "address": "Zwenzow 14, 17237 Userin-Zwenzow",
+    "lat": 53.32116,
+    "lon": 12.949687,
+    "sourceId": "obc_17314"
+  },
+  {
+    "id": "lgjmeu",
+    "name": "Bücherzelle Haar",
+    "address": "Kirchenplatz, 85540 Haar",
+    "lat": 48.109693,
+    "lon": 11.726337,
+    "sourceId": "obc_17315"
+  },
+  {
+    "id": "tpgeus",
+    "name": "Book Exchange Caroline Springs",
+    "address": "28 Fydler Ave, Burnside VIC 3023",
+    "lat": -37.744251,
+    "lon": 144.747286,
+    "sourceId": "obc_17316"
+  },
+  {
+    "id": "bmaign",
+    "name": "Book Exchange Viewbank Walk",
+    "address": "21 Viewbank Walk, Caroline Springs VIC 3023",
+    "lat": -37.73938,
+    "lon": 144.745302,
+    "sourceId": "obc_17317"
+  },
+  {
+    "id": "xatfvh",
+    "name": "Book Exchange Lindwood",
+    "address": "32 Kambalda Cct, Kings Park VIC 3021",
+    "lat": -37.731116,
+    "lon": 144.771491,
+    "sourceId": "obc_17318"
+  },
+  {
+    "id": "bfxlyl",
+    "name": "Book Exchange WhizKidz",
+    "address": "1-3 Yeats Dr, Delahey VIC 3037",
+    "lat": -37.720551,
+    "lon": 144.777199,
+    "sourceId": "obc_17319"
+  },
+  {
+    "id": "izgcvq",
+    "name": "Book Exchange Dargi Green",
+    "address": "1 Dargi Grn, Caroline Springs VIC 3023",
+    "lat": -37.706165,
+    "lon": 144.740356,
+    "sourceId": "obc_17320"
+  },
+  {
+    "id": "ttdlsx",
+    "name": "Book Exchange A Timeless Read",
+    "address": "4 Timele Dr, Hillside VIC 3037",
+    "lat": -37.703779,
+    "lon": 144.751461,
+    "sourceId": "obc_17321"
+  },
+  {
+    "id": "mjgoqm",
+    "name": "Book Exchange The Blush Bookshelf",
+    "address": "20 Kurrajong Rd, Delahey VIC 3037",
+    "lat": -37.711393,
+    "lon": 144.772575,
+    "sourceId": "obc_17322"
+  },
+  {
+    "id": "wgoiir",
+    "name": "Book Exchange Moonlight Terrace",
+    "address": "20 Moonlight Terrace, Sydenham VIC 3037",
+    "lat": -37.708838,
+    "lon": 144.774892,
+    "sourceId": "obc_17323"
+  },
+  {
+    "id": "vznzab",
+    "name": "Book Exchange Taylors Lakes Community Garden",
+    "address": "6 Remus Way, Taylors Lakes VIC 3038",
+    "lat": -37.70563,
+    "lon": 144.785224,
+    "sourceId": "obc_17324"
+  },
+  {
+    "id": "blopdp",
+    "name": "Book Exchange Brimbank",
+    "address": "2 Sabot Ct, Taylors Lakes VIC 3038",
+    "lat": -37.70507,
+    "lon": 144.78781,
+    "sourceId": "obc_17325"
+  },
+  {
+    "id": "btyhif",
+    "name": "Book Exchange JH Allan Reserve",
+    "address": "78 Park Dr, Keilor East VIC 3033",
+    "lat": -37.74667,
+    "lon": 144.855223,
+    "sourceId": "obc_17326"
+  },
+  {
+    "id": "dezkhy",
+    "name": "Book Exchange Rainbow Pushmi-pullyu",
+    "address": "108 Sterling Dr, Keilor East VIC 3033, Australien",
+    "lat": -37.740729,
+    "lon": 144.853578,
+    "sourceId": "obc_17327"
+  },
+  {
+    "id": "afdves",
+    "name": "Book Exchange Brimbank Church",
+    "address": "59 Milleara Rd, Keilor East VIC 3033",
+    "lat": -37.733772,
+    "lon": 144.864725,
+    "sourceId": "obc_17328"
+  },
+  {
+    "id": "sjudoq",
+    "name": "Book Exchange Peregrine Reserve",
+    "address": "Ledge Walk, Keilor East VIC 3033",
+    "lat": -37.740746,
+    "lon": 144.878082,
+    "sourceId": "obc_17329"
+  },
+  {
+    "id": "pniqvw",
+    "name": "Book Exchange Grange Road",
+    "address": "35 Walters Ave, Airport West VIC 3042",
+    "lat": -37.731387,
+    "lon": 144.885914,
+    "sourceId": "obc_17330"
+  },
+  {
+    "id": "pcbshq",
+    "name": "Book Exchange Readers’ Feast",
+    "address": "20 Spencer St, Essendon VIC 3040",
+    "lat": -37.747805,
+    "lon": 144.90779,
+    "sourceId": "obc_17331"
+  },
+  {
+    "id": "zpowns",
+    "name": "Book Exchange Oak Park Reserve",
+    "address": "121 Vincent St, Oak Park VIC 3046",
+    "lat": -37.716501,
+    "lon": 144.908677,
+    "sourceId": "obc_17332"
+  },
+  {
+    "id": "nkvdmi",
+    "name": "Book Exchange Oak Park Book Nook",
+    "address": "2 Murphy St, Oak Park VIC 3046, Australien",
+    "lat": -37.716095,
+    "lon": 144.918466,
+    "sourceId": "obc_17333"
+  },
+  {
+    "id": "uyqcot",
+    "name": "Book Exchange Fantastic Fran",
+    "address": "11 Fran St, Glenroy VIC 3046",
+    "lat": -37.705486,
+    "lon": 144.904014,
+    "sourceId": "obc_17334"
+  },
+  {
+    "id": "kbfeea",
+    "name": "Book Exchange The Minty Library",
+    "address": "48 Centreway, Glenroy VIC 3046",
+    "lat": -37.703157,
+    "lon": 144.906313,
+    "sourceId": "obc_17335"
+  },
+  {
+    "id": "hinpqh",
+    "name": "Book Exchange Guardian Childcare",
+    "address": "124-128 Mickleham Rd, Tullamarine VIC 3043",
+    "lat": -37.695418,
+    "lon": 144.881462,
+    "sourceId": "obc_17336"
+  },
+  {
+    "id": "wfaxig",
+    "name": "Book Exchange Happy Sprouts Greenvale",
+    "address": "1 Bonds Ln, Greenvale VIC 3059",
+    "lat": -37.642782,
+    "lon": 144.880089,
+    "sourceId": "obc_17337"
+  },
+  {
+    "id": "tjwehf",
+    "name": "Book Exchange Parramatta Walk",
+    "address": "26 Parramatta Walk, Craigieburn VIC 3064",
+    "lat": -37.57958,
+    "lon": 144.937734,
+    "sourceId": "obc_17338"
+  },
+  {
+    "id": "faqskf",
+    "name": "Bücherzelle Gröbitz",
+    "address": "Dorfstraße 34, 03238 Massen-Niederlausitz",
+    "lat": 51.663881,
+    "lon": 13.714339,
+    "sourceId": "obc_17339"
+  },
+  {
+    "id": "swpztt",
+    "name": "Bücherzelle Lindthal",
+    "address": "Dorfstraße 10, 03238 Massen-Niederlausitz",
+    "lat": 51.65865,
+    "lon": 13.781598,
+    "sourceId": "obc_17340"
+  },
+  {
+    "id": "ckqbti",
+    "name": "Bücherzelle Großhabersdorf",
+    "address": "Großhabersdorf",
+    "lat": 49.404583,
+    "lon": 10.79075,
+    "sourceId": "obc_17341"
+  },
+  {
+    "id": "vzqawz",
+    "name": "Bücherschrank Schleberoda",
+    "address": "Schleberoda 6A, 06632 Freyburg (Unstrut)",
+    "lat": 51.238445,
+    "lon": 11.802036,
+    "sourceId": "obc_17342"
+  },
+  {
+    "id": "jtrelj",
+    "name": "Bücherzelle Breitenbach am Inn",
+    "address": "Dorf 94, 6252 Breitenbach am Inn",
+    "lat": 47.478959,
+    "lon": 11.973847,
+    "sourceId": "obc_17343"
+  },
+  {
+    "id": "jzjrak",
+    "name": "Bücherzelle Anras",
+    "address": "Dorf 42, 9912 Anras",
+    "lat": 46.772967,
+    "lon": 12.556661,
+    "sourceId": "obc_17344"
+  },
+  {
+    "id": "mcgnlh",
+    "name": "Bücherregal Innsbruck Universitäts- und Landesbibliothek",
+    "address": "Innrain 50, 6020 Innsbruck",
+    "lat": 47.264131,
+    "lon": 11.38587,
+    "sourceId": "obc_11232",
+    "removed": true
+  },
+  {
+    "id": "lbwvwl",
+    "name": "Bücherschrank Bad Schussenried",
+    "address": "Zellerseeweg 15, 88427 Bad Schussenried",
+    "lat": 48.00128,
+    "lon": 9.647584,
+    "sourceId": "obc_14741",
+    "removed": true
   },
   {
     "id": "bwxftx",
