@@ -124066,7 +124066,7 @@
   {
     "id": "vzqawz",
     "name": "Bücherschrank Schleberoda",
-    "address": "Schleberoda 6A, 06632 Freyburg (Unstrut)",
+    "address": "Schleberoda 6A, 06632 Freyburg (Unstrut)-Schleberoda",
     "lat": 51.238445,
     "lon": 11.802036,
     "sourceId": "obc_17342"
@@ -124086,6 +124086,142 @@
     "lat": 46.772967,
     "lon": 12.556661,
     "sourceId": "obc_17344"
+  },
+  {
+    "id": "bdhqub",
+    "name": "Bücherschrank Preussenvilla",
+    "address": "Preußenstraße 30, 12524 Berlin-Altglienicke",
+    "lat": 52.414717,
+    "lon": 13.554908,
+    "sourceId": "obc_17345"
+  },
+  {
+    "id": "nrwdmd",
+    "name": "Book Exchange Kerr Crescent",
+    "address": "3 Kerr Cres, Aspendale Gardens VIC 3195",
+    "lat": -38.022317,
+    "lon": 145.114213,
+    "sourceId": "obc_17346"
+  },
+  {
+    "id": "wyoqge",
+    "name": "Book Exchange Doc Reds",
+    "address": "37 Station St, Aspendale VIC 3195",
+    "lat": -38.016536,
+    "lon": 145.094923,
+    "sourceId": "obc_17347"
+  },
+  {
+    "id": "huwpfe",
+    "name": "Book Exchange Mordialloc Neighbourhood",
+    "address": "457 Main St, Mordialloc VIC 3195",
+    "lat": -38.004837,
+    "lon": 145.08561,
+    "sourceId": "obc_17348"
+  },
+  {
+    "id": "hytglu",
+    "name": "Book Exchange Arwon Street",
+    "address": "23 Arwon St, Mordialloc VIC 3195",
+    "lat": -38.003104,
+    "lon": 145.101467,
+    "sourceId": "obc_17349"
+  },
+  {
+    "id": "uuhyvv",
+    "name": "Book Exchange Kershaw Street",
+    "address": "38 Kershaw St, Mordialloc VIC 3195",
+    "lat": -37.998422,
+    "lon": 145.092891,
+    "sourceId": "obc_17350"
+  },
+  {
+    "id": "zgwcic",
+    "name": "Book Exchange Bumblebee",
+    "address": "10 Davey St, Parkdale VIC 3195",
+    "lat": -37.997377,
+    "lon": 145.087883,
+    "sourceId": "obc_17351"
+  },
+  {
+    "id": "bfekwa",
+    "name": "Book Exchange Monaco Street",
+    "address": "15 Monaco St, Parkdale VIC 3195",
+    "lat": -37.995951,
+    "lon": 145.07368,
+    "sourceId": "obc_17352"
+  },
+  {
+    "id": "jwukni",
+    "name": "Book Exchange The Antibean",
+    "address": "42 Antibes St, Parkdale VIC 3195",
+    "lat": -37.992214,
+    "lon": 145.072725,
+    "sourceId": "obc_17353"
+  },
+  {
+    "id": "dyxcxj",
+    "name": "Book Exchange Marriott Street",
+    "address": "3 Marriott St, Parkdale VIC 3195",
+    "lat": -37.98824,
+    "lon": 145.080868,
+    "sourceId": "obc_17354"
+  },
+  {
+    "id": "zflbsm",
+    "name": "Book Exchange Balmoral Drive",
+    "address": "21 Balmoral Dr, Parkdale VIC 3195",
+    "lat": -37.985323,
+    "lon": 145.087091,
+    "sourceId": "obc_17355"
+  },
+  {
+    "id": "rbekiw",
+    "name": "Book Exchange The Anand Journey",
+    "address": "46 Fourth St, Parkdale VIC 3195",
+    "lat": -37.986067,
+    "lon": 145.075428,
+    "sourceId": "obc_17356"
+  },
+  {
+    "id": "gdihim",
+    "name": "Book Exchange Seventh Heaven",
+    "address": "5A Third St, Parkdale VIC 3195",
+    "lat": -37.986625,
+    "lon": 145.072446,
+    "sourceId": "obc_17357"
+  },
+  {
+    "id": "szeamp",
+    "name": "Book Exchange Marina Road",
+    "address": "41 Marina Rd, Mentone VIC 3194",
+    "lat": -37.982355,
+    "lon": 145.055215,
+    "sourceId": "obc_17358"
+  },
+  {
+    "id": "xxswqh",
+    "name": "Bücherhaltestelle Würzbach",
+    "address": "Wilflingstraße 22, 75394 Oberreichenbach-Würzbach",
+    "lat": 48.722495,
+    "lon": 8.62769,
+    "sourceId": "obc_17359"
+  },
+  {
+    "id": "vvkeob",
+    "name": "Bücherschrank Saal an der Donau",
+    "address": "Kirchstraße 7, 93342 Saal an der Donau",
+    "lat": 48.899471,
+    "lon": 11.928847,
+    "sourceId": "obc_17360"
+  },
+  {
+    "id": "avzkhj",
+    "name": "Book Exchange Oldtown Hostel Otter",
+    "address": "Oberdorfstrasse 7, 8001 Zürich, Schweiz",
+    "lat": 47.368604,
+    "lon": 8.545653,
+    "sourceId": "obc_17361"
   },
   {
     "id": "mcgnlh",
