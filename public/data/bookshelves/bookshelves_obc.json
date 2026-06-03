@@ -1208,14 +1208,6 @@
     "sourceId": "obc_174"
   },
   {
-    "id": "twxhqi",
-    "name": "Heidelberg-Ziegelhausen",
-    "address": "",
-    "lat": 49.417975,
-    "lon": 8.757431,
-    "sourceId": "obc_175"
-  },
-  {
     "id": "vxljeu",
     "name": "Heiligenhaus / Basildonplatz (Westenergie Bücherschrank)",
     "address": "Friedhofstraße / Am Basildonplatz, 42579 Heiligenhaus",
@@ -53958,14 +53950,6 @@
     "lat": 52.270555016896,
     "lon": 11.858127862215,
     "sourceId": "obc_8015"
-  },
-  {
-    "id": "unewqj",
-    "name": "HERZLICHTER BÜCHERSCHRANK",
-    "address": "Rainweg 2, 69118 Heidelberg",
-    "lat": 49.423586393602,
-    "lon": 8.7485116173842,
-    "sourceId": "obc_8016"
   },
   {
     "id": "rlcefb",
@@ -124222,6 +124206,24 @@
     "lat": 47.368604,
     "lon": 8.545653,
     "sourceId": "obc_17361"
+  },
+  {
+    "id": "twxhqi",
+    "name": "Heidelberg-Ziegelhausen",
+    "address": "",
+    "lat": 49.417975,
+    "lon": 8.757431,
+    "sourceId": "obc_175",
+    "removed": true
+  },
+  {
+    "id": "unewqj",
+    "name": "HERZLICHTER BÜCHERSCHRANK",
+    "address": "Rainweg 2, 69118 Heidelberg",
+    "lat": 49.423586393602,
+    "lon": 8.7485116173842,
+    "sourceId": "obc_8016",
+    "removed": true
   },
   {
     "id": "mcgnlh",
