@@ -1,17 +1,13 @@
 const fs = require('fs');
 const path = require('path');
+const {
+  loadExisting,
+  writeBookshelves,
+  reconcileBookshelves
+} = require('./shared');
 
 const inputPath = path.join(__dirname, '..', '..', 'export.geojson');
 const outputPath = path.join(__dirname, '..', '..', 'public', 'data', 'bookshelves', 'bookshelves_osm.json');
-
-function generateId() {
-  const letters = 'abcdefghijklmnopqrstuvwxyz';
-  let result = '';
-  for (let i = 0; i < 6; i++) {
-    result += letters.charAt(Math.floor(Math.random() * letters.length));
-  }
-  return result;
-}
 
 function importOsm() {
   console.log(`Loading data from ${inputPath}...`);
@@ -20,11 +16,20 @@ function importOsm() {
     process.exit(1);
   }
 
+  const existingBookshelves = loadExisting(outputPath);
+
   const data = fs.readFileSync(inputPath, 'utf8');
-  const geojson = JSON.parse(data);
+  let geojson;
+  try {
+    geojson = JSON.parse(data);
+  } catch (e) {
+    console.error(`Failed to parse GeoJSON: ${e.message}`);
+    process.exit(1);
+  }
+
   console.log(`Processing ${geojson.features.length} features from OSM...`);
 
-  const bookshelves = [];
+  const incomingItems = [];
 
   geojson.features.forEach(feature => {
     const props = feature.properties;
@@ -46,26 +51,28 @@ function importOsm() {
     // Simple Name Generation
     const name = props.name || "Public Bookshelf";
 
-    const newItem = {
-      id: generateId(),
-      name: name,
-      address: null, // Address quality is too bad, skipping
-      lat: lat,
-      lon: lon,
-      sourceId: sourceId
-    };
-
-    bookshelves.push(newItem);
+    incomingItems.push({
+      sourceId,
+      name,
+      address: null, // Address quality is too bad, skipping to rely on enrichment
+      lat,
+      lon
+    });
   });
 
-  // Create directory if it doesn't exist
-  const dir = path.dirname(outputPath);
-  if (!fs.existsSync(dir)) {
-    fs.mkdirSync(dir, { recursive: true });
-  }
+  const { bookshelves, stats } = reconcileBookshelves(existingBookshelves, incomingItems, {
+    preserveAddressIfNull: true,
+    preserveNameIfGeneric: true
+  });
 
-  fs.writeFileSync(outputPath, JSON.stringify(bookshelves, null, 2));
-  console.log(`Successfully imported ${bookshelves.length} bookshelves to ${outputPath}`);
+  console.log(`Summary:`);
+  console.log(`- Total from source: ${stats.totalSource}`);
+  console.log(`- Kept/Updated: ${stats.updated}`);
+  console.log(`- New added: ${stats.newAdded}`);
+  console.log(`- Marked as removed (not in source): ${stats.removed}`);
+
+  writeBookshelves(outputPath, bookshelves);
+  process.exit(0);
 }
 
 importOsm();

@@ -912,7 +912,7 @@
   {
     "id": "boapbe",
     "name": "Bücherschrank Köln",
-    "address": "50999 Köln - Sürth Industriestraße 170, Wachsfabrik",
+    "address": "50999 Köln - Sürth Industriestra��e 170, Wachsfabrik",
     "lat": 50.8709644,
     "lon": 6.9980868
   },
@@ -1891,8 +1891,8 @@
   },
   {
     "id": "hsurnf",
-    "name": "Bücherschrank Karlsruhe",
-    "address": "76133 Karlsruhe - Lidellplatz",
+    "name": "Bücherschrank Karlsruhe -�� Lidellplatz",
+    "address": "76133 Karlsruhe -�� Lidellplatz",
     "lat": 49.0072166,
     "lon": 8.4073613
   },
@@ -3039,8 +3039,8 @@
   },
   {
     "id": "eihxvh",
-    "name": "Bücherschrank Köln",
-    "address": "50676 Köln, Mauritiuskirchplatz",
+    "name": "Bücherschrank Köln Mauritiusviertel",
+    "address": "50676 Köln Mauritiusviertel, Mauritiuskirchplatz",
     "lat": 50.9334919,
     "lon": 6.944032
   },
@@ -3514,7 +3514,7 @@
     "lon": 6.8553711
   },
   {
-    "id": "eihxvh",
+    "id": "ulhwol",
     "name": "Bücherschrank Köln",
     "address": "50676 Köln, Mauritiuskirchplatz",
     "lat": 50.9334919,
@@ -6697,5 +6697,33 @@
     "address": "46242 Bottrop, Im Brinkmannsfeld 40",
     "lat": 51.5183442,
     "lon": 6.9012868
+  },
+  {
+    "id": "rlhkxq",
+    "name": "Bücherschrank Longuich",
+    "address": "54340 Longuich, Maximinstraße 17",
+    "lat": 49.807519,
+    "lon": 6.7724429
+  },
+  {
+    "id": "pyoumf",
+    "name": "Bücherschrank Langenselbold",
+    "address": "63505 Langenselbold, Am Bürgerplatz",
+    "lat": 50.1851524,
+    "lon": 9.0293717
+  },
+  {
+    "id": "bqghkk",
+    "name": "Bücherschrank Düsseldorf",
+    "address": "40210 Düsseldorf, Stresemannplatz",
+    "lat": 51.2191788,
+    "lon": 6.7884139
+  },
+  {
+    "id": "vuuedo",
+    "name": "Bücherschrank Alzey",
+    "address": "55232 Alzey, Schießgraben 6",
+    "lat": 49.7442465,
+    "lon": 8.1158034
   }
 ]
