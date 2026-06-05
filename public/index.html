@@ -158,14 +158,18 @@
                                 <i data-lucide="map-pin"></i>
                             </a>
 
-                            <button
-                                id="shelfSourceBtn"
-                                class="close-btn"
-                                title="View original sources"
-                                style="display: none"
-                            >
-                                <i data-lucide="external-link"></i>
-                            </button>
+                            <div class="dropdown-wrapper" style="position: relative; display: inline-block;">
+                                <button
+                                    id="shelfSourceBtn"
+                                    class="close-btn"
+                                    title="View original sources"
+                                    style="display: none"
+                                >
+                                    <i data-lucide="external-link"></i>
+                                </button>
+                                <div id="shelfSourceDropdown" class="dropdown-menu hidden" style="position: absolute; right: 0; top: calc(100% + 8px); background: #161924; border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.5); padding: 0.5rem; z-index: 1000; min-width: 180px;">
+                                </div>
+                            </div>
                             <button
                                 id="closeShelfBtn"
                                 class="close-btn"
@@ -193,23 +197,6 @@
                     </div>
                 </div>
             </aside>
-
-            <!-- Source Links Modal -->
-            <div id="shelfSourceModal" class="modal-overlay hidden">
-                <div class="modal-box">
-                    <div class="modal-header">
-                        <h2>View data sources</h2>
-                        <button
-                            type="button"
-                            class="modal-close"
-                            id="closeSourceModalBtn"
-                        >
-                            ✕
-                        </button>
-                    </div>
-                    <div id="shelfSourceList" class="shelf-search-list"></div>
-                </div>
-            </div>
         </main>
 
         <!-- Scripts -->

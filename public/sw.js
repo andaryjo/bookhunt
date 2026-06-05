@@ -1,4 +1,4 @@
-const CACHE_VERSION = "v1";
+const CACHE_VERSION = "v5";
 const STATIC_CACHE = `bookhunt-static-${CACHE_VERSION}`;
 const DATA_CACHE = `bookhunt-data-${CACHE_VERSION}`;
 const MAP_CACHE = `bookhunt-map-tiles-${CACHE_VERSION}`;

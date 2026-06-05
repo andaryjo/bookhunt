@@ -38,9 +38,7 @@ const mapViewBtn = document.getElementById("mapViewBtn");
 const brandBtn = document.getElementById("brandBtn");
 const closeShelfBtn = document.getElementById("closeShelfBtn");
 
-const shelfSourceModal = document.getElementById("shelfSourceModal");
-const closeSourceModalBtn = document.getElementById("closeSourceModalBtn");
-const shelfSourceList = document.getElementById("shelfSourceList");
+const shelfSourceDropdown = document.getElementById("shelfSourceDropdown");
 
 const mapEl = document.getElementById("map");
 const bookshelfInfo = document.getElementById("bookshelfInfo");
@@ -547,34 +545,34 @@ function showBookshelfDetails(shelf, updateUrl = true, requestedId = null) {
         uniqueSources.push(s);
       }
     }
-
     if (uniqueSources.length > 0) {
       sourceBtn.style.display = "flex";
-      sourceBtn.onclick = () => {
-        if (shelfSourceList) {
-          shelfSourceList.innerHTML = "";
-          uniqueSources.forEach((s) => {
-            const btn = document.createElement("a");
-            btn.className = "shelf-search-btn";
-            btn.target = "_blank";
-            btn.rel = "noopener noreferrer";
-            btn.style.display = "flex";
-            btn.style.alignItems = "center";
-            btn.style.justifyContent = "center";
-            btn.style.marginBottom = "0.5rem";
-            btn.style.textDecoration = "none";
+      // Clear dropdown contents when shelf details are rendered
+      if (shelfSourceDropdown) {
+        shelfSourceDropdown.innerHTML = "";
+        shelfSourceDropdown.classList.add("hidden");
+        uniqueSources.forEach((s) => {
+          const item = document.createElement("a");
+          item.className = "dropdown-item";
+          item.target = "_blank";
+          item.rel = "noopener noreferrer";
+          
+          if (s.type === "obc") {
+            item.href = `https://obc.onl/${s.id}`;
+            item.innerHTML = `<i data-lucide="book-open" style="width: 16px; height: 16px;"></i> View on OpenBookCase`;
+          } else if (s.type === "osm") {
+            item.href = `https://www.openstreetmap.org/node/${s.id}`;
+            item.innerHTML = `<i data-lucide="map" style="width: 16px; height: 16px;"></i> View on OpenStreetMap`;
+          }
+          shelfSourceDropdown.appendChild(item);
+        });
+        lucide.createIcons();
+      }
 
-            if (s.type === "obc") {
-              btn.href = `https://obc.onl/${s.id}`;
-              btn.innerHTML = `<i data-lucide="book-open" style="width: 16px; height: 16px; margin-right: 0.5rem;"></i> View on OpenBookCase`;
-            } else if (s.type === "osm") {
-              btn.href = `https://www.openstreetmap.org/node/${s.id}`;
-              btn.innerHTML = `<i data-lucide="map" style="width: 16px; height: 16px; margin-right: 0.5rem;"></i> View on OpenStreetMap`;
-            }
-            shelfSourceList.appendChild(btn);
-          });
-          lucide.createIcons();
-          shelfSourceModal.classList.remove("hidden");
+      sourceBtn.onclick = (e) => {
+        e.stopPropagation();
+        if (shelfSourceDropdown) {
+          shelfSourceDropdown.classList.toggle("hidden");
         }
       };
     } else {
@@ -820,11 +818,16 @@ function setupEventListeners() {
     window.location.hash = "/map";
   });
 
-  if (closeSourceModalBtn && shelfSourceModal) {
-    closeSourceModalBtn.addEventListener("click", () => {
-      shelfSourceModal.classList.add("hidden");
-    });
-  }
+  // Close dropdown when clicking outside
+  document.addEventListener("click", (e) => {
+    if (shelfSourceDropdown && !shelfSourceDropdown.classList.contains("hidden")) {
+      const sourceBtn = document.getElementById("shelfSourceBtn");
+      const isClickInside = shelfSourceDropdown.contains(e.target) || (sourceBtn && sourceBtn.contains(e.target));
+      if (!isClickInside) {
+        shelfSourceDropdown.classList.add("hidden");
+      }
+    }
+  });
 
   let searchTimeout;
   searchInput.addEventListener("input", (e) => {

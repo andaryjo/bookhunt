@@ -1270,5 +1270,31 @@ body:not(.is-map-view):not(.is-shelf-view) .sidebar {
   transform: translateY(0);
 }
 
-
-
+/* Dropdown Menu Styles */
+.dropdown-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.dropdown-menu.hidden {
+  display: none !important;
+}
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  color: var(--text-main);
+  text-decoration: none;
+  font-size: 0.85rem;
+  border-radius: 6px;
+  transition: all 0.15s ease;
+  white-space: nowrap;
+}
+.dropdown-item:hover {
+  background: var(--bg-surface-hover);
+  color: var(--secondary);
+}
+.dropdown-item i {
+  flex-shrink: 0;
+}
