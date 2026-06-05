@@ -37760,14 +37760,6 @@
     "sourceId": "obc_5707"
   },
   {
-    "id": "xpsoun",
-    "name": "Bücherschrank Schwetzingen",
-    "address": "Mannheimer Straße 29, 68723 Schwetzingen",
-    "lat": 49.386688616373,
-    "lon": 8.5725535824895,
-    "sourceId": "obc_5708"
-  },
-  {
     "id": "frucbt",
     "name": "Bücherzelle Liest du mich",
     "address": "Bundeshöhe 4, 42285 Wuppertal",
@@ -121681,8 +121673,8 @@
   },
   {
     "id": "gnwbfx",
-    "name": "Bücherschrank",
-    "address": "RIMINI",
+    "name": "Bücherschrank  Little free libary Rimini",
+    "address": "Via Ducale 13 RIMINI",
     "lat": 44.063503,
     "lon": 12.566069,
     "sourceId": "obc_17039"
@@ -124206,6 +124198,31 @@
     "lat": 47.368604,
     "lon": 8.545653,
     "sourceId": "obc_17361"
+  },
+  {
+    "id": "inkjev",
+    "name": "Minibieb Reigershof 1",
+    "address": "Reigershof 1 Schagen",
+    "lat": 52.787815,
+    "lon": 4.786284,
+    "sourceId": "obc_17362"
+  },
+  {
+    "id": "gwgxxz",
+    "name": "Offener Bücherschrank Heiligengeistpark",
+    "address": "91-er Straße, Oldenburg",
+    "lat": 53.145463,
+    "lon": 8.213195,
+    "sourceId": "obc_17363"
+  },
+  {
+    "id": "xpsoun",
+    "name": "Bücherschrank Schwetzingen",
+    "address": "Mannheimer Straße 29, 68723 Schwetzingen",
+    "lat": 49.386688616373,
+    "lon": 8.5725535824895,
+    "sourceId": "obc_5708",
+    "removed": true
   },
   {
     "id": "twxhqi",
