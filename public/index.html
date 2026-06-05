@@ -1,212 +1,256 @@
 <!doctype html>
 <html lang="en" data-theme="dark">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bookhunt — Discover free books in public bookshelves</title>
-    <meta
-      name="description"
-      content="Discover free books in public bookshelves near you"
-    />
-    <link rel="icon" href="favicon.ico" />
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Bookhunt — Discover free books in public bookshelves</title>
+        <meta
+            name="description"
+            content="Discover free books in public bookshelves near you"
+        />
+        <link rel="icon" href="favicon.ico" />
 
-    <!-- PWA & Mobile Optimization -->
-    <link rel="manifest" href="manifest.json" />
-    <meta name="theme-color" content="#37746e" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta
-      name="apple-mobile-web-app-status-bar-style"
-      content="black-translucent"
-    />
-    <meta name="apple-mobile-web-app-title" content="Bookhunt" />
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+        <!-- PWA & Mobile Optimization -->
+        <link rel="manifest" href="manifest.json" />
+        <meta name="theme-color" content="#37746e" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta
+            name="apple-mobile-web-app-status-bar-style"
+            content="black-translucent"
+        />
+        <meta name="apple-mobile-web-app-title" content="Bookhunt" />
+        <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
 
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
 
-    <!-- PicoCSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"
-    />
+        <!-- PicoCSS -->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"
+        />
 
-    <!-- Leaflet CSS -->
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-      crossorigin=""
-    />
-    <!-- Leaflet MarkerCluster CSS -->
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css"
-    />
+        <!-- Leaflet CSS -->
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+            crossorigin=""
+        />
+        <!-- Leaflet MarkerCluster CSS -->
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css"
+        />
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
 
-  <body>
-    <!-- Header -->
-    <header class="app-header">
-      <div class="brand" id="brandBtn">
-        <h1>Bookhunt</h1>
-      </div>
-      <div class="nav-controls">
-        <button class="nav-btn" id="mapViewBtn">Map</button>
-        <a href="contribute/" class="nav-btn" id="contributeNavBtn">Contribute</a>
-      </div>
-    </header>
-
-    <!-- Main Content Layout -->
-    <main class="app-main">
-      <!-- Start Page View -->
-      <section id="startPage" class="start-page">
-        <div class="sticky-search">
-          <div class="hero-search">
-            <div class="search-box">
-              <i data-lucide="search" class="search-icon-large"></i>
-              <input
-                type="search"
-                id="searchInput"
-                placeholder="Search book title or author"
-              />
+    <body>
+        <!-- Header -->
+        <header class="app-header">
+            <div class="brand" id="brandBtn">
+                <h1>Bookhunt</h1>
             </div>
-          </div>
-        </div>
-
-        <div class="scrollable-results">
-          <div id="searchResults" class="search-results">
-            <!-- Loading Indicator -->
-            <div id="loadingOverlay" class="loading-overlay">
-              <div class="loader-content">
-                <div class="loader-spinner"></div>
-                <p>Loading books...</p>
-              </div>
+            <div class="nav-controls">
+                <button class="nav-btn" id="mapViewBtn">Map</button>
+                <a href="contribute/" class="nav-btn" id="contributeNavBtn"
+                    >Contribute</a
+                >
             </div>
+        </header>
 
-            <div id="startPageSummary" class="start-page-summary hidden"></div>
+        <!-- Main Content Layout -->
+        <main class="app-main">
+            <!-- Start Page View -->
+            <section id="startPage" class="start-page">
+                <div class="sticky-search">
+                    <div class="hero-search">
+                        <div class="search-box">
+                            <i
+                                data-lucide="search"
+                                class="search-icon-large"
+                            ></i>
+                            <input
+                                type="search"
+                                id="searchInput"
+                                placeholder="Search book title or author"
+                            />
+                        </div>
+                    </div>
+                </div>
 
-            <div id="searchList" class="results-grid">
-              <!-- Results (shelves, books, buttons) will be rendered here -->
+                <div class="scrollable-results">
+                    <div id="searchResults" class="search-results">
+                        <!-- Loading Indicator -->
+                        <div id="loadingOverlay" class="loading-overlay">
+                            <div class="loader-content">
+                                <div class="loader-spinner"></div>
+                                <p>Loading books...</p>
+                            </div>
+                        </div>
+
+                        <div
+                            id="startPageSummary"
+                            class="start-page-summary hidden"
+                        ></div>
+
+                        <div id="searchList" class="results-grid">
+                            <!-- Results (shelves, books, buttons) will be rendered here -->
+                        </div>
+                        <div
+                            id="searchLoadMoreContainer"
+                            class="load-more-container hidden"
+                        >
+                            <button
+                                id="searchLoadMoreBtn"
+                                class="load-more-btn"
+                            >
+                                Load more books
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Map View -->
+            <section id="mapSection" class="map-section hidden">
+                <div class="map-controls">
+                    <div class="map-search-box">
+                        <i data-lucide="search" class="search-icon-small"></i>
+                        <input
+                            type="search"
+                            id="mapSearchInput"
+                            placeholder="Search for a city or place"
+                        />
+                    </div>
+                </div>
+                <div class="map-container" id="map"></div>
+            </section>
+
+            <!-- Shelf Side-by-Side View -->
+            <aside id="shelfSidebar" class="sidebar hidden">
+                <div id="bookshelfInfo" class="bookshelf-info">
+                    <div class="info-header">
+                        <div>
+                            <h2 id="shelfName">Select a bookshelf</h2>
+                            <p id="shelfDesc" class="text-muted"></p>
+                        </div>
+                        <div class="sidebar-actions">
+                            <a
+                                id="shelfMapsLink"
+                                class="close-btn"
+                                href="#"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                title="Open in Google Maps"
+                                style="display: none"
+                            >
+                                <i data-lucide="map-pin"></i>
+                            </a>
+
+                            <button
+                                id="shelfSourceBtn"
+                                class="close-btn"
+                                title="View original sources"
+                                style="display: none"
+                            >
+                                <i data-lucide="external-link"></i>
+                            </button>
+                            <button
+                                id="closeShelfBtn"
+                                class="close-btn"
+                                title="Back to map"
+                            >
+                                <i data-lucide="x"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div id="bookList" class="book-list">
+                        <!-- Books will be rendered here -->
+                        <div class="empty-state">
+                            <span style="font-size: 3rem">📍</span>
+                            <p>Click a marker on the map to view books.</p>
+                        </div>
+                    </div>
+                    <div
+                        id="shelfLoadMoreContainer"
+                        class="load-more-container hidden"
+                        style="padding: 1rem 0"
+                    >
+                        <button id="shelfLoadMoreBtn" class="load-more-btn">
+                            Show more books
+                        </button>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Source Links Modal -->
+            <div id="shelfSourceModal" class="modal-overlay hidden">
+                <div class="modal-box">
+                    <div class="modal-header">
+                        <h2>View data sources</h2>
+                        <button
+                            type="button"
+                            class="modal-close"
+                            id="closeSourceModalBtn"
+                        >
+                            ✕
+                        </button>
+                    </div>
+                    <div id="shelfSourceList" class="shelf-search-list"></div>
+                </div>
             </div>
-            <div
-              id="searchLoadMoreContainer"
-              class="load-more-container hidden"
-            >
-              <button id="searchLoadMoreBtn" class="load-more-btn">
-                Load more books
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
+        </main>
 
-      <!-- Map View -->
-      <section id="mapSection" class="map-section hidden">
-        <div class="map-controls">
-          <div class="map-search-box">
-            <i data-lucide="search" class="search-icon-small"></i>
-            <input
-              type="search"
-              id="mapSearchInput"
-              placeholder="Search for a city or place"
-            />
-          </div>
-        </div>
-        <div class="map-container" id="map"></div>
-      </section>
+        <!-- Scripts -->
+        <script src="https://unpkg.com/lucide@latest"></script>
+        <script
+            src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            crossorigin=""
+        ></script>
+        <!-- Leaflet MarkerCluster JS -->
+        <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+        <!-- Image compression -->
+        <script
+            type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/browser-image-compression@2.0.1/dist/browser-image-compression.js"
+        ></script>
+        <!-- EXIF reader -->
+        <script src="https://cdn.jsdelivr.net/npm/exifr/dist/lite.umd.js"></script>
+        <!-- App -->
+        <script src="js/utils.js"></script>
+        <script src="js/app.js"></script>
 
-      <!-- Shelf Side-by-Side View -->
-      <aside id="shelfSidebar" class="sidebar hidden">
-        <div id="bookshelfInfo" class="bookshelf-info">
-          <div class="info-header">
-            <div>
-              <h2 id="shelfName">Select a bookshelf</h2>
-              <p id="shelfDesc" class="text-muted"></p>
-            </div>
-            <div class="sidebar-actions">
-              <a
-                id="shelfMapsLink"
-                class="close-btn"
-                href="#"
-                target="_blank"
-                rel="noopener noreferrer"
-                title="Open in Google Maps"
-                style="display: none"
-              >
-                <i data-lucide="map-pin"></i>
-              </a>
-              <button id="closeShelfBtn" class="close-btn" title="Back to map">
-                <i data-lucide="x"></i>
-              </button>
-            </div>
-          </div>
-          <div id="bookList" class="book-list">
-            <!-- Books will be rendered here -->
-            <div class="empty-state">
-              <span style="font-size: 3rem">📍</span>
-              <p>Click a marker on the map to view books.</p>
-            </div>
-          </div>
-          <div
-            id="shelfLoadMoreContainer"
-            class="load-more-container hidden"
-            style="padding: 1rem 0"
-          >
-            <button id="shelfLoadMoreBtn" class="load-more-btn">
-              Show more books
-            </button>
-          </div>
-        </div>
-      </aside>
-    </main>
-
-    <!-- Scripts -->
-    <script src="https://unpkg.com/lucide@latest"></script>
-    <script
-      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-      crossorigin=""
-    ></script>
-    <!-- Leaflet MarkerCluster JS -->
-    <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
-    <!-- Image compression -->
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/browser-image-compression@2.0.1/dist/browser-image-compression.js"
-    ></script>
-    <!-- EXIF reader -->
-    <script src="https://cdn.jsdelivr.net/npm/exifr/dist/lite.umd.js"></script>
-    <!-- App -->
-    <script src="js/utils.js"></script>
-    <script src="js/app.js"></script>
-
-    <!-- Service Worker Registration -->
-    <script>
-      if ("serviceWorker" in navigator) {
-        window.addEventListener("load", () => {
-          navigator.serviceWorker
-            .register("sw.js")
-            .then((reg) => {
-              console.log(
-                "[PWA] Service Worker registered with scope:",
-                reg.scope,
-              );
-            })
-            .catch((err) =>
-              console.error("[PWA] Service Worker registration failed:", err),
-            );
-        });
-      }
-    </script>
-  </body>
+        <!-- Service Worker Registration -->
+        <script>
+            if ("serviceWorker" in navigator) {
+                window.addEventListener("load", () => {
+                    navigator.serviceWorker
+                        .register("sw.js")
+                        .then((reg) => {
+                            console.log(
+                                "[PWA] Service Worker registered with scope:",
+                                reg.scope,
+                            );
+                        })
+                        .catch((err) =>
+                            console.error(
+                                "[PWA] Service Worker registration failed:",
+                                err,
+                            ),
+                        );
+                });
+            }
+        </script>
+    </body>
 </html>

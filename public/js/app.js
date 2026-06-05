@@ -7,6 +7,7 @@ let currentFile = null;
 let userLocation = { lat: 52.52, lon: 13.405 }; // Default Berlin
 let isLocationShared = false;
 let shelfIdToGroup = {}; // Map for fast lookup
+let shelfIdToSourceId = {}; // Map database IDs to source IDs
 const BOOKS_PER_PAGE = 200;
 let currentStartPageLimit = BOOKS_PER_PAGE;
 let currentSearchResultsLimit = BOOKS_PER_PAGE;
@@ -36,6 +37,10 @@ const shelfSidebar = document.getElementById("shelfSidebar");
 const mapViewBtn = document.getElementById("mapViewBtn");
 const brandBtn = document.getElementById("brandBtn");
 const closeShelfBtn = document.getElementById("closeShelfBtn");
+
+const shelfSourceModal = document.getElementById("shelfSourceModal");
+const closeSourceModalBtn = document.getElementById("closeSourceModalBtn");
+const shelfSourceList = document.getElementById("shelfSourceList");
 
 const mapEl = document.getElementById("map");
 const bookshelfInfo = document.getElementById("bookshelfInfo");
@@ -135,7 +140,8 @@ async function loadData(forceNetwork = false) {
   const now = Date.now();
   const sixHours = 6 * 60 * 60 * 1000;
   const lastUpdate = localStorage.getItem(LAST_UPDATE_KEY);
-  const isCacheValid = !forceNetwork && lastUpdate && now - parseInt(lastUpdate) < sixHours;
+  const isCacheValid =
+    !forceNetwork && lastUpdate && now - parseInt(lastUpdate) < sixHours;
 
   async function fetchWithCache(url) {
     if (window.caches && isCacheValid) {
@@ -167,18 +173,26 @@ async function loadData(forceNetwork = false) {
       }
       return data;
     } catch (fetchError) {
-      console.warn(`[Network] Fetch failed for ${url}. Trying cache fallback...`, fetchError);
-      
+      console.warn(
+        `[Network] Fetch failed for ${url}. Trying cache fallback...`,
+        fetchError,
+      );
+
       if (window.caches) {
         try {
           const cache = await caches.open(CACHE_NAME);
           const cachedResponse = await cache.match(url);
           if (cachedResponse) {
-            console.log(`[Cache Fallback] Loaded cached copy of ${url} due to offline state`);
+            console.log(
+              `[Cache Fallback] Loaded cached copy of ${url} due to offline state`,
+            );
             return cachedResponse.json();
           }
         } catch (cacheError) {
-          console.error("Cache access failed during offline fallback", cacheError);
+          console.error(
+            "Cache access failed during offline fallback",
+            cacheError,
+          );
         }
       }
       throw fetchError;
@@ -211,8 +225,15 @@ async function loadData(forceNetwork = false) {
 
   bookshelves = clusterBookshelves(activeShelves);
 
-  // Build lookup map for fast access
+  // Build lookup maps for fast access
   shelfIdToGroup = {};
+  shelfIdToSourceId = {};
+  activeShelves.forEach((s) => {
+    if (s.sourceId) {
+      shelfIdToSourceId[String(s.id)] = s.sourceId;
+    }
+  });
+
   bookshelves.forEach((group) => {
     group.memberIds.forEach((id) => {
       shelfIdToGroup[id] = group;
@@ -393,7 +414,7 @@ async function checkLocationPermission() {
       }
     } catch (e) {
       console.warn("Permissions API check failed for geolocation:", e);
-      // Fallback: If permissions.query failed/threw (common on Firefox for Android), 
+      // Fallback: If permissions.query failed/threw (common on Firefox for Android),
       // but we already have a cached location, we should attempt to refresh.
       if (isLocationShared) {
         shouldRefresh = true;
@@ -490,6 +511,74 @@ function showBookshelfDetails(shelf, updateUrl = true, requestedId = null) {
       mapsLink.style.display = "flex";
     } else {
       mapsLink.style.display = "none";
+    }
+  }
+
+  // Original Sources link modal
+  const sourceBtn = document.getElementById("shelfSourceBtn");
+  if (sourceBtn) {
+    const sources = [];
+    if (shelf.memberIds) {
+      for (const id of shelf.memberIds) {
+        const sourceId = shelfIdToSourceId[id];
+        if (sourceId) {
+          if (String(sourceId).startsWith("obc_")) {
+            sources.push({
+              type: "obc",
+              id: String(sourceId).replace("obc_", ""),
+            });
+          } else if (String(sourceId).startsWith("osm_")) {
+            sources.push({
+              type: "osm",
+              id: String(sourceId).replace("osm_", ""),
+            });
+          }
+        }
+      }
+    }
+
+    // Deduplicate
+    const uniqueSources = [];
+    const seen = new Set();
+    for (const s of sources) {
+      const key = `${s.type}_${s.id}`;
+      if (!seen.has(key)) {
+        seen.add(key);
+        uniqueSources.push(s);
+      }
+    }
+
+    if (uniqueSources.length > 0) {
+      sourceBtn.style.display = "flex";
+      sourceBtn.onclick = () => {
+        if (shelfSourceList) {
+          shelfSourceList.innerHTML = "";
+          uniqueSources.forEach((s) => {
+            const btn = document.createElement("a");
+            btn.className = "shelf-search-btn";
+            btn.target = "_blank";
+            btn.rel = "noopener noreferrer";
+            btn.style.display = "flex";
+            btn.style.alignItems = "center";
+            btn.style.justifyContent = "center";
+            btn.style.marginBottom = "0.5rem";
+            btn.style.textDecoration = "none";
+
+            if (s.type === "obc") {
+              btn.href = `https://obc.onl/${s.id}`;
+              btn.innerHTML = `<i data-lucide="book-open" style="width: 16px; height: 16px; margin-right: 0.5rem;"></i> View on OpenBookCase`;
+            } else if (s.type === "osm") {
+              btn.href = `https://www.openstreetmap.org/node/${s.id}`;
+              btn.innerHTML = `<i data-lucide="map" style="width: 16px; height: 16px; margin-right: 0.5rem;"></i> View on OpenStreetMap`;
+            }
+            shelfSourceList.appendChild(btn);
+          });
+          lucide.createIcons();
+          shelfSourceModal.classList.remove("hidden");
+        }
+      };
+    } else {
+      sourceBtn.style.display = "none";
     }
   }
 
@@ -731,6 +820,12 @@ function setupEventListeners() {
     window.location.hash = "/map";
   });
 
+  if (closeSourceModalBtn && shelfSourceModal) {
+    closeSourceModalBtn.addEventListener("click", () => {
+      shelfSourceModal.classList.add("hidden");
+    });
+  }
+
   let searchTimeout;
   searchInput.addEventListener("input", (e) => {
     clearTimeout(searchTimeout);
@@ -843,5 +938,3 @@ async function handleRouting() {
 
 // Start app
 document.addEventListener("DOMContentLoaded", init);
-
-

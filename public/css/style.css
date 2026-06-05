@@ -868,6 +868,7 @@ body:not(.is-map-view):not(.is-shelf-view) .sidebar {
   line-height: 1;
   border-radius: 8px;
   transition: background 0.2s;
+  width: auto;
 }
 
 .modal-close:hover {
