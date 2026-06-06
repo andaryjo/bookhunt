@@ -593,7 +593,7 @@ function randomId(length) {
 // Init
 // ---------------------------------------------------------------------------
 function initContribute() {
-  const isAndroid = /Android/i.test(navigator.userAgent);
+  const isMobileOS = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
 
   // --- Load cached location ---
   try {
@@ -622,8 +622,8 @@ function initContribute() {
     }
   }
 
-  // --- Android: show location prompt and remove accept filter ---
-  if (isAndroid) {
+  // --- Android/iOS: show location prompt and remove accept filter ---
+  if (isMobileOS) {
     if (contributeImageInput) {
       contributeImageInput.removeAttribute("accept");
     }
@@ -636,7 +636,7 @@ function initContribute() {
     if (enableGpsBtn) {
       if (userLocation) {
         enableGpsBtn.disabled = true;
-        enableGpsBtn.textContent = "✓ Location found";
+        enableGpsBtn.textContent = "✓ User location found";
         enableGpsBtn.style.borderColor = "rgba(74, 222, 128, 0.4)";
         enableGpsBtn.style.color = "#4ade80";
         enableGpsBtn.style.background = "rgba(74, 222, 128, 0.1)";
