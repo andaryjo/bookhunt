@@ -683,7 +683,24 @@ body {
   border-bottom: 1px solid var(--border-color) !important;
 }
 
-/* Custom MarkerCluster Styling */
+
+/* Safe area adjustments for mobile devices */
+@media (max-width: 768px) {
+  /* Position zoom control above navigation bar */
+  .leaflet-control-zoom.leaflet-bar {
+    bottom: calc(env(safe-area-inset-bottom, 0px) + 8px) !important;
+    top: auto !important;
+    left: 8px !important;
+    right: auto !important;
+    /* Ensure it stays within view */
+    transform: none !important;
+  }
+
+  /* If a footer element exists, add safe area padding */
+  footer, .footer, .app-footer {
+    padding-bottom: env(safe-area-inset-bottom, 0px) !important;
+  }
+}
 .custom-cluster-icon {
   display: flex !important;
   align-items: center !important;
