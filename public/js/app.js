@@ -99,12 +99,13 @@ async function init() {
 
   // 3. Initialize Map
   try {
-    map = L.map("map").setView([userLocation.lat, userLocation.lon], 12);
+    map = L.map("map", { zoomControl: false }).setView([userLocation.lat, userLocation.lon], 12);
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
       maxZoom: 19,
       attribution:
         '© OpenStreetMap | <a href="https://github.com/andaryjo/bookhunt#data" target="_blank">Bookshelf data sources</a>',
     }).addTo(map);
+    L.control.zoom({ position: "bottomleft" }).addTo(map);
 
     // Defer populating map markers to keep startup fast
     setTimeout(() => {
