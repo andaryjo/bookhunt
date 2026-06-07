@@ -123313,7 +123313,7 @@
   },
   {
     "id": "oypgwc",
-    "name": "Bücherregal EDEKA Götze",
+    "name": "Bücherregal EDEKA Köbernik",
     "address": "Königstraße 49, 14109 Berlin-Wannsee",
     "lat": 52.418401,
     "lon": 13.153113,
@@ -124214,6 +124214,22 @@
     "lat": 53.145463,
     "lon": 8.213195,
     "sourceId": "obc_17363"
+  },
+  {
+    "id": "fncfpr",
+    "name": "Bücherschrank Matrei in Osttirol",
+    "address": "Sparkassenplatz 4, 9971 Matrei in Osttirol",
+    "lat": 47.001138,
+    "lon": 12.538145,
+    "sourceId": "obc_17364"
+  },
+  {
+    "id": "otacho",
+    "name": "Mini Bib Kohlberg",
+    "address": "Waldstr. 14, Kohlberg",
+    "lat": 49.587199,
+    "lon": 12.021736,
+    "sourceId": "obc_17365"
   },
   {
     "id": "xpsoun",
