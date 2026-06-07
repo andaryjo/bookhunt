@@ -1,0 +1,43 @@
+name: Update bookshelves data
+
+on:
+  schedule:
+    - cron: "0 9 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  process:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.BRUTOR_GH_PAT }}
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Import OpenBookCase
+        run: node scripts/import/import_obc.js
+
+      - name: Commit and create MR
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.BRUTOR_GH_PAT }}
+          commit-message: "automated bookshelves update"
+          committer: "Brutor <bookhuntbrutor@gemueseoderobst.de>"
+          author: "Brutor <bookhuntbrutor@gemueseoderobst.de>"
+          branch: "import-shelves"
+          title: "Update external bookshelves data"
+          body: "Automated MR updating external bookshelves data."
+          base: "main"
