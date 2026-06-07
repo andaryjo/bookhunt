@@ -27,8 +27,21 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Import boite-a-lire
+        run: node scripts/import/import_bal.js
+        continue-on-error: true
+
+      - name: Import BOKX
+        run: node scripts/import/import_box.js
+        continue-on-error: true
+
       - name: Import OpenBookCase
         run: node scripts/import/import_obc.js
+        continue-on-error: true
+
+      - name: Import Westenergie
+        run: node scripts/import/import_wee.js
+        continue-on-error: true
 
       - name: Commit and create MR
         uses: peter-evans/create-pull-request@v6
