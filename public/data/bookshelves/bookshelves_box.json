@@ -912,7 +912,7 @@
   {
     "id": "boapbe",
     "name": "Bücherschrank Köln",
-    "address": "50999 Köln - Sürth Industriestra��e 170, Wachsfabrik",
+    "address": "50999 Köln - Sürth Industriestraße 170, Wachsfabrik",
     "lat": 50.8709644,
     "lon": 6.9980868
   },
@@ -1891,8 +1891,8 @@
   },
   {
     "id": "hsurnf",
-    "name": "Bücherschrank Karlsruhe -�� Lidellplatz",
-    "address": "76133 Karlsruhe -�� Lidellplatz",
+    "name": "Bücherschrank Karlsruhe",
+    "address": "76133 Karlsruhe - Lidellplatz",
     "lat": 49.0072166,
     "lon": 8.4073613
   },
