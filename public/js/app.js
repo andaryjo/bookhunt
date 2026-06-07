@@ -99,7 +99,10 @@ async function init() {
 
   // 3. Initialize Map
   try {
-    map = L.map("map", { zoomControl: false }).setView([userLocation.lat, userLocation.lon], 12);
+    map = L.map("map", { zoomControl: false }).setView(
+      [userLocation.lat, userLocation.lon],
+      12,
+    );
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
       maxZoom: 19,
       attribution:
@@ -484,11 +487,19 @@ function populateMap(shelvesToUse = bookshelves) {
   lucide.createIcons();
 }
 
+function createSourcesDropdownItem(name, link) {
+  const item = document.createElement("a");
+  item.className = "dropdown-item";
+  item.target = "_blank";
+  item.rel = "noopener noreferrer";
+  item.href = link;
+  item.innerHTML = name;
+  return item;
+}
+
 // Render Bookshelf details on the sidebar
 function showBookshelfDetails(shelf, updateUrl = true, requestedId = null) {
-  if (shelf.memberIds && shelf.memberIds.length > 1) {
-    console.log(`Duplicate shelf IDs for "${shelf.name}":`, shelf.memberIds);
-  }
+  console.log("Shelves in this group", shelf.memberIds);
 
   if (updateUrl) {
     window.location.hash = `/shelf/${requestedId || shelf.id}`;
@@ -502,83 +513,50 @@ function showBookshelfDetails(shelf, updateUrl = true, requestedId = null) {
     contributeNavBtn.href = `contribute/?shelfId=${encodeURIComponent(requestedId || shelf.id)}`;
   }
 
-  // Google Maps link
-  const mapsLink = document.getElementById("shelfMapsLink");
-  if (mapsLink) {
-    if (shelf.lat && shelf.lon) {
-      mapsLink.href = `https://www.google.com/maps?q=${shelf.lat},${shelf.lon}`;
-      mapsLink.style.display = "flex";
-    } else {
-      mapsLink.style.display = "none";
-    }
-  }
-
-  // Original Sources link modal
+  // sources button
   const sourceBtn = document.getElementById("shelfSourceBtn");
   if (sourceBtn) {
-    const sources = [];
-    if (shelf.memberIds) {
+    sourceBtn.style.display = "flex";
+    // Clear dropdown contents when shelf details are rendered
+    if (shelfSourceDropdown) {
+      shelfSourceDropdown.innerHTML = "";
+      shelfSourceDropdown.classList.add("hidden");
+
+      shelfSourceDropdown.appendChild(
+        createSourcesDropdownItem(
+          "Google Maps",
+          `https://www.google.com/maps?q=${shelf.lat},${shelf.lon}`,
+        ),
+      );
+
       for (const id of shelf.memberIds) {
         const sourceId = shelfIdToSourceId[id];
         if (sourceId) {
           if (String(sourceId).startsWith("obc_")) {
-            sources.push({
-              type: "obc",
-              id: String(sourceId).replace("obc_", ""),
-            });
+            shelfSourceDropdown.appendChild(
+              createSourcesDropdownItem(
+                "OpenBookCase",
+                `https://obc.onl/${String(sourceId).replace("obc_", "")}`,
+              ),
+            );
           } else if (String(sourceId).startsWith("osm_")) {
-            sources.push({
-              type: "osm",
-              id: String(sourceId).replace("osm_", ""),
-            });
+            shelfSourceDropdown.appendChild(
+              createSourcesDropdownItem(
+                "OpenStreetMap",
+                `https://www.openstreetmap.org/node/${String(sourceId).replace("osm_", "")}`,
+              ),
+            );
           }
         }
       }
     }
 
-    // Deduplicate
-    const uniqueSources = [];
-    const seen = new Set();
-    for (const s of sources) {
-      const key = `${s.type}_${s.id}`;
-      if (!seen.has(key)) {
-        seen.add(key);
-        uniqueSources.push(s);
-      }
-    }
-    if (uniqueSources.length > 0) {
-      sourceBtn.style.display = "flex";
-      // Clear dropdown contents when shelf details are rendered
+    sourceBtn.onclick = (e) => {
+      e.stopPropagation();
       if (shelfSourceDropdown) {
-        shelfSourceDropdown.innerHTML = "";
-        shelfSourceDropdown.classList.add("hidden");
-        uniqueSources.forEach((s) => {
-          const item = document.createElement("a");
-          item.className = "dropdown-item";
-          item.target = "_blank";
-          item.rel = "noopener noreferrer";
-          
-          if (s.type === "obc") {
-            item.href = `https://obc.onl/${s.id}`;
-            item.innerHTML = `<i data-lucide="book-open" style="width: 16px; height: 16px;"></i> View on OpenBookCase`;
-          } else if (s.type === "osm") {
-            item.href = `https://www.openstreetmap.org/node/${s.id}`;
-            item.innerHTML = `<i data-lucide="map" style="width: 16px; height: 16px;"></i> View on OpenStreetMap`;
-          }
-          shelfSourceDropdown.appendChild(item);
-        });
-        lucide.createIcons();
+        shelfSourceDropdown.classList.toggle("hidden");
       }
-
-      sourceBtn.onclick = (e) => {
-        e.stopPropagation();
-        if (shelfSourceDropdown) {
-          shelfSourceDropdown.classList.toggle("hidden");
-        }
-      };
-    } else {
-      sourceBtn.style.display = "none";
-    }
+    };
   }
 
   // Find books for all shelves in this group
@@ -589,9 +567,7 @@ function showBookshelfDetails(shelf, updateUrl = true, requestedId = null) {
     memberIds.has(String(book.bookshelfId).toLowerCase().trim()),
   );
 
-  console.log(
-    `Filtering for shelf group ${shelf.id}: found ${shelfDetailsBooks.length} books.`,
-  );
+  console.log(`Found ${shelfDetailsBooks.length} books for shelf group.`);
 
   // Sort by newest first
   shelfDetailsBooks.sort((a, b) => new Date(b.date) - new Date(a.date));
@@ -819,11 +795,16 @@ function setupEventListeners() {
     window.location.hash = "/map";
   });
 
-  // Close dropdown when clicking outside
+  // Close sources dropdown when clicking outside
   document.addEventListener("click", (e) => {
-    if (shelfSourceDropdown && !shelfSourceDropdown.classList.contains("hidden")) {
+    if (
+      shelfSourceDropdown &&
+      !shelfSourceDropdown.classList.contains("hidden")
+    ) {
       const sourceBtn = document.getElementById("shelfSourceBtn");
-      const isClickInside = shelfSourceDropdown.contains(e.target) || (sourceBtn && sourceBtn.contains(e.target));
+      const isClickInside =
+        shelfSourceDropdown.contains(e.target) ||
+        (sourceBtn && sourceBtn.contains(e.target));
       if (!isClickInside) {
         shelfSourceDropdown.classList.add("hidden");
       }
@@ -889,7 +870,7 @@ async function handleRouting() {
         ),
       );
       if (shelf) {
-        console.log("Found shelf group:", shelf.name);
+        console.log("Found shelf for ID", shelfId, shelf.name);
         document.body.classList.add("is-shelf-view");
         mapSection.classList.remove("hidden");
         mapViewBtn.classList.add("hidden");
