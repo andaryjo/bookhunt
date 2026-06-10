@@ -47248,14 +47248,6 @@
     "sourceId": "obc_7072"
   },
   {
-    "id": "vmcgkd",
-    "name": "Bücherregal und Givebox an den Breidenbachstudios",
-    "address": "Hebelstraße , 69115 Heidelberg",
-    "lat": 49.396754501324,
-    "lon": 8.6786433309317,
-    "sourceId": "obc_7073"
-  },
-  {
     "id": "lzejzl",
     "name": "Bücherschrank Lam Osserbad",
     "address": "Ginglmühler Weg 25, 93462 Lam",
@@ -123314,7 +123306,7 @@
   {
     "id": "oypgwc",
     "name": "Bücherregal EDEKA Köbernik",
-    "address": "Königstraße 49, 14109 Berlin-Wannsee",
+    "address": "Königstraße 14, 14109 Berlin-Wannsee",
     "lat": 52.418401,
     "lon": 13.153113,
     "sourceId": "obc_17251"
@@ -124230,6 +124222,167 @@
     "lat": 49.587199,
     "lon": 12.021736,
     "sourceId": "obc_17365"
+  },
+  {
+    "id": "eabkcu",
+    "name": "Bücherhaltestelle Ringsberg",
+    "address": "Glücksburger Str. 15, 24977 Ringsberg",
+    "lat": 54.8071079,
+    "lon": 9.5985099,
+    "sourceId": "obc_17366"
+  },
+  {
+    "id": "prvfuv",
+    "name": "Bücherschrank Campus Abert Schweitzer",
+    "address": "Am Eichgarten 14, 12167 Berlin-Steglitz",
+    "lat": 52.445992,
+    "lon": 13.334334,
+    "sourceId": "obc_17367"
+  },
+  {
+    "id": "nwnjxs",
+    "name": "Book Exchange Monbulk Dr Who",
+    "address": "104 Main Rd, Monbulk VIC 3793",
+    "lat": -37.874244,
+    "lon": 145.406606,
+    "sourceId": "obc_17368"
+  },
+  {
+    "id": "mpyhtf",
+    "name": "Book Exchange The Patch",
+    "address": "16 The Patch Rd, The Patch VIC 3792",
+    "lat": -37.889926,
+    "lon": 145.391296,
+    "sourceId": "obc_17369"
+  },
+  {
+    "id": "bninnq",
+    "name": "Book Exchange Dynamic Short Stays",
+    "address": "10 Parsons Ln, Olinda VIC 3788",
+    "lat": -37.855313,
+    "lon": 145.365204,
+    "sourceId": "obc_17370"
+  },
+  {
+    "id": "flznbq",
+    "name": "Book Exchange The Hethersett Hollow",
+    "address": "26 Hethersett Rd, Sassafras VIC 3787",
+    "lat": -37.867841,
+    "lon": 145.348327,
+    "sourceId": "obc_17371"
+  },
+  {
+    "id": "qknvjg",
+    "name": "Book Exchange The Page Perch",
+    "address": "20 Edith Ct, Mount Dandenong VIC 3767",
+    "lat": -37.846452,
+    "lon": 145.357307,
+    "sourceId": "obc_17372"
+  },
+  {
+    "id": "wuqpqn",
+    "name": "Book Exchange Edith Court",
+    "address": "4 Edith Ct, Mount Dandenong VIC 3767, Australien",
+    "lat": -37.845545,
+    "lon": 145.355537,
+    "sourceId": "obc_17373"
+  },
+  {
+    "id": "jebiew",
+    "name": "Book Exchange The Crescent Collection",
+    "address": "16 Gully Cres, Belgrave VIC 3160",
+    "lat": -37.900603,
+    "lon": 145.356084,
+    "sourceId": "obc_17374"
+  },
+  {
+    "id": "bzfnoh",
+    "name": "Book Exchange Dickinson Street",
+    "address": "7 Dickinson St, Belgrave VIC 3160",
+    "lat": -37.908755,
+    "lon": 145.347705,
+    "sourceId": "obc_17375"
+  },
+  {
+    "id": "xjlrjd",
+    "name": "Book Exchange Book Lovers Society",
+    "address": "35 Hughes St, Upwey VIC 3158",
+    "lat": -37.896751,
+    "lon": 145.326784,
+    "sourceId": "obc_17376"
+  },
+  {
+    "id": "xqdywx",
+    "name": "Book Exchange on Gilmour",
+    "address": "8 Gilmour Ln, Upper Ferntree Gully VIC 3156",
+    "lat": -37.90139,
+    "lon": 145.309457,
+    "sourceId": "obc_17377"
+  },
+  {
+    "id": "suusha",
+    "name": "Book Exchange The Basin",
+    "address": "1325 Mountain Hwy, The Basin VIC 3154",
+    "lat": -37.85627,
+    "lon": 145.316216,
+    "sourceId": "obc_17378"
+  },
+  {
+    "id": "bjvole",
+    "name": "Book Exchange Bearvix Fun",
+    "address": "286 Forest Rd, The Basin VIC 3155",
+    "lat": -37.861531,
+    "lon": 145.307225,
+    "sourceId": "obc_17379"
+  },
+  {
+    "id": "gzspke",
+    "name": "Book Exchange Boronia Rotary",
+    "address": "20A Alchester Cres, Boronia VIC 3155",
+    "lat": -37.844469,
+    "lon": 145.299028,
+    "sourceId": "obc_17380"
+  },
+  {
+    "id": "aonqtu",
+    "name": "Book Exchange Alchester Pre School",
+    "address": "30 Lockwoods Rd, Boronia VIC 3155",
+    "lat": -37.846554,
+    "lon": 145.295058,
+    "sourceId": "obc_17381"
+  },
+  {
+    "id": "sgswyo",
+    "name": "Bücherzelle Schierling",
+    "address": "Untere Austraße 11, 84069 Schierling",
+    "lat": 48.836972,
+    "lon": 12.141709,
+    "sourceId": "obc_17382"
+  },
+  {
+    "id": "pbxkkt",
+    "name": "Bücherschrank",
+    "address": "",
+    "lat": 51.48914,
+    "lon": 14.454414,
+    "sourceId": "obc_17383"
+  },
+  {
+    "id": "wghfqx",
+    "name": "Book Exchange Onefam Waterloo Hostel",
+    "address": "73 Lambeth Walk, London SE11 6DX, Vereinigtes Königreich",
+    "lat": 51.4943926,
+    "lon": -0.1145374,
+    "sourceId": "obc_17384"
+  },
+  {
+    "id": "vmcgkd",
+    "name": "Bücherregal und Givebox an den Breidenbachstudios",
+    "address": "Hebelstraße , 69115 Heidelberg",
+    "lat": 49.396754501324,
+    "lon": 8.6786433309317,
+    "sourceId": "obc_7073",
+    "removed": true
   },
   {
     "id": "xpsoun",
