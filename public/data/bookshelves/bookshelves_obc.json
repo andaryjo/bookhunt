@@ -124376,6 +124376,30 @@
     "sourceId": "obc_17384"
   },
   {
+    "id": "nnewsz",
+    "name": "Wiwaweiherpark",
+    "address": "",
+    "lat": 49.571967,
+    "lon": 10.884817,
+    "sourceId": "obc_17385"
+  },
+  {
+    "id": "dvuofm",
+    "name": "Bücherhaltestelle Flerke",
+    "address": "Flerker Str. 41, 59514 Welver-Flerke",
+    "lat": 51.593696,
+    "lon": 7.9539681,
+    "sourceId": "obc_17386"
+  },
+  {
+    "id": "ljklmt",
+    "name": "Bücherzelle Dorfanger Müggelheim",
+    "address": "",
+    "lat": 52.411847,
+    "lon": 13.662906,
+    "sourceId": "obc_17387"
+  },
+  {
     "id": "vmcgkd",
     "name": "Bücherregal und Givebox an den Breidenbachstudios",
     "address": "Hebelstraße , 69115 Heidelberg",
