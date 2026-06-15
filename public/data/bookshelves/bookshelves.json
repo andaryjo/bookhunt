@@ -1,4 +1,4 @@
-[
+i[
   {
     "id": "rctqou",
     "name": "Free Library The Ash Hostel Antwerp",
@@ -61,5 +61,12 @@
     "address": "L'Épicier, 24 Rue Notre Dame de Nazareth, 75003 Paris, Frankreich",
     "lat": 48.867235,
     "lon": 2.359945
+  },
+  {
+    "id": "qvyrfa",
+    "name": "Book Exchange Music Cafe Dublin",
+    "address": "Wellington Quay 1, Dublin",
+    "lat": 53.3453326,
+    "lon": -6.2674632
   }
 ]
