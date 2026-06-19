@@ -68,5 +68,12 @@
     "address": "Wellington Quay 1, Dublin",
     "lat": 53.3453326,
     "lon": -6.2674632
+  },
+  {
+    "id": "yylcag",
+    "name": "Book Exchange Astor Museum Hostel London",
+    "address": "27 Montague Street, Bloomsbury, London, England",
+    "lat": 51.5195130,
+    "lon": -0.1249330
   }
 ]
