@@ -75,5 +75,12 @@
     "address": "27 Montague Street, Bloomsbury, London, England",
     "lat": 51.5195130,
     "lon": -0.1249330
+  },
+  {
+    "id": "monwzh",
+    "name": "Museum of Liverpool",
+    "address": "Pier Head, Mann Island, Liverpool L3 1DG, Vereinigtes Königreich",
+    "lat": 53.4030567,
+    "lon": -2.9951896
   }
 ]
