@@ -1,19 +1,5 @@
 [
   {
-    "id": "vfvzpa",
-    "name": "Bücherschrank Luzern",
-    "address": "6003 Luzern, Schweiz - Baselstraße 21",
-    "lat": 47.0518473,
-    "lon": 8.2974416
-  },
-  {
-    "id": "azrony",
-    "name": "Bücherschrank Lugau",
-    "address": "09385 Lugau - Hof im Kultur- und Freizeitzentrum",
-    "lat": 50.7375687,
-    "lon": 12.7481425
-  },
-  {
     "id": "waunzv",
     "name": "Bücherschrank Potsdam",
     "address": "14467 Potsdam, Sanssouci - Platz der Einheit",
@@ -63,6 +49,13 @@
     "lon": 9.1811264
   },
   {
+    "id": "vfvzpa",
+    "name": "Bücherschrank Luzern",
+    "address": "6003 Luzern, Schweiz - Baselstraße 21",
+    "lat": 47.0518473,
+    "lon": 8.2974416
+  },
+  {
     "id": "gdobtq",
     "name": "Bücherschrank Nieheim",
     "address": "33039 Nieheim - Dorfplatz, Driburger Straße",
@@ -89,6 +82,13 @@
     "address": "33334 Gütersloh, Isselhorst - Dorfplatz",
     "lat": 51.9467313,
     "lon": 8.4088699
+  },
+  {
+    "id": "azrony",
+    "name": "Bücherschrank Lugau",
+    "address": "09385 Lugau - Hof im Kultur- und Freizeitzentrum",
+    "lat": 50.7375687,
+    "lon": 12.7481425
   },
   {
     "id": "hvwhct",
@@ -2667,11 +2667,11 @@
     "lon": 6.8335913
   },
   {
-    "id": "fsdxyz",
+    "id": "lsnjfk",
     "name": "Bücherschrank Hamburg",
     "address": "22587 Hamburg, Manteuffelstraße 20",
-    "lat": 53.5615584,
-    "lon": 9.8361382
+    "lat": 53.5614609,
+    "lon": 9.8356454
   },
   {
     "id": "lcumkf",
@@ -6725,5 +6725,55 @@
     "address": "55232 Alzey, Schießgraben 6",
     "lat": 49.7442465,
     "lon": 8.1158034
+  },
+  {
+    "id": "tbntan",
+    "name": "Bücherschrank Konz",
+    "address": "54329 Konz, Am Markt 11",
+    "lat": 49.6978945,
+    "lon": 6.5726015
+  },
+  {
+    "id": "lcwkei",
+    "name": "Bücherschrank Hamburg",
+    "address": "22081 Hamburg, Hansdorfer Str.",
+    "lat": 53.5766653,
+    "lon": 10.0427931
+  },
+  {
+    "id": "cahwwm",
+    "name": "Bücherschrank Bornheim",
+    "address": "53332 Bornheim, Siegesstraße 2",
+    "lat": 50.7527997,
+    "lon": 7.0053052
+  },
+  {
+    "id": "tlqywz",
+    "name": "Bücherschrank Renningen-Malmsheim",
+    "address": "71272 Renningen-Malmsheim, Calwer Str. 1",
+    "lat": 48.7741756,
+    "lon": 8.9033147
+  },
+  {
+    "id": "msbvfe",
+    "name": "Bücherschrank Hamburg",
+    "address": "22549 Hamburg, Blomkamp 61",
+    "lat": 53.5772191,
+    "lon": 9.8531703
+  },
+  {
+    "id": "qxahly",
+    "name": "Bücherschrank Hamburg-Nord",
+    "address": "22453 Hamburg-Nord, Schrödersweg 1",
+    "lat": 53.6080773,
+    "lon": 9.9769795
+  },
+  {
+    "id": "fsdxyz",
+    "name": "Bücherschrank Hamburg",
+    "address": "22587 Hamburg, Manteuffelstraße 20",
+    "lat": 53.5615584,
+    "lon": 9.8361382,
+    "removed": true
   }
 ]
