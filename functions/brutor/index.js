@@ -1,28 +1,28 @@
-const MAIN_REPO = 'andaryjo/bookhunt';
-const PHOTO_REPO = 'bookhuntbrutor/bookhunt-photos';
-const BASE_BRANCH = 'main';
-const MAX_PHOTOS = 10;
+const MAIN_REPO = "andaryjo/bookhunt";
+const PHOTO_REPO = "bookhuntbrutor/bookhunt-photos";
+const BASE_BRANCH = "main";
+const MAX_PHOTOS = 20;
 
 exports.contribute = async (req, res) => {
   // CORS
-  res.set('Access-Control-Allow-Origin', '*');
-  res.set('Access-Control-Allow-Methods', 'POST, OPTIONS');
-  res.set('Access-Control-Allow-Headers', 'Content-Type');
+  res.set("Access-Control-Allow-Origin", "*");
+  res.set("Access-Control-Allow-Methods", "POST, OPTIONS");
+  res.set("Access-Control-Allow-Headers", "Content-Type");
 
-  if (req.method === 'OPTIONS') {
-    res.status(204).send('');
+  if (req.method === "OPTIONS") {
+    res.status(204).send("");
     return;
   }
 
-  if (req.method !== 'POST') {
-    res.status(405).json({ error: 'Method not allowed' });
+  if (req.method !== "POST") {
+    res.status(405).json({ error: "Method not allowed" });
     return;
   }
 
   const { photos } = req.body || {};
 
   if (!Array.isArray(photos) || photos.length === 0) {
-    res.status(400).json({ error: 'Provide at least one photo' });
+    res.status(400).json({ error: "Provide at least one photo" });
     return;
   }
   if (photos.length > MAX_PHOTOS) {
@@ -32,8 +32,8 @@ exports.contribute = async (req, res) => {
 
   const token = process.env.GH_TOKEN;
   if (!token || token.length < 10) {
-    console.error('GH_TOKEN is missing or too short');
-    res.status(500).json({ error: 'Server misconfiguration: GH_TOKEN' });
+    console.error("GH_TOKEN is missing or too short");
+    res.status(500).json({ error: "Server misconfiguration: GH_TOKEN" });
     return;
   }
 
@@ -41,8 +41,8 @@ exports.contribute = async (req, res) => {
     const result = await processContribution(photos, token);
     res.status(200).json(result);
   } catch (err) {
-    console.error('Contribution failed:', err.message);
-    res.status(500).json({ error: err.message || 'Internal error' });
+    console.error("Contribution failed:", err.message);
+    res.status(500).json({ error: err.message || "Internal error" });
   }
 };
 
@@ -57,10 +57,12 @@ async function processContribution(photos, token) {
   for (const photo of photos) {
     const id = photo.id || randomId(6);
     const filename = `${id}.jpg`;
-    
+
     // Date validation
     if (!/^\d{4}-\d{2}-\d{2}$/.test(photo.date)) {
-      throw new Error(`Invalid date format for photo ${id}. Expected yyyy-mm-dd.`);
+      throw new Error(
+        `Invalid date format for photo ${id}. Expected yyyy-mm-dd.`,
+      );
     }
 
     const photoDate = new Date(photo.date);
@@ -75,21 +77,28 @@ async function processContribution(photos, token) {
       throw new Error(`Photo date cannot be in the future (photo ${id})`);
     }
     if (photoDate < sevenDaysAgo) {
-      throw new Error(`Photo date cannot be more than 7 days in the past (photo ${id})`);
+      throw new Error(
+        `Photo date cannot be more than 7 days in the past (photo ${id})`,
+      );
     }
 
-    photosMetadata.push({ 
-      id, 
-      filename, 
-      date: photoDate.toISOString().split('T')[0],
-      suggestedShelfId: photo.shelfId 
+    photosMetadata.push({
+      id,
+      filename,
+      date: photoDate.toISOString().split("T")[0],
+      suggestedShelfId: photo.shelfId,
     });
 
-    const blob = await ghPhoto('/git/blobs', {
-      method: 'POST',
-      body: { content: photo.data, encoding: 'base64' },
+    const blob = await ghPhoto("/git/blobs", {
+      method: "POST",
+      body: { content: photo.data, encoding: "base64" },
     });
-    photoTreeItems.push({ path: `photos/${filename}`, mode: '100644', type: 'blob', sha: blob.sha });
+    photoTreeItems.push({
+      path: `photos/${filename}`,
+      mode: "100644",
+      type: "blob",
+      sha: blob.sha,
+    });
   }
 
   // 2. Commit photos directly to PHOTO_REPO/main
@@ -98,22 +107,22 @@ async function processContribution(photos, token) {
   const photoBaseSha = photoCommitData.sha;
   const photoTreeSha = photoCommitData.commit.tree.sha;
 
-  const photoTree = await ghPhoto('/git/trees', {
-    method: 'POST',
+  const photoTree = await ghPhoto("/git/trees", {
+    method: "POST",
     body: { base_tree: photoTreeSha, tree: photoTreeItems },
   });
 
-  const photoNewCommit = await ghPhoto('/git/commits', {
-    method: 'POST',
+  const photoNewCommit = await ghPhoto("/git/commits", {
+    method: "POST",
     body: {
       message: `Add ${photosMetadata.length} contribution photos`,
       tree: photoTree.sha,
-      parents: [photoBaseSha]
+      parents: [photoBaseSha],
     },
   });
 
   await ghPhoto(`/git/refs/heads/${BASE_BRANCH}`, {
-    method: 'PATCH',
+    method: "PATCH",
     body: { sha: photoNewCommit.sha },
   });
 
@@ -128,46 +137,46 @@ async function processContribution(photos, token) {
   for (let i = 0; i < photosMetadata.length; i++) {
     const meta = photosMetadata[i];
     const url = `https://raw.githubusercontent.com/${PHOTO_REPO}/${BASE_BRANCH}/photos/${meta.filename}`;
-    
+
     const queueData = {
       url,
       date: meta.date,
-      suggestedShelfId: meta.suggestedShelfId
+      suggestedShelfId: meta.suggestedShelfId,
     };
 
-    const queueBlob = await ghMain('/git/blobs', {
-      method: 'POST',
-      body: { content: JSON.stringify(queueData, null, 2), encoding: 'utf-8' },
+    const queueBlob = await ghMain("/git/blobs", {
+      method: "POST",
+      body: { content: JSON.stringify(queueData, null, 2), encoding: "utf-8" },
     });
 
     queueTreeItems.push({
       path: `queue/${meta.id}.json`,
-      mode: '100644',
-      type: 'blob',
-      sha: queueBlob.sha
+      mode: "100644",
+      type: "blob",
+      sha: queueBlob.sha,
     });
   }
 
-  const mainTree = await ghMain('/git/trees', {
-    method: 'POST',
+  const mainTree = await ghMain("/git/trees", {
+    method: "POST",
     body: {
       base_tree: mainTreeSha,
-      tree: queueTreeItems
+      tree: queueTreeItems,
     },
   });
 
-  const mainNewCommit = await ghMain('/git/commits', {
-    method: 'POST',
+  const mainNewCommit = await ghMain("/git/commits", {
+    method: "POST",
     body: {
       message: `Queue contribution ${contributionId} (${photosMetadata.length} photos)`,
       tree: mainTree.sha,
-      parents: [mainBaseSha]
+      parents: [mainBaseSha],
     },
   });
 
   const branchName = `contribute/${contributionId}`;
-  await ghMain('/git/refs', {
-    method: 'POST',
+  await ghMain("/git/refs", {
+    method: "POST",
     body: { ref: `refs/heads/${branchName}`, sha: mainNewCommit.sha },
   });
 
@@ -176,47 +185,54 @@ async function processContribution(photos, token) {
     `Thank you for your contribution. The pictures will now get reviewed by a human and automatically processed after approval. This process may take a few hours.`,
     ``,
     `Photos submitted for review:`,
-    ...photosMetadata.map(m => `- [${m.filename}](https://github.com/${PHOTO_REPO}/blob/${BASE_BRANCH}/photos/${m.filename})`),
-  ].join('\n');
+    ...photosMetadata.map(
+      (m) =>
+        `- [${m.filename}](https://github.com/${PHOTO_REPO}/blob/${BASE_BRANCH}/photos/${m.filename})`,
+    ),
+  ].join("\n");
 
-  const pr = await ghMain('/pulls', {
-    method: 'POST',
+  const pr = await ghMain("/pulls", {
+    method: "POST",
     body: {
-      title: `Bookshelf photo contribution (${photosMetadata.length} photo${photosMetadata.length > 1 ? 's' : ''})`,
+      title: `Bookshelf photo contribution (${photosMetadata.length} photo${photosMetadata.length > 1 ? "s" : ""})`,
       head: branchName,
       base: BASE_BRANCH,
       body: prBody,
     },
   });
 
-  return { prUrl: pr.html_url, prNumber: pr.number, photos: photosMetadata.length };
+  return {
+    prUrl: pr.html_url,
+    prNumber: pr.number,
+    photos: photosMetadata.length,
+  };
 }
 
 function makeGhClient(repo, token) {
   return async function gh(path, opts = {}) {
     const url = `https://api.github.com/repos/${repo}${path}`;
-    const res = await fetch(
-      url,
-      {
-        method: opts.method || 'GET',
-        headers: {
-          Authorization: `Bearer ${token}`,
-          Accept: 'application/vnd.github+json',
-          'X-GitHub-Api-Version': '2022-11-28',
-          'Content-Type': 'application/json',
-          'User-Agent': 'bookhunt-contribute-function/1.0',
-        },
-        body: opts.body ? JSON.stringify(opts.body) : undefined,
-      }
-    );
+    const res = await fetch(url, {
+      method: opts.method || "GET",
+      headers: {
+        Authorization: `Bearer ${token}`,
+        Accept: "application/vnd.github+json",
+        "X-GitHub-Api-Version": "2022-11-28",
+        "Content-Type": "application/json",
+        "User-Agent": "bookhunt-contribute-function/1.0",
+      },
+      body: opts.body ? JSON.stringify(opts.body) : undefined,
+    });
 
     if (!res.ok) {
       let msg = `HTTP ${res.status}`;
       try {
         const data = await res.json();
         msg = data.message || msg;
-        console.error(`GitHub API Error details for ${url}:`, JSON.stringify(data));
-      } catch { }
+        console.error(
+          `GitHub API Error details for ${url}:`,
+          JSON.stringify(data),
+        );
+      } catch {}
       throw new Error(`GitHub API ${repo}${path}: ${msg}`);
     }
 
@@ -224,10 +240,9 @@ function makeGhClient(repo, token) {
   };
 }
 
-
 function randomId(length) {
-  const chars = 'abcdefghijklmnopqrstuvwxyz';
-  let result = '';
+  const chars = "abcdefghijklmnopqrstuvwxyz";
+  let result = "";
   for (let i = 0; i < length; i++) {
     result += chars.charAt(Math.floor(Math.random() * chars.length));
   }
