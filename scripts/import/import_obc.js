@@ -1,36 +1,95 @@
 const path = require('path');
+const fs = require('fs');
+const https = require('https');
+const zlib = require('zlib');
 const {
   loadExisting,
   writeBookshelves,
-  fetchRemoteData,
   reconcileBookshelves
 } = require('./shared');
 
-const API_URL = 'https://openbookcase.de/api/listsection';
+const API_URL = 'https://openbookcase.de/api/bookcase/export?gzip=1';
 const OUTPUT_PATH = path.join(__dirname, '..', '..', 'public', 'data', 'bookshelves', 'bookshelves_obc.json');
 
 /**
- * Extracts name and address from the HTML string provided by the API
+ * Formats structured address fields into a single string
  */
-function extractNameAndAddress(html) {
-  // Expected format: <strong>Name</strong><br/><small>Address</small>
-  const nameMatch = html.match(/<strong>(.*?)<\/strong>/);
-  const addressMatch = html.match(/<small>(.*?)<\/small>/);
+function formatAddress(addressObj) {
+  if (!addressObj) return "";
+  const parts = [];
+  const streetPart = [addressObj.street, addressObj.houseNumber].filter(Boolean).join(' ');
+  if (streetPart) parts.push(streetPart);
   
-  // Clean up HTML entities/tags and trim
-  const name = nameMatch ? nameMatch[1].replace(/<[^>]+>/g, '').trim() : "Public Bookshelf";
-  const address = addressMatch ? addressMatch[1].replace(/<[^>]+>/g, '').trim() : "";
+  const cityPart = [addressObj.zipcode, addressObj.city].filter(Boolean).join(' ');
+  if (cityPart) parts.push(cityPart);
   
-  return { name, address };
+  if (addressObj.additionalData) {
+    parts.push(addressObj.additionalData);
+  }
+  
+  return parts.join(', ').trim();
 }
 
 /**
- * Extracts the numeric sourceId from the last string in the array
+ * Downloads gzipped data from the URL
  */
-function extractSourceId(html) {
-  // Expected format: <a href="/map/show/1096" ...
-  const match = html.match(/\/map\/show\/(\d+)/);
-  return match ? 'obc_' + match[1] : null;
+function fetchGzippedJson(url) {
+  return new Promise((resolve, reject) => {
+    https.get(url, {
+      headers: {
+        'User-Agent': 'Bookhunt-Import-Script/1.0',
+        'Accept-Encoding': 'gzip',
+        'Connection': 'close'
+      }
+    }, (res) => {
+      // Handle redirects
+      if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
+        resolve(fetchGzippedJson(res.headers.location));
+        return;
+      }
+      
+      if (res.statusCode !== 200) {
+        reject(new Error(`Failed to fetch (Status ${res.statusCode})`));
+        return;
+      }
+
+      const chunks = [];
+      res.on('data', (chunk) => chunks.push(chunk));
+      res.on('end', () => {
+        const buffer = Buffer.concat(chunks);
+        zlib.gunzip(buffer, (err, decompressed) => {
+          if (err) {
+            reject(err);
+          } else {
+            try {
+              const json = JSON.parse(decompressed.toString('utf8'));
+              resolve(json);
+            } catch (e) {
+              reject(e);
+            }
+          }
+        });
+      });
+    }).on('error', (err) => reject(err));
+  });
+}
+
+/**
+ * Loads data from either a local file or a remote URL
+ */
+async function loadSourceData(source) {
+  if (source.startsWith('http://') || source.startsWith('https://')) {
+    console.log(`Downloading and decompressing remote data from ${source}...`);
+    return fetchGzippedJson(source);
+  }
+  
+  console.log(`Reading local file from ${source}...`);
+  const fileBuffer = fs.readFileSync(source);
+  if (source.endsWith('.gz')) {
+    const decompressed = zlib.gunzipSync(fileBuffer);
+    return JSON.parse(decompressed.toString('utf8'));
+  }
+  return JSON.parse(fileBuffer.toString('utf8'));
 }
 
 /**
@@ -38,33 +97,47 @@ function extractSourceId(html) {
  */
 async function importObc() {
   const existingBookshelves = loadExisting(OUTPUT_PATH);
+  const source = process.argv[2] || API_URL;
 
   try {
-    console.log(`Fetching data from ${API_URL}... (this may take a while)`);
-    const rawData = await fetchRemoteData(API_URL);
-    let response;
-    try {
-      response = JSON.parse(rawData);
-    } catch (e) {
-      throw new Error(`Failed to parse JSON: ${e.message}`);
-    }
+    const response = await loadSourceData(source);
+    const sourceData = response.bookcases || [];
+    console.log(`Processing ${sourceData.length} bookshelves from OpenBookCase source...`);
 
-    const sourceData = response.data || [];
-    console.log(`Processing ${sourceData.length} bookshelves from OpenBookCase...`);
+    // Build migration map from legacy ID to short code
+    const legacyToShortCode = new Map();
+    sourceData.forEach(bc => {
+      if (bc.source === 'osm') return; // ignore OSM
+      if (bc.legacyId && bc.shortCode) {
+        legacyToShortCode.set(`obc_${bc.legacyId}`, `obc_${bc.shortCode}`);
+      }
+    });
+
+    // Migrate existing source IDs in-place
+    let migratedCount = 0;
+    existingBookshelves.forEach(b => {
+      if (b.sourceId && legacyToShortCode.has(b.sourceId)) {
+        const newSourceId = legacyToShortCode.get(b.sourceId);
+        console.log(`Migrating sourceId for bookshelf ${b.id}: ${b.sourceId} -> ${newSourceId}`);
+        b.sourceId = newSourceId;
+        migratedCount++;
+      }
+    });
+    if (migratedCount > 0) {
+      console.log(`Migrated ${migratedCount} existing bookshelves to use shortCode as sourceId.`);
+    }
 
     const incomingItems = [];
 
-    sourceData.forEach(record => {
-      // record structure:
-      // [0]: Name/Address HTML
-      // [1]: Latitude (string)
-      // [2]: Longitude (string)
-      // [record.length - 1]: Last string containing the map link (and source ID)
-      
-      const { name, address } = extractNameAndAddress(record[0]);
-      const lat = parseFloat(record[1]);
-      const lon = parseFloat(record[2]);
-      const sourceId = extractSourceId(record[record.length - 1]);
+    sourceData.forEach(bc => {
+      // Disregard all bookshelves in the source that have the property "source: osm"
+      if (bc.source === 'osm') return;
+
+      const lat = bc.position ? parseFloat(bc.position.latitude) : NaN;
+      const lon = bc.position ? parseFloat(bc.position.longitude) : NaN;
+      const sourceId = bc.shortCode ? `obc_${bc.shortCode}` : null;
+      const name = bc.title ? bc.title.trim() : 'Public Bookshelf';
+      const address = formatAddress(bc.address);
 
       if (!sourceId || isNaN(lat) || isNaN(lon)) return;
 
