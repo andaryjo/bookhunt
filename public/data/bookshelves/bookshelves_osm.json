@@ -117745,80 +117745,80 @@
   },
   {
     "id": "abrdvn",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Saint-Nizier-sous-Charlieu",
+    "address": "42190, Saint-Nizier-sous-Charlieu, France",
     "lat": 46.1521663,
     "lon": 4.1172052,
     "sourceId": "osm_11269249577"
   },
   {
     "id": "txlulo",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Dannenbüttel",
+    "address": "Schulstraße, 38524, Dannenbüttel, Deutschland",
     "lat": 52.492363,
     "lon": 10.6320731,
     "sourceId": "osm_11269543195"
   },
   {
     "id": "gmoddt",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Wettin-Löbejün",
+    "address": "Döblitzer Weg 2, 06193, Wettin-Löbejün, Deutschland",
     "lat": 51.574217,
     "lon": 11.8285785,
     "sourceId": "osm_11269918252"
   },
   {
     "id": "xjnywc",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Andenne",
+    "address": "5300, Andenne, België / Belgique / Belgien",
     "lat": 50.4670846,
     "lon": 5.0071093,
     "sourceId": "osm_11270215795"
   },
   {
     "id": "nwiywv",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Barneville-sur-Mer",
+    "address": "Avenue de la République, 50270, Barneville-sur-Mer, France",
     "lat": 49.3795585,
     "lon": -1.7845472,
     "sourceId": "osm_11270790501"
   },
   {
     "id": "pstldk",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Figanières",
+    "address": "Route de Montferrat, 83830, Figanières, France",
     "lat": 43.5775648,
     "lon": 6.4894557,
     "sourceId": "osm_11271087839"
   },
   {
     "id": "ilcdon",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Dijon",
+    "address": "Boulevard de Strasbourg, 21000, Dijon, France",
     "lat": 47.3214154,
     "lon": 5.0583591,
     "sourceId": "osm_11271545592"
   },
   {
     "id": "tlpnqm",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Fénay",
+    "address": "Rue du Creux Moroland 2, 21600, Fénay, France",
     "lat": 47.2599036,
     "lon": 5.0472459,
     "sourceId": "osm_11271572520"
   },
   {
     "id": "lglfzv",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Dijon",
+    "address": "Rue d'Alembert, 21000, Dijon, France",
     "lat": 47.3290421,
     "lon": 5.059436,
     "sourceId": "osm_11271580992"
   },
   {
     "id": "xrzmof",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Dijon",
+    "address": "Rue Angélique Ducoudray 21, 21000, Dijon, France",
     "lat": 47.3235918,
     "lon": 5.0714602,
     "sourceId": "osm_11271596383"
@@ -117826,31 +117826,31 @@
   {
     "id": "yeipcz",
     "name": "Mairie d'Angleur",
-    "address": null,
+    "address": "Rue de l'Hôtel de Ville, 4000, Liège, België / Belgique / Belgien",
     "lat": 50.6123814,
     "lon": 5.585529,
     "sourceId": "osm_11271669574"
   },
   {
     "id": "lhwlyu",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Domašín",
+    "address": "431 51, Domašín, Česko",
     "lat": 50.4132978,
     "lon": 13.1604922,
     "sourceId": "osm_11271673791"
   },
   {
     "id": "ruphfz",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Balma",
+    "address": "31130, Balma, France",
     "lat": 43.5976284,
     "lon": 1.5058149,
     "sourceId": "osm_11272235473"
   },
   {
     "id": "taphzh",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Belsentes",
+    "address": "Grand Rue, 07160, Belsentes, France",
     "lat": 44.9185055,
     "lon": 4.5075632,
     "sourceId": "osm_11273233063"
@@ -117858,47 +117858,47 @@
   {
     "id": "rrvgoc",
     "name": "Boite à lire",
-    "address": null,
+    "address": "Rue Claire Roman, 31400, Toulouse, France",
     "lat": 43.5666696,
     "lon": 1.4973542,
     "sourceId": "osm_11273720869"
   },
   {
     "id": "stouxh",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Le Vernois",
+    "address": "Route de Voiteur, 39210, Le Vernois, France",
     "lat": 46.7316017,
     "lon": 5.5927488,
     "sourceId": "osm_11274188409"
   },
   {
     "id": "rnxwjx",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Civezzano",
+    "address": "Strada di Bosco, 38057, Civezzano, Italia",
     "lat": 46.1110321,
     "lon": 11.1711539,
     "sourceId": "osm_11274763047"
   },
   {
     "id": "jyhsbo",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Civezzano",
+    "address": "Via Alcide Degasperi, 38057, Civezzano, Italia",
     "lat": 46.0919266,
     "lon": 11.183365,
     "sourceId": "osm_11274763048"
   },
   {
     "id": "siizzz",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Civezzano",
+    "address": "Via Alcide Degasperi, 38057, Civezzano, Italia",
     "lat": 46.0891609,
     "lon": 11.1855294,
     "sourceId": "osm_11274763049"
   },
   {
     "id": "tzanwa",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Campertogno",
+    "address": "13023, Campertogno, Italia",
     "lat": 45.7802213,
     "lon": 8.0416521,
     "sourceId": "osm_11275718131"
@@ -117906,15 +117906,15 @@
   {
     "id": "iojnlv",
     "name": "Cabane à livres",
-    "address": null,
+    "address": "Place du 19 Mars 1962, 15170, Talizat, France",
     "lat": 45.1140101,
     "lon": 3.0460543,
     "sourceId": "osm_11275998589"
   },
   {
     "id": "vrivdt",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Köln",
+    "address": "Margaretenstraße, 51147, Köln, Deutschland",
     "lat": 50.8382446,
     "lon": 7.0695278,
     "sourceId": "osm_11276728769"
@@ -117922,39 +117922,39 @@
   {
     "id": "oypojm",
     "name": "Street Library",
-    "address": null,
+    "address": "Hither Green Lane, SE13 6QE, London, United Kingdom",
     "lat": 51.4524984,
     "lon": -0.0074085,
     "sourceId": "osm_11277308956"
   },
   {
     "id": "yyvhwb",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Marche-les-Dames",
+    "address": "Voie de la Chasse 19, 5024, Marche-les-Dames, België / Belgique / Belgien",
     "lat": 50.4927277,
     "lon": 4.9712294,
     "sourceId": "osm_11277334653"
   },
   {
     "id": "nufqyr",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Klaipėda",
+    "address": "Tilžės g. 39, 91255, Klaipėda, Lietuva",
     "lat": 55.7053438,
     "lon": 21.1517206,
     "sourceId": "osm_11278367688"
   },
   {
     "id": "njgixe",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Sandbach",
+    "address": "Hackney Yard Close, CW11 1LH, Sandbach, United Kingdom",
     "lat": 53.1457406,
     "lon": -2.3606296,
     "sourceId": "osm_11279065456"
   },
   {
     "id": "ospzxb",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Wien",
+    "address": "Breitenfurter Straße 190, 1230, Wien, Österreich",
     "lat": 48.1499159,
     "lon": 16.2993205,
     "sourceId": "osm_11279642394"
@@ -117962,47 +117962,47 @@
   {
     "id": "fpubbj",
     "name": "Lapozó",
-    "address": null,
+    "address": "Vásárhelyi Pál utca, 9026, Győr, Magyarország",
     "lat": 47.6934827,
     "lon": 17.6265948,
     "sourceId": "osm_11279990059"
   },
   {
     "id": "hkcwbl",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Mornac-sur-Seudre",
+    "address": "17113, Mornac-sur-Seudre, France",
     "lat": 45.7106499,
     "lon": -1.0321342,
     "sourceId": "osm_11280962339"
   },
   {
     "id": "cnrvan",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Zürich",
+    "address": "Schwamendingerplatz, 8051, Zürich, Schweiz/Suisse/Svizzera/Svizra",
     "lat": 47.4047755,
     "lon": 8.572291,
     "sourceId": "osm_11281237482"
   },
   {
     "id": "amuady",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Tautenburg",
+    "address": "Lindenstraße 6b, 07778, Tautenburg, Deutschland",
     "lat": 50.9920709,
     "lon": 11.7155224,
     "sourceId": "osm_11281477945"
   },
   {
     "id": "uwlwtk",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Bures-sur-Yvette",
+    "address": "91440, Bures-sur-Yvette, France",
     "lat": 48.6957962,
     "lon": 2.1546357,
     "sourceId": "osm_11281587381"
   },
   {
     "id": "bhrsnk",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Rottenburg am Neckar",
+    "address": "Siebentälerstraße 10, 72108, Rottenburg am Neckar, Deutschland",
     "lat": 48.4482016,
     "lon": 8.9225023,
     "sourceId": "osm_11281596913"
@@ -118010,15 +118010,15 @@
   {
     "id": "jjkilb",
     "name": "OBCZ",
-    "address": null,
+    "address": "Via Stazione, 37010, Affi, Italia",
     "lat": 45.5555632,
     "lon": 10.7757573,
     "sourceId": "osm_11281689219"
   },
   {
     "id": "ucehug",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Guntramsdorf",
+    "address": "2353, Guntramsdorf, Österreich",
     "lat": 48.0488495,
     "lon": 16.3131698,
     "sourceId": "osm_11281905035"
@@ -118026,15 +118026,15 @@
   {
     "id": "faigjq",
     "name": "offener Bücherschrank",
-    "address": null,
+    "address": "Neuffenstraße, 73240, Wendlingen am Neckar, Deutschland",
     "lat": 48.6710916,
     "lon": 9.3779609,
     "sourceId": "osm_11282019855"
   },
   {
     "id": "cbilry",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Münster",
+    "address": "Hoyastraße, 48147, Münster, Deutschland",
     "lat": 51.9699532,
     "lon": 7.6235931,
     "sourceId": "osm_11282126900"
@@ -118042,71 +118042,71 @@
   {
     "id": "nltazr",
     "name": "Biblioteczka plenerowa",
-    "address": null,
+    "address": "Bulwar Odrzański, 56-120, Brzeg Dolny, Polska",
     "lat": 51.2598008,
     "lon": 16.7231052,
     "sourceId": "osm_11282975525"
   },
   {
     "id": "gsqjvq",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Felixdorf",
+    "address": "Hauptstraße 26, 2603, Felixdorf, Österreich",
     "lat": 47.8818052,
     "lon": 16.2417173,
     "sourceId": "osm_11283867090"
   },
   {
     "id": "pwaiwy",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Brignano Gera d'Adda",
+    "address": "24053, Brignano Gera d'Adda, Italia",
     "lat": 45.5454849,
     "lon": 9.649048,
     "sourceId": "osm_11283910398"
   },
   {
     "id": "qhgbox",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Praha",
+    "address": "13000, Praha, Česko",
     "lat": 50.0897228,
     "lon": 14.4559331,
     "sourceId": "osm_11285752296"
   },
   {
     "id": "iafggd",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Elze",
+    "address": "31008, Elze, Deutschland",
     "lat": 52.1346634,
     "lon": 9.7546528,
     "sourceId": "osm_11286901813"
   },
   {
     "id": "eoehkm",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Perpignan",
+    "address": "Rue Déodat de Séverac, 66000, Perpignan, France",
     "lat": 42.7073834,
     "lon": 2.8912637,
     "sourceId": "osm_11287007068"
   },
   {
     "id": "fkamxa",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Karlsruhe",
+    "address": "Edgar-Heller-Straße 19, 76227, Karlsruhe, Deutschland",
     "lat": 48.9940733,
     "lon": 8.431169,
     "sourceId": "osm_11287261517"
   },
   {
     "id": "efhoxt",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Lubniewice",
+    "address": "Harcerska, 69-210, Lubniewice, Polska",
     "lat": 52.5115311,
     "lon": 15.245271,
     "sourceId": "osm_11288475234"
   },
   {
     "id": "gffokx",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Hilversum",
+    "address": "Jacob Catsstraat 33, 1215 EX, Hilversum, Nederland",
     "lat": 52.2134235,
     "lon": 5.1622912,
     "sourceId": "osm_11288525159"
@@ -118114,87 +118114,87 @@
   {
     "id": "twfxqd",
     "name": "Baumi's Tuschbox",
-    "address": null,
+    "address": "Baumackerstrasse, 8050, Zürich, Schweiz/Suisse/Svizzera/Svizra",
     "lat": 47.4082674,
     "lon": 8.5456447,
     "sourceId": "osm_11288586551"
   },
   {
     "id": "tebowy",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Göttingen",
+    "address": "Lange-Geismar-Straße 5, 37073, Göttingen, Deutschland",
     "lat": 51.5327816,
     "lon": 9.940099,
     "sourceId": "osm_11290072175"
   },
   {
     "id": "sfztqh",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Haarlem",
+    "address": "Obistraat 83, 2022CH, Haarlem, Nederland",
     "lat": 52.3996982,
     "lon": 4.6504879,
     "sourceId": "osm_11291541365"
   },
   {
     "id": "yiicqe",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Haarlem",
+    "address": "Floresstraat 79, 2022BD, Haarlem, Nederland",
     "lat": 52.3983158,
     "lon": 4.6492573,
     "sourceId": "osm_11291553363"
   },
   {
     "id": "wzljnj",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Haarlem",
+    "address": "Mentawistraat 9, 2022BX, Haarlem, Nederland",
     "lat": 52.3993632,
     "lon": 4.6465458,
     "sourceId": "osm_11291566648"
   },
   {
     "id": "vrdgfn",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Haarlem",
+    "address": "2022 CG, Haarlem, Nederland",
     "lat": 52.40006,
     "lon": 4.6486997,
     "sourceId": "osm_11291581473"
   },
   {
     "id": "zklroo",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Muzillac",
+    "address": "56190, Muzillac, France",
     "lat": 47.5535976,
     "lon": -2.4823434,
     "sourceId": "osm_11291795336"
   },
   {
     "id": "sxqivj",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Popian",
+    "address": "34230, Popian, France",
     "lat": 43.6193442,
     "lon": 3.5350113,
     "sourceId": "osm_11291859579"
   },
   {
     "id": "thhjwd",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Wageningen",
+    "address": "Wageningen, Nederland",
     "lat": 51.9786506,
     "lon": 5.6631021,
     "sourceId": "osm_11291962279"
   },
   {
     "id": "vjtkgr",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Bordeaux",
+    "address": "Avenue Thiers 315, 33100, Bordeaux, France",
     "lat": 44.8501828,
     "lon": -0.5432927,
     "sourceId": "osm_11291991319"
   },
   {
     "id": "vukkmb",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Moislains",
+    "address": "Rue d'Evreux, 80200, Moislains, France",
     "lat": 49.9881225,
     "lon": 2.9644713,
     "sourceId": "osm_11292004782"
@@ -118202,7 +118202,7 @@
   {
     "id": "uexuww",
     "name": "GRRA Library",
-    "address": null,
+    "address": "Greville Road, CB1 3QL, Cambridge, United Kingdom",
     "lat": 52.195688,
     "lon": 0.1435595,
     "sourceId": "osm_11292154310"
@@ -118210,31 +118210,31 @@
   {
     "id": "cuhnaz",
     "name": "mini Bieb torennest",
-    "address": null,
+    "address": "H.van Steenwijck de oude straat, 8331 KK, Steenwijk, Nederland",
     "lat": 52.7892812,
     "lon": 6.1108768,
     "sourceId": "osm_11293916506"
   },
   {
     "id": "yfqxmk",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf St. Leon-Rot",
+    "address": "St. Leon-Rot, Deutschland",
     "lat": 49.2651019,
     "lon": 8.6019849,
     "sourceId": "osm_11293967607"
   },
   {
     "id": "cqqutg",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Sprockhövel",
+    "address": "Mittelstraße 20, 45549, Sprockhövel, Deutschland",
     "lat": 51.3339393,
     "lon": 7.2784451,
     "sourceId": "osm_11293973059"
   },
   {
     "id": "zjyqpu",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Bad Segeberg",
+    "address": "Kurhausstraße 9, 23795, Bad Segeberg, Deutschland",
     "lat": 53.9374128,
     "lon": 10.3074604,
     "sourceId": "osm_11295121179"
@@ -118242,23 +118242,23 @@
   {
     "id": "msqsmw",
     "name": "Little Free Library",
-    "address": null,
+    "address": "Surrey Quays Road, SE16 7NB, London, United Kingdom",
     "lat": 51.495889,
     "lon": -0.0468924,
     "sourceId": "osm_11295293463"
   },
   {
     "id": "vgkees",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Calvignac",
+    "address": "Place de la Mairie, 46160, Calvignac, France",
     "lat": 44.4634522,
     "lon": 1.7791507,
     "sourceId": "osm_11295348320"
   },
   {
     "id": "zdtwiy",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Cahors",
+    "address": "Rue Saint-Géry, 46000, Cahors, France",
     "lat": 44.4446408,
     "lon": 1.4378691,
     "sourceId": "osm_11295348321"
@@ -118266,119 +118266,119 @@
   {
     "id": "pcohfe",
     "name": "Minibieb De Kei",
-    "address": null,
+    "address": "Stationsstraat, 8331 GJ, Steenwijk, Nederland",
     "lat": 52.7885244,
     "lon": 6.1205096,
     "sourceId": "osm_11295400274"
   },
   {
     "id": "tuzonz",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Erps-Kwerps",
+    "address": "Klapstraat 33, 3071, Erps-Kwerps, België / Belgique / Belgien",
     "lat": 50.9027069,
     "lon": 4.5615309,
     "sourceId": "osm_11295458529"
   },
   {
     "id": "wtdrcx",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Ménigoute",
+    "address": "79340, Ménigoute, France",
     "lat": 46.4968039,
     "lon": -0.0580802,
     "sourceId": "osm_11295460735"
   },
   {
     "id": "lyoxce",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Colleville-Montgomery",
+    "address": "Rue du Commandant Kieffer 19, 14880, Colleville-Montgomery, France",
     "lat": 49.2926966,
     "lon": -0.2829603,
     "sourceId": "osm_11295481758"
   },
   {
     "id": "wibmor",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Deauville",
+    "address": "Avenue Florian de Kergorlay 2, 14800, Deauville, France",
     "lat": 49.3555081,
     "lon": 0.0695064,
     "sourceId": "osm_11295501862"
   },
   {
     "id": "cxjbdc",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Sittingbourne",
+    "address": "The Street 2, ME9 7AJ, Sittingbourne, United Kingdom",
     "lat": 51.3758044,
     "lon": 0.6478665,
     "sourceId": "osm_11295808419"
   },
   {
     "id": "qjmykg",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Saint-Quentin",
+    "address": "02100, Saint-Quentin, France",
     "lat": 49.8456014,
     "lon": 3.3105225,
     "sourceId": "osm_11296101228"
   },
   {
     "id": "mfiddd",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Montesquieu-des-Albères",
+    "address": "Place Sant Cristau 4, 66740, Montesquieu-des-Albères, France",
     "lat": 42.5186633,
     "lon": 2.8800648,
     "sourceId": "osm_11296277506"
   },
   {
     "id": "hapzbi",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Wien",
+    "address": "Kalvarienberggasse 41, 1170, Wien, Österreich",
     "lat": 48.2198908,
     "lon": 16.3328801,
     "sourceId": "osm_11296503877"
   },
   {
     "id": "ykrgdd",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Barcelona",
+    "address": "08030, Barcelona, España",
     "lat": 41.43722,
     "lon": 2.1880349,
     "sourceId": "osm_11297397295"
   },
   {
     "id": "gqycfw",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Seilh",
+    "address": "Allée des Tricheries 1, 31840, Seilh, France",
     "lat": 43.6880628,
     "lon": 1.3615966,
     "sourceId": "osm_11297471553"
   },
   {
     "id": "xwwufr",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Leipzig",
+    "address": "Lützowstraße 19, 04157, Leipzig, Deutschland",
     "lat": 51.3638267,
     "lon": 12.3739502,
     "sourceId": "osm_11297472180"
   },
   {
     "id": "mrvsvh",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Wegberg",
+    "address": "Rathausplatz, 41844, Wegberg, Deutschland",
     "lat": 51.1411565,
     "lon": 6.2773753,
     "sourceId": "osm_11297625976"
   },
   {
     "id": "pwkorl",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Wegberg",
+    "address": "Im Rapsfeld 40, 41844, Wegberg, Deutschland",
     "lat": 51.1367384,
     "lon": 6.3014136,
     "sourceId": "osm_11297916328"
   },
   {
     "id": "jnvsuj",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Saint-Jacques-de-la-Lande",
+    "address": "Rue du Temple de Blosne 52, 35136, Saint-Jacques-de-la-Lande, France",
     "lat": 48.089246,
     "lon": -1.6966218,
     "sourceId": "osm_11297919984"
@@ -118386,71 +118386,71 @@
   {
     "id": "dsawpc",
     "name": "Craiglockhart Community Library",
-    "address": null,
+    "address": "Craiglockhart Road North, EH14 1BR, Edinburgh, United Kingdom",
     "lat": 55.9238698,
     "lon": -3.2387507,
     "sourceId": "osm_11298072178"
   },
   {
     "id": "wlryer",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Marseille",
+    "address": "Boulevard de la Grotte Rolland 48, 13008, Marseille, France",
     "lat": 43.2341344,
     "lon": 5.3636033,
     "sourceId": "osm_11298110972"
   },
   {
     "id": "dpijoe",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Barcelona",
+    "address": "Carrer del Pou de la Figuera 8-2, 08003, Barcelona, España",
     "lat": 41.38733,
     "lon": 2.1798163,
     "sourceId": "osm_11298416196"
   },
   {
     "id": "uqnryp",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Wilsdruff",
+    "address": "Oberstraße, 01723, Wilsdruff, Deutschland",
     "lat": 51.051556,
     "lon": 13.575115,
     "sourceId": "osm_11298697556"
   },
   {
     "id": "yjiuet",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Le Lude",
+    "address": "72800, Le Lude, France",
     "lat": 47.647123,
     "lon": 0.1570242,
     "sourceId": "osm_11298984702"
   },
   {
     "id": "mwbmcv",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Le Lude",
+    "address": "72800, Le Lude, France",
     "lat": 47.6413017,
     "lon": 0.1572881,
     "sourceId": "osm_11298984738"
   },
   {
     "id": "cxipbs",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Le Lude",
+    "address": "Rue de Raillon, 72800, Le Lude, France",
     "lat": 47.6082531,
     "lon": 0.1559505,
     "sourceId": "osm_11298984747"
   },
   {
     "id": "ozwiwx",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Amsterdam",
+    "address": "Nieuwe Weteringstraat 33, 1017ZX, Amsterdam, Nederland",
     "lat": 52.3609467,
     "lon": 4.8898707,
     "sourceId": "osm_11299361264"
   },
   {
     "id": "sfvxqh",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Cabrières-d'Avignon",
+    "address": "Chemin du Grand Geas, 84220, Cabrières-d'Avignon, France",
     "lat": 43.8891938,
     "lon": 5.1508369,
     "sourceId": "osm_11299867003"
@@ -118458,39 +118458,39 @@
   {
     "id": "jmxzgw",
     "name": "Minibieb De Keulse Hoek",
-    "address": null,
+    "address": "Gruitmeesterslaan, 8014 CJ, Zwolle, Nederland",
     "lat": 52.4891651,
     "lon": 6.1118527,
     "sourceId": "osm_11300076232"
   },
   {
     "id": "lpifrs",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Alphen aan den Rijn",
+    "address": "2405 GE, Alphen aan den Rijn, Nederland",
     "lat": 52.1403625,
     "lon": 4.6601383,
     "sourceId": "osm_11300388748"
   },
   {
     "id": "hfrpua",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Puy-Saint-Martin",
+    "address": "26450, Puy-Saint-Martin, France",
     "lat": 44.6269848,
     "lon": 4.9731689,
     "sourceId": "osm_11300931518"
   },
   {
     "id": "twyzbx",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Mareil-sur-Loir",
+    "address": "Rue de la Soulle 44, 72200, Mareil-sur-Loir, France",
     "lat": 47.714912,
     "lon": 0.0120247,
     "sourceId": "osm_11300992890"
   },
   {
     "id": "nofdjx",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Colchester",
+    "address": "Dedham Road, CO4 5SQ, Colchester, United Kingdom",
     "lat": 51.9546237,
     "lon": 0.9185412,
     "sourceId": "osm_11301150881"
@@ -118498,55 +118498,55 @@
   {
     "id": "ifezxw",
     "name": "The Wormery Book Exchange",
-    "address": null,
+    "address": "Main Road, CO6 3BD, Colchester, United Kingdom",
     "lat": 51.9487579,
     "lon": 0.8086729,
     "sourceId": "osm_11301359209"
   },
   {
     "id": "draido",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Colchester",
+    "address": "Colchester, United Kingdom",
     "lat": 51.9600555,
     "lon": 0.773155,
     "sourceId": "osm_11301384870"
   },
   {
     "id": "kedond",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Hradištko",
+    "address": "Kersko, 289 14, Hradištko, Česko",
     "lat": 50.1487939,
     "lon": 14.9084544,
     "sourceId": "osm_11301979237"
   },
   {
     "id": "yueobq",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Angleur",
+    "address": "Rue de Renory 25, 4031, Angleur, België / Belgique / Belgien",
     "lat": 50.6156197,
     "lon": 5.5804919,
     "sourceId": "osm_11302299070"
   },
   {
     "id": "lnhbgj",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Saint-Jean-Bonnefonds",
+    "address": "42650, Saint-Jean-Bonnefonds, France",
     "lat": 45.4453358,
     "lon": 4.4224554,
     "sourceId": "osm_11302352025"
   },
   {
     "id": "dgmang",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Tréguier",
+    "address": "22220, Tréguier, France",
     "lat": 48.7884493,
     "lon": -3.2273085,
     "sourceId": "osm_11303889231"
   },
   {
     "id": "ukesvs",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Nimpšov",
+    "address": "Nimpšov 26, 67541, Nimpšov, Česko",
     "lat": 49.0227453,
     "lon": 15.7488125,
     "sourceId": "osm_11303960522"
@@ -118554,7 +118554,7 @@
   {
     "id": "tnbqtc",
     "name": "OBÓZ RAD-Reichsarbeitsdienst - OP8R00",
-    "address": null,
+    "address": "66-306, Pieski, Polska",
     "lat": 52.4202103,
     "lon": 15.4636547,
     "sourceId": "osm_11304532470"
@@ -118562,7 +118562,7 @@
   {
     "id": "pgueej",
     "name": "Boite à lire du centre socio culturel",
-    "address": null,
+    "address": "Impasse de la Chapelle Sainte-Bernadette, 33700, Mérignac, France",
     "lat": 44.8219806,
     "lon": -0.6227055,
     "sourceId": "osm_11304569143"
@@ -118570,39 +118570,39 @@
   {
     "id": "pmgzrd",
     "name": "Bücher Ecke",
-    "address": null,
+    "address": "Meißauergasse, 1220, Wien, Österreich",
     "lat": 48.2489572,
     "lon": 16.4380984,
     "sourceId": "osm_11304912036"
   },
   {
     "id": "kxapew",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Adelberg",
+    "address": "Jahnstraße 5, 73099, Adelberg, Deutschland",
     "lat": 48.764063,
     "lon": 9.5957144,
     "sourceId": "osm_11305040140"
   },
   {
     "id": "wmzazu",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Cenon",
+    "address": "Rue Marx Dormoy 1, 33150, Cenon, France",
     "lat": 44.8500978,
     "lon": -0.5343806,
     "sourceId": "osm_11305098243"
   },
   {
     "id": "ceqyei",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Amsterdam",
+    "address": "Houtrijkstraat 152, 1013VJ, Amsterdam, Nederland",
     "lat": 52.390619,
     "lon": 4.8778243,
     "sourceId": "osm_11306646380"
   },
   {
     "id": "bazwng",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Saint-Julien-aux-Bois",
+    "address": "Place du Souvenir 1, 19220, Saint-Julien-aux-Bois, France",
     "lat": 45.129687,
     "lon": 2.1388904,
     "sourceId": "osm_11307418125"
@@ -118610,23 +118610,23 @@
   {
     "id": "dbhgwt",
     "name": "Punkt Wędrujących książek",
-    "address": null,
+    "address": "Józefa Jedynaka, 32-242, Wieliczka, Polska",
     "lat": 49.9836474,
     "lon": 20.0412115,
     "sourceId": "osm_11307508634"
   },
   {
     "id": "kvtmqy",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Souesmes",
+    "address": "Avenue du 11 Novembre, 41300, Souesmes, France",
     "lat": 47.4569012,
     "lon": 2.1762668,
     "sourceId": "osm_11307511978"
   },
   {
     "id": "amuezo",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Vittel",
+    "address": "88800, Vittel, France",
     "lat": 48.2027127,
     "lon": 5.9439359,
     "sourceId": "osm_11307533796"
@@ -118634,111 +118634,111 @@
   {
     "id": "zgetnn",
     "name": "Offener Bücherschrank Geistingen",
-    "address": null,
+    "address": "Bergstraße, 53773, Hennef, Deutschland",
     "lat": 50.7720996,
     "lon": 7.2691545,
     "sourceId": "osm_11307980932"
   },
   {
     "id": "iigiir",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Rīga",
+    "address": "Biķernieku iela 47, LV-1039, Rīga, Latvija",
     "lat": 56.9701511,
     "lon": 24.1800355,
     "sourceId": "osm_11307985183"
   },
   {
     "id": "tzmils",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Burgbernheim",
+    "address": "91593, Burgbernheim, Deutschland",
     "lat": 49.4481875,
     "lon": 10.3249613,
     "sourceId": "osm_11309045381"
   },
   {
     "id": "fyayff",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Waalre",
+    "address": "Johann Strausslaan 4, 5583XX, Waalre, Nederland",
     "lat": 51.3940552,
     "lon": 5.4909541,
     "sourceId": "osm_11309066815"
   },
   {
     "id": "fyxzeo",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Waalre",
+    "address": "Brahmslaan 11, 5583ZG, Waalre, Nederland",
     "lat": 51.3924501,
     "lon": 5.4897939,
     "sourceId": "osm_11309066816"
   },
   {
     "id": "tjgqch",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Toulouse",
+    "address": "Rue des Agudes 32, 31500, Toulouse, France",
     "lat": 43.6217166,
     "lon": 1.4775015,
     "sourceId": "osm_11309310080"
   },
   {
     "id": "wjbfyy",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Amriswil",
+    "address": "Arbonerstrasse 2, 8580, Amriswil, Schweiz/Suisse/Svizzera/Svizra",
     "lat": 47.5449835,
     "lon": 9.2991527,
     "sourceId": "osm_11309365937"
   },
   {
     "id": "vdynax",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Romazy",
+    "address": "Rue de Rennes, 35490, Romazy, France",
     "lat": 48.3759368,
     "lon": -1.4975949,
     "sourceId": "osm_11309437653"
   },
   {
     "id": "czjowr",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Angerville",
+    "address": "Rue de la Gare, 91670, Angerville, France",
     "lat": 48.3117434,
     "lon": 2.0035224,
     "sourceId": "osm_11309442329"
   },
   {
     "id": "jdqfpf",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Marseille",
+    "address": "Rue des Muettes 5, 13002, Marseille, France",
     "lat": 43.2984097,
     "lon": 5.3681106,
     "sourceId": "osm_11309687711"
   },
   {
     "id": "ejsprk",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Sehnde",
+    "address": "Brunnenstraße 8, 31319, Sehnde, Deutschland",
     "lat": 52.3497351,
     "lon": 9.8929501,
     "sourceId": "osm_11310012052"
   },
   {
     "id": "pixmwg",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Paris",
+    "address": "Rue d'Aligre 3, 75012, Paris, France",
     "lat": 48.8479321,
     "lon": 2.3771727,
     "sourceId": "osm_11310289127"
   },
   {
     "id": "jbntqb",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Chessy",
+    "address": "77700, Chessy, France",
     "lat": 48.857341,
     "lon": 2.77512,
     "sourceId": "osm_11310513492"
   },
   {
     "id": "modvhu",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Anzegem",
+    "address": "Kortenberg 5, 8570, Anzegem, België / Belgique / Belgien",
     "lat": 50.8276166,
     "lon": 3.5067462,
     "sourceId": "osm_11314069888"
@@ -118746,15 +118746,15 @@
   {
     "id": "bylesy",
     "name": "Rayne Book Swap",
-    "address": null,
+    "address": "Bishops Stortford to Braintree Line, CM77 6RG, Braintree, United Kingdom",
     "lat": 51.8733583,
     "lon": 0.5064174,
     "sourceId": "osm_11314901299"
   },
   {
     "id": "mlldwd",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Thunstetten",
+    "address": "Bernstrasse, 4922, Thunstetten, Schweiz/Suisse/Svizzera/Svizra",
     "lat": 47.2141815,
     "lon": 7.7434149,
     "sourceId": "osm_11324062608"
@@ -118762,47 +118762,47 @@
   {
     "id": "yrskui",
     "name": "Buurtbieb",
-    "address": null,
+    "address": "Castorweg, 7557 KN, Hengelo, Nederland",
     "lat": 52.274859,
     "lon": 6.8081257,
     "sourceId": "osm_11324064580"
   },
   {
     "id": "paduxd",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Thiais",
+    "address": "94320, Thiais, France",
     "lat": 48.7665998,
     "lon": 2.394821,
     "sourceId": "osm_11327567166"
   },
   {
     "id": "emghjg",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Durham",
+    "address": "The College, DH1 3EQ, Durham, United Kingdom",
     "lat": 54.7736361,
     "lon": -1.577611,
     "sourceId": "osm_11327801961"
   },
   {
     "id": "zjfvnf",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Rhumspringe",
+    "address": "Mühlenbrücke, 37434, Rhumspringe, Deutschland",
     "lat": 51.5844014,
     "lon": 10.298351,
     "sourceId": "osm_11327948588"
   },
   {
     "id": "lzjacw",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Figeac",
+    "address": "Place de la gare, 46100, Figeac, France",
     "lat": 44.603508,
     "lon": 2.0370452,
     "sourceId": "osm_11328116686"
   },
   {
     "id": "fjuicf",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Schönebeck (Elbe)",
+    "address": "Bierer Berg, 39218, Schönebeck (Elbe), Deutschland",
     "lat": 51.9908741,
     "lon": 11.6954611,
     "sourceId": "osm_11328260307"
@@ -118810,7 +118810,7 @@
   {
     "id": "nmctqg",
     "name": "Pilegaards Antikvariat Og Mønthandel",
-    "address": null,
+    "address": "Algade, 9000, Aalborg, Danmark",
     "lat": 57.0482572,
     "lon": 9.9163628,
     "sourceId": "osm_11328471569"
@@ -118818,7 +118818,7 @@
   {
     "id": "azuvnt",
     "name": "Öffentliches Bücherregal",
-    "address": null,
+    "address": "Unterer Marktplatz, 69168, Wiesloch, Deutschland",
     "lat": 49.2945541,
     "lon": 8.6981639,
     "sourceId": "osm_11328903558"
@@ -118826,15 +118826,15 @@
   {
     "id": "anbuah",
     "name": "Public Bookshelf",
-    "address": null,
+    "address": "50250, France",
     "lat": 49.3316252,
     "lon": -1.5400838,
     "sourceId": "osm_11329309761"
   },
   {
     "id": "rjfuky",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Torridge",
+    "address": "PL15 8NS, Torridge, United Kingdom",
     "lat": 50.6618819,
     "lon": -4.3817462,
     "sourceId": "osm_11329360762"
@@ -118842,23 +118842,23 @@
   {
     "id": "isksfg",
     "name": "Bücherschrank Moosach II Borstei",
-    "address": null,
+    "address": "Dachauer Straße, 80637, München, Deutschland",
     "lat": 48.1699367,
     "lon": 11.5331005,
     "sourceId": "osm_11329469230"
   },
   {
     "id": "lducof",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Sankt Augustin",
+    "address": "Am Steinmorgen 5, 53757, Sankt Augustin, Deutschland",
     "lat": 50.7497345,
     "lon": 7.2270089,
     "sourceId": "osm_11329523468"
   },
   {
     "id": "fypctp",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Breda",
+    "address": "Liesbosstraat 40, 4813BE, Breda, Nederland",
     "lat": 51.5774819,
     "lon": 4.7360489,
     "sourceId": "osm_11329763678"
@@ -118866,87 +118866,87 @@
   {
     "id": "fdaokh",
     "name": "Bücherzelle",
-    "address": null,
+    "address": "Paul-Zobel-Straße 9, 10367, Berlin, Deutschland",
     "lat": 52.5254796,
     "lon": 13.4828827,
     "sourceId": "osm_11330524669"
   },
   {
     "id": "wmxdoc",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Delft",
+    "address": "Burgemeestersrand 55, 2625NV, Delft, Nederland",
     "lat": 51.9850467,
     "lon": 4.3360394,
     "sourceId": "osm_11330756429"
   },
   {
     "id": "ysnblq",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Delft",
+    "address": "Kalfjeslaan 135, 2623AD, Delft, Nederland",
     "lat": 51.9865729,
     "lon": 4.3536442,
     "sourceId": "osm_11330870631"
   },
   {
     "id": "vbbtgs",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Heenvliet",
+    "address": "Nico de Regtplein 13, 3218XW, Heenvliet, Nederland",
     "lat": 51.8619276,
     "lon": 4.2365102,
     "sourceId": "osm_11331578679"
   },
   {
     "id": "zosfyt",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Tortosa",
+    "address": "43500, Tortosa, España",
     "lat": 40.8121266,
     "lon": 0.5249673,
     "sourceId": "osm_11331659126"
   },
   {
     "id": "puziea",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Tortosa",
+    "address": "Carrer Nou de Santa Clara 5, 43500, Tortosa, España",
     "lat": 40.8125471,
     "lon": 0.5239367,
     "sourceId": "osm_11331659128"
   },
   {
     "id": "mqitpr",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Bebra",
+    "address": "36179, Bebra, Deutschland",
     "lat": 50.9701077,
     "lon": 9.7947796,
     "sourceId": "osm_11331924535"
   },
   {
     "id": "pyixwz",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Clavier",
+    "address": "Route de Liège, 4560, Clavier, België / Belgique / Belgien",
     "lat": 50.4447793,
     "lon": 5.3485539,
     "sourceId": "osm_11332073395"
   },
   {
     "id": "axgspi",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Lorient",
+    "address": "Boulevard Émile Guillerot 5, 56100, Lorient, France",
     "lat": 47.7319051,
     "lon": -3.3868653,
     "sourceId": "osm_11332457408"
   },
   {
     "id": "ttmzdj",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Larmor-Plage",
+    "address": "Avenue du Général de Gaulle, 56260, Larmor-Plage, France",
     "lat": 47.704983,
     "lon": -3.3836692,
     "sourceId": "osm_11332460504"
   },
   {
     "id": "wydufu",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Bretten",
+    "address": "75015, Bretten, Deutschland",
     "lat": 49.0362075,
     "lon": 8.70537,
     "sourceId": "osm_11332471014"
@@ -118954,79 +118954,79 @@
   {
     "id": "jxmydu",
     "name": "Cabine à livres",
-    "address": null,
+    "address": "Rue des Châteaux, 56260, Larmor-Plage, France",
     "lat": 47.7187809,
     "lon": -3.36897,
     "sourceId": "osm_11332471603"
   },
   {
     "id": "tcnmno",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Bretten",
+    "address": "Melanchthonstraße, 75015, Bretten, Deutschland",
     "lat": 49.0367448,
     "lon": 8.7073497,
     "sourceId": "osm_11332503779"
   },
   {
     "id": "qmmxyw",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Pau",
+    "address": "Rue du Château, 64000, Pau, France",
     "lat": 43.295174,
     "lon": -0.3748166,
     "sourceId": "osm_11332777340"
   },
   {
     "id": "ronfdk",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Fréthun",
+    "address": "Rue de la Gare, 62185, Fréthun, France",
     "lat": 50.9011719,
     "lon": 1.8113013,
     "sourceId": "osm_11333457299"
   },
   {
     "id": "jwphdz",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Saint-Geniès-des-Mourgues",
+    "address": "34160, Saint-Geniès-des-Mourgues, France",
     "lat": 43.6973676,
     "lon": 4.0348363,
     "sourceId": "osm_11333457624"
   },
   {
     "id": "rvxxsn",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Aurice",
+    "address": "Route de Saint-Sever 5, 40500, Aurice, France",
     "lat": 43.8151034,
     "lon": -0.6048087,
     "sourceId": "osm_11334787925"
   },
   {
     "id": "qvtpli",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Doué-en-Anjou",
+    "address": "Rue de la Mairie 2, 49700, Doué-en-Anjou, France",
     "lat": 47.2321821,
     "lon": -0.2097152,
     "sourceId": "osm_11336030160"
   },
   {
     "id": "bfxvnn",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Parey-Saint-Césaire",
+    "address": "Rue Georges Clemenceau, 54330, Parey-Saint-Césaire, France",
     "lat": 48.5307267,
     "lon": 6.0653594,
     "sourceId": "osm_11336830624"
   },
   {
     "id": "pknvuz",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Harmuthsachsen",
+    "address": "Bilsteinstraße, 37284, Harmuthsachsen, Deutschland",
     "lat": 51.1611826,
     "lon": 9.858546,
     "sourceId": "osm_11338280042"
   },
   {
     "id": "kbvimq",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Wartberg an der Krems",
+    "address": "4552, Wartberg an der Krems, Österreich",
     "lat": 47.9888993,
     "lon": 14.1187567,
     "sourceId": "osm_11338535993"
@@ -119034,143 +119034,143 @@
   {
     "id": "omkqvu",
     "name": "Bucherzelle",
-    "address": null,
+    "address": "Ziegeleiweg, 19386, Kritzow, Deutschland",
     "lat": 53.4417765,
     "lon": 12.0830176,
     "sourceId": "osm_11338552141"
   },
   {
     "id": "nzcbdp",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Lampertheim",
+    "address": "Backhausstraße 35, 68623, Lampertheim, Deutschland",
     "lat": 49.656509,
     "lon": 8.4092459,
     "sourceId": "osm_11338876570"
   },
   {
     "id": "ooteic",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Montrichard Val de Cher",
+    "address": "Place de la Gare, 41400, Montrichard Val de Cher, France",
     "lat": 47.3435835,
     "lon": 1.1717101,
     "sourceId": "osm_11338901754"
   },
   {
     "id": "glwjwh",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Hattingen",
+    "address": "Schützstraße 2a, 45529, Hattingen, Deutschland",
     "lat": 51.4123049,
     "lon": 7.1717092,
     "sourceId": "osm_11339362874"
   },
   {
     "id": "dtjjfr",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Saint-Germain-lès-Arpajon",
+    "address": "91180, Saint-Germain-lès-Arpajon, France",
     "lat": 48.592772,
     "lon": 2.2680534,
     "sourceId": "osm_11340936492"
   },
   {
     "id": "cjitgs",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Saussan",
+    "address": "Rue Coppe Cambe, 34570, Saussan, France",
     "lat": 43.5731654,
     "lon": 3.7753252,
     "sourceId": "osm_11341119888"
   },
   {
     "id": "ceecyg",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Ockenheim",
+    "address": "Hindenburgplatz 14, 55437, Ockenheim, Deutschland",
     "lat": 49.9451004,
     "lon": 7.9679423,
     "sourceId": "osm_11341495769"
   },
   {
     "id": "pixouz",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Springe",
+    "address": "31832, Springe, Deutschland",
     "lat": 52.2141932,
     "lon": 9.6248247,
     "sourceId": "osm_11341510703"
   },
   {
     "id": "gtkkqk",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Oxford",
+    "address": "Delbush Avenue 47, OX3 8EA, Oxford, United Kingdom",
     "lat": 51.7650253,
     "lon": -1.1817802,
     "sourceId": "osm_11341562547"
   },
   {
     "id": "rezjvl",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Courcelles-le-Roi",
+    "address": "Place du 14 Juillet, 45300, Courcelles-le-Roi, France",
     "lat": 48.0967739,
     "lon": 2.3178056,
     "sourceId": "osm_11342072892"
   },
   {
     "id": "rlkyxh",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Sillé-le-Guillaume",
+    "address": "Place de la République 20, 72140, Sillé-le-Guillaume, France",
     "lat": 48.1831099,
     "lon": -0.1292349,
     "sourceId": "osm_11342297514"
   },
   {
     "id": "bvefwy",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Puginier",
+    "address": "11400, Puginier, France",
     "lat": 43.3768295,
     "lon": 1.9281481,
     "sourceId": "osm_11343013569"
   },
   {
     "id": "bcuuuy",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Wegberg",
+    "address": "Harbecker Straße, 41844, Wegberg, Deutschland",
     "lat": 51.1508194,
     "lon": 6.2723535,
     "sourceId": "osm_11343255471"
   },
   {
     "id": "agnqby",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Dortmund",
+    "address": "Neuer Graben 109, 44137, Dortmund, Deutschland",
     "lat": 51.5052789,
     "lon": 7.4472784,
     "sourceId": "osm_11343419350"
   },
   {
     "id": "uselmr",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Poilhes",
+    "address": "Boulevard des Écoles, 34310, Poilhes, France",
     "lat": 43.3069372,
     "lon": 3.0783948,
     "sourceId": "osm_11343808820"
   },
   {
     "id": "jxcafu",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Brafferton",
+    "address": "DL1 3LA, Brafferton, United Kingdom",
     "lat": 54.582923,
     "lon": -1.5490656,
     "sourceId": "osm_11343826041"
   },
   {
     "id": "mksnbt",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Pirna",
+    "address": "Am Bonnewitzer Rundling, 01796, Pirna, Deutschland",
     "lat": 51.0064067,
     "lon": 13.9431306,
     "sourceId": "osm_11344932358"
   },
   {
     "id": "pnhvna",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Souvigné-sur-Sarthe",
+    "address": "72300, Souvigné-sur-Sarthe, France",
     "lat": 47.8270938,
     "lon": -0.3878474,
     "sourceId": "osm_11345070553"
@@ -119178,23 +119178,23 @@
   {
     "id": "zdcwlt",
     "name": "Newhall Bookswap/Library",
-    "address": null,
+    "address": "New Hall Drive, WF4 4RP, Wakefield, United Kingdom",
     "lat": 53.6368277,
     "lon": -1.6089963,
     "sourceId": "osm_11345220884"
   },
   {
     "id": "ajkwes",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Dortmund",
+    "address": "Karl-Liebknecht-Straße 34, 44141, Dortmund, Deutschland",
     "lat": 51.4990024,
     "lon": 7.4901092,
     "sourceId": "osm_11345799997"
   },
   {
     "id": "pdgpvf",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Miège",
+    "address": "Route de Sierre 28, 3972, Miège, Schweiz/Suisse/Svizzera/Svizra",
     "lat": 46.3118959,
     "lon": 7.5474073,
     "sourceId": "osm_11346282343"
@@ -119202,7 +119202,7 @@
   {
     "id": "gxifvw",
     "name": "Boite A Livres",
-    "address": null,
+    "address": "Route de Mura, 3968, Noble-Contrée, Schweiz/Suisse/Svizzera/Svizra",
     "lat": 46.302004,
     "lon": 7.5357275,
     "sourceId": "osm_11346353552"
@@ -119210,39 +119210,39 @@
   {
     "id": "mjcpud",
     "name": "Public Bookshelf",
-    "address": null,
+    "address": "35120, France",
     "lat": 48.5700333,
     "lon": -1.7686505,
     "sourceId": "osm_11347782107"
   },
   {
     "id": "axrggn",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf La Roche-Jaudy",
+    "address": "Rue du Pouamon, 22450, La Roche-Jaudy, France",
     "lat": 48.7476967,
     "lon": -3.261038,
     "sourceId": "osm_11347795677"
   },
   {
     "id": "wqajvh",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Sint-Katelijne-Waver",
+    "address": "Leemstraat 16, 2861, Sint-Katelijne-Waver, België / Belgique / Belgien",
     "lat": 51.0612761,
     "lon": 4.5801374,
     "sourceId": "osm_11347800166"
   },
   {
     "id": "socfih",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Saint-Denis",
+    "address": "Rue Jules Védrines, 93200, Saint-Denis, France",
     "lat": 48.9474489,
     "lon": 2.3620242,
     "sourceId": "osm_11347804923"
   },
   {
     "id": "knjelz",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Firminy",
+    "address": "Rue du Colonel Riez, 42700, Firminy, France",
     "lat": 45.3935301,
     "lon": 4.2813299,
     "sourceId": "osm_11347999328"
@@ -119250,63 +119250,63 @@
   {
     "id": "npikgt",
     "name": "Mini Knihovnička",
-    "address": null,
+    "address": "Podkovářská, 190 07, Praha, Česko",
     "lat": 50.10465,
     "lon": 14.5127369,
     "sourceId": "osm_11348068741"
   },
   {
     "id": "huqwsj",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Voreppe",
+    "address": "Rue Beyle Stendhal, 38340, Voreppe, France",
     "lat": 45.2779487,
     "lon": 5.6475805,
     "sourceId": "osm_11348346226"
   },
   {
     "id": "obtnca",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Bornay",
+    "address": "Rue Saint-Néron, 39570, Bornay, France",
     "lat": 46.6158645,
     "lon": 5.5542185,
     "sourceId": "osm_11348662447"
   },
   {
     "id": "oenpls",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Burg",
+    "address": "39288, Burg, Deutschland",
     "lat": 52.267886,
     "lon": 11.908695,
     "sourceId": "osm_11348793309"
   },
   {
     "id": "nzftga",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Les Ponts-de-Cé",
+    "address": "49130, Les Ponts-de-Cé, France",
     "lat": 47.4149277,
     "lon": -0.5232671,
     "sourceId": "osm_11349798817"
   },
   {
     "id": "jrhpmh",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Bourg-la-Reine",
+    "address": "Place de la Gare, 92340, Bourg-la-Reine, France",
     "lat": 48.7802127,
     "lon": 2.3130614,
     "sourceId": "osm_11349854645"
   },
   {
     "id": "iexikr",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf South Norfolk",
+    "address": "Hardley Road, NR14 6DA, South Norfolk, United Kingdom",
     "lat": 52.5539373,
     "lon": 1.5003004,
     "sourceId": "osm_11350116417"
   },
   {
     "id": "qbzrge",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Schilde",
+    "address": "Sint Willebrorduslaan 24, 2970, Schilde, België / Belgique / Belgien",
     "lat": 51.2527181,
     "lon": 4.5888035,
     "sourceId": "osm_11350892484"
@@ -119314,31 +119314,31 @@
   {
     "id": "cqnxwl",
     "name": "Book House",
-    "address": null,
+    "address": "Люсиен Шевалас, 4004, Бългaрия",
     "lat": 42.1232643,
     "lon": 24.7350625,
     "sourceId": "osm_11351230262"
   },
   {
     "id": "nfwzqv",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Fontenay",
+    "address": "88600, Fontenay, France",
     "lat": 48.2183618,
     "lon": 6.5893876,
     "sourceId": "osm_11351599822"
   },
   {
     "id": "fqqjgr",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf 's-Gravenhage",
+    "address": "Ekensteinstraat 3, 2532TA, 's-Gravenhage, Nederland",
     "lat": 52.0483022,
     "lon": 4.2993857,
     "sourceId": "osm_11352111630"
   },
   {
     "id": "kuakum",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Rueil-Malmaison",
+    "address": "92500, Rueil-Malmaison, France",
     "lat": 48.8585054,
     "lon": 2.1897248,
     "sourceId": "osm_11352139301"
@@ -119346,7 +119346,7 @@
   {
     "id": "uerwev",
     "name": "Öffentlicher Bücherschrank",
-    "address": null,
+    "address": "Schulstraße 23, 46286, Dorsten, Deutschland",
     "lat": 51.7614099,
     "lon": 7.0009464,
     "sourceId": "osm_11352190230"
@@ -119354,7 +119354,7 @@
   {
     "id": "pwpbvq",
     "name": "Öffentlicher Bücherschrank",
-    "address": null,
+    "address": "Rossiniweg 72, 46282, Dorsten, Deutschland",
     "lat": 51.655211,
     "lon": 6.9810444,
     "sourceId": "osm_11352206254"
@@ -119362,135 +119362,135 @@
   {
     "id": "mvlfky",
     "name": "Biblioteca de naturaleza",
-    "address": null,
+    "address": "Calle de Jaime Marquet, 28300, Aranjuez, España",
     "lat": 40.0223013,
     "lon": -3.6101998,
     "sourceId": "osm_11352598658"
   },
   {
     "id": "fuogyk",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Metten",
+    "address": "Marktplatz, 94526, Metten, Deutschland",
     "lat": 48.8555648,
     "lon": 12.9163873,
     "sourceId": "osm_11355497046"
   },
   {
     "id": "trwlyz",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Saint-Paul-du-Bois",
+    "address": "49310, Saint-Paul-du-Bois, France",
     "lat": 47.0803285,
     "lon": -0.5444875,
     "sourceId": "osm_11355572384"
   },
   {
     "id": "krxcxs",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Drachselsried",
+    "address": "Zellertalstraße, 94256, Drachselsried, Deutschland",
     "lat": 49.1069907,
     "lon": 13.0111458,
     "sourceId": "osm_11357078370"
   },
   {
     "id": "yqnkio",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Dalfsen",
+    "address": "Middeleeuwen 24, 7722ZB, Dalfsen, Nederland",
     "lat": 52.5132671,
     "lon": 6.277208,
     "sourceId": "osm_11357413791"
   },
   {
     "id": "xivdwm",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Dalfsen",
+    "address": "Noordeinde 3, 7722XG, Dalfsen, Nederland",
     "lat": 52.5452408,
     "lon": 6.2031048,
     "sourceId": "osm_11357413792"
   },
   {
     "id": "qkmeag",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Dissangis",
+    "address": "Route de l'Isle, 89440, Dissangis, France",
     "lat": 47.5959761,
     "lon": 3.9848211,
     "sourceId": "osm_11357819042"
   },
   {
     "id": "sulwkw",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Postojna",
+    "address": "6230, Postojna, Slovenija",
     "lat": 45.7722282,
     "lon": 14.212091,
     "sourceId": "osm_11358063151"
   },
   {
     "id": "ikctkj",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Getafe",
+    "address": "Calle Sirio 23, 28905, Getafe, España",
     "lat": 40.2879977,
     "lon": -3.7447929,
     "sourceId": "osm_11358773677"
   },
   {
     "id": "wvnaqa",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Gent",
+    "address": "9000, Gent, België / Belgique / Belgien",
     "lat": 51.0287495,
     "lon": 3.7098181,
     "sourceId": "osm_11358837957"
   },
   {
     "id": "nzylhw",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Balma",
+    "address": "31130, Balma, France",
     "lat": 43.6092486,
     "lon": 1.5026655,
     "sourceId": "osm_11359644640"
   },
   {
     "id": "jngqjk",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Magescq",
+    "address": "40140, Magescq, France",
     "lat": 43.7783227,
     "lon": -1.2173132,
     "sourceId": "osm_11359704878"
   },
   {
     "id": "xurpwe",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Herzberg am Harz",
+    "address": "37412, Herzberg am Harz, Deutschland",
     "lat": 51.6546192,
     "lon": 10.3404071,
     "sourceId": "osm_11359902208"
   },
   {
     "id": "wwxtkp",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf La Châtre",
+    "address": "36400, La Châtre, France",
     "lat": 46.5838083,
     "lon": 1.9869552,
     "sourceId": "osm_11359966382"
   },
   {
     "id": "pthexn",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Combs-la-Ville",
+    "address": "Rue des Etriviers 34, 77380, Combs-la-Ville, France",
     "lat": 48.6615595,
     "lon": 2.5474379,
     "sourceId": "osm_11360303515"
   },
   {
     "id": "qwmyaz",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Bremen",
+    "address": "Zwickauer Straße 19, 28215, Bremen, Deutschland",
     "lat": 53.0934177,
     "lon": 8.8133442,
     "sourceId": "osm_11360417116"
   },
   {
     "id": "oxqnkf",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Langenfeld",
+    "address": "40764, Langenfeld, Deutschland",
     "lat": 51.0854432,
     "lon": 6.9749002,
     "sourceId": "osm_11360589652"
@@ -119498,111 +119498,111 @@
   {
     "id": "hhuoxx",
     "name": "Book Swap",
-    "address": null,
+    "address": "High Street, NN6 8PU, Guilsborough, United Kingdom",
     "lat": 52.3513602,
     "lon": -1.0100616,
     "sourceId": "osm_11360976024"
   },
   {
     "id": "plsjbx",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Duneau",
+    "address": "Place de la Mairie 6, 72160, Duneau, France",
     "lat": 48.0695606,
     "lon": 0.5188499,
     "sourceId": "osm_11361026161"
   },
   {
     "id": "aphrfn",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Wattwiller",
+    "address": "Rue du Molkenrain, 68700, Wattwiller, France",
     "lat": 47.836076,
     "lon": 7.1793024,
     "sourceId": "osm_11361506216"
   },
   {
     "id": "vroiuw",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Schöppingen",
+    "address": "Feuerstiege, 48624, Schöppingen, Deutschland",
     "lat": 52.0929433,
     "lon": 7.2341178,
     "sourceId": "osm_11361527694"
   },
   {
     "id": "hwwvpe",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Pusiano",
+    "address": "Via Giuseppe Mazzini, 23842, Pusiano, Italia",
     "lat": 45.813438,
     "lon": 9.2831167,
     "sourceId": "osm_11361945752"
   },
   {
     "id": "ahdlnd",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Saint-Herblain",
+    "address": "Esplanade de la Begraisière, 44800, Saint-Herblain, France",
     "lat": 47.2314078,
     "lon": -1.6149949,
     "sourceId": "osm_11362015952"
   },
   {
     "id": "srphgj",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Trento",
+    "address": "38121, Trento, Italia",
     "lat": 46.0804701,
     "lon": 11.1413571,
     "sourceId": "osm_11362521779"
   },
   {
     "id": "fsrksz",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Nozeroy",
+    "address": "39250, Nozeroy, France",
     "lat": 46.77477,
     "lon": 6.0368368,
     "sourceId": "osm_11362906810"
   },
   {
     "id": "jhyxid",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Bradford",
+    "address": "BD22 0PG, Bradford, United Kingdom",
     "lat": 53.8648884,
     "lon": -1.952994,
     "sourceId": "osm_11363006783"
   },
   {
     "id": "ezixcc",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Mitry-Mory",
+    "address": "Rue Jean Vigo, 77290, Mitry-Mory, France",
     "lat": 48.9619592,
     "lon": 2.5980378,
     "sourceId": "osm_11363434144"
   },
   {
     "id": "htnwuk",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Hartmannswiller",
+    "address": "Grand'Rue 38, 68500, Hartmannswiller, France",
     "lat": 47.8623986,
     "lon": 7.2166454,
     "sourceId": "osm_11363454383"
   },
   {
     "id": "zgqjyh",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Vexin-sur-Epte",
+    "address": "27630, Vexin-sur-Epte, France",
     "lat": 49.1325462,
     "lon": 1.6226602,
     "sourceId": "osm_11363535395"
   },
   {
     "id": "syzeoc",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Ans",
+    "address": "Place des Anciens Combattants 1, 4432, Ans, België / Belgique / Belgien",
     "lat": 50.6745195,
     "lon": 5.5123977,
     "sourceId": "osm_11363613721"
   },
   {
     "id": "zdvnjt",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Hostín",
+    "address": "Hostín 128, 27732, Hostín, Česko",
     "lat": 50.3418853,
     "lon": 14.5873292,
     "sourceId": "osm_11364048492"
@@ -119610,87 +119610,87 @@
   {
     "id": "mzykzk",
     "name": "Book Swap",
-    "address": null,
+    "address": "Capworth Street, E10 7BA, London, United Kingdom",
     "lat": 51.5691395,
     "lon": -0.0203075,
     "sourceId": "osm_11364057761"
   },
   {
     "id": "cidzzq",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Nagykanizsa",
+    "address": "8800, Nagykanizsa, Magyarország",
     "lat": 46.4489144,
     "lon": 16.9948706,
     "sourceId": "osm_11365286315"
   },
   {
     "id": "dmayix",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Alphen aan den Rijn",
+    "address": "Prins Bernhardlaan 8A, 2405VZ, Alphen aan den Rijn, Nederland",
     "lat": 52.1324709,
     "lon": 4.6572027,
     "sourceId": "osm_11365603969"
   },
   {
     "id": "udnpga",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Alphen aan den Rijn",
+    "address": "De Smethstraat 1, 2405CN, Alphen aan den Rijn, Nederland",
     "lat": 52.1296589,
     "lon": 4.6585696,
     "sourceId": "osm_11365603981"
   },
   {
     "id": "ogdiyk",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Lahourcade",
+    "address": "Chemin de Vergez, 64150, Lahourcade, France",
     "lat": 43.3541835,
     "lon": -0.6175344,
     "sourceId": "osm_11365613465"
   },
   {
     "id": "zzaqjp",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf 's-Gravenhage",
+    "address": "Coevordenstraat 150, 2541SN, 's-Gravenhage, Nederland",
     "lat": 52.0471994,
     "lon": 4.2837525,
     "sourceId": "osm_11365645579"
   },
   {
     "id": "smluim",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Bochum",
+    "address": "44894, Bochum, Deutschland",
     "lat": 51.490884,
     "lon": 7.3092764,
     "sourceId": "osm_11366156464"
   },
   {
     "id": "fukbxh",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Sheffield",
+    "address": "Ecclesall Road 1-3, S11 8HY, Sheffield, United Kingdom",
     "lat": 53.3730595,
     "lon": -1.4786099,
     "sourceId": "osm_11366169361"
   },
   {
     "id": "dyjgrt",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Hermalle-sous-Huy",
+    "address": "Chaussée Freddy Terwagne 127, 4480, Hermalle-sous-Huy, België / Belgique / Belgien",
     "lat": 50.5575357,
     "lon": 5.3623628,
     "sourceId": "osm_11366200328"
   },
   {
     "id": "isbaez",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Fürth",
+    "address": "Flößaustraße 86d, 90763, Fürth, Deutschland",
     "lat": 49.4622508,
     "lon": 10.9963991,
     "sourceId": "osm_11366750172"
   },
   {
     "id": "ehypcv",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Essen",
+    "address": "Essen, Deutschland",
     "lat": 51.3675575,
     "lon": 6.9527123,
     "sourceId": "osm_11368111147"
@@ -119698,7 +119698,7 @@
   {
     "id": "qetvwz",
     "name": "Les livres en balade",
-    "address": null,
+    "address": "Route des Perrières, 74260, Les Gets, France",
     "lat": 46.1483558,
     "lon": 6.6550013,
     "sourceId": "osm_11368649594"
@@ -119706,31 +119706,31 @@
   {
     "id": "izoysv",
     "name": "Les livres baladeurs",
-    "address": null,
+    "address": "Route de Lassarre, 74260, Les Gets, France",
     "lat": 46.1762728,
     "lon": 6.6727583,
     "sourceId": "osm_11368649595"
   },
   {
     "id": "huzihl",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Brousses-et-Villaret",
+    "address": "11390, Brousses-et-Villaret, France",
     "lat": 43.3431364,
     "lon": 2.2544497,
     "sourceId": "osm_11368857830"
   },
   {
     "id": "scknna",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Saarbrücken",
+    "address": "66123, Saarbrücken, Deutschland",
     "lat": 49.2449926,
     "lon": 7.0103361,
     "sourceId": "osm_11369491563"
   },
   {
     "id": "onrgzr",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Nanterre",
+    "address": "92000, Nanterre, France",
     "lat": 48.8993937,
     "lon": 2.1992121,
     "sourceId": "osm_11370533588"
@@ -119738,31 +119738,31 @@
   {
     "id": "szvobw",
     "name": "Bücherschrank Ummersche Heerstraße",
-    "address": null,
+    "address": "Ummersche Heerstraße, 38518, Gifhorn, Deutschland",
     "lat": 52.5156497,
     "lon": 10.5338001,
     "sourceId": "osm_11371077394"
   },
   {
     "id": "husgxh",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Brugge",
+    "address": "8200, Brugge, België / Belgique / Belgien",
     "lat": 51.1932957,
     "lon": 3.2032237,
     "sourceId": "osm_11371170558"
   },
   {
     "id": "sdrxvk",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Chaussan",
+    "address": "Rue du Meunier, 69440, Chaussan, France",
     "lat": 45.6329683,
     "lon": 4.6399118,
     "sourceId": "osm_11371473406"
   },
   {
     "id": "qtztof",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Saugues",
+    "address": "Rue de l'Hôtel de Ville, 43170, Saugues, France",
     "lat": 44.9601741,
     "lon": 3.546234,
     "sourceId": "osm_11371491031"
@@ -119770,39 +119770,39 @@
   {
     "id": "knjjfs",
     "name": "Public Bookshelf",
-    "address": null,
+    "address": "Saint Kevin's Road 1, D08 E0C0, Éire / Ireland",
     "lat": 53.3304176,
     "lon": -6.2699217,
     "sourceId": "osm_11371594869"
   },
   {
     "id": "nfgfxo",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Leeds",
+    "address": "Leeds, United Kingdom",
     "lat": 53.8256147,
     "lon": -1.6268921,
     "sourceId": "osm_11372303156"
   },
   {
     "id": "ocusps",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Raeren",
+    "address": "Lichtenbuscher Straße, 4731, Raeren, België / Belgique / Belgien",
     "lat": 50.6935194,
     "lon": 6.0853204,
     "sourceId": "osm_11373136242"
   },
   {
     "id": "rhamoz",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf München",
+    "address": "Chiemgaustraße, 81539, München, Deutschland",
     "lat": 48.1049386,
     "lon": 11.58349,
     "sourceId": "osm_11373229538"
   },
   {
     "id": "hrsuxg",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Lomma",
+    "address": "Kajgatan 26, 234 39, Lomma, Sverige",
     "lat": 55.6757067,
     "lon": 13.0626363,
     "sourceId": "osm_11373792571"
@@ -119810,103 +119810,103 @@
   {
     "id": "wqexxf",
     "name": "Little Free Library",
-    "address": null,
+    "address": "Stonebridge Way, ME13 7SB, Swale, United Kingdom",
     "lat": 51.3165675,
     "lon": 0.8828528,
     "sourceId": "osm_11375694814"
   },
   {
     "id": "udnqcr",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Maisons-du-Bois-Lièvremont",
+    "address": "Grande Rue 67A, 25650, Maisons-du-Bois-Lièvremont, France",
     "lat": 46.9760708,
     "lon": 6.4253035,
     "sourceId": "osm_11376050745"
   },
   {
     "id": "itcfyk",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Glamondans",
+    "address": "Rue de Guigot, 25360, Glamondans, France",
     "lat": 47.2648613,
     "lon": 6.2776992,
     "sourceId": "osm_11376080780"
   },
   {
     "id": "smqhqp",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Montbéliard",
+    "address": "Cour des Halles 6, 25200, Montbéliard, France",
     "lat": 47.5095416,
     "lon": 6.7946343,
     "sourceId": "osm_11376080781"
   },
   {
     "id": "tgmwcx",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf 's-Gravenhage",
+    "address": "Gloriantstraat 11, 2531EW, 's-Gravenhage, Nederland",
     "lat": 52.0529599,
     "lon": 4.3001554,
     "sourceId": "osm_11377328826"
   },
   {
     "id": "bkwovq",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Saint-Aubin-sur-Gaillon",
+    "address": "Rue des Motelles, 27600, Saint-Aubin-sur-Gaillon, France",
     "lat": 49.1464012,
     "lon": 1.3290798,
     "sourceId": "osm_11377337027"
   },
   {
     "id": "qwmszy",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf 's-Gravenhage",
+    "address": "Guntersteinweg 143, 2531JT, 's-Gravenhage, Nederland",
     "lat": 52.0471949,
     "lon": 4.3024482,
     "sourceId": "osm_11377437610"
   },
   {
     "id": "xvveea",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Pradines",
+    "address": "Place des Platanes, 42630, Pradines, France",
     "lat": 45.9982294,
     "lon": 4.1756029,
     "sourceId": "osm_11377563094"
   },
   {
     "id": "xsriep",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Ardres",
+    "address": "Place du Général de Saint-Just 76, 62610, Ardres, France",
     "lat": 50.85393,
     "lon": 1.9776089,
     "sourceId": "osm_11377813458"
   },
   {
     "id": "jrzglt",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Raillencourt-Sainte-Olle",
+    "address": "59554, Raillencourt-Sainte-Olle, France",
     "lat": 50.1913912,
     "lon": 3.1688184,
     "sourceId": "osm_11377835878"
   },
   {
     "id": "rphczc",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Versailles",
+    "address": "Parvis Colonel Arnaud Beltrame, 78000, Versailles, France",
     "lat": 48.795098,
     "lon": 2.1361024,
     "sourceId": "osm_11377956723"
   },
   {
     "id": "bqljkm",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Carling",
+    "address": "Rue Principale 202, 57490, Carling, France",
     "lat": 49.1660937,
     "lon": 6.7156651,
     "sourceId": "osm_11378222432"
   },
   {
     "id": "ovxxww",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Jablonné v Podještědí",
+    "address": "471 25, Jablonné v Podještědí, Česko",
     "lat": 50.8075392,
     "lon": 14.7670547,
     "sourceId": "osm_11379081760"
@@ -119914,79 +119914,79 @@
   {
     "id": "yisosl",
     "name": "Boîte à livres",
-    "address": null,
+    "address": "Rue du Relais, 35133, La Chapelle-Fleurigné, France",
     "lat": 48.3475868,
     "lon": -1.0998084,
     "sourceId": "osm_11379315957"
   },
   {
     "id": "ybuffc",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Ehningen",
+    "address": "71139, Ehningen, Deutschland",
     "lat": 48.658714,
     "lon": 8.9404584,
     "sourceId": "osm_11379444356"
   },
   {
     "id": "hzrjuc",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Gent",
+    "address": "Meersemdries 4, 9050, Gent, België / Belgique / Belgien",
     "lat": 51.0410724,
     "lon": 3.761747,
     "sourceId": "osm_11379489742"
   },
   {
     "id": "ynodhw",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Gent",
+    "address": "Edith Cavellstraat 26, 9050, Gent, België / Belgique / Belgien",
     "lat": 51.0353049,
     "lon": 3.7603487,
     "sourceId": "osm_11379522762"
   },
   {
     "id": "dwjdsy",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Aubagne",
+    "address": "13400, Aubagne, France",
     "lat": 43.3204508,
     "lon": 5.5619025,
     "sourceId": "osm_11379546864"
   },
   {
     "id": "fgvtaz",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Paderborn",
+    "address": "Königsbuscher Weg 16, 33098, Paderborn, Deutschland",
     "lat": 51.7026717,
     "lon": 8.7474189,
     "sourceId": "osm_11379622453"
   },
   {
     "id": "gzyeyd",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Poznań",
+    "address": "Uniwersytetu Poznańskiego 5, 60-687, Poznań, Polska",
     "lat": 52.4659447,
     "lon": 16.9246983,
     "sourceId": "osm_11379959472"
   },
   {
     "id": "bxuqye",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Saint-Martin-des-Prés",
+    "address": "Place de l'Église 1, 22320, Saint-Martin-des-Prés, France",
     "lat": 48.3070484,
     "lon": -2.9548845,
     "sourceId": "osm_11380081034"
   },
   {
     "id": "reyakn",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Kempten (Allgäu)",
+    "address": "87437, Kempten (Allgäu), Deutschland",
     "lat": 47.7108598,
     "lon": 10.333964,
     "sourceId": "osm_11380269221"
   },
   {
     "id": "apehsl",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Bonn",
+    "address": "Bonn, Deutschland",
     "lat": 50.742771,
     "lon": 7.1494519,
     "sourceId": "osm_11380797868"
@@ -119994,15 +119994,15 @@
   {
     "id": "kvtncw",
     "name": "Bibliothèque Solidaire",
-    "address": null,
+    "address": "Avenue du Portou, 64990, Saint-Pierre-d'Irube, France",
     "lat": 43.4800937,
     "lon": -1.4442416,
     "sourceId": "osm_11380846083"
   },
   {
     "id": "wrsafn",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Portes-lès-Valence",
+    "address": "Place de la République 1, 26800, Portes-lès-Valence, France",
     "lat": 44.8752953,
     "lon": 4.8781668,
     "sourceId": "osm_11380970577"
@@ -120010,15 +120010,15 @@
   {
     "id": "lwkbtv",
     "name": "Punto de Lectura",
-    "address": null,
+    "address": "Glorieta de Luca de Tena, 41004, Sevilla, España",
     "lat": 37.3768075,
     "lon": -5.988502,
     "sourceId": "osm_11381174226"
   },
   {
     "id": "vowano",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Courmangoux",
+    "address": "Rue du Plan d'Eau, 01370, Courmangoux, France",
     "lat": 46.331683,
     "lon": 5.3824036,
     "sourceId": "osm_11381348052"
@@ -120026,7 +120026,7 @@
   {
     "id": "bwrjhc",
     "name": "Bücherzelle",
-    "address": null,
+    "address": "Haberwaldgasse, 8047, Hart bei Graz, Österreich",
     "lat": 47.0727153,
     "lon": 15.5159339,
     "sourceId": "osm_11381349636"
@@ -120034,7 +120034,7 @@
   {
     "id": "xlfviq",
     "name": "Boite à livres 7ème",
-    "address": null,
+    "address": "Quai du Port Île Ratonneau, 13007, Marseille, France",
     "lat": 43.2791029,
     "lon": 5.3047905,
     "sourceId": "osm_11381644203"
@@ -120042,7 +120042,7 @@
   {
     "id": "lpmgva",
     "name": "Boites à livre 8ème",
-    "address": null,
+    "address": "Place Engalière, 13008, Marseille, France",
     "lat": 43.2383213,
     "lon": 5.3654129,
     "sourceId": "osm_11381644204"
@@ -120050,103 +120050,103 @@
   {
     "id": "cakuwu",
     "name": "Öffentlicher Bücherschrank",
-    "address": null,
+    "address": "Steinriedendamm, 38108, Braunschweig, Deutschland",
     "lat": 52.3031374,
     "lon": 10.5407501,
     "sourceId": "osm_11381663637"
   },
   {
     "id": "xzecfi",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Pays-de-Montbenoît",
+    "address": "Chemin de la Gare 3, 25650, Pays-de-Montbenoît, France",
     "lat": 46.9941016,
     "lon": 6.4629347,
     "sourceId": "osm_11382358030"
   },
   {
     "id": "oqqjkj",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Nürnberg",
+    "address": "Wachtelstraße 2, 90427, Nürnberg, Deutschland",
     "lat": 49.4707757,
     "lon": 11.0419227,
     "sourceId": "osm_11383605126"
   },
   {
     "id": "uylanq",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf el Prat de Llobregat",
+    "address": "Plaça de la Vila 17, 08820, el Prat de Llobregat, España",
     "lat": 41.3306746,
     "lon": 2.0935664,
     "sourceId": "osm_11383815391"
   },
   {
     "id": "wgkjkm",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf 's-Gravenhage",
+    "address": "Max Havelaarstraat 68, 2524PG, 's-Gravenhage, Nederland",
     "lat": 52.0511043,
     "lon": 4.3112554,
     "sourceId": "osm_11384153739"
   },
   {
     "id": "znzacf",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Sand a. Main",
+    "address": "Zeiler Straße, 97522, Sand a. Main, Deutschland",
     "lat": 49.9885575,
     "lon": 10.5882486,
     "sourceId": "osm_11384211905"
   },
   {
     "id": "fyefch",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Paris",
+    "address": "Rue Censier 38, 75005, Paris, France",
     "lat": 48.83969,
     "lon": 2.3505645,
     "sourceId": "osm_11384240030"
   },
   {
     "id": "xbnqnz",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Marseille",
+    "address": "Boulevard Vauban 111, 13006, Marseille, France",
     "lat": 43.2823183,
     "lon": 5.3739395,
     "sourceId": "osm_11385307507"
   },
   {
     "id": "ahjeif",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Bruxelles - Brussel",
+    "address": "Rue de Pavie - Paviastraat 75, 1000, Bruxelles - Brussel, België / Belgique / Belgien",
     "lat": 50.8502013,
     "lon": 4.383457,
     "sourceId": "osm_11385336609"
   },
   {
     "id": "qeouxf",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Rioz",
+    "address": "Rue Charles de Gaulle 38, 70190, Rioz, France",
     "lat": 47.4258175,
     "lon": 6.0697985,
     "sourceId": "osm_11385392702"
   },
   {
     "id": "gpotau",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Ústí nad Orlicí",
+    "address": "Nádražní 684, 56201, Ústí nad Orlicí, Česko",
     "lat": 49.9712977,
     "lon": 16.3781165,
     "sourceId": "osm_11385752491"
   },
   {
     "id": "bskrdh",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Warszawa",
+    "address": "Stanisława Konarskiego 6, 01-355, Warszawa, Polska",
     "lat": 52.2375393,
     "lon": 20.9174006,
     "sourceId": "osm_11386027977"
   },
   {
     "id": "okyxqa",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Courthézon",
+    "address": "Boulevard de la République 1, 84350, Courthézon, France",
     "lat": 44.085152,
     "lon": 4.8847895,
     "sourceId": "osm_11387344701"
@@ -120154,119 +120154,119 @@
   {
     "id": "tuicvz",
     "name": "Phone Books",
-    "address": null,
+    "address": "Chandlers Mead, BN8 4SZ, Lewes, United Kingdom",
     "lat": 50.9037883,
     "lon": -0.0084165,
     "sourceId": "osm_11388315855"
   },
   {
     "id": "uqrivl",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Alénya",
+    "address": "66200, Alénya, France",
     "lat": 42.639572,
     "lon": 2.9796546,
     "sourceId": "osm_11388399079"
   },
   {
     "id": "veizli",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Szeged",
+    "address": "Kálvária sugárút 23, 6722, Szeged, Magyarország",
     "lat": 46.2522975,
     "lon": 20.1401133,
     "sourceId": "osm_11389594247"
   },
   {
     "id": "qtewzc",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Waltenschwil",
+    "address": "Bremgarterstrasse, 5622, Waltenschwil, Schweiz/Suisse/Svizzera/Svizra",
     "lat": 47.334722,
     "lon": 8.30361,
     "sourceId": "osm_11389654676"
   },
   {
     "id": "anueto",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Suhr",
+    "address": "5034, Suhr, Schweiz/Suisse/Svizzera/Svizra",
     "lat": 47.3820768,
     "lon": 8.0667741,
     "sourceId": "osm_11389654677"
   },
   {
     "id": "dvmmlw",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Rütihof",
+    "address": "Kirchgasse 14, 5406, Rütihof, Schweiz/Suisse/Svizzera/Svizra",
     "lat": 47.44008,
     "lon": 8.26874,
     "sourceId": "osm_11389654678"
   },
   {
     "id": "lwycha",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Oftringen",
+    "address": "Kirchstrasse 8, 4665, Oftringen, Schweiz/Suisse/Svizzera/Svizra",
     "lat": 47.310444,
     "lon": 7.930611,
     "sourceId": "osm_11389654679"
   },
   {
     "id": "mlmrct",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Kaiseraugst",
+    "address": "4303, Kaiseraugst, Schweiz/Suisse/Svizzera/Svizra",
     "lat": 47.5353,
     "lon": 7.7308,
     "sourceId": "osm_11389654680"
   },
   {
     "id": "titeef",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Aarau",
+    "address": "Schanzmättelistrasse, 5000, Aarau, Schweiz/Suisse/Svizzera/Svizra",
     "lat": 47.3861187,
     "lon": 8.0450654,
     "sourceId": "osm_11389654681"
   },
   {
     "id": "yjlshc",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Hägglingen",
+    "address": "Oberdorfstrasse, 5607, Hägglingen, Schweiz/Suisse/Svizzera/Svizra",
     "lat": 47.38696,
     "lon": 8.25501,
     "sourceId": "osm_11389654682"
   },
   {
     "id": "feqkez",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Aarau",
+    "address": "Kirchbergstrasse 16, 5000, Aarau, Schweiz/Suisse/Svizzera/Svizra",
     "lat": 47.3987004,
     "lon": 8.0456072,
     "sourceId": "osm_11389654683"
   },
   {
     "id": "uujmib",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Aarau",
+    "address": "Konradstrasse 11, 5000, Aarau, Schweiz/Suisse/Svizzera/Svizra",
     "lat": 47.38899,
     "lon": 8.05007,
     "sourceId": "osm_11389654684"
   },
   {
     "id": "vcxrog",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Muhen",
+    "address": "Kolpenweg 5, 5037, Muhen, Schweiz/Suisse/Svizzera/Svizra",
     "lat": 47.338653,
     "lon": 8.04473,
     "sourceId": "osm_11389654685"
   },
   {
     "id": "lqucqq",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Aarau",
+    "address": "Herzogstrasse 55, 5032, Aarau, Schweiz/Suisse/Svizzera/Svizra",
     "lat": 47.38788,
     "lon": 8.0552,
     "sourceId": "osm_11389654686"
   },
   {
     "id": "vwslus",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Aarau",
+    "address": "Aarenaustrasse, 5000, Aarau, Schweiz/Suisse/Svizzera/Svizra",
     "lat": 47.4002,
     "lon": 8.04724,
     "sourceId": "osm_11389654687"
@@ -120274,95 +120274,95 @@
   {
     "id": "gxfynq",
     "name": "Bücherbox",
-    "address": null,
+    "address": "Auf der Höchst, 76865, Rohrbach (Pfalz), Deutschland",
     "lat": 49.1355929,
     "lon": 8.1314578,
     "sourceId": "osm_11390034916"
   },
   {
     "id": "wemtwa",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Saint-Pierre-du-Perray",
+    "address": "Avenue de Corbeil, 91280, Saint-Pierre-du-Perray, France",
     "lat": 48.6158532,
     "lon": 2.5094493,
     "sourceId": "osm_11390226609"
   },
   {
     "id": "ecshcm",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Strmilov",
+    "address": "Tyršova, 378 53, Strmilov, Česko",
     "lat": 49.1625681,
     "lon": 15.2012988,
     "sourceId": "osm_11391685079"
   },
   {
     "id": "doercg",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Colonzelle",
+    "address": "Rue de la Mairie, 26230, Colonzelle, France",
     "lat": 44.3930389,
     "lon": 4.9009082,
     "sourceId": "osm_11391694091"
   },
   {
     "id": "zovqtx",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Einville-au-Jard",
+    "address": "54370, Einville-au-Jard, France",
     "lat": 48.6550895,
     "lon": 6.4864352,
     "sourceId": "osm_11391735119"
   },
   {
     "id": "tculep",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Rimpar",
+    "address": "97222, Rimpar, Deutschland",
     "lat": 49.9274134,
     "lon": 9.9700889,
     "sourceId": "osm_11392173319"
   },
   {
     "id": "nygmgb",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Toulouse",
+    "address": "Rue du 11 Novembre 1918, 31300, Toulouse, France",
     "lat": 43.5926062,
     "lon": 1.4178305,
     "sourceId": "osm_11392377508"
   },
   {
     "id": "beeblu",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Głogów",
+    "address": "Aleja Wolności 20, 67-200, Głogów, Polska",
     "lat": 51.6655928,
     "lon": 16.0828731,
     "sourceId": "osm_11393128252"
   },
   {
     "id": "cujivh",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Praha",
+    "address": "252 43, Praha, Česko",
     "lat": 50.0151769,
     "lon": 14.5412247,
     "sourceId": "osm_11393850573"
   },
   {
     "id": "fdznol",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Dalfsen",
+    "address": "Polhaarweg, 7721 DX, Dalfsen, Nederland",
     "lat": 52.5140253,
     "lon": 6.2528124,
     "sourceId": "osm_11393946564"
   },
   {
     "id": "ptccgw",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Mons-en-Laonnois",
+    "address": "02000, Mons-en-Laonnois, France",
     "lat": 49.5378163,
     "lon": 3.5530372,
     "sourceId": "osm_11393990375"
   },
   {
     "id": "hyluyz",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Minden",
+    "address": "Königstraße 162, 32427, Minden, Deutschland",
     "lat": 52.2921886,
     "lon": 8.886719,
     "sourceId": "osm_11395125211"
@@ -120370,63 +120370,63 @@
   {
     "id": "tkreyh",
     "name": "Bucherschrank Kreuzau",
-    "address": null,
+    "address": "Hauptstraße 68, 52372, Kreuzau, Deutschland",
     "lat": 50.74656,
     "lon": 6.4891021,
     "sourceId": "osm_11395797707"
   },
   {
     "id": "oncsqv",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Douzillac",
+    "address": "24190, Douzillac, France",
     "lat": 45.0851787,
     "lon": 0.4155682,
     "sourceId": "osm_11396463109"
   },
   {
     "id": "otabfs",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Châteauneuf",
+    "address": "Place des Marronniers 20, 71740, Châteauneuf, France",
     "lat": 46.2140654,
     "lon": 4.2551436,
     "sourceId": "osm_11396506071"
   },
   {
     "id": "qdvuqb",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Preußisch Oldendorf",
+    "address": "32361, Preußisch Oldendorf, Deutschland",
     "lat": 52.2886421,
     "lon": 8.5373211,
     "sourceId": "osm_11396557242"
   },
   {
     "id": "wjfgof",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Alphen aan den Rijn",
+    "address": "2405 XR, Alphen aan den Rijn, Nederland",
     "lat": 52.1182295,
     "lon": 4.6729087,
     "sourceId": "osm_11396596892"
   },
   {
     "id": "ereqzh",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Alphen aan den Rijn",
+    "address": "Filips van Bourgondiëstraat 20, 2405ZL, Alphen aan den Rijn, Nederland",
     "lat": 52.1195756,
     "lon": 4.6655007,
     "sourceId": "osm_11396612668"
   },
   {
     "id": "lygnab",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Jodoigne",
+    "address": "1370, Jodoigne, België / Belgique / Belgien",
     "lat": 50.7471846,
     "lon": 4.8588109,
     "sourceId": "osm_11396939945"
   },
   {
     "id": "glqnwe",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Publier",
+    "address": "Place du 8 Mai 1945 5, 74500, Publier, France",
     "lat": 46.3877956,
     "lon": 6.5432995,
     "sourceId": "osm_11397518523"
@@ -120434,23 +120434,23 @@
   {
     "id": "bvxoom",
     "name": "Boekenruil Beringen",
-    "address": null,
+    "address": "Sporenpark, 3582, Beringen, België / Belgique / Belgien",
     "lat": 51.0711168,
     "lon": 5.2235409,
     "sourceId": "osm_11397623826"
   },
   {
     "id": "rwimis",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Köln",
+    "address": "Clarenbachplatz 2, 50933, Köln, Deutschland",
     "lat": 50.9379468,
     "lon": 6.8939379,
     "sourceId": "osm_11397678673"
   },
   {
     "id": "hlfegr",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Scheinfeld",
+    "address": "Hauptstraße 1, 91443, Scheinfeld, Deutschland",
     "lat": 49.6654159,
     "lon": 10.4627292,
     "sourceId": "osm_11397754012"
@@ -120458,63 +120458,63 @@
   {
     "id": "xqtcny",
     "name": "Offener Bücherschrank Luitpoldbau",
-    "address": null,
+    "address": "Bismarckstraße, 97318, Kitzingen, Deutschland",
     "lat": 49.7351334,
     "lon": 10.1630185,
     "sourceId": "osm_11397787180"
   },
   {
     "id": "yzdltj",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Alphen aan den Rijn",
+    "address": "Zaalbergstraat 27, 2405XA, Alphen aan den Rijn, Nederland",
     "lat": 52.1241017,
     "lon": 4.6598471,
     "sourceId": "osm_11398057181"
   },
   {
     "id": "oquvbx",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Alphen aan den Rijn",
+    "address": "2405 BK, Alphen aan den Rijn, Nederland",
     "lat": 52.1258981,
     "lon": 4.6575692,
     "sourceId": "osm_11398057295"
   },
   {
     "id": "lddatj",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Den Haag",
+    "address": "Den Haag, Nederland",
     "lat": 52.0555484,
     "lon": 4.2709789,
     "sourceId": "osm_11398276202"
   },
   {
     "id": "faawqg",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf 's-Gravenhage",
+    "address": "Werkhovenstraat 42, 2546VH, 's-Gravenhage, Nederland",
     "lat": 52.0593391,
     "lon": 4.2747777,
     "sourceId": "osm_11398276245"
   },
   {
     "id": "astxnx",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Jodoigne",
+    "address": "1370, Jodoigne, België / Belgique / Belgien",
     "lat": 50.7034555,
     "lon": 4.8199483,
     "sourceId": "osm_11398969570"
   },
   {
     "id": "adhexl",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Wiesbaden",
+    "address": "65191, Wiesbaden, Deutschland",
     "lat": 50.0836349,
     "lon": 8.2859689,
     "sourceId": "osm_11399474882"
   },
   {
     "id": "vbnrlk",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Chemin",
+    "address": "Chemin du Mont 75, 1927, Chemin, Schweiz/Suisse/Svizzera/Svizra",
     "lat": 46.0894828,
     "lon": 7.0968991,
     "sourceId": "osm_11399842496"
@@ -120522,7 +120522,7 @@
   {
     "id": "yrhohh",
     "name": "Little Free Library",
-    "address": null,
+    "address": "ścieżka rowerowa im. Zbyszka Rojka, 10-135, Olsztyn, Polska",
     "lat": 53.7798941,
     "lon": 20.4647252,
     "sourceId": "osm_11400848949"
@@ -120530,47 +120530,47 @@
   {
     "id": "cvhwpf",
     "name": "Knihobudka u Lomu",
-    "address": null,
+    "address": "407 24, Valkeřice, Česko",
     "lat": 50.6888228,
     "lon": 14.3045234,
     "sourceId": "osm_11401027137"
   },
   {
     "id": "tmbjnt",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Genthod",
+    "address": "1294, Genthod, Schweiz/Suisse/Svizzera/Svizra",
     "lat": 46.2582092,
     "lon": 6.1521224,
     "sourceId": "osm_11401778494"
   },
   {
     "id": "elrkqb",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Bellevue",
+    "address": "1293, Bellevue, Schweiz/Suisse/Svizzera/Svizra",
     "lat": 46.2540898,
     "lon": 6.1494237,
     "sourceId": "osm_11401778495"
   },
   {
     "id": "qvmyme",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Versoix",
+    "address": "Chemin César-Courvoisier 26, 1290, Versoix, Schweiz/Suisse/Svizzera/Svizra",
     "lat": 46.2793912,
     "lon": 6.1663602,
     "sourceId": "osm_11401778496"
   },
   {
     "id": "zpuhmd",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Saint-Sornin",
+    "address": "17600, Saint-Sornin, France",
     "lat": 45.7683058,
     "lon": -0.9783592,
     "sourceId": "osm_11402614732"
   },
   {
     "id": "xfchtv",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Argelès-Gazost",
+    "address": "65120, Argelès-Gazost, France",
     "lat": 42.8929292,
     "lon": -0.020887,
     "sourceId": "osm_11402658043"
@@ -120578,7 +120578,7 @@
   {
     "id": "qziiad",
     "name": "Bibliothèque de Bignay",
-    "address": null,
+    "address": "Allée de la Mairie, 17400, Bignay, France",
     "lat": 45.9170868,
     "lon": -0.6010535,
     "sourceId": "osm_11402788532"
@@ -120586,111 +120586,111 @@
   {
     "id": "syxbmh",
     "name": "Tauschbücherei",
-    "address": null,
+    "address": "Am Markt, 27419, Sittensen, Deutschland",
     "lat": 53.2776388,
     "lon": 9.5049071,
     "sourceId": "osm_11403632062"
   },
   {
     "id": "zhnhqo",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Incourt",
+    "address": "Rue Baron Bouvier 21, 1315, Incourt, België / Belgique / Belgien",
     "lat": 50.6920245,
     "lon": 4.8025761,
     "sourceId": "osm_11404222177"
   },
   {
     "id": "xyuugk",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Nehren",
+    "address": "Lotschackerstraße 9, 72147, Nehren, Deutschland",
     "lat": 48.4297129,
     "lon": 9.0643995,
     "sourceId": "osm_11405233247"
   },
   {
     "id": "ddpiqk",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Saint-Brice-sur-Vienne",
+    "address": "Place Maisondieu 1, 87200, Saint-Brice-sur-Vienne, France",
     "lat": 45.8796631,
     "lon": 0.9530657,
     "sourceId": "osm_11406471280"
   },
   {
     "id": "qduaqg",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Gründau",
+    "address": "Hauptstraße 6, 63584, Gründau, Deutschland",
     "lat": 50.2631124,
     "lon": 9.1829359,
     "sourceId": "osm_11406973544"
   },
   {
     "id": "kqwcze",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Aix-en-Provence",
+    "address": "Avenue Jules Ferry 8bis, 13100, Aix-en-Provence, France",
     "lat": 43.5205301,
     "lon": 5.4486163,
     "sourceId": "osm_11407084969"
   },
   {
     "id": "rwhucs",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Incourt",
+    "address": "Rue du Tilleul 10, 1315, Incourt, België / Belgique / Belgien",
     "lat": 50.6842919,
     "lon": 4.765895,
     "sourceId": "osm_11407233224"
   },
   {
     "id": "innhms",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Weinstadt",
+    "address": "Schulstraße 10, 71384, Weinstadt, Deutschland",
     "lat": 48.8106347,
     "lon": 9.3653633,
     "sourceId": "osm_11407367715"
   },
   {
     "id": "hxyzjo",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Roden",
+    "address": "Zijpendaal 2, 9301WG, Roden, Nederland",
     "lat": 53.131759,
     "lon": 6.4142772,
     "sourceId": "osm_11407375331"
   },
   {
     "id": "wfkmbj",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Ravelsbach",
+    "address": "3720, Ravelsbach, Österreich",
     "lat": 48.5509665,
     "lon": 15.8504425,
     "sourceId": "osm_11407400465"
   },
   {
     "id": "kvnpnu",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Colombes",
+    "address": "Rue Denis Papin, 92700, Colombes, France",
     "lat": 48.9165002,
     "lon": 2.2552676,
     "sourceId": "osm_11407551238"
   },
   {
     "id": "iwmrpg",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Cabanès",
+    "address": "Rue du Bourg 75, 12800, Cabanès, France",
     "lat": 44.1856011,
     "lon": 2.3063589,
     "sourceId": "osm_11407594623"
   },
   {
     "id": "wjcgyo",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Dortmund",
+    "address": "Hörder Neumarkt 5, 44263, Dortmund, Deutschland",
     "lat": 51.4860056,
     "lon": 7.4941642,
     "sourceId": "osm_11409326429"
   },
   {
     "id": "hcfdbt",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Valréas",
+    "address": "Avenue Général Leclerc, 84600, Valréas, France",
     "lat": 44.387262,
     "lon": 4.9917689,
     "sourceId": "osm_11409887052"
@@ -120698,23 +120698,23 @@
   {
     "id": "raqvnj",
     "name": "Tipton Book Swap",
-    "address": null,
+    "address": "Barton Paddocks, EX10 0AD, East Devon, United Kingdom",
     "lat": 50.7181853,
     "lon": -3.287912,
     "sourceId": "osm_11410441248"
   },
   {
     "id": "qebiem",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Dalfsen",
+    "address": "Brethouwerstraat 13, 7721XM, Dalfsen, Nederland",
     "lat": 52.5102896,
     "lon": 6.2600568,
     "sourceId": "osm_11411703874"
   },
   {
     "id": "uucwrt",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Deuil-la-Barre",
+    "address": "95170, Deuil-la-Barre, France",
     "lat": 48.9688667,
     "lon": 2.321295,
     "sourceId": "osm_11411968474"
@@ -120722,15 +120722,15 @@
   {
     "id": "iggviv",
     "name": "Bücherzelle",
-    "address": null,
+    "address": "Felsbergstraße, 64342, Balkhausen, Deutschland",
     "lat": 49.7330387,
     "lon": 8.6587488,
     "sourceId": "osm_11412033029"
   },
   {
     "id": "adcppk",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Klagenfurt",
+    "address": "9020, Klagenfurt, Österreich",
     "lat": 46.6235425,
     "lon": 14.3005847,
     "sourceId": "osm_11412109563"
@@ -120738,79 +120738,79 @@
   {
     "id": "yqrbac",
     "name": "Livre Lib",
-    "address": null,
+    "address": "Rue du Gave d'Aspe, 64400, Oloron-Sainte-Marie, France",
     "lat": 43.1665215,
     "lon": -0.5913923,
     "sourceId": "osm_11412109871"
   },
   {
     "id": "ueefci",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Trenal",
+    "address": "Route de Nilly, 39570, Trenal, France",
     "lat": 46.6447608,
     "lon": 5.4664998,
     "sourceId": "osm_11412559282"
   },
   {
     "id": "vevrqq",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Vaison-la-Romaine",
+    "address": "Rue Jean Jaurès, 84110, Vaison-la-Romaine, France",
     "lat": 44.2416183,
     "lon": 5.0734118,
     "sourceId": "osm_11413138927"
   },
   {
     "id": "pxnasf",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Assendelft",
+    "address": "1566 PD, Assendelft, Nederland",
     "lat": 52.4410064,
     "lon": 4.7534173,
     "sourceId": "osm_11413458151"
   },
   {
     "id": "xhwion",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Cergy",
+    "address": "Rue du Lendemain, 95800, Cergy, France",
     "lat": 49.0487724,
     "lon": 2.0124791,
     "sourceId": "osm_11415392952"
   },
   {
     "id": "mqgiaa",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Szamotuły",
+    "address": "Rynek 10, 64-500, Szamotuły, Polska",
     "lat": 52.6112878,
     "lon": 16.5781251,
     "sourceId": "osm_11415760790"
   },
   {
     "id": "suhaxv",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Köln",
+    "address": "Köln, Deutschland",
     "lat": 50.9660845,
     "lon": 7.0144019,
     "sourceId": "osm_11416841894"
   },
   {
     "id": "etxqxz",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Woluwe-Saint-Pierre - Sint-Pieters-Woluwe",
+    "address": "1150, Woluwe-Saint-Pierre - Sint-Pieters-Woluwe, België / Belgique / Belgien",
     "lat": 50.8326406,
     "lon": 4.4114691,
     "sourceId": "osm_11416894730"
   },
   {
     "id": "jzcldd",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Sandefjord",
+    "address": "Peter Castbergs gate, 3211, Sandefjord, Norge",
     "lat": 59.1352487,
     "lon": 10.2222423,
     "sourceId": "osm_11417060120"
   },
   {
     "id": "lvqczm",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Dingelstädt",
+    "address": "Am Henkelweg 8, 37351, Dingelstädt, Deutschland",
     "lat": 51.3254816,
     "lon": 10.4453797,
     "sourceId": "osm_11417115498"
@@ -120818,7 +120818,7 @@
   {
     "id": "qrofje",
     "name": "Punkt Wymiany Książek",
-    "address": null,
+    "address": "Szczęśliwa, 45-842, Opole, Polska",
     "lat": 50.7032356,
     "lon": 17.859236,
     "sourceId": "osm_11417294039"
@@ -120826,7 +120826,7 @@
   {
     "id": "yavbpt",
     "name": "Punkt Wymiany Książek",
-    "address": null,
+    "address": "Jana Parandowskiego, 45-526, Opole, Polska",
     "lat": 50.6504569,
     "lon": 17.9814571,
     "sourceId": "osm_11417410293"
@@ -120834,7 +120834,7 @@
   {
     "id": "bwwvuf",
     "name": "Boite à livres",
-    "address": null,
+    "address": "Avenue Antoine Dutriévoz, 69100, Villeurbanne, France",
     "lat": 45.7735358,
     "lon": 4.8618555,
     "sourceId": "osm_11417551897"
@@ -120842,39 +120842,39 @@
   {
     "id": "skwfdh",
     "name": "Klub czytelnika Bricomarche",
-    "address": null,
+    "address": "Górecka 30a, 60-201, Poznań, Polska",
     "lat": 52.3815298,
     "lon": 16.8972842,
     "sourceId": "osm_11418150876"
   },
   {
     "id": "vygxdp",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Cosne-Cours-sur-Loire",
+    "address": "Rue du Berry 26, 58200, Cosne-Cours-sur-Loire, France",
     "lat": 47.3964019,
     "lon": 2.9271373,
     "sourceId": "osm_11419785572"
   },
   {
     "id": "mgqndz",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Liverpool",
+    "address": "Dundonald Road 48, L17 0AF, Liverpool, United Kingdom",
     "lat": 53.3713675,
     "lon": -2.9275255,
     "sourceId": "osm_11419861819"
   },
   {
     "id": "yjtqoq",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Ambarès-et-Lagrave",
+    "address": "33440, Ambarès-et-Lagrave, France",
     "lat": 44.9278688,
     "lon": -0.4827134,
     "sourceId": "osm_11419884364"
   },
   {
     "id": "tvmdgj",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Burg",
+    "address": "39288, Burg, Deutschland",
     "lat": 52.2747006,
     "lon": 11.8369289,
     "sourceId": "osm_11419966001"
@@ -120882,15 +120882,15 @@
   {
     "id": "fnsqnr",
     "name": "Beyne à livres",
-    "address": null,
+    "address": "Place de la Fontaine, 39570, Trenal, France",
     "lat": 46.6383519,
     "lon": 5.4843199,
     "sourceId": "osm_11420427903"
   },
   {
     "id": "aitbep",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Toulouse",
+    "address": "Rue du Recteur Dottin 8, 31100, Toulouse, France",
     "lat": 43.5602944,
     "lon": 1.3982426,
     "sourceId": "osm_11420564561"
@@ -120898,71 +120898,71 @@
   {
     "id": "yemivq",
     "name": "Minibieb De Bilt",
-    "address": null,
+    "address": "Thorbeckeweg, 3732 BK, De Bilt, Nederland",
     "lat": 52.1106663,
     "lon": 5.1828383,
     "sourceId": "osm_11420618431"
   },
   {
     "id": "ghjlse",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Tarnos",
+    "address": "Route d'Espagne à Paris, 40220, Tarnos, France",
     "lat": 43.5255591,
     "lon": -1.4632986,
     "sourceId": "osm_11420648798"
   },
   {
     "id": "dxbvfa",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Málaga",
+    "address": "Calle Carretería, 29008, Málaga, España",
     "lat": 36.7240968,
     "lon": -4.4213267,
     "sourceId": "osm_11422956051"
   },
   {
     "id": "lpirwa",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Delft",
+    "address": "Hoflandendreef 106, 2614MV, Delft, Nederland",
     "lat": 52.0080914,
     "lon": 4.3218117,
     "sourceId": "osm_11423108950"
   },
   {
     "id": "zvfbmv",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Paris",
+    "address": "75016, Paris, France",
     "lat": 48.8361994,
     "lon": 2.2549522,
     "sourceId": "osm_11423137600"
   },
   {
     "id": "regnnv",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Bonrepos-Riquet",
+    "address": "Impasse du Malpasse, 31590, Bonrepos-Riquet, France",
     "lat": 43.6765318,
     "lon": 1.6238545,
     "sourceId": "osm_11425132615"
   },
   {
     "id": "xsgzuk",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Sainte-Catherine",
+    "address": "69440, Sainte-Catherine, France",
     "lat": 45.5994017,
     "lon": 4.5704156,
     "sourceId": "osm_11425148169"
   },
   {
     "id": "xkgtcd",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Dalfsen",
+    "address": "Schoolstraat-Oudleusen 19, 7722SZ, Dalfsen, Nederland",
     "lat": 52.5339574,
     "lon": 6.3130925,
     "sourceId": "osm_11425179751"
   },
   {
     "id": "efpuny",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Bradford",
+    "address": "BD20 5SH, Bradford, United Kingdom",
     "lat": 53.8733384,
     "lon": -1.8538828,
     "sourceId": "osm_11425378597"
@@ -120970,71 +120970,71 @@
   {
     "id": "jbeleb",
     "name": "Public Bookshelf",
-    "address": null,
+    "address": "50374, Deutschland",
     "lat": 50.8361976,
     "lon": 6.7435354,
     "sourceId": "osm_11425516824"
   },
   {
     "id": "dbnxnq",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Trieux",
+    "address": "Place de l'Église, 54750, Trieux, France",
     "lat": 49.3249099,
     "lon": 5.9365949,
     "sourceId": "osm_11425727244"
   },
   {
     "id": "bejame",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Villé",
+    "address": "Rue des Potiers, 67220, Villé, France",
     "lat": 48.3423919,
     "lon": 7.3021342,
     "sourceId": "osm_11425746875"
   },
   {
     "id": "tyzwkz",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Castets",
+    "address": "40260, Castets, France",
     "lat": 43.8786088,
     "lon": -1.1533597,
     "sourceId": "osm_11425779843"
   },
   {
     "id": "djoujt",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Moortsele",
+    "address": "9860, Moortsele, België / Belgique / Belgien",
     "lat": 50.956673,
     "lon": 3.7789254,
     "sourceId": "osm_11426120670"
   },
   {
     "id": "xgjeye",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Saint-Mandé",
+    "address": "94160, Saint-Mandé, France",
     "lat": 48.8395375,
     "lon": 2.4164933,
     "sourceId": "osm_11427455690"
   },
   {
     "id": "oktxdf",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Marlow Bottom",
+    "address": "SL7 3QT, Marlow Bottom, United Kingdom",
     "lat": 51.5953997,
     "lon": -0.7826051,
     "sourceId": "osm_11427574813"
   },
   {
     "id": "zwdfyq",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Bělá pod Bezdězem",
+    "address": "Zámek, 294 21, Bělá pod Bezdězem, Česko",
     "lat": 50.5013003,
     "lon": 14.8075798,
     "sourceId": "osm_11428225319"
   },
   {
     "id": "puqixn",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Ampfing",
+    "address": "Kirchenplatz 2, 84539, Ampfing, Deutschland",
     "lat": 48.2554431,
     "lon": 12.4165048,
     "sourceId": "osm_11428590128"
@@ -121042,79 +121042,79 @@
   {
     "id": "cxzezd",
     "name": "Raftul verde",
-    "address": null,
+    "address": "Bulevardul Tomis, 900657, Constanța, România",
     "lat": 44.1791124,
     "lon": 28.6514197,
     "sourceId": "osm_11428661979"
   },
   {
     "id": "jirenr",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Constanța",
+    "address": "Bulevardul Tomis, 900727, Constanța, România",
     "lat": 44.1814424,
     "lon": 28.6502462,
     "sourceId": "osm_11428661980"
   },
   {
     "id": "lkpfdj",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Villefranche-de-Rouergue",
+    "address": "12200, Villefranche-de-Rouergue, France",
     "lat": 44.3505462,
     "lon": 2.0371319,
     "sourceId": "osm_11429094665"
   },
   {
     "id": "egkxrn",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Ìsili/Isili",
+    "address": "Via Europa, 08033, Ìsili/Isili, Italia",
     "lat": 39.7404729,
     "lon": 9.109431,
     "sourceId": "osm_11429124180"
   },
   {
     "id": "hayljp",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Dalfsen",
+    "address": "Luukmanserf 21, 7722AD, Dalfsen, Nederland",
     "lat": 52.5201057,
     "lon": 6.2513701,
     "sourceId": "osm_11429469247"
   },
   {
     "id": "xptzeo",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Dalfsen",
+    "address": "Dalmsholterweg 8, 7722KJ, Dalfsen, Nederland",
     "lat": 52.4568511,
     "lon": 6.3019867,
     "sourceId": "osm_11429469248"
   },
   {
     "id": "iqkwqv",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Nieuwleusen",
+    "address": "Oosterhulst 2, 7711BG, Nieuwleusen, Nederland",
     "lat": 52.5931708,
     "lon": 6.3228485,
     "sourceId": "osm_11429469263"
   },
   {
     "id": "tcbclo",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Nieuwleusen",
+    "address": "Ruisvoorn 14, 7711VX, Nieuwleusen, Nederland",
     "lat": 52.5798284,
     "lon": 6.2755762,
     "sourceId": "osm_11429469264"
   },
   {
     "id": "pfltfq",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Montségur-sur-Lauzon",
+    "address": "Place Frédéric Mistral 4, 26130, Montségur-sur-Lauzon, France",
     "lat": 44.3615983,
     "lon": 4.8601265,
     "sourceId": "osm_11431757474"
   },
   {
     "id": "drgpjb",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf La Roche-de-Rame",
+    "address": "Chemin de la Mairie, 05310, La Roche-de-Rame, France",
     "lat": 44.7497854,
     "lon": 6.5800981,
     "sourceId": "osm_11431920370"
@@ -121122,15 +121122,15 @@
   {
     "id": "xccrdb",
     "name": "Boîte à livres jeunesse",
-    "address": null,
+    "address": "Route de l'École, 05310, La Roche-de-Rame, France",
     "lat": 44.7533282,
     "lon": 6.5785478,
     "sourceId": "osm_11431953869"
   },
   {
     "id": "ysknxb",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Cosne-Cours-sur-Loire",
+    "address": "Rue du 14 Juillet, 58200, Cosne-Cours-sur-Loire, France",
     "lat": 47.4138254,
     "lon": 2.9315153,
     "sourceId": "osm_11432034744"
@@ -121138,87 +121138,87 @@
   {
     "id": "bwunlf",
     "name": "Knihobudka Růža",
-    "address": null,
+    "address": "Pecínovská, 271 01, Nové Strašecí, Česko",
     "lat": 50.1441419,
     "lon": 13.8990081,
     "sourceId": "osm_11432308399"
   },
   {
     "id": "dfeamx",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Ročov",
+    "address": "439 15, Ročov, Česko",
     "lat": 50.2644901,
     "lon": 13.7923113,
     "sourceId": "osm_11432334047"
   },
   {
     "id": "htmrtn",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Poznań",
+    "address": "Wincentego Witosa, 60-627, Poznań, Polska",
     "lat": 52.430335,
     "lon": 16.9013636,
     "sourceId": "osm_11432401183"
   },
   {
     "id": "kywofn",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Sainte-Gemmes-sur-Loire",
+    "address": "Route des Ponts-de-Cé, 49130, Sainte-Gemmes-sur-Loire, France",
     "lat": 47.427166,
     "lon": -0.5504747,
     "sourceId": "osm_11434321642"
   },
   {
     "id": "hibfsm",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Getafe",
+    "address": "Getafe, España",
     "lat": 40.3011738,
     "lon": -3.7453272,
     "sourceId": "osm_11435813623"
   },
   {
     "id": "qfqvlb",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Getafe",
+    "address": "Calle Rubí 2, 28905, Getafe, España",
     "lat": 40.2987056,
     "lon": -3.7392827,
     "sourceId": "osm_11435813624"
   },
   {
     "id": "rbsnhj",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Getafe",
+    "address": "Calle Aguamarina 67, 28905, Getafe, España",
     "lat": 40.2971514,
     "lon": -3.7382832,
     "sourceId": "osm_11435813625"
   },
   {
     "id": "nhsubl",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Choisy-le-Roi",
+    "address": "Quai Fernand Dupuy, 94600, Choisy-le-Roi, France",
     "lat": 48.7648559,
     "lon": 2.4117038,
     "sourceId": "osm_11436697391"
   },
   {
     "id": "ywzibm",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Incarville",
+    "address": "Rue du Stade, 27400, Incarville, France",
     "lat": 49.2347531,
     "lon": 1.1774737,
     "sourceId": "osm_11438705653"
   },
   {
     "id": "wsvsnn",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Marcinelle",
+    "address": "Rue du Bierchamps 128, 6001, Marcinelle, België / Belgique / Belgien",
     "lat": 50.3999874,
     "lon": 4.4359326,
     "sourceId": "osm_11438924819"
   },
   {
     "id": "ssavem",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Getafe",
+    "address": "Calle Peñalara 41, 28905, Getafe, España",
     "lat": 40.2961612,
     "lon": -3.7406784,
     "sourceId": "osm_11439623014"
@@ -121226,239 +121226,239 @@
   {
     "id": "kiqneh",
     "name": "Book Swap",
-    "address": null,
+    "address": "Gate Lane, PO40 9QB, Freshwater, United Kingdom",
     "lat": 50.6730684,
     "lon": -1.5169629,
     "sourceId": "osm_11439900381"
   },
   {
     "id": "leatpr",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Perwez",
+    "address": "Perwez, België / Belgique / Belgien",
     "lat": 50.6379243,
     "lon": 4.7633251,
     "sourceId": "osm_11441546344"
   },
   {
     "id": "onctka",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Le Vaudreuil",
+    "address": "27100, Le Vaudreuil, France",
     "lat": 49.2551741,
     "lon": 1.2051704,
     "sourceId": "osm_11443439573"
   },
   {
     "id": "zyzeoy",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Hamburg",
+    "address": "Lüneburger Straße 39, 21073, Hamburg, Deutschland",
     "lat": 53.4602516,
     "lon": 9.9808267,
     "sourceId": "osm_11443585906"
   },
   {
     "id": "qkehbz",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Fleury-les-Aubrais",
+    "address": "45400, Fleury-les-Aubrais, France",
     "lat": 47.9313914,
     "lon": 1.9179934,
     "sourceId": "osm_11445889144"
   },
   {
     "id": "njvgwy",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Richerenches",
+    "address": "84600, Richerenches, France",
     "lat": 44.3598703,
     "lon": 4.9120507,
     "sourceId": "osm_11446239992"
   },
   {
     "id": "enralm",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Hartfield",
+    "address": "Balls Green 31, TN7 4BU, Hartfield, United Kingdom",
     "lat": 51.1059145,
     "lon": 0.1400344,
     "sourceId": "osm_11447343969"
   },
   {
     "id": "aazpig",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Chalonnes-sur-Loire",
+    "address": "49290, Chalonnes-sur-Loire, France",
     "lat": 47.3521202,
     "lon": -0.7618533,
     "sourceId": "osm_11449074593"
   },
   {
     "id": "asyxxo",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Chalonnes-sur-Loire",
+    "address": "Quai Gambetta 27, 49290, Chalonnes-sur-Loire, France",
     "lat": 47.3540647,
     "lon": -0.7638738,
     "sourceId": "osm_11449074594"
   },
   {
     "id": "yadfzt",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Chalonnes-sur-Loire",
+    "address": "Avenue de la Gare 1, 49290, Chalonnes-sur-Loire, France",
     "lat": 47.343189,
     "lon": -0.7441447,
     "sourceId": "osm_11449074595"
   },
   {
     "id": "jrxmbj",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Middelburg",
+    "address": "President Wilsonlaan 160, 4334GE, Middelburg, Nederland",
     "lat": 51.5059114,
     "lon": 3.5964735,
     "sourceId": "osm_11449266209"
   },
   {
     "id": "vwvtml",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Naaldwijk",
+    "address": "Verhagenplein 3, 2671HS, Naaldwijk, Nederland",
     "lat": 51.9919276,
     "lon": 4.2086214,
     "sourceId": "osm_11449289601"
   },
   {
     "id": "fhjare",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Genderen",
+    "address": "Hoefstraat 11, 4265HT, Genderen, Nederland",
     "lat": 51.735571,
     "lon": 5.0878715,
     "sourceId": "osm_11449332770"
   },
   {
     "id": "sscmhs",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Amsterdam",
+    "address": "Heinzestraat 25-2, 1071SL, Amsterdam, Nederland",
     "lat": 52.352769,
     "lon": 4.8759364,
     "sourceId": "osm_11449336799"
   },
   {
     "id": "fyriba",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Asten",
+    "address": "Boletenplein 25, 5721NG, Asten, Nederland",
     "lat": 51.4073946,
     "lon": 5.7561579,
     "sourceId": "osm_11449350044"
   },
   {
     "id": "dpecci",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Slijk-Ewijk",
+    "address": "Dorpsstraat 71, 6677PJ, Slijk-Ewijk, Nederland",
     "lat": 51.8829429,
     "lon": 5.7861697,
     "sourceId": "osm_11449351322"
   },
   {
     "id": "nkahax",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Hemelum",
+    "address": "Hegewei 3, 8584VJ, Hemelum, Nederland",
     "lat": 52.8808917,
     "lon": 5.4564485,
     "sourceId": "osm_11449351740"
   },
   {
     "id": "bwtfcp",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Haastrecht",
+    "address": "Julianalaan 3, 2851XH, Haastrecht, Nederland",
     "lat": 51.9985524,
     "lon": 4.7791139,
     "sourceId": "osm_11449354570"
   },
   {
     "id": "lfoafn",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Boussens",
+    "address": "Grand'Rue 3, 1034, Boussens, Schweiz/Suisse/Svizzera/Svizra",
     "lat": 46.6038175,
     "lon": 6.5828183,
     "sourceId": "osm_11449460334"
   },
   {
     "id": "epvrgh",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Monts",
+    "address": "Rue du Val de l'Indre, 37260, Monts, France",
     "lat": 47.2767981,
     "lon": 0.6297714,
     "sourceId": "osm_11449642669"
   },
   {
     "id": "jliwhb",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Dornstetten",
+    "address": "Am Kübelbach 9, 72280, Dornstetten, Deutschland",
     "lat": 48.4866823,
     "lon": 8.4956598,
     "sourceId": "osm_11449816714"
   },
   {
     "id": "zwhnnb",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Cairon",
+    "address": "14610, Cairon, France",
     "lat": 49.2335783,
     "lon": -0.4441423,
     "sourceId": "osm_11449838686"
   },
   {
     "id": "txxqqu",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Cairon",
+    "address": "14610, Cairon, France",
     "lat": 49.2335512,
     "lon": -0.4440799,
     "sourceId": "osm_11449838687"
   },
   {
     "id": "pudsao",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf 's-Gravenhage",
+    "address": "Pim Mulierstraat 3, 2553RT, 's-Gravenhage, Nederland",
     "lat": 52.0447142,
     "lon": 4.2161579,
     "sourceId": "osm_11453813239"
   },
   {
     "id": "vnrkqv",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf 's-Gravenhage",
+    "address": "Laan van der Kroft 20, 2552HZ, 's-Gravenhage, Nederland",
     "lat": 52.0568098,
     "lon": 4.2509346,
     "sourceId": "osm_11453923995"
   },
   {
     "id": "uiqdsb",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Cernay",
+    "address": "68700, Cernay, France",
     "lat": 47.8088361,
     "lon": 7.1759288,
     "sourceId": "osm_11454578476"
   },
   {
     "id": "dsmunh",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Bremen",
+    "address": "Böblinger Weg 41, 28215, Bremen, Deutschland",
     "lat": 53.098123,
     "lon": 8.818349,
     "sourceId": "osm_11455140459"
   },
   {
     "id": "mnsiip",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Maureillas-las-Illas",
+    "address": "66480, Maureillas-las-Illas, France",
     "lat": 42.4898611,
     "lon": 2.8070563,
     "sourceId": "osm_11455234939"
   },
   {
     "id": "dyxqcl",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Southampton",
+    "address": "SO14 3GQ, Southampton, United Kingdom",
     "lat": 50.8967308,
     "lon": -1.3883892,
     "sourceId": "osm_11455335576"
   },
   {
     "id": "dvaian",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Aachen",
+    "address": "Mörgensstraße 18, 52064, Aachen, Deutschland",
     "lat": 50.7714765,
     "lon": 6.0810962,
     "sourceId": "osm_11455373761"
@@ -121466,255 +121466,255 @@
   {
     "id": "lwipdt",
     "name": "La Cabane à Livres",
-    "address": null,
+    "address": "Route de Mezilhac, 07160, Saint-Christol, France",
     "lat": 44.8677352,
     "lon": 4.4417331,
     "sourceId": "osm_11455759162"
   },
   {
     "id": "dnmhgt",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Cirey-sur-Vezouze",
+    "address": "54480, Cirey-sur-Vezouze, France",
     "lat": 48.5810311,
     "lon": 6.9460906,
     "sourceId": "osm_11455863728"
   },
   {
     "id": "qcytwf",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Montréjeau",
+    "address": "Lac de Montrejeau 1, 31210, Montréjeau, France",
     "lat": 43.0766263,
     "lon": 0.5650417,
     "sourceId": "osm_11456192145"
   },
   {
     "id": "neksnv",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Le Rove",
+    "address": "13740, Le Rove, France",
     "lat": 43.3427793,
     "lon": 5.2602116,
     "sourceId": "osm_11456214485"
   },
   {
     "id": "otxbir",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Lucy-sur-Cure",
+    "address": "89270, Lucy-sur-Cure, France",
     "lat": 47.6289107,
     "lon": 3.7430759,
     "sourceId": "osm_11456386498"
   },
   {
     "id": "fuoelh",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Arradon",
+    "address": "Allée Prad er Lann 18, 56610, Arradon, France",
     "lat": 47.6309111,
     "lon": -2.8155539,
     "sourceId": "osm_11457220159"
   },
   {
     "id": "klquom",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Theux",
+    "address": "Oneux Village, 4910, Theux, België / Belgique / Belgien",
     "lat": 50.5470751,
     "lon": 5.8326139,
     "sourceId": "osm_11457480349"
   },
   {
     "id": "vvqxup",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Petersberg",
+    "address": "06193, Petersberg, Deutschland",
     "lat": 51.588551,
     "lon": 12.0019053,
     "sourceId": "osm_11457522246"
   },
   {
     "id": "rpqtne",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Doubravice nad Svitavou",
+    "address": "Doubravice nad Svitavou 185, 67911, Doubravice nad Svitavou, Česko",
     "lat": 49.4397692,
     "lon": 16.6272164,
     "sourceId": "osm_11457535700"
   },
   {
     "id": "nowfil",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Remshalden",
+    "address": "Sonnenbergstraße 5, 73630, Remshalden, Deutschland",
     "lat": 48.813643,
     "lon": 9.4644881,
     "sourceId": "osm_11457645612"
   },
   {
     "id": "bntswo",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Fondettes",
+    "address": "37230, Fondettes, France",
     "lat": 47.4054392,
     "lon": 0.6192003,
     "sourceId": "osm_11459215106"
   },
   {
     "id": "zqgaku",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Sélestat",
+    "address": "Rue de l'Église 7, 67600, Sélestat, France",
     "lat": 48.2604733,
     "lon": 7.4559939,
     "sourceId": "osm_11459639408"
   },
   {
     "id": "loyqyi",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Newark and Sherwood",
+    "address": "Newark and Sherwood, United Kingdom",
     "lat": 53.1030901,
     "lon": -0.7833207,
     "sourceId": "osm_11459665502"
   },
   {
     "id": "dkjkgx",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Fleurance",
+    "address": "Rue Montablon 43, 32500, Fleurance, France",
     "lat": 43.8499445,
     "lon": 0.6653796,
     "sourceId": "osm_11459971281"
   },
   {
     "id": "aimvpp",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Fleurance",
+    "address": "Rue de la Première Armée Française Rhin/Danube, 32500, Fleurance, France",
     "lat": 43.8472701,
     "lon": 0.6688597,
     "sourceId": "osm_11459971282"
   },
   {
     "id": "toimcb",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Saint-Martin-de-Caralp",
+    "address": "Rue de la Font-del-Buc, 09000, Saint-Martin-de-Caralp, France",
     "lat": 42.9903973,
     "lon": 1.5439719,
     "sourceId": "osm_11460010514"
   },
   {
     "id": "olnxzo",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Laval",
+    "address": "53000, Laval, France",
     "lat": 48.0789111,
     "lon": -0.7534139,
     "sourceId": "osm_11460062842"
   },
   {
     "id": "gxvtdt",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Entremont-le-Vieux",
+    "address": "73670, Entremont-le-Vieux, France",
     "lat": 45.4526555,
     "lon": 5.8829585,
     "sourceId": "osm_11460166433"
   },
   {
     "id": "lhsijh",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Telgte",
+    "address": "48291, Telgte, Deutschland",
     "lat": 52.0233509,
     "lon": 7.7802716,
     "sourceId": "osm_11460199239"
   },
   {
     "id": "oqjiyl",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Otley",
+    "address": "Main Street, LS21 1LH, Otley, United Kingdom",
     "lat": 53.9014748,
     "lon": -1.6269151,
     "sourceId": "osm_11460554527"
   },
   {
     "id": "qkkhww",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Pexiora",
+    "address": "Rue de la Gare, 11150, Pexiora, France",
     "lat": 43.2687632,
     "lon": 2.0343994,
     "sourceId": "osm_11460874701"
   },
   {
     "id": "kdnlhc",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Uetikon am See",
+    "address": "8707, Uetikon am See, Schweiz/Suisse/Svizzera/Svizra",
     "lat": 47.2623082,
     "lon": 8.6734112,
     "sourceId": "osm_11462225979"
   },
   {
     "id": "yivsnr",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Saint-Denis",
+    "address": "Avenue Saint-Rémy, 93200, Saint-Denis, France",
     "lat": 48.935797,
     "lon": 2.3684727,
     "sourceId": "osm_11462262746"
   },
   {
     "id": "fporqy",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Baccarat",
+    "address": "54120, Baccarat, France",
     "lat": 48.4498585,
     "lon": 6.7140196,
     "sourceId": "osm_11462264480"
   },
   {
     "id": "qzryqi",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Béthune",
+    "address": "62400, Béthune, France",
     "lat": 50.5294113,
     "lon": 2.6321876,
     "sourceId": "osm_11462274567"
   },
   {
     "id": "mhhnzi",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Harskirchen",
+    "address": "67260, Harskirchen, France",
     "lat": 48.9339885,
     "lon": 7.0403122,
     "sourceId": "osm_11462303230"
   },
   {
     "id": "vqqjqw",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Harskirchen",
+    "address": "Rue de Bissert, 67260, Harskirchen, France",
     "lat": 48.9406856,
     "lon": 7.0288223,
     "sourceId": "osm_11462303231"
   },
   {
     "id": "goggea",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Cherbourg-en-Cotentin",
+    "address": "50470, Cherbourg-en-Cotentin, France",
     "lat": 49.6205521,
     "lon": -1.6185295,
     "sourceId": "osm_11462303232"
   },
   {
     "id": "zzjdsc",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Cherbourg-en-Cotentin",
+    "address": "Square du Nivernais 12, 50130, Cherbourg-en-Cotentin, France",
     "lat": 49.6255614,
     "lon": -1.6284862,
     "sourceId": "osm_11462303233"
   },
   {
     "id": "nmkxpd",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Peyrilles",
+    "address": "46310, Peyrilles, France",
     "lat": 44.6202591,
     "lon": 1.4151667,
     "sourceId": "osm_11462303234"
   },
   {
     "id": "llqrts",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Saint-Maur-des-Fossés",
+    "address": "Rue Jean Bart 26, 94100, Saint-Maur-des-Fossés, France",
     "lat": 48.7908367,
     "lon": 2.4758851,
     "sourceId": "osm_11462303235"
   },
   {
     "id": "brmlis",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Saint-Maur-des-Fossés",
+    "address": "94210, Saint-Maur-des-Fossés, France",
     "lat": 48.7895886,
     "lon": 2.5047249,
     "sourceId": "osm_11462303236"
@@ -121722,95 +121722,95 @@
   {
     "id": "wytbfd",
     "name": "Monteil",
-    "address": null,
+    "address": "Square Saint-Exupéry, 31270, Cugnaux, France",
     "lat": 43.5385226,
     "lon": 1.3378648,
     "sourceId": "osm_11462376677"
   },
   {
     "id": "kivquh",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Ollainville",
+    "address": "Rue de la République, 91340, Ollainville, France",
     "lat": 48.5895382,
     "lon": 2.2198424,
     "sourceId": "osm_11462387906"
   },
   {
     "id": "idjzid",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Cuxac-d'Aude",
+    "address": "11590, Cuxac-d'Aude, France",
     "lat": 43.2435091,
     "lon": 2.9991954,
     "sourceId": "osm_11462387907"
   },
   {
     "id": "orzqza",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Conches-sur-Gondoire",
+    "address": "77600, Conches-sur-Gondoire, France",
     "lat": 48.8556105,
     "lon": 2.7243125,
     "sourceId": "osm_11462394097"
   },
   {
     "id": "hoqwnb",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Conches-sur-Gondoire",
+    "address": "Allée Georges Bernanos, 77600, Conches-sur-Gondoire, France",
     "lat": 48.8557671,
     "lon": 2.7164592,
     "sourceId": "osm_11462394098"
   },
   {
     "id": "xyfzhx",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Gouvernes",
+    "address": "Avenue des 2 Châteaux, 77400, Gouvernes, France",
     "lat": 48.854313,
     "lon": 2.7056553,
     "sourceId": "osm_11462394099"
   },
   {
     "id": "fzbpjs",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Guermantes",
+    "address": "77600, Guermantes, France",
     "lat": 48.8522306,
     "lon": 2.7150061,
     "sourceId": "osm_11462394100"
   },
   {
     "id": "pkbuzy",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Lagny-sur-Marne",
+    "address": "77400, Lagny-sur-Marne, France",
     "lat": 48.8657338,
     "lon": 2.7071454,
     "sourceId": "osm_11462394101"
   },
   {
     "id": "zldjot",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Bussy-Saint-Georges",
+    "address": "77600, Bussy-Saint-Georges, France",
     "lat": 48.8371785,
     "lon": 2.7104529,
     "sourceId": "osm_11462394102"
   },
   {
     "id": "ouxzmp",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Septèmes-les-Vallons",
+    "address": "13240, Septèmes-les-Vallons, France",
     "lat": 43.4003873,
     "lon": 5.365483,
     "sourceId": "osm_11462406692"
   },
   {
     "id": "jiahld",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Cabourg",
+    "address": "Jardins du Casino 5, 14390, Cabourg, France",
     "lat": 49.2925225,
     "lon": -0.1150651,
     "sourceId": "osm_11462409996"
   },
   {
     "id": "hozojn",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Villers-sur-Mer",
+    "address": "Rue du Maréchal Leclerc 5, 14640, Villers-sur-Mer, France",
     "lat": 49.3233055,
     "lon": -0.0053026,
     "sourceId": "osm_11462409997"
@@ -121818,47 +121818,47 @@
   {
     "id": "oduwmo",
     "name": "Boîte à livres de l'Eglise",
-    "address": null,
+    "address": "Awan-Eglise, 4920, Aywaille, België / Belgique / Belgien",
     "lat": 50.4605199,
     "lon": 5.6498185,
     "sourceId": "osm_11462415486"
   },
   {
     "id": "bnaviv",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Le Pâquier-Montbarry",
+    "address": "Place du Centre 10, 1661, Le Pâquier-Montbarry, Schweiz/Suisse/Svizzera/Svizra",
     "lat": 46.5936215,
     "lon": 7.0552398,
     "sourceId": "osm_11462423471"
   },
   {
     "id": "wzurod",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Leytron",
+    "address": "Route des Muverans, 1911, Leytron, Schweiz/Suisse/Svizzera/Svizra",
     "lat": 46.2029182,
     "lon": 7.1678573,
     "sourceId": "osm_11462425993"
   },
   {
     "id": "mlzosk",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Dijon",
+    "address": "Place Marie de Bourgogne, 21000, Dijon, France",
     "lat": 47.3555003,
     "lon": 5.0527759,
     "sourceId": "osm_11462516007"
   },
   {
     "id": "llcisa",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Bressuire",
+    "address": "79300, Bressuire, France",
     "lat": 46.8500856,
     "lon": -0.4754505,
     "sourceId": "osm_11462598545"
   },
   {
     "id": "hokylz",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Rocca Priora",
+    "address": "00079, Rocca Priora, Italia",
     "lat": 41.7923884,
     "lon": 12.7589521,
     "sourceId": "osm_11462888410"
@@ -121866,151 +121866,151 @@
   {
     "id": "fctsgk",
     "name": "Les mots passants",
-    "address": null,
+    "address": "Grande Rue, 25110, Pont-les-Moulins, France",
     "lat": 47.3235959,
     "lon": 6.3626898,
     "sourceId": "osm_11463115188"
   },
   {
     "id": "ntcvck",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Hattersheim am Main",
+    "address": "Bahnhofstraße 1g, 65795, Hattersheim am Main, Deutschland",
     "lat": 50.0401259,
     "lon": 8.470547,
     "sourceId": "osm_11463118538"
   },
   {
     "id": "dgnmom",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Liederbach am Taunus",
+    "address": "Im Kohlruß 1, 65835, Liederbach am Taunus, Deutschland",
     "lat": 50.1263576,
     "lon": 8.4890857,
     "sourceId": "osm_11463169728"
   },
   {
     "id": "jeiwbr",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Peyrus",
+    "address": "Grande Rue, 26120, Peyrus, France",
     "lat": 44.9133095,
     "lon": 5.1067388,
     "sourceId": "osm_11463244569"
   },
   {
     "id": "gepqwj",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Courbouzon",
+    "address": "Chemin des Carrières, 39570, Courbouzon, France",
     "lat": 46.6389194,
     "lon": 5.5249456,
     "sourceId": "osm_11463291166"
   },
   {
     "id": "tlycju",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Livry-Gargan",
+    "address": "93190, Livry-Gargan, France",
     "lat": 48.918359,
     "lon": 2.5257864,
     "sourceId": "osm_11463418734"
   },
   {
     "id": "xclvec",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Livry-Gargan",
+    "address": "93190, Livry-Gargan, France",
     "lat": 48.9221447,
     "lon": 2.5172459,
     "sourceId": "osm_11463435880"
   },
   {
     "id": "evngsi",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Seynes",
+    "address": "Route des Cévennes, 30580, Seynes, France",
     "lat": 44.1163224,
     "lon": 4.2839264,
     "sourceId": "osm_11463495546"
   },
   {
     "id": "zyrnjn",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Bessy-sur-Cure",
+    "address": "89270, Bessy-sur-Cure, France",
     "lat": 47.6216704,
     "lon": 3.7409439,
     "sourceId": "osm_11463541497"
   },
   {
     "id": "asieuj",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Nîmes",
+    "address": "30921, Nîmes, France",
     "lat": 43.8339814,
     "lon": 4.3554536,
     "sourceId": "osm_11463695642"
   },
   {
     "id": "lqgoxd",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Obermodern-Zutzendorf",
+    "address": "Rue de la Moder, 67330, Obermodern-Zutzendorf, France",
     "lat": 48.8447223,
     "lon": 7.5392392,
     "sourceId": "osm_11463695643"
   },
   {
     "id": "rlalyn",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Plassac-Rouffiac",
+    "address": "16250, Plassac-Rouffiac, France",
     "lat": 45.5264863,
     "lon": 0.0640417,
     "sourceId": "osm_11463695644"
   },
   {
     "id": "tpmllg",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Champagne-au-Mont-d'Or",
+    "address": "69410, Champagne-au-Mont-d'Or, France",
     "lat": 45.795008,
     "lon": 4.7909948,
     "sourceId": "osm_11463831738"
   },
   {
     "id": "mhywir",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Champagne-au-Mont-d'Or",
+    "address": "Place de la Mairie, 69410, Champagne-au-Mont-d'Or, France",
     "lat": 45.7952297,
     "lon": 4.7905702,
     "sourceId": "osm_11463831739"
   },
   {
     "id": "nnkfhj",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Saint-Didier-au-Mont-d'Or",
+    "address": "Rue du Castellard, 69370, Saint-Didier-au-Mont-d'Or, France",
     "lat": 45.8115265,
     "lon": 4.7972417,
     "sourceId": "osm_11463831740"
   },
   {
     "id": "gabgsr",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Fontenay-Trésigny",
+    "address": "77610, Fontenay-Trésigny, France",
     "lat": 48.7071148,
     "lon": 2.867938,
     "sourceId": "osm_11463859931"
   },
   {
     "id": "mtcxpx",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf La Houssaye-en-Brie",
+    "address": "Dépose minute, 77610, La Houssaye-en-Brie, France",
     "lat": 48.7339177,
     "lon": 2.86793,
     "sourceId": "osm_11463859932"
   },
   {
     "id": "mcrhal",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Dun-sur-Auron",
+    "address": "Rue des Fossés, 18130, Dun-sur-Auron, France",
     "lat": 46.8840539,
     "lon": 2.5716447,
     "sourceId": "osm_11463859933"
   },
   {
     "id": "zzsmuy",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Irodouër",
+    "address": "Rue de Rennes, 35850, Irodouër, France",
     "lat": 48.2495812,
     "lon": -1.95023,
     "sourceId": "osm_11463966528"
@@ -122018,31 +122018,31 @@
   {
     "id": "jufazh",
     "name": "Public Bookshelf",
-    "address": null,
+    "address": "35850, France",
     "lat": 48.2494469,
     "lon": -1.9488169,
     "sourceId": "osm_11463966529"
   },
   {
     "id": "vjyobb",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Pleumeur-Bodou",
+    "address": "22560, Pleumeur-Bodou, France",
     "lat": 48.7725882,
     "lon": -3.5181694,
     "sourceId": "osm_11464109673"
   },
   {
     "id": "imtueq",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Palaiseau",
+    "address": "Rue de Paris 181, 91120, Palaiseau, France",
     "lat": 48.710997,
     "lon": 2.2422516,
     "sourceId": "osm_11464182520"
   },
   {
     "id": "dvcten",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Palaiseau",
+    "address": "Boulevard Nicolas Samson, 91120, Palaiseau, France",
     "lat": 48.7077009,
     "lon": 2.2374452,
     "sourceId": "osm_11464182521"
@@ -122050,7 +122050,7 @@
   {
     "id": "gfdxaw",
     "name": "Schmökerzelle",
-    "address": null,
+    "address": "Damsdorfer Hauptstraße, 14797, Lehnin, Deutschland",
     "lat": 52.3621714,
     "lon": 12.757047,
     "sourceId": "osm_11464310332"
@@ -122058,7 +122058,7 @@
   {
     "id": "rifvhv",
     "name": "Cab à lire",
-    "address": null,
+    "address": "Rue Principale, 57340, Suisse, France",
     "lat": 48.9657812,
     "lon": 6.5810373,
     "sourceId": "osm_11464328689"
@@ -122066,175 +122066,175 @@
   {
     "id": "ffeuih",
     "name": "Bokholk",
-    "address": null,
+    "address": "Kristinegatan, 791 71, Falun, Sverige",
     "lat": 60.6073726,
     "lon": 15.6279588,
     "sourceId": "osm_11465283205"
   },
   {
     "id": "egqclh",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Perrigny-lès-Dijon",
+    "address": "21160, Perrigny-lès-Dijon, France",
     "lat": 47.2594025,
     "lon": 5.005879,
     "sourceId": "osm_11465440216"
   },
   {
     "id": "gbyafb",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Poreč",
+    "address": "52441, Poreč, Hrvatska",
     "lat": 45.2281283,
     "lon": 13.5980128,
     "sourceId": "osm_11465564228"
   },
   {
     "id": "qvjfko",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Lempdes",
+    "address": "Rue de la Rochelle, 63370, Lempdes, France",
     "lat": 45.7793826,
     "lon": 3.1980532,
     "sourceId": "osm_11465607189"
   },
   {
     "id": "ibuylz",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Lempdes",
+    "address": "63370, Lempdes, France",
     "lat": 45.7702178,
     "lon": 3.1980745,
     "sourceId": "osm_11465607190"
   },
   {
     "id": "ctdlge",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Villemeux-sur-Eure",
+    "address": "Rue des Marnières, 28210, Villemeux-sur-Eure, France",
     "lat": 48.6792451,
     "lon": 1.472885,
     "sourceId": "osm_11466149752"
   },
   {
     "id": "dibyix",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Saint-Rémy-de-Provence",
+    "address": "Place Jean Jaurès 1, 13210, Saint-Rémy-de-Provence, France",
     "lat": 43.7863746,
     "lon": 4.8312534,
     "sourceId": "osm_11466355991"
   },
   {
     "id": "nckzax",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Prešov",
+    "address": "Vlada Clementisa, 08001, Prešov, Slovensko",
     "lat": 49.0015871,
     "lon": 21.2231581,
     "sourceId": "osm_11466693174"
   },
   {
     "id": "tkzctu",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Prešov",
+    "address": "Vlada Clementisa, 08001, Prešov, Slovensko",
     "lat": 49.0015972,
     "lon": 21.2231601,
     "sourceId": "osm_11466693175"
   },
   {
     "id": "zjcgoj",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Prešov",
+    "address": "Vlada Clementisa, 08001, Prešov, Slovensko",
     "lat": 49.00159,
     "lon": 21.2231532,
     "sourceId": "osm_11466693176"
   },
   {
     "id": "ujkbml",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Narbonne",
+    "address": "Rue Gustave Fabre, 11100, Narbonne, France",
     "lat": 43.1846088,
     "lon": 3.0031507,
     "sourceId": "osm_11466895495"
   },
   {
     "id": "sgajic",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Saint-Martin-de-Londres",
+    "address": "Place de la Mairie 9, 34380, Saint-Martin-de-Londres, France",
     "lat": 43.7912266,
     "lon": 3.7332353,
     "sourceId": "osm_11466926370"
   },
   {
     "id": "nvmspy",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf East Garston",
+    "address": "RG17 7EY, East Garston, United Kingdom",
     "lat": 51.4883756,
     "lon": -1.4782222,
     "sourceId": "osm_11467795260"
   },
   {
     "id": "tqxoem",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Gradignan",
+    "address": "Allée de Pfungstadt, 33170, Gradignan, France",
     "lat": 44.7668141,
     "lon": -0.6076026,
     "sourceId": "osm_11468958451"
   },
   {
     "id": "afhhkr",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Frankfurt (Oder)",
+    "address": "15236, Frankfurt (Oder), Deutschland",
     "lat": 52.3289859,
     "lon": 14.51961,
     "sourceId": "osm_11468963759"
   },
   {
     "id": "nebrgs",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Frankfurt (Oder)",
+    "address": "15236, Frankfurt (Oder), Deutschland",
     "lat": 52.3289662,
     "lon": 14.5196073,
     "sourceId": "osm_11468963760"
   },
   {
     "id": "aztgcg",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Saint-Jean-Roure",
+    "address": "Place de l'Église, 07160, Saint-Jean-Roure, France",
     "lat": 44.9418422,
     "lon": 4.4293307,
     "sourceId": "osm_11469061898"
   },
   {
     "id": "dewfst",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Fay-sur-Lignon",
+    "address": "Place de la Croix, 43430, Fay-sur-Lignon, France",
     "lat": 44.9860472,
     "lon": 4.2258683,
     "sourceId": "osm_11469838125"
   },
   {
     "id": "jpmenh",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Wargrave",
+    "address": "Crazies Hill, RG10 8LW, Wargrave, United Kingdom",
     "lat": 51.5217322,
     "lon": -0.8478734,
     "sourceId": "osm_11469838177"
   },
   {
     "id": "mjjyvd",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Suresnes",
+    "address": "92150, Suresnes, France",
     "lat": 48.8654956,
     "lon": 2.2168744,
     "sourceId": "osm_11469891011"
   },
   {
     "id": "mzohrk",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Le Plessis-Robinson",
+    "address": "Avenue de la Résistance, 92350, Le Plessis-Robinson, France",
     "lat": 48.7840209,
     "lon": 2.271503,
     "sourceId": "osm_11469894276"
   },
   {
     "id": "aapkem",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Woudenberg",
+    "address": "Burgwal 3, 3931HL, Woudenberg, Nederland",
     "lat": 52.0834979,
     "lon": 5.4118829,
     "sourceId": "osm_11469910655"
@@ -122242,31 +122242,31 @@
   {
     "id": "mjugvm",
     "name": "Public Bookshelf",
-    "address": null,
+    "address": "63610, France",
     "lat": 45.4685392,
     "lon": 2.9879392,
     "sourceId": "osm_11469944159"
   },
   {
     "id": "gnxmpr",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Saint-Martin-de-Valamas",
+    "address": "Place de la Mairie 10, 07310, Saint-Martin-de-Valamas, France",
     "lat": 44.9370771,
     "lon": 4.3686251,
     "sourceId": "osm_11469971162"
   },
   {
     "id": "tqnizo",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Sainte-Croix",
+    "address": "12260, Sainte-Croix, France",
     "lat": 44.4264126,
     "lon": 1.9664259,
     "sourceId": "osm_11470121079"
   },
   {
     "id": "sjchwp",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Santo Domingo de Pirón",
+    "address": "Calle Carretera, 40180, Santo Domingo de Pirón, España",
     "lat": 41.0415401,
     "lon": -3.9894331,
     "sourceId": "osm_11470155448"
@@ -122274,7 +122274,7 @@
   {
     "id": "wfrrwf",
     "name": "Boite à livres",
-    "address": null,
+    "address": "Place Charles Blétel, 01130, Échallon, France",
     "lat": 46.209845,
     "lon": 5.7402829,
     "sourceId": "osm_11470959176"
@@ -122282,7 +122282,7 @@
   {
     "id": "faknbg",
     "name": "Minibieb Venlo",
-    "address": null,
+    "address": "Stalbergweg, 5913 BN, Venlo, Nederland",
     "lat": 51.3662982,
     "lon": 6.1863189,
     "sourceId": "osm_11471018869"
@@ -122290,7 +122290,7 @@
   {
     "id": "feytgq",
     "name": "Boîte à Livre de la Marie",
-    "address": null,
+    "address": "Rue de la Mairie, 60270, Gouvieux, France",
     "lat": 49.1881289,
     "lon": 2.4159831,
     "sourceId": "osm_11471071215"
@@ -122298,7 +122298,7 @@
   {
     "id": "mrsnqr",
     "name": "Boîte à livre de la Poste",
-    "address": null,
+    "address": "Rue du Docteur Vincent, 60270, Gouvieux, France",
     "lat": 49.1887122,
     "lon": 2.4119473,
     "sourceId": "osm_11471071216"
@@ -122306,7 +122306,7 @@
   {
     "id": "cmtokm",
     "name": "Boîte à livre de la plaine de jeux",
-    "address": null,
+    "address": "Place de Nümbrecht, 60270, Gouvieux, France",
     "lat": 49.1901999,
     "lon": 2.4070479,
     "sourceId": "osm_11471071217"
@@ -122314,47 +122314,47 @@
   {
     "id": "wrlcsy",
     "name": "Książkodzielnia",
-    "address": null,
+    "address": "Plac Wolności, 23-400, Biłgoraj, Polska",
     "lat": 50.5426759,
     "lon": 22.7206149,
     "sourceId": "osm_11472558802"
   },
   {
     "id": "gaupex",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Échirolles",
+    "address": "38130, Échirolles, France",
     "lat": 45.1480767,
     "lon": 5.7161787,
     "sourceId": "osm_11472683245"
   },
   {
     "id": "lkxnqp",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Sète",
+    "address": "Traverse des Pêcheurs 16, 34200, Sète, France",
     "lat": 43.4136725,
     "lon": 3.6924341,
     "sourceId": "osm_11472940145"
   },
   {
     "id": "jkugpg",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Sète",
+    "address": "34200, Sète, France",
     "lat": 43.4135265,
     "lon": 3.6895208,
     "sourceId": "osm_11472961954"
   },
   {
     "id": "wlgkhp",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Weil der Stadt",
+    "address": "71263, Weil der Stadt, Deutschland",
     "lat": 48.7894888,
     "lon": 8.8352791,
     "sourceId": "osm_11476080307"
   },
   {
     "id": "qzjrwz",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Borgholzhausen",
+    "address": "Am Uphof 14, 33829, Borgholzhausen, Deutschland",
     "lat": 52.1024339,
     "lon": 8.3000394,
     "sourceId": "osm_11476151370"
@@ -122362,95 +122362,95 @@
   {
     "id": "nlavuh",
     "name": "Public Bookshelf",
-    "address": null,
+    "address": "Slovensko",
     "lat": 48.1459879,
     "lon": 17.1392389,
     "sourceId": "osm_11476160307"
   },
   {
     "id": "pckqxs",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Gouda",
+    "address": "Sint Josephstraat 19, 2806WE, Gouda, Nederland",
     "lat": 52.0121173,
     "lon": 4.7189129,
     "sourceId": "osm_11476285682"
   },
   {
     "id": "oijzmz",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Belberaud",
+    "address": "Chemin des Sports, 31450, Belberaud, France",
     "lat": 43.5062876,
     "lon": 1.5661959,
     "sourceId": "osm_11476469855"
   },
   {
     "id": "gwhzpn",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Kollumersweach",
+    "address": "Foarwei 229, 9298JJ, Kollumersweach, Nederland",
     "lat": 53.2609814,
     "lon": 6.057641,
     "sourceId": "osm_11476749094"
   },
   {
     "id": "ypmxth",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Munstergeleen",
+    "address": "Kruisstraat 2, 6151BP, Munstergeleen, Nederland",
     "lat": 50.9725744,
     "lon": 5.8678515,
     "sourceId": "osm_11476780043"
   },
   {
     "id": "lygdjs",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Zwijndrecht",
+    "address": "Thorbeckelaan 2, 3332JA, Zwijndrecht, Nederland",
     "lat": 51.8268446,
     "lon": 4.6579528,
     "sourceId": "osm_11476856091"
   },
   {
     "id": "zvlepj",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Wijchen",
+    "address": "Hoogmeer 2844, 6605CP, Wijchen, Nederland",
     "lat": 51.7990656,
     "lon": 5.7285721,
     "sourceId": "osm_11476876561"
   },
   {
     "id": "lccmrx",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Zeeland",
+    "address": "Voederheil 21a, 5411RJ, Zeeland, Nederland",
     "lat": 51.7071564,
     "lon": 5.6711401,
     "sourceId": "osm_11476908619"
   },
   {
     "id": "usyjkb",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Vingrau",
+    "address": "Rue du Chêne Kermes, 66600, Vingrau, France",
     "lat": 42.8507492,
     "lon": 2.8007566,
     "sourceId": "osm_11477007402"
   },
   {
     "id": "uvkkkm",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Praha",
+    "address": "Nedvězská 14, 10000, Praha, Česko",
     "lat": 50.0680458,
     "lon": 14.5039839,
     "sourceId": "osm_11477027260"
   },
   {
     "id": "mbcvvg",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Bodman-Ludwigshafen",
+    "address": "Seestraße, 78351, Bodman-Ludwigshafen, Deutschland",
     "lat": 47.8006988,
     "lon": 9.0372869,
     "sourceId": "osm_11477041673"
   },
   {
     "id": "oyfasn",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Bregnano",
+    "address": "Via Nazario Sauro 16, 22070, Bregnano, Italia",
     "lat": 45.6999906,
     "lon": 9.0580913,
     "sourceId": "osm_11477212552"
@@ -122458,175 +122458,175 @@
   {
     "id": "nljobh",
     "name": "L'abri lire",
-    "address": null,
+    "address": "Rue Alfred Carfantan, 22550, Hénanbihen, France",
     "lat": 48.5604048,
     "lon": -2.3774247,
     "sourceId": "osm_11478663367"
   },
   {
     "id": "okhejs",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Plédéliac",
+    "address": "Rue du 19 Mars 1962, 22270, Plédéliac, France",
     "lat": 48.4489466,
     "lon": -2.3880128,
     "sourceId": "osm_11478663368"
   },
   {
     "id": "znopxj",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Maurs",
+    "address": "15600, Maurs, France",
     "lat": 44.7101074,
     "lon": 2.1978032,
     "sourceId": "osm_11478708706"
   },
   {
     "id": "pjimoj",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Sallertaine",
+    "address": "Rue de Verdun, 85300, Sallertaine, France",
     "lat": 46.8598692,
     "lon": -1.9575889,
     "sourceId": "osm_11478714368"
   },
   {
     "id": "bwizky",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Montgeron",
+    "address": "Avenue de la Grange (La Pelouse), 91230, Montgeron, France",
     "lat": 48.6975917,
     "lon": 2.4607643,
     "sourceId": "osm_11478733571"
   },
   {
     "id": "imjtig",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Montgeron",
+    "address": "91230, Montgeron, France",
     "lat": 48.7004621,
     "lon": 2.4537196,
     "sourceId": "osm_11478733572"
   },
   {
     "id": "haaqod",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Saint-Orens-de-Gameville",
+    "address": "31650, Saint-Orens-de-Gameville, France",
     "lat": 43.5610266,
     "lon": 1.5148208,
     "sourceId": "osm_11478741189"
   },
   {
     "id": "jwkwcz",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Évry-Courcouronnes",
+    "address": "Place de la Commune, 91000, Évry-Courcouronnes, France",
     "lat": 48.6214862,
     "lon": 2.4406997,
     "sourceId": "osm_11478741190"
   },
   {
     "id": "qbsnuu",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Bailleul",
+    "address": "59270, Bailleul, France",
     "lat": 50.7127758,
     "lon": 2.7253886,
     "sourceId": "osm_11478773022"
   },
   {
     "id": "dsgbqz",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Bailleul",
+    "address": "Place Charles de Gaulle 13, 59270, Bailleul, France",
     "lat": 50.739051,
     "lon": 2.734773,
     "sourceId": "osm_11478773023"
   },
   {
     "id": "zhjglx",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Bailleul",
+    "address": "59270, Bailleul, France",
     "lat": 50.730712,
     "lon": 2.7371352,
     "sourceId": "osm_11478773024"
   },
   {
     "id": "jflbix",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Massiac",
+    "address": "Rue Jean Rieuf 4, 15500, Massiac, France",
     "lat": 45.2516298,
     "lon": 3.1989403,
     "sourceId": "osm_11478785409"
   },
   {
     "id": "hlrqqd",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Créteil",
+    "address": "94000, Créteil, France",
     "lat": 48.7848346,
     "lon": 2.4601311,
     "sourceId": "osm_11478838275"
   },
   {
     "id": "kjfwaz",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Créteil",
+    "address": "Avenue des Peupliers 48, 94000, Créteil, France",
     "lat": 48.7885492,
     "lon": 2.4717155,
     "sourceId": "osm_11478838276"
   },
   {
     "id": "amgemm",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Appelle",
+    "address": "Route de Bertre, 81700, Appelle, France",
     "lat": 43.5819551,
     "lon": 1.9527844,
     "sourceId": "osm_11478838277"
   },
   {
     "id": "bwcicb",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Puylaurens",
+    "address": "Square Charles de Gaulle, 81700, Puylaurens, France",
     "lat": 43.5713585,
     "lon": 2.0130226,
     "sourceId": "osm_11478838278"
   },
   {
     "id": "dijoxb",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Saïx",
+    "address": "81710, Saïx, France",
     "lat": 43.5816199,
     "lon": 2.1841995,
     "sourceId": "osm_11478838279"
   },
   {
     "id": "doayyb",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Mirepoix",
+    "address": "Cours Colonel Petitpied, 09500, Mirepoix, France",
     "lat": 43.0890823,
     "lon": 1.8754441,
     "sourceId": "osm_11478855973"
   },
   {
     "id": "zfkcfo",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Vanves",
+    "address": "92170, Vanves, France",
     "lat": 48.8206227,
     "lon": 2.2910358,
     "sourceId": "osm_11478855974"
   },
   {
     "id": "ewbyjr",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Saint-Amant-Tallende",
+    "address": "Place Docteur Darteyre, 63450, Saint-Amant-Tallende, France",
     "lat": 45.6695733,
     "lon": 3.1074917,
     "sourceId": "osm_11478984867"
   },
   {
     "id": "civxhl",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Pontaix",
+    "address": "26150, Pontaix, France",
     "lat": 44.7507141,
     "lon": 5.2643122,
     "sourceId": "osm_11478984868"
   },
   {
     "id": "tomsai",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Périgueux",
+    "address": "Rue Louis Magne, 24000, Périgueux, France",
     "lat": 45.1852466,
     "lon": 0.7153335,
     "sourceId": "osm_11478985169"
@@ -122634,39 +122634,39 @@
   {
     "id": "cbgzvh",
     "name": "Public Bookshelf",
-    "address": null,
+    "address": "56310, France",
     "lat": 48.0301618,
     "lon": -3.0915504,
     "sourceId": "osm_11478985170"
   },
   {
     "id": "lgmgbu",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Les Lilas",
+    "address": "93260, Les Lilas, France",
     "lat": 48.8838309,
     "lon": 2.4231134,
     "sourceId": "osm_11478985171"
   },
   {
     "id": "yrlcvu",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Sallenôves",
+    "address": "74270, Sallenôves, France",
     "lat": 46.0054575,
     "lon": 6.0015966,
     "sourceId": "osm_11478985172"
   },
   {
     "id": "swpnhk",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Bourges",
+    "address": "Chemin de Saint-Ursin, 18000, Bourges, France",
     "lat": 47.0917787,
     "lon": 2.4194744,
     "sourceId": "osm_11478985173"
   },
   {
     "id": "hspyyb",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Gennevilliers",
+    "address": "Avenue Gabriel Péri, 92230, Gennevilliers, France",
     "lat": 48.9255315,
     "lon": 2.2939685,
     "sourceId": "osm_11479030871"
@@ -122674,31 +122674,31 @@
   {
     "id": "xeeekb",
     "name": "Maison à livres",
-    "address": null,
+    "address": "Rue Jules Dumien, 92230, Gennevilliers, France",
     "lat": 48.9303498,
     "lon": 2.3041568,
     "sourceId": "osm_11479030872"
   },
   {
     "id": "nwafal",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Gennevilliers",
+    "address": "92230, Gennevilliers, France",
     "lat": 48.9331968,
     "lon": 2.2963841,
     "sourceId": "osm_11479030873"
   },
   {
     "id": "srvncg",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Clichy",
+    "address": "Allée Barbara, 92110, Clichy, France",
     "lat": 48.9051757,
     "lon": 2.3169012,
     "sourceId": "osm_11479030874"
   },
   {
     "id": "izznzi",
-    "name": "Public Bookshelf",
-    "address": null,
+    "name": "Public Bookshelf Marseille",
+    "address": "Boulevard Vélasquez 6, 13008, Marseille, France",
     "lat": 43.2419063,
     "lon": 5.3875044,
     "sourceId": "osm_11479030875"
