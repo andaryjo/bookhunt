@@ -31112,14 +31112,6 @@
     "sourceId": "obc_xxmFyN"
   },
   {
-    "id": "aixdnn",
-    "name": "Bücherbaum",
-    "address": "Kollau 7-3, 04808 Thallwitz-Kollau",
-    "lat": 51.427094,
-    "lon": 12.660151,
-    "sourceId": "obc_Rb7Nti"
-  },
-  {
     "id": "yylwic",
     "name": "Bücherbaum  Eisenach Drachenspielplatz",
     "address": "Feodora-Promenade, 99817 Eisenach",
@@ -31310,6 +31302,14 @@
     "lat": 48.396414,
     "lon": 9.95438,
     "sourceId": "obc_ysr24F"
+  },
+  {
+    "id": "aixdnn",
+    "name": "Bücherbaum Kollau",
+    "address": "Kollau 7-3, 04808 Thallwitz-Kollau",
+    "lat": 51.427094,
+    "lon": 12.660151,
+    "sourceId": "obc_Rb7Nti"
   },
   {
     "id": "zufycd",
@@ -33982,6 +33982,14 @@
     "lat": 48.295582,
     "lon": 14.258765,
     "sourceId": "obc_2gqX9Z"
+  },
+  {
+    "id": "ydgfzn",
+    "name": "Bücherhäuschen LeseGlueck Lankwitz",
+    "address": "Blankenhainer Str. 4, 12249 Berlin, Blankenhainer Straße 6, 12249 Berlin-Lankwitz",
+    "lat": 52.421128,
+    "lon": 13.345472,
+    "sourceId": "obc_fFL0oZ"
   },
   {
     "id": "frvraf",
@@ -61696,6 +61704,14 @@
     "sourceId": "obc_AyWqSn"
   },
   {
+    "id": "bsfjgg",
+    "name": "Bücherschrank TEO Oberdorfelden",
+    "address": "Nidderauer Straße 47, 61137 Schöneck-Oberdorfelden",
+    "lat": 50.19807081924,
+    "lon": 8.82964149083,
+    "sourceId": "obc_DQZbG8"
+  },
+  {
     "id": "qnzhfm",
     "name": "Bücherschrank THERESIENWIESE im Eine Welt Haus München e.V.",
     "address": "Bücher-Corner im Medienraum (107), Schwanthalerstr. 80, 80336 München",
@@ -65010,7 +65026,7 @@
   {
     "id": "seexlk",
     "name": "Bücherschrank an der Bibliothek Konz",
-    "address": "",
+    "address": "Am Markt 11, 54329 Konz",
     "lat": 49.69774644188,
     "lon": 6.57307237387,
     "sourceId": "obc_j8RAkC"
@@ -69474,7 +69490,7 @@
   {
     "id": "qiqfiy",
     "name": "Bücherzaun Kuckhoffstraße",
-    "address": "Kuckhoffstraße 97, 13156 97, 13156 Berlin-Niederschönhausen",
+    "address": "Kuckhoffstraße 97, 13156 Berlin-Niederschönhausen",
     "lat": 52.58141727839,
     "lon": 13.38764816523,
     "sourceId": "obc_p33b7I"
@@ -108288,14 +108304,6 @@
     "sourceId": "obc_3vfI6u"
   },
   {
-    "id": "ydgfzn",
-    "name": "OBCZ LeseGlueck Lankwitz",
-    "address": "Blankenhainer Straße 6, 12249 Berlin-Lankwitz",
-    "lat": 52.421128,
-    "lon": 13.345472,
-    "sourceId": "obc_fFL0oZ"
-  },
-  {
     "id": "rlmymn",
     "name": "OBCZ Leselaube Garten",
     "address": "Ulenburger Weg 22, 32584",
@@ -113094,14 +113102,6 @@
     "lat": 50.546140004179,
     "lon": 8.5381266563126,
     "sourceId": "obc_QaksLy"
-  },
-  {
-    "id": "bsfjgg",
-    "name": "TEO Oberdorfelden",
-    "address": "",
-    "lat": 50.19807081924,
-    "lon": 8.82964149083,
-    "sourceId": "obc_DQZbG8"
   },
   {
     "id": "kvwrny",
