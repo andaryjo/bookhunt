@@ -55,38 +55,12 @@ async function importObc() {
       `Processing ${sourceData.length} bookshelves from OpenBookCase source...`,
     );
 
-    // Build migration map from legacy ID to short code
-    const legacyToShortCode = new Map();
-    sourceData.forEach((bc) => {
-      if (bc.source === "osm") return; // ignore OSM
-      if (bc.legacyId && bc.shortCode) {
-        legacyToShortCode.set(`obc_${bc.legacyId}`, `obc_${bc.shortCode}`);
-      }
-    });
-
-    // Migrate existing source IDs in-place
-    let migratedCount = 0;
-    existingBookshelves.forEach((b) => {
-      if (b.sourceId && legacyToShortCode.has(b.sourceId)) {
-        const newSourceId = legacyToShortCode.get(b.sourceId);
-        console.log(
-          `Migrating sourceId for bookshelf ${b.id}: ${b.sourceId} -> ${newSourceId}`,
-        );
-        b.sourceId = newSourceId;
-        migratedCount++;
-      }
-    });
-    if (migratedCount > 0) {
-      console.log(
-        `Migrated ${migratedCount} existing bookshelves to use shortCode as sourceId.`,
-      );
-    }
-
     const incomingItems = [];
 
     sourceData.forEach((bc) => {
       // Disregard all bookshelves in the source that have the property "source: osm"
       if (bc.source === "osm") return;
+      if (bc.status != "active") return;
 
       const lat = bc.position ? parseFloat(bc.position.latitude) : NaN;
       const lon = bc.position ? parseFloat(bc.position.longitude) : NaN;
