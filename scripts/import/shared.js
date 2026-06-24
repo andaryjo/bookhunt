@@ -1,13 +1,22 @@
-const fs = require('fs');
-const path = require('path');
-const https = require('https');
+const fs = require("fs");
+const path = require("path");
+const https = require("https");
+const zlib = require("zlib");
+
+const genericNames = [
+  "Public Bookshelf",
+  "Public bookcase",
+  "StreetLibrary",
+  "Öffentlicher Bücherschrank",
+  "Little Free Library",
+];
 
 /**
  * Generates a 6-letter unique ID
  */
 function generateId() {
-  const letters = 'abcdefghijklmnopqrstuvwxyz';
-  let result = '';
+  const letters = "abcdefghijklmnopqrstuvwxyz";
+  let result = "";
   for (let i = 0; i < 6; i++) {
     result += letters.charAt(Math.floor(Math.random() * letters.length));
   }
@@ -21,9 +30,11 @@ function loadExisting(outputPath) {
   if (fs.existsSync(outputPath)) {
     console.log(`Loading existing data from ${outputPath}...`);
     try {
-      return JSON.parse(fs.readFileSync(outputPath, 'utf8'));
+      return JSON.parse(fs.readFileSync(outputPath, "utf8"));
     } catch (e) {
-      console.warn(`Could not parse existing data, starting fresh: ${e.message}`);
+      console.warn(
+        `Could not parse existing data, starting fresh: ${e.message}`,
+      );
     }
   }
   return [];
@@ -46,38 +57,52 @@ function writeBookshelves(outputPath, list) {
  */
 async function fetchRemoteData(url) {
   return new Promise((resolve, reject) => {
-    https.get(url, {
-      headers: {
-        'User-Agent': 'Bookhunt-Import-Script/1.0',
-        'Connection': 'close'
-      }
-    }, (res) => {
-      // Handle redirects
-      if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
-        resolve(fetchRemoteData(res.headers.location));
-        return;
-      }
-      
-      if (res.statusCode !== 200) {
-        reject(new Error(`Failed to fetch (Status ${res.statusCode})`));
-        return;
-      }
+    https
+      .get(
+        url,
+        {
+          headers: {
+            "User-Agent": "Bookhunt-Import-Script/1.0",
+            Connection: "close",
+          },
+        },
+        (res) => {
+          // Handle redirects
+          if (
+            res.statusCode >= 300 &&
+            res.statusCode < 400 &&
+            res.headers.location
+          ) {
+            resolve(fetchRemoteData(res.headers.location));
+            return;
+          }
 
-      let data = '';
-      res.on('data', (chunk) => data += chunk);
-      res.on('end', () => resolve(data));
-    }).on('error', (err) => reject(err));
+          if (res.statusCode !== 200) {
+            reject(new Error(`Failed to fetch (Status ${res.statusCode})`));
+            return;
+          }
+
+          let data = "";
+          res.on("data", (chunk) => (data += chunk));
+          res.on("end", () => resolve(data));
+        },
+      )
+      .on("error", (err) => reject(err));
   });
 }
 
 /**
  * Reconciles the incoming items with the existing database
  */
-function reconcileBookshelves(existingBookshelves, incomingItems, options = {}) {
+function reconcileBookshelves(
+  existingBookshelves,
+  incomingItems,
+  options = {},
+) {
   const existingBySourceId = new Map();
   const existingWithoutSourceId = [];
 
-  existingBookshelves.forEach(b => {
+  existingBookshelves.forEach((b) => {
     if (b.sourceId) {
       existingBySourceId.set(b.sourceId, b);
     } else {
@@ -90,7 +115,7 @@ function reconcileBookshelves(existingBookshelves, incomingItems, options = {}) 
   let newAddedCount = 0;
   let updatedCount = 0;
 
-  incomingItems.forEach(item => {
+  incomingItems.forEach((item) => {
     const { sourceId, name, address, lat, lon } = item;
     if (isNaN(lat) || isNaN(lon)) return;
 
@@ -99,10 +124,11 @@ function reconcileBookshelves(existingBookshelves, incomingItems, options = {}) 
 
     // 2. Fallback to coordinates
     if (!existing) {
-      const coordIdx = existingWithoutSourceId.findIndex(b => 
-        !matchedExistingIds.has(b.id) &&
-        Math.abs(b.lat - lat) < 0.00001 && 
-        Math.abs(b.lon - lon) < 0.00001
+      const coordIdx = existingWithoutSourceId.findIndex(
+        (b) =>
+          !matchedExistingIds.has(b.id) &&
+          Math.abs(b.lat - lat) < 0.00001 &&
+          Math.abs(b.lon - lon) < 0.00001,
       );
       if (coordIdx !== -1) {
         existing = existingWithoutSourceId[coordIdx];
@@ -111,13 +137,22 @@ function reconcileBookshelves(existingBookshelves, incomingItems, options = {}) 
 
     if (existing) {
       // Update metadata
-      if (options.preserveNameIfGeneric && name === 'Public Bookshelf' && existing.name && existing.name !== 'Public Bookshelf') {
+      if (
+        options.preserveNameIfGeneric &&
+        genericNames.includes(name) &&
+        existing.name &&
+        !genericNames.includes(existing.name)
+      ) {
         // Keep existing name
       } else {
         existing.name = name;
       }
 
-      if (options.preserveAddressIfNull && (address === null || address === undefined || address === "") && existing.address) {
+      if (
+        options.preserveAddressIfNull &&
+        (address === null || address === undefined || address === "") &&
+        existing.address
+      ) {
         // Keep existing address
       } else {
         existing.address = address !== undefined ? address : null;
@@ -128,9 +163,9 @@ function reconcileBookshelves(existingBookshelves, incomingItems, options = {}) 
       } else {
         delete existing.sourceId;
       }
-      
+
       delete existing.removed; // Ensure it is active again if it was previously marked as removed
-      
+
       reconciledList.push(existing);
       matchedExistingIds.add(existing.id);
       updatedCount++;
@@ -141,7 +176,7 @@ function reconcileBookshelves(existingBookshelves, incomingItems, options = {}) 
         name: name,
         address: address !== undefined ? address : null,
         lat: lat,
-        lon: lon
+        lon: lon,
       };
       if (sourceId) {
         newItem.sourceId = sourceId;
@@ -153,15 +188,17 @@ function reconcileBookshelves(existingBookshelves, incomingItems, options = {}) 
 
   // Mark bookshelves not in source as removed instead of deleting them
   let removedCount = 0;
-  existingBookshelves.forEach(existing => {
-    if (!matchedExistingIds.has(existing.id)) {
-      if (!existing.removed) {
-        removedCount++;
+  if (!options.doNotRemoveIfMissing) {
+    existingBookshelves.forEach((existing) => {
+      if (!matchedExistingIds.has(existing.id)) {
+        if (!existing.removed) {
+          removedCount++;
+        }
+        existing.removed = true;
+        reconciledList.push(existing);
       }
-      existing.removed = true;
-      reconciledList.push(existing);
-    }
-  });
+    });
+  }
 
   return {
     bookshelves: reconciledList,
@@ -169,9 +206,81 @@ function reconcileBookshelves(existingBookshelves, incomingItems, options = {}) 
       totalSource: incomingItems.length,
       updated: updatedCount,
       newAdded: newAddedCount,
-      removed: removedCount
-    }
+      removed: removedCount,
+    },
   };
+}
+
+/**
+ * Loads data from either a local file or a remote URL
+ */
+async function loadSourceData(source) {
+  if (source.startsWith("http://") || source.startsWith("https://")) {
+    console.log(`Downloading and decompressing remote data from ${source}...`);
+    return fetchGzippedJson(source);
+  }
+
+  console.log(`Reading local file from ${source}...`);
+  const fileBuffer = fs.readFileSync(source);
+  if (source.endsWith(".gz")) {
+    const decompressed = zlib.gunzipSync(fileBuffer);
+    return JSON.parse(decompressed.toString("utf8"));
+  }
+  return JSON.parse(fileBuffer.toString("utf8"));
+}
+
+/**
+ * Downloads gzipped data from the URL
+ */
+function fetchGzippedJson(url) {
+  return new Promise((resolve, reject) => {
+    https
+      .get(
+        url,
+        {
+          headers: {
+            "User-Agent": "Bookhunt-Import-Script/1.0",
+            "Accept-Encoding": "gzip",
+            Connection: "close",
+          },
+        },
+        (res) => {
+          // Handle redirects
+          if (
+            res.statusCode >= 300 &&
+            res.statusCode < 400 &&
+            res.headers.location
+          ) {
+            resolve(fetchGzippedJson(res.headers.location));
+            return;
+          }
+
+          if (res.statusCode !== 200) {
+            reject(new Error(`Failed to fetch (Status ${res.statusCode})`));
+            return;
+          }
+
+          const chunks = [];
+          res.on("data", (chunk) => chunks.push(chunk));
+          res.on("end", () => {
+            const buffer = Buffer.concat(chunks);
+            zlib.gunzip(buffer, (err, decompressed) => {
+              if (err) {
+                reject(err);
+              } else {
+                try {
+                  const json = JSON.parse(decompressed.toString("utf8"));
+                  resolve(json);
+                } catch (e) {
+                  reject(e);
+                }
+              }
+            });
+          });
+        },
+      )
+      .on("error", (err) => reject(err));
+  });
 }
 
 module.exports = {
@@ -179,5 +288,6 @@ module.exports = {
   loadExisting,
   writeBookshelves,
   fetchRemoteData,
-  reconcileBookshelves
+  reconcileBookshelves,
+  loadSourceData,
 };

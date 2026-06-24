@@ -31616,14 +31616,6 @@
     "sourceId": "obc_MhHG50"
   },
   {
-    "id": "sshmkc",
-    "name": "BücherboXX Englische Telefonzelle",
-    "address": "Fehrbelliner Platz / Barstr., 10713 Berlin-Wilmersdorf",
-    "lat": 52.4900256754,
-    "lon": 13.3144426346,
-    "sourceId": "obc_HmsKia"
-  },
-  {
     "id": "cwolnz",
     "name": "BücherboXX Europa",
     "address": "Halemweg 20, 13627 Berlin-Charlottenburg Nord",
@@ -31638,6 +31630,14 @@
     "lat": 52.55598,
     "lon": 13.386004,
     "sourceId": "obc_aGvlrJ"
+  },
+  {
+    "id": "sshmkc",
+    "name": "BücherboXX Fehrbelliner Platz",
+    "address": "Fehrbelliner Platz / Barstr., 10713 Berlin-Wilmersdorf",
+    "lat": 52.4900256754,
+    "lon": 13.3144426346,
+    "sourceId": "obc_HmsKia"
   },
   {
     "id": "ntiptq",
@@ -33986,7 +33986,7 @@
   {
     "id": "ydgfzn",
     "name": "Bücherhäuschen LeseGlueck Lankwitz",
-    "address": "Blankenhainer Str. 4, 12249 Berlin, Blankenhainer Straße 6, 12249 Berlin-Lankwitz",
+    "address": "Blankenhainer Straße 4, 12249 Berlin-Lankwitz",
     "lat": 52.421128,
     "lon": 13.345472,
     "sourceId": "obc_fFL0oZ"
@@ -35146,7 +35146,7 @@
   {
     "id": "qwitpk",
     "name": "Bücherkiste Wolframstraße",
-    "address": "Wolframstr. 18, 12105 Berlin-Tempelhof",
+    "address": "Wolframstraße 18, 12105 Berlin-Tempelhof",
     "lat": 52.452483,
     "lon": 13.373802,
     "sourceId": "obc_WlmsGU"
@@ -36200,6 +36200,14 @@
     "sourceId": "obc_fYbalM"
   },
   {
+    "id": "qqazed",
+    "name": "Bücherregal A&O Hostel Moabit",
+    "address": "Lehrter Straße 12, 10557 Berlin-Moabit",
+    "lat": 52.52912592131,
+    "lon": 13.36354771057,
+    "sourceId": "obc_uuxDh7"
+  },
+  {
     "id": "ydcpyt",
     "name": "Bücherregal AWO Altenfurt",
     "address": "Von-Soden-Straße 10, 90475 Nürnberg-Altenfurt",
@@ -36414,6 +36422,14 @@
     "lat": 48.209424,
     "lon": 14.259793,
     "sourceId": "obc_OIYICN"
+  },
+  {
+    "id": "gkijbd",
+    "name": "Bücherregal Apostel-Paulus-Kirche",
+    "address": "Grunewaldstraße 77A, 10823 Berlin-Schöneberg",
+    "lat": 52.48941129023,
+    "lon": 13.35267447726,
+    "sourceId": "obc_IvsdFl"
   },
   {
     "id": "kbiklq",
@@ -41416,6 +41432,14 @@
     "sourceId": "obc_wmMgGh"
   },
   {
+    "id": "onszym",
+    "name": "Bücherregal Steinecke Bäckerei Lichterfelde",
+    "address": "Baseler Straße 7, 12205 Berlin-Lichterfelde, Ecke Curtiusstraße",
+    "lat": 52.44250817322,
+    "lon": 13.2959941578,
+    "sourceId": "obc_BCKj75"
+  },
+  {
     "id": "azjuxk",
     "name": "Bücherregal Steinecke Bäckerei Lützowplatz",
     "address": "Lützowplatz 2, 10785 Berlin-Tiergarten",
@@ -42414,6 +42438,14 @@
     "lat": 49.78562687654875,
     "lon": 9.947948772316819,
     "sourceId": "obc_uniwSc"
+  },
+  {
+    "id": "fyvzkx",
+    "name": "Bücherregal Zwölf-Apostelkirche",
+    "address": "An der Apostelkirche 1, 10783 Berlin-Schöneberg",
+    "lat": 52.50062648482,
+    "lon": 13.35800081594,
+    "sourceId": "obc_aVBsks"
   },
   {
     "id": "gbetsl",
@@ -68120,14 +68152,6 @@
     "sourceId": "obc_77tUrN"
   },
   {
-    "id": "ofbtbg",
-    "name": "Büchertauschhäuschen Lankwitz",
-    "address": "Wernshauser Straße 14, 12249 Berlin-Lankwitz",
-    "lat": 52.418257362176,
-    "lon": 13.345014452934,
-    "sourceId": "obc_NpDZIn"
-  },
-  {
     "id": "uwurjn",
     "name": "Büchertauschhäuschen Sachsenland 1",
     "address": "Siedlerstraße 15, 39218 Schönebeck (Elbe)",
@@ -68150,6 +68174,14 @@
     "lat": 54.039188,
     "lon": 10.216362,
     "sourceId": "obc_1J97c9"
+  },
+  {
+    "id": "ofbtbg",
+    "name": "Büchertauschhäuschen Wernshauser Straße",
+    "address": "Wernshauser Straße 14, 12249 Berlin-Lankwitz",
+    "lat": 52.418257362176,
+    "lon": 13.345014452934,
+    "sourceId": "obc_NpDZIn"
   },
   {
     "id": "clicgd",
@@ -83530,7 +83562,7 @@
   {
     "id": "rffciv",
     "name": "Bücherzelle Zellsius",
-    "address": "Celsiusstr. 46, 12207 Berlin-Lichterfelde",
+    "address": "Celsiusstraße 46, 12207 Berlin-Lichterfelde",
     "lat": 52.413087,
     "lon": 13.31197,
     "sourceId": "obc_W8tV1F"
