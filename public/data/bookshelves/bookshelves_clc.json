@@ -1,5 +1,141 @@
 [
   {
+    "id": "hkfexr",
+    "name": "Crocs",
+    "address": "93, Rue Dufresne, Saint-Jean-sur-Richelieu, Québec, J2W 1L8",
+    "lat": 45.3521302,
+    "lon": -73.2747613,
+    "sourceId": "clc_1979"
+  },
+  {
+    "id": "zzxvua",
+    "name": "Aucun mom",
+    "address": "2310, Rue des Cyprès, Sherbrooke, Québec, J1G 3W9",
+    "lat": 45.4041126,
+    "lon": -71.839107,
+    "sourceId": "clc_1978"
+  },
+  {
+    "id": "qyuzri",
+    "name": "Le croqueur de croissants",
+    "address": "5, Rue Fernand-Rinfret, Montréal, Québec, H1V 3A9",
+    "lat": 45.555122,
+    "lon": -73.5295915,
+    "sourceId": "clc_1977"
+  },
+  {
+    "id": "zmomuw",
+    "name": "La ptite boîte à livres",
+    "address": "25, Rue du Seigle, Lévis, Québec, G6J 1K4",
+    "lat": 46.6498052,
+    "lon": -71.31254750000001,
+    "sourceId": "clc_1976"
+  },
+  {
+    "id": "scvuia",
+    "name": "Croque livres du Domaine- Des soeurs",
+    "address": "4331, Rue de la Promenade des Soeurs, Québec, G1Y 3G6",
+    "lat": 46.7585735,
+    "lon": -71.36208959999999,
+    "sourceId": "clc_1975"
+  },
+  {
+    "id": "xnpwnk",
+    "name": "Biblio-Parc",
+    "address": "570, Rue Lebrun, Granby, Québec, J2J 2G1",
+    "lat": 45.4183883,
+    "lon": -72.7433166,
+    "sourceId": "clc_1974"
+  },
+  {
+    "id": "qmekbc",
+    "name": "Zone livres",
+    "address": "230, Rue Drummond, Granby, Québec, J2G 2S3",
+    "lat": 45.4004427,
+    "lon": -72.70718839999999,
+    "sourceId": "clc_1973"
+  },
+  {
+    "id": "aaffob",
+    "name": "Panier à lire",
+    "address": "40, Rue Évangéline, Granby, Québec, J2G 8K1",
+    "lat": 45.4138075,
+    "lon": -72.75001329999999,
+    "sourceId": "clc_1972"
+  },
+  {
+    "id": "tcjenx",
+    "name": "Hors-jeu",
+    "address": "97, Boulevard Leclerc Ouest, Granby, Québec, J2G 9B7",
+    "lat": 45.4104707,
+    "lon": -72.7205087,
+    "sourceId": "clc_1971"
+  },
+  {
+    "id": "bzgkvg",
+    "name": "La boîte du lac",
+    "address": "106, Rue Drummond, Granby, Québec, J2G 2S6",
+    "lat": 45.3979633,
+    "lon": -72.713718,
+    "sourceId": "clc_1970"
+  },
+  {
+    "id": "dsdsxs",
+    "name": "Le poste des lectures",
+    "address": "380, Rue Simonds Sud, Granby, Québec, J2J 1L4",
+    "lat": 45.40165330000001,
+    "lon": -72.7604477,
+    "sourceId": "clc_1969"
+  },
+  {
+    "id": "fbtyes",
+    "name": "Champ gauche",
+    "address": "65, Rue Cyr, Granby, Québec, J2G 4B5",
+    "lat": 45.3852627,
+    "lon": -72.7433065,
+    "sourceId": "clc_1968"
+  },
+  {
+    "id": "ohohfg",
+    "name": "L'oasis des lectures",
+    "address": "215, Rue Laval Sud, Granby, Québec, J2G 7H8",
+    "lat": 45.3964289,
+    "lon": -72.7387055,
+    "sourceId": "clc_1967"
+  },
+  {
+    "id": "gpieab",
+    "name": "Croque- animo",
+    "address": "520, Rue Saint-Hubert, Granby, Québec, J2G 5P4",
+    "lat": 45.4203336,
+    "lon": -72.72644439999999,
+    "sourceId": "clc_1966"
+  },
+  {
+    "id": "yerchz",
+    "name": "La boîte à voisins",
+    "address": "197, Rue Paré, Granby, Québec, J2G 5E4",
+    "lat": 45.40682959999999,
+    "lon": -72.725233,
+    "sourceId": "clc_1965"
+  },
+  {
+    "id": "umrpdg",
+    "name": "Croque-verdure",
+    "address": "0, Chemin du Lac Verdure, Montcalm, Québec, J0T 2V0",
+    "lat": 46.0226224,
+    "lon": -74.47814629999999,
+    "sourceId": "clc_1964"
+  },
+  {
+    "id": "owqnia",
+    "name": "Croque-communautaire",
+    "address": "33, Route du Lac Rond Nord, Montcalm, Québec, J0T 2V0",
+    "lat": 45.9417524,
+    "lon": -74.54696539999999,
+    "sourceId": "clc_1963"
+  },
+  {
     "id": "mtvitj",
     "name": "Jazz Teasdale",
     "address": "950, Boulevard Lucille-Teasdale, Terrebonne, Québec, J6V 0G5",
@@ -2737,8 +2873,8 @@
   },
   {
     "id": "tymamr",
-    "name": "Parc Avignon",
-    "address": "1800, rue d'Avignon, Sorel-Tracy, Québec, J3P 7V4",
+    "name": "Parc De Grandpré",
+    "address": "6105, Rue De Grandpré, Sorel-Tracy, Québec, J3R 4E9",
     "lat": 46.0228682,
     "lon": -73.0676574,
     "sourceId": "clc_1582"
@@ -4177,8 +4313,8 @@
   },
   {
     "id": "uazmcy",
-    "name": "La Famille Samson-Page",
-    "address": "162, 14e Av, Drummondville, Québec, J2B 3C3",
+    "name": "Municipalité de Durham-Sud",
+    "address": "33, Rue Principale, Durham-Sud, Québec, J0H 2C0",
     "lat": 45.8677408,
     "lon": -72.4916803,
     "sourceId": "clc_1394"
