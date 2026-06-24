@@ -284,6 +284,7 @@ function fetchGzippedJson(url) {
 }
 
 module.exports = {
+  genericNames,
   generateId,
   loadExisting,
   writeBookshelves,

@@ -1,16 +1,16 @@
 [
   {
     "id": "jynzkx",
-    "name": "\"The Temple\" LFL & TB Hotel",
-    "address": null,
+    "name": "The Temple LFL & TB Hotel Spencer",
+    "address": "Temple Street, 01562, Spencer, United States",
     "lat": 42.2408467,
     "lon": -71.9952811,
     "sourceId": "osm_13256777248"
   },
   {
     "id": "ewsguo",
-    "name": "# KNIHOBUDKA",
-    "address": null,
+    "name": "# KNIHOBUDKA Český Těšín",
+    "address": "náměstí ČSA, 737 01, Český Těšín, Česko",
     "lat": 49.7461303,
     "lon": 18.6246175,
     "sourceId": "osm_w1441902314"
@@ -33,8 +33,8 @@
   },
   {
     "id": "znqxhd",
-    "name": "'t Boekie Minibieb",
-    "address": null,
+    "name": "'t Boekie Minibieb Tilburg",
+    "address": "Van Limburg Stirumlaan, 5037 SH, Tilburg, Nederland",
     "lat": 51.5496472,
     "lon": 5.0553859,
     "sourceId": "osm_13084691883"
@@ -57,16 +57,16 @@
   },
   {
     "id": "pjcwwf",
-    "name": "(کتابخانه نظیری (کشتارگاه",
-    "address": null,
+    "name": "(کتابخانه نظیری (کشتارگاه نیشابور",
+    "address": "رحمت۳, 93138-33138, نیشابور, ایران",
     "lat": 36.1976947,
     "lon": 58.7809155,
     "sourceId": "osm_11987766289"
   },
   {
     "id": "bhbaek",
-    "name": "1",
-    "address": null,
+    "name": "1 Amathay-Vésigneux",
+    "address": "Rue du Château d'Eau, 25330, Amathay-Vésigneux, France",
     "lat": 47.0239082,
     "lon": 6.1991131,
     "sourceId": "osm_12307253125"
@@ -81,8 +81,8 @@
   },
   {
     "id": "oylpme",
-    "name": "1, 2, 3, lis-moi",
-    "address": null,
+    "name": "1, 2, 3, lis-moi Valonne",
+    "address": "Grande Rue, 25190, Valonne, France",
     "lat": 47.3441214,
     "lon": 6.6596546,
     "sourceId": "osm_12992467030"
@@ -97,8 +97,8 @@
   },
   {
     "id": "nmgnxl",
-    "name": "11th Street Community Library",
-    "address": null,
+    "name": "11th Street Community Library New York",
+    "address": "East 11th Street, 10009, New York, United States",
     "lat": 40.7288081,
     "lon": -73.982879,
     "sourceId": "osm_9640463599"
@@ -113,48 +113,48 @@
   },
   {
     "id": "imdkol",
-    "name": "13 & 15",
-    "address": null,
+    "name": "13 & 15 Salt Lake City",
+    "address": "1500 East, 84105, Salt Lake City, United States",
     "lat": 40.7419017,
     "lon": -111.8481229,
     "sourceId": "osm_11126154949"
   },
   {
     "id": "juxuik",
-    "name": "158146",
-    "address": null,
+    "name": "158146 Burbank",
+    "address": "South 9th Street, 91501, Burbank, United States",
     "lat": 34.1888377,
     "lon": -118.2998251,
     "sourceId": "osm_13905497959"
   },
   {
     "id": "jzgtzb",
-    "name": "16th Street Free Library",
-    "address": null,
+    "name": "16th Street Free Library New York",
+    "address": "16th Street, 11218, New York, United States",
     "lat": 40.665437,
     "lon": -73.9909712,
     "sourceId": "osm_2562123827"
   },
   {
     "id": "wsupkx",
-    "name": "20th & D Book Pantry",
-    "address": null,
+    "name": "20th & D Book Pantry Bakersfield",
+    "address": "20th Street, 93301, Bakersfield, United States",
     "lat": 35.3773267,
     "lon": -119.0256101,
     "sourceId": "osm_4636745166"
   },
   {
     "id": "dfkopf",
-    "name": "29 3/4 63",
-    "address": null,
+    "name": "29 3/4 63 Vancouver",
+    "address": "West 31st Avenue, V6M 2B6, Vancouver, Canada",
     "lat": 49.2442515,
     "lon": -123.1718974,
     "sourceId": "osm_8512007833"
   },
   {
     "id": "zggbzj",
-    "name": "2nd Street Little Free Library",
-    "address": null,
+    "name": "2nd Street Little Free Library Fairview",
+    "address": "Second Street, 94541, Fairview, United States",
     "lat": 37.6685623,
     "lon": -122.0520913,
     "sourceId": "osm_13329455860"
@@ -169,16 +169,16 @@
   },
   {
     "id": "ldlgpq",
-    "name": "48er-Tandler Bücherschrank",
-    "address": null,
+    "name": "48er-Tandler Bücherschrank Wien",
+    "address": "Johann-Staud-Straße 11, 1160, Wien, Österreich",
     "lat": 48.2122218,
     "lon": 16.2915831,
     "sourceId": "osm_12239495997"
   },
   {
     "id": "smgjfh",
-    "name": "49th Street Library",
-    "address": null,
+    "name": "49th Street Library Vancouver",
+    "address": "Northeast 49th Street, 98661, Vancouver, United States",
     "lat": 45.6567777,
     "lon": -122.6307799,
     "sourceId": "osm_9654557570"
@@ -193,80 +193,80 @@
   },
   {
     "id": "bkdhky",
-    "name": "8 grande rue, St Pierre, 51",
-    "address": null,
+    "name": "8 grande rue, St Pierre, 51 Saint-Pierre",
+    "address": "Grande Rue, 51510, Saint-Pierre, France",
     "lat": 48.946696,
     "lon": 4.2442653,
     "sourceId": "osm_12944179892"
   },
   {
     "id": "xmwqwb",
-    "name": "86th Street Book Exchange",
-    "address": null,
+    "name": "86th Street Book Exchange Seattle",
+    "address": "Northeast 86th Street, 98115, Seattle, United States",
     "lat": 47.6910046,
     "lon": -122.2939249,
     "sourceId": "osm_3694521326"
   },
   {
     "id": "ztafgf",
-    "name": "9-Line Little Free Library",
-    "address": null,
+    "name": "9-Line Little Free Library Salt Lake City",
+    "address": "9 Line Trail, 84101, Salt Lake City, United States",
     "lat": 40.7495319,
     "lon": -111.9115713,
     "sourceId": "osm_13867047070"
   },
   {
     "id": "islkka",
-    "name": "915 Viviendas",
-    "address": null,
+    "name": "915 Viviendas Viedma",
+    "address": "Colón, 8500, Viedma, Argentina",
     "lat": -40.8168185,
     "lon": -63.0062652,
     "sourceId": "osm_3830206840"
   },
   {
     "id": "qdsfwe",
-    "name": "9th And 9th Book And Music",
-    "address": null,
+    "name": "9th And 9th Book And Music Salt Lake City",
+    "address": "East 900 South 964, 84105, Salt Lake City, United States",
     "lat": 40.7495977,
     "lon": -111.863351,
     "sourceId": "osm_12085497152"
   },
   {
     "id": "dxdcwr",
-    "name": "@rightbookatya",
-    "address": null,
+    "name": "@rightbookatya Salt Lake City",
+    "address": "800 East, 84105, Salt Lake City, United States",
     "lat": 40.7425982,
     "lon": -111.8680767,
     "sourceId": "osm_12292412672"
   },
   {
     "id": "nfbgxk",
-    "name": "A Cup of Sugar",
-    "address": null,
+    "name": "A Cup of Sugar Los Alamos",
+    "address": "Urban Street, 87544, Los Alamos, United States",
     "lat": 35.8946103,
     "lon": -106.321289,
     "sourceId": "osm_13448510681"
   },
   {
     "id": "jpdboh",
-    "name": "A casa do libro",
-    "address": null,
+    "name": "A casa do libro Meis",
+    "address": "Valboa, 36192, Meis, España",
     "lat": 42.4595656,
     "lon": -8.7621509,
     "sourceId": "osm_13664627728"
   },
   {
     "id": "fbmape",
-    "name": "A'Becketts Creek Community Street Library",
-    "address": null,
+    "name": "A'Becketts Creek Community Street Library Sydney",
+    "address": "Western Motorway, 2150, Sydney, Australia",
     "lat": -33.826899,
     "lon": 151.0064537,
     "sourceId": "osm_8723415585"
   },
   {
     "id": "vnxnzb",
-    "name": "ABC",
-    "address": null,
+    "name": "ABC Verrières-le-Buisson",
+    "address": "Rue d'Estienne d'Orves, 91370, Verrières-le-Buisson, France",
     "lat": 48.7470277,
     "lon": 2.2650621,
     "sourceId": "osm_12228184669"
@@ -289,32 +289,32 @@
   },
   {
     "id": "ywclrz",
-    "name": "Aad’s Banka Bieb",
-    "address": null,
+    "name": "Aad’s Banka Bieb Utrecht",
+    "address": "Bankaplein, 3531 HL, Utrecht, Nederland",
     "lat": 52.089591,
     "lon": 5.0947489,
     "sourceId": "osm_13727323601"
   },
   {
     "id": "sndwlw",
-    "name": "Abe's Friendly Neighborhood Library",
-    "address": null,
+    "name": "Abe's Friendly Neighborhood Library Federal Way",
+    "address": "33rd Avenue Southwest, 98023, Federal Way, United States",
     "lat": 47.3081655,
     "lon": -122.3750116,
     "sourceId": "osm_13927585783"
   },
   {
     "id": "saimfq",
-    "name": "Abel Eli Guerrero",
-    "address": null,
+    "name": "Abel Eli Guerrero Jamundí",
+    "address": "Transversal 14, 764001, Jamundí, Colombia",
     "lat": 3.2687035,
     "lon": -76.5427491,
     "sourceId": "osm_4192473660"
   },
   {
     "id": "gkgfem",
-    "name": "Abri à bouquins",
-    "address": null,
+    "name": "Abri à bouquins Rigney",
+    "address": "Rue de l'Abreuvoir, 25640, Rigney, France",
     "lat": 47.3885566,
     "lon": 6.1763757,
     "sourceId": "osm_12061627428"
@@ -337,16 +337,16 @@
   },
   {
     "id": "elekeo",
-    "name": "AbriOThèque",
-    "address": null,
+    "name": "AbriOThèque Saint-Dizier-l'Évêque",
+    "address": "Rue de l'Église, 90100, Saint-Dizier-l'Évêque, France",
     "lat": 47.4709652,
     "lon": 6.9632552,
     "sourceId": "osm_w193128920"
   },
   {
     "id": "agidzz",
-    "name": "Abribus",
-    "address": null,
+    "name": "Abribus Gas",
+    "address": "Place Saint-Gilles, 28320, Gas, France",
     "lat": 48.5659249,
     "lon": 1.6665179,
     "sourceId": "osm_13057720343"
@@ -361,16 +361,16 @@
   },
   {
     "id": "hfnyli",
-    "name": "Abri’Books",
-    "address": null,
+    "name": "Abri’Books Grosrouvres",
+    "address": "Grande Rue, 54470, Grosrouvres, France",
     "lat": 48.8307433,
     "lon": 5.8395033,
     "sourceId": "osm_12386656266"
   },
   {
     "id": "faopiz",
-    "name": "Acción Gay",
-    "address": null,
+    "name": "Acción Gay Santiago",
+    "address": "Vidaurre, 8320000, Santiago, Chile",
     "lat": -33.4484217,
     "lon": -70.6571011,
     "sourceId": "osm_10975657432"
@@ -393,40 +393,40 @@
   },
   {
     "id": "snqxha",
-    "name": "Acorn Library",
-    "address": null,
+    "name": "Acorn Library Towson",
+    "address": "Ivywood Lane, 21286, Towson, United States",
     "lat": 39.3943974,
     "lon": -76.5870302,
     "sourceId": "osm_13242185842"
   },
   {
     "id": "hjimjt",
-    "name": "Adam & Aubrey’s Little Library",
-    "address": null,
+    "name": "Adam & Aubrey’s Little Library Concord",
+    "address": "Towne South Road, 63128, Concord, United States",
     "lat": 38.5053709,
     "lon": -90.3647248,
     "sourceId": "osm_10044064760"
   },
   {
     "id": "ritbto",
-    "name": "Adanac Exchange",
-    "address": null,
+    "name": "Adanac Exchange Vancouver",
+    "address": "Adanac Street, V5K 2V4, Vancouver, Canada",
     "lat": 49.2774967,
     "lon": -123.0345557,
     "sourceId": "osm_11168604155"
   },
   {
     "id": "fhxdor",
-    "name": "Adelaide Street Library",
-    "address": null,
+    "name": "Adelaide Street Library Sydney",
+    "address": "View Street, 2025, Sydney, Australia",
     "lat": -33.8879901,
     "lon": 151.2509098,
     "sourceId": "osm_11845734086"
   },
   {
     "id": "sicvxb",
-    "name": "Adele's Little Free Library",
-    "address": null,
+    "name": "Adele's Little Free Library Royal Oak",
+    "address": "Forest Avenue, 48067, Royal Oak, United States",
     "lat": 42.4966084,
     "lon": -83.1187789,
     "sourceId": "osm_13620317423"
@@ -457,8 +457,8 @@
   },
   {
     "id": "ezysie",
-    "name": "Alcove sous le porche.",
-    "address": null,
+    "name": "Alcove sous le porche. Arc-en-Barrois",
+    "address": "Rue Anatole Gabeur, 52210, Arc-en-Barrois, France",
     "lat": 47.9484323,
     "lon": 5.008513,
     "sourceId": "osm_12290493252"
@@ -473,8 +473,8 @@
   },
   {
     "id": "hvfogw",
-    "name": "Ali's Scary Library",
-    "address": null,
+    "name": "Ali's Scary Library Parkville",
+    "address": "Hiss Avenue, 21234, Parkville, United States",
     "lat": 39.382713,
     "lon": -76.5365942,
     "sourceId": "osm_12753408223"
