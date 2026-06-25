@@ -36922,7 +36922,7 @@
   {
     "id": "mmphih",
     "name": "Bücherregal Café GM26 (1. Stock)",
-    "address": "Gutsmuthstr. 26, 12163 Berlin-Steglitz",
+    "address": "Gutsmuthstraße 26, 12163 Berlin-Steglitz",
     "lat": 52.464360870154,
     "lon": 13.32602679039,
     "sourceId": "obc_cZbgYB"
@@ -37450,7 +37450,7 @@
   {
     "id": "pwnmcs",
     "name": "Bücherregal Edeka Handjerystr.",
-    "address": "Handjerystr. 98, Berlin-Friedenau",
+    "address": "Handjerystraße 98, 12159 Berlin-Friedenau",
     "lat": 52.477066,
     "lon": 13.332875,
     "sourceId": "obc_49N040"
@@ -61520,6 +61520,14 @@
     "sourceId": "obc_m9arhY"
   },
   {
+    "id": "derchy",
+    "name": "Bücherschrank Thalfang",
+    "address": "Lückenburger Straße 10, 54424 Thalfang, vor der Kirche",
+    "lat": 49.75220061822,
+    "lon": 6.99752806904,
+    "sourceId": "obc_PoNvgU"
+  },
+  {
     "id": "qqlkhm",
     "name": "Bücherschrank Thalgau",
     "address": "Franz Schossleitner-Straße 16, 5303 Thalgau",
@@ -66326,6 +66334,14 @@
     "lat": 49.9724253,
     "lon": 9.1954072,
     "sourceId": "obc_JPjxk0"
+  },
+  {
+    "id": "nnewsz",
+    "name": "Bücherschrank im Wiwaweiherpark",
+    "address": "Adlerstraße / Nutzungstraße, 91074 Herzogenaurach",
+    "lat": 49.571967,
+    "lon": 10.884817,
+    "sourceId": "obc_KhW9JU"
   },
   {
     "id": "uaeekl",
@@ -115966,14 +115982,6 @@
     "lat": 49.969348,
     "lon": 6.934896,
     "sourceId": "obc_vSZWlo"
-  },
-  {
-    "id": "nnewsz",
-    "name": "Wiwaweiherpark",
-    "address": "",
-    "lat": 49.571967,
-    "lon": 10.884817,
-    "sourceId": "obc_KhW9JU"
   },
   {
     "id": "ycxrwf",
