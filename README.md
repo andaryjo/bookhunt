@@ -1,6 +1,6 @@
 # Bookhunt
 
-> Disclaimer: This application has in large parts written with AI.
+> Disclaimer: Large parts of the codebase have been written with AI.
   Read more on that in [Vibecoding](#vibecoding).
 
 Bookhunt is a website that makes [public bookshelves](https://en.wikipedia.org/wiki/Public_bookcase) (sometimes calle free little libraries) searchable.
