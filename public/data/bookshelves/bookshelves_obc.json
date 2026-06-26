@@ -10913,8 +10913,8 @@
   },
   {
     "id": "oxqvhy",
-    "name": "Book Exchange Das Viwrtel Hostel Freiburg",
-    "address": "",
+    "name": "Book Exchange Das Viertel Hostel Freiburg",
+    "address": "Augustinerpl. 2a, 79098 Freiburg im Breisgau",
     "lat": 47.9938858,
     "lon": 7.8512655,
     "sourceId": "obc_CiZi0i"
@@ -43328,6 +43328,14 @@
     "sourceId": "obc_n9la26"
   },
   {
+    "id": "qtanpb",
+    "name": "Bücherregal in Postfiliale",
+    "address": "Warener Straße 11a, 17217 Penzlin, Be",
+    "lat": 53.50423432434,
+    "lon": 13.08320134878,
+    "sourceId": "obc_lqPBkI"
+  },
+  {
     "id": "phnwwg",
     "name": "Bücherregal in Sparkassenpassage",
     "address": "Ludwigstraße 23, 87600",
@@ -59528,6 +59536,14 @@
     "sourceId": "obc_MRdI6v"
   },
   {
+    "id": "cmradw",
+    "name": "Bücherschrank Schaan",
+    "address": "Landstrasse 20, 9494 Schaan, Liechtenstein",
+    "lat": 47.1658,
+    "lon": 9.50899,
+    "sourceId": "obc_NH8U4L"
+  },
+  {
     "id": "qvysmd",
     "name": "Bücherschrank Schabenhausen",
     "address": "Niedereschacher Straße 2, 78078 Niedereschach-Schabenhausen",
@@ -60494,6 +60510,14 @@
     "lat": 48.869953175965,
     "lon": 8.6699352040887,
     "sourceId": "obc_lRLrZy"
+  },
+  {
+    "id": "vfokau",
+    "name": "Bücherschrank Sonnenkreisel Triesen",
+    "address": "Bushaltestelle Sonnenkreisel, 9495 Triesen, Liechtenstein",
+    "lat": 47.1095281,
+    "lon": 9.5251301,
+    "sourceId": "obc_ifwx02"
   },
   {
     "id": "mtqhqw",
@@ -74558,14 +74582,6 @@
     "lat": 52.218806211019,
     "lon": 9.7927182912827,
     "sourceId": "obc_zhZUph"
-  },
-  {
-    "id": "wkyfnm",
-    "name": "Bücherzelle Jena Paradies",
-    "address": "Knebelstraße 2, 07743 Jena",
-    "lat": 50.925453,
-    "lon": 11.588436,
-    "sourceId": "obc_oApQX3"
   },
   {
     "id": "sfkpfb",
@@ -91910,6 +91926,14 @@
     "lat": 49.990493,
     "lon": 8.6489041,
     "sourceId": "obc_oOPCJZ"
+  },
+  {
+    "id": "ycsnvw",
+    "name": "Kinderbücherschrank Schaan",
+    "address": "",
+    "lat": 47.1647,
+    "lon": 9.50866,
+    "sourceId": "obc_e8Nnlo"
   },
   {
     "id": "lnhsfy",
@@ -110896,6 +110920,14 @@
     "sourceId": "obc_sU0nxo"
   },
   {
+    "id": "fhslot",
+    "name": "Schaan Hostel Library",
+    "address": "Under Rüttigass 6, 9494 Schaan, Liechtenstein",
+    "lat": 47.1569058,
+    "lon": 9.5061349,
+    "sourceId": "obc_v9hwkg"
+  },
+  {
     "id": "oynxcl",
     "name": "Schalunenburgstraat 39",
     "address": "Schalunenburgstraat 39 Nijmegen",
@@ -123782,6 +123814,15 @@
     "lat": 51.5886931,
     "lon": -0.0211816,
     "sourceId": "obc_rGviyz"
+  },
+  {
+    "id": "wkyfnm",
+    "name": "Bücherzelle Jena Paradies",
+    "address": "Knebelstraße 2, 07743 Jena",
+    "lat": 50.925453,
+    "lon": 11.588436,
+    "sourceId": "obc_oApQX3",
+    "removed": true
   },
   {
     "id": "yinsbg",
