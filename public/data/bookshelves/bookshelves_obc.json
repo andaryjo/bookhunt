@@ -10912,6 +10912,14 @@
     "sourceId": "obc_9m6WKA"
   },
   {
+    "id": "oxqvhy",
+    "name": "Book Exchange Das Viwrtel Hostel Freiburg",
+    "address": "",
+    "lat": 47.9938858,
+    "lon": 7.8512655,
+    "sourceId": "obc_CiZi0i"
+  },
+  {
     "id": "fftuaw",
     "name": "Book Exchange Dath Henderson Road",
     "address": "317 Dath Henderson Rd, Tinbeerwah QLD 4563",
@@ -60138,7 +60146,7 @@
   {
     "id": "hgmlpa",
     "name": "Bücherschrank Schönkirchen",
-    "address": "Mönkeberger Weg 5, 24232 Schönkirchen",
+    "address": "Mönkeberger Weg 5, 24232 Schönkirchen, Mönkeberger Weg 5, 24232 Schönkirchen",
     "lat": 54.33922,
     "lon": 10.220817,
     "sourceId": "obc_fIPwIK"
