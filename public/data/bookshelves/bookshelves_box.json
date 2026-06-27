@@ -1647,7 +1647,7 @@
   {
     "id": "ubykzo",
     "name": "Bücherschrank Frankfurt",
-    "address": "60437 Frankfurt, Bonames - Platz am Wendelsgarten",
+    "address": "60437 Frankfurt, Bonames -�� Platz am Wendelsgarten",
     "lat": 50.1838304,
     "lon": 8.665925
   },
@@ -1870,8 +1870,8 @@
   },
   {
     "id": "sxfrkv",
-    "name": "Bücherschrank G��ppingen",
-    "address": "73033 G��ppingen - Obere Marktstraße",
+    "name": "Bücherschrank Göppingen",
+    "address": "73033 Göppingen - Obere Marktstraße",
     "lat": 48.704323,
     "lon": 9.6550405
   },
@@ -3775,7 +3775,7 @@
   {
     "id": "pwaabc",
     "name": "Bücherschrank Köln",
-    "address": "50968 Köln, Cäsarstraße",
+    "address": "50968 Köln, Cäsarstra��e",
     "lat": 50.9074632,
     "lon": 6.9667643
   },
