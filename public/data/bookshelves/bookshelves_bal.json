@@ -13018,7 +13018,7 @@
   {
     "id": "dchdln",
     "name": "Boite a lire Entrée plage sud",
-    "address": "Entrée plage sud, 33121, Carcans océan, France",
+    "address": "Entrée plage sud, 33121, Carcans oc��an, France",
     "lat": 45.082631,
     "lon": -1.186893,
     "sourceId": "bal_9080"
@@ -36025,8 +36025,8 @@
   },
   {
     "id": "akimwu",
-    "name": "Boite a lire Place de la liberté",
-    "address": "Place de la liberté, 17100, Les gonds, France",
+    "name": "Boite a lire Place de la libert��",
+    "address": "Place de la libert��, 17100, Les gonds, France",
     "lat": 45.716159,
     "lon": -0.618063,
     "sourceId": "bal_6017"
@@ -76185,8 +76185,8 @@
   },
   {
     "id": "nszqqu",
-    "name": "Boite a lire 7 all��e des causses",
-    "address": "7 all��e des causses, 31300, Toulouse, France",
+    "name": "Boite a lire 7 allée des causses",
+    "address": "7 allée des causses, 31300, Toulouse, France",
     "lat": 43.619032,
     "lon": 1.401012,
     "sourceId": "bal_617"
