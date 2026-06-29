@@ -26320,6 +26320,14 @@
     "sourceId": "obc_Y6MHHN"
   },
   {
+    "id": "medbnx",
+    "name": "Bookshelf Sunflower Beach Hostel Rimini",
+    "address": "Viale Siracusa, 25, 47924 Rimini RN, Italien",
+    "lat": 44.0428103,
+    "lon": 12.6050312,
+    "sourceId": "obc_ZoKAVn"
+  },
+  {
     "id": "dbtslx",
     "name": "Bookshelf Vikran quay",
     "address": "Brokskarvegen 267, 9057 Vikran",
@@ -28734,6 +28742,14 @@
     "lat": 48.165688,
     "lon": 8.623356,
     "sourceId": "obc_DP3p0Y"
+  },
+  {
+    "id": "hxhhsv",
+    "name": "Brodersdorfer Bücherbox",
+    "address": "Lutterbeker Weg 1, 24235 Brodersdorf, Lutterbeker Weg 1, 24235 Brodersdorf",
+    "lat": 54.386163,
+    "lon": 10.249104,
+    "sourceId": "obc_u6gJxD"
   },
   {
     "id": "qalrpl",
@@ -31642,7 +31658,7 @@
   {
     "id": "ilrggo",
     "name": "BücherboXX MGH Zehlendorf",
-    "address": "Teltower Damm 228, 14167 Berlin-Zehlendorf, Teltower Damm 228, 14167 Berlin-Zehlendorf",
+    "address": "Teltower Damm 228, 14167 Berlin-Zehlendorf",
     "lat": 52.413302,
     "lon": 13.266535,
     "sourceId": "obc_S4tIrl"
@@ -33480,6 +33496,14 @@
     "sourceId": "obc_ULvN2F"
   },
   {
+    "id": "mbxwrp",
+    "name": "Bücherhaltestelle Silberturmer Weg",
+    "address": "Neuheikendorfer Weg 138, 24226 Heikendorf, Haltestelle Silberturmer Weg",
+    "lat": 54.377714213054,
+    "lon": 10.230063235337,
+    "sourceId": "obc_X9jsJV"
+  },
+  {
     "id": "axlbzl",
     "name": "Bücherhaltestelle Thanheim",
     "address": "Onstmettinger Str., 72406 Bisingen-Thanheim",
@@ -33590,6 +33614,14 @@
     "lat": 51.304671,
     "lon": 6.294401,
     "sourceId": "obc_HRqGXA"
+  },
+  {
+    "id": "vyvwnf",
+    "name": "Bücherhaus Pastorat",
+    "address": "Jahnstr. 2, 23744 Schönwalde am Bungsberg",
+    "lat": 54.186825,
+    "lon": 10.754999,
+    "sourceId": "obc_nDb1nc"
   },
   {
     "id": "jymniz",
@@ -33886,6 +33918,14 @@
     "lat": 47.680222,
     "lon": 8.61649,
     "sourceId": "obc_gE36jk"
+  },
+  {
+    "id": "pomejn",
+    "name": "Bücherhäuschen Kirchnüchel",
+    "address": "Kirchnüchel 1, 23714 Kirchnüchel",
+    "lat": 54.20454961599,
+    "lon": 10.67750126123,
+    "sourceId": "obc_4MD4Y8"
   },
   {
     "id": "jrhgkk",
@@ -35894,14 +35934,6 @@
     "lat": 47.782667111606,
     "lon": 9.6103120582212,
     "sourceId": "obc_v7hLzt"
-  },
-  {
-    "id": "xkgmex",
-    "name": "Bücherregal",
-    "address": "Untere Breite Straße 23, 88212 Ravensburg",
-    "lat": 47.782667111606,
-    "lon": 9.6103120582212,
-    "sourceId": "obc_PG7C27"
   },
   {
     "id": "cplfck",
@@ -40410,7 +40442,7 @@
   {
     "id": "drsfkv",
     "name": "Bücherregal Prasdorf",
-    "address": "Teichstraße 11, 24253 Prasdorf",
+    "address": "Teichstraße 11, 24253 Prasdorf, Teichstraße 11, 24253 Prasdorf",
     "lat": 54.378838,
     "lon": 10.29515,
     "sourceId": "obc_aMugfk"
@@ -70250,7 +70282,7 @@
   {
     "id": "kpackg",
     "name": "Bücherzelle Barsbek",
-    "address": "Neddelsthörn 6, 24217 Barsbek",
+    "address": "Neddelsthörn 6, 24217 Barsbek, Neddelsthörn 6, 24217 Barsbek",
     "lat": 54.40457,
     "lon": 10.31927,
     "sourceId": "obc_WaN34n"
@@ -70966,14 +70998,6 @@
     "lat": 52.256566800533,
     "lon": 14.575231075287,
     "sourceId": "obc_trMtTq"
-  },
-  {
-    "id": "hxhhsv",
-    "name": "Bücherzelle Brodersdorf",
-    "address": "Lutterbeker Weg 1, 24235 Brodersdorf",
-    "lat": 54.386163,
-    "lon": 10.249104,
-    "sourceId": "obc_u6gJxD"
   },
   {
     "id": "bpvfbt",
@@ -85966,6 +85990,14 @@
     "lat": 49.080416947752,
     "lon": 9.0911989286542,
     "sourceId": "obc_6UYRWi"
+  },
+  {
+    "id": "krqorc",
+    "name": "Dat Bookhus",
+    "address": "Heischbrook, 24321 Klamp",
+    "lat": 54.28168,
+    "lon": 10.571292,
+    "sourceId": "obc_F8IjSf"
   },
   {
     "id": "kihupz",
@@ -123830,6 +123862,15 @@
     "lat": 51.5886931,
     "lon": -0.0211816,
     "sourceId": "obc_rGviyz"
+  },
+  {
+    "id": "xkgmex",
+    "name": "Bücherregal",
+    "address": "Untere Breite Straße 23, 88212 Ravensburg",
+    "lat": 47.782667111606,
+    "lon": 9.6103120582212,
+    "sourceId": "obc_PG7C27",
+    "removed": true
   },
   {
     "id": "wkyfnm",
