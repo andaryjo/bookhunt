@@ -30306,7 +30306,7 @@
   {
     "id": "kjrmgk",
     "name": "Bökerschapp Selent",
-    "address": "Kösterberg 3, Selent",
+    "address": "Kösterberg 3, 24238 Selent",
     "lat": 54.289444,
     "lon": 10.425,
     "sourceId": "obc_A9qZ5w"
@@ -33734,14 +33734,6 @@
     "lat": 46.972052,
     "lon": 15.498696,
     "sourceId": "obc_gvgYRB"
-  },
-  {
-    "id": "fsauoh",
-    "name": "Bücherhäuschen (Klohaus) Pastorat",
-    "address": "Jahnweg, 23744 Schönwalde am Bungsberg",
-    "lat": 54.1866966,
-    "lon": 10.7546344,
-    "sourceId": "obc_0TKtAS"
   },
   {
     "id": "mdnrkc",
@@ -37694,6 +37686,14 @@
     "lat": 47.676331,
     "lon": 9.311293,
     "sourceId": "obc_C8I5Dp"
+  },
+  {
+    "id": "aqofqm",
+    "name": "Bücherregal Evangelische Kirche Affaltrach",
+    "address": "Am Ordensschloß 3, 74182 Obersulm-Affaltrach",
+    "lat": 49.13434572548,
+    "lon": 9.38314861657,
+    "sourceId": "obc_OWJe3M"
   },
   {
     "id": "wsvwoe",
@@ -71808,6 +71808,14 @@
     "sourceId": "obc_PoTkk7"
   },
   {
+    "id": "earbbq",
+    "name": "Bücherzelle Dölsach",
+    "address": "Dölsacher Straße 5, 9991 Dölsach",
+    "lat": 46.825444,
+    "lon": 12.837424,
+    "sourceId": "obc_z4bUPJ"
+  },
+  {
     "id": "kxsfjw",
     "name": "Bücherzelle Dürmentingen-Heudorf",
     "address": "Wiesenweg 3, 88525 Dürmentingen-Heudorf",
@@ -76058,10 +76066,26 @@
   {
     "id": "nikobt",
     "name": "Bücherzelle Lienz",
-    "address": "Egger-Lienz-Platz 1, 9900 Lienz",
+    "address": "Egger-Lienz-Platz 2, 9900 Lienz, Die von einer Projektgruppe der Neuen Mittelschule Egger-Lienz bemalte und von Metalltechnikern der Tiroler Fachberufsschule Lienz im Inneren ausgestattete beleuchtete Bücherzelle bei der Stadtbücherei Lienz war die erste ihrer Art in Osttirol und wird vom Team der Bücherei bzw. des dazugehörigen Bücherflohmarktes betreut.",
     "lat": 46.830595,
     "lon": 12.764679,
     "sourceId": "obc_6qwNwX"
+  },
+  {
+    "id": "aviyov",
+    "name": "Bücherzelle Lienz Maximilianstraße",
+    "address": "gegenüber Maximilianstraße 20, 9900 Lienz",
+    "lat": 46.83502,
+    "lon": 12.772407,
+    "sourceId": "obc_QT4omQ"
+  },
+  {
+    "id": "eigpei",
+    "name": "Bücherzelle Lienz Schloßgasse",
+    "address": "Schloßgasse 4, 9900 Lienz",
+    "lat": 46.831697,
+    "lon": 12.758628,
+    "sourceId": "obc_ovR27c"
   },
   {
     "id": "bmvmle",
@@ -78014,6 +78038,14 @@
     "lat": 47.801892,
     "lon": 11.075131,
     "sourceId": "obc_PD29sP"
+  },
+  {
+    "id": "nypufz",
+    "name": "Bücherzelle Pelzerhaken",
+    "address": "Eschenweg 2, 23730 Neustadt in Holstein-Pelzerhaken",
+    "lat": 54.090051063954,
+    "lon": 10.850791744888,
+    "sourceId": "obc_qwRfYf"
   },
   {
     "id": "epiykn",
@@ -85072,6 +85104,14 @@
     "sourceId": "obc_wSyqct"
   },
   {
+    "id": "vgdhtd",
+    "name": "Casa dei libri Villa Comunale di Salerno",
+    "address": "",
+    "lat": 40.6787679,
+    "lon": 14.7534377,
+    "sourceId": "obc_2AQjkD"
+  },
+  {
     "id": "gzzqze",
     "name": "Casablanca Kino",
     "address": "Brosamerstraße 16, 90459 Nürnberg",
@@ -85993,8 +86033,8 @@
   },
   {
     "id": "krqorc",
-    "name": "Dat Bookhus",
-    "address": "Heischbrook, 24321 Klamp",
+    "name": "Dat Bookhus Vogelsdorf",
+    "address": "Heischbrook 1, 24321 Klamp-Vogelsdorf",
     "lat": 54.28168,
     "lon": 10.571292,
     "sourceId": "obc_F8IjSf"
@@ -91952,6 +91992,14 @@
     "sourceId": "obc_eSczVM"
   },
   {
+    "id": "fjosdg",
+    "name": "Kinderbücherschrank - Campus Om Berg Hoholz",
+    "address": "Pützhecke 10, 53229 Bonn-Beuel",
+    "lat": 50.73834615719,
+    "lon": 7.19747185707,
+    "sourceId": "obc_93VKWs"
+  },
+  {
     "id": "ymccqg",
     "name": "Kinderbücherschrank / Laatzen",
     "address": "Thiestraße, Ecke Bernhard-Ehlers-Straße, 30880 Laatzen",
@@ -91978,7 +92026,7 @@
   {
     "id": "ycsnvw",
     "name": "Kinderbücherschrank Schaan",
-    "address": "",
+    "address": "Landstrasse 40, 9494 Schaan",
     "lat": 47.1647,
     "lon": 9.50866,
     "sourceId": "obc_e8Nnlo"
@@ -110408,14 +110456,6 @@
     "sourceId": "obc_5F645N"
   },
   {
-    "id": "nypufz",
-    "name": "Rote Telefonzelle Bücherschrank",
-    "address": "Eschenweg 2, 23730 Neustadt in Holstein",
-    "lat": 54.090051063954,
-    "lon": 10.850791744888,
-    "sourceId": "obc_qwRfYf"
-  },
-  {
     "id": "qmnzkx",
     "name": "Rote Telefonzelle an der Ecke",
     "address": "Pfalzring , 67112 Mutterstadt",
@@ -123862,6 +123902,15 @@
     "lat": 51.5886931,
     "lon": -0.0211816,
     "sourceId": "obc_rGviyz"
+  },
+  {
+    "id": "fsauoh",
+    "name": "Bücherhäuschen (Klohaus) Pastorat",
+    "address": "Jahnweg, 23744 Schönwalde am Bungsberg",
+    "lat": 54.1866966,
+    "lon": 10.7546344,
+    "sourceId": "obc_0TKtAS",
+    "removed": true
   },
   {
     "id": "xkgmex",
