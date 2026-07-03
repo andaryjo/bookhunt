@@ -19024,6 +19024,14 @@
     "sourceId": "obc_GSsspW"
   },
   {
+    "id": "gebfzy",
+    "name": "Book Exchange Ostello Bello Palermo",
+    "address": "Via Galileo Ferraris 3/5, 90133 Palermo PA",
+    "lat": 38.123299,
+    "lon": 13.3656551,
+    "sourceId": "obc_Fka9kM"
+  },
+  {
     "id": "omgmnp",
     "name": "Book Exchange Other People’s Books",
     "address": "151 Burns Bay Rd, Lane Cove NSW 2066",
@@ -33318,6 +33326,14 @@
     "lat": 51.593696,
     "lon": 7.9539681,
     "sourceId": "obc_LkEsKO"
+  },
+  {
+    "id": "qxfdif",
+    "name": "Bücherhaltestelle Gomadingen",
+    "address": "Marbacher Straße 2, 72532 Gomadingen",
+    "lat": 48.399605,
+    "lon": 9.392678,
+    "sourceId": "obc_JTtShE"
   },
   {
     "id": "ulgvet",
@@ -55410,7 +55426,7 @@
   {
     "id": "yqlfnz",
     "name": "Bücherschrank Malmsheim",
-    "address": "Westerfeldstraße 4-6, Malmsheim",
+    "address": "Westerfeldstraße 3/1, 71272 Renningen-Malmsheim",
     "lat": 48.77347879791032,
     "lon": 8.90187033322011,
     "sourceId": "obc_0caqD1"
@@ -68014,14 +68030,6 @@
     "lat": 48.1757,
     "lon": 16.3703125,
     "sourceId": "obc_b82tLb"
-  },
-  {
-    "id": "qxfdif",
-    "name": "Büchertauschregal Gomadingen",
-    "address": "Marbacher Str. 2, 72532 Gomadingen",
-    "lat": 48.399605,
-    "lon": 9.392678,
-    "sourceId": "obc_JTtShE"
   },
   {
     "id": "tpbgsr",
@@ -85106,7 +85114,7 @@
   {
     "id": "vgdhtd",
     "name": "Casa dei libri Villa Comunale di Salerno",
-    "address": "",
+    "address": "Via Roma, 84100 Salerno SA",
     "lat": 40.6787679,
     "lon": 14.7534377,
     "sourceId": "obc_2AQjkD"
