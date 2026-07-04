@@ -26072,6 +26072,14 @@
     "sourceId": "obc_fzcxAL"
   },
   {
+    "id": "ihyrls",
+    "name": "Bookcase Ecológica Bistrot",
+    "address": "",
+    "lat": 38.1181643,
+    "lon": 13.3659444,
+    "sourceId": "obc_K03to3"
+  },
+  {
     "id": "ccdbnj",
     "name": "Bookcase Los Cangrejos",
     "address": "Tr.ª de los Cancajos, 36, 38712 Breña Baja, Santa Cruz de Tenerife",
@@ -78984,6 +78992,22 @@
     "sourceId": "obc_kdJaFP"
   },
   {
+    "id": "xdtrcc",
+    "name": "Bücherzelle Ringelsdorf-Niederabsdorf Heimatmuseum",
+    "address": "Liechtensteinstraße 147, 2272 Ringelsdorf-Niederabsdorf",
+    "lat": 48.565529,
+    "lon": 16.857102,
+    "sourceId": "obc_2N16Ey"
+  },
+  {
+    "id": "tbjgyk",
+    "name": "Bücherzelle Ringelsdorf-Niederabsdorf Park Drösingerstraße",
+    "address": "Untere Hauptstraße 63, 2272 Ringelsdorf 63, 2272 Ringelsdorf",
+    "lat": 48.559997,
+    "lon": 16.873244,
+    "sourceId": "obc_n30VE9"
+  },
+  {
     "id": "gavean",
     "name": "Bücherzelle Rinkerode",
     "address": "Dorfplatz / Mägdestiege 5, 48317 Drensteinfurt-Rinkerode",
@@ -81054,6 +81078,14 @@
     "lat": 52.612325,
     "lon": 12.000584,
     "sourceId": "obc_x41UNs"
+  },
+  {
+    "id": "dsmkxy",
+    "name": "Bücherzelle Strasshof an der Nordbahn",
+    "address": "Schönkirchner Straße 3, 2231 Strasshof an der Nordbahn",
+    "lat": 48.321588,
+    "lon": 16.654033,
+    "sourceId": "obc_YjcbVn"
   },
   {
     "id": "zjsuic",
