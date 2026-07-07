@@ -26074,7 +26074,7 @@
   {
     "id": "ihyrls",
     "name": "Bookcase Ecológica Bistrot",
-    "address": "",
+    "address": "Via Chiavettieri 38, 90133 Palermo PA",
     "lat": 38.1181643,
     "lon": 13.3659444,
     "sourceId": "obc_K03to3"
@@ -26310,6 +26310,14 @@
     "lat": 52.411731262517904,
     "lon": 12.538471130555607,
     "sourceId": "obc_xZ6bIt"
+  },
+  {
+    "id": "zjfbss",
+    "name": "Bookshelf Bar Veneto Tropea",
+    "address": "",
+    "lat": 38.6767767,
+    "lon": 15.8968366,
+    "sourceId": "obc_Q6PDXi"
   },
   {
     "id": "comrwf",
@@ -33272,6 +33280,14 @@
     "sourceId": "obc_qK6ZpX"
   },
   {
+    "id": "rgkaug",
+    "name": "Bücherhaltestelle Appelhagen",
+    "address": "Appelhagen 21, 17166 Dalkendorf-Appelhagen",
+    "lat": 53.8061958,
+    "lon": 12.5265112,
+    "sourceId": "obc_es2uGo"
+  },
+  {
     "id": "lyxite",
     "name": "Bücherhaltestelle Barnten",
     "address": "Glückaufstraße, 31171 Nordstemmen-Barnten",
@@ -33402,7 +33418,7 @@
   {
     "id": "ajwktl",
     "name": "Bücherhaltestelle Klein Luckow",
-    "address": "Klein Luckow, 17194 Vollrathsruhe",
+    "address": "Klein Luckow, 17194 Vollrathsruhe-Klein Luckow",
     "lat": 53.674907,
     "lon": 12.484677,
     "sourceId": "obc_lI0Xq7"
@@ -37424,6 +37440,14 @@
     "sourceId": "obc_Gc7S9l"
   },
   {
+    "id": "mdzhle",
+    "name": "Bücherregal EDEKA Neumannstraße",
+    "address": "Neumannstraße 70, 13189 Berlin-Pankow",
+    "lat": 52.56435449521,
+    "lon": 13.42077031334,
+    "sourceId": "obc_nBZjKr"
+  },
+  {
     "id": "ywuxmh",
     "name": "Bücherregal EDEKA Porta Westfalica",
     "address": "Flurweg 11, 32457 Porta Westfalica",
@@ -38774,6 +38798,14 @@
     "lat": 49.511375,
     "lon": 10.978539,
     "sourceId": "obc_jsLaPW"
+  },
+  {
+    "id": "jdxxri",
+    "name": "Bücherregal Heinrich-Mann-Straße",
+    "address": "Heinrich-Mann-Straße 29, 13156 Berlin-Niederschönhausen",
+    "lat": 52.572424,
+    "lon": 13.39378,
+    "sourceId": "obc_zXuSef"
   },
   {
     "id": "agfjtz",
@@ -40174,14 +40206,6 @@
     "lat": 48.132872,
     "lon": 8.529725,
     "sourceId": "obc_BYs1Ze"
-  },
-  {
-    "id": "jdxxri",
-    "name": "Bücherregal Niederschönhausen",
-    "address": "Heinrich-Mann-Str. 29, 13156 Berlin-Niederschönhausen",
-    "lat": 52.572424,
-    "lon": 13.39378,
-    "sourceId": "obc_zXuSef"
   },
   {
     "id": "hyuhpa",
@@ -43144,6 +43168,14 @@
     "sourceId": "obc_yzYjT4"
   },
   {
+    "id": "ckstgp",
+    "name": "Bücherregal im Rathaus Elgersweier",
+    "address": "Kreuzwegstraße 16, 77656 Offenburg-Elgersweier 16, 77656 Offenburg-Elgersweier, Kreuzwegstraße 16, 77656",
+    "lat": 48.439980791926,
+    "lon": 7.9456375166774,
+    "sourceId": "obc_oPXSd7"
+  },
+  {
     "id": "xzchns",
     "name": "Bücherregal im Rathaus Fellbach",
     "address": ", 70734",
@@ -43158,14 +43190,6 @@
     "lat": 50.437139146999,
     "lon": 7.6668513938785,
     "sourceId": "obc_0nRYOD"
-  },
-  {
-    "id": "ckstgp",
-    "name": "Bücherregal im Rathaus OG-Elgersweier",
-    "address": "Kreuzwegstraße 16, 77656",
-    "lat": 48.439980791926,
-    "lon": 7.9456375166774,
-    "sourceId": "obc_oPXSd7"
   },
   {
     "id": "bdxeuk",
@@ -44536,14 +44560,6 @@
     "sourceId": "obc_FUoSl6"
   },
   {
-    "id": "pbxkkt",
-    "name": "Bücherschrank",
-    "address": "",
-    "lat": 51.48914,
-    "lon": 14.454414,
-    "sourceId": "obc_K9euwd"
-  },
-  {
     "id": "upyksl",
     "name": "Bücherschrank   Castets",
     "address": "Chemin de barrats  Castets",
@@ -44742,14 +44758,6 @@
     "lat": 49.33503,
     "lon": 7.607029,
     "sourceId": "obc_mTQggl"
-  },
-  {
-    "id": "rqofse",
-    "name": "Bücherschrank  am Diebsteig 3",
-    "address": "Großer Diebsteig 3, 18439 Stralsund",
-    "lat": 54.308877417547,
-    "lon": 13.100318613095,
-    "sourceId": "obc_Ksesf2"
   },
   {
     "id": "vjbxle",
@@ -47042,7 +47050,7 @@
   {
     "id": "bbzzge",
     "name": "Bücherschrank Brandis",
-    "address": "Hainbuchenallee 47, 04821",
+    "address": "Hainbuchenallee 47, 04821 Brandis",
     "lat": 51.342549,
     "lon": 12.605862,
     "sourceId": "obc_JrJEZ4"
@@ -48958,6 +48966,14 @@
     "lat": 47.105122,
     "lon": 15.613073,
     "sourceId": "obc_QrbZv2"
+  },
+  {
+    "id": "arydyw",
+    "name": "Bücherschrank Eglingen",
+    "address": "Gartenstraße 4, 72531 Hohenstein-Eglingen",
+    "lat": 48.35118628696,
+    "lon": 9.42804963284,
+    "sourceId": "obc_LJNbbd"
   },
   {
     "id": "zidokv",
@@ -50984,6 +51000,14 @@
     "sourceId": "obc_x3RbX2"
   },
   {
+    "id": "ncmxhn",
+    "name": "Bücherschrank Groß Kedingshagen",
+    "address": "Schlossplatz 5, 18445 Kramerhof-Groß Kedingshagen, Schlossplatz 5, 18445 Kramerhof",
+    "lat": 54.338156663813,
+    "lon": 13.035164326429,
+    "sourceId": "obc_TssVtl"
+  },
+  {
     "id": "hjxues",
     "name": "Bücherschrank Groß-Gerau",
     "address": "Am Marktplatz 16, 64521",
@@ -51022,6 +51046,14 @@
     "lat": 51.229326,
     "lon": 12.385156,
     "sourceId": "obc_NWSXA6"
+  },
+  {
+    "id": "rqofse",
+    "name": "Bücherschrank Großer Diebsteig",
+    "address": "Großer Diebsteig 3, 18439 Stralsund",
+    "lat": 54.308877417547,
+    "lon": 13.100318613095,
+    "sourceId": "obc_Ksesf2"
   },
   {
     "id": "kctbbm",
@@ -51470,14 +51502,6 @@
     "lat": 51.772257,
     "lon": 7.2232276,
     "sourceId": "obc_ea0lnP"
-  },
-  {
-    "id": "rgkaug",
-    "name": "Bücherschrank Haltestelle Appelhagen",
-    "address": "Appelhagen 21, 17166 Dalkendorf-Appelhagen",
-    "lat": 53.8061958,
-    "lon": 12.5265112,
-    "sourceId": "obc_es2uGo"
   },
   {
     "id": "zeusqu",
@@ -56920,6 +56944,14 @@
     "sourceId": "obc_s5lGbJ"
   },
   {
+    "id": "pbxkkt",
+    "name": "Bücherschrank Neustadt/Spree",
+    "address": "Dorfstraße 10, 02979 Neustadt/Spree",
+    "lat": 51.48914,
+    "lon": 14.454414,
+    "sourceId": "obc_K9euwd"
+  },
+  {
     "id": "gkkcom",
     "name": "Bücherschrank Neustraße",
     "address": "Neustraße 18, 47441 Moers",
@@ -57670,6 +57702,14 @@
     "lat": 50.822313,
     "lon": 8.775855,
     "sourceId": "obc_Ubg5gL"
+  },
+  {
+    "id": "zptrtn",
+    "name": "Bücherschrank Ortenberg (Baden)",
+    "address": "Dorfplatz 3, 77799 Ortenberg (Baden)",
+    "lat": 48.4505,
+    "lon": 7.9711,
+    "sourceId": "obc_PVAJeT"
   },
   {
     "id": "kpwgsn",
@@ -63528,6 +63568,14 @@
     "sourceId": "obc_QnP2Jm"
   },
   {
+    "id": "vtnpii",
+    "name": "Bücherschrank Winzerhalde",
+    "address": "Winzerhalde 66-68, 8049 Zürich, Privatweg: Paul-Trautvetter-Weg",
+    "lat": 47.40171128237,
+    "lon": 8.48806768656,
+    "sourceId": "obc_Zv25rV"
+  },
+  {
     "id": "dlyugj",
     "name": "Bücherschrank Wipshausen",
     "address": "Rathausring 8A, 31234 Edemissen/Wipshausen",
@@ -63866,7 +63914,7 @@
   {
     "id": "rbqivv",
     "name": "Bücherschrank am Alten Marinehafen",
-    "address": "Am Alten Marinehafen 10, 18439 Stralsund",
+    "address": "Am Alten Marinehafen 10, 18439 Stralsund-Dänholm",
     "lat": 54.306017695134,
     "lon": 13.122293969246,
     "sourceId": "obc_SS4mOW"
@@ -63896,14 +63944,6 @@
     "sourceId": "obc_NdyeyX"
   },
   {
-    "id": "eomygo",
-    "name": "Bücherschrank am Bahnhof",
-    "address": "Bahnhofstraße 3, 18469 Velgast",
-    "lat": 54.277227213143,
-    "lon": 12.803031206131,
-    "sourceId": "obc_btiqcY"
-  },
-  {
     "id": "rukmcj",
     "name": "Bücherschrank am Bahnhof HD Schlierbach-Ziegelhausen",
     "address": "In der Aue , 69118 Heidelberg",
@@ -63918,6 +63958,14 @@
     "lat": 53.387556498344,
     "lon": 10.108690224588,
     "sourceId": "obc_ICFtKX"
+  },
+  {
+    "id": "eomygo",
+    "name": "Bücherschrank am Bahnhof Velgast",
+    "address": "Bahnhofstraße 3, 18469 Velgast",
+    "lat": 54.277227213143,
+    "lon": 12.803031206131,
+    "sourceId": "obc_btiqcY"
   },
   {
     "id": "urshgr",
@@ -64478,14 +64526,6 @@
     "lat": 48.380989,
     "lon": 10.880982,
     "sourceId": "obc_k81wqX"
-  },
-  {
-    "id": "ncmxhn",
-    "name": "Bücherschrank am Schlossplatz 5",
-    "address": "Schlossplatz 5, 18445 Kramerhof",
-    "lat": 54.338156663813,
-    "lon": 13.035164326429,
-    "sourceId": "obc_TssVtl"
   },
   {
     "id": "jgnaze",
@@ -68640,6 +68680,14 @@
     "sourceId": "obc_Evtq1e"
   },
   {
+    "id": "gusqcy",
+    "name": "Büchertreff Unter der Brücke",
+    "address": "Bahnhofstraße / Unterführung Ernst-Barlach-Straße, 18055 Rostock",
+    "lat": 54.086438,
+    "lon": 12.144474,
+    "sourceId": "obc_bqDY1H"
+  },
+  {
     "id": "dinajs",
     "name": "Büchertresor Nehren",
     "address": "Luppachstraße / Auchtertstraße, 72147 Nehren",
@@ -71482,7 +71530,7 @@
   {
     "id": "ygglvv",
     "name": "Bücherzelle DRK Nachbarschaftszentrum",
-    "address": "Sella-Hasse-Straße 19/21, 12687 Berlin-Marzahn",
+    "address": "Sella-Hasse-Straße 19/21, 12687 Berlin-Marzahn, Sella-Hasse-Straße 19/21, 12687 Berlin-Marzahn",
     "lat": 52.5528431,
     "lon": 13.558468,
     "sourceId": "obc_keXhFd"
@@ -72634,7 +72682,7 @@
   {
     "id": "siitkd",
     "name": "Bücherzelle Förste",
-    "address": "Förster Str. 131, 37520 Osterode am Harz-Förste",
+    "address": "Förster Straße 131, 37520 Osterode am Harz-Förste",
     "lat": 51.742058,
     "lon": 10.173469,
     "sourceId": "obc_Aacey6"
@@ -74865,8 +74913,8 @@
   },
   {
     "id": "qkvoiv",
-    "name": "Bücherzelle Kaulsdorfer Str.",
-    "address": "Kaulsdorfer Str. 201, 12555 Berlin-Köpenick",
+    "name": "Bücherzelle Kaulsdorfer Straße",
+    "address": "Kaulsdorfer Straße 201, 12555 Berlin-Köpenick",
     "lat": 52.4656173,
     "lon": 13.5751336,
     "sourceId": "obc_s15Fsb"
@@ -79002,7 +79050,7 @@
   {
     "id": "tbjgyk",
     "name": "Bücherzelle Ringelsdorf-Niederabsdorf Park Drösingerstraße",
-    "address": "Untere Hauptstraße 63, 2272 Ringelsdorf 63, 2272 Ringelsdorf",
+    "address": "Untere Hauptstraße 63, 2272 Ringelsdorf",
     "lat": 48.559997,
     "lon": 16.873244,
     "sourceId": "obc_n30VE9"
@@ -81362,7 +81410,7 @@
   {
     "id": "keabhm",
     "name": "Bücherzelle Teterow",
-    "address": "Niels-Stensen-Str. 2, 17166 Teterow",
+    "address": "Niels-Stensen-Straße 2, 17166 Teterow",
     "lat": 53.769771,
     "lon": 12.573763,
     "sourceId": "obc_DIECz9"
@@ -83458,7 +83506,7 @@
   {
     "id": "wpslqa",
     "name": "Bücherzelle am Alten Waschhaus",
-    "address": "Jacobsohnstr. 51H, 13086 Berlin-Weissensee",
+    "address": "Jacobsohnstraße 51H, 13086 Berlin-Weissensee",
     "lat": 52.557934,
     "lon": 13.436311,
     "sourceId": "obc_gsDZdM"
@@ -83922,7 +83970,7 @@
   {
     "id": "fymyoa",
     "name": "Bücherzelle beim Rathaus Brandis",
-    "address": "Markt 3, 04821",
+    "address": "Markt 3, 04821 Brandis",
     "lat": 51.334767489807,
     "lon": 12.609488368034,
     "sourceId": "obc_Rq5VVl"
@@ -89824,6 +89872,14 @@
     "sourceId": "obc_GbIqTz"
   },
   {
+    "id": "gaigli",
+    "name": "Hafenbibliothel Altefähr",
+    "address": "Am Fährberg 9, 18573 Altefähr",
+    "lat": 54.32981651442,
+    "lon": 13.12379064366,
+    "sourceId": "obc_ofTltk"
+  },
+  {
     "id": "kihawj",
     "name": "Hage, Heidkamp",
     "address": "Heidkamp 6, 26524 Hage",
@@ -95286,6 +95342,14 @@
     "lat": 25.713229,
     "lon": 94.465826,
     "sourceId": "obc_LAMt8u"
+  },
+  {
+    "id": "nkkcgq",
+    "name": "Little Library Pangea Hostel Tropea",
+    "address": "",
+    "lat": 38.6716554,
+    "lon": 15.8895356,
+    "sourceId": "obc_vP2vDV"
   },
   {
     "id": "dzmbaj",
@@ -108976,22 +109040,6 @@
     "sourceId": "obc_9OjwrN"
   },
   {
-    "id": "zptrtn",
-    "name": "Ortenberg (Baden)",
-    "address": "Dorfplatz 3, 77799 Ortenberg",
-    "lat": 48.4505,
-    "lon": 7.9711,
-    "sourceId": "obc_PVAJeT"
-  },
-  {
-    "id": "ubzaio",
-    "name": "Ortenberg /  Dorfplatz",
-    "address": "3, 77799 Ortenberg",
-    "lat": 48.450455155798,
-    "lon": 7.9711913516878,
-    "sourceId": "obc_UJMqJp"
-  },
-  {
     "id": "kzcvns",
     "name": "Ostmarkt",
     "address": ",",
@@ -112936,6 +112984,14 @@
     "sourceId": "obc_uvaclR"
   },
   {
+    "id": "vwznln",
+    "name": "Tauschbox Wilhelm-Blos-Straße",
+    "address": "Wilhelm-Blos-Straße 8, 12623 Berlin-Mahlsdorf",
+    "lat": 52.47384394566,
+    "lon": 13.60187299983,
+    "sourceId": "obc_itCsQP"
+  },
+  {
     "id": "lafjll",
     "name": "Tauschbox des Stadtteilbüros",
     "address": "Königstraße 93, 67655 Kaiserslautern",
@@ -113518,6 +113574,14 @@
     "lat": 50.34317,
     "lon": 8.0478,
     "sourceId": "obc_C6a1UV"
+  },
+  {
+    "id": "ahgtjc",
+    "name": "Tauschzelle Wilhelminenhofstraße",
+    "address": "Wilhelminenhofstraße 27, 12459 Berlin-Oberschöneweide, Tauschbox für Bücher und Kleidung",
+    "lat": 52.46187343997,
+    "lon": 13.51708889008,
+    "sourceId": "obc_MPLhB2"
   },
   {
     "id": "zampha",
@@ -114878,14 +114942,6 @@
     "lat": -2.185545,
     "lon": -79.904262,
     "sourceId": "obc_Njo2Vv"
-  },
-  {
-    "id": "gusqcy",
-    "name": "Unter der Brücke",
-    "address": "",
-    "lat": 54.086438,
-    "lon": 12.144474,
-    "sourceId": "obc_bqDY1H"
   },
   {
     "id": "sxguio",
@@ -123942,6 +123998,15 @@
     "lat": 51.5886931,
     "lon": -0.0211816,
     "sourceId": "obc_rGviyz"
+  },
+  {
+    "id": "ubzaio",
+    "name": "Ortenberg /  Dorfplatz",
+    "address": "3, 77799 Ortenberg",
+    "lat": 48.450455155798,
+    "lon": 7.9711913516878,
+    "sourceId": "obc_UJMqJp",
+    "removed": true
   },
   {
     "id": "fsauoh",
