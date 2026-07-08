@@ -26314,7 +26314,7 @@
   {
     "id": "zjfbss",
     "name": "Bookshelf Bar Veneto Tropea",
-    "address": "",
+    "address": "Piazza Vittorio Veneto, 89861 Tropea VV",
     "lat": 38.6767767,
     "lon": 15.8968366,
     "sourceId": "obc_Q6PDXi"
@@ -31072,6 +31072,14 @@
     "sourceId": "obc_26q1O7"
   },
   {
+    "id": "ueevhf",
+    "name": "Bücherbank Touristeninformation Erlbach",
+    "address": "Kirchstraße 20, 08258 Markneukirchen-Erlbach",
+    "lat": 50.31341037227,
+    "lon": 12.37220917619,
+    "sourceId": "obc_IyruaX"
+  },
+  {
     "id": "jlnlfb",
     "name": "Bücherbank Weibern",
     "address": "Allenstraße 30, 56745 Weibern",
@@ -33050,7 +33058,7 @@
   {
     "id": "svquej",
     "name": "Bücherfreunde Markneukirchen",
-    "address": "Poststr. 1, 08258 Markneukirchen im Vogtland",
+    "address": "Poststraße 1-2, 08258 Markneukirchen im Vogtland",
     "lat": 50.310297,
     "lon": 12.325029,
     "sourceId": "obc_SWNCFo"
@@ -33384,6 +33392,14 @@
     "sourceId": "obc_NYHORf"
   },
   {
+    "id": "mixyxh",
+    "name": "Bücherhaltestelle Hammerbrücke",
+    "address": "Neue Straße 16, 08269 Muldenhammer-Hammerbrücke",
+    "lat": 50.4364441086,
+    "lon": 12.412337719,
+    "sourceId": "obc_t9VECX"
+  },
+  {
     "id": "gdxarf",
     "name": "Bücherhaltestelle Hausdorf",
     "address": "Untere Dorfstraße 23, 01768 Glashütte-Hausdorf",
@@ -33504,12 +33520,28 @@
     "sourceId": "obc_ZllpEq"
   },
   {
+    "id": "crefvh",
+    "name": "Bücherhaltestelle Pfaffengrün",
+    "address": "Hauptstraße / Alte Straße, 08233 Treuen-Pfaffengrün",
+    "lat": 50.56085086806,
+    "lon": 12.27639802948,
+    "sourceId": "obc_CmgCPB"
+  },
+  {
     "id": "elhpwf",
     "name": "Bücherhaltestelle Possendorf",
     "address": "Im Dorfe 10, 99438 Weimar",
     "lat": 50.940286184201,
     "lon": 11.312297657132,
     "sourceId": "obc_5FVExO"
+  },
+  {
+    "id": "vjbqjf",
+    "name": "Bücherhaltestelle Raun",
+    "address": "Dorfstraße 49, 08648 Bad Brambach-Raun",
+    "lat": 50.25501840661,
+    "lon": 12.28834129365,
+    "sourceId": "obc_0UWCUD"
   },
   {
     "id": "eabkcu",
@@ -33526,6 +33558,14 @@
     "lat": 48.72357557728251,
     "lon": 8.895590358012873,
     "sourceId": "obc_NOgptE"
+  },
+  {
+    "id": "ylfmyh",
+    "name": "Bücherhaltestelle Schönberg",
+    "address": "Am Südhang 12, 08648 Bad Brambach-Schönberg",
+    "lat": 50.18226901834,
+    "lon": 12.30725949106,
+    "sourceId": "obc_accVSm"
   },
   {
     "id": "xpjgpd",
@@ -34024,6 +34064,14 @@
     "sourceId": "obc_sYL1u5"
   },
   {
+    "id": "mtlltl",
+    "name": "Bücherhäuschen Saalig",
+    "address": "Dorfstraße 18, 08626 Mühlental-Saalig",
+    "lat": 50.36158469058,
+    "lon": 12.291565609,
+    "sourceId": "obc_bdHBvf"
+  },
+  {
     "id": "cvjioj",
     "name": "Bücherhäuschen Sewanstrasse",
     "address": "Sewanstr. 186, 10319 Berlin-Friedrichsfelde",
@@ -34054,14 +34102,6 @@
     "lat": 51.552822,
     "lon": 8.047993,
     "sourceId": "obc_NuhMYm"
-  },
-  {
-    "id": "foriur",
-    "name": "Bücherhäuschen Steinberg",
-    "address": "Hauptstraße 32, 08237 Steinberg",
-    "lat": 50.539277,
-    "lon": 12.503682,
-    "sourceId": "obc_Hj49ia"
   },
   {
     "id": "yngpdu",
@@ -35288,6 +35328,14 @@
     "sourceId": "obc_mrnAKS"
   },
   {
+    "id": "uaitxd",
+    "name": "Bücherkoffe Gemeindeverwaltung Neumark",
+    "address": "Markt 3, 08496 Neumark",
+    "lat": 50.65667747183,
+    "lon": 12.35445300019,
+    "sourceId": "obc_84AlUv"
+  },
+  {
     "id": "yslaex",
     "name": "Bücherkoffer Mühlheim",
     "address": ", 78570",
@@ -35318,6 +35366,14 @@
     "lat": 52.488909,
     "lon": 13.369081,
     "sourceId": "obc_0ygaZd"
+  },
+  {
+    "id": "xapsoj",
+    "name": "Bücherkorb im Stadtbüro",
+    "address": "Postplatz 9, 08228 Rodewisch",
+    "lat": 50.5311170362,
+    "lon": 12.40530767806,
+    "sourceId": "obc_83Jjo9"
   },
   {
     "id": "khpqxj",
@@ -40080,6 +40136,14 @@
     "sourceId": "obc_11L2va"
   },
   {
+    "id": "xauiwe",
+    "name": "Bücherregal Naturbad",
+    "address": "Heißenstein 8, 08645 Bad Elster-Reuth",
+    "lat": 50.27330253503,
+    "lon": 12.24586008919,
+    "sourceId": "obc_WbrTtW"
+  },
+  {
     "id": "bzieol",
     "name": "Bücherregal Naturfreibad Immenreuth",
     "address": "Gabellohe 21a, 95505 Immenreuth-Gabellohe",
@@ -41304,6 +41368,14 @@
     "sourceId": "obc_s9QzjL"
   },
   {
+    "id": "bsjrmp",
+    "name": "Bücherregal Stadtverwaltung Rodewisch",
+    "address": "Wernesgrüner Straße 32, 08228 Rodewisch",
+    "lat": 50.53090204416,
+    "lon": 12.41279067266,
+    "sourceId": "obc_JNIJkR"
+  },
+  {
     "id": "uoixgj",
     "name": "Bücherregal Stainz Naturmuseum Außenstelle",
     "address": "Lastenstraße 1, 8510 Stainz",
@@ -42086,6 +42158,14 @@
     "lat": 47.631742299953,
     "lon": 10.449091578009,
     "sourceId": "obc_uwcmk2"
+  },
+  {
+    "id": "yqlfnz",
+    "name": "Bücherregal Westerfeldstraße",
+    "address": "Westerfeldstraße 3/1, 71272 Renningen-Malmsheim",
+    "lat": 48.77347879791032,
+    "lon": 8.90187033322011,
+    "sourceId": "obc_0caqD1"
   },
   {
     "id": "hvxtuo",
@@ -44560,6 +44640,22 @@
     "sourceId": "obc_FUoSl6"
   },
   {
+    "id": "ukqzhq",
+    "name": "Bücherschrank",
+    "address": "",
+    "lat": 48.7163629,
+    "lon": 8.8904323,
+    "sourceId": "obc_Ivon58"
+  },
+  {
+    "id": "kfsisi",
+    "name": "Bücherschrank",
+    "address": "Dätzinger Strasse, Döffingen",
+    "lat": 48.71260662405,
+    "lon": 8.90945275447,
+    "sourceId": "obc_yPQviN"
+  },
+  {
     "id": "upyksl",
     "name": "Bücherschrank   Castets",
     "address": "Chemin de barrats  Castets",
@@ -46310,6 +46406,14 @@
     "lat": 52.890574027386,
     "lon": 10.959119796753,
     "sourceId": "obc_3jHf9P"
+  },
+  {
+    "id": "ihjpgs",
+    "name": "Bücherschrank Bergen",
+    "address": "Freiberger Straße 22A, 08626 Eichigt-Bergen",
+    "lat": 50.33777421604,
+    "lon": 12.18975716074,
+    "sourceId": "obc_g9oUKy"
   },
   {
     "id": "xxyzlg",
@@ -55456,12 +55560,12 @@
     "sourceId": "obc_Z2ZF58"
   },
   {
-    "id": "yqlfnz",
+    "id": "mqlxhc",
     "name": "Bücherschrank Malmsheim",
-    "address": "Westerfeldstraße 3/1, 71272 Renningen-Malmsheim",
-    "lat": 48.77347879791032,
-    "lon": 8.90187033322011,
-    "sourceId": "obc_0caqD1"
+    "address": "Bachstraße Ecke Calwer Straße, 71272 Renningen-Malmsheim",
+    "lat": 48.77415485114,
+    "lon": 8.90343201581,
+    "sourceId": "obc_yo3OI5"
   },
   {
     "id": "aljxiu",
@@ -57286,6 +57390,14 @@
     "lat": 51.788607,
     "lon": 6.065733,
     "sourceId": "obc_SyFO8r"
+  },
+  {
+    "id": "pzkwkv",
+    "name": "Bücherschrank OASE",
+    "address": "Dr.-Karl-Gelbke-Straße 1, 08529 Plauen",
+    "lat": 50.499082117,
+    "lon": 12.16512523658,
+    "sourceId": "obc_J9Yana"
   },
   {
     "id": "iculpb",
@@ -61584,6 +61696,14 @@
     "sourceId": "obc_coNdGN"
   },
   {
+    "id": "gpwfno",
+    "name": "Bücherschrank Tannenbergthal",
+    "address": "Klingenthaler Straße 29, 08262 Muldenhammer-Tannenbergsthal",
+    "lat": 50.43481751477,
+    "lon": 12.46093641311,
+    "sourceId": "obc_nXeNpG"
+  },
+  {
     "id": "naglji",
     "name": "Bücherschrank Tapfheim",
     "address": "Bahnhofstraße 3, 86660 Tapfheim",
@@ -63606,6 +63726,14 @@
     "lat": 51.116759457871,
     "lon": 7.1106475952574,
     "sourceId": "obc_WaFehy"
+  },
+  {
+    "id": "pkjoml",
+    "name": "Bücherschrank Wohlhausen",
+    "address": "Hauptstraße 49, 08258 Markneukirchen-Wohlhausen",
+    "lat": 50.32271353532,
+    "lon": 12.34690522167,
+    "sourceId": "obc_Kmv17y"
   },
   {
     "id": "vvcgea",
@@ -68408,14 +68536,6 @@
     "sourceId": "obc_1Kcwxh"
   },
   {
-    "id": "tvgmku",
-    "name": "Büchertauschzelle",
-    "address": "",
-    "lat": 50.54406,
-    "lon": 12.18273,
-    "sourceId": "obc_TT7YhF"
-  },
-  {
     "id": "bohjil",
     "name": "Büchertauschzelle \"Halt 58\"",
     "address": "Kolumbusplatz, 81543 München",
@@ -68430,6 +68550,14 @@
     "lat": 50.519339504793,
     "lon": 6.4101801021025,
     "sourceId": "obc_U80sGj"
+  },
+  {
+    "id": "tvgmku",
+    "name": "Büchertauschzelle Kletterwald Pöhl",
+    "address": "Hauptstraße 46, 08543 Pöhl",
+    "lat": 50.54406,
+    "lon": 12.18273,
+    "sourceId": "obc_TT7YhF"
   },
   {
     "id": "tkyzkk",
@@ -69046,6 +69174,14 @@
     "lat": 50.783358,
     "lon": 12.516979,
     "sourceId": "obc_pxETW7"
+  },
+  {
+    "id": "foriur",
+    "name": "Bücherwagen Rothenkirchen",
+    "address": "Hauptstraße 32, 08237 Steinberg-Rothenkirchen",
+    "lat": 50.539277,
+    "lon": 12.503682,
+    "sourceId": "obc_Hj49ia"
   },
   {
     "id": "gkehii",
@@ -71098,7 +71234,7 @@
   {
     "id": "odqvqj",
     "name": "Bücherzelle Brunn",
-    "address": "Windmühlenweg 2 / Dr.-Eckener-Straße, 08468 Reichenbach im Vogtland",
+    "address": "Windmühlenweg 2, 08468 Reichenbach im Vogtland-Brunn",
     "lat": 50.652644,
     "lon": 12.313485,
     "sourceId": "obc_8oLzk0"
@@ -71368,6 +71504,14 @@
     "sourceId": "obc_L9uwL1"
   },
   {
+    "id": "bqnpiv",
+    "name": "Bücherzelle Büttinghausen",
+    "address": "Pützberger Höhe, 51674 Wiehl-Büttinghausen",
+    "lat": 50.94894404409,
+    "lon": 7.59356417909,
+    "sourceId": "obc_wPOrIs"
+  },
+  {
     "id": "wdxski",
     "name": "Bücherzelle CG Würzburg",
     "address": "Albert-Hoffa-Straße 7, 97074 Würzburg",
@@ -71406,6 +71550,14 @@
     "lat": 54.440499,
     "lon": 12.660359,
     "sourceId": "obc_jVJv4Y"
+  },
+  {
+    "id": "tmssfq",
+    "name": "Bücherzelle Campingplatz Gunzenberg",
+    "address": "Hauptstraße 38, 08543 Pöhl-Möschwitz",
+    "lat": 50.53884162554,
+    "lon": 12.18543086221,
+    "sourceId": "obc_nwSCNN"
   },
   {
     "id": "oyzlrc",
@@ -72080,6 +72232,14 @@
     "sourceId": "obc_fzS796"
   },
   {
+    "id": "mvrsst",
+    "name": "Bücherzelle Elsterberg",
+    "address": "Robert-Schenker-Straße 1, 07985 Elsterberg",
+    "lat": 50.60574229602,
+    "lon": 12.16840423557,
+    "sourceId": "obc_ghhVpH"
+  },
+  {
     "id": "jpfjjn",
     "name": "Bücherzelle Elstra",
     "address": "Am Markt 6, 01920 Elstra - Halštrow",
@@ -72634,7 +72794,7 @@
   {
     "id": "tpoibw",
     "name": "Bücherzelle Friesen",
-    "address": "Gemeindeweg / Hauptstraße 18, 08468 Reichenbach im Vogtland-Friesen",
+    "address": "Hauptstraße 18, 08468 Reichenbach im Vogtland-Friesen, Gemeindeweg",
     "lat": 50.635240987941,
     "lon": 12.273612767458,
     "sourceId": "obc_bng2PO"
@@ -77098,7 +77258,7 @@
   {
     "id": "wdyhey",
     "name": "Bücherzelle Mühlleithen",
-    "address": "Waldstraße 5, 08248 Klingenthal-Mühlleithen",
+    "address": "Waldstraße 5, 08248 Klingenthal-Mühlleithen, Waldstraße 5, 08248 Klingenthal-Mühlleithen",
     "lat": 50.407361,
     "lon": 12.487933,
     "sourceId": "obc_72PjUX"
@@ -79194,7 +79354,7 @@
   {
     "id": "ljasoi",
     "name": "Bücherzelle Rotschau",
-    "address": "Hainstr. 2B, 08468 Reichenbach im Vogtland",
+    "address": "Hainstraße 2B, 08468 Reichenbach im Vogtland-Rotschau",
     "lat": 50.613623,
     "lon": 12.28853,
     "sourceId": "obc_LgPIdI"
@@ -79230,6 +79390,14 @@
     "lat": 52.128878,
     "lon": 13.169544,
     "sourceId": "obc_X0ctfs"
+  },
+  {
+    "id": "govecc",
+    "name": "Bücherzelle Ruppertsgrün",
+    "address": "Markt 2, 08543 Pöhl-Ruppertsgrün",
+    "lat": 50.57647811697,
+    "lon": 12.18151230406,
+    "sourceId": "obc_4xccRk"
   },
   {
     "id": "lufkch",
@@ -79672,6 +79840,22 @@
     "sourceId": "obc_XgUIgZ"
   },
   {
+    "id": "vdvdfy",
+    "name": "Bücherzelle Schloß Ricklingen",
+    "address": "Voigtstraße 1, 30826 Garbsen-Schloß Ricklingen",
+    "lat": 52.42976508232,
+    "lon": 9.506217948,
+    "sourceId": "obc_bycca8"
+  },
+  {
+    "id": "ccocff",
+    "name": "Bücherzelle Schloßhalbinsel Pöhl",
+    "address": "Schloßhalbinsel, 08543 Pöhl",
+    "lat": 50.54935312078,
+    "lon": 12.1980853367,
+    "sourceId": "obc_GyfLrL"
+  },
+  {
     "id": "ycgnmb",
     "name": "Bücherzelle Schlößchen",
     "address": "Wasserweg / u. Hauptstraße 30, 09439 Amtsberg-Schlößchen",
@@ -79734,6 +79918,14 @@
     "lat": 52.532401,
     "lon": 9.331158,
     "sourceId": "obc_5CTdhT"
+  },
+  {
+    "id": "gsqmjm",
+    "name": "Bücherzelle Schneidenbach",
+    "address": "Weststraße 6, 08468 Reichenbach im Vogtland-Schneidenbach",
+    "lat": 50.59208143659,
+    "lon": 12.3078335138,
+    "sourceId": "obc_zpGYka"
   },
   {
     "id": "yfmvsh",
@@ -79974,6 +80166,14 @@
     "lat": 48.294108,
     "lon": 15.415428,
     "sourceId": "obc_W0UeGK"
+  },
+  {
+    "id": "ohssll",
+    "name": "Bücherzelle Schöneck",
+    "address": "Albertplatz, 08261 Schöneck/Vogtland",
+    "lat": 50.39584885489,
+    "lon": 12.33809128118,
+    "sourceId": "obc_Y7Z10C"
   },
   {
     "id": "creknm",
@@ -80254,6 +80454,14 @@
     "lat": 52.312605108358,
     "lon": 13.632811121643,
     "sourceId": "obc_JGkN3W"
+  },
+  {
+    "id": "uxbbuj",
+    "name": "Bücherzelle Siedlung Neudörfel",
+    "address": "Siedlung Neudörfel 14A, 08543 Pöhl-Neudörfel",
+    "lat": 50.55660457286,
+    "lon": 12.19699656319,
+    "sourceId": "obc_PA0laG"
   },
   {
     "id": "vgbtgb",
@@ -81656,6 +81864,14 @@
     "sourceId": "obc_mNoLfj"
   },
   {
+    "id": "zcgozo",
+    "name": "Bücherzelle Treuen",
+    "address": "Markt 12, 08233 Treuen",
+    "lat": 50.53918256165,
+    "lon": 12.30762134049,
+    "sourceId": "obc_k7dr34"
+  },
+  {
     "id": "kcvbkg",
     "name": "Bücherzelle Triesenberg",
     "address": "Schlossstrasse 7, 9497 Triesenberg, Lichtenstein",
@@ -81838,6 +82054,14 @@
     "lat": 48.065753,
     "lon": 11.610153,
     "sourceId": "obc_mBGenU"
+  },
+  {
+    "id": "rjszgw",
+    "name": "Bücherzelle Unterheinsdorf",
+    "address": "Reichenbacher Straße 33, 08468 Heinsdorfergrund-Unterheinsdorf",
+    "lat": 50.61100388673,
+    "lon": 12.33300600081,
+    "sourceId": "obc_p9uUzV"
   },
   {
     "id": "mymizf",
@@ -82894,6 +83118,14 @@
     "lat": 52.486671,
     "lon": 13.447196,
     "sourceId": "obc_5faMcK"
+  },
+  {
+    "id": "wjhyar",
+    "name": "Bücherzelle Wildenau",
+    "address": "Plohnbachstraße 25, 08237 Steinberg-Wildenau",
+    "lat": 50.55473007631,
+    "lon": 12.45234526174,
+    "sourceId": "obc_Ue4bok"
   },
   {
     "id": "iqlotj",
@@ -95346,7 +95578,7 @@
   {
     "id": "nkkcgq",
     "name": "Little Library Pangea Hostel Tropea",
-    "address": "",
+    "address": "Viale Don Mottola 333, 89861 Tropea VV",
     "lat": 38.6716554,
     "lon": 15.8895356,
     "sourceId": "obc_vP2vDV"
@@ -109178,7 +109410,7 @@
   {
     "id": "gcjmiu",
     "name": "Petras Bücherschrank",
-    "address": "Hohle Gasse 38, 08491 Netzschkau-Lambzig",
+    "address": "Hohle Gasse 38, 08491 Netzschkau-Lambzig, Hohle Gasse 38, 08491 Netzschkau-Lambzig",
     "lat": 50.610676618234,
     "lon": 12.256974689662,
     "sourceId": "obc_STBK0Y"
