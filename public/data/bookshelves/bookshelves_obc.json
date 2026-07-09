@@ -33680,6 +33680,14 @@
     "sourceId": "obc_bO5Bzd"
   },
   {
+    "id": "oxaixq",
+    "name": "Bücherhaus KGV Glockenberg e.V.",
+    "address": "Liebknechtstraße 84, 08523 Plauen-Neundorf",
+    "lat": 50.49350917489,
+    "lon": 12.10654694054,
+    "sourceId": "obc_sUxVUC"
+  },
+  {
     "id": "wnqgqy",
     "name": "Bücherhaus Lembach im Mühlkreis",
     "address": "Schulstraße 1, 4132 Lembach im Mühlkreis",
@@ -40432,14 +40440,6 @@
     "sourceId": "obc_7xHrFJ"
   },
   {
-    "id": "cgyepd",
-    "name": "Bücherregal Pausa (Rathaus)",
-    "address": "Neumarkt 1, 07952 Pausa-Mühltroff",
-    "lat": 50.581085780661,
-    "lon": 11.995644047856,
-    "sourceId": "obc_w1dEoV"
-  },
-  {
     "id": "qwerrx",
     "name": "Bücherregal Peine (Edeka)",
     "address": "Friedrich-Ebert-Platz 25, 31226",
@@ -44638,22 +44638,6 @@
     "lat": 45.46621,
     "lon": 12.28246,
     "sourceId": "obc_FUoSl6"
-  },
-  {
-    "id": "ukqzhq",
-    "name": "Bücherschrank",
-    "address": "",
-    "lat": 48.7163629,
-    "lon": 8.8904323,
-    "sourceId": "obc_Ivon58"
-  },
-  {
-    "id": "kfsisi",
-    "name": "Bücherschrank",
-    "address": "Dätzinger Strasse, Döffingen",
-    "lat": 48.71260662405,
-    "lon": 8.90945275447,
-    "sourceId": "obc_yPQviN"
   },
   {
     "id": "upyksl",
@@ -48886,6 +48870,22 @@
     "lat": 49.250816,
     "lon": 9.196625,
     "sourceId": "obc_tEYT4x"
+  },
+  {
+    "id": "ukqzhq",
+    "name": "Bücherschrank Dätzingen",
+    "address": "Döffinger Straße 50, 71120 Grafenau-Dätzingen",
+    "lat": 48.7163629,
+    "lon": 8.8904323,
+    "sourceId": "obc_Ivon58"
+  },
+  {
+    "id": "kfsisi",
+    "name": "Bücherschrank Döffingen",
+    "address": "Schafhauser Weg 3, 71120 Grafenau-Döffingen",
+    "lat": 48.71260662405,
+    "lon": 8.90945275447,
+    "sourceId": "obc_yPQviN"
   },
   {
     "id": "lfodag",
@@ -54072,6 +54072,14 @@
     "sourceId": "obc_9tzguX"
   },
   {
+    "id": "nyoejt",
+    "name": "Bücherschrank Kloschwitz",
+    "address": "Vorstadt 2, 08538 Weischlitz-Kloschwitz",
+    "lat": 50.47835112744,
+    "lon": 12.05106549503,
+    "sourceId": "obc_dEqY98"
+  },
+  {
     "id": "sousfi",
     "name": "Bücherschrank Kloster Horb",
     "address": "Marktplatz 28, 72160 Horb am Neckar",
@@ -58032,6 +58040,14 @@
     "sourceId": "obc_lRl1DB"
   },
   {
+    "id": "cgyepd",
+    "name": "Bücherschrank Pausa",
+    "address": "Neumarkt 1, 07952 Pausa/Vogtland, Neumarkt 1, 07952 Pausa-Mühltroff",
+    "lat": 50.581085780661,
+    "lon": 11.995644047856,
+    "sourceId": "obc_w1dEoV"
+  },
+  {
     "id": "jtywot",
     "name": "Bücherschrank Pegau-Wiederau",
     "address": "Hauptstraße / Dorfplatz, 04523 Pegau-Wiederau",
@@ -58310,6 +58326,14 @@
     "lat": 51.063104,
     "lon": 13.820136,
     "sourceId": "obc_y6ky5n"
+  },
+  {
+    "id": "bfcjgw",
+    "name": "Bücherschrank Platz an der Glems",
+    "address": "Bauernstraße 11A, 71254 Ditzingen",
+    "lat": 48.82817512377,
+    "lon": 9.06533247458,
+    "sourceId": "obc_daqAqm"
   },
   {
     "id": "yiwcdd",
@@ -60326,6 +60350,14 @@
     "lat": 49.434809,
     "lon": 8.809077,
     "sourceId": "obc_WpAxRT"
+  },
+  {
+    "id": "syehhf",
+    "name": "Bücherschrank Schönberg",
+    "address": "Kornbacher Straße 3, 08539 Rosenbach-Schönberg",
+    "lat": 50.5286737378,
+    "lon": 11.96331444307,
+    "sourceId": "obc_bZIf5d"
   },
   {
     "id": "zbgjql",
@@ -82350,6 +82382,14 @@
     "lat": 50.643142,
     "lon": 7.087366,
     "sourceId": "obc_YF43O8"
+  },
+  {
+    "id": "evkcmz",
+    "name": "Bücherzelle Wachtelberg",
+    "address": "",
+    "lat": 52.36984155625,
+    "lon": 12.9342341423,
+    "sourceId": "obc_ckyRog"
   },
   {
     "id": "dhmaib",
