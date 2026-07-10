@@ -33104,6 +33104,22 @@
     "sourceId": "obc_poJjWA"
   },
   {
+    "id": "pvbbzx",
+    "name": "Büchergestell im Bahnhof Les Avants",
+    "address": "1833 Les Avants",
+    "lat": 46.45364196297,
+    "lon": 6.94352388382,
+    "sourceId": "obc_vnQAWe"
+  },
+  {
+    "id": "fqzbaa",
+    "name": "Büchergestell im Gemeinschaftszentrum",
+    "address": "",
+    "lat": 46.45933499732,
+    "lon": 6.92958712578,
+    "sourceId": "obc_Mre1Gg"
+  },
+  {
     "id": "bhextw",
     "name": "Büchergestell im Obergeschoss des Café Huguenin",
     "address": "Barfüsserplatz 6, 4051 Basel",
@@ -33270,6 +33286,14 @@
     "lat": 48.927836,
     "lon": 10.50073,
     "sourceId": "obc_2dNdac"
+  },
+  {
+    "id": "qdvdth",
+    "name": "Bücherhalle Ebersdorf",
+    "address": "Zinzendorfplatz, 07929 Saalburg-Ebersdorf, Parkstraße , 07929 Saalburg-Ebersdorf",
+    "lat": 50.482569,
+    "lon": 11.664422,
+    "sourceId": "obc_eNUdvB"
   },
   {
     "id": "jqyrqa",
@@ -33600,6 +33624,14 @@
     "sourceId": "obc_BNFcx2"
   },
   {
+    "id": "uiiygu",
+    "name": "Bücherhaltestelle Tirpersdorf",
+    "address": "Hauptstraße 43, 08606 Tirpersdorf",
+    "lat": 50.43514570423,
+    "lon": 12.25709147132,
+    "sourceId": "obc_2flYK4"
+  },
+  {
     "id": "tzyjik",
     "name": "Bücherhaltestelle Untermusbach",
     "address": "Stockerbachstraße 28, 72250 Freudenstadt-Musbach",
@@ -33614,6 +33646,14 @@
     "lat": 48.6196089,
     "lon": 8.6450296,
     "sourceId": "obc_7uX3is"
+  },
+  {
+    "id": "lksvpi",
+    "name": "Bücherhaltestelle Werda",
+    "address": "Hauptstraße 27, 08223 Werda",
+    "lat": 50.43828913309,
+    "lon": 12.30493122425,
+    "sourceId": "obc_phlklh"
   },
   {
     "id": "mskufn",
@@ -37526,6 +37566,14 @@
     "lat": 52.212448422326,
     "lon": 8.8122988344003,
     "sourceId": "obc_Q7b73j"
+  },
+  {
+    "id": "eiqygl",
+    "name": "Bücherregal EDEKA Schneider",
+    "address": "Brandenburger Straße 151, 14542 Werder (Havel)",
+    "lat": 52.3748736225,
+    "lon": 12.93273187498,
+    "sourceId": "obc_ZXnatX"
   },
   {
     "id": "thsktg",
@@ -43472,6 +43520,14 @@
     "sourceId": "obc_zlibZy"
   },
   {
+    "id": "kjdzzd",
+    "name": "Bücherregal im einewelt haus",
+    "address": "Schellingstraße 3, 39104 Magdeburg",
+    "lat": 52.115654136771,
+    "lon": 11.629772186388,
+    "sourceId": "obc_bw2JO6"
+  },
+  {
     "id": "zlsvok",
     "name": "Bücherregal in Bäckerei Stolle",
     "address": "Marktplatz 2,73666 Baltmannsweiler",
@@ -44790,14 +44846,6 @@
     "lat": 44.063503,
     "lon": 12.566069,
     "sourceId": "obc_8RJ0Em"
-  },
-  {
-    "id": "hpsykl",
-    "name": "Bücherschrank  Magdeburg-Werder",
-    "address": "Lingnerstraße 6, 39114 Magdeburg-Werder",
-    "lat": 52.131479,
-    "lon": 11.653821,
-    "sourceId": "obc_xQQP6p"
   },
   {
     "id": "csypmi",
@@ -46134,6 +46182,14 @@
     "lat": 50.995364,
     "lon": 13.722374,
     "sourceId": "obc_3TeCNS"
+  },
+  {
+    "id": "ognmjk",
+    "name": "Bücherschrank Barbarossaplatz",
+    "address": "Gebhardstraße 33A, 76135 Karlsruhe",
+    "lat": 48.994362101931,
+    "lon": 8.3902609348297,
+    "sourceId": "obc_MWGhCP"
   },
   {
     "id": "wocdfx",
@@ -52472,6 +52528,14 @@
     "sourceId": "obc_RX2USt"
   },
   {
+    "id": "uvdxvu",
+    "name": "Bücherschrank Hofer Straße",
+    "address": "Hofer Straße 40, 08606 Oelsnitz/Vogtland-Lauterbach",
+    "lat": 50.40371012891,
+    "lon": 12.15517529237,
+    "sourceId": "obc_TSJup9"
+  },
+  {
     "id": "pfylrr",
     "name": "Bücherschrank Hoffnungsthal",
     "address": "Hauptstraße 229, 51503",
@@ -53350,14 +53414,6 @@
     "lat": 51.999110181542,
     "lon": 13.050355017185,
     "sourceId": "obc_UtDNqc"
-  },
-  {
-    "id": "ognmjk",
-    "name": "Bücherschrank KA (Barbarossaplatz)",
-    "address": "Gebhardstraße 44, 76135 Karlsruhe",
-    "lat": 48.994362101931,
-    "lon": 8.3902609348297,
-    "sourceId": "obc_MWGhCP"
   },
   {
     "id": "szxewk",
@@ -57448,6 +57504,14 @@
     "sourceId": "obc_vAUah4"
   },
   {
+    "id": "umvrqv",
+    "name": "Bücherschrank Oberböhringen",
+    "address": "Am Bronnenbühl 10, 73337 Bad Überkingen-Oberböhringen",
+    "lat": 48.61937031802,
+    "lon": 9.78064217515,
+    "sourceId": "obc_XO0pIA"
+  },
+  {
     "id": "yynnwt",
     "name": "Bücherschrank Oberderdingen-Großvillars",
     "address": "Bäckerweg, 75038 Oberderdingen-Großvillars",
@@ -59582,14 +59646,6 @@
     "lat": 48.899471,
     "lon": 11.928847,
     "sourceId": "obc_DtuLex"
-  },
-  {
-    "id": "qdvdth",
-    "name": "Bücherschrank Saalburg-Ebersdorf",
-    "address": "Parkstraße , 07929 Saalburg-Ebersdorf",
-    "lat": 50.482569,
-    "lon": 11.664422,
-    "sourceId": "obc_eNUdvB"
   },
   {
     "id": "qxkchu",
@@ -62168,6 +62224,14 @@
     "sourceId": "obc_XpAJwO"
   },
   {
+    "id": "urdtpg",
+    "name": "Bücherschrank Unterböhringen",
+    "address": "Ortstraße 21, 73337 Bad Überkingen-Unterböhringen",
+    "lat": 48.62831001639,
+    "lon": 9.76066028764,
+    "sourceId": "obc_yDTEQL"
+  },
+  {
     "id": "zcnqdl",
     "name": "Bücherschrank Untere Hauptstraße",
     "address": "Untere Hauptstraße 1, 68766 Hockenheim",
@@ -63142,6 +63206,14 @@
     "lat": 51.389234,
     "lon": 7.002851,
     "sourceId": "obc_vHgzQV"
+  },
+  {
+    "id": "hpsykl",
+    "name": "Bücherschrank Werder",
+    "address": "Lingnerstraße 6, 39114 Magdeburg-Werder",
+    "lat": 52.131479,
+    "lon": 11.653821,
+    "sourceId": "obc_xQQP6p"
   },
   {
     "id": "jyoaas",
@@ -64382,6 +64454,14 @@
     "lat": 47.557313267699,
     "lon": 7.7320468425751,
     "sourceId": "obc_Ai3yVC"
+  },
+  {
+    "id": "cvkcro",
+    "name": "Bücherschrank am Hederhof",
+    "address": "Enkhausen 16, 33154 Salzkotten-Enkhausen",
+    "lat": 51.68324247419,
+    "lon": 8.55331189971,
+    "sourceId": "obc_hQcRdT"
   },
   {
     "id": "hszwtu",
@@ -66750,6 +66830,14 @@
     "lat": 52.136899,
     "lon": 13.608997,
     "sourceId": "obc_g0h1ge"
+  },
+  {
+    "id": "ukuxnt",
+    "name": "Bücherschrank in der Altstadt",
+    "address": "b. d. Hauptwache 6, 39104 Magdeburg",
+    "lat": 52.131935,
+    "lon": 11.641202,
+    "sourceId": "obc_dC71Aq"
   },
   {
     "id": "yunbwh",
@@ -77984,6 +78072,14 @@
     "sourceId": "obc_JxMSGW"
   },
   {
+    "id": "qtihrn",
+    "name": "Bücherzelle Oelsnitz",
+    "address": "Adolf-Damaschke-Straße 95, 08606 Oelsnitz/Vogtland",
+    "lat": 50.42059954971,
+    "lon": 12.16718917553,
+    "sourceId": "obc_nCJWkG"
+  },
+  {
     "id": "cnkbqc",
     "name": "Bücherzelle Oftringen",
     "address": "Kirchstrasse 8, CH-4665 Oftringen",
@@ -80184,6 +80280,14 @@
     "sourceId": "obc_2Dbdef"
   },
   {
+    "id": "osjoxq",
+    "name": "Bücherzelle Schönbrunn",
+    "address": "Am Kindergarten 3, 08606 Bösenbrunn-Schönbrunn",
+    "lat": 50.40413067994,
+    "lon": 12.12719993481,
+    "sourceId": "obc_4BTsGE"
+  },
+  {
     "id": "dafsxj",
     "name": "Bücherzelle Schönbühel an der Donau",
     "address": "Schloßstraße 2, 3394 Schönbühel an der Donau",
@@ -81312,6 +81416,14 @@
     "sourceId": "obc_BSrm5S"
   },
   {
+    "id": "bkpmnj",
+    "name": "Bücherzelle Sternenfels",
+    "address": "Maulbronner Straße 26, 75447 Sternenfels",
+    "lat": 49.04866112894,
+    "lon": 8.84987875687,
+    "sourceId": "obc_T2CULV"
+  },
+  {
     "id": "jyvfhu",
     "name": "Bücherzelle Stetten",
     "address": "Kirchstraße 11, 88719 Stetten",
@@ -82386,7 +82498,7 @@
   {
     "id": "evkcmz",
     "name": "Bücherzelle Wachtelberg",
-    "address": "",
+    "address": "Wachtelwinkel 30, 14542 Werder (Havel)",
     "lat": 52.36984155625,
     "lon": 12.9342341423,
     "sourceId": "obc_ckyRog"
@@ -83846,6 +83958,14 @@
     "lat": 51.547592492477,
     "lon": 6.9369730353355,
     "sourceId": "obc_nef0OG"
+  },
+  {
+    "id": "yzdeba",
+    "name": "Bücherzelle am Familienhaus",
+    "address": "Hohepfortestraße 14, 39106 Magdeburg-Alte Neustadt",
+    "lat": 52.14473303194,
+    "lon": 11.646138142,
+    "sourceId": "obc_bksU18"
   },
   {
     "id": "qyezis",
@@ -96222,14 +96342,6 @@
     "lat": 48.2131729861,
     "lon": 16.397027671337,
     "sourceId": "obc_fbQZR4"
-  },
-  {
-    "id": "ukuxnt",
-    "name": "Magdeburg in der Altstadt",
-    "address": "",
-    "lat": 52.131935,
-    "lon": 11.641202,
-    "sourceId": "obc_dC71Aq"
   },
   {
     "id": "uvczas",
@@ -109174,14 +109286,6 @@
     "lat": 53.229930714056,
     "lon": 8.7905732542276,
     "sourceId": "obc_AgJ6gt"
-  },
-  {
-    "id": "kjdzzd",
-    "name": "Offenes Bücherregal im einewelt haus",
-    "address": "Schellingstraße 3, 39104 Magdeburg",
-    "lat": 52.115654136771,
-    "lon": 11.629772186388,
-    "sourceId": "obc_bw2JO6"
   },
   {
     "id": "fgtgsg",
