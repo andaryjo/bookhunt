@@ -32328,6 +32328,14 @@
     "sourceId": "obc_auylU3"
   },
   {
+    "id": "zfmfmo",
+    "name": "Bücherbox Reppelin",
+    "address": "Sanitzer Straße 27, 18190 Sanitz-Reppelin",
+    "lat": 54.09109172643,
+    "lon": 12.43575073411,
+    "sourceId": "obc_6UD0qJ"
+  },
+  {
     "id": "pxbmcq",
     "name": "Bücherbox Rynek",
     "address": "59-800 Luban, Polen",
@@ -33106,15 +33114,15 @@
   {
     "id": "pvbbzx",
     "name": "Büchergestell im Bahnhof Les Avants",
-    "address": "1833 Les Avants",
+    "address": "Rte de la Poste 1, 1833 Montreux-Les Avants",
     "lat": 46.45364196297,
     "lon": 6.94352388382,
     "sourceId": "obc_vnQAWe"
   },
   {
     "id": "fqzbaa",
-    "name": "Büchergestell im Gemeinschaftszentrum",
-    "address": "",
+    "name": "Büchergestell im Gemeinschaftszentrum Saumont",
+    "address": "Rte du Vallon 3, 1832 Montreux, Schweiz 3, 1832 Montreux-Saumont",
     "lat": 46.45933499732,
     "lon": 6.92958712578,
     "sourceId": "obc_Mre1Gg"
@@ -36744,6 +36752,14 @@
     "sourceId": "obc_SuPLtb"
   },
   {
+    "id": "fzctus",
+    "name": "Bücherregal Behnkenhagen",
+    "address": "Dorfstraße 33, 18182 Rövershagen-Behnkenhagen",
+    "lat": 54.17802136108,
+    "lon": 12.31057720467,
+    "sourceId": "obc_pgC6ix"
+  },
+  {
     "id": "odynuu",
     "name": "Bücherregal Bellamar Schwetzingen",
     "address": "Odenwaldring 6, 68723 Schwetzingen",
@@ -38134,6 +38150,14 @@
     "lat": 47.897649,
     "lon": 16.907031,
     "sourceId": "obc_HWX1zR"
+  },
+  {
+    "id": "ecpeis",
+    "name": "Bücherregal Gotthum",
+    "address": "Müritzweg 13, 17207 Gotthun",
+    "lat": 53.42000442041,
+    "lon": 12.59202687882,
+    "sourceId": "obc_ZDAlsr"
   },
   {
     "id": "jfqfon",
@@ -40022,6 +40046,14 @@
     "lat": 49.678692357214,
     "lon": 9.0039594098926,
     "sourceId": "obc_xvWuZr"
+  },
+  {
+    "id": "biksbd",
+    "name": "Bücherregal Milchtankstelle Bollewick",
+    "address": "Feldstraße 2, 17207 Bollewick",
+    "lat": 53.35887,
+    "lon": 12.580236,
+    "sourceId": "obc_QwpVw8"
   },
   {
     "id": "endipb",
@@ -46982,14 +47014,6 @@
     "lat": 51.802642,
     "lon": 8.379687,
     "sourceId": "obc_N3jZxQ"
-  },
-  {
-    "id": "biksbd",
-    "name": "Bücherschrank Bollewick",
-    "address": "Feldstraße, 17207 Bollewick",
-    "lat": 53.35887,
-    "lon": 12.580236,
-    "sourceId": "obc_QwpVw8"
   },
   {
     "id": "ouyxdp",
@@ -71688,6 +71712,14 @@
     "sourceId": "obc_IEdNDE"
   },
   {
+    "id": "qgoimv",
+    "name": "Bücherzelle Campingplatz Neuhaus",
+    "address": "Birkenallee 10, 18347 Dierhagen-Neuhaus",
+    "lat": 54.28200242105,
+    "lon": 12.31287610293,
+    "sourceId": "obc_KSZAJz"
+  },
+  {
     "id": "cskcpv",
     "name": "Bücherzelle Campingplatz Zeestow",
     "address": "Brieselanger Straße 11, 14656 Brieselang-Zeestow",
@@ -72422,6 +72454,14 @@
     "lat": 47.817618,
     "lon": 8.554226,
     "sourceId": "obc_lHyKPX"
+  },
+  {
+    "id": "uwxmfz",
+    "name": "Bücherzelle Eppingen",
+    "address": "Brettener Straße 5, 75031 Eppingen",
+    "lat": 49.1366836167,
+    "lon": 8.90922528913,
+    "sourceId": "obc_bcRlqY"
   },
   {
     "id": "vdooyr",
@@ -74542,6 +74582,14 @@
     "lat": 48.353889,
     "lon": 10.944711,
     "sourceId": "obc_jADjDx"
+  },
+  {
+    "id": "xzdofb",
+    "name": "Bücherzelle Hof Sanitz",
+    "address": "Hof Sanitz 1, 18190 Sanitz",
+    "lat": 54.0717252087,
+    "lon": 12.37680093907,
+    "sourceId": "obc_mEmJ4M"
   },
   {
     "id": "sqykhh",
@@ -81768,6 +81816,14 @@
     "sourceId": "obc_DIECz9"
   },
   {
+    "id": "zvugxi",
+    "name": "Bücherzelle Teutendorf",
+    "address": "Teutendorf 4-6, 18190 Sanitz-Teutendorf",
+    "lat": 54.06546885829,
+    "lon": 12.42949312926,
+    "sourceId": "obc_5tghlE"
+  },
+  {
     "id": "wvhhwe",
     "name": "Bücherzelle Thal bei Graz",
     "address": "Ecke Unterthalstraße 36 / Kötschbergstraße 1, 8051 Thal",
@@ -83430,14 +83486,6 @@
     "lat": 52.164495,
     "lon": 10.536119,
     "sourceId": "obc_33UxrB"
-  },
-  {
-    "id": "vddczr",
-    "name": "Bücherzelle Wolfenbüttel Danziger Straße",
-    "address": "Danziger Straße 14, 38302 Wolfenbüttel",
-    "lat": 52.171964,
-    "lon": 10.556177,
-    "sourceId": "obc_aLaf1P"
   },
   {
     "id": "jmlijl",
@@ -124374,6 +124422,15 @@
     "lat": 51.5886931,
     "lon": -0.0211816,
     "sourceId": "obc_rGviyz"
+  },
+  {
+    "id": "vddczr",
+    "name": "Bücherzelle Wolfenbüttel Danziger Straße",
+    "address": "Danziger Straße 14, 38302 Wolfenbüttel",
+    "lat": 52.171964,
+    "lon": 10.556177,
+    "sourceId": "obc_aLaf1P",
+    "removed": true
   },
   {
     "id": "ubzaio",
