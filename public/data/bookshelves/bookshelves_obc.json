@@ -36072,14 +36072,6 @@
     "sourceId": "obc_v4Ivyd"
   },
   {
-    "id": "wfyups",
-    "name": "Bücherregal",
-    "address": "Untere Breite Straße 23, 88212",
-    "lat": 47.782667111606,
-    "lon": 9.6103120582212,
-    "sourceId": "obc_v7hLzt"
-  },
-  {
     "id": "cplfck",
     "name": "Bücherregal",
     "address": "An der Kirche , 38122 Braunschweig",
@@ -124422,6 +124414,15 @@
     "lat": 51.5886931,
     "lon": -0.0211816,
     "sourceId": "obc_rGviyz"
+  },
+  {
+    "id": "wfyups",
+    "name": "Bücherregal",
+    "address": "Untere Breite Straße 23, 88212",
+    "lat": 47.782667111606,
+    "lon": 9.6103120582212,
+    "sourceId": "obc_v7hLzt",
+    "removed": true
   },
   {
     "id": "vddczr",
