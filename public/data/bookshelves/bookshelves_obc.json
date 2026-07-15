@@ -31522,7 +31522,7 @@
   {
     "id": "bymbaa",
     "name": "Bücherbaum Wiecker Hafen",
-    "address": "An der Mühle/Yachtweg, Greifswald",
+    "address": "Yachtweg 1, 17493 Greifswald-Wieck, An der Mühle/Yachtweg, Greifswald",
     "lat": 54.092599,
     "lon": 13.44994,
     "sourceId": "obc_y3YEhF"
@@ -33798,6 +33798,14 @@
     "lat": 52.273311,
     "lon": 10.414969,
     "sourceId": "obc_3zA90j"
+  },
+  {
+    "id": "fjqnkn",
+    "name": "Bücherhaus Wackerow",
+    "address": "Hauptstraße 10, 17498 Wackerow",
+    "lat": 54.10496110407,
+    "lon": 13.34736379372,
+    "sourceId": "obc_QENL7h"
   },
   {
     "id": "rmmxcv",
@@ -37000,6 +37008,14 @@
     "sourceId": "obc_68tF7I"
   },
   {
+    "id": "pxnbii",
+    "name": "Bücherregal Bäckerei Schnell",
+    "address": "Einbecker Straße 119, 10315 Berlin-Friedrichsfelde",
+    "lat": 52.5056850741,
+    "lon": 13.51361247793,
+    "sourceId": "obc_6teQSm"
+  },
+  {
     "id": "ztvome",
     "name": "Bücherregal Bäckerei Schäfers Dessau",
     "address": "Ernst-Zindel-Straße 4, 06847 Dessau-Roßlau",
@@ -37406,6 +37422,14 @@
     "lat": 50.329758,
     "lon": 11.708459,
     "sourceId": "obc_2KzNI9"
+  },
+  {
+    "id": "ajulst",
+    "name": "Bücherregal Dietersdorf",
+    "address": "Kirchenberg 5, 91126 Schwabach-Dietersdorf",
+    "lat": 49.36641030697,
+    "lon": 11.00017078948,
+    "sourceId": "obc_07O0S1"
   },
   {
     "id": "isyqho",
@@ -49648,6 +49672,14 @@
     "sourceId": "obc_vhrNG1"
   },
   {
+    "id": "vjbhet",
+    "name": "Bücherschrank Eschenlohe",
+    "address": "Murnauer Straße 3, 82438 Eschenlohe",
+    "lat": 47.59957460273,
+    "lon": 11.18645042181,
+    "sourceId": "obc_ZV5a89"
+  },
+  {
     "id": "yxkiji",
     "name": "Bücherschrank Eschmar",
     "address": "Rembrandtstraße / Van-Gogh-Platz 11, 53844 Troisdorf-Eschmar",
@@ -56878,14 +56910,6 @@
     "lat": 47.873212066044,
     "lon": 7.5903403212214,
     "sourceId": "obc_HkwxU4"
-  },
-  {
-    "id": "vwhdew",
-    "name": "Bücherschrank Neuenkirchen",
-    "address": "Wampener Straße , 17498 Neuenkirchen",
-    "lat": 54.118552091271,
-    "lon": 13.377520143986,
-    "sourceId": "obc_9LxsCM"
   },
   {
     "id": "ygxgjh",
@@ -76584,6 +76608,14 @@
     "sourceId": "obc_KCdjTa"
   },
   {
+    "id": "aytupe",
+    "name": "Bücherzelle Lion-Feuchtwanger-Straße",
+    "address": "Lion-Feuchtwanger-Straße 21a, 12619 Berlin-Hellersdorf",
+    "lat": 52.51750386665,
+    "lon": 13.58239799738,
+    "sourceId": "obc_AvcFNa"
+  },
+  {
     "id": "pafhwh",
     "name": "Bücherzelle Lippersdorf",
     "address": "Kirchgasse 4, 07646 Lippersdorf-Erdmannsdorf",
@@ -77616,6 +77648,14 @@
     "sourceId": "obc_PuPLpt"
   },
   {
+    "id": "vwhdew",
+    "name": "Bücherzelle Neuenkirchen",
+    "address": "Wampener Straße 5, 17498 Neuenkirchen",
+    "lat": 54.118552091271,
+    "lon": 13.377520143986,
+    "sourceId": "obc_9LxsCM"
+  },
+  {
     "id": "pljirq",
     "name": "Bücherzelle Neuer Graben",
     "address": "Neuer Graben 118, 44137 Dortmund",
@@ -77970,7 +78010,7 @@
   {
     "id": "paswhi",
     "name": "Bücherzelle Nürnberg-Altenfurt",
-    "address": "Habsburgerstrasse 31, 90475 Nürnberg-Altenfurt",
+    "address": "Habsburgerstraße 31, 90475 Nürnberg-Altenfurt",
     "lat": 49.406283,
     "lon": 11.170517,
     "sourceId": "obc_eCJcGi"
@@ -88898,7 +88938,7 @@
   {
     "id": "ixoqgw",
     "name": "Frieda's Bücherbox",
-    "address": "Stienitzseestr./Wassermannstr.,12489 Berlin-Adlershof",
+    "address": "Stienitzseestraße / Wassermannstraße, 12489 Berlin-Adlershof",
     "lat": 52.4408,
     "lon": 13.550622,
     "sourceId": "obc_OjH4zf"
@@ -92498,7 +92538,7 @@
   {
     "id": "iyfmtf",
     "name": "Kinderbuchschrank Greifswald",
-    "address": "Makarenkostraße 54, 17491",
+    "address": "Makarenkostraße 54, 17491 Greifswald",
     "lat": 54.08186653145,
     "lon": 13.420091159642,
     "sourceId": "obc_kDOdka"
@@ -95134,6 +95174,14 @@
     "lat": 48.924107,
     "lon": 6.633548,
     "sourceId": "obc_lIAY9V"
+  },
+  {
+    "id": "vsewmx",
+    "name": "Library B&B Casa Colmata",
+    "address": "Località Colmata, 18, 57025 Colmata LI, Italien",
+    "lat": 42.9621666,
+    "lon": 10.5458145,
+    "sourceId": "obc_5ZgVZc"
   },
   {
     "id": "naxmxu",
