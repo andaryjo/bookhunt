@@ -35168,14 +35168,6 @@
     "sourceId": "obc_kHPspd"
   },
   {
-    "id": "cfmlil",
-    "name": "Bücherkiste Tirschenreuth (Fischhofpark)",
-    "address": ", 95643",
-    "lat": 49.879186296319,
-    "lon": 12.342115044594,
-    "sourceId": "obc_I0fG9C"
-  },
-  {
     "id": "cktwsm",
     "name": "Bücherkiste Uhlandstraße",
     "address": "Uhlandstraße 12, 66482 Zweibrücken",
@@ -35262,6 +35254,14 @@
     "lat": 49.387222885051,
     "lon": 9.191460236907,
     "sourceId": "obc_j2lUvB"
+  },
+  {
+    "id": "cfmlil",
+    "name": "Bücherkiste am Fischhofpark",
+    "address": "Am Fischhof 4-6, 95643 Tirschenreuth",
+    "lat": 49.879186296319,
+    "lon": 12.342115044594,
+    "sourceId": "obc_I0fG9C"
   },
   {
     "id": "rjiyvb",
@@ -58216,6 +58216,14 @@
     "sourceId": "obc_9CWP2g"
   },
   {
+    "id": "whbufo",
+    "name": "Bücherschrank Peuerbach",
+    "address": "Kirchenplatz 14, 4722 Peuerbach",
+    "lat": 48.34454,
+    "lon": 13.772922,
+    "sourceId": "obc_lfcgbC"
+  },
+  {
     "id": "gcbclm",
     "name": "Bücherschrank Pfaffenweiler",
     "address": "Hauptstraße 32, 78052 Villingen-Schwenningen-Pfaffenweiler",
@@ -58462,6 +58470,14 @@
     "lat": 48.709916195589,
     "lon": 9.4189256429672,
     "sourceId": "obc_AxfbkG"
+  },
+  {
+    "id": "yeondp",
+    "name": "Bücherschrank Plößberger Weiher Kiosk",
+    "address": "Großer-Weiher-Straße 24, 95703 Plößberg",
+    "lat": 49.78111314924,
+    "lon": 12.3304823041,
+    "sourceId": "obc_1rQr5C"
   },
   {
     "id": "dbwxsz",
@@ -69296,6 +69312,14 @@
     "sourceId": "obc_waSAzM"
   },
   {
+    "id": "rzdioj",
+    "name": "Bücherwaage Matzen",
+    "address": "Jubiläumsplatz 4, 2243 Matzen",
+    "lat": 48.399078,
+    "lon": 16.694391,
+    "sourceId": "obc_KCX6Zb"
+  },
+  {
     "id": "qmcpzv",
     "name": "Bücherwaage Merkendorf",
     "address": "Ortsstraße 28, 07950 Zeulenroda-Triebes-Merkendorf",
@@ -72366,6 +72390,14 @@
     "lat": 50.994108,
     "lon": 10.190946,
     "sourceId": "obc_IIm308"
+  },
+  {
+    "id": "gcuwxt",
+    "name": "Bücherzelle Eisenberg",
+    "address": "Krauseplatz 3, 07607 Eisenberg",
+    "lat": 50.96734632601,
+    "lon": 11.90791590537,
+    "sourceId": "obc_vg7Fuh"
   },
   {
     "id": "lqvczg",
@@ -76688,6 +76720,14 @@
     "sourceId": "obc_ORnMSC"
   },
   {
+    "id": "xphxom",
+    "name": "Bücherzelle Lynow",
+    "address": "Baruther Landstraße 2, 14947 Nuthe-Urstromtal-Lynow",
+    "lat": 52.04751397199,
+    "lon": 13.3909741044,
+    "sourceId": "obc_hy0ZUU"
+  },
+  {
     "id": "khdsyn",
     "name": "Bücherzelle Lübben",
     "address": "Am Markt, 15907 Lübben (Spreewald)",
@@ -80848,6 +80888,14 @@
     "sourceId": "obc_otPxJF"
   },
   {
+    "id": "ihsqom",
+    "name": "Bücherzelle Spannberg",
+    "address": "Hauptplatz 18, 2244 Spannberg",
+    "lat": 48.464769,
+    "lon": 16.739422,
+    "sourceId": "obc_23PucI"
+  },
+  {
     "id": "vbpaab",
     "name": "Bücherzelle Spar- und Bauverein",
     "address": "Unverhaustraße 9, 44147 Dortmund",
@@ -82854,6 +82902,14 @@
     "lat": 49.677749,
     "lon": 12.164033,
     "sourceId": "obc_IidMrM"
+  },
+  {
+    "id": "mwquiv",
+    "name": "Bücherzelle Weikendorf",
+    "address": "Obere Hauptstraße 24, 2253 Weikendorf",
+    "lat": 48.342114,
+    "lon": 16.763651,
+    "sourceId": "obc_4FbrO1"
   },
   {
     "id": "gvsfjc",
@@ -95198,6 +95254,14 @@
     "lat": 51.219036,
     "lon": 6.658465,
     "sourceId": "obc_pfTBDj"
+  },
+  {
+    "id": "hiwivb",
+    "name": "Libri del Borgo Campiglia Marittima",
+    "address": "",
+    "lat": 43.0594073,
+    "lon": 10.6170684,
+    "sourceId": "obc_PAk2qQ"
   },
   {
     "id": "wsdxao",
