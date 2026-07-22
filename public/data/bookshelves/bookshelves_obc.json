@@ -368,6 +368,14 @@
     "sourceId": "obc_6y9ZjR"
   },
   {
+    "id": "csximc",
+    "name": "?",
+    "address": "",
+    "lat": 52.9710166,
+    "lon": 10.5918343,
+    "sourceId": "obc_Y6Re72"
+  },
+  {
     "id": "baeicu",
     "name": "A bench in Shevchenko park",
     "address": "Volodymyrska str. Kyiv, Kyiv 01001 Ukraine",
@@ -3320,6 +3328,14 @@
     "sourceId": "obc_keMqPS"
   },
   {
+    "id": "nlkpdp",
+    "name": "Blaue Bücherkiste",
+    "address": "Wallumer Helmer Zwischen 2 und 4, 26487 Blomberg",
+    "lat": 53.57095986061,
+    "lon": 7.5453776144,
+    "sourceId": "obc_rHA5so"
+  },
+  {
     "id": "cxfgts",
     "name": "Blaue Bücherzelle",
     "address": "Quiddestr. 15, 81735 München",
@@ -3366,6 +3382,14 @@
     "lat": 51.947899,
     "lon": 9.098386,
     "sourceId": "obc_jGdEn4"
+  },
+  {
+    "id": "hahpwf",
+    "name": "Blue Door Hostel Library",
+    "address": "",
+    "lat": 41.3337015,
+    "lon": 19.8289446,
+    "sourceId": "obc_5PILAB"
   },
   {
     "id": "hfmelu",
@@ -29608,14 +29632,6 @@
     "sourceId": "obc_Zhu0t6"
   },
   {
-    "id": "wgnrqc",
-    "name": "Buchtausch-Pavillon Ehinger Tor (Ulm)",
-    "address": "an der Straßenbahnhaltestelle Ehinger Tor",
-    "lat": 48.394729,
-    "lon": 9.980886,
-    "sourceId": "obc_u3k8ZQ"
-  },
-  {
     "id": "kdbqff",
     "name": "Buchtauschbox",
     "address": "73 Roomersheide 44797 Bochum",
@@ -32866,7 +32882,7 @@
   {
     "id": "evrlhx",
     "name": "Bücherei Mühlenbeck - Touristeninformation",
-    "address": "Hauptstraße 7, 16567 Mühlenbecker Land",
+    "address": "Hauptstr. 9, 16567 Mühlenbecker Land, Hauptstraße 9, 16567 Mühlenbecker Land",
     "lat": 52.6628861,
     "lon": 13.3783088,
     "sourceId": "obc_h98SHA"
@@ -33070,6 +33086,14 @@
     "lat": 50.310297,
     "lon": 12.325029,
     "sourceId": "obc_SWNCFo"
+  },
+  {
+    "id": "hjxdsa",
+    "name": "Büchergarage Eversmeer",
+    "address": "Grenzweg 14, 26556 Eversmeer",
+    "lat": 53.56977029991,
+    "lon": 7.44420255102,
+    "sourceId": "obc_gYBK2w"
   },
   {
     "id": "nvelwv",
@@ -35310,6 +35334,14 @@
     "lat": 48.2519624,
     "lon": 11.4342302,
     "sourceId": "obc_kAIYFG"
+  },
+  {
+    "id": "gfdldn",
+    "name": "Bücherkiste im Dit un Dat",
+    "address": "Wilde-Äcker-Weg, 26529 Osterupgant",
+    "lat": 53.51154512859,
+    "lon": 7.29814179283,
+    "sourceId": "obc_Y0pu2A"
   },
   {
     "id": "lmjkif",
@@ -37670,6 +37702,14 @@
     "lat": 49.077738,
     "lon": 8.204008,
     "sourceId": "obc_xBI4GI"
+  },
+  {
+    "id": "cyyqyd",
+    "name": "Bücherregal Edeka Götz",
+    "address": "Am Markt 20-23, 26506 Norden",
+    "lat": 53.59405035395,
+    "lon": 7.20422412585,
+    "sourceId": "obc_O3EfcX"
   },
   {
     "id": "pwnmcs",
@@ -43256,6 +43296,14 @@
     "sourceId": "obc_pzGS5H"
   },
   {
+    "id": "dpgkcp",
+    "name": "Bücherregal im Mehrgenerationenhaus",
+    "address": "Kirchplatz 1, 26427 Esens",
+    "lat": 53.64699648087,
+    "lon": 7.61275857325,
+    "sourceId": "obc_7ak8D7"
+  },
+  {
     "id": "qtzckg",
     "name": "Bücherregal im Mehrgenerationenhaus Essen e.V.",
     "address": "Kerckhoffstraße 22b, 45144 Essen",
@@ -43382,6 +43430,14 @@
     "lat": 48.625142,
     "lon": 8.923756,
     "sourceId": "obc_eymY26"
+  },
+  {
+    "id": "svtxxo",
+    "name": "Bücherregal im Reethaus",
+    "address": "Hafenstraße 3, 26553 Dornumersiel",
+    "lat": 53.67739406457,
+    "lon": 7.47994045272,
+    "sourceId": "obc_IkBIBj"
   },
   {
     "id": "iaiqin",
@@ -57368,14 +57424,6 @@
     "sourceId": "obc_BySaQt"
   },
   {
-    "id": "alouol",
-    "name": "Bücherschrank Norden",
-    "address": "Am Markt, 26506 Norden",
-    "lat": 53.594893,
-    "lon": 7.204749,
-    "sourceId": "obc_iQVECz"
-  },
-  {
     "id": "dxyvvl",
     "name": "Bücherschrank Norderney",
     "address": "Knyphausenstraße 7, 26548 Norderney",
@@ -62256,6 +62304,14 @@
     "sourceId": "obc_x2V6cj"
   },
   {
+    "id": "arlwdm",
+    "name": "Bücherschrank Unner de Boomen",
+    "address": "Dollartstraße 32, 26723 Emden",
+    "lat": 53.35830777524,
+    "lon": 7.18924138031,
+    "sourceId": "obc_XXUI6d"
+  },
+  {
     "id": "psytul",
     "name": "Bücherschrank Unteraichen Schulstraße",
     "address": "Schulstraße 17, 70771 Leinfelden-Echterdingen",
@@ -64550,6 +64606,14 @@
     "lat": 47.640005044272,
     "lon": 9.1945400834084,
     "sourceId": "obc_7gGBtC"
+  },
+  {
+    "id": "lhuysp",
+    "name": "Bücherschrank am ISV",
+    "address": "Früchteburger Weg, 26721 Emden",
+    "lat": 53.37682213572,
+    "lon": 7.19770010965,
+    "sourceId": "obc_t4XCN1"
   },
   {
     "id": "uawcky",
@@ -69264,6 +69328,14 @@
     "sourceId": "obc_VpkpqV"
   },
   {
+    "id": "opbywq",
+    "name": "Büchervitrine am Campus-Brunnen",
+    "address": "Schlossstraße, 26532 Großheide",
+    "lat": 53.58556105619,
+    "lon": 7.34704658523,
+    "sourceId": "obc_ho3kxJ"
+  },
+  {
     "id": "hsrlnt",
     "name": "Büchervitrinen Graz-Mariatrost Mariatrosterteich",
     "address": "Mariatroster Straße 230, 8044 Graz",
@@ -70918,14 +70990,6 @@
     "lat": 47.405596,
     "lon": 16.256584,
     "sourceId": "obc_9yU41b"
-  },
-  {
-    "id": "vmygrh",
-    "name": "Bücherzelle Berumbur",
-    "address": "Kiesauer Trift, 26524 Berumbur",
-    "lat": 53.594196,
-    "lon": 7.312637,
-    "sourceId": "obc_1Nh6aC"
   },
   {
     "id": "bxuvza",
@@ -76376,12 +76440,52 @@
     "sourceId": "obc_S5Q0oz"
   },
   {
+    "id": "etfpdn",
+    "name": "Bücherzelle LesBar Hugo-Distler-Straße",
+    "address": "Hugo-Distler-Straße 40, 12619 Berlin-Kaulsdorf",
+    "lat": 52.51952746514,
+    "lon": 13.60261357561,
+    "sourceId": "obc_OjiQvP"
+  },
+  {
     "id": "rbmfib",
     "name": "Bücherzelle LesBar Ziekowkiez",
     "address": "Ziekowstraße 112-114, 13509 Berlin-Tegel",
     "lat": 52.58912584063,
     "lon": 13.29337589469,
     "sourceId": "obc_Ym6Yfy"
+  },
+  {
+    "id": "wfgfxz",
+    "name": "Bücherzelle Lesbar Karl-Schurz-Straße",
+    "address": "Karl-Schurz-Straße 3, 39114 Magdeburg-Cracau",
+    "lat": 52.12092074344,
+    "lon": 11.6573227278,
+    "sourceId": "obc_LB5fpa"
+  },
+  {
+    "id": "uzkhrg",
+    "name": "Bücherzelle Lesbar Nagelshof",
+    "address": "Nagelshof 2, 22559 Hamburg-Rissen",
+    "lat": 53.58163641415,
+    "lon": 9.75373445289,
+    "sourceId": "obc_RnlcGx"
+  },
+  {
+    "id": "pitikx",
+    "name": "Bücherzelle Lesbar Schwarzenbek",
+    "address": "Verbrüderungsring 36B, 21493 Schwarzenbek",
+    "lat": 53.50888239454,
+    "lon": 10.49066091343,
+    "sourceId": "obc_nrzbOh"
+  },
+  {
+    "id": "engept",
+    "name": "Bücherzelle Lesbar Theodor-Fontane-Straße",
+    "address": "Theodor-Fontane-Straße 14, 14974 Ludwigsfelde",
+    "lat": 52.30297942815,
+    "lon": 13.26402470156,
+    "sourceId": "obc_6G0kSt"
   },
   {
     "id": "gqnmya",
@@ -82440,6 +82544,14 @@
     "sourceId": "obc_UkJ2YE"
   },
   {
+    "id": "iqnslg",
+    "name": "Bücherzelle Villa Pelikan",
+    "address": "Hellersdorfer Straße 27, 12621 Berlin-Kaulsdorf",
+    "lat": 52.51638376283,
+    "lon": 13.58913253786,
+    "sourceId": "obc_lB6Jb5"
+  },
+  {
     "id": "aaqahw",
     "name": "Bücherzelle Vinnum",
     "address": "Hauptstraße 33, 59399 Olfen-Vinnum",
@@ -87414,6 +87526,14 @@
     "lat": 53.0818364,
     "lon": 8.815965,
     "sourceId": "obc_FbvaLL"
+  },
+  {
+    "id": "lzohet",
+    "name": "Edenhof-Apotheke Bücherregal",
+    "address": "Am Edenhof, 26524 Hage",
+    "lat": 53.60052384021,
+    "lon": 7.29094367796,
+    "sourceId": "obc_eEtDAF"
   },
   {
     "id": "hiwaoz",
@@ -92504,6 +92624,14 @@
     "sourceId": "obc_WBAvos"
   },
   {
+    "id": "ylmgzk",
+    "name": "Kinder- und Jugendbücherschrank",
+    "address": "Teefelsweg 10, 26532 Großheide, Der Buchtresor darf außen von den Kindern und Jugendlichen mit Kreide selbst gestaltet werden.",
+    "lat": 53.59677555578,
+    "lon": 7.34290029322,
+    "sourceId": "obc_gIhupm"
+  },
+  {
     "id": "tnlqrw",
     "name": "Kinder-Bücherregal Wiesloch",
     "address": ", 69168",
@@ -92942,6 +93070,14 @@
     "lat": 52.0125362,
     "lon": 4.3316349,
     "sourceId": "obc_AFXWCc"
+  },
+  {
+    "id": "endjsa",
+    "name": "Kleiner Bücherschrank",
+    "address": "Am Bahnsteig, 26427 Fulkum",
+    "lat": 53.63340904252,
+    "lon": 7.52460249475,
+    "sourceId": "obc_UGGSmp"
   },
   {
     "id": "ktycao",
@@ -95096,6 +95232,14 @@
     "sourceId": "obc_2xvJpZ"
   },
   {
+    "id": "iwkwth",
+    "name": "Lesesaal Nordeich",
+    "address": "",
+    "lat": 53.6164919857,
+    "lon": 7.15273923241,
+    "sourceId": "obc_W85yiY"
+  },
+  {
     "id": "asmcrr",
     "name": "Lesesaal in Bibliothek / Rathaus Tegernsee",
     "address": "",
@@ -95258,7 +95402,7 @@
   {
     "id": "hiwivb",
     "name": "Libri del Borgo Campiglia Marittima",
-    "address": "",
+    "address": "Via Roma 3, 57021 Campiglia Marittima LI",
     "lat": 43.0594073,
     "lon": 10.6170684,
     "sourceId": "obc_PAk2qQ"
@@ -124526,6 +124670,33 @@
     "lat": 51.5886931,
     "lon": -0.0211816,
     "sourceId": "obc_rGviyz"
+  },
+  {
+    "id": "wgnrqc",
+    "name": "Buchtausch-Pavillon Ehinger Tor (Ulm)",
+    "address": "an der Straßenbahnhaltestelle Ehinger Tor",
+    "lat": 48.394729,
+    "lon": 9.980886,
+    "sourceId": "obc_u3k8ZQ",
+    "removed": true
+  },
+  {
+    "id": "alouol",
+    "name": "Bücherschrank Norden",
+    "address": "Am Markt, 26506 Norden",
+    "lat": 53.594893,
+    "lon": 7.204749,
+    "sourceId": "obc_iQVECz",
+    "removed": true
+  },
+  {
+    "id": "vmygrh",
+    "name": "Bücherzelle Berumbur",
+    "address": "Kiesauer Trift, 26524 Berumbur",
+    "lat": 53.594196,
+    "lon": 7.312637,
+    "sourceId": "obc_1Nh6aC",
+    "removed": true
   },
   {
     "id": "wfyups",
