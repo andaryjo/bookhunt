@@ -4434,7 +4434,7 @@
   {
     "id": "kprbzm",
     "name": "Boite a lire Place de l église",
-    "address": "Place de l église, devant la biblioth��que, 17600, Saint sornin, France",
+    "address": "Place de l église, devant la bibliothèque, 17600, Saint sornin, France",
     "lat": 45.766652,
     "lon": -0.971797,
     "sourceId": "bal_10187"
@@ -62241,8 +62241,8 @@
   },
   {
     "id": "ykajnv",
-    "name": "Boite a lire 2 bis cit�� aubry",
-    "address": "2 bis cit�� aubry, 75020, Paris, France",
+    "name": "Boite a lire 2 bis cité aubry",
+    "address": "2 bis cité aubry, 75020, Paris, France",
     "lat": 48.85697,
     "lon": 2.395624,
     "sourceId": "bal_2503"

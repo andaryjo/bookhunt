@@ -8,14 +8,6 @@
     "sourceId": "obc_TnGEHn"
   },
   {
-    "id": "nejkcd",
-    "name": "\"Aktion Bücherwurm\" im Lausitzpark Cottbus",
-    "address": "Madlower Chaussee 4",
-    "lat": 51.7174802,
-    "lon": 14.3220633,
-    "sourceId": "obc_Sh7k27"
-  },
-  {
     "id": "mfiucc",
     "name": "\"Buch-Bar\" in Bensberg",
     "address": "Im Alten Feld 1, 51429 Bergisch Gladbach",
@@ -366,14 +358,6 @@
     "lat": 52.199184,
     "lon": 4.556134,
     "sourceId": "obc_6y9ZjR"
-  },
-  {
-    "id": "csximc",
-    "name": "?",
-    "address": "",
-    "lat": 52.9710166,
-    "lon": 10.5918343,
-    "sourceId": "obc_Y6Re72"
   },
   {
     "id": "baeicu",
@@ -1590,6 +1574,14 @@
     "lat": 52.706731,
     "lon": 5.138426,
     "sourceId": "obc_sVEjRM"
+  },
+  {
+    "id": "nvqlis",
+    "name": "Beer Garden Pub Prishtinë",
+    "address": "",
+    "lat": 42.6650374,
+    "lon": 21.1580835,
+    "sourceId": "obc_TJD7ne"
   },
   {
     "id": "qckizf",
@@ -29136,6 +29128,14 @@
     "sourceId": "obc_7TA7bR"
   },
   {
+    "id": "mihghd",
+    "name": "Buchhaltestelle",
+    "address": "",
+    "lat": 51.97801619525,
+    "lon": 13.76454407822,
+    "sourceId": "obc_SNkcq4"
+  },
+  {
     "id": "xljjuo",
     "name": "Buchhaltestelle Biesenthal",
     "address": "Bahnhofsplatz 1, 16359 Biesenthal",
@@ -32262,6 +32262,14 @@
     "lat": 49.046139147418,
     "lon": 9.1915038228035,
     "sourceId": "obc_kDDIJa"
+  },
+  {
+    "id": "wmrdiz",
+    "name": "Bücherbox Neu-Westend",
+    "address": "Eichenallee 47, 14050 Berlin-Westend",
+    "lat": 52.5178456,
+    "lon": 13.2638003,
+    "sourceId": "obc_u6sv0D"
   },
   {
     "id": "dxsbng",
@@ -69624,6 +69632,14 @@
     "sourceId": "obc_hHA961"
   },
   {
+    "id": "nejkcd",
+    "name": "Bücherwurm im Lausitzpark Cottbus",
+    "address": "Madlower Chaussee 4, 03051 Cottbus-Groß Gaglow",
+    "lat": 51.7174802,
+    "lon": 14.3220633,
+    "sourceId": "obc_Sh7k27"
+  },
+  {
     "id": "tvzetq",
     "name": "Bücherwurm im Marktkauf Goslar",
     "address": "Carl-Zeiß-Straße 4, 38644 Goslar-Baßgeige",
@@ -69718,6 +69734,14 @@
     "lat": 50.972231,
     "lon": 11.025016,
     "sourceId": "obc_XhTH5J"
+  },
+  {
+    "id": "nkccua",
+    "name": "Bücherzelle",
+    "address": "",
+    "lat": 51.98553479775,
+    "lon": 13.6941126585,
+    "sourceId": "obc_dRQbRz"
   },
   {
     "id": "mpsopt",
@@ -76810,7 +76834,7 @@
   {
     "id": "ljlbzp",
     "name": "Bücherzelle Luftenberg an der Donau",
-    "address": "Europaweg 1, 4225 Luftenberg",
+    "address": "Europaweg 1, 4225 Luftenberg an der Donau",
     "lat": 48.272202,
     "lon": 14.42719,
     "sourceId": "obc_PzZym6"
@@ -77086,6 +77110,14 @@
     "lat": 51.127512,
     "lon": 13.066242,
     "sourceId": "obc_ncjTig"
+  },
+  {
+    "id": "mjohde",
+    "name": "Bücherzelle Matrei am Brenner Mühlbachl Statz",
+    "address": "Mühlbachl Abzw. Naviser Straße 2, 6143 Matrei am Brenner-Statz",
+    "lat": 47.122474,
+    "lon": 11.451618,
+    "sourceId": "obc_bPTSGQ"
   },
   {
     "id": "ongrjf",
@@ -89952,14 +89984,6 @@
     "sourceId": "obc_UvMGoc"
   },
   {
-    "id": "cllcxe",
-    "name": "Givebox Gartenhäuschen Sindelfingen",
-    "address": "Herrenwäldlestraße 17-15, 71065 Sindelfingen",
-    "lat": 48.714669,
-    "lon": 9.007297,
-    "sourceId": "obc_dKP8Yt"
-  },
-  {
     "id": "wrxapi",
     "name": "Givebox Hamm",
     "address": "Ahornallee 35 59063 Hamm",
@@ -90222,6 +90246,14 @@
     "lat": 31.454787,
     "lon": 74.350662,
     "sourceId": "obc_ZfJ2Sw"
+  },
+  {
+    "id": "dwazwn",
+    "name": "Good Hostel Prishtinë Library",
+    "address": "",
+    "lat": 42.6579912,
+    "lon": 21.1704193,
+    "sourceId": "obc_3u9QsT"
   },
   {
     "id": "cfaasx",
@@ -93664,6 +93696,14 @@
     "sourceId": "obc_lGqiL1"
   },
   {
+    "id": "cllcxe",
+    "name": "Koscht-Nix-Häusle im Sommerhofen-Park",
+    "address": "Herrenwäldlestraße 17-15, 71065 Sindelfingen",
+    "lat": 48.714669,
+    "lon": 9.007297,
+    "sourceId": "obc_dKP8Yt"
+  },
+  {
     "id": "jaawoq",
     "name": "Kottenheimer Bücher-Zelle",
     "address": "Schulstraße , 56736 Kottenheim",
@@ -96166,6 +96206,14 @@
     "lat": 52.507739,
     "lon": 5.476824,
     "sourceId": "obc_Uy4lrl"
+  },
+  {
+    "id": "tdaqfv",
+    "name": "Little free library Gabicce Monte",
+    "address": "Via E. Filiberto, Next to stairs of walkingpath",
+    "lat": 43.96284380386,
+    "lon": 12.77362857675,
+    "sourceId": "obc_zR8eil"
   },
   {
     "id": "rhyapt",
@@ -109632,6 +109680,14 @@
     "sourceId": "obc_18zUZ6"
   },
   {
+    "id": "csximc",
+    "name": "Oldenstadt",
+    "address": "",
+    "lat": 52.9710166,
+    "lon": 10.5918343,
+    "sourceId": "obc_Y6Re72"
+  },
+  {
     "id": "xzeven",
     "name": "Olpe",
     "address": "Kurfürst-Heinrich-Str. 34, Olpe",
@@ -113022,6 +113078,14 @@
     "lat": 52.150644,
     "lon": 9.951387,
     "sourceId": "obc_UCQ8bg"
+  },
+  {
+    "id": "vweuod",
+    "name": "Steinecke Bäckerei Bücherregal",
+    "address": "Mehringdamm 60",
+    "lat": 52.49117015118,
+    "lon": 13.38650302456,
+    "sourceId": "obc_ygMaXO"
   },
   {
     "id": "hzphap",
