@@ -3775,7 +3775,7 @@
   {
     "id": "pwaabc",
     "name": "Bücherschrank Köln",
-    "address": "50968 Köln, Cäsarstra��e",
+    "address": "50968 Köln, Cäsarstraße",
     "lat": 50.9074632,
     "lon": 6.9667643
   },
@@ -5468,8 +5468,8 @@
   },
   {
     "id": "lprowh",
-    "name": "Bücherschrank Köln",
-    "address": "50825 Köln, Leo-Amann-Park",
+    "name": "Bücherschrank K��ln",
+    "address": "50825 K��ln, Leo-Amann-Park",
     "lat": 50.95343,
     "lon": 6.9114191
   },
