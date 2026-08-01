@@ -64,14 +64,6 @@
     "sourceId": "obc_AWtIxB"
   },
   {
-    "id": "uyckho",
-    "name": "\"Paderthek\"",
-    "address": "Westernstraße 39-41, Paderborn",
-    "lat": 51.71595,
-    "lon": 8.74786,
-    "sourceId": "obc_3PqjpS"
-  },
-  {
     "id": "jnuwgn",
     "name": "\"Ye\" bookstore",
     "address": "Lysenka 3 Kyiv, Kyiv Ukraine",
@@ -1578,7 +1570,7 @@
   {
     "id": "nvqlis",
     "name": "Beer Garden Pub Prishtinë",
-    "address": "",
+    "address": "Rrugë Fehmi Agani 52, 10000 Prishtinë",
     "lat": 42.6650374,
     "lon": 21.1580835,
     "sourceId": "obc_TJD7ne"
@@ -28984,14 +28976,6 @@
     "sourceId": "obc_KAifoF"
   },
   {
-    "id": "kmqrid",
-    "name": "Buch-Tauschregal Neuenhagen",
-    "address": "Rosa-Luxemburg-Damm / Hildesheimer Str. 1, 15366 Neuenhagen bei Berlin",
-    "lat": 52.518888,
-    "lon": 13.707644,
-    "sourceId": "obc_nQdvDh"
-  },
-  {
     "id": "aegkes",
     "name": "Buch.Brett.Speyer",
     "address": "Mehlgasse 31A, 67346 Speyer",
@@ -29128,14 +29112,6 @@
     "sourceId": "obc_7TA7bR"
   },
   {
-    "id": "mihghd",
-    "name": "Buchhaltestelle",
-    "address": "",
-    "lat": 51.97801619525,
-    "lon": 13.76454407822,
-    "sourceId": "obc_SNkcq4"
-  },
-  {
     "id": "xljjuo",
     "name": "Buchhaltestelle Biesenthal",
     "address": "Bahnhofsplatz 1, 16359 Biesenthal",
@@ -29214,6 +29190,14 @@
     "lat": 48.4779,
     "lon": 8.9334,
     "sourceId": "obc_JtO0Rz"
+  },
+  {
+    "id": "mihghd",
+    "name": "Buchhaltestelle Schönwalde",
+    "address": "Kirchhofstraße 28, 15910 Schönwalde",
+    "lat": 51.97801619525,
+    "lon": 13.76454407822,
+    "sourceId": "obc_SNkcq4"
   },
   {
     "id": "uccrze",
@@ -33648,6 +33632,14 @@
     "sourceId": "obc_X9jsJV"
   },
   {
+    "id": "baxadc",
+    "name": "Bücherhaltestelle Süderbusch",
+    "address": "Balkseestraße 46, 21789 Wingst-Süderbusch 46, 21789 Wingst-Süderbusch",
+    "lat": 53.713289756149,
+    "lon": 9.0248427540064,
+    "sourceId": "obc_BVppsb"
+  },
+  {
     "id": "axlbzl",
     "name": "Bücherhaltestelle Thanheim",
     "address": "Onstmettinger Str., 72406 Bisingen-Thanheim",
@@ -37440,14 +37432,6 @@
     "sourceId": "obc_2fTKvA"
   },
   {
-    "id": "chgasu",
-    "name": "Bücherregal Dettensee",
-    "address": "Neuneckstraße 33, 72160 Horb am Neckar-Dettensee",
-    "lat": 48.421004,
-    "lon": 8.721177,
-    "sourceId": "obc_KAVQeD"
-  },
-  {
     "id": "olvbzg",
     "name": "Bücherregal Deutschlandsberg EcoShop",
     "address": "Frauentalerstraße 9, 8530 Deutschlandsberg",
@@ -38206,14 +38190,6 @@
     "lat": 47.914395,
     "lon": 13.806318,
     "sourceId": "obc_QJSfDg"
-  },
-  {
-    "id": "wgbmda",
-    "name": "Bücherregal Gols WeinKulturHaus Vinothek und Tourismusbüro",
-    "address": "Hauptplatz 20, 7122 Gols",
-    "lat": 47.897649,
-    "lon": 16.907031,
-    "sourceId": "obc_HWX1zR"
   },
   {
     "id": "ecpeis",
@@ -39218,7 +39194,7 @@
   {
     "id": "oriagq",
     "name": "Bücherregal Innichen Bahnhof Vierschach-Helm",
-    "address": "Schattenweg, 2f, 39038 Versciaco di Sopra BZ, Innichen-Vierschach",
+    "address": "Schattenweg 2f, 39038 Innichen-Vierschach",
     "lat": 46.732403,
     "lon": 12.328449,
     "sourceId": "obc_pCVg14"
@@ -41608,6 +41584,14 @@
     "sourceId": "obc_EaTFrX"
   },
   {
+    "id": "nmnipy",
+    "name": "Bücherregal Steinecke Potsdamer Platz",
+    "address": "Potsdamer Platz 9, 10117 Berlin-Mitte",
+    "lat": 52.50867608206,
+    "lon": 13.37736725807,
+    "sourceId": "obc_jixYWQ"
+  },
+  {
     "id": "ngdiep",
     "name": "Bücherregal Steinfurt",
     "address": "Emsdettener Straße 8, 48565",
@@ -43766,14 +43750,6 @@
     "lat": 47.349669,
     "lon": 11.701856,
     "sourceId": "obc_ETSOSc"
-  },
-  {
-    "id": "ijtuop",
-    "name": "Bücherregal klarkurs steuerberatung",
-    "address": "Peter-Floridan-Gasse 4, 7100 Neusiedl am See",
-    "lat": 47.946601,
-    "lon": 16.844432,
-    "sourceId": "obc_soXKTd"
   },
   {
     "id": "tmkfus",
@@ -48568,6 +48544,14 @@
     "sourceId": "obc_744IBU"
   },
   {
+    "id": "chgasu",
+    "name": "Bücherschrank Dettensee",
+    "address": "Neuneckstraße 36-38, 72160 Horb am Neckar-Dettensee",
+    "lat": 48.421004,
+    "lon": 8.721177,
+    "sourceId": "obc_KAVQeD"
+  },
+  {
     "id": "sydrjw",
     "name": "Bücherschrank Dettingen",
     "address": "Pfarrer-Kottmann-Platz / Ofterdinger Str., 72108 Rottenburg am Neckar-Dettingen",
@@ -49082,7 +49066,7 @@
   {
     "id": "udeanp",
     "name": "Bücherschrank EDEKA Külbs",
-    "address": "Uelzener Str. 25, 29571 Rosche",
+    "address": "Uelzener Straße 25, 29571 Rosche",
     "lat": 52.984569,
     "lon": 10.745323,
     "sourceId": "obc_qNBiFK"
@@ -58128,6 +58112,14 @@
     "sourceId": "obc_Jbeiza"
   },
   {
+    "id": "uyckho",
+    "name": "Bücherschrank Paderthek",
+    "address": "Westernstraße 37-39, 33098 Paderborn",
+    "lat": 51.71595,
+    "lon": 8.74786,
+    "sourceId": "obc_3PqjpS"
+  },
+  {
     "id": "zvsqwp",
     "name": "Bücherschrank Palmbach",
     "address": "Talstraße , 76228 Karlsruhe-Palmbach",
@@ -60230,6 +60222,14 @@
     "lat": 50.418538,
     "lon": 6.554106,
     "sourceId": "obc_GsuhRE"
+  },
+  {
+    "id": "yhgiwd",
+    "name": "Bücherschrank Schmirn",
+    "address": "Schmirn 58b, 6154 Schmirn",
+    "lat": 47.078943,
+    "lon": 11.563437,
+    "sourceId": "obc_yJ754z"
   },
   {
     "id": "kxkyxw",
@@ -64496,6 +64496,14 @@
     "sourceId": "obc_CcEBMU"
   },
   {
+    "id": "rxvfvp",
+    "name": "Bücherschrank am Froschberg",
+    "address": "Froschberg 2, 71126 Gäufelden-Öschelbronn",
+    "lat": 48.54969,
+    "lon": 8.819726,
+    "sourceId": "obc_0XYnYR"
+  },
+  {
     "id": "vttjkn",
     "name": "Bücherschrank am Fürstenplatz",
     "address": "ca. Fürstenpl. 6, 40215 Düsseldorf-Friedrichstadt",
@@ -66976,28 +66984,12 @@
     "sourceId": "obc_YdBXFd"
   },
   {
-    "id": "rejlnz",
-    "name": "Bücherschrank in der Buschhaltestelle Zanderstieg",
-    "address": "Am Balksee , 21789 Wingst",
-    "lat": 53.7133909,
-    "lon": 9.0248829,
-    "sourceId": "obc_hwnl65"
-  },
-  {
     "id": "frfrav",
     "name": "Bücherschrank in der Bushaltestelle",
     "address": "Westerweg , 21789 Wingst",
     "lat": 53.731247768199,
     "lon": 8.996766731143,
     "sourceId": "obc_lrk02N"
-  },
-  {
-    "id": "baxadc",
-    "name": "Bücherschrank in der Bushaltestelle Zanderstieg",
-    "address": "Am Balksee , 21789 Wingst",
-    "lat": 53.713289756149,
-    "lon": 9.0248427540064,
-    "sourceId": "obc_BVppsb"
   },
   {
     "id": "jpfgbi",
@@ -67360,12 +67352,12 @@
     "sourceId": "obc_DIbyn0"
   },
   {
-    "id": "rxvfvp",
+    "id": "ntqgzv",
     "name": "Bücherschrank Öschelbronn",
-    "address": "Froschberg 2 / Jahnstraße, 71126 Gäufelden-Öschelbronn",
-    "lat": 48.54969,
-    "lon": 8.819726,
-    "sourceId": "obc_0XYnYR"
+    "address": "Rathausplatz 1, 71126 Gäufelden-Öschelbronn",
+    "lat": 48.55235321016,
+    "lon": 8.82299032848,
+    "sourceId": "obc_Rvi8q2"
   },
   {
     "id": "bjwiax",
@@ -67537,8 +67529,8 @@
   },
   {
     "id": "ryuhvj",
-    "name": "Bücherschränke",
-    "address": "Kurpark Bad Dürrenberg",
+    "name": "Bücherschränke Bad Dürrenberg",
+    "address": "Promenade 11-1, 06231 Bad Dürrenberg",
     "lat": 51.2926155,
     "lon": 12.0650107,
     "sourceId": "obc_0O7iTt"
@@ -69736,14 +69728,6 @@
     "sourceId": "obc_XhTH5J"
   },
   {
-    "id": "nkccua",
-    "name": "Bücherzelle",
-    "address": "",
-    "lat": 51.98553479775,
-    "lon": 13.6941126585,
-    "sourceId": "obc_dRQbRz"
-  },
-  {
     "id": "mpsopt",
     "name": "Bücherzelle  Allendorf (Lumda)",
     "address": "Am Festplatz 4, 35469 Allendorf (Lumbda)",
@@ -69830,6 +69814,14 @@
     "lat": 52.301181,
     "lon": 12.777651,
     "sourceId": "obc_H1TEpw"
+  },
+  {
+    "id": "xdzvom",
+    "name": "Bücherzelle \"Happy Willow\"",
+    "address": "Kirchanger",
+    "lat": 52.22597245832,
+    "lon": 12.85883188248,
+    "sourceId": "obc_fRO3eZ"
   },
   {
     "id": "lkigfw",
@@ -73000,6 +72992,14 @@
     "sourceId": "obc_Bpn3PS"
   },
   {
+    "id": "tombcu",
+    "name": "Bücherzelle Fresdorf",
+    "address": "",
+    "lat": 52.27025177945,
+    "lon": 13.07842969894,
+    "sourceId": "obc_oGro74"
+  },
+  {
     "id": "hjmckz",
     "name": "Bücherzelle Frida",
     "address": "Lahmannring 19, 01324 Dresden-Weisser Hirsch",
@@ -73538,7 +73538,7 @@
   {
     "id": "yeedpb",
     "name": "Bücherzelle Gossensaß",
-    "address": "Ibsenplatz 2, 39041 Colle Isarco",
+    "address": "Ibsenplatz 2, 39041 Gossensaß",
     "lat": 46.937905,
     "lon": 11.443859,
     "sourceId": "obc_U6GEBj"
@@ -76954,7 +76954,7 @@
   {
     "id": "ijrbcx",
     "name": "Bücherzelle Mahlow",
-    "address": "Maxim-Gorki-Str. 27A, 15831 Blankenfelde-Mahlow",
+    "address": "Albrechtstr. 10, 15831 Blankenfelde-Mahlow",
     "lat": 52.360847,
     "lon": 13.412869,
     "sourceId": "obc_hnWaKk"
@@ -81568,12 +81568,12 @@
     "sourceId": "obc_maGvR4"
   },
   {
-    "id": "xcvzlz",
+    "id": "ahwcur",
     "name": "Bücherzelle Steinach am Brenner",
     "address": "Saxen 26a, 6150 Steinach am Brenner",
-    "lat": 47.078927,
-    "lon": 11.477655,
-    "sourceId": "obc_bzTI0s"
+    "lat": 47.07865,
+    "lon": 11.477637,
+    "sourceId": "obc_KL9Wz9"
   },
   {
     "id": "luetpg",
@@ -82298,7 +82298,7 @@
   {
     "id": "ekjley",
     "name": "Bücherzelle Trins",
-    "address": "Trins 83, 6152 Trins",
+    "address": "Dorfplatz, 6152 Trins",
     "lat": 47.084065,
     "lon": 11.41805,
     "sourceId": "obc_owz1xN"
@@ -82912,6 +82912,14 @@
     "sourceId": "obc_ixXY10"
   },
   {
+    "id": "nkccua",
+    "name": "Bücherzelle Waldow-Brand",
+    "address": "Dorfstraße 18, 15910 Schönwald-Waldow-Brand",
+    "lat": 51.98553479775,
+    "lon": 13.6941126585,
+    "sourceId": "obc_dRQbRz"
+  },
+  {
     "id": "djsfhl",
     "name": "Bücherzelle Waldzell",
     "address": "Winterbahn 1, 4924 Waldzell",
@@ -83034,7 +83042,7 @@
   {
     "id": "pkqhaz",
     "name": "Bücherzelle Weiden am See",
-    "address": "Untere Hauptstraße 19, 7121 Weiden am See",
+    "address": "Untere Hauptstraße 18, 7121 Weiden, Untere Hauptstraße 19, 7121 Weiden am See stimmt nicht, ist gegenüber",
     "lat": 47.924931,
     "lon": 16.870733,
     "sourceId": "obc_bjZyGz"
@@ -88280,6 +88288,14 @@
     "sourceId": "obc_9MlvTE"
   },
   {
+    "id": "eokwjz",
+    "name": "Feldmarker Bücherschrank",
+    "address": "",
+    "lat": 51.5085815,
+    "lon": 7.0781369,
+    "sourceId": "obc_pgWNB4"
+  },
+  {
     "id": "ufpwsu",
     "name": "Felsted Telephone Box Book Exchange",
     "address": "Garnetts Lane, Felsted",
@@ -90250,7 +90266,7 @@
   {
     "id": "dwazwn",
     "name": "Good Hostel Prishtinë Library",
-    "address": "",
+    "address": "Kacaniku 51, 10000 Prishtinë",
     "lat": 42.6579912,
     "lon": 21.1704193,
     "sourceId": "obc_3u9QsT"
@@ -95424,6 +95440,14 @@
     "sourceId": "obc_5ZgVZc"
   },
   {
+    "id": "nulphb",
+    "name": "Library Sunset Lake Hostel Ohrid",
+    "address": "",
+    "lat": 41.1169162,
+    "lon": 20.7975007,
+    "sourceId": "obc_IMS6pV"
+  },
+  {
     "id": "naxmxu",
     "name": "Libreria Via Terenzio",
     "address": "Via Terenzio, 12, 04100 Latina LT",
@@ -96210,7 +96234,7 @@
   {
     "id": "tdaqfv",
     "name": "Little free library Gabicce Monte",
-    "address": "Via E. Filiberto, Next to stairs of walkingpath",
+    "address": "Via E. Filiberto / Via dell'Orizzonte 13A, 61011 Gabicce Monte PU, Next to stairs of walkingpath",
     "lat": 43.96284380386,
     "lon": 12.77362857675,
     "sourceId": "obc_zR8eil"
@@ -113082,7 +113106,7 @@
   {
     "id": "vweuod",
     "name": "Steinecke Bäckerei Bücherregal",
-    "address": "Mehringdamm 60",
+    "address": "Mehringdamm 60, 10961 Berlin-Kreuzberg",
     "lat": 52.49117015118,
     "lon": 13.38650302456,
     "sourceId": "obc_ygMaXO"
@@ -124734,6 +124758,51 @@
     "lat": 51.5886931,
     "lon": -0.0211816,
     "sourceId": "obc_rGviyz"
+  },
+  {
+    "id": "kmqrid",
+    "name": "Buch-Tauschregal Neuenhagen",
+    "address": "Rosa-Luxemburg-Damm / Hildesheimer Str. 1, 15366 Neuenhagen bei Berlin",
+    "lat": 52.518888,
+    "lon": 13.707644,
+    "sourceId": "obc_nQdvDh",
+    "removed": true
+  },
+  {
+    "id": "wgbmda",
+    "name": "Bücherregal Gols WeinKulturHaus Vinothek und Tourismusbüro",
+    "address": "Hauptplatz 20, 7122 Gols",
+    "lat": 47.897649,
+    "lon": 16.907031,
+    "sourceId": "obc_HWX1zR",
+    "removed": true
+  },
+  {
+    "id": "ijtuop",
+    "name": "Bücherregal klarkurs steuerberatung",
+    "address": "Peter-Floridan-Gasse 4, 7100 Neusiedl am See",
+    "lat": 47.946601,
+    "lon": 16.844432,
+    "sourceId": "obc_soXKTd",
+    "removed": true
+  },
+  {
+    "id": "rejlnz",
+    "name": "Bücherschrank in der Buschhaltestelle Zanderstieg",
+    "address": "Am Balksee , 21789 Wingst",
+    "lat": 53.7133909,
+    "lon": 9.0248829,
+    "sourceId": "obc_hwnl65",
+    "removed": true
+  },
+  {
+    "id": "xcvzlz",
+    "name": "Bücherzelle Steinach am Brenner",
+    "address": "Saxen 26a, 6150 Steinach am Brenner",
+    "lat": 47.078927,
+    "lon": 11.477655,
+    "sourceId": "obc_bzTI0s",
+    "removed": true
   },
   {
     "id": "wgnrqc",
