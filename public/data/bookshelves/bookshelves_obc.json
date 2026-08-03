@@ -35400,6 +35400,14 @@
     "sourceId": "obc_bMFCgs"
   },
   {
+    "id": "bukxih",
+    "name": "Bücherkiste mit Deckel",
+    "address": "",
+    "lat": 53.79001814774,
+    "lon": 10.00865623355,
+    "sourceId": "obc_s8yoxz"
+  },
+  {
     "id": "fyfmcy",
     "name": "Bücherkisten Berkatal",
     "address": "Am Wasser, 37297 Berkatal",
@@ -44656,14 +44664,6 @@
     "sourceId": "obc_KChIOC"
   },
   {
-    "id": "zgsqws",
-    "name": "Bücherschrank",
-    "address": "Eichendorffstraße 80 / Jean-Paul-Straße, 60320 Frankfurt am Main",
-    "lat": 50.143157124838,
-    "lon": 8.6624499977583,
-    "sourceId": "obc_et4uo4"
-  },
-  {
     "id": "oglrty",
     "name": "Bücherschrank",
     "address": "",
@@ -49256,6 +49256,14 @@
     "sourceId": "obc_r8aRCm"
   },
   {
+    "id": "yypuqq",
+    "name": "Bücherschrank Eichendorffstraße",
+    "address": "",
+    "lat": 50.14289666029,
+    "lon": 8.66282244196,
+    "sourceId": "obc_1stP8R"
+  },
+  {
     "id": "zluxcl",
     "name": "Bücherschrank Eichhornstraße",
     "address": "Eichhornstraße 7, 97070 Würzburg",
@@ -50022,6 +50030,14 @@
     "lat": 47.238442,
     "lon": 9.576805,
     "sourceId": "obc_kpMQoB"
+  },
+  {
+    "id": "eokwjz",
+    "name": "Bücherschrank Feldmark",
+    "address": "Feldmarkstraße 122, 45883 Gelsenkirchen-Feldmark",
+    "lat": 51.5085815,
+    "lon": 7.0781369,
+    "sourceId": "obc_pgWNB4"
   },
   {
     "id": "bpttxf",
@@ -52798,6 +52814,14 @@
     "lat": 52.556166,
     "lon": 8.806551,
     "sourceId": "obc_w1B5ei"
+  },
+  {
+    "id": "hnvijb",
+    "name": "Bücherschrank Holzhausenpark",
+    "address": "Holzhausenstraße, 60322 Frankfurt am Main",
+    "lat": 50.127109,
+    "lon": 8.676962,
+    "sourceId": "obc_AmGZXb"
   },
   {
     "id": "jjqibg",
@@ -56230,6 +56254,14 @@
     "lat": 48.539789,
     "lon": 9.282954,
     "sourceId": "obc_IQC7lx"
+  },
+  {
+    "id": "djsxvc",
+    "name": "Bücherschrank Mierendorffstraße",
+    "address": "",
+    "lat": 50.140447,
+    "lon": 8.673667,
+    "sourceId": "obc_xL2fic"
   },
   {
     "id": "xnnpml",
@@ -62098,7 +62130,7 @@
   {
     "id": "cklehv",
     "name": "Bücherschrank Trillfingen",
-    "address": "Dorfplatz / Osterstraße, 72401 Haigerloch-Trillfingen",
+    "address": "Nonnenhof 3, 72401 Haigerloch-Trillfingen",
     "lat": 48.384299,
     "lon": 8.806821,
     "sourceId": "obc_XmYa6m"
@@ -67448,6 +67480,14 @@
     "sourceId": "obc_6Gbgy9"
   },
   {
+    "id": "cpfogs",
+    "name": "Bücherschrankl Eichendorf",
+    "address": "Hinteranger 4, 94428 Eichendorf",
+    "lat": 48.63495370131,
+    "lon": 12.85611180092,
+    "sourceId": "obc_EEg0Yh"
+  },
+  {
     "id": "iozdkz",
     "name": "Bücherschränckchen Frühlingsgarten",
     "address": "Frühlingsgarten / Heilholtkamp , 22297 Hamburg",
@@ -69818,7 +69858,7 @@
   {
     "id": "xdzvom",
     "name": "Bücherzelle \"Happy Willow\"",
-    "address": "Kirchanger",
+    "address": "Kirchanger 4, 14822 Borkheide",
     "lat": 52.22597245832,
     "lon": 12.85883188248,
     "sourceId": "obc_fRO3eZ"
@@ -72994,7 +73034,7 @@
   {
     "id": "tombcu",
     "name": "Bücherzelle Fresdorf",
-    "address": "",
+    "address": "Luckenwalder Str./ Ecke Tremsdorfer Str., 14552 Michendorf-Fresdorf",
     "lat": 52.27025177945,
     "lon": 13.07842969894,
     "sourceId": "obc_oGro74"
@@ -88288,14 +88328,6 @@
     "sourceId": "obc_9MlvTE"
   },
   {
-    "id": "eokwjz",
-    "name": "Feldmarker Bücherschrank",
-    "address": "",
-    "lat": 51.5085815,
-    "lon": 7.0781369,
-    "sourceId": "obc_pgWNB4"
-  },
-  {
     "id": "ufpwsu",
     "name": "Felsted Telephone Box Book Exchange",
     "address": "Garnetts Lane, Felsted",
@@ -88518,14 +88550,6 @@
     "lat": 50.126586170978,
     "lon": 8.6855694651604,
     "sourceId": "obc_4JFTfX"
-  },
-  {
-    "id": "hnvijb",
-    "name": "Frankfurt am Main / Holzhausenpark",
-    "address": "Holzhausenstraße, 60322 Frankfurt am Main",
-    "lat": 50.127109,
-    "lon": 8.676962,
-    "sourceId": "obc_AmGZXb"
   },
   {
     "id": "avjknz",
@@ -93126,6 +93150,14 @@
     "lat": 53.63340904252,
     "lon": 7.52460249475,
     "sourceId": "obc_UGGSmp"
+  },
+  {
+    "id": "bciion",
+    "name": "Kleiner Bücherschrank an der Gartenmauer",
+    "address": "Krummacker 1a, 24558 Henstedt-Ulzburg",
+    "lat": 53.78589325013,
+    "lon": 10.01283771358,
+    "sourceId": "obc_iaQwaT"
   },
   {
     "id": "ktycao",
@@ -112552,6 +112584,14 @@
     "sourceId": "obc_V7FnrW"
   },
   {
+    "id": "wvykjk",
+    "name": "Shanti Hostel Book Exchange",
+    "address": "",
+    "lat": 41.9946085,
+    "lon": 21.4443593,
+    "sourceId": "obc_SDjdEn"
+  },
+  {
     "id": "ormikb",
     "name": "Sharp's minibieb",
     "address": "Roland Holstheem 17 Hillegom",
@@ -114374,6 +114414,14 @@
     "lat": 53.3399974,
     "lon": 10.0190431,
     "sourceId": "obc_AMj4vs"
+  },
+  {
+    "id": "ryaxtl",
+    "name": "Teilerei Umsonstladen",
+    "address": "Triftstr. 34b, 60528 Frankfurt",
+    "lat": 50.08400203076,
+    "lon": 8.64477641881,
+    "sourceId": "obc_IfvmGp"
   },
   {
     "id": "zrobuj",
@@ -124758,6 +124806,15 @@
     "lat": 51.5886931,
     "lon": -0.0211816,
     "sourceId": "obc_rGviyz"
+  },
+  {
+    "id": "zgsqws",
+    "name": "Bücherschrank",
+    "address": "Eichendorffstraße 80 / Jean-Paul-Straße, 60320 Frankfurt am Main",
+    "lat": 50.143157124838,
+    "lon": 8.6624499977583,
+    "sourceId": "obc_et4uo4",
+    "removed": true
   },
   {
     "id": "kmqrid",
