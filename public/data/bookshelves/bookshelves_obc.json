@@ -42888,6 +42888,14 @@
     "sourceId": "obc_Z1njd4"
   },
   {
+    "id": "qkukfd",
+    "name": "Bücherregal im Biomarkt",
+    "address": "",
+    "lat": 51.33615187089,
+    "lon": 12.39903956652,
+    "sourceId": "obc_csuSCZ"
+  },
+  {
     "id": "mxsnds",
     "name": "Bücherregal im Bushäuschen",
     "address": "Hauptstr. 8, 91094 Langensendelbach",
@@ -43720,6 +43728,14 @@
     "sourceId": "obc_VJETcX"
   },
   {
+    "id": "wqlrsw",
+    "name": "Bücherregal in der Empore",
+    "address": "",
+    "lat": 51.36441741327,
+    "lon": 12.35767990351,
+    "sourceId": "obc_IGA7Zc"
+  },
+  {
     "id": "ukcbip",
     "name": "Bücherregal in der Gaststätte in Altharlingersiel",
     "address": "Altharlingersiel Ortskern 3, 26427 Neuharlingersiel",
@@ -44286,6 +44302,14 @@
     "lat": 48.018105095901,
     "lon": 8.531265668571,
     "sourceId": "obc_rmIqKI"
+  },
+  {
+    "id": "hfmqmz",
+    "name": "Bücherregale im Markt",
+    "address": "",
+    "lat": 51.3493545669,
+    "lon": 12.47825860977,
+    "sourceId": "obc_kiOBce"
   },
   {
     "id": "esrikt",
@@ -76960,6 +76984,14 @@
     "sourceId": "obc_ReYBCC"
   },
   {
+    "id": "btylhx",
+    "name": "Bücherzelle Lützen bei Leipzig",
+    "address": "",
+    "lat": 51.256553,
+    "lon": 12.141516,
+    "sourceId": "obc_2ERF3J"
+  },
+  {
     "id": "ybgmwx",
     "name": "Bücherzelle Maasholm",
     "address": "Noorweg 104, 24404 Maasholm",
@@ -87800,6 +87832,14 @@
     "sourceId": "obc_8YD45Z"
   },
   {
+    "id": "ehcrpy",
+    "name": "El Diablo Hostel Beograd",
+    "address": "",
+    "lat": 44.8191656,
+    "lon": 20.4657369,
+    "sourceId": "obc_lNdpwN"
+  },
+  {
     "id": "rfrboz",
     "name": "Ellange beim Centre Culturel Martialis",
     "address": "rue d'Erpeldange Ellange",
@@ -90174,14 +90214,6 @@
     "lat": 51.150608,
     "lon": 7.066376,
     "sourceId": "obc_XwXtZM"
-  },
-  {
-    "id": "pwqora",
-    "name": "Givebox Twelve Monkeys",
-    "address": "Hopfenstraße 13, 20359 Hamburg",
-    "lat": 53.547634026355,
-    "lon": 9.9651713613522,
-    "sourceId": "obc_EWkNBG"
   },
   {
     "id": "ypcjar",
@@ -114064,14 +114096,6 @@
     "sourceId": "obc_NRTyX3"
   },
   {
-    "id": "uzsexd",
-    "name": "Tauschregal St. Georg",
-    "address": "Koppel 66, Lange Reihe 75 A",
-    "lat": 53.558304,
-    "lon": 10.011554,
-    "sourceId": "obc_LT3oMe"
-  },
-  {
     "id": "ikjjmh",
     "name": "Tauschregal Trelleborg",
     "address": "Eschengraben 40, 13189 Berlin-Pankow",
@@ -124806,6 +124830,24 @@
     "lat": 51.5886931,
     "lon": -0.0211816,
     "sourceId": "obc_rGviyz"
+  },
+  {
+    "id": "pwqora",
+    "name": "Givebox Twelve Monkeys",
+    "address": "Hopfenstraße 13, 20359 Hamburg",
+    "lat": 53.547634026355,
+    "lon": 9.9651713613522,
+    "sourceId": "obc_EWkNBG",
+    "removed": true
+  },
+  {
+    "id": "uzsexd",
+    "name": "Tauschregal St. Georg",
+    "address": "Koppel 66, Lange Reihe 75 A",
+    "lat": 53.558304,
+    "lon": 10.011554,
+    "sourceId": "obc_LT3oMe",
+    "removed": true
   },
   {
     "id": "zgsqws",
