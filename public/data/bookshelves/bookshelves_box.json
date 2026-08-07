@@ -933,7 +933,7 @@
   {
     "id": "pfwqkt",
     "name": "Bücherschrank Köln",
-    "address": "51063 Köln - Mülheim Schanzenstraße 6-20",
+    "address": "51063 Köln - M��lheim Schanzenstraße 6-20",
     "lat": 50.9676783,
     "lon": 7.015585
   },
@@ -1248,7 +1248,7 @@
   {
     "id": "mqeamy",
     "name": "Bücherschrank Troisdorf",
-    "address": "53844 Troisdorf, Sieglar -�� Kerpstraße 9",
+    "address": "53844 Troisdorf, Sieglar - Kerpstraße 9",
     "lat": 50.8003612,
     "lon": 7.129046
   },
@@ -4405,7 +4405,7 @@
   {
     "id": "beljla",
     "name": "Bücherschrank Darmstadt",
-    "address": "64287 Darmstadt, Stiftstra��e 41",
+    "address": "64287 Darmstadt, Stiftstraße 41",
     "lat": 49.873776,
     "lon": 8.6635751
   },
@@ -6767,6 +6767,62 @@
     "address": "22453 Hamburg-Nord, Schrödersweg 1",
     "lat": 53.6080773,
     "lon": 9.9769795
+  },
+  {
+    "id": "qhfauh",
+    "name": "Bücherschrank Bonn-Beuel",
+    "address": "53229 Bonn-Beuel, Pützhecke 10",
+    "lat": 50.7385062,
+    "lon": 7.1974863
+  },
+  {
+    "id": "ezawdf",
+    "name": "Bücherschrank Bönen",
+    "address": "59199 Bönen, Fritz-Husemann-Str. 13",
+    "lat": 51.5931296,
+    "lon": 7.7546091
+  },
+  {
+    "id": "kbdaia",
+    "name": "Bücherschrank München",
+    "address": "81379 München, Tölzer Str. 17",
+    "lat": 48.099992,
+    "lon": 11.5383437
+  },
+  {
+    "id": "ulobhz",
+    "name": "Bücherschrank München-Laim",
+    "address": "80686 München-Laim, Kiem-Pauli-Weg 72",
+    "lat": 48.1342815,
+    "lon": 11.5136568
+  },
+  {
+    "id": "hmcpza",
+    "name": "Bücherschrank Karlsruhe",
+    "address": "76185 Karlsruhe, Bonner Platz",
+    "lat": 49.025509,
+    "lon": 8.3596799
+  },
+  {
+    "id": "chfxlk",
+    "name": "Bücherschrank Witten",
+    "address": "58455 Witten, Hellweg 17, Eselsmarkt",
+    "lat": 51.4477748,
+    "lon": 7.3210212
+  },
+  {
+    "id": "noihsa",
+    "name": "Bücherschrank Lahnstein",
+    "address": "56112 Lahnstein, Schillerstraße 1A",
+    "lat": 50.3134159,
+    "lon": 7.5974298
+  },
+  {
+    "id": "arzpwo",
+    "name": "Bücherschrank Innenstadt-Ost",
+    "address": "44143 Innenstadt-Ost, Calvinstraße 1, St. Reinoldi",
+    "lat": 51.5137418,
+    "lon": 7.4904962
   },
   {
     "id": "fsdxyz",

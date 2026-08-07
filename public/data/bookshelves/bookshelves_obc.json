@@ -26336,6 +26336,14 @@
     "sourceId": "obc_7bNdkp"
   },
   {
+    "id": "wbeffr",
+    "name": "Bookshelf Old Town Hostel Kotor",
+    "address": "",
+    "lat": 42.4233046,
+    "lon": 18.7718009,
+    "sourceId": "obc_850MDk"
+  },
+  {
     "id": "jxpqpf",
     "name": "Bookshelf Podgorica Airport",
     "address": "81000 - Podgorica",
@@ -30702,6 +30710,14 @@
     "lat": 54.072169,
     "lon": 12.138176,
     "sourceId": "obc_KOFXvu"
+  },
+  {
+    "id": "qtcwue",
+    "name": "Bücher-Tausch-Schrank",
+    "address": "",
+    "lat": 53.597409,
+    "lon": 9.9848516,
+    "sourceId": "obc_DR1r4M"
   },
   {
     "id": "beswnm",
@@ -61584,6 +61600,14 @@
     "sourceId": "obc_jdvmll"
   },
   {
+    "id": "owxphl",
+    "name": "Bücherschrank Stetten",
+    "address": "Burladinger Straße 45, 72393 Burladingen-Stetten",
+    "lat": 48.32924150991,
+    "lon": 9.18046116829,
+    "sourceId": "obc_vNE9JC"
+  },
+  {
     "id": "zhwkmt",
     "name": "Bücherschrank Stetten-Hof",
     "address": "Ungerhaldenweg 1, 70771 Leinfelden-Echterdingen",
@@ -80462,6 +80486,14 @@
     "lat": 53.035894,
     "lon": 13.049237,
     "sourceId": "obc_xTHJeT"
+  },
+  {
+    "id": "blbpuw",
+    "name": "Bücherzelle Schura",
+    "address": "Lange Straße 57, 78647 Trossingen-Schura",
+    "lat": 48.04942536603,
+    "lon": 8.64531487226,
+    "sourceId": "obc_RwzhRh"
   },
   {
     "id": "bozesd",
@@ -114312,6 +114344,14 @@
     "sourceId": "obc_WO9MBm"
   },
   {
+    "id": "ecskni",
+    "name": "Tauschschrank ,,Lipsia\"",
+    "address": "",
+    "lat": 51.3062435,
+    "lon": 12.2708582,
+    "sourceId": "obc_MNPAgY"
+  },
+  {
     "id": "xrbgvp",
     "name": "Tauschschrank Diana",
     "address": "",
@@ -118622,6 +118662,14 @@
     "lat": 53.2272782,
     "lon": 7.4522247,
     "sourceId": "obc_xTXVto"
+  },
+  {
+    "id": "swwbcz",
+    "name": "Öffentlicher Bücherschrank \"Hexenhaus\"",
+    "address": "Forststr. 91, 46147 Oberhausen, Neben Garteneingang Nr. 36.",
+    "lat": 51.541792,
+    "lon": 6.807167,
+    "sourceId": "obc_zFirwq"
   },
   {
     "id": "trzuhs",
