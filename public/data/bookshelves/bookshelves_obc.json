@@ -1456,6 +1456,14 @@
     "sourceId": "obc_Ve7WFe"
   },
   {
+    "id": "wlonoj",
+    "name": "Balkan Han Hostel",
+    "address": "",
+    "lat": 43.8603277,
+    "lon": 18.4205492,
+    "sourceId": "obc_x3Pil0"
+  },
+  {
     "id": "mawyju",
     "name": "Bambi's Minibieb",
     "address": "Kortedreef 20, Rotterdam",
@@ -30608,6 +30616,14 @@
     "sourceId": "obc_jcOH2O"
   },
   {
+    "id": "aqabqg",
+    "name": "Bücher-Hütte an der Mittelmühle Hoym",
+    "address": "Mühlenstraße 1, 06467 Seeland-Hoym, An der Mittelmühle links vorbei.über eine kleine Brücke. An der Weggabelung dahinter.",
+    "lat": 51.7823241603,
+    "lon": 11.31788569871,
+    "sourceId": "obc_4Ly7KI"
+  },
+  {
     "id": "qebdcn",
     "name": "Bücher-Karussell Weltladen Eutingen i.G.",
     "address": "Marktstraße 17, 72184 Eutingen im Gäu",
@@ -30670,6 +30686,14 @@
     "lat": 53.70389,
     "lon": 10.106939,
     "sourceId": "obc_vMCptN"
+  },
+  {
+    "id": "cbvyfr",
+    "name": "Bücher-Schränkchen",
+    "address": "Ballenstedter Straße 15, 06493 Rieder, Nicht immer zugänglich, Öffnungszeiten der \"Gemüse-Kiste\" Rieder beachten.",
+    "lat": 51.7334539,
+    "lon": 11.1699012,
+    "sourceId": "obc_4ntVEb"
   },
   {
     "id": "vxqvip",
@@ -33294,6 +33318,14 @@
     "lat": 46.9800412,
     "lon": 8.6666082,
     "sourceId": "obc_xTWMEd"
+  },
+  {
+    "id": "alcvvv",
+    "name": "Büchergondel Timmenrode",
+    "address": "Lindenstraße 10, 06502 Timmenrode",
+    "lat": 51.77313256121,
+    "lon": 11.00623737459,
+    "sourceId": "obc_D9ELUV"
   },
   {
     "id": "duzode",
@@ -42838,6 +42870,14 @@
     "lat": 53.897473,
     "lon": 9.131119,
     "sourceId": "obc_v6GvbD"
+  },
+  {
+    "id": "doytne",
+    "name": "Bücherregal im \"Tante Emma\"",
+    "address": "Schützenstraße 11, 38899 Trautenstein, ggf. Öffnungszeiten beachten",
+    "lat": 51.68711661838,
+    "lon": 10.78656176288,
+    "sourceId": "obc_cV7fnT"
   },
   {
     "id": "rzjvuu",
@@ -67568,6 +67608,14 @@
     "sourceId": "obc_PuM3ZI"
   },
   {
+    "id": "igomyl",
+    "name": "Bücherschränkchen Heteborn",
+    "address": "Ernst-Thälmann-Straße 6, 06458 Selke-Aue-Heteborn",
+    "lat": 51.8935061274,
+    "lon": 11.28860161278,
+    "sourceId": "obc_HYI1XW"
+  },
+  {
     "id": "wieqwh",
     "name": "Bücherschränkchen Kirchberg in Tirol",
     "address": "Achenweg 48, 6365 Kirchberg in Tirol",
@@ -68480,6 +68528,14 @@
     "sourceId": "obc_ZEis4I"
   },
   {
+    "id": "mhueeh",
+    "name": "Büchertauschregal \"Reiche\"",
+    "address": "Reichenstraße 1, 06484 Quedlinburg, Tauschregal im Eingang zum Kino \"Eisenstein\", Öffnungszeiten siehe Webseite",
+    "lat": 51.79088287927,
+    "lon": 11.15066383032,
+    "sourceId": "obc_VkQ8iQ"
+  },
+  {
     "id": "jxaset",
     "name": "Büchertauschregal BENN",
     "address": "Ehrenfelder Platz 4, 12524 Berlin-Altglienicke",
@@ -68614,6 +68670,14 @@
     "lat": 52.84759,
     "lon": 8.7396,
     "sourceId": "obc_SchL9b"
+  },
+  {
+    "id": "qqrinw",
+    "name": "Büchertauschregal im Buntivhuus",
+    "address": "Im Grünnen 15, 27711 Osterholz-Scharmbeck, Das Büchertauschregal befindet sich im Buntivhuus (kleiner Selbstbedienungsshop im Nebengebäude).",
+    "lat": 53.2425592,
+    "lon": 8.7970134,
+    "sourceId": "obc_YM4B4t"
   },
   {
     "id": "xxzkjg",
@@ -70712,6 +70776,14 @@
     "sourceId": "obc_Sh4yxS"
   },
   {
+    "id": "jpaqst",
+    "name": "Bücherzelle Badeborn",
+    "address": "Hoymer Weg 210, 06493 Badeborn",
+    "lat": 51.7652454,
+    "lon": 11.2438577,
+    "sourceId": "obc_3CQVBA"
+  },
+  {
     "id": "wcbpzm",
     "name": "Bücherzelle Baden",
     "address": "Pelzgasse 13-17, 2500 Baden",
@@ -70958,6 +71030,14 @@
     "lat": 53.69903,
     "lon": 10.669533,
     "sourceId": "obc_mI9Vyz"
+  },
+  {
+    "id": "nxldpa",
+    "name": "Bücherzelle Behrenhoff",
+    "address": "Dorfstraße 20, 17498 Behrenhoff",
+    "lat": 54.00495975638,
+    "lon": 13.39056372643,
+    "sourceId": "obc_Ups6HA"
   },
   {
     "id": "nyhbed",
@@ -72094,6 +72174,14 @@
     "lat": 52.362183,
     "lon": 12.757112,
     "sourceId": "obc_U2tHtb"
+  },
+  {
+    "id": "knqjdw",
+    "name": "Bücherzelle Dargelin",
+    "address": "Kastanienweg 2, 17498 Dargelin",
+    "lat": 54.01394885242,
+    "lon": 13.3557754755,
+    "sourceId": "obc_sb5Rpb"
   },
   {
     "id": "dpkbuh",
@@ -81598,6 +81686,14 @@
     "lat": 52.210072,
     "lon": 13.098707,
     "sourceId": "obc_3QfyO6"
+  },
+  {
+    "id": "egvrfr",
+    "name": "Bücherzelle Stangerode",
+    "address": "Talstraße 4, 06456 Arnstein-Stangerode",
+    "lat": 51.6588644,
+    "lon": 11.3559177,
+    "sourceId": "obc_cBqMjs"
   },
   {
     "id": "yyzrzj",
@@ -93286,6 +93382,14 @@
     "lat": 50.98199238176,
     "lon": 11.030436381698,
     "sourceId": "obc_SOjLn2"
+  },
+  {
+    "id": "bbnfff",
+    "name": "Kleines Bücherschränkchen",
+    "address": "Thalenser Straße, 06502 Thale, Wanstedter Hobbyhof inkl. Hofladen, Sitzgelegenheiten, Parkplatz, Softeis",
+    "lat": 51.77085028689,
+    "lon": 11.05322098726,
+    "sourceId": "obc_eCg17v"
   },
   {
     "id": "oecsca",
@@ -118688,14 +118792,6 @@
     "sourceId": "obc_UhXIkR"
   },
   {
-    "id": "rqoavs",
-    "name": "Öffentlicher Bücherschrank Ennigerloh",
-    "address": "Liebfrauenstr. 6, 59320 Ennigerloh",
-    "lat": 8.0186341,
-    "lon": 51.8365599,
-    "sourceId": "obc_KUHtZK"
-  },
-  {
     "id": "iicupq",
     "name": "Öffentlicher Bücherschrank FREIMANN an der Mohr-Villa",
     "address": "Situlistr. 75, 80939 München",
@@ -124878,6 +124974,15 @@
     "lat": 51.5886931,
     "lon": -0.0211816,
     "sourceId": "obc_rGviyz"
+  },
+  {
+    "id": "rqoavs",
+    "name": "Öffentlicher Bücherschrank Ennigerloh",
+    "address": "Liebfrauenstr. 6, 59320 Ennigerloh",
+    "lat": 8.0186341,
+    "lon": 51.8365599,
+    "sourceId": "obc_KUHtZK",
+    "removed": true
   },
   {
     "id": "pwqora",
