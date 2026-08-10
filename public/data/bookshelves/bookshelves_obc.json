@@ -43800,6 +43800,22 @@
     "sourceId": "obc_xo3yC2"
   },
   {
+    "id": "ygajqn",
+    "name": "Bücherregal in der Haltestelle",
+    "address": "",
+    "lat": 50.71191723787,
+    "lon": 11.53866222984,
+    "sourceId": "obc_ATqoQY"
+  },
+  {
+    "id": "oysscf",
+    "name": "Bücherregal in der Haltestelle",
+    "address": "",
+    "lat": 50.72725777821,
+    "lon": 11.71466529681,
+    "sourceId": "obc_OrpRFr"
+  },
+  {
     "id": "wgwpyk",
     "name": "Bücherregal in der Haltestelle Alfdorf Rathaus",
     "address": "",
@@ -67190,6 +67206,14 @@
     "lat": 51.37505247025,
     "lon": 12.321217954159,
     "sourceId": "obc_4W6igr"
+  },
+  {
+    "id": "tfhgfl",
+    "name": "Bücherschrank in der Scheune.",
+    "address": "",
+    "lat": 50.72449742308,
+    "lon": 11.53886446485,
+    "sourceId": "obc_Qn658Y"
   },
   {
     "id": "mvmyjh",
@@ -92270,6 +92294,14 @@
     "lat": 47.475509,
     "lon": -0.544311,
     "sourceId": "obc_wdfWQr"
+  },
+  {
+    "id": "eocpni",
+    "name": "Javna polica za knjige Sarajevo",
+    "address": "",
+    "lat": 43.8537287,
+    "lon": 18.4005195,
+    "sourceId": "obc_cgd865"
   },
   {
     "id": "ytjgab",
