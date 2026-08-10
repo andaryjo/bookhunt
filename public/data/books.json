@@ -138954,20 +138954,8 @@
     "bookshelfId": "wbeffr"
   },
   {
-    "title": "Shopaholic Ties the Knot",
-    "author": "Sophie Kinsella",
-    "date": "2026-08-09",
-    "bookshelfId": "wlonoj"
-  },
-  {
     "title": "Zaira",
     "author": "Catalin Dorian Florescu",
-    "date": "2026-08-09",
-    "bookshelfId": "wlonoj"
-  },
-  {
-    "title": "Engleski Rečnik",
-    "author": "unknown",
     "date": "2026-08-09",
     "bookshelfId": "wlonoj"
   },
@@ -138978,68 +138966,8 @@
     "bookshelfId": "wlonoj"
   },
   {
-    "title": "Gori Domovina",
-    "author": "Lazić & Kozul",
-    "date": "2026-08-09",
-    "bookshelfId": "wlonoj"
-  },
-  {
-    "title": "Ein Teil von ihr",
-    "author": "Karin Slaughter",
-    "date": "2026-08-09",
-    "bookshelfId": "wlonoj"
-  },
-  {
-    "title": "Baš tako",
-    "author": "Osho",
-    "date": "2026-08-09",
-    "bookshelfId": "wlonoj"
-  },
-  {
-    "title": "Novi Zavjet",
-    "author": "unknown",
-    "date": "2026-08-09",
-    "bookshelfId": "wlonoj"
-  },
-  {
-    "title": "unknown",
-    "author": "Ivo Andrić",
-    "date": "2026-08-09",
-    "bookshelfId": "wlonoj"
-  },
-  {
-    "title": "Ramage's Challenge",
-    "author": "Dudley Pope",
-    "date": "2026-08-09",
-    "bookshelfId": "wlonoj"
-  },
-  {
-    "title": "Non dirmi che hai paura",
-    "author": "Giuseppe Catozzella",
-    "date": "2026-08-09",
-    "bookshelfId": "wlonoj"
-  },
-  {
-    "title": "Stari Zavjet 1",
-    "author": "unknown",
-    "date": "2026-08-09",
-    "bookshelfId": "wlonoj"
-  },
-  {
-    "title": "La force de l'âge II",
-    "author": "Simone de Beauvoir",
-    "date": "2026-08-09",
-    "bookshelfId": "wlonoj"
-  },
-  {
     "title": "The Wrong Sister",
     "author": "Claire Douglas",
-    "date": "2026-08-09",
-    "bookshelfId": "wlonoj"
-  },
-  {
-    "title": "Fifty Shades Darker",
-    "author": "E.L. James",
     "date": "2026-08-09",
     "bookshelfId": "wlonoj"
   },
@@ -139056,24 +138984,6 @@
     "bookshelfId": "wlonoj"
   },
   {
-    "title": "Die Wolfsfrau",
-    "author": "Clarissa Pinkola Estés",
-    "date": "2026-08-09",
-    "bookshelfId": "wlonoj"
-  },
-  {
-    "title": "A bon port",
-    "author": "Danielle Steel",
-    "date": "2026-08-09",
-    "bookshelfId": "wlonoj"
-  },
-  {
-    "title": "Britannica Almanac 2005",
-    "author": "unknown",
-    "date": "2026-08-09",
-    "bookshelfId": "wlonoj"
-  },
-  {
     "title": "Inge Ipenburg Een schitterend ongeluk",
     "author": "unknown",
     "date": "2026-08-09",
@@ -139086,50 +138996,14 @@
     "bookshelfId": "wlonoj"
   },
   {
-    "title": "Davo prvo pojede svoju majku",
-    "author": "Damir Pilić",
-    "date": "2026-08-09",
-    "bookshelfId": "wlonoj"
-  },
-  {
     "title": "Pisma iz Azije",
     "author": "Zulfikar Džumhur",
     "date": "2026-08-09",
     "bookshelfId": "wlonoj"
   },
   {
-    "title": "Mama Leone",
-    "author": "Miljenko Jergović",
-    "date": "2026-08-09",
-    "bookshelfId": "wlonoj"
-  },
-  {
-    "title": "Anđeo u ofsajdu",
-    "author": "Zoran Ferić",
-    "date": "2026-08-09",
-    "bookshelfId": "wlonoj"
-  },
-  {
-    "title": "New Treehouses of the World",
-    "author": "unknown",
-    "date": "2026-08-09",
-    "bookshelfId": "wlonoj"
-  },
-  {
     "title": "Plum The Great",
     "author": "Petar Lazić",
-    "date": "2026-08-09",
-    "bookshelfId": "wlonoj"
-  },
-  {
-    "title": "Život na stiku",
-    "author": "Dževdet Tuzlić",
-    "date": "2026-08-09",
-    "bookshelfId": "wlonoj"
-  },
-  {
-    "title": "Tko to može platiti?",
-    "author": "Josip Broz Tito",
     "date": "2026-08-09",
     "bookshelfId": "wlonoj"
   },
@@ -139149,6 +139023,450 @@
     "title": "Putujem u Rusiju",
     "author": "unknown",
     "date": "2026-08-09",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Shopaholic Ties the Knot",
+    "author": "Sophie Kinsella",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Engleski rečnik",
+    "author": "unknown",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Gori domovina",
+    "author": "Lazic & Kozul",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Ein Teil von ihr",
+    "author": "Karin Slaughter",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Bas tako",
+    "author": "Osho",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Novi zavjet",
+    "author": "unknown",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "unknown",
+    "author": "Ivo Andric",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Ramage's Challenge",
+    "author": "Dudley Pope",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Non dirmi che hai paura",
+    "author": "Giuseppe Catozzella",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Stari zavjet 1",
+    "author": "unknown",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "La force de l'âge II",
+    "author": "Simone de Beauvoir",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Fifty Shades Darker",
+    "author": "E L James",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Die Wolfsfrau",
+    "author": "Clarissa Pinkola Estés",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "À bon port",
+    "author": "Danielle Steel",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Britannica Almanac 2005",
+    "author": "unknown",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Davo prvo pojede svoju majku",
+    "author": "Damir Pilić",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Mama Leone",
+    "author": "Miljenko Jergović",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Anđeo u ofsajdu",
+    "author": "Zoran Ferić",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "New Treehouses of the World",
+    "author": "unknown",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Zivot na stiku",
+    "author": "Dzevdet Tuzlic",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Tko to moze platiti?",
+    "author": "Josip Broz Tito",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "World Without End",
+    "author": "Ken Follett",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Longman Dictionary of Contemporary English",
+    "author": "unknown",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Scriptum",
+    "author": "Raymond Khoury",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Rhythm of War",
+    "author": "Brandon Sanderson",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Timeless Values",
+    "author": "unknown",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Hundstage",
+    "author": "Alicia Giménez-Bartlett",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Murphyjev zakon",
+    "author": "Artur Bloch",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Ciganin, ali najljepši",
+    "author": "Kristian Novak",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Een schitterend ongeluk",
+    "author": "Inge Ipenburg",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Tragedue",
+    "author": "William Shakespeare",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "A Little Life",
+    "author": "Hanya Yanagihara",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Bonaca je tuga",
+    "author": "Nicol Ljubić",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Rječnik stranih riječi",
+    "author": "unknown",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "A Question of Colour",
+    "author": "Pattie Lees",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Društvena pismenost: kultura, ekologija, mediji",
+    "author": "unknown",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Ruski prozor",
+    "author": "Dragan Velikić",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Leidenschaftliche Liebesromane",
+    "author": "unknown",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Gordogan 39-40",
+    "author": "unknown",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Angielski samouczek",
+    "author": "unknown",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Domaće rakije i likeri",
+    "author": "Emil Keršek i Dušan Savković",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Gordogan 41-42",
+    "author": "unknown",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Rozmówki greckie",
+    "author": "unknown",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "İçimizdeki Şeytan",
+    "author": "Sabahattin Ali",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Rosalie und der Duft der Provence",
+    "author": "Julie Lescault",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Mesto u mećavi",
+    "author": "Aleksandar Žikić",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Marx nije mrtav",
+    "author": "Goran Šimić",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Uliks (dio prvi)",
+    "author": "Joyce",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Escobas voladoras, servicio a domicilio",
+    "author": "Ann Jungman",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "English-Russian Dictionary",
+    "author": "Boris Kažanegra",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Münchhausen",
+    "author": "Gottfried August Bürger",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Lion's Den",
+    "author": "Katherine St. John",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Definitive Israeli Lexicon",
+    "author": "Simon Apicella",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Bili libar",
+    "author": "Boris Dežulović",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Entre insouciance et responsabilité",
+    "author": "Eric Fuchs",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Pisma iz Azije",
+    "author": "Zuko Džumhur",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Šta bi dao da si na mom mjestu",
+    "author": "Dušan Vesić",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Sjećanja",
+    "author": "Meša Selimović",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "The Flying Squadron",
+    "author": "Catalin Dorian Florescu",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Derviš i smrt",
+    "author": "Meša Selimović",
+    "date": "2026-08-10",
+    "bookshelfId": "eocpni"
+  },
+  {
+    "title": "Die Klimafrage",
+    "author": "Eelco J. Rohling",
+    "date": "2026-08-10",
+    "bookshelfId": "eocpni"
+  },
+  {
+    "title": "unknown",
+    "author": "Robin Cormonboet",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Bosnian-English/English-Bosnian Dictionary",
+    "author": "unknown",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "L'évaporée",
+    "author": "Fanny Chiarello Wendy Delorme",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "The Stranger in the Woods",
+    "author": "Michael Finkel",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Thailand",
+    "author": "unknown",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Veliki misteriji",
+    "author": "unknown",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "100 katastrofa koje su potresle svijet",
+    "author": "Nigel Cawthorne",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Teorije zavjere",
+    "author": "unknown",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Jela iz cijeloga svijeta",
+    "author": "unknown",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Plum",
+    "author": "Petar Lazic",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Josip Broz Tito",
+    "author": "unknown",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Unieke Vondst",
+    "author": "unknown",
+    "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "unknown",
+    "author": "Bozo Stefanovic",
+    "date": "2026-08-10",
     "bookshelfId": "wlonoj"
   }
 ]
