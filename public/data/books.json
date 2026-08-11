@@ -138990,12 +138990,6 @@
     "bookshelfId": "wlonoj"
   },
   {
-    "title": "Tragedije",
-    "author": "unknown",
-    "date": "2026-08-09",
-    "bookshelfId": "wlonoj"
-  },
-  {
     "title": "Pisma iz Azije",
     "author": "Zulfikar Džumhur",
     "date": "2026-08-09",
@@ -139068,12 +139062,6 @@
     "bookshelfId": "wlonoj"
   },
   {
-    "title": "Ramage's Challenge",
-    "author": "Dudley Pope",
-    "date": "2026-08-10",
-    "bookshelfId": "wlonoj"
-  },
-  {
     "title": "Non dirmi che hai paura",
     "author": "Giuseppe Catozzella",
     "date": "2026-08-10",
@@ -139088,12 +139076,6 @@
   {
     "title": "La force de l'âge II",
     "author": "Simone de Beauvoir",
-    "date": "2026-08-10",
-    "bookshelfId": "wlonoj"
-  },
-  {
-    "title": "Fifty Shades Darker",
-    "author": "E L James",
     "date": "2026-08-10",
     "bookshelfId": "wlonoj"
   },
@@ -139140,18 +139122,6 @@
     "bookshelfId": "wlonoj"
   },
   {
-    "title": "Zivot na stiku",
-    "author": "Dzevdet Tuzlic",
-    "date": "2026-08-10",
-    "bookshelfId": "wlonoj"
-  },
-  {
-    "title": "Tko to moze platiti?",
-    "author": "Josip Broz Tito",
-    "date": "2026-08-10",
-    "bookshelfId": "wlonoj"
-  },
-  {
     "title": "World Without End",
     "author": "Ken Follett",
     "date": "2026-08-10",
@@ -139176,12 +139146,6 @@
     "bookshelfId": "wlonoj"
   },
   {
-    "title": "Timeless Values",
-    "author": "unknown",
-    "date": "2026-08-10",
-    "bookshelfId": "wlonoj"
-  },
-  {
     "title": "Hundstage",
     "author": "Alicia Giménez-Bartlett",
     "date": "2026-08-10",
@@ -139194,32 +139158,8 @@
     "bookshelfId": "wlonoj"
   },
   {
-    "title": "Ciganin, ali najljepši",
-    "author": "Kristian Novak",
-    "date": "2026-08-10",
-    "bookshelfId": "wlonoj"
-  },
-  {
-    "title": "Een schitterend ongeluk",
-    "author": "Inge Ipenburg",
-    "date": "2026-08-10",
-    "bookshelfId": "wlonoj"
-  },
-  {
     "title": "Tragedue",
     "author": "William Shakespeare",
-    "date": "2026-08-10",
-    "bookshelfId": "wlonoj"
-  },
-  {
-    "title": "A Little Life",
-    "author": "Hanya Yanagihara",
-    "date": "2026-08-10",
-    "bookshelfId": "wlonoj"
-  },
-  {
-    "title": "Bonaca je tuga",
-    "author": "Nicol Ljubić",
     "date": "2026-08-10",
     "bookshelfId": "wlonoj"
   },
@@ -139440,24 +139380,6 @@
     "bookshelfId": "wlonoj"
   },
   {
-    "title": "Jela iz cijeloga svijeta",
-    "author": "unknown",
-    "date": "2026-08-10",
-    "bookshelfId": "wlonoj"
-  },
-  {
-    "title": "Plum",
-    "author": "Petar Lazic",
-    "date": "2026-08-10",
-    "bookshelfId": "wlonoj"
-  },
-  {
-    "title": "Josip Broz Tito",
-    "author": "unknown",
-    "date": "2026-08-10",
-    "bookshelfId": "wlonoj"
-  },
-  {
     "title": "Unieke Vondst",
     "author": "unknown",
     "date": "2026-08-10",
@@ -139467,6 +139389,102 @@
     "title": "unknown",
     "author": "Bozo Stefanovic",
     "date": "2026-08-10",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Tragedije",
+    "author": "William Shakespeare",
+    "date": "2026-08-11",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Ramage's Challenge",
+    "author": "Dudley Pope",
+    "date": "2026-08-11",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Fifty Shades Darker",
+    "author": "E.L. James",
+    "date": "2026-08-11",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Život na stiku",
+    "author": "Dževdet Tuzlić",
+    "date": "2026-08-11",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Tko to može platiti?",
+    "author": "Josip Broz Tito",
+    "date": "2026-08-11",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Timeless Values",
+    "author": "unknown",
+    "date": "2026-08-11",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Ciganin, ali najljepši",
+    "author": "Kristian Novak",
+    "date": "2026-08-11",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Een schitterend ongeluk",
+    "author": "Inge Ipenburg",
+    "date": "2026-08-11",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "A Little Life",
+    "author": "Hanya Yanagihara",
+    "date": "2026-08-11",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Bonaca je tuga",
+    "author": "Nicol Ljubić",
+    "date": "2026-08-11",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Jela iz cijeloga svijeta",
+    "author": "unknown",
+    "date": "2026-08-11",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Plum",
+    "author": "Petar Lazić",
+    "date": "2026-08-11",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Josip Broz Tito",
+    "author": "unknown",
+    "date": "2026-08-11",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "A Cook's Tour",
+    "author": "Anthony Bourdain",
+    "date": "2026-08-11",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Palača",
+    "author": "unknown",
+    "date": "2026-08-11",
+    "bookshelfId": "wlonoj"
+  },
+  {
+    "title": "Karikatur",
+    "author": "Božo Stefanović",
+    "date": "2026-08-11",
     "bookshelfId": "wlonoj"
   }
 ]
