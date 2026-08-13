@@ -744,6 +744,14 @@
     "sourceId": "obc_O7MFIx"
   },
   {
+    "id": "rpscdt",
+    "name": "Altstadt Obernai / Oberehnheim",
+    "address": "",
+    "lat": 48.46292838798,
+    "lon": 7.48084455729,
+    "sourceId": "obc_lDZCFs"
+  },
+  {
     "id": "scnfws",
     "name": "Am Bramschkontor 11",
     "address": "Am Bramschkontor 11, 01067 Dresden",
@@ -29682,7 +29690,7 @@
   {
     "id": "kqryib",
     "name": "Buchtauschzelle vor der Alten Post",
-    "address": "Rosenstr. / An d. Alten Post 1, 04205 Leipzig-Militz",
+    "address": "Rosenstraße / An d. Alten Post 1, 04205 Leipzig-Militz",
     "lat": 51.325139313529,
     "lon": 12.254074705942,
     "sourceId": "obc_D2L7h2"
@@ -30734,14 +30742,6 @@
     "lat": 54.072169,
     "lon": 12.138176,
     "sourceId": "obc_KOFXvu"
-  },
-  {
-    "id": "qtcwue",
-    "name": "Bücher-Tausch-Schrank",
-    "address": "",
-    "lat": 53.597409,
-    "lon": 9.9848516,
-    "sourceId": "obc_DR1r4M"
   },
   {
     "id": "beswnm",
@@ -33400,6 +33400,14 @@
     "sourceId": "obc_odIUAs"
   },
   {
+    "id": "igyqzu",
+    "name": "Bücherhaltestelle Berg",
+    "address": "Perchastraße, 82335 Berg",
+    "lat": 47.96589765706,
+    "lon": 11.3559794426,
+    "sourceId": "obc_2XaA25"
+  },
+  {
     "id": "niyehx",
     "name": "Bücherhaltestelle Betzenweiler",
     "address": "Riedlinger Str. 11, 88422 Betzenweiler",
@@ -33504,6 +33512,14 @@
     "sourceId": "obc_0YlJ96"
   },
   {
+    "id": "ygajqn",
+    "name": "Bücherhaltestelle Herschdorf",
+    "address": "Am Anger 28, 07387 Krölpa-Herschdorf",
+    "lat": 50.71191723787,
+    "lon": 11.53866222984,
+    "sourceId": "obc_ATqoQY"
+  },
+  {
     "id": "eqfbbj",
     "name": "Bücherhaltestelle Huldsessen",
     "address": "Dorfstraße 21, 84339 Unterdietfurt-Huldsessen",
@@ -33566,6 +33582,14 @@
     "lat": 50.901203,
     "lon": 12.758794,
     "sourceId": "obc_BEQHk1"
+  },
+  {
+    "id": "oysscf",
+    "name": "Bücherhaltestelle Neunhofen",
+    "address": "Alte Landstraße 23, 07806 Neustadt an der Orla-Neunhofen",
+    "lat": 50.72725777821,
+    "lon": 11.71466529681,
+    "sourceId": "obc_OrpRFr"
   },
   {
     "id": "tvftep",
@@ -35104,6 +35128,22 @@
     "sourceId": "obc_2rXOm1"
   },
   {
+    "id": "gttyin",
+    "name": "Bücherkiste Flüelen",
+    "address": "Seestrasse 59, 6454 Flüelen",
+    "lat": 46.9143318,
+    "lon": 8.6223511,
+    "sourceId": "obc_bIkc8p"
+  },
+  {
+    "id": "bukxih",
+    "name": "Bücherkiste Friedhof Henstedt",
+    "address": "Götzberger Straße 13, 24558 Henstedt-Ulzburg",
+    "lat": 53.79001814774,
+    "lon": 10.00865623355,
+    "sourceId": "obc_s8yoxz"
+  },
+  {
     "id": "ryqmhe",
     "name": "Bücherkiste Görlitz (Zen-Spirale)",
     "address": "Friedhofstraße , 02828",
@@ -35446,14 +35486,6 @@
     "lat": 53.580748,
     "lon": 9.705702,
     "sourceId": "obc_bMFCgs"
-  },
-  {
-    "id": "bukxih",
-    "name": "Bücherkiste mit Deckel",
-    "address": "",
-    "lat": 53.79001814774,
-    "lon": 10.00865623355,
-    "sourceId": "obc_s8yoxz"
   },
   {
     "id": "fyfmcy",
@@ -41040,6 +41072,14 @@
     "sourceId": "obc_kf6Twf"
   },
   {
+    "id": "pzdpod",
+    "name": "Bücherregal Rotacher Hofladen",
+    "address": "Rotacher 1, 6442 Gersau",
+    "lat": 46.9956401,
+    "lon": 8.5259656,
+    "sourceId": "obc_K98oOg"
+  },
+  {
     "id": "crspch",
     "name": "Bücherregal Rudersberg",
     "address": "Backnanger Str. 1, 73635 Rudersberg",
@@ -42946,7 +42986,7 @@
   {
     "id": "qkukfd",
     "name": "Bücherregal im Biomarkt",
-    "address": "",
+    "address": "Breitkopfstraße 22, 04317 Leipzig",
     "lat": 51.33615187089,
     "lon": 12.39903956652,
     "sourceId": "obc_csuSCZ"
@@ -43800,22 +43840,6 @@
     "sourceId": "obc_xo3yC2"
   },
   {
-    "id": "ygajqn",
-    "name": "Bücherregal in der Haltestelle",
-    "address": "",
-    "lat": 50.71191723787,
-    "lon": 11.53866222984,
-    "sourceId": "obc_ATqoQY"
-  },
-  {
-    "id": "oysscf",
-    "name": "Bücherregal in der Haltestelle",
-    "address": "",
-    "lat": 50.72725777821,
-    "lon": 11.71466529681,
-    "sourceId": "obc_OrpRFr"
-  },
-  {
     "id": "wgwpyk",
     "name": "Bücherregal in der Haltestelle Alfdorf Rathaus",
     "address": "",
@@ -44376,20 +44400,20 @@
     "sourceId": "obc_rmIqKI"
   },
   {
-    "id": "hfmqmz",
-    "name": "Bücherregale im Markt",
-    "address": "",
-    "lat": 51.3493545669,
-    "lon": 12.47825860977,
-    "sourceId": "obc_kiOBce"
-  },
-  {
     "id": "esrikt",
     "name": "Bücherregale im Marktkauf",
     "address": "Im Emerten / Konrad-Adenauer-Straße 33, 31737 Rinteln",
     "lat": 52.196406160564,
     "lon": 9.0881583094597,
     "sourceId": "obc_LW1x7K"
+  },
+  {
+    "id": "hfmqmz",
+    "name": "Bücherregale im Paunsdorf Center",
+    "address": "Paunsdorfer Allee 1, 04329 Leipzig-Paunsdorf",
+    "lat": 51.3493545669,
+    "lon": 12.47825860977,
+    "sourceId": "obc_kiOBce"
   },
   {
     "id": "fzaxza",
@@ -45150,6 +45174,14 @@
     "lat": 48.609054,
     "lon": 13.068527,
     "sourceId": "obc_csjsNk"
+  },
+  {
+    "id": "igomyl",
+    "name": "Bücherschrank & Regiomat Heteborn",
+    "address": "Ernst-Thälmann-Straße 6, 06458 Selke-Aue-Heteborn, Kleine Parkmöglichkeit, Kaffee-Automat, Bücherregale, liebevoll gestaltet, Wasser für Hunde, Regiomat, Sitzgelegenheiten",
+    "lat": 51.8935061274,
+    "lon": 11.28860161278,
+    "sourceId": "obc_HYI1XW"
   },
   {
     "id": "btfpgd",
@@ -46910,14 +46942,6 @@
     "lat": 49,
     "lon": 7,
     "sourceId": "obc_vtzu3f"
-  },
-  {
-    "id": "sgabny",
-    "name": "Bücherschrank Bierbaum",
-    "address": "Kirchstraße 10, 58515 Lüdenscheid-Bierbaum",
-    "lat": 51.202,
-    "lon": 7.652896,
-    "sourceId": "obc_7NXT9R"
   },
   {
     "id": "zpumic",
@@ -50286,6 +50310,14 @@
     "lat": 50.182391,
     "lon": 8.692946,
     "sourceId": "obc_ENvy6Z"
+  },
+  {
+    "id": "yodhpr",
+    "name": "Bücherschrank Frankfurt-Dornbusch",
+    "address": "",
+    "lat": 50.139343,
+    "lon": 8.670498,
+    "sourceId": "obc_tmuFil"
   },
   {
     "id": "egwmfe",
@@ -56200,14 +56232,6 @@
     "sourceId": "obc_2n9Kso"
   },
   {
-    "id": "aavwhw",
-    "name": "Bücherschrank Meinerzhagen",
-    "address": "Kirchplatz, 58540 Meinerzhagen",
-    "lat": 51.10625,
-    "lon": 7.64038,
-    "sourceId": "obc_XDdbg1"
-  },
-  {
     "id": "cxwuty",
     "name": "Bücherschrank Meitingen",
     "address": "Schloßstraße 2, 86405",
@@ -56354,7 +56378,7 @@
   {
     "id": "djsxvc",
     "name": "Bücherschrank Mierendorffstraße",
-    "address": "",
+    "address": "Mierendorffstraße 6, 60320 Frankfurt-Mitte-Nord",
     "lat": 50.140447,
     "lon": 8.673667,
     "sourceId": "obc_xL2fic"
@@ -59736,6 +59760,14 @@
     "sourceId": "obc_zPRGzf"
   },
   {
+    "id": "rgbgmv",
+    "name": "Bücherschrank Rudolstadt",
+    "address": "Große Badergasse 12, 07407 Rudolstadt-Cumbach",
+    "lat": 50.72098777227,
+    "lon": 11.3415028261,
+    "sourceId": "obc_QDgxfV"
+  },
+  {
     "id": "wwbxju",
     "name": "Bücherschrank Ruhr-Universität",
     "address": "",
@@ -60918,6 +60950,14 @@
     "lat": 48.322487839895,
     "lon": 11.412476487458,
     "sourceId": "obc_jlh9UU"
+  },
+  {
+    "id": "qtcwue",
+    "name": "Bücherschrank Siemssenstraße",
+    "address": "Siemssenstraße 13, 20251 Hamburg-Nord",
+    "lat": 53.597409,
+    "lon": 9.9848516,
+    "sourceId": "obc_DR1r4M"
   },
   {
     "id": "fdgrcf",
@@ -67209,8 +67249,8 @@
   },
   {
     "id": "tfhgfl",
-    "name": "Bücherschrank in der Scheune.",
-    "address": "",
+    "name": "Bücherschrank in der Scheune Hütten",
+    "address": "Herschdorfer Straße 21, 07387 Krölpa-Schlettwein-Hütten",
     "lat": 50.72449742308,
     "lon": 11.53886446485,
     "sourceId": "obc_Qn658Y"
@@ -67630,14 +67670,6 @@
     "lat": 48.979935,
     "lon": 9.580588,
     "sourceId": "obc_PuM3ZI"
-  },
-  {
-    "id": "igomyl",
-    "name": "Bücherschränkchen Heteborn",
-    "address": "Ernst-Thälmann-Straße 6, 06458 Selke-Aue-Heteborn",
-    "lat": 51.8935061274,
-    "lon": 11.28860161278,
-    "sourceId": "obc_HYI1XW"
   },
   {
     "id": "wieqwh",
@@ -70006,6 +70038,14 @@
     "lat": 51.515908,
     "lon": 13.6518,
     "sourceId": "obc_1O80zi"
+  },
+  {
+    "id": "ecskni",
+    "name": "Bücherzelle ,,Lipsia\"",
+    "address": "Liliensteinstraße 53, 04207 Leipzig-Lausen-Grünau",
+    "lat": 51.3062435,
+    "lon": 12.2708582,
+    "sourceId": "obc_MNPAgY"
   },
   {
     "id": "ziwnpz",
@@ -82282,7 +82322,7 @@
   {
     "id": "mrdthu",
     "name": "Bücherzelle Thalheim bei Wels",
-    "address": "gegenüber von Gemeindeplatz 12, 4600 Thalheim bei Wels",
+    "address": "gegenüber Gemeindeplatz 12, 4600 Thalheim bei Wels, gegenüber von Gemeindeplatz 12, 4600 Thalheim bei Wels",
     "lat": 48.15269,
     "lon": 14.03085,
     "sourceId": "obc_8Dirui"
@@ -88816,14 +88856,6 @@
     "sourceId": "obc_k9pALw"
   },
   {
-    "id": "yodhpr",
-    "name": "Frankfurt-Dornbusch",
-    "address": "",
-    "lat": 50.139343,
-    "lon": 8.670498,
-    "sourceId": "obc_tmuFil"
-  },
-  {
     "id": "oimctf",
     "name": "Frankfurt-Eckenheim / Adolf-Leweke-Straße",
     "address": "Sigmund-Freud-Straße 78, 60435 Frankfurt am Main",
@@ -91744,6 +91776,14 @@
     "sourceId": "obc_WHqOHM"
   },
   {
+    "id": "narosw",
+    "name": "Hostel Korzo Rijeka",
+    "address": "",
+    "lat": 45.3270394,
+    "lon": 14.4421496,
+    "sourceId": "obc_JjPqJB"
+  },
+  {
     "id": "wgdpkq",
     "name": "Hotel \"Algoritm\" / Гостиница \"Алгоритм\"",
     "address": "Солнечный проезд, 21 Tyumen, Tyumen' Oblast Russia",
@@ -93214,6 +93254,14 @@
     "lat": 51.087055,
     "lon": 8.090773,
     "sourceId": "obc_RZEsqB"
+  },
+  {
+    "id": "mvxwqn",
+    "name": "Kirchplatz an der ev. Jesus-Christus-Kirche",
+    "address": "Kirchplatz 4, 58540 Meinerzhagen",
+    "lat": 51.10600438634,
+    "lon": 7.64050036669,
+    "sourceId": "obc_SPx3Qx"
   },
   {
     "id": "dsbvmz",
@@ -114480,14 +114528,6 @@
     "sourceId": "obc_WO9MBm"
   },
   {
-    "id": "ecskni",
-    "name": "Tauschschrank ,,Lipsia\"",
-    "address": "",
-    "lat": 51.3062435,
-    "lon": 12.2708582,
-    "sourceId": "obc_MNPAgY"
-  },
-  {
     "id": "xrbgvp",
     "name": "Tauschschrank Diana",
     "address": "",
@@ -125006,6 +125046,24 @@
     "lat": 51.5886931,
     "lon": -0.0211816,
     "sourceId": "obc_rGviyz"
+  },
+  {
+    "id": "sgabny",
+    "name": "Bücherschrank Bierbaum",
+    "address": "Kirchstraße 10, 58515 Lüdenscheid-Bierbaum",
+    "lat": 51.202,
+    "lon": 7.652896,
+    "sourceId": "obc_7NXT9R",
+    "removed": true
+  },
+  {
+    "id": "aavwhw",
+    "name": "Bücherschrank Meinerzhagen",
+    "address": "Kirchplatz, 58540 Meinerzhagen",
+    "lat": 51.10625,
+    "lon": 7.64038,
+    "sourceId": "obc_XDdbg1",
+    "removed": true
   },
   {
     "id": "rqoavs",
