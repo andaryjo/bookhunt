@@ -29056,14 +29056,6 @@
     "sourceId": "obc_N3KHsr"
   },
   {
-    "id": "etxydo",
-    "name": "Buchenweg-Bücherei",
-    "address": "Buchenweg 3, 72622 Nürtingen",
-    "lat": 48.62113,
-    "lon": 9.336759,
-    "sourceId": "obc_ro6TQq"
-  },
-  {
     "id": "wktejk",
     "name": "Bucherregal Siedlung Riedgraben",
     "address": "133 Tramstrasse, 8050 Zürich",
@@ -43838,6 +43830,14 @@
     "lat": 53.68713,
     "lon": 7.76082,
     "sourceId": "obc_xo3yC2"
+  },
+  {
+    "id": "mdmdew",
+    "name": "Bücherregal in der Haltestelle",
+    "address": "",
+    "lat": 50.88768478742,
+    "lon": 11.43963741269,
+    "sourceId": "obc_yhJ7sB"
   },
   {
     "id": "wgwpyk",
@@ -117280,6 +117280,14 @@
     "sourceId": "obc_UBOj2O"
   },
   {
+    "id": "lpaelg",
+    "name": "Wooden Bookshelf Rijeka",
+    "address": "",
+    "lat": 45.3293994,
+    "lon": 14.4403485,
+    "sourceId": "obc_3HKqoc"
+  },
+  {
     "id": "wxujpc",
     "name": "Woonzorgcentrum Groote & Voorster",
     "address": "Smedenstraat 117",
@@ -125046,6 +125054,15 @@
     "lat": 51.5886931,
     "lon": -0.0211816,
     "sourceId": "obc_rGviyz"
+  },
+  {
+    "id": "etxydo",
+    "name": "Buchenweg-Bücherei",
+    "address": "Buchenweg 3, 72622 Nürtingen",
+    "lat": 48.62113,
+    "lon": 9.336759,
+    "sourceId": "obc_ro6TQq",
+    "removed": true
   },
   {
     "id": "sgabny",
