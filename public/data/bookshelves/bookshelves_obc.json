@@ -744,14 +744,6 @@
     "sourceId": "obc_O7MFIx"
   },
   {
-    "id": "rpscdt",
-    "name": "Altstadt Obernai / Oberehnheim",
-    "address": "",
-    "lat": 48.46292838798,
-    "lon": 7.48084455729,
-    "sourceId": "obc_lDZCFs"
-  },
-  {
     "id": "scnfws",
     "name": "Am Bramschkontor 11",
     "address": "Am Bramschkontor 11, 01067 Dresden",
@@ -18984,6 +18976,14 @@
     "sourceId": "obc_daYLXG"
   },
   {
+    "id": "vvgxzo",
+    "name": "Book Exchange Onefam Hostel Budapest",
+    "address": "",
+    "lat": 47.4970362,
+    "lon": 19.059673,
+    "sourceId": "obc_qU3EkD"
+  },
+  {
     "id": "wghfqx",
     "name": "Book Exchange Onefam Waterloo Hostel",
     "address": "73 Lambeth Walk, London SE11 6DX, Vereinigtes Königreich",
@@ -27912,6 +27912,14 @@
     "sourceId": "obc_L0nOUj"
   },
   {
+    "id": "rpscdt",
+    "name": "Boîte à livres Place de l'Hôpital",
+    "address": "Place de l'Hôpital, 67210 Obernai",
+    "lat": 48.46292838798,
+    "lon": 7.48084455729,
+    "sourceId": "obc_lDZCFs"
+  },
+  {
     "id": "zbcmmf",
     "name": "Boîte à livres Place de la Gare",
     "address": "Place de la Gare, 44190 Clisson",
@@ -31640,14 +31648,6 @@
     "sourceId": "obc_MhHG50"
   },
   {
-    "id": "cwolnz",
-    "name": "BücherboXX Europa",
-    "address": "Halemweg 20, 13627 Berlin-Charlottenburg Nord",
-    "lat": 52.537872045912,
-    "lon": 13.286810855712,
-    "sourceId": "obc_19BkT3"
-  },
-  {
     "id": "crakhc",
     "name": "BücherboXX Fabrik Osloer Str.",
     "address": "",
@@ -31686,6 +31686,14 @@
     "lat": 52.487965,
     "lon": 13.263155,
     "sourceId": "obc_eV3LeK"
+  },
+  {
+    "id": "cwolnz",
+    "name": "BücherboXX Halemweg",
+    "address": "Halemweg 20, 13627 Berlin-Charlottenburg Nord",
+    "lat": 52.537872045912,
+    "lon": 13.286810855712,
+    "sourceId": "obc_19BkT3"
   },
   {
     "id": "hpuefn",
@@ -33592,6 +33600,14 @@
     "sourceId": "obc_EuPbTj"
   },
   {
+    "id": "mdmdew",
+    "name": "Bücherhaltestelle Niedersynderstedt",
+    "address": "An den Linden 30, 99444 Blankenhain-Niedersynderstedt",
+    "lat": 50.88768478742,
+    "lon": 11.43963741269,
+    "sourceId": "obc_yhJ7sB"
+  },
+  {
     "id": "jqokwe",
     "name": "Bücherhaltestelle Oberbibrach",
     "address": "Vorbacher Str. 4, 95519 Vorbach-Oberbibrach",
@@ -35462,14 +35478,6 @@
     "lat": 47.592157770712,
     "lon": 7.874004766345,
     "sourceId": "obc_Szgzpl"
-  },
-  {
-    "id": "merhdy",
-    "name": "Bücherkiste im Staibenäcker",
-    "address": "Staibenäcker 17a, 70188 Stuttgart",
-    "lat": 48.784761441866,
-    "lon": 9.204084944097,
-    "sourceId": "obc_2cfB9V"
   },
   {
     "id": "xdcusz",
@@ -41824,6 +41832,14 @@
     "sourceId": "obc_owF0bj"
   },
   {
+    "id": "eznsnh",
+    "name": "Bücherregal Taubach",
+    "address": "Kirchplatz 6, 99425 Weimar-Taubach",
+    "lat": 50.950837,
+    "lon": 11.38123,
+    "sourceId": "obc_3tB01u"
+  },
+  {
     "id": "yelzqm",
     "name": "Bücherregal Tauscherstraße",
     "address": "Tauscherstraße 18, 01277 Dresden-Neugruna",
@@ -43288,6 +43304,14 @@
     "sourceId": "obc_VTFNQV"
   },
   {
+    "id": "wqlrsw",
+    "name": "Bücherregal im Infozentrum",
+    "address": "Georg-Schumann-Straße 126, 04155 Leipzig",
+    "lat": 51.36441741327,
+    "lon": 12.35767990351,
+    "sourceId": "obc_IGA7Zc"
+  },
+  {
     "id": "iwplbj",
     "name": "Bücherregal im Kaiserbahnhof",
     "address": "Am Güterbahnhof 1a, 15366 Hoppegarten",
@@ -43816,28 +43840,12 @@
     "sourceId": "obc_VJETcX"
   },
   {
-    "id": "wqlrsw",
-    "name": "Bücherregal in der Empore",
-    "address": "",
-    "lat": 51.36441741327,
-    "lon": 12.35767990351,
-    "sourceId": "obc_IGA7Zc"
-  },
-  {
     "id": "ukcbip",
     "name": "Bücherregal in der Gaststätte in Altharlingersiel",
     "address": "Altharlingersiel Ortskern 3, 26427 Neuharlingersiel",
     "lat": 53.68713,
     "lon": 7.76082,
     "sourceId": "obc_xo3yC2"
-  },
-  {
-    "id": "mdmdew",
-    "name": "Bücherregal in der Haltestelle",
-    "address": "",
-    "lat": 50.88768478742,
-    "lon": 11.43963741269,
-    "sourceId": "obc_yhJ7sB"
   },
   {
     "id": "wgwpyk",
@@ -44902,6 +44910,14 @@
     "lat": 45.46621,
     "lon": 12.28246,
     "sourceId": "obc_FUoSl6"
+  },
+  {
+    "id": "lhgjzo",
+    "name": "Bücherschrank",
+    "address": "",
+    "lat": 50.72121138601,
+    "lon": 11.34145119914,
+    "sourceId": "obc_IxkRRx"
   },
   {
     "id": "upyksl",
@@ -49200,6 +49216,14 @@
     "sourceId": "obc_NAuvmi"
   },
   {
+    "id": "lhkweb",
+    "name": "Bücherschrank EVR",
+    "address": "",
+    "lat": 50.72100729289,
+    "lon": 11.3512510679,
+    "sourceId": "obc_YRTMbs"
+  },
+  {
     "id": "eekcpo",
     "name": "Bücherschrank Ebensee",
     "address": "Hauptstraße 20, 4802 Ebensee",
@@ -49378,7 +49402,7 @@
   {
     "id": "yypuqq",
     "name": "Bücherschrank Eichendorffstraße",
-    "address": "",
+    "address": "Eichendorffstraße 80, 60320 Frankfurt-Mitte-Nord",
     "lat": 50.14289666029,
     "lon": 8.66282244196,
     "sourceId": "obc_1stP8R"
@@ -50310,14 +50334,6 @@
     "lat": 50.182391,
     "lon": 8.692946,
     "sourceId": "obc_ENvy6Z"
-  },
-  {
-    "id": "yodhpr",
-    "name": "Bücherschrank Frankfurt-Dornbusch",
-    "address": "",
-    "lat": 50.139343,
-    "lon": 8.670498,
-    "sourceId": "obc_tmuFil"
   },
   {
     "id": "egwmfe",
@@ -56273,8 +56289,8 @@
   },
   {
     "id": "aiackv",
-    "name": "Bücherschrank Mellingen Feilinger Ring",
-    "address": "Feininger Ring, 99441 Mellingen",
+    "name": "Bücherschrank Mellingen",
+    "address": "Feininger Ring 42, 99441 Mellingen",
     "lat": 50.947971,
     "lon": 11.391352,
     "sourceId": "obc_GZDwoU"
@@ -59168,6 +59184,14 @@
     "sourceId": "obc_rYi6lg"
   },
   {
+    "id": "yodhpr",
+    "name": "Bücherschrank Reich-Ranicki-Platz",
+    "address": "Eschersheimer Landstraße 248, 60320 Frankfurt-Dornbusch",
+    "lat": 50.139343,
+    "lon": 8.670498,
+    "sourceId": "obc_tmuFil"
+  },
+  {
     "id": "qsmilh",
     "name": "Bücherschrank Reichelsdorf",
     "address": "Reichelsdorfer Hauptstraße 156, 90453 Nürnberg-Reichelsdorf",
@@ -59758,14 +59782,6 @@
     "lat": 52.556235,
     "lon": 13.052337,
     "sourceId": "obc_zPRGzf"
-  },
-  {
-    "id": "rgbgmv",
-    "name": "Bücherschrank Rudolstadt",
-    "address": "Große Badergasse 12, 07407 Rudolstadt-Cumbach",
-    "lat": 50.72098777227,
-    "lon": 11.3415028261,
-    "sourceId": "obc_QDgxfV"
   },
   {
     "id": "wwbxju",
@@ -69416,6 +69432,14 @@
     "sourceId": "obc_QT65IA"
   },
   {
+    "id": "srrggl",
+    "name": "Büchervitine Im Heidewinkel",
+    "address": "Im Heidewinkel 24A, 13629 Berlin-Siemensstadt",
+    "lat": 52.54729049287,
+    "lon": 13.26654085343,
+    "sourceId": "obc_Vtneao"
+  },
+  {
     "id": "oiewjt",
     "name": "Büchervitrine  Pforzheim Ludwig-Erhard-Schule",
     "address": "Schoferweg 21, 75175 Pforzheim",
@@ -69934,6 +69958,14 @@
     "lat": 50.972231,
     "lon": 11.025016,
     "sourceId": "obc_XhTH5J"
+  },
+  {
+    "id": "vtlwat",
+    "name": "Bücherzelle",
+    "address": "",
+    "lat": 50.69480010699,
+    "lon": 11.3200216434,
+    "sourceId": "obc_PKscvj"
   },
   {
     "id": "mpsopt",
@@ -72358,6 +72390,14 @@
     "lat": 50.040625,
     "lon": 9.036609,
     "sourceId": "obc_zmEOYH"
+  },
+  {
+    "id": "ndhdms",
+    "name": "Bücherzelle Deuben",
+    "address": "Püchauer Straße 14, 04828 Bennewitz-Deuben",
+    "lat": 51.36408379951,
+    "lon": 12.69675636602,
+    "sourceId": "obc_p0E4C4"
   },
   {
     "id": "zeniqj",
@@ -77161,8 +77201,8 @@
   },
   {
     "id": "btylhx",
-    "name": "Bücherzelle Lützen bei Leipzig",
-    "address": "",
+    "name": "Bücherzelle Lützen",
+    "address": "Markt 1, 06686 Lützen",
     "lat": 51.256553,
     "lon": 12.141516,
     "sourceId": "obc_2ERF3J"
@@ -114504,6 +114544,14 @@
     "sourceId": "obc_jckUuU"
   },
   {
+    "id": "sleneb",
+    "name": "Tauschregal in der Volksbank",
+    "address": "",
+    "lat": 50.64669085967,
+    "lon": 11.3606552475,
+    "sourceId": "obc_EqCy7X"
+  },
+  {
     "id": "vdxqhw",
     "name": "Tauschregal vor Jugenzentrum Hugo",
     "address": "Hugo-Schrade-Straße 41, 07745 Jena",
@@ -118982,14 +119030,6 @@
     "lat": 49.5820204,
     "lon": 8.3602857,
     "sourceId": "obc_LRiQk6"
-  },
-  {
-    "id": "eznsnh",
-    "name": "Öffentliches Bücherregal",
-    "address": "Kirchpl. 6, 99425 Weimar",
-    "lat": 50.950837,
-    "lon": 11.38123,
-    "sourceId": "obc_3tB01u"
   },
   {
     "id": "mdxikw",
@@ -125054,6 +125094,24 @@
     "lat": 51.5886931,
     "lon": -0.0211816,
     "sourceId": "obc_rGviyz"
+  },
+  {
+    "id": "merhdy",
+    "name": "Bücherkiste im Staibenäcker",
+    "address": "Staibenäcker 17a, 70188 Stuttgart",
+    "lat": 48.784761441866,
+    "lon": 9.204084944097,
+    "sourceId": "obc_2cfB9V",
+    "removed": true
+  },
+  {
+    "id": "rgbgmv",
+    "name": "Bücherschrank Rudolstadt",
+    "address": "Große Badergasse 12, 07407 Rudolstadt-Cumbach",
+    "lat": 50.72098777227,
+    "lon": 11.3415028261,
+    "sourceId": "obc_QDgxfV",
+    "removed": true
   },
   {
     "id": "etxydo",
