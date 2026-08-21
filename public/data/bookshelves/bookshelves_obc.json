@@ -26208,6 +26208,14 @@
     "sourceId": "obc_bFaqct"
   },
   {
+    "id": "qnwyak",
+    "name": "Bookcrossing Cybinka",
+    "address": "Słubicka 24, 69-108 Cybinka",
+    "lat": 52.1948764342,
+    "lon": 14.79498177767,
+    "sourceId": "obc_NxEUlR"
+  },
+  {
     "id": "rwrlcs",
     "name": "Bookcrossing Fronołów",
     "address": "Mierzwice-Kolonia 15K, 08-220 Mierzwice-Kolonia, Polen",
@@ -33632,6 +33640,14 @@
     "sourceId": "obc_YI2PsC"
   },
   {
+    "id": "csximc",
+    "name": "Bücherhaltestelle Oldenstadt",
+    "address": "Klosterstraße 29, 29525 Uelzen-Oldenstadt",
+    "lat": 52.9710166,
+    "lon": 10.5918343,
+    "sourceId": "obc_Y6Re72"
+  },
+  {
     "id": "nukohm",
     "name": "Bücherhaltestelle Palingen",
     "address": "Hauptstraße 37, 23923 Lüdersdorf-Palingen",
@@ -35158,6 +35174,14 @@
     "lat": 51.164224181792,
     "lon": 14.985799826682,
     "sourceId": "obc_H7eN6x"
+  },
+  {
+    "id": "uekrsa",
+    "name": "Bücherkiste Gülze",
+    "address": "Kastanienallee 13, 19273 Teldau-Gülze",
+    "lat": 53.3512935,
+    "lon": 10.8072042,
+    "sourceId": "obc_HvSA0v"
   },
   {
     "id": "poihyr",
@@ -40960,6 +40984,14 @@
     "sourceId": "obc_h2RxIU"
   },
   {
+    "id": "viglvh",
+    "name": "Bücherregal Rathaus Wallbach",
+    "address": "Im Lagersboden 5, 65510 Hünstetten-Wallbach",
+    "lat": 50.24966427561,
+    "lon": 8.1954974852,
+    "sourceId": "obc_CbmDdm"
+  },
+  {
     "id": "lhngas",
     "name": "Bücherregal Rathaus Worms",
     "address": "Von-Steuben-Straße 8, 67547",
@@ -43936,6 +43968,14 @@
     "sourceId": "obc_pr41RT"
   },
   {
+    "id": "cepqhh",
+    "name": "Bücherregal Überlingen",
+    "address": "Säntisstraße 90, 88662 Überlingen 90, 88662 Überlingen",
+    "lat": 47.772456,
+    "lon": 9.144498,
+    "sourceId": "obc_wsBX4N"
+  },
+  {
     "id": "vrqoef",
     "name": "Bücherregal/Givebox Wiener Neudorf Parkstraße",
     "address": "Parkstraße 33, 2351 Wiener Neudorf",
@@ -44912,14 +44952,6 @@
     "sourceId": "obc_FUoSl6"
   },
   {
-    "id": "lhgjzo",
-    "name": "Bücherschrank",
-    "address": "",
-    "lat": 50.72121138601,
-    "lon": 11.34145119914,
-    "sourceId": "obc_IxkRRx"
-  },
-  {
     "id": "upyksl",
     "name": "Bücherschrank   Castets",
     "address": "Chemin de barrats  Castets",
@@ -45774,6 +45806,14 @@
     "lat": 49.44365,
     "lon": 11.857617,
     "sourceId": "obc_VwfH1X"
+  },
+  {
+    "id": "hapnvf",
+    "name": "Bücherschrank Amerang",
+    "address": "Wasserburger Straße 10, 83123 Amerang",
+    "lat": 47.99152825577,
+    "lon": 12.30730801821,
+    "sourceId": "obc_mkjkbv"
   },
   {
     "id": "emabuw",
@@ -49218,7 +49258,7 @@
   {
     "id": "lhkweb",
     "name": "Bücherschrank EVR",
-    "address": "",
+    "address": "Oststraße 18, 07407 Rudolstadt",
     "lat": 50.72100729289,
     "lon": 11.3512510679,
     "sourceId": "obc_YRTMbs"
@@ -51374,6 +51414,14 @@
     "lat": 49.860542,
     "lon": 8.559755,
     "sourceId": "obc_WHMR2b"
+  },
+  {
+    "id": "aqfshh",
+    "name": "Bücherschrank Griesstätt",
+    "address": "Rosenheimer Straße 6, 83556 Griesstätt",
+    "lat": 47.99337173185,
+    "lon": 12.17795312405,
+    "sourceId": "obc_NUZNUA"
   },
   {
     "id": "tqzxys",
@@ -59240,6 +59288,14 @@
     "sourceId": "obc_jQfdWc"
   },
   {
+    "id": "qnydkp",
+    "name": "Bücherschrank Remda",
+    "address": "Sundremdaer Straße 33, 07407 Rudolstadt-Remda",
+    "lat": 50.7586484273,
+    "lon": 11.22489978314,
+    "sourceId": "obc_lQjQ3v"
+  },
+  {
     "id": "bxwezq",
     "name": "Bücherschrank Remscheid Rathaus",
     "address": "Theodor-Heuss-Platz 1, 42853 Remscheid",
@@ -59782,6 +59838,14 @@
     "lat": 52.556235,
     "lon": 13.052337,
     "sourceId": "obc_zPRGzf"
+  },
+  {
+    "id": "lhgjzo",
+    "name": "Bücherschrank Rudolstadt",
+    "address": "Große Badergasse 18, 07407 Rudolstadt-Cumbach",
+    "lat": 50.72121138601,
+    "lon": 11.34145119914,
+    "sourceId": "obc_IxkRRx"
   },
   {
     "id": "wwbxju",
@@ -60942,6 +61006,14 @@
     "lat": 48.398478,
     "lon": 10.896101,
     "sourceId": "obc_zwMsmi"
+  },
+  {
+    "id": "bdghso",
+    "name": "Bücherschrank Siegelbach",
+    "address": "Zu den Äckern 37, 67661 Kaiserslautern-Siegelbach",
+    "lat": 49.4682913,
+    "lon": 7.6970535,
+    "sourceId": "obc_Q2rx71"
   },
   {
     "id": "timbxy",
@@ -64952,14 +65024,6 @@
     "sourceId": "obc_CELfNC"
   },
   {
-    "id": "hiipli",
-    "name": "Bücherschrank am NauBad",
-    "address": "Wörthstraße 16, 89129 Langenau",
-    "lat": 48.50038905,
-    "lon": 10.126749962622,
-    "sourceId": "obc_MUBpIG"
-  },
-  {
     "id": "lizakh",
     "name": "Bücherschrank am Neubornbad",
     "address": "Am Schwimmbad 1, 55286 Wörrstadt",
@@ -65022,14 +65086,6 @@
     "lat": 50.9094397701,
     "lon": 8.45772385597,
     "sourceId": "obc_NfGAdD"
-  },
-  {
-    "id": "nscnbh",
-    "name": "Bücherschrank am Pfeghof",
-    "address": "Kirchgasse / Pfeghofstraße, 89129 Langenau",
-    "lat": 48.496573,
-    "lon": 10.120533,
-    "sourceId": "obc_v1YBHT"
   },
   {
     "id": "todrgr",
@@ -66192,6 +66248,14 @@
     "sourceId": "obc_NKry0E"
   },
   {
+    "id": "riniti",
+    "name": "Bücherschrank im Bahnhof Görlitz",
+    "address": "Bahnhofstraße 76, 02826 Görlitz",
+    "lat": 51.14733751353,
+    "lon": 14.97923612595,
+    "sourceId": "obc_sjfyC7"
+  },
+  {
     "id": "ucfbpc",
     "name": "Bücherschrank im Barbereich des Euro Youth Hotel",
     "address": "Senefelderstraße 5, 80336 München",
@@ -66710,6 +66774,14 @@
     "lat": 52.153216645673,
     "lon": 11.615814417601,
     "sourceId": "obc_qQ10Ro"
+  },
+  {
+    "id": "hiipli",
+    "name": "Bücherschrank im NauBad",
+    "address": "Wörthstraße 16, 89129 Langenau",
+    "lat": 48.50038905,
+    "lon": 10.126749962622,
+    "sourceId": "obc_MUBpIG"
   },
   {
     "id": "hlysil",
@@ -68872,6 +68944,14 @@
     "sourceId": "obc_Yy3kmp"
   },
   {
+    "id": "sleneb",
+    "name": "Büchertauschregal in der Volksbank",
+    "address": "Obere Straße 12, 07318 Saalfeld/Saale",
+    "lat": 50.64669085967,
+    "lon": 11.3606552475,
+    "sourceId": "obc_EqCy7X"
+  },
+  {
     "id": "hsjulw",
     "name": "Büchertauschregal vorm Bürgerzentrum",
     "address": "Wassersportallee 34, 12527 Berlin-Grünau",
@@ -69958,14 +70038,6 @@
     "lat": 50.972231,
     "lon": 11.025016,
     "sourceId": "obc_XhTH5J"
-  },
-  {
-    "id": "vtlwat",
-    "name": "Bücherzelle",
-    "address": "",
-    "lat": 50.69480010699,
-    "lon": 11.3200216434,
-    "sourceId": "obc_PKscvj"
   },
   {
     "id": "mpsopt",
@@ -80710,6 +80782,14 @@
     "lat": 52.17668,
     "lon": 12.62687,
     "sourceId": "obc_OQm9pC"
+  },
+  {
+    "id": "vtlwat",
+    "name": "Bücherzelle Schwarza-Nord",
+    "address": "Neue Schulstraße 59a, 07407 Schwarza",
+    "lat": 50.69480010699,
+    "lon": 11.3200216434,
+    "sourceId": "obc_PKscvj"
   },
   {
     "id": "sixmpd",
@@ -91818,7 +91898,7 @@
   {
     "id": "narosw",
     "name": "Hostel Korzo Rijeka",
-    "address": "",
+    "address": "Korzo 18, 51000 Rijeka",
     "lat": 45.3270394,
     "lon": 14.4421496,
     "sourceId": "obc_JjPqJB"
@@ -97074,7 +97154,7 @@
   {
     "id": "wtdmtg",
     "name": "Mala slobodna knjižnica",
-    "address": "Ul. Erazma Barčića 9A, 51000, Rijeka, Kroatien",
+    "address": "Ul. Erazma Barčića 9A, 51000 Rijeka",
     "lat": 45.328945,
     "lon": 14.439549,
     "sourceId": "obc_gl8TAo"
@@ -103432,6 +103512,14 @@
     "sourceId": "obc_ogpzWa"
   },
   {
+    "id": "ohsjfd",
+    "name": "Minibieb Middenlaan - boekhalte",
+    "address": "Middenlaan -Kerklaan, Zunderdorp, Naast bushalte - next to busstop",
+    "lat": 52.40731279952,
+    "lon": 4.96444702148,
+    "sourceId": "obc_y6nI89"
+  },
+  {
     "id": "wozwve",
     "name": "Minibieb Middenmeer Groetweg",
     "address": "Groetweg 1, 1775 PL Middenmeer",
@@ -103630,6 +103718,14 @@
     "lat": 51.990239,
     "lon": 4.202678,
     "sourceId": "obc_8aF5CE"
+  },
+  {
+    "id": "ihmual",
+    "name": "Minibieb Naardermeer",
+    "address": "Naardermeer 72, 1447 KL Purmerend",
+    "lat": 52.49235323704,
+    "lon": 4.97323393822,
+    "sourceId": "obc_6bB5D8"
   },
   {
     "id": "bxlanw",
@@ -106984,6 +107080,14 @@
     "sourceId": "obc_21gHOs"
   },
   {
+    "id": "keshkr",
+    "name": "Minibieb Zunderdorp",
+    "address": "Achterlaan 3, 1027 AJ Amsterdam Zunderdorp",
+    "lat": 52.40635667217,
+    "lon": 4.96624946594,
+    "sourceId": "obc_MXmKw1"
+  },
+  {
     "id": "emuemn",
     "name": "Minibieb Zwaagdijk west",
     "address": "Balkweiterhoek 9 Zwaagdijk west",
@@ -110024,14 +110128,6 @@
     "sourceId": "obc_18zUZ6"
   },
   {
-    "id": "csximc",
-    "name": "Oldenstadt",
-    "address": "",
-    "lat": 52.9710166,
-    "lon": 10.5918343,
-    "sourceId": "obc_Y6Re72"
-  },
-  {
     "id": "xzeven",
     "name": "Olpe",
     "address": "Kurfürst-Heinrich-Str. 34, Olpe",
@@ -111950,14 +112046,6 @@
     "lat": 51.3565109,
     "lon": 4.3244691,
     "sourceId": "obc_YXvi35"
-  },
-  {
-    "id": "mkvnve",
-    "name": "Ruilkast Zunderdorp",
-    "address": "Achterlaan 15 Zunderdorp",
-    "lat": 52.407387,
-    "lon": 4.966915,
-    "sourceId": "obc_2oOuF9"
   },
   {
     "id": "egjnih",
@@ -114542,14 +114630,6 @@
     "lat": 48.226931,
     "lon": 11.477859,
     "sourceId": "obc_jckUuU"
-  },
-  {
-    "id": "sleneb",
-    "name": "Tauschregal in der Volksbank",
-    "address": "",
-    "lat": 50.64669085967,
-    "lon": 11.3606552475,
-    "sourceId": "obc_EqCy7X"
   },
   {
     "id": "vdxqhw",
@@ -117330,7 +117410,7 @@
   {
     "id": "lpaelg",
     "name": "Wooden Bookshelf Rijeka",
-    "address": "",
+    "address": "Ul. Ivana Pavla II 10, 51000 Rijeka",
     "lat": 45.3293994,
     "lon": 14.4403485,
     "sourceId": "obc_3HKqoc"
@@ -119190,14 +119270,6 @@
     "lat": 47.759284,
     "lon": 9.176491,
     "sourceId": "obc_ZwUlEO"
-  },
-  {
-    "id": "cepqhh",
-    "name": "Überlingen Säntisstraße",
-    "address": "Säntisstraße 90, Überlingen",
-    "lat": 47.772456,
-    "lon": 9.144498,
-    "sourceId": "obc_wsBX4N"
   },
   {
     "id": "jjxxzo",
@@ -125094,6 +125166,24 @@
     "lat": 51.5886931,
     "lon": -0.0211816,
     "sourceId": "obc_rGviyz"
+  },
+  {
+    "id": "nscnbh",
+    "name": "Bücherschrank am Pfeghof",
+    "address": "Kirchgasse / Pfeghofstraße, 89129 Langenau",
+    "lat": 48.496573,
+    "lon": 10.120533,
+    "sourceId": "obc_v1YBHT",
+    "removed": true
+  },
+  {
+    "id": "mkvnve",
+    "name": "Ruilkast Zunderdorp",
+    "address": "Achterlaan 15 Zunderdorp",
+    "lat": 52.407387,
+    "lon": 4.966915,
+    "sourceId": "obc_2oOuF9",
+    "removed": true
   },
   {
     "id": "merhdy",
