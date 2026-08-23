@@ -26376,6 +26376,14 @@
     "sourceId": "obc_kK6Laz"
   },
   {
+    "id": "kwmgih",
+    "name": "Bookshelf Second Home Hostel",
+    "address": "",
+    "lat": 41.0128697,
+    "lon": 28.9762755,
+    "sourceId": "obc_TlgKci"
+  },
+  {
     "id": "unguez",
     "name": "Bookshelf Suchdol nad Odrou",
     "address": "Komenského 388, 742 01 Suchdol nad Odrou",
@@ -40846,6 +40854,14 @@
     "lat": 50.947967948356,
     "lon": 6.9207433481819,
     "sourceId": "obc_G8CFQ4"
+  },
+  {
+    "id": "idfzqb",
+    "name": "Bücherregal REWE Gültstein",
+    "address": "Lise-Meitner-Straße 1, 71083 Herrenberg-Gültstein",
+    "lat": 48.57485734803,
+    "lon": 8.88676507387,
+    "sourceId": "obc_UyJTMb"
   },
   {
     "id": "eowmfs",
@@ -78536,6 +78552,14 @@
     "sourceId": "obc_G5FF1m"
   },
   {
+    "id": "cgbmgc",
+    "name": "Bücherzelle Nächst Neuensorf",
+    "address": "",
+    "lat": 52.22341642913,
+    "lon": 13.42327594757,
+    "sourceId": "obc_tZv8O1"
+  },
+  {
     "id": "obipkx",
     "name": "Bücherzelle Nürnberg Zerzabelshof",
     "address": "Zerzabelshof, 90480 Nürnberg",
@@ -81538,7 +81562,7 @@
   {
     "id": "qjlimy",
     "name": "Bücherzelle St. Georgen bei Salzburg-Irlach",
-    "address": "Pfarrhofstraße 1, 5113 St. Georgen bei Salzburg",
+    "address": "Pfarrhofstraße 1, 5113 St. Georgen bei Salzburg-Irlach",
     "lat": 47.993562,
     "lon": 12.879988,
     "sourceId": "obc_0QXuF6"
@@ -94361,7 +94385,7 @@
   },
   {
     "id": "mhlkva",
-    "name": "Károlyi-kert közösségi könyvtár (since 2016) (Karoli Garten)",
+    "name": "Károlyi-kert közösségi könyvtár (Karoli Garten)",
     "address": "Magyar utca 24, 1053 Budapest",
     "lat": 47.492119,
     "lon": 19.060043,
@@ -95846,6 +95870,14 @@
     "lat": 41.1169162,
     "lon": 20.7975007,
     "sourceId": "obc_IMS6pV"
+  },
+  {
+    "id": "jpcigd",
+    "name": "Library under the trees",
+    "address": "",
+    "lat": 42.6758748,
+    "lon": 23.3129229,
+    "sourceId": "obc_xHuUxd"
   },
   {
     "id": "naxmxu",
