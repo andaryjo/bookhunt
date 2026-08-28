@@ -18978,7 +18978,7 @@
   {
     "id": "vvgxzo",
     "name": "Book Exchange Onefam Hostel Budapest",
-    "address": "",
+    "address": "Rumbach Sebestyén u. 6, 1075 Budapest",
     "lat": 47.4970362,
     "lon": 19.059673,
     "sourceId": "obc_qU3EkD"
@@ -26378,7 +26378,7 @@
   {
     "id": "kwmgih",
     "name": "Bookshelf Second Home Hostel",
-    "address": "",
+    "address": "Ebussuud Cd. 19, 34110 Sirkeci/İstanbul",
     "lat": 41.0128697,
     "lon": 28.9762755,
     "sourceId": "obc_TlgKci"
@@ -26672,6 +26672,14 @@
     "sourceId": "obc_QqOT1h"
   },
   {
+    "id": "vaqixb",
+    "name": "Boîte à livres - Camping Sunêlia",
+    "address": "Rue de la Grève du Man 140, 29250 Saint-Pol-de-Léon",
+    "lat": 48.6768486,
+    "lon": -3.9872929,
+    "sourceId": "obc_KbDssV"
+  },
+  {
     "id": "suiqys",
     "name": "Boîte à livres - Gare de Calvi",
     "address": "Gare de Calvi Calvi, Corse 20260 France",
@@ -26686,6 +26694,14 @@
     "lat": 42.303857,
     "lon": 9.158381,
     "sourceId": "obc_70Y7qX"
+  },
+  {
+    "id": "ebedyf",
+    "name": "Boîte à livres - L'Europe",
+    "address": "Rue Victor Schoelcher 53, 22100 Dinan",
+    "lat": 48.454846,
+    "lon": -2.059643,
+    "sourceId": "obc_FJhRq6"
   },
   {
     "id": "mmpelf",
@@ -32882,7 +32898,7 @@
   {
     "id": "tzxhez",
     "name": "Bücherecke Rotenturm Schlosscafe",
-    "address": "Schlosscafé, Hauptstraße 18, Rotenturm an der Pinka",
+    "address": "Hauptstraße 18, 7501 Rotenturm an der Pinka",
     "lat": 47.252453,
     "lon": 16.244844,
     "sourceId": "obc_NixMb2"
@@ -33142,6 +33158,14 @@
     "lat": 53.56977029991,
     "lon": 7.44420255102,
     "sourceId": "obc_gYBK2w"
+  },
+  {
+    "id": "oznyau",
+    "name": "Büchergarage Hötzum",
+    "address": "Hauptstr. 17, 38173 Sickte/Hötzum",
+    "lat": 52.22100215374,
+    "lon": 10.61620742083,
+    "sourceId": "obc_QuO4AR"
   },
   {
     "id": "nvelwv",
@@ -33750,6 +33774,14 @@
     "lat": 48.301992,
     "lon": 8.934606,
     "sourceId": "obc_6uyLiO"
+  },
+  {
+    "id": "ezepbo",
+    "name": "Bücherhaltestelle Tiefenbronn",
+    "address": "Pforzheimer Straße / Turnstraße, 75233 Tiefenbronn",
+    "lat": 48.823885225045,
+    "lon": 8.7987161055207,
+    "sourceId": "obc_DxVSaU"
   },
   {
     "id": "mpptzq",
@@ -40640,14 +40672,6 @@
     "sourceId": "obc_p9Ojw1"
   },
   {
-    "id": "awcuqv",
-    "name": "Bücherregal Osterkirche",
-    "address": "Samoastr. 14, 13353 Berlin-Wedding",
-    "lat": 52.541473,
-    "lon": 13.354463,
-    "sourceId": "obc_7mxL6p"
-  },
-  {
     "id": "kxukbv",
     "name": "Bücherregal Ostrach",
     "address": "Hauptstraße 19, 88356 Ostrach",
@@ -44966,6 +44990,14 @@
     "lat": 45.46621,
     "lon": 12.28246,
     "sourceId": "obc_FUoSl6"
+  },
+  {
+    "id": "dfxoca",
+    "name": "Bücherschrank",
+    "address": "",
+    "lat": 52.6246755,
+    "lon": 12.6859835,
+    "sourceId": "obc_q09sh2"
   },
   {
     "id": "upyksl",
@@ -58368,6 +58400,14 @@
     "sourceId": "obc_7Cj1c0"
   },
   {
+    "id": "bbhuqd",
+    "name": "Bücherschrank Parlow",
+    "address": "Hof 28, 16247 Friedrichswalde-Parlow",
+    "lat": 53.02474647885,
+    "lon": 13.76180077529,
+    "sourceId": "obc_xZFIbc"
+  },
+  {
     "id": "khngse",
     "name": "Bücherschrank Parque Mar",
     "address": "Avinguda d'es Fortí 107, 07660",
@@ -59234,7 +59274,7 @@
   {
     "id": "ackucm",
     "name": "Bücherschrank Rehburg-Loccum Bad Rehburg",
-    "address": "Friedrich-Stolberg-Allee 4, Rehburg-Loccum Bad Rehburg",
+    "address": "Friedrich-Stolberg-Allee 4, 31547 Bad Rehburg-Loccum",
     "lat": 52.437535,
     "lon": 9.215611,
     "sourceId": "obc_8k8jDT"
@@ -61568,6 +61608,14 @@
     "sourceId": "obc_5i8CcC"
   },
   {
+    "id": "peuvqp",
+    "name": "Bücherschrank Stadtschlaining",
+    "address": "Baumkirchergasse 1, 7461 Stadtschlaining",
+    "lat": 47.324036,
+    "lon": 16.279081,
+    "sourceId": "obc_IeWchX"
+  },
+  {
     "id": "urauzd",
     "name": "Bücherschrank Stadtteilhaus Gaisental",
     "address": "Banatstraße 34, 88400 Biberach an der Riß",
@@ -61662,6 +61710,14 @@
     "lat": 51.241641963315,
     "lon": 6.8266772478819,
     "sourceId": "obc_rtjAja"
+  },
+  {
+    "id": "uilcgz",
+    "name": "Bücherschrank Stefanstraße",
+    "address": "Stefanstraße 15, 85435 Erding-Klettham",
+    "lat": 48.3077322378,
+    "lon": 11.90123454797,
+    "sourceId": "obc_DGZ3OG"
   },
   {
     "id": "rcudox",
@@ -62278,14 +62334,6 @@
     "lat": 48.814074006280286,
     "lon": 9.140539884143276,
     "sourceId": "obc_nbk0Gp"
-  },
-  {
-    "id": "ezepbo",
-    "name": "Bücherschrank Tiefenbronn",
-    "address": "Pforzheimer Straße ,  75233 Tiefenbronn",
-    "lat": 48.823885225045,
-    "lon": 8.7987161055207,
-    "sourceId": "obc_DxVSaU"
   },
   {
     "id": "rytqum",
@@ -64014,6 +64062,14 @@
     "lat": 49.0067386,
     "lon": 12.3793437,
     "sourceId": "obc_S2EdQT"
+  },
+  {
+    "id": "zxsnck",
+    "name": "Bücherschrank Wildberg",
+    "address": "Markt, 16845 Temnitztal-Wildberg",
+    "lat": 52.8773763833,
+    "lon": 12.63069368448,
+    "sourceId": "obc_SgPJQw"
   },
   {
     "id": "omaadf",
@@ -72218,7 +72274,7 @@
   {
     "id": "mmibpo",
     "name": "Bücherzelle Caputh",
-    "address": "Bahnstraße 1 / Geschwister-Scholl-Straße, 14548 Schwielowsee-Caputh",
+    "address": "Geschwister-Scholl-Straße 2, 14548 Schwielowsee-Caputh, Ecke Bahnstraße 1",
     "lat": 52.340991,
     "lon": 12.980829,
     "sourceId": "obc_OAADs4"
@@ -75378,7 +75434,7 @@
   {
     "id": "ppkqwu",
     "name": "Bücherzelle Igersheim",
-    "address": "Möhlerplatz, 97999 Igersheim",
+    "address": "Möhlerplatz 2, 97999 Igersheim",
     "lat": 49.493268,
     "lon": 9.816775,
     "sourceId": "obc_v2u3CN"
@@ -75590,6 +75646,14 @@
     "lat": 52.508857,
     "lon": 13.522882,
     "sourceId": "obc_Tkm2TE"
+  },
+  {
+    "id": "jpsgjl",
+    "name": "Bücherzelle Kablow",
+    "address": "Dorfaue 1, 15712 Königs Wusterhausen-Kablow, OT Kablow",
+    "lat": 52.29466662517,
+    "lon": 13.72067391872,
+    "sourceId": "obc_sJNvlD"
   },
   {
     "id": "nnftae",
@@ -78554,7 +78618,7 @@
   {
     "id": "cgbmgc",
     "name": "Bücherzelle Nächst Neuensorf",
-    "address": "",
+    "address": "Nächst Neuendorfer Landstraße 27, 15806 Zossen-Nächst Neuendorf",
     "lat": 52.22341642913,
     "lon": 13.42327594757,
     "sourceId": "obc_tZv8O1"
@@ -81856,14 +81920,6 @@
     "sourceId": "obc_8otzmu"
   },
   {
-    "id": "peuvqp",
-    "name": "Bücherzelle Stadtschlaining",
-    "address": "Baumkirchergasse 1, 7461 Stadtschlaining",
-    "lat": 47.324036,
-    "lon": 16.279081,
-    "sourceId": "obc_IeWchX"
-  },
-  {
     "id": "ynekye",
     "name": "Bücherzelle Stadtweg",
     "address": "Stadtweg 56, 24837 Schleswig",
@@ -84216,20 +84272,20 @@
     "sourceId": "obc_iCCjO4"
   },
   {
+    "id": "zhptub",
+    "name": "Bücherzelle Wulkow",
+    "address": "Nietwerderweg 13, 16835 Neuruppin-Wulkow, am Spielplatz & Freiwillige Feuerwehr",
+    "lat": 52.92194584596,
+    "lon": 12.89774247802,
+    "sourceId": "obc_MWE0nn"
+  },
+  {
     "id": "xmobtt",
     "name": "Bücherzelle Wundschuh",
     "address": "Kalvarienbergstraße 12, 8142 Wundschuh",
     "lat": 46.924405,
     "lon": 15.447193,
     "sourceId": "obc_5e5hRo"
-  },
-  {
-    "id": "vhqjfr",
-    "name": "Bücherzelle Wustermark Rathaus",
-    "address": "Hoppenrader Allee 1, 14641 Wustermark",
-    "lat": 52.547792,
-    "lon": 12.939797,
-    "sourceId": "obc_3X7mNq"
   },
   {
     "id": "oxpror",
@@ -91720,6 +91776,14 @@
     "sourceId": "obc_NC1WlK"
   },
   {
+    "id": "egandg",
+    "name": "Hinter der Eisdiele",
+    "address": "",
+    "lat": 52.6154315,
+    "lon": 12.8315173,
+    "sourceId": "obc_tyQvms"
+  },
+  {
     "id": "wevmti",
     "name": "Hintlesham Telephone Box Book Exchange",
     "address": "The Street, Hintlesham",
@@ -92650,7 +92714,7 @@
   {
     "id": "jwplkk",
     "name": "Jugendkirche Meran",
-    "address": "",
+    "address": "Sandplatz, Meran",
     "lat": 46.669929,
     "lon": 11.165714,
     "sourceId": "obc_LhRLKX"
@@ -115656,6 +115720,14 @@
     "sourceId": "obc_ELJGI2"
   },
   {
+    "id": "dtowtg",
+    "name": "The Huesers Little Free Library",
+    "address": "Luisenstraße 11, 44534 Lünen-Nordlünen",
+    "lat": 51.6350559,
+    "lon": 7.5269791,
+    "sourceId": "obc_VzhBrb"
+  },
+  {
     "id": "bklhie",
     "name": "The Long Stone Pub",
     "address": "10 Townsend Street, Dublin, Ireland",
@@ -125198,6 +125270,24 @@
     "lat": 51.5886931,
     "lon": -0.0211816,
     "sourceId": "obc_rGviyz"
+  },
+  {
+    "id": "awcuqv",
+    "name": "Bücherregal Osterkirche",
+    "address": "Samoastr. 14, 13353 Berlin-Wedding",
+    "lat": 52.541473,
+    "lon": 13.354463,
+    "sourceId": "obc_7mxL6p",
+    "removed": true
+  },
+  {
+    "id": "vhqjfr",
+    "name": "Bücherzelle Wustermark Rathaus",
+    "address": "Hoppenrader Allee 1, 14641 Wustermark",
+    "lat": 52.547792,
+    "lon": 12.939797,
+    "sourceId": "obc_3X7mNq",
+    "removed": true
   },
   {
     "id": "nscnbh",
