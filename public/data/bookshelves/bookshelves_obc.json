@@ -26360,6 +26360,14 @@
     "sourceId": "obc_7bNdkp"
   },
   {
+    "id": "iwgvio",
+    "name": "Bookshelf Coffee Berry",
+    "address": "",
+    "lat": 35.1710633,
+    "lon": 33.3610234,
+    "sourceId": "obc_X90R08"
+  },
+  {
     "id": "wbeffr",
     "name": "Bookshelf Old Town Hostel Kotor",
     "address": "",
@@ -84192,6 +84200,14 @@
     "sourceId": "obc_33UxrB"
   },
   {
+    "id": "vddczr",
+    "name": "Bücherzelle Wolfenbüttel Danziger Straße",
+    "address": "Danziger Straße 14, 38302 Wolfenbüttel",
+    "lat": 52.171964,
+    "lon": 10.556177,
+    "sourceId": "obc_aLaf1P"
+  },
+  {
     "id": "jmlijl",
     "name": "Bücherzelle Wolfenbüttel Linden",
     "address": "Ecke Wendessener Straße/Unter den Kastanien, 38300 Wolfenbüttel",
@@ -93744,6 +93760,14 @@
     "sourceId": "obc_cfs8Ox"
   },
   {
+    "id": "yxotye",
+    "name": "Klästäfelder Bicherei",
+    "address": "",
+    "lat": 49.058108,
+    "lon": 8.0462355,
+    "sourceId": "obc_lDsySc"
+  },
+  {
     "id": "xnmrwf",
     "name": "Knihobudek",
     "address": "Žiželice 38, 438 01 Žiželice",
@@ -97914,7 +97938,7 @@
   {
     "id": "lspcti",
     "name": "Meran Bushaltestelle BHF",
-    "address": "",
+    "address": "Andreas Hofer Str. 39, Meran",
     "lat": 46.67379,
     "lon": 11.150567,
     "sourceId": "obc_JLZOc9"
@@ -125467,15 +125491,6 @@
     "lat": 47.782667111606,
     "lon": 9.6103120582212,
     "sourceId": "obc_v7hLzt",
-    "removed": true
-  },
-  {
-    "id": "vddczr",
-    "name": "Bücherzelle Wolfenbüttel Danziger Straße",
-    "address": "Danziger Straße 14, 38302 Wolfenbüttel",
-    "lat": 52.171964,
-    "lon": 10.556177,
-    "sourceId": "obc_aLaf1P",
     "removed": true
   },
   {
