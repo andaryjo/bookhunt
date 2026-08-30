@@ -816,6 +816,14 @@
     "sourceId": "obc_JPHQe0"
   },
   {
+    "id": "xxdmxc",
+    "name": "An der Freiwilligen Feuerwehr",
+    "address": "",
+    "lat": 52.6253722,
+    "lon": 12.7535655,
+    "sourceId": "obc_qvJBvj"
+  },
+  {
     "id": "igcwvl",
     "name": "An der Kirche",
     "address": "An der Lister Kirche",
@@ -26360,6 +26368,14 @@
     "sourceId": "obc_7bNdkp"
   },
   {
+    "id": "aqjwjc",
+    "name": "Bookshelf Chrielka Hotel Limassol",
+    "address": "",
+    "lat": 34.68197,
+    "lon": 33.0541253,
+    "sourceId": "obc_qfjrhF"
+  },
+  {
     "id": "iwgvio",
     "name": "Bookshelf Coffee Berry",
     "address": "",
@@ -42314,7 +42330,7 @@
   {
     "id": "esztqi",
     "name": "Bücherregal Vollmersweiler",
-    "address": "",
+    "address": "Hauptstraße 38, 76744 Vollmersweiler",
     "lat": 49.0652522,
     "lon": 8.0748627,
     "sourceId": "obc_8S6mIU"
@@ -45830,6 +45846,14 @@
     "lat": 52.4379,
     "lon": 13.6987,
     "sourceId": "obc_9jTAAr"
+  },
+  {
+    "id": "aykacc",
+    "name": "Bücherschrank Am Schwarzen Berge",
+    "address": "Warnekamp, Braunschweig",
+    "lat": 52.29158084839,
+    "lon": 10.5136692524,
+    "sourceId": "obc_H4DEtV"
   },
   {
     "id": "gsvjly",
@@ -51326,6 +51350,14 @@
     "lat": 51.909097,
     "lon": 10.426288,
     "sourceId": "obc_9QbdJm"
+  },
+  {
+    "id": "qzldex",
+    "name": "Bücherschrank Goslarsche Str.",
+    "address": "Goslarsche Str. 31a, 38118 Braunschweig",
+    "lat": 52.26612032161,
+    "lon": 10.50476431847,
+    "sourceId": "obc_DzuE4s"
   },
   {
     "id": "xxncod",
@@ -63216,6 +63248,14 @@
     "sourceId": "obc_p8ZAKV"
   },
   {
+    "id": "bqvzrn",
+    "name": "Bücherschrank Waldkraiburg",
+    "address": "Stadtplatz, 84478 Waldkraiburg",
+    "lat": 48.2067289,
+    "lon": 12.4032666,
+    "sourceId": "obc_SYyTYq"
+  },
+  {
     "id": "lstioc",
     "name": "Bücherschrank Waldmühlbach",
     "address": "Am Kirchplatz 4, 74842 Billigheim",
@@ -64390,6 +64430,14 @@
     "lat": 52.268889,
     "lon": 10.518696,
     "sourceId": "obc_YQzzrx"
+  },
+  {
+    "id": "xxcqzg",
+    "name": "Bücherschrank Wollmarkt",
+    "address": "Wollmarkt 13, 38100 Braunschweig",
+    "lat": 52.26882050351,
+    "lon": 10.51882714033,
+    "sourceId": "obc_hSHY6K"
   },
   {
     "id": "nnhusr",
@@ -93762,7 +93810,7 @@
   {
     "id": "yxotye",
     "name": "Klästäfelder Bicherei",
-    "address": "",
+    "address": "Kleinsteinfeld 10a, 76887 Steinfeld",
     "lat": 49.058108,
     "lon": 8.0462355,
     "sourceId": "obc_lDsySc"
@@ -96264,6 +96312,38 @@
     "sourceId": "obc_jf4S01"
   },
   {
+    "id": "kmjjpe",
+    "name": "Little Free Library",
+    "address": "",
+    "lat": 39.08351780719,
+    "lon": -77.14215785265,
+    "sourceId": "obc_0JPWxl"
+  },
+  {
+    "id": "siouor",
+    "name": "Little Free Library",
+    "address": "",
+    "lat": 39.08673026807,
+    "lon": -77.13596194983,
+    "sourceId": "obc_mkVv33"
+  },
+  {
+    "id": "zfzodt",
+    "name": "Little Free Library",
+    "address": "",
+    "lat": 39.09809241967,
+    "lon": -77.15991944075,
+    "sourceId": "obc_lHiuGd"
+  },
+  {
+    "id": "irxtzn",
+    "name": "Little Free Library",
+    "address": "",
+    "lat": 38.92012695817,
+    "lon": -77.03704476357,
+    "sourceId": "obc_QNiOug"
+  },
+  {
     "id": "lsmiqt",
     "name": "Little Free Library  - Kuipstraat Ertvelde",
     "address": "Kuipstraat 37 - 99940 Ertvelde",
@@ -96272,12 +96352,108 @@
     "sourceId": "obc_KBh1nn"
   },
   {
+    "id": "fvuqru",
+    "name": "Little Free Library #100251",
+    "address": "",
+    "lat": 42.05335363606,
+    "lon": -70.18418848515,
+    "sourceId": "obc_DtBYHE"
+  },
+  {
+    "id": "dzpwpn",
+    "name": "Little Free Library #100252",
+    "address": "",
+    "lat": 42.05026857642,
+    "lon": -70.19523650408,
+    "sourceId": "obc_yN9PtK"
+  },
+  {
+    "id": "cgmhmp",
+    "name": "Little Free Library #1108",
+    "address": "",
+    "lat": 41.45622636281,
+    "lon": -70.55792480707,
+    "sourceId": "obc_n3jl6z"
+  },
+  {
+    "id": "hpoafo",
+    "name": "Little Free Library #120948",
+    "address": "",
+    "lat": 39.14170249008,
+    "lon": -77.19308495522,
+    "sourceId": "obc_KIzMDz"
+  },
+  {
+    "id": "dwjsyk",
+    "name": "Little Free Library #129483",
+    "address": "",
+    "lat": 39.08254342202,
+    "lon": -77.13819086552,
+    "sourceId": "obc_H5IQ64"
+  },
+  {
+    "id": "pawgmu",
+    "name": "Little Free Library #134789",
+    "address": "",
+    "lat": 39.09129574979,
+    "lon": -77.13551670313,
+    "sourceId": "obc_1LiIPG"
+  },
+  {
+    "id": "zsovnp",
+    "name": "Little Free Library #176470",
+    "address": "",
+    "lat": 42.05456650743,
+    "lon": -70.18228143454,
+    "sourceId": "obc_zb5EE5"
+  },
+  {
+    "id": "qaueaw",
+    "name": "Little Free Library #176741",
+    "address": "",
+    "lat": 39.0856747316,
+    "lon": -77.14120298624,
+    "sourceId": "obc_tbpXop"
+  },
+  {
+    "id": "nshsis",
+    "name": "Little Free Library #194768",
+    "address": "",
+    "lat": 39.085730944,
+    "lon": -77.1440756321,
+    "sourceId": "obc_C0XNYx"
+  },
+  {
+    "id": "svhmpq",
+    "name": "Little Free Library #200608",
+    "address": "",
+    "lat": 42.52226717305,
+    "lon": -70.88419675827,
+    "sourceId": "obc_BvwcFA"
+  },
+  {
     "id": "qzpbws",
     "name": "Little Free Library #29238",
     "address": "Denderbellestraat, 9200 Dendermonde",
     "lat": 51.0130014,
     "lon": 4.0945908,
     "sourceId": "obc_n7rcE5"
+  },
+  {
+    "id": "yzrfzj",
+    "name": "Little Free Library #5869",
+    "address": "",
+    "lat": 43.91155720693,
+    "lon": -69.96546506882,
+    "sourceId": "obc_cEz6rK"
+  },
+  {
+    "id": "kasbdh",
+    "name": "Little Free Library #76147",
+    "address": "",
+    "lat": 39.0905296522,
+    "lon": -77.16236561537,
+    "sourceId": "obc_orXE3Z"
   },
   {
     "id": "bsspxd",
@@ -117706,10 +117882,18 @@
   {
     "id": "vkuxva",
     "name": "Zittau Rolandbrunnen",
-    "address": "",
+    "address": "Markt 1, 02763 Zittau",
     "lat": 50.89616,
     "lon": 14.80602,
     "sourceId": "obc_WEVkf4"
+  },
+  {
+    "id": "hhmijd",
+    "name": "Zittau Weberstraße",
+    "address": "Innere Weberstraße 16, 02763 Zittau",
+    "lat": 50.89722726126,
+    "lon": 14.80429708958,
+    "sourceId": "obc_bCTNLI"
   },
   {
     "id": "jkpnmz",
