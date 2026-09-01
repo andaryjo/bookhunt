@@ -816,14 +816,6 @@
     "sourceId": "obc_JPHQe0"
   },
   {
-    "id": "xxdmxc",
-    "name": "An der Freiwilligen Feuerwehr",
-    "address": "",
-    "lat": 52.6253722,
-    "lon": 12.7535655,
-    "sourceId": "obc_qvJBvj"
-  },
-  {
     "id": "igcwvl",
     "name": "An der Kirche",
     "address": "An der Lister Kirche",
@@ -26384,6 +26376,14 @@
     "sourceId": "obc_X90R08"
   },
   {
+    "id": "ymqpdj",
+    "name": "Bookshelf Meeting Point Lacarna",
+    "address": "",
+    "lat": 34.9109898,
+    "lon": 33.6335656,
+    "sourceId": "obc_uHIrKf"
+  },
+  {
     "id": "wbeffr",
     "name": "Bookshelf Old Town Hostel Kotor",
     "address": "",
@@ -33630,6 +33630,14 @@
     "lat": 54.40209,
     "lon": 10.343424,
     "sourceId": "obc_RKXkdL"
+  },
+  {
+    "id": "qqwpht",
+    "name": "Bücherhaltestelle Lupburg",
+    "address": "Parsberger Straße 12A, 92331 Lupburg",
+    "lat": 49.15695847965,
+    "lon": 11.74937453844,
+    "sourceId": "obc_Gnfrxg"
   },
   {
     "id": "uhfces",
@@ -44848,14 +44856,6 @@
     "sourceId": "obc_7Qhnum"
   },
   {
-    "id": "tijumu",
-    "name": "Bücherschrank",
-    "address": "Untere Marktstraße , 92318",
-    "lat": 49.281683,
-    "lon": 11.45775,
-    "sourceId": "obc_ZFin5x"
-  },
-  {
     "id": "bsuddk",
     "name": "Bücherschrank",
     "address": "Bertha-Benz-Karree 165, 51107 Köln",
@@ -45014,14 +45014,6 @@
     "lat": 45.46621,
     "lon": 12.28246,
     "sourceId": "obc_FUoSl6"
-  },
-  {
-    "id": "dfxoca",
-    "name": "Bücherschrank",
-    "address": "",
-    "lat": 52.6246755,
-    "lon": 12.6859835,
-    "sourceId": "obc_q09sh2"
   },
   {
     "id": "upyksl",
@@ -45846,14 +45838,6 @@
     "lat": 52.4379,
     "lon": 13.6987,
     "sourceId": "obc_9jTAAr"
-  },
-  {
-    "id": "aykacc",
-    "name": "Bücherschrank Am Schwarzen Berge",
-    "address": "Warnekamp, Braunschweig",
-    "lat": 52.29158084839,
-    "lon": 10.5136692524,
-    "sourceId": "obc_H4DEtV"
   },
   {
     "id": "gsvjly",
@@ -47606,14 +47590,6 @@
     "lat": 52.296187,
     "lon": 10.540459,
     "sourceId": "obc_UHvTXH"
-  },
-  {
-    "id": "smtzrh",
-    "name": "Bücherschrank Braunschweig Warnekamp",
-    "address": "Warnekamp, 38112 Braunschweig",
-    "lat": 52.29161,
-    "lon": 10.513675,
-    "sourceId": "obc_jWljxm"
   },
   {
     "id": "nzmukd",
@@ -51354,7 +51330,7 @@
   {
     "id": "qzldex",
     "name": "Bücherschrank Goslarsche Str.",
-    "address": "Goslarsche Str. 31a, 38118 Braunschweig",
+    "address": "Goslarsche Straße 31a, 38118 Braunschweig",
     "lat": 52.26612032161,
     "lon": 10.50476431847,
     "sourceId": "obc_DzuE4s"
@@ -57432,6 +57408,14 @@
     "sourceId": "obc_COEkWW"
   },
   {
+    "id": "tijumu",
+    "name": "Bücherschrank Neumarkt in der Oberpfalz",
+    "address": "Untere Marktstraße, 92318 Neumarkt in der Oberpfalz",
+    "lat": 49.281683,
+    "lon": 11.45775,
+    "sourceId": "obc_ZFin5x"
+  },
+  {
     "id": "gtuqtr",
     "name": "Bücherschrank Neunkirchen-Seelscheid (Westenergie Bücherschrank)",
     "address": "Zeithstraße 140, 53819 Neunkirchen-Seelscheid",
@@ -59440,6 +59424,14 @@
     "sourceId": "obc_HeWzyi"
   },
   {
+    "id": "dfxoca",
+    "name": "Bücherschrank Retzow",
+    "address": "Selbelanger Weg 1, 14641 Retzow",
+    "lat": 52.6246755,
+    "lon": 12.6859835,
+    "sourceId": "obc_q09sh2"
+  },
+  {
     "id": "czxwko",
     "name": "Bücherschrank Rewe",
     "address": "Borgfelder Heerstraße 44, 28357 Bremen",
@@ -59534,6 +59526,14 @@
     "lat": 50.659853100772,
     "lon": 7.2128033638,
     "sourceId": "obc_8CsosW"
+  },
+  {
+    "id": "xxdmxc",
+    "name": "Bücherschrank Ribbeck",
+    "address": "Flurweg 2, 14641 Nauen-Ribbeck, an der Feuerwache",
+    "lat": 52.6253722,
+    "lon": 12.7535655,
+    "sourceId": "obc_qvJBvj"
   },
   {
     "id": "srfgrs",
@@ -63416,6 +63416,14 @@
     "sourceId": "obc_kR5ixm"
   },
   {
+    "id": "aykacc",
+    "name": "Bücherschrank Warnekamp",
+    "address": "Am Schwarzen Berge 70, 38112 Braunschweig-Nordstadt",
+    "lat": 52.29158084839,
+    "lon": 10.5136692524,
+    "sourceId": "obc_H4DEtV"
+  },
+  {
     "id": "snwrfe",
     "name": "Bücherschrank Warstein (Westenergie Bücherschrank)",
     "address": "Hauptstraße 87, 59581 Warstein",
@@ -64902,6 +64910,14 @@
     "lat": 51.21378,
     "lon": 6.78603,
     "sourceId": "obc_TCMUeR"
+  },
+  {
+    "id": "zkofst",
+    "name": "Bücherschrank am G6",
+    "address": "Festplatz 3, 92318 Neumarkt in der Oberpfalz-Woffenbach",
+    "lat": 49.279418,
+    "lon": 11.449706,
+    "sourceId": "obc_INmCfc"
   },
   {
     "id": "mlcoxy",
@@ -68800,6 +68816,14 @@
     "sourceId": "obc_ZEis4I"
   },
   {
+    "id": "styypo",
+    "name": "Büchertauschraum Heimatmuseum Dissen",
+    "address": "Hauptstraße 32, 03096 Striesow-Dissen",
+    "lat": 51.8263475101,
+    "lon": 14.29085770215,
+    "sourceId": "obc_0f1BDK"
+  },
+  {
     "id": "mhueeh",
     "name": "Büchertauschregal \"Reiche\"",
     "address": "Reichenstraße 1, 06484 Quedlinburg, Tauschregal im Eingang zum Kino \"Eisenstein\", Öffnungszeiten siehe Webseite",
@@ -71662,6 +71686,14 @@
     "lat": 52.276383,
     "lon": 11.855648,
     "sourceId": "obc_2xFdY8"
+  },
+  {
+    "id": "kunare",
+    "name": "Bücherzelle Boblitz",
+    "address": "Rosenstraße 4b, 03222 Lübbenau-Boblitz",
+    "lat": 51.842658,
+    "lon": 13.981926,
+    "sourceId": "obc_QiZEDv"
   },
   {
     "id": "refjjl",
@@ -77032,6 +77064,14 @@
     "sourceId": "obc_K2IjAP"
   },
   {
+    "id": "eibjqq",
+    "name": "Bücherzelle Leutenbach",
+    "address": "Tauernfelder Straße 9, 92364 Deining-Leutenbach",
+    "lat": 49.221722,
+    "lon": 11.514663,
+    "sourceId": "obc_mAcyNU"
+  },
+  {
     "id": "oqqdog",
     "name": "Bücherzelle Leutersdorf",
     "address": "Bahnhofstraße 4, 02794 Leutersdorf",
@@ -77158,6 +77198,14 @@
     "lat": 51.246552258601,
     "lon": 7.1828377246857,
     "sourceId": "obc_wZiAth"
+  },
+  {
+    "id": "egandg",
+    "name": "Bücherzelle Lietzow",
+    "address": "Hamburger Chaussee 11, 14641 Nauen-Lietzow",
+    "lat": 52.6154315,
+    "lon": 12.8315173,
+    "sourceId": "obc_tyQvms"
   },
   {
     "id": "ifaifg",
@@ -77358,14 +77406,6 @@
     "lat": 51.93692,
     "lon": 13.860099,
     "sourceId": "obc_N3AZCF"
-  },
-  {
-    "id": "kunare",
-    "name": "Bücherzelle Lübbenau, OT Boblitz",
-    "address": "Rosenstraße 4b, 03222 Lübbenau, OT Boblitz",
-    "lat": 51.842658,
-    "lon": 13.981926,
-    "sourceId": "obc_QiZEDv"
   },
   {
     "id": "vwxxop",
@@ -77710,6 +77750,14 @@
     "lat": 50.850063,
     "lon": 12.467148,
     "sourceId": "obc_O5CLTR"
+  },
+  {
+    "id": "leicet",
+    "name": "Bücherzelle Mehrgenerationenhaus Wörth",
+    "address": "Ahornstraße 5, 76744 Wörth am Rhein, Rechts neben dem Eingang zum Mehrgenerationenhaus",
+    "lat": 49.05104326857,
+    "lon": 8.25966417789,
+    "sourceId": "obc_3p1a4Z"
   },
   {
     "id": "kdiahm",
@@ -91840,14 +91888,6 @@
     "sourceId": "obc_NC1WlK"
   },
   {
-    "id": "egandg",
-    "name": "Hinter der Eisdiele",
-    "address": "",
-    "lat": 52.6154315,
-    "lon": 12.8315173,
-    "sourceId": "obc_tyQvms"
-  },
-  {
     "id": "wevmti",
     "name": "Hintlesham Telephone Box Book Exchange",
     "address": "The Street, Hintlesham",
@@ -95998,6 +96038,14 @@
     "lat": 42.9621666,
     "lon": 10.5458145,
     "sourceId": "obc_5ZgVZc"
+  },
+  {
+    "id": "ofhnvx",
+    "name": "Library Le Mat Hostel Lacarna",
+    "address": "",
+    "lat": 34.9103998,
+    "lon": 33.6369087,
+    "sourceId": "obc_iZdlPg"
   },
   {
     "id": "nulphb",
@@ -125478,6 +125526,15 @@
     "lat": 51.5886931,
     "lon": -0.0211816,
     "sourceId": "obc_rGviyz"
+  },
+  {
+    "id": "smtzrh",
+    "name": "Bücherschrank Braunschweig Warnekamp",
+    "address": "Warnekamp, 38112 Braunschweig",
+    "lat": 52.29161,
+    "lon": 10.513675,
+    "sourceId": "obc_jWljxm",
+    "removed": true
   },
   {
     "id": "awcuqv",
