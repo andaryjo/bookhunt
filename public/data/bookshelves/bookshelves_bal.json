@@ -13018,7 +13018,7 @@
   {
     "id": "dchdln",
     "name": "Boite a lire Entrée plage sud",
-    "address": "Entrée plage sud, 33121, Carcans océan, France",
+    "address": "Entrée plage sud, 33121, Carcans oc��an, France",
     "lat": 45.082631,
     "lon": -1.186893,
     "sourceId": "bal_9080"
@@ -76185,8 +76185,8 @@
   },
   {
     "id": "nszqqu",
-    "name": "Boite a lire 7 allée des causses",
-    "address": "7 allée des causses, 31300, Toulouse, France",
+    "name": "Boite a lire 7 all��e des causses",
+    "address": "7 all��e des causses, 31300, Toulouse, France",
     "lat": 43.619032,
     "lon": 1.401012,
     "sourceId": "bal_617"
