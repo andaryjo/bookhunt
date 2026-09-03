@@ -25,6 +25,7 @@ Additionally, third-party data gets sourced for bookshelves:
   Provided under [ODbL v1.0](https://opendatacommons.org/licenses/odbl/summary/) license.
 - `public/data/bookshelves/bookshelves_osm.json`: Sourced from [OpenStreetMap](https://www.openstreetmap.org) using [overpass turbo](https://overpass-turbo.eu/) (Europe only).
   Provided under [ODbL v1.0](https://opendatacommons.org/licenses/odbl/summary/) license.
+- `public/data/bookshelves/bookshelves_lfl.json`: Sourced from [littlefreelibrary.org](https://littlefreelibrary.org/).
 - `public/data/bookshelves/bookshelves_wee.json`: Sourced from [Westenergie](https://www.westenergie.de/de.html). Provided as [Google My Maps](https://www.google.com/maps/d/viewer?mid=1utccy-2Gpt5VnjnZLEu0xJKWHCA).
 
 ## Vibecoding
