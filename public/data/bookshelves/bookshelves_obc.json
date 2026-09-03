@@ -26377,7 +26377,7 @@
   },
   {
     "id": "ymqpdj",
-    "name": "Bookshelf Meeting Point Lacarna",
+    "name": "Bookshelf Meeting Point Larnaca",
     "address": "",
     "lat": 34.9109898,
     "lon": 33.6335656,
@@ -26766,6 +26766,14 @@
     "lat": 50.843149,
     "lon": 4.4267391,
     "sourceId": "obc_hD7Wjj"
+  },
+  {
+    "id": "qcsetm",
+    "name": "Boîte à livres - Rés de l'Atlantique",
+    "address": "Résidence de l'Antalntique, 29920 Névez",
+    "lat": 47.824615,
+    "lon": -3.795282,
+    "sourceId": "obc_dbFZyW"
   },
   {
     "id": "zvypoh",
@@ -51328,14 +51336,6 @@
     "sourceId": "obc_9QbdJm"
   },
   {
-    "id": "qzldex",
-    "name": "Bücherschrank Goslarsche Str.",
-    "address": "Goslarsche Straße 31a, 38118 Braunschweig",
-    "lat": 52.26612032161,
-    "lon": 10.50476431847,
-    "sourceId": "obc_DzuE4s"
-  },
-  {
     "id": "xxncod",
     "name": "Bücherschrank Gottlob-Bauknecht-Platz",
     "address": "Gottlob-Bauknecht-Platz, 73642 Welzheim",
@@ -53616,6 +53616,14 @@
     "sourceId": "obc_px090i"
   },
   {
+    "id": "dcvqaq",
+    "name": "Bücherschrank Irrel",
+    "address": "Talstraße 2, 54666 Irrel",
+    "lat": 49.84677,
+    "lon": 6.457171,
+    "sourceId": "obc_SAtJAI"
+  },
+  {
     "id": "pjputu",
     "name": "Bücherschrank Iserlohn-Süd",
     "address": "Thomees Kamp 14, 58644 Iserlohn",
@@ -53926,6 +53934,14 @@
     "lat": 52.408125,
     "lon": 13.257391,
     "sourceId": "obc_8uooje"
+  },
+  {
+    "id": "llvfut",
+    "name": "Bücherschrank KGA Wüstkasten Hoheneck",
+    "address": "Burgweg / Ölmühle, 71642 Ludwigsburg-Hoheneck",
+    "lat": 48.919194609486,
+    "lon": 9.2056122422218,
+    "sourceId": "obc_RL4CLD"
   },
   {
     "id": "kuexpu",
@@ -62360,6 +62376,14 @@
     "sourceId": "obc_8kBAuh"
   },
   {
+    "id": "vxwzne",
+    "name": "Bücherschrank Thalkirchen",
+    "address": "Schäftlarnstraße 179, 81371 München-Thalkirchen",
+    "lat": 48.100754,
+    "lon": 11.547039,
+    "sourceId": "obc_2m8Vue"
+  },
+  {
     "id": "euncmt",
     "name": "Bücherschrank Thür (Westenergie Bücherschrank)",
     "address": "Segbachstraße 29, 56743 Thür",
@@ -64696,14 +64720,6 @@
     "sourceId": "obc_NdyeyX"
   },
   {
-    "id": "rukmcj",
-    "name": "Bücherschrank am Bahnhof HD Schlierbach-Ziegelhausen",
-    "address": "In der Aue , 69118 Heidelberg",
-    "lat": 49.415211700889,
-    "lon": 8.7608201801777,
-    "sourceId": "obc_e0ZhsI"
-  },
-  {
     "id": "vlyrfs",
     "name": "Bücherschrank am Bahnhof Stelle",
     "address": "Uhlenhorst 21, 21435 Stelle",
@@ -65830,6 +65846,14 @@
     "lat": 51.146043237146,
     "lon": 7.1855628490448,
     "sourceId": "obc_gZ2T5P"
+  },
+  {
+    "id": "kvokhj",
+    "name": "Bücherschrank an der Schleife",
+    "address": "An der Schleife 3, 17153 Stavenhagen",
+    "lat": 53.68573161503,
+    "lon": 12.91423801802,
+    "sourceId": "obc_K1jJbH"
   },
   {
     "id": "rrwlzx",
@@ -69384,14 +69408,6 @@
     "sourceId": "obc_szX1Zv"
   },
   {
-    "id": "ohtvyo",
-    "name": "Büchertelefonzelle Westliches Ringgebiet",
-    "address": "Goslarsche Straße 32, 38118 Braunschweig",
-    "lat": 52.266013241089,
-    "lon": 10.504860877991,
-    "sourceId": "obc_HxBlkP"
-  },
-  {
     "id": "slcoog",
     "name": "Büchertelefonzellen Lesebändchen e. V.",
     "address": ", 34497",
@@ -70536,12 +70552,28 @@
     "sourceId": "obc_nrpPNd"
   },
   {
+    "id": "qhpxvi",
+    "name": "Bücherzelle Alt Werder",
+    "address": "Alt Werder 5, 15345 Rehfelde-Werder",
+    "lat": 52.52063417297,
+    "lon": 13.94398391247,
+    "sourceId": "obc_1Ysgm6"
+  },
+  {
     "id": "atligc",
     "name": "Bücherzelle Alt-Schmöckwitz",
     "address": "Adlergestell 786 / Alt-Schmöckwitz, 12527 Berlin-Schmöckwitz",
     "lat": 52.375586,
     "lon": 13.649343,
     "sourceId": "obc_rmOtts"
+  },
+  {
+    "id": "hldhzw",
+    "name": "Bücherzelle Alt-Wilkendorf",
+    "address": "Alt-Wilkendorf, 15345 Wilkendorf",
+    "lat": 52.61034808358,
+    "lon": 13.90818178654,
+    "sourceId": "obc_XF3XhN"
   },
   {
     "id": "ocfvxw",
@@ -72206,6 +72238,14 @@
     "lat": 52.6629,
     "lon": 13.63828,
     "sourceId": "obc_bi8ik9"
+  },
+  {
+    "id": "iqkjtv",
+    "name": "Bücherzelle Bücher-Halt Malchin",
+    "address": "An der Bleiche 1, 17139 Malchin",
+    "lat": 53.73936766453,
+    "lon": 12.76674325313,
+    "sourceId": "obc_z0z9Oo"
   },
   {
     "id": "ecfmoj",
@@ -74046,6 +74086,14 @@
     "lat": 47.58548,
     "lon": 13.534859,
     "sourceId": "obc_Wm27g5"
+  },
+  {
+    "id": "qzldex",
+    "name": "Bücherzelle Goslarsche Straße",
+    "address": "Goslarsche Straße 31-33, 38118 Braunschweig-Westliches Ringgebiet",
+    "lat": 52.26612032161,
+    "lon": 10.50476431847,
+    "sourceId": "obc_DzuE4s"
   },
   {
     "id": "yeedpb",
@@ -82242,7 +82290,7 @@
   {
     "id": "odgwqa",
     "name": "Bücherzelle Sternberg",
-    "address": "Walther-Rathenau-Platz, 19406 Sternberg",
+    "address": "Walther-Rathenau-Platz 5, 19406 Sternberg",
     "lat": 53.7101357,
     "lon": 11.833019,
     "sourceId": "obc_BSrm5S"
@@ -96041,7 +96089,7 @@
   },
   {
     "id": "ofhnvx",
-    "name": "Library Le Mat Hostel Lacarna",
+    "name": "Library Le Mat Hostel Larnaca",
     "address": "",
     "lat": 34.9103998,
     "lon": 33.6369087,
@@ -110048,14 +110096,6 @@
     "sourceId": "obc_xNVUfj"
   },
   {
-    "id": "dcvqaq",
-    "name": "Offener Bücherschrank",
-    "address": "Talstraße - Irrel",
-    "lat": 49.84677,
-    "lon": 6.457171,
-    "sourceId": "obc_SAtJAI"
-  },
-  {
     "id": "jloeyi",
     "name": "Offener Bücherschrank (hinter dem Bauamt)",
     "address": "Florhofstrasse 3, 8820",
@@ -111230,6 +111270,14 @@
     "lat": 51.8880740505,
     "lon": 0.899312496185,
     "sourceId": "obc_K1m0Sf"
+  },
+  {
+    "id": "gynbla",
+    "name": "Put & Take - Esmark",
+    "address": "Lodbergsvej 18, 6950 Søndervig",
+    "lat": 56.120611,
+    "lon": 8.115498,
+    "sourceId": "obc_MMptcE"
   },
   {
     "id": "twxqqu",
@@ -119384,14 +119432,6 @@
     "sourceId": "obc_HUp8YY"
   },
   {
-    "id": "vxwzne",
-    "name": "Öffentlicher Bücherschrank THALKIRCHEN",
-    "address": "Schäftlarnstr. 179  81371 München",
-    "lat": 48.100754,
-    "lon": 11.547039,
-    "sourceId": "obc_2m8Vue"
-  },
-  {
     "id": "nwhwbo",
     "name": "Öffentlicher Bücherschrank am Laimer Anger",
     "address": "Agnes-Bernauer-Straße 99a, 80687 München",
@@ -125526,6 +125566,24 @@
     "lat": 51.5886931,
     "lon": -0.0211816,
     "sourceId": "obc_rGviyz"
+  },
+  {
+    "id": "rukmcj",
+    "name": "Bücherschrank am Bahnhof HD Schlierbach-Ziegelhausen",
+    "address": "In der Aue , 69118 Heidelberg",
+    "lat": 49.415211700889,
+    "lon": 8.7608201801777,
+    "sourceId": "obc_e0ZhsI",
+    "removed": true
+  },
+  {
+    "id": "ohtvyo",
+    "name": "Büchertelefonzelle Westliches Ringgebiet",
+    "address": "Goslarsche Straße 32, 38118 Braunschweig",
+    "lat": 52.266013241089,
+    "lon": 10.504860877991,
+    "sourceId": "obc_HxBlkP",
+    "removed": true
   },
   {
     "id": "smtzrh",
