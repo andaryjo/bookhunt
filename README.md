@@ -1,9 +1,9 @@
 # Bookhunt
 
-> Disclaimer: Large parts of the codebase have been written with AI.
+> Disclaimer: Almost the entire codebase has been written with AI.
   Read more on that in [Vibecoding](#vibecoding).
 
-Bookhunt is a website that makes [public bookshelves](https://en.wikipedia.org/wiki/Public_bookcase) (sometimes calle free little libraries) searchable.
+Bookhunt is a website that makes [public bookshelves](https://en.wikipedia.org/wiki/Public_bookcase) (sometimes called free little libraries) searchable.
 You can search for books or authors and see in which bookshelves they have last been spotted.
 You can also simply browse recently seen books in bookshelves nearby.
 
@@ -21,11 +21,11 @@ Additionally, third-party data gets sourced for bookshelves:
   Provided by [github.com/Binnette/bookcases-boite-a-lire](https://github.com/Binnette/bookcases-boite-a-lire) under [CC BY-NC-SA 2.0](https://creativecommons.org/licenses/by-nc-sa/2.0/) license.
 - `public/data/bookshelves/bookshelves_box.json`: Sourced from [BOKX / urbanlife](https://urbanlife-eg.de/). Provided as [Google My Maps](https://www.google.com/maps/d/viewer?mid=1Dewi_Pu6edOipM_UzJ6fxrmH54g).
 - `public/data/bookshelves/bookshelves_clc.json`: Sourced from croquelivres.ca.
+- `public/data/bookshelves/bookshelves_lfl.json`: Sourced from [littlefreelibrary.org](https://littlefreelibrary.org/).
 - `public/data/bookshelves/bookshelves_obc.json`: Sourced from [OpenBookCase](https://openbookcase.de/).
   Provided under [ODbL v1.0](https://opendatacommons.org/licenses/odbl/summary/) license.
 - `public/data/bookshelves/bookshelves_osm.json`: Sourced from [OpenStreetMap](https://www.openstreetmap.org) using [overpass turbo](https://overpass-turbo.eu/) (Europe only).
   Provided under [ODbL v1.0](https://opendatacommons.org/licenses/odbl/summary/) license.
-- `public/data/bookshelves/bookshelves_lfl.json`: Sourced from [littlefreelibrary.org](https://littlefreelibrary.org/).
 - `public/data/bookshelves/bookshelves_wee.json`: Sourced from [Westenergie](https://www.westenergie.de/de.html). Provided as [Google My Maps](https://www.google.com/maps/d/viewer?mid=1utccy-2Gpt5VnjnZLEu0xJKWHCA).
 
 ## Vibecoding
@@ -46,3 +46,13 @@ Some learnings (nothing surprising here, most of you probably already know this)
 - I dislike that you have no direct visibility of costs.
   You vibecode away and lose every feeling for how many resources you currently consume (regarding both financial and environmental costs).
 - Availability of LLM APIs is pretty bad.
+  It happens quite often that processes terminate themselves and you have to trigger a retry.
+
+I can understand now why a lot of software engineers I highly respect say that this is the future of coding.
+I'm starting to believe it too.
+And I hate it.
+Even when tossing all of the AI concerns aside, this just isn't a fun experience.
+It is not challenging.
+It is not redeeming.
+It is not why I got into coding.
+And it is why I am leaving.
