@@ -324,7 +324,8 @@ function updateSubmitBtn() {
   const allHaveLocation = readyEntries.every(
     (e) => e.exifGps !== null || e.selectedShelfId,
   );
-  submitPrBtn.disabled = !allHaveLocation;
+  // new contributions are disabled
+  //submitPrBtn.disabled = !allHaveLocation;
 }
 
 // ---------------------------------------------------------------------------

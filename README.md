@@ -1,3 +1,17 @@
+**Bookhunt has been shut down and placed in read-only mode.**
+I have made that decision due to following reasons:
+
+1. While the data I collected is really interesting, the actual usefulness for users is limited.
+   I learned that popular bookshelves have a surprisingly high book turnover rate.
+   Sometimes dozens of books get picked up and new books get dropped off per day.
+   When searching for a specific book you can't really rely on it still being there.
+2. Evil Tech is [clearing out antiquarian bookshops, feeding the books to their proprietary AI models and then destroying them](https://www.forbes.com/sites/maryroeloffs/2026/08/17/ai-companies-are-buying-and-destroying-antique-books-heres-why/).
+   I guess it's only a matter of time until they'll start clearing out public bookshelves too - once they realize that many really old and forgotten books in there are valuable to them (because they are free of AI slop).
+   I do not want to provide a platform that could potentially faciliate that.
+
+Go outside, browse a bookshelf and read a book.
+Some things are better kept offline.
+  
 # Bookhunt
 
 > Disclaimer: Almost the entire codebase has been written with AI.
@@ -47,6 +61,8 @@ Some learnings (nothing surprising here, most of you probably already know this)
   You vibecode away and lose every feeling for how many resources you currently consume (regarding both financial and environmental costs).
 - Availability of LLM APIs is pretty bad.
   It happens quite often that processes terminate themselves and you have to trigger a retry.
+- I get the impression that LLMs are getting evermore talkative.
+  Nowadays my weekly token quota barely covers one prompt even for simple changes.
 
 I can understand now why a lot of software engineers I highly respect say that this is the future of coding.
 I'm starting to believe it too.
